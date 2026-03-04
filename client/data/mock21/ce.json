@@ -1,0 +1,551 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Compreprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AVIS DE FERMETURE EXCEPTIONNELLE\n\nLa bibliothèque municipale Jean-Jacques Rousseau sera fermée au public du lundi 15 au vendredi 19 juillet 2024 inclus. Cette fermeture temporaire est nécessaire pour permettre la rénovation complète du système de climatisation et l'installation de nouvelles bornes de prêt automatique. Les ouvrages en retard pourront être déposés dans la boîte de retour extérieure située à l'entrée principale, accessible 24h/24. La réouverture est prévue le samedi 20 juillet à 9h00. Pour toute question, contactez le standard au 01 42 56 78 90 ou consultez notre site internet www.biblio-montreuil.fr. Nous vous remercions de votre compréhension.",
+          "question": "Quelle est la raison principale de la fermeture de la bibliothèque ?",
+          "options": {
+            "A": "Un manque de personnel",
+            "B": "Des travaux de rénovation",
+            "C": "Un problème financier",
+            "D": "Une grève des employés"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "MENU DU JOUR - Restaurant Le Petit Bistrot\nEntrée au choix :\n• Salade de chèvre chaud aux noix (vinaigrette maison)\n• Velouté de potimarron et châtaignes\n\nPlat principal au choix :\n• Filet de saumon grillé, riz basmati et légumes de saison\n• Magret de canard, purée de pommes de terre à l'ancienne\n\nDessert au choix :\n• Tarte tatin avec boule de glace vanille\n• Mousse au chocolat noir et éclats de caramel\n\nFormule complète : 24,90 €\nService continu de 12h à 14h30 et de 19h à 22h.\nRéservation recommandée : 01 43 65 87 12",
+          "question": "Combien coûte la formule complète ?",
+          "options": {
+            "A": "19,90 €",
+            "B": "22,50 €",
+            "C": "24,90 €",
+            "D": "29,90 €"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 3,
+          "text": "HORAIRES D'OUVERTURE - Centre Commercial Les Quatre Temps\nDu lundi au samedi : 10h00 - 21h00\nDimanche : 11h00 - 19h00\n\nJours fériés 2024 :\n• 1er janvier : Fermé\n• Lundi de Pâques (1er avril) : 14h00 - 19h00\n• Fête du Travail (1er mai) : Fermé\n• Jeudi de l'Ascension (9 mai) : 10h00 - 19h00\n• Lundi de Pentecôte (20 mai) : 14h00 - 19h00\n• Fête nationale (14 juillet) : 10h00 - 19h00\n• 15 août : 10h00 - 19h00\n• 1er novembre : 10h00 - 19h00\n• 11 novembre : 10h00 - 19h00\n• 25 décembre : Fermé\n\nAccès : Métro ligne 1, station La Défense Grande Arche",
+          "question": "À quelle heure ouvre le centre commercial le dimanche ?",
+          "options": {
+            "A": "10h00",
+            "B": "11h00",
+            "C": "12h00",
+            "D": "14h00"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "ANNONCE IMMOBILIÈRE\nÀ louer : Studio meublé de 28 m² situé au 3ème étage avec ascenseur, rue des Martyrs dans le 9ème arrondissement de Paris. Ce logement comprend une pièce principale avec kitchenette équipée (réfrigérateur, plaques de cuisson, micro-ondes), une salle de bain avec douche et WC, ainsi qu'un dressing intégré. Chauffage individuel électrique. Disponible immédiatement. Loyer mensuel : 890 € charges comprises (eau froide, entretien des parties communes). Dépôt de garantie : 890 €. Honoraires d'agence : 350 € TTC. Visites sur rendez-vous uniquement. Contact : Agence ImmoPlus au 01 48 78 56 34 ou contact@immoplus.fr",
+          "question": "Quel est le montant du loyer mensuel charges comprises ?",
+          "options": {
+            "A": "750 €",
+            "B": "890 €",
+            "C": "950 €",
+            "D": "1200 €"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 5,
+          "text": "AVIS DE CONVOQUATION\n\nMadame Sophie Dubois\n12 rue de la Paix\n75002 Paris\n\nObjet : Convocation à l'assemblée générale annuelle\n\nVous êtes convoqué(e) à l'assemblée générale ordinaire de la copropriété \"Le Parc Floral\" qui se tiendra le samedi 15 juin 2024 à 14h00 dans la salle des fêtes municipale, 45 avenue des Lilas. Ordre du jour : approbation des comptes de l'exercice 2023, vote du budget prévisionnel 2024, renouvellement du contrat d'entretien des ascenseurs, travaux de ravalement de façade. En cas d'empêchement, vous pouvez vous faire représenter par un autre copropriétaire muni d'une procuration écrite. Documents préparatoires disponibles à l'accueil de l'immeuble du 1er au 10 juin.",
+          "question": "Où se déroule l'assemblée générale ?",
+          "options": {
+            "A": "Dans l'immeuble de Madame Dubois",
+            "B": "À la mairie du 2ème arrondissement",
+            "C": "Dans la salle des fêtes municipale",
+            "D": "Au siège social de la copropriété"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 6,
+          "text": "NOTICE D'UTILISATION - Lave-linge EcoClean 3000\n1. Triez votre linge selon les couleurs et les matières.\n2. Placez les vêtements dans le tambour sans le surcharger (maximum 8 kg).\n3. Ajoutez la lessive dans le bac prévu à cet effet : 50 ml pour une charge normale, 80 ml pour une charge importante.\n4. Sélectionnez le programme adapté à votre linge en tournant le sélecteur.\n5. Appuyez sur le bouton \"Démarrer\".\n\nProgrammes recommandés :\n• Coton 60°C : linge blanc et couleurs vives\n• Synthétiques 40°C : vêtements délicats\n• Eco 30°C : linge peu sale, économie d'énergie\n• Rapide 15 min : petites charges urgentes\n\nNettoyez le filtre après chaque cycle pour optimiser les performances.",
+          "question": "Quelle quantité de lessive faut-il utiliser pour une charge normale ?",
+          "options": {
+            "A": "30 ml",
+            "B": "50 ml",
+            "C": "80 ml",
+            "D": "100 ml"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "text": "AFFICHE - Festival de Musique de Rue\nDu 12 au 14 juillet 2024 - Centre-ville de Lyon\nVenez découvrir plus de 50 artistes et groupes musicaux dans toute la ville !\n\nProgramme :\n• Vendredi 12 juillet (18h-23h) : Jazz et blues sur la place Bellecour\n• Samedi 13 juillet (14h-23h) : Rock et pop sur les berges du Rhône\n• Dimanche 14 juillet (11h-20h) : Musique classique et world music au parc de la Tête d'Or\n\nAccès gratuit pour tous. Restauration sur place proposée par des food trucks locaux. Pensez au transport en commun : les parkings seront saturés. En cas de pluie, les concerts se déplaceront sous les halles de la mairie. Informations et programme détaillé sur www.festivalruelyon.fr ou au 04 72 10 20 30.",
+          "question": "Où se déroulent les concerts de jazz et blues ?",
+          "options": {
+            "A": "Sur les berges du Rhône",
+            "B": "Au parc de la Tête d'Or",
+            "C": "Sous les halles de la mairie",
+            "D": "Sur la place Bellecour"
+          },
+          "correct_answer": "D"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Marie ______ (8) ______ à la bibliothèque tous les samedis matins. Elle ______ (9) ______ des romans policiers et des essais historiques. La semaine dernière, elle ______ (10) ______ un livre fascinant sur la Révolution française. Elle l'a ______ (11) ______ en seulement trois jours car elle ne pouvait pas s'arrêter de lire. Maintenant, elle ______ (12) ______ le rendre avant la date limite pour éviter les pénalités. La bibliothécaire lui a ______ (13) ______ qu'elle pouvait le prolonger si nécessaire. Marie ______ (14) ______ très contente de ce service. Elle ______ (15) ______ déjà emprunté plus de vingt livres cette année. Sa passion pour la lecture ______ (16) ______ depuis son enfance et elle ______ (17) ______ espère transmettre à ses enfants.",
+          "gap_fill": {
+            "question_8": {
+              "options": {
+                "A": "va",
+                "B": "allait",
+                "C": "est allée",
+                "D": "ira"
+              },
+              "correct_answer": "A"
+            },
+            "question_9": {
+              "options": {
+                "A": "emprunte",
+                "B": "a emprunté",
+                "C": "empruntait",
+                "D": "empruntera"
+              },
+              "correct_answer": "A"
+            },
+            "question_10": {
+              "options": {
+                "A": "trouve",
+                "B": "a trouvé",
+                "C": "trouvait",
+                "D": "trouvera"
+              },
+              "correct_answer": "B"
+            },
+            "question_11": {
+              "options": {
+                "A": "lu",
+                "B": "lisait",
+                "C": "lire",
+                "D": "lira"
+              },
+              "correct_answer": "A"
+            },
+            "question_12": {
+              "options": {
+                "A": "doit",
+                "B": "devait",
+                "C": "a dû",
+                "D": "devra"
+              },
+              "correct_answer": "A"
+            },
+            "question_13": {
+              "options": {
+                "A": "dit",
+                "B": "a dit",
+                "C": "disait",
+                "D": "dira"
+              },
+              "correct_answer": "B"
+            },
+            "question_14": {
+              "options": {
+                "A": "est",
+                "B": "était",
+                "C": "a été",
+                "D": "sera"
+              },
+              "correct_answer": "A"
+            },
+            "question_15": {
+              "options": {
+                "A": "a",
+                "B": "avait",
+                "C": "a eu",
+                "D": "aura"
+              },
+              "correct_answer": "A"
+            },
+            "question_16": {
+              "options": {
+                "A": "date",
+                "B": "datait",
+                "C": "a daté",
+                "D": "datera"
+              },
+              "correct_answer": "A"
+            },
+            "question_17": {
+              "options": {
+                "A": "souhaite",
+                "B": "souhaitait",
+                "C": "a souhaité",
+                "D": "souhaitera"
+              },
+              "correct_answer": "A"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "ALERTE MÉTÉO - Émission du 22 février 2024 à 6h00\n\nUn épisode neigeux modéré affectera la région parisienne aujourd'hui de 10h00 à 16h00. Les accumulations prévues varient entre 3 et 8 centimètres selon les secteurs. Les températures resteront négatives tout au long de la journée, avec des ressentis descendant jusqu'à -8°C sous le vent. La circulation routière sera difficile, particulièrement sur les autoroutes A1, A3 et A15. La RATP prévoit des perturbations sur les lignes de bus et de tramway. Les écoles resteront ouvertes mais les sorties scolaires sont annulées. Il est recommandé de limiter ses déplacements et de s'équiper de chaînes ou de pneus neige si nécessaire.",
+          "question": "Quelle est la période de l'épisode neigeux prévu ?",
+          "options": {
+            "A": "De 6h00 à 10h00",
+            "B": "De 8h00 à 14h00",
+            "C": "De 10h00 à 16h00",
+            "D": "De 14h00 à 20h00"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 19,
+          "text": "RÉSULTATS ÉLECTIONS MUNICIPALES PARTIELLES\nCommune de Saint-Martin-de-Crau (13)\n\nParticipation : 42,3% des inscrits\n\nRésultats définitifs :\nListe \"Saint-Martin Avenir\" (Mme Claire Lefèvre) : 38,5% - 12 élus\nListe \"Unis pour Saint-Martin\" (M. Robert Durand) : 31,2% - 10 élus\nListe \"Saint-Martin Écologie\" (Mme Anne Martin) : 18,7% - 5 élus\nListe \"Citoyens de Saint-Martin\" (M. Jean Petit) : 11,6% - 2 élus\n\nMme Claire Lefèvre est élue maire de la commune. Le conseil municipal sera installé le 15 mars prochain. Ces élections partielles ont été organisées suite à la démission de l'ancien maire, M. Bernard Morel, pour raisons de santé.",
+          "question": "Quelle liste a obtenu le plus grand nombre d'élus ?",
+          "options": {
+            "A": "Saint-Martin Avenir",
+            "B": "Unis pour Saint-Martin",
+            "C": "Saint-Martin Écologie",
+            "D": "Citoyens de Saint-Martin"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 20,
+          "text": "PROGRAMME TÉLÉ - Soirée du 15 mars 2024\n\n20h50 - TF1 : \"Les Enquêtes du Commissaire Maigret\" - Série policière\nL'inspecteur Maigret enquête sur le meurtre d'une jeune femme dans le Paris des années 50. Avec Gérard Depardieu.\n\n20h55 - France 2 : \"Le Grand Débat\" - Émission politique\nLes candidats aux élections européennes débattent des enjeux économiques et environnementaux. Durée : 2h15.\n\n21h00 - France 3 : \"Des racines et des ailes\" - Magazine\nVoyage au cœur de la Provence pour découvrir les traditions provençales et l'artisanat local.\n\n21h05 - M6 : \"Top Chef\" - Télé-réalité culinaire\nLes candidats doivent préparer un menu gastronomique en 3 heures. Jury : Philippe Etchebest et Hélène Darroze.\n\n22h45 - Arte : \"Cinéma\" - Film : \"Les Triplettes de Belleville\"\nFilm d'animation de Sylvain Chomet (2003). Aventure musicale d'une grand-mère à la recherche de son petit-fils champion du Tour de France.",
+          "question": "Quelle émission dure 2h15 ?",
+          "options": {
+            "A": "\"Les Enquêtes du Commissaire Maigret\"",
+            "B": "\"Le Grand Débat\"",
+            "C": "\"Des racines et des ailes\"",
+            "D": "\"Top Chef\""
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 21,
+          "text": "TARIFS POSTAUX 2024 - Lettre prioritaire\n\nFormat standard (jusqu'à 20g) :\n• Tarif national : 1,16 €\n• Tarif international Zone 1 (Europe) : 1,20 €\n• Tarif international Zone 2 (Monde) : 1,50 €\n\nFormat grand (21g à 100g) :\n• Tarif national : 2,32 €\n• Tarif international Zone 1 : 2,40 €\n• Tarif international Zone 2 : 3,00 €\n\nOptions complémentaires :\n• Recommandé : +6,15 €\n• Avis de réception : +1,20 €\n• Suivi en ligne : +0,60 €\n\nLes tarifs sont applicables depuis le 1er janvier 2024. Pour plus d'informations, consultez laposte.fr ou rendez-vous en bureau de poste.",
+          "question": "Combien coûte l'envoi d'une lettre prioritaire standard en national ?",
+          "options": {
+            "A": "1,06 €",
+            "B": "1,16 €",
+            "C": "1,20 €",
+            "D": "1,50 €"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 22,
+          "text": "AVIS DE DÉCÈS\n\nLa famille Martin a la tristesse de vous faire part du décès de\n\nMadame Jeanne Martin\nnée Dupont\n\nSurvenu le 18 février 2024 à l'âge de 87 ans\n\nLa cérémonie religieuse aura lieu le vendredi 23 février 2024 à 14h30 en l'église Saint-Pierre de Montmartre, 2 rue du Mont-Cenis, 75018 Paris.\n\nL'inhumation suivra au cimetière de Montmartre.\n\nLes condoléances seront reçues à la sortie de l'église.\n\nAucune fleur ni plaque. Un don à l'association \"Les Petits Frères des Pauvres\" serait apprécié.\n\nLa famille remercie le personnel de l'hôpital Bichat pour ses soins attentifs.",
+          "question": "Où aura lieu la cérémonie religieuse ?",
+          "options": {
+            "A": "À l'hôpital Bichat",
+            "B": "Au cimetière de Montmartre",
+            "C": "En l'église Saint-Pierre de Montmartre",
+            "D": "Au domicile de la famille"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congés annuels - Période estivale\n\nMadame, Monsieur,\n\nPar la présente, je vous informe de ma souhait de poser mes congés payés annuels du lundi 5 août au vendredi 23 août 2024 inclus, soit une durée totale de 15 jours ouvrés. Cette demande respecte le délai de prévenance de deux mois stipulé dans la convention collective applicable à notre entreprise.\n\nDurant mon absence, Mme Sophie Bernard, actuellement en formation sur nos procédures, assurera l'intérim de mes fonctions. Je lui aurai transmis l'ensemble des dossiers en cours avant mon départ et resterai joignable par email en cas d'urgence absolue.\n\nJe vous remercie de bien vouloir valider cette demande et vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n\nThomas Laurent\nChef de projet marketing\nService Communication",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Informer",
+            "B": "Se plaindre",
+            "C": "Inviter",
+            "D": "Féliciter"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 24,
+          "text": "Cher Monsieur Dubois,\n\nSuite à notre entretien téléphonique du 15 mars, je vous confirme par écrit ma décision de résilier mon contrat d'assurance habitation n° 458792-A souscrit auprès de votre compagnie le 12 septembre 2020. Cette résiliation prendra effet à la date d'échéance annuelle, soit le 12 septembre 2024, conformément aux dispositions de l'article L113-3 du Code des assurances.\n\nLe motif de cette résiliation est mon déménagement prochain vers une nouvelle résidence pour laquelle j'ai déjà souscrit une assurance chez un autre assureur. Je vous remercie de m'adresser un certificat de non-annulation dès réception de ma demande.\n\nJe vous prie d'agréer, Monsieur, l'expression de mes salutations distinguées.\n\nMarie Lefranc\n12 rue des Lilas\n59000 Lille",
+          "question": "Pourquoi l'auteur résilie-t-il son contrat ?",
+          "options": {
+            "A": "Il est mécontent des tarifs",
+            "B": "Il déménage et a déjà une nouvelle assurance",
+            "C": "Il n'a plus besoin d'assurance",
+            "D": "Il change de compagnie pour de meilleures garanties"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 25,
+          "text": "PROCÉDURE INTERNE - Gestion des commandes fournisseurs\n\n1. Réception de la demande : Toute demande d'achat doit être validée par le responsable de service via le formulaire électronique GDA-001 avant transmission au service approvisionnements.\n\n2. Vérification des stocks : Le service approvisionnements contrôle la disponibilité en stock et élimine les doublons potentiels avec des commandes existantes.\n\n3. Sélection du fournisseur : Privilégier les fournisseurs référencés (liste F-2024). Pour tout nouveau fournisseur, contacter le service juridique pour vérification préalable.\n\n4. Émission du bon de commande : Génération automatique dans le système SAP avec numérotation séquentielle. Envoi au fournisseur par email avec accusé de réception.\n\n5. Suivi de livraison : Relance automatique si délai dépassé de 48h. Signalement immédiat au responsable en cas de retard critique.\n\nDocument en vigueur depuis le 1er janvier 2024. Référence : PROC-APPRO-2024-003",
+          "question": "Que doit-on faire avant de sélectionner un nouveau fournisseur ?",
+          "options": {
+            "A": "Comparer les prix avec trois concurrents",
+            "B": "Contacter le service juridique",
+            "C": "Obtenir l'accord du directeur général",
+            "D": "Vérifier la solvabilité bancaire"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "Madame la Directrice,\n\nJ'ai l'honneur de vous adresser ma candidature au poste d'assistante de direction au sein de votre entreprise, suite à l'annonce parue sur le site Indeed le 10 février dernier. Titulaire d'un BTS Assistant de Manager et fort de cinq années d'expérience dans des fonctions similaires au sein de PME du secteur tertiaire, je suis particulièrement attirée par votre entreprise reconnue pour son innovation et son management participatif.\n\nMa maîtrise des outils bureautiques (Pack Office, SAP), mon sens de l'organisation et ma capacité à gérer simultanément plusieurs projets me permettraient de contribuer efficacement à la coordination de vos équipes. Je suis également bilingue français-anglais, atout essentiel pour vos partenariats internationaux.\n\nJe me tiens à votre entière disposition pour un entretien et vous prie d'agréer, Madame la Directrice, l'expression de mes salutations distinguées.\n\nAmélie Rousseau\nTél : 06 12 34 56 78\nEmail : amelie.rousseau@email.fr",
+          "question": "Quel ton emploie l'auteur dans cette lettre ?",
+          "options": {
+            "A": "Familier et décontracté",
+            "B": "Formel et respectueux",
+            "C": "Critique et méfiant",
+            "D": "Enthousiaste mais désinvolte"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "À l'attention de tous les employés du département Informatique\n\nSuite aux récentes tentatives de phishing ciblant notre entreprise, le service sécurité informatique met en place de nouvelles mesures de protection à compter du 1er mars 2024 :\n\n- Activation obligatoire de l'authentification à deux facteurs (2FA) sur tous les comptes professionnels\n- Changement de mot de passe tous les 60 jours minimum, avec exigence de complexité renforcée\n- Interdiction formelle d'accéder à des sites de streaming ou réseaux sociaux depuis le réseau interne\n- Signalement systématique de tout email suspect au CERT (Computer Emergency Response Team) via le bouton \"Signaler\" dans Outlook\n\nUne formation obligatoire de sensibilisation à la cybersécurité est programmée les 15 et 16 mars. L'inscription se fait via l'intranet. Le non-respect de ces directives pourra entraîner des sanctions disciplinaires.\n\nPour toute question : securite@entreprise.fr",
+          "question": "Quelle est l'intention principale de ce message ?",
+          "options": {
+            "A": "Annoncer une réorganisation du service",
+            "B": "Informer de nouvelles mesures de sécurité",
+            "C": "Féliciter les employés pour leur vigilance",
+            "D": "Critiquer le comportement des employés"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Madame,\n\nNous accusons réception de votre courrier du 5 mars 2024 concernant la réclamation relative à votre commande n° 78456 du 12 février. Nous vous prions de bien vouloir accepter nos sincères excuses pour la livraison tardive de votre colis, qui a été retardée en raison d'une rupture de stock temporaire chez notre fournisseur habituel, situation indépendante de notre volonté.\n\nConformément à nos conditions générales de vente, article 12.3, nous vous proposons les dédommagements suivants : remboursement intégral des frais de port (15,90 €) et bon d'achat de 50 € valable sur votre prochaine commande d'un montant minimum de 100 €.\n\nNous espérons que cette proposition vous satisfera et vous permettra de conserver votre confiance en notre enseigne. Nous restons à votre entière disposition pour tout renseignement complémentaire.\n\nCordialement,\n\nLe Service Client\nBoutique Électronique Direct\nTél : 0 800 123 456 (appel gratuit)",
+          "question": "Quel est le but de ce courrier ?",
+          "options": {
+            "A": "Refuser une réclamation",
+            "B": "Proposer une solution à un problème",
+            "C": "Annoncer une augmentation des prix",
+            "D": "Demander un paiement supplémentaire"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "NOTE DE SERVICE N° 2024-045\n\nÀ : Tous les chefs de service\nDe : Direction des Ressources Humaines\nDate : 18 mars 2024\nObjet : Mise en place du télétravail hybride\n\nÀ compter du 1er avril 2024, le télétravail hybride sera généralisé à l'ensemble du personnel administratif. Chaque salarié pourra bénéficier de 2 jours de télétravail par semaine, sous réserve d'accord de son responsable hiérarchique et de l'adéquation de son poste avec cette organisation.\n\nModalités pratiques :\n- Les jours de présence obligatoire sont le mardi et le jeudi pour faciliter les réunions d'équipe\n- Le matériel informatique (ordinateur portable, écran, casque) sera fourni par l'entreprise\n- Une indemnité forfaitaire de 10 € net par mois sera versée pour couvrir les frais de connexion internet\n\nLes demandes de télétravail doivent être formulées via le formulaire RH-2024-TT au moins 15 jours avant la date souhaitée de début. Une charte de télétravail sera signée par chaque bénéficiaire.\n\nContact : rh@entreprise.fr",
+          "question": "Quelle information est implicite dans ce texte ?",
+          "options": {
+            "A": "Le télétravail est obligatoire pour tous",
+            "B": "Les réunions ont lieu uniquement le mardi",
+            "C": "Tous les postes ne sont pas éligibles au télétravail",
+            "D": "L'indemnité couvre tous les frais professionnels"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 30,
+          "text": "Cher collègue,\n\nJe me permets de vous écrire concernant la réunion de coordination prévue ce vendredi 22 mars à 14h00 dans la salle de conférence du 3ème étage. Suite à un empêchement de dernière minute (visite client inopinée), je ne pourrai malheureusement pas être présent à cette réunion.\n\nPourriez-vous donc me tenir informé des décisions importantes qui y seront prises, notamment concernant le calendrier de lancement du nouveau produit et la répartition des tâches entre les différents services ? Je vous serais également reconnaissant de me transmettre le compte-rendu écrit dès qu'il sera disponible.\n\nJe m'excuse pour ce désagrément et vous remercie par avance pour votre compréhension. N'hésitez pas à me contacter par téléphone si vous avez besoin de précisions avant la réunion.\n\nBien cordialement,\n\nPhilippe Martin\nResponsable Commercial\nExtension : 4523\nMobile : 06 78 90 12 34",
+          "question": "Pourquoi l'auteur ne peut-il pas assister à la réunion ?",
+          "options": {
+            "A": "Il est en déplacement professionnel",
+            "B": "Il a une visite client imprévue",
+            "C": "Il est en congé maladie",
+            "D": "Il a un rendez-vous médical"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 31,
+          "text": "AVIS D'IMPOSITION 2023\nRéférence : 23 45 678 9012 3A\n\nMonsieur Pierre DUBOIS\n12 rue de la République\n75011 Paris\n\nImpôt sur le revenu - Revenus 2023\n\nMontant de l'impôt : 4 850,00 €\nRevenu fiscal de référence : 38 500,00 €\nNombre de parts : 2,00\nTaux d'imposition moyen : 12,60 %\n\nDétail des retenues :\n- Retenue à la source perçue en 2023 : 4 200,00 €\n- Solde à payer avant le 15 septembre 2024 : 650,00 €\n\nModalités de paiement :\nLe solde peut être réglé par prélèvement automatique (téléservice impots.gouv.fr), par chèque ou par virement. En cas de paiement par chèque, établir l'ordre à l'ordre du Trésor Public et joindre la partie supérieure de cet avis.\n\nService des impôts des particuliers\nCentre des finances publiques de Paris 11ème",
+          "question": "Quel est le montant restant à payer ?",
+          "options": {
+            "A": "4 200,00 €",
+            "B": "4 850,00 €",
+            "C": "650,00 €",
+            "D": "38 500,00 €"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 32,
+          "text": "Madame, Monsieur,\n\nNous avons le regret de vous informer que votre candidature au poste de développeur web senior, référence DEV-2024-089, n'a pas été retenue par notre comité de sélection. Cette décision ne remet absolument pas en cause vos compétences techniques, qui ont été appréciées par nos équipes, mais résulte du fait que nous avons finalement opté pour un profil possédant une spécialisation plus pointue en cybersécurité, critère devenu prioritaire pour ce poste suite à notre récente certification ISO 27001.\n\nNous conservons votre dossier dans notre base de candidatures pour une durée d'un an et vous contacterons volontiers si une opportunité correspondant davantage à votre profil se présentait au sein de notre entreprise. Nous vous souhaitons plein succès dans vos recherches futures.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nDirection des Ressources Humaines\nTechSolutions SARL\nParis",
+          "question": "Quel est le ton général de cette lettre ?",
+          "options": {
+            "A": "Agressif et blessant",
+            "B": "Neutre et administratif",
+            "C": "Respectueux et encourageant",
+            "D": "Indifférent et froid"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "LA POLLUTION NUMÉRIQUE, CE FLÉAU INVISIBLE QUI ÉTOUFFE LA PLANÈTE\n\nPar Marie Lefèvre, publié le 15 mars 2024\n\nAlors que nous célébrons les prouesses technologiques de l'intelligence artificielle et de la 5G, une réalité plus sombre persiste dans l'ombre : la pollution numérique. Selon l'Ademe, le secteur des technologies de l'information et de la communication (TIC) représente désormais 4% des émissions mondiales de gaz à effet de carbone, soit autant que l'aviation civile mondiale. Pourtant, cette empreinte carbone reste largement méconnue du grand public, noyée dans l'euphorie digitale ambiante.\n\nLes data centers, ces gigantesques entrepôts de serveurs qui hébergent nos données, consomment l'équivalent énergétique de villes entières. Le simple fait d'envoyer un email avec pièce jointe génère 50g de CO2, l'équivalent d'une ampoule allumée pendant une heure. Quant au streaming vidéo, il représente à lui seul 60% du trafic internet mondial et une consommation électrique pharaonique.\n\nFace à cet constat alarmant, des initiatives émergent timidement. Certaines entreprises adoptent le \"green IT\", d'autres expérimentent avec les data centers sous-marins pour le refroidissement naturel. Mais sans une prise de conscience collective et une régulation stricte des géants du numérique, ces efforts resteront symboliques. L'heure est venue de démystifier le \"tout numérique\" et d'admettre que la dématérialisation n'est pas synonyme d'écologie.",
+          "question": "Quelle est la position de l'auteur concernant la pollution numérique ?",
+          "options": {
+            "A": "Positive",
+            "B": "Négative",
+            "C": "Neutre",
+            "D": "Critique"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 34,
+          "text": "LE TÉLÉTRAVAIL : RÉVOLUTION OU ILLUSION PRODUCTIVISTE ?\n\nPar Antoine Durand, publié le 22 février 2024\n\nTrois ans après le confinement historique qui a imposé le télétravail à des millions de salariés, le bilan reste contrasté. Si les entreprises ont massivement adopté l'hybride, les études scientifiques peinent à démontrer une amélioration significative de la productivité. Une recherche menée par l'université Stanford révèle même une baisse de 13% de la performance chez les télétravailleurs à temps plein, attribuée à l'isolement et à la difficulté d'accès à l'information informelle.\n\nPourtant, les salariés réclament toujours plus de flexibilité. Selon un sondage Odoxa, 78% des actifs jugent le télétravail essentiel à leur équilibre de vie, quitte à changer d'employeur pour l'obtenir. Ce fossé grandissant entre attentes individuelles et exigences organisationnelles crée une tension inédite dans le monde du travail.\n\nLes managers, eux, expriment leur désarroi. \"Comment évaluer la performance sans présence physique ?\", s'interroge Claire Martin, DRH d'une PME lyonnaise. La confiance, souvent brandie comme remède, peine à s'institutionnaliser dans des cultures managériales encore marquées par le présentéisme.\n\nFinalement, le télétravail apparaît moins comme une révolution productive que comme une révélation des dysfonctionnements préexistants : manque d'autonomie, management par la présence, absence de culture du résultat. Sa généralisation force les entreprises à repenser fondamentalement leur organisation, au-delà du simple aménagement d'horaires.",
+          "question": "Quelle conclusion l'auteur tire-t-il du télétravail ?",
+          "options": {
+            "A": "Il augmente significativement la productivité",
+            "B": "Il révèle des problèmes structurels déjà existants",
+            "C": "Il est avantageux uniquement pour les employés",
+            "D": "Il devrait être interdit pour des raisons de performance"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "L'AGRICULTURE URBAINE CONQUIERT LES TOITS DE PARIS\n\nPar Sophie Bernard, publié le 8 mars 2024\n\nSur le toit d'un immeuble haussmannien du 11ème arrondissement, un potager produit 3 tonnes de légumes bio par an. Bienvenue à la ferme urbaine \"Cultive en Ville\", l'une des 150 exploitations agricoles recensées dans la capitale. Ce phénomène, né il y a une décennie comme initiative marginale, s'institutionnalise désormais grâce au soutien municipal et à l'engouement citoyen pour une alimentation locale.\n\nLes bénéfices sont multiples : réduction des îlots de chaleur urbains, absorption de CO2, création de liens sociaux et sensibilisation à l'agroécologie. \"Nos paniers hebdomadaires sont réservés six mois à l'avance\", se réjouit Marc Lefranc, fondateur de l'exploitation. La demande dépasse largement l'offre, témoignant d'une appétence croissante pour des produits frais et traçables.\n\nCependant, les obstacles demeurent. Les coûts d'installation (étanchéité, terreau, irrigation) sont élevés, la rentabilité incertaine, et la législation complexe freine les initiatives. De plus, ces fermes ne pourront jamais nourrir l'ensemble de la population urbaine, leur rôle restant symbolique et pédagogique.\n\nMalgré ces limites, l'agriculture urbaine redessine le paysage citadin et réinterroge notre rapport à la nature. Elle incarne une volonté de résilience alimentaire face aux incertitudes climatiques, même si son impact quantitatif reste modeste comparé aux besoins mégalopolitains.",
+          "question": "Quel est le ton général de l'article ?",
+          "options": {
+            "A": "Pessimiste et alarmiste",
+            "B": "Enthousiaste mais réaliste",
+            "C": "Indifférent et neutre",
+            "D": "Critique et hostile"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "LA FIN DES NOTES SCOLAIRES : UTOPIE ÉDUCATIVE OU DANGER POUR L'ÉGALITÉ ?\n\nPar Thomas Petit, publié le 12 mars 2024\n\nL'expérimentation menée dans 100 collèges français depuis septembre 2023 fait débat : l'absence de notes chiffrées au profit d'évaluations descriptives par compétences. Cette réforme, chère au ministère de l'Éducation nationale, vise à \"réduire le stress des élèves\" et à \"privilégier la progression sur la compétition\". Mais les premiers résultats soulèvent des interrogations majeures.\n\nLes enseignants, surchargés, peinent à rédiger des bilans personnalisés pour 30 élèves par classe. Les parents, démunis face à des appréciations floues, s'inquiètent de ne plus pouvoir suivre objectivement la scolarité de leurs enfants. Pire, les études montrent que les écarts de performance se creusent : sans la pression des notes, les élèves issus de milieux favorisés, soutenus par des familles investies, progressent davantage que ceux des quartiers défavorisés.\n\n\"La note est un langage universel, compris de tous\", défend le syndicat enseignant majoritaire. \"Sa disparition crée une opacité qui dessert précisément ceux qui en ont le plus besoin.\"\n\nL'intention était louable, mais l'application révèle les inégalités structurelles du système scolaire. La note, malgré ses imperfections, constituait un repère objectif dans un parcours souvent chaotique. Son remplacement par des évaluations qualitatives, sans formation adéquate des enseignants ni accompagnement des familles, risque d'aggraver les disparités plutôt que de les atténuer.",
+          "question": "Quelle inférence peut-on tirer de cet article ?",
+          "options": {
+            "A": "L'auteur soutient totalement la réforme",
+            "B": "La réforme pourrait aggraver les inégalités scolaires",
+            "C": "Les enseignants sont tous favorables aux notes",
+            "D": "Les élèves sont plus stressés avec les notes"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "LE RETOUR DU TRAIN DE NUIT : NOSTALGIE OU AVENIR DES MOBILITÉS ?\n\nPar Léa Martin, publié le 1er mars 2024\n\nLa SNCF réactive ses lignes de trains de nuit, abandonnées il y a dix ans pour des raisons de rentabilité. Paris-Berlin, Paris-Vienne, bientôt Paris-Madrid : le réseau renaît de ses cendres, porté par une conjonction inattendue d'urgence écologique et de désir de slow travel. Mais cette renaissance cache des réalités économiques et techniques complexes.\n\nLes trains de nuit coûtent 40% plus cher à l'exploitation que les TGV diurnes, nécessitent du matériel spécifique (voitures-couchettes, voitures-restaurant) et des sillons horaires réservés sur des lignes saturées. La rentabilité reste incertaine malgré les subventions publiques croissantes. \"Sans engagement politique fort, ces lignes redeviendront déficitaires dès que la mode passera\", prévient un expert ferroviaire.\n\nPourtant, la demande est réelle. Les voyageurs apprécient de gagner une journée de travail, de réduire leur empreinte carbone (divisée par 50 comparée à l'avion) et de retrouver une certaine douceur de vivre dans le voyage. Les wagons sont pleins, parfois complets des mois à l'avance.\n\nCette renaissance illustre la tension entre logique économique court-termiste et impératifs écologiques long-termistes. Le train de nuit n'est pas qu'un moyen de transport : c'est un choix de société, entre rentabilité immédiate et investissement dans un avenir durable. Sa pérennité dépendra de notre capacité à accepter de payer le prix de la transition écologique.",
+          "question": "Quelle est l'idée principale de l'article ?",
+          "options": {
+            "A": "Les trains de nuit sont plus rapides que les TGV",
+            "B": "Le retour des trains de nuit pose un défi économique malgré son importance écologique",
+            "C": "Les voyageurs préfèrent l'avion au train",
+            "D": "La SNCF abandonne définitivement les trains de nuit"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 38,
+          "text": "LES MÉGABASSINES : SYMBOLE D'UNE FRANCE RURALE EN DÉTRESSE\n\nPar François Dubois, publié le 18 mars 2024\n\nLa mobilisation contre les méga-bassines de Sainte-Soline a une nouvelle fois dégénéré en affrontements violents entre manifestants et forces de l'ordre. Au-delà de la polémique sur les méthodes, ce conflit révèle une fracture profonde : celle entre deux visions irréconciliables de l'usage de l'eau et de l'avenir de l'agriculture.\n\nPour les agriculteurs de la Confédération paysanne, ces réservoirs géants sont indispensables pour irriguer les cultures en période de sécheresse croissante. \"Sans eau, pas de récolte, pas de revenu\", résume Jean Lefranc, exploitant dans les Deux-Sèvres. Pour les opposants écologistes, il s'agit d'un hold-up sur une ressource collective au profit de l'agro-industrie, alors que les nappes phréatiques sont déjà épuisées.\n\nLe débat dépasse le cadre technique pour toucher à l'identité rurale. Ces bassines incarnent l'agriculture productiviste, dépendante aux intrants et aux subventions, que beaucoup de jeunes ruraux rejettent. Ils prônent une agroécologie locale, respectueuse des cycles naturels, même si elle produit moins et plus cher.\n\nL'État, tiraillé entre soutien à une agriculture compétitive et promesses écologiques, temporise. Mais la tension monte. Le prochain été caniculaire pourrait transformer ces tensions en crise majeure, où l'accès à l'eau deviendra un enjeu de sécurité nationale. La question n'est plus technique : elle est politique, existentielle même pour les territoires ruraux français.",
+          "question": "Quelle analyse l'auteur fait-il de la situation ?",
+          "options": {
+            "A": "Il prend parti pour les agriculteurs",
+            "B": "Il prend parti pour les écologistes",
+            "C": "Il présente les deux points de vue comme légitimes mais incompatibles",
+            "D": "Il propose une solution technique au conflit"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 39,
+          "text": "QUAND L'INTELLIGENCE ARTIFICIELLE S'INVITE À L'HÔPITAL : PROMESSES ET INQUIÉTUDES\n\nPar Camille Rousseau, publié le 25 février 2024\n\nL'algorithme a détecté le cancer du poumon trois mois avant les médecins. Ce cas réel, survenu à l'hôpital Georges-Pompidou, illustre les prouesses de l'IA médicale. Depuis 2023, 47 établissements français expérimentent des outils d'aide au diagnostic, promettant une révolution dans la détection précoce des maladies et la personnalisation des traitements.\n\nLes résultats sont spectaculaires : réduction de 30% des erreurs de diagnostic en radiologie, analyse de près de 200 millions de données génomiques en quelques heures pour adapter les chimiothérapies, prédiction des risques d'insuffisance cardiaque avec 85% de fiabilité. \"L'IA ne remplace pas le médecin, elle l'augmente\", précise le Pr Martin, radiologue à l'AP-HP.\n\nMais les ombres subsistent. Les biais algorithmiques, hérités des données d'entraînement, peuvent discriminer certaines populations. Une étude américaine a montré qu'un logiciel de diagnostic sous-estimait la gravité des symptômes chez les patients noirs. De plus, la question de la responsabilité médicale reste floue : qui est responsable en cas d'erreur de l'IA ? Le fabricant, l'hôpital, le médecin ?\n\nLe défi éthique est immense. L'IA médicale nécessite une transparence totale sur les algorithmes, une validation clinique rigoureuse et un encadrement législatif adapté. Sans cela, nous risquons de créer une médecine à deux vitesses, où seuls les hôpitaux les plus riches bénéficieraient de ces technologies, creusant les inégalités de santé plutôt que de les combler.",
+          "question": "Quelle est l'attitude de l'auteur envers l'IA médicale ?",
+          "options": {
+            "A": "Totalement enthousiaste",
+            "B": "Totalement opposée",
+            "C": "Prudente et nuancée",
+            "D": "Indifférente"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 40,
+          "text": "LA FIN DU PLASTIQUE À USAGE UNIQUE : MISSION ACCOMPLIE OU BATAILLE PERDUE ?\n\nPar Isabelle Moreau, publié le 5 mars 2024\n\nDepuis l'interdiction des sacs plastiques en 2016, puis des couverts et assiettes jetables en 2020, la France semblait en pointe sur la lutte contre le plastique. Pourtant, cinq ans après la directive européenne, le bilan apparaît mitigé. Les alternatives \"biosourcées\" se révèlent souvent aussi polluantes, et la consommation de plastique à usage unique n'a baissé que de 12% en France, loin des objectifs fixés.\n\nLe problème majeur réside dans les exemptions. Les fruits et légumes bios continuent d'être suremballés \"pour des raisons de conservation\". La restauration rapide a simplement remplacé le plastique par du carton enduit de plastique, non recyclable. Les industriels ont joué sur les failles réglementaires, proposant des produits \"compostables\" qui ne le sont en réalité que dans des installations industrielles rares.\n\n\"Nous avons lutté contre le symbole plutôt que contre le système\", analyse l'association Zero Waste. La production de plastique ne cesse d'augmenter globalement, alimentée par l'industrie pétrochimique qui investit massivement dans le recyclage chimique, solution coûteuse et énergivore.\n\nLa véritable révolution passerait par la réduction à la source, l'interdiction de tout emballage superflu et l'imposition du réemploi. Mais cela heurte le modèle de consommation actuel, fondé sur la praticité immédiate et l'hygiène perçue. Sans changement de paradigme profond, les interdictions ponctuelles resteront des gestes symboliques, rassurants mais inefficaces face à l'urgence climatique.",
+          "question": "Quelle conclusion l'auteur suggère-t-il ?",
+          "options": {
+            "A": "Les interdictions actuelles sont suffisantes",
+            "B": "Il faut interdire tous les plastiques immédiatement",
+            "C": "Des mesures plus radicales sont nécessaires pour réduire la pollution plastique",
+            "D": "Le recyclage chimique est la solution idéale"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

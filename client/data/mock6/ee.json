@@ -1,0 +1,40 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Expression écrite",
+  "duration_minutes": 60,
+  "sections": [
+    {
+      "id": 1,
+      "section": "A",
+      "title": "Rédiger la suite d'un article",
+      "time_minutes": 20,
+      "word_limit": { "min": 80, "max": 150 },
+      "instructions": [
+        "Continuez l'article avec un style formel.",
+        "Ajoutez les conséquences et témoignages.",
+        "Minimum 80 mots."
+      ],
+      "article_start": "Un nouveau parc écologique a été inauguré ce week-end au centre de la ville. Des centaines de citoyens ont participé à la cérémonie d'ouverture organisée par la municipalité."
+    },
+    {
+      "id": 2,
+      "section": "B",
+      "title": "Rédiger un texte argumentatif",
+      "time_minutes": 40,
+      "word_limit": { "min": 200, "max": 300 },
+      "instructions": [
+        "Exprimez votre opinion.",
+        "Donnez des arguments clairs et logiques.",
+        "Utilisez des connecteurs."
+      ],
+      "prompt": "Les universités devraient-elles réduire les frais de scolarité pour les étudiants internationaux ?"
+    }
+  ],
+  "evaluation": {
+    "task_completion": 25,
+    "coherence_and_structure": 20,
+    "vocabulary_range": 20,
+    "grammar_accuracy": 20,
+    "spelling_and_punctuation": 15
+  }
+}

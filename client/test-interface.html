@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEF/TCF Mock Test - BigFrench.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        body { overflow: hidden; }
+        
+        /* Full Screen Test Interface */
+        .test-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .test-header {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        .timer {
+            font-family: 'Courier New', monospace;
+            font-size: 1.5rem;
+            font-weight: bold;
+            background: rgba(255,255,255,0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+        }
+        
+        .timer.warning { background: #ef4444; animation: pulse 1s infinite; }
+        .timer.critical { background: #dc2626; animation: pulse 0.5s infinite; }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .test-main {
+            flex: 1;
+            display: flex;
+            overflow: hidden;
+        }
+        
+        .question-panel {
+            flex: 1;
+            padding: 2rem;
+            overflow-y: auto;
+            background: white;
+            margin: 1rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sidebar {
+            width: 300px;
+            background: white;
+            border-left: 1px solid #e2e8f0;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .question-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .question-number {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0.375rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 2px solid #e2e8f0;
+        }
+        
+        .question-number:hover { transform: scale(1.1); }
+        .question-number.unanswered { background: #f1f5f9; color: #64748b; }
+        .question-number.answered { background: #10b981; color: white; border-color: #10b981; }
+        .question-number.current { background: #3b82f6; color: white; border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3); }
+        .question-number.flagged { background: #f59e0b; color: white; border-color: #f59e0b; }
+        
+        .option-card {
+            border: 2px solid #e2e8f0;
+            border-radius: 0.75rem;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .option-card:hover {
+            border-color: #3b82f6;
+            background: #eff6ff;
+            transform: translateX(5px);
+        }
+        
+        .option-card.selected {
+            border-color: #3b82f6;
+            background: #eff6ff;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+        
+        .option-letter {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            background: #f1f5f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #475569;
+            flex-shrink: 0;
+        }
+        
+        .option-card.selected .option-letter {
+            background: #3b82f6;
+            color: white;
+        }
+        
+        .audio-player {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+        
+        .play-btn {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            background: white;
+            color: #1e40af;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin: 0 auto;
+        }
+        
+        .play-btn:hover { transform: scale(1.1); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .play-btn.playing { animation: playing 1s infinite; }
+        
+        @keyframes playing {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0.4); }
+            50% { box-shadow: 0 0 0 20px rgba(255,255,255,0); }
+        }
+        
+        .progress-bar {
+            height: 0.5rem;
+            background: #e2e8f0;
+            border-radius: 9999px;
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #10b981 0%, #3b82f6 100%);
+            transition: width 0.3s;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: all 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4); }
+        
+        .btn-secondary {
+            background: #f1f5f9;
+            color: #475569;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: all 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-secondary:hover { background: #e2e8f0; }
+        
+        .btn-flag {
+            background: #fef3c7;
+            color: #d97706;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .btn-flag:hover { background: #fde68a; }
+        .btn-flag.flagged { background: #f59e0b; color: white; }
+        
+        /* Start Screen */
+        .start-screen {
+            position: fixed;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.95);
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        
+        .start-card {
+            background: white;
+            border-radius: 1.5rem;
+            padding: 3rem;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .exam-icon {
+            width: 6rem;
+            height: 6rem;
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            border-radius: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            color: white;
+            font-size: 2.5rem;
+        }
+        
+        .instruction-list {
+            text-align: left;
+            margin: 2rem 0;
+        }
+        
+        .instruction-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            color: #475569;
+        }
+        
+        .instruction-list i {
+            color: #10b981;
+            margin-top: 0.25rem;
+        }
+        
+        /* Results Screen */
+        .results-screen {
+            position: fixed;
+            inset: 0;
+            background: #f8fafc;
+            z-index: 9999;
+            overflow-y: auto;
+            display: none;
+        }
+        
+        .score-circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: conic-gradient(#10b981 var(--score-deg), #e2e8f0 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem auto;
+            position: relative;
+        }
+        
+        .score-circle::before {
+            content: '';
+            position: absolute;
+            inset: 10px;
+            border-radius: 50%;
+            background: white;
+        }
+        
+        .score-text {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+        
+        .score-number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #1e40af;
+        }
+        
+        .hidden { display: none !important; }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .sidebar { width: 250px; }
+            .question-grid { grid-template-columns: repeat(4, 1fr); }
+        }
+        
+        @media (max-width: 768px) {
+            .test-main { flex-direction: column; }
+            .sidebar { width: 100%; border-left: none; border-top: 1px solid #e2e8f0; }
+            .question-grid { grid-template-columns: repeat(10, 1fr); }
+            .question-panel { margin: 0.5rem; padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Start Screen -->
+    <div id="startScreen" class="start-screen">
+        <div class="start-card">
+            <div class="exam-icon">
+                <i class="fas fa-clipboard-check"></i>
+            </div>
+            <h1 class="text-2xl font-bold text-slate-900 mb-2" id="testTitle">TEF Listening Practice Test</h1>
+            <p class="text-slate-500 mb-6">Prepare for your exam with this realistic simulation</p>
+            
+            <div class="grid grid-cols-3 gap-4 mb-6">
+                <div class="bg-blue-50 p-4 rounded-xl">
+                    <div class="text-2xl font-bold text-blue-600" id="durationDisplay">40</div>
+                    <div class="text-xs text-blue-600 font-medium">MINUTES</div>
+                </div>
+                <div class="bg-purple-50 p-4 rounded-xl">
+                    <div class="text-2xl font-bold text-purple-600" id="questionsDisplay">40</div>
+                    <div class="text-xs text-purple-600 font-medium">QUESTIONS</div>
+                </div>
+                <div class="bg-emerald-50 p-4 rounded-xl">
+                    <div class="text-2xl font-bold text-emerald-600" id="difficultyDisplay">B2</div>
+                    <div class="text-xs text-emerald-600 font-medium">LEVEL</div>
+                </div>
+            </div>
+            
+            <ul class="instruction-list">
+                <li><i class="fas fa-check-circle"></i> <span>You have limited time to complete this test</span></li>
+                <li><i class="fas fa-check-circle"></i> <span>Each question has only one correct answer</span></li>
+                <li><i class="fas fa-check-circle"></i> <span>You can flag questions to review later</span></li>
+                <li><i class="fas fa-check-circle"></i> <span>Click "Submit Test" when finished</span></li>
+                <li><i class="fas fa-exclamation-triangle text-yellow-500"></i> <span>Once submitted, you cannot change your answers</span></li>
+            </ul>
+            
+            <button onclick="startTest()" class="btn-primary text-lg px-8 py-4 w-full">
+                <i class="fas fa-play mr-2"></i> Start Test Now
+            </button>
+        </div>
+    </div>
+
+    <!-- Test Interface -->
+    <div id="testInterface" class="test-container hidden">
+        <header class="test-header">
+            <div class="flex items-center gap-4">
+                <div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
+                    <i class="fas fa-graduation-cap text-xl"></i>
+                </div>
+                <div>
+                    <div class="font-bold text-lg" id="headerTitle">TEF Listening Test</div>
+                    <div class="text-sm text-blue-200">BigFrench.com Mock Exam</div>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-6">
+                <div class="text-center">
+                    <div class="text-xs text-blue-200 mb-1">Question</div>
+                    <div class="font-bold text-xl"><span id="currentQ">1</span> / <span id="totalQ">40</span></div>
+                </div>
+                
+                <div class="text-center">
+                    <div class="text-xs text-blue-200 mb-1">Time Remaining</div>
+                    <div class="timer" id="timer">40:00</div>
+                </div>
+                
+                <button onclick="submitTest()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg font-bold transition">
+                    <i class="fas fa-check-double mr-2"></i>Submit
+                </button>
+            </div>
+        </header>
+        
+        <div class="test-main">
+            <div class="question-panel">
+                <!-- Audio Player (for listening tests) -->
+                <div id="audioPlayer" class="audio-player hidden">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-headphones text-2xl"></i>
+                            <div>
+                                <div class="font-bold">Audio Question</div>
+                                <div class="text-sm text-blue-200">Listen carefully - audio plays once</div>
+                            </div>
+                        </div>
+                        <div class="text-sm bg-white/20 px-3 py-1 rounded-full">
+                            <i class="fas fa-volume-up mr-2"></i>Playing...
+                        </div>
+                    </div>
+                    <button class="play-btn" id="playBtn" onclick="playAudio()">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <div class="mt-4">
+                        <div class="flex justify-between text-sm mb-2">
+                            <span>Progress</span>
+                            <span id="audioProgress">0:00 / 0:45</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="audioProgressBar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Question -->
+                <div class="mb-8">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-bold" id="questionType">Listening</span>
+                        <span class="text-slate-400 text-sm">Question <span id="qNumber">1</span></span>
+                    </div>
+                    
+                    <h2 class="text-xl font-bold text-slate-900 mb-6 leading-relaxed" id="questionText">
+                        Listen to the conversation. Where does this dialogue take place?
+                    </h2>
+                </div>
+                
+                <!-- Options -->
+                <div id="optionsContainer">
+                    <!-- Options injected by JS -->
+                </div>
+                
+                <!-- Navigation -->
+                <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
+                    <button onclick="previousQuestion()" class="btn-secondary" id="prevBtn">
+                        <i class="fas fa-arrow-left mr-2"></i> Previous
+                    </button>
+                    
+                    <button onclick="toggleFlag()" class="btn-flag" id="flagBtn">
+                        <i class="far fa-flag"></i> Flag for Review
+                    </button>
+                    
+                    <button onclick="nextQuestion()" class="btn-primary" id="nextBtn">
+                        Next <i class="fas fa-arrow-right ml-2"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <aside class="sidebar">
+                <div class="mb-4">
+                    <h3 class="font-bold text-slate-900 mb-3">Question Navigator</h3>
+                    <div class="flex gap-2 text-xs mb-2">
+                        <div class="flex items-center gap-1"><div class="w-3 h-3 rounded bg-emerald-500"></div> Answered</div>
+                        <div class="flex items-center gap-1"><div class="w-3 h-3 rounded bg-slate-200"></div> Unanswered</div>
+                        <div class="flex items-center gap-1"><div class="w-3 h-3 rounded bg-amber-500"></div> Flagged</div>
+                    </div>
+                </div>
+                
+                <div class="question-grid" id="questionGrid">
+                    <!-- Question numbers injected by JS -->
+                </div>
+                
+                <div class="mt-auto pt-4 border-t border-slate-200">
+                    <div class="bg-blue-50 p-4 rounded-xl mb-4">
+                        <div class="flex justify-between text-sm mb-2">
+                            <span class="text-slate-600">Progress</span>
+                            <span class="font-bold text-blue-600" id="progressPercent">0%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="testProgressBar" style="width: 0%"></div>
+                        </div>
+                        <div class="flex justify-between text-xs text-slate-500 mt-2">
+                            <span id="answeredCount">0 answered</span>
+                            <span id="flaggedCount">0 flagged</span>
+                        </div>
+                    </div>
+                    
+                    <button onclick="submitTest()" class="w-full bg-emerald-500 hover:bg-emerald-600 text-white py-3 rounded-xl font-bold transition">
+                        <i class="fas fa-check-circle mr-2"></i> Submit Test
+                    </button>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="resultsScreen" class="results-screen">
+        <div class="max-w-4xl mx-auto p-8">
+            <div class="text-center mb-8">
+                <div class="exam-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <h1 class="text-3xl font-bold text-slate-900 mb-2">Test Completed!</h1>
+                <p class="text-slate-500">Here are your results</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div class="bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="score-circle" id="scoreCircle" style="--score-deg: 0deg;">
+                        <div class="score-text">
+                            <div class="score-number" id="scorePercent">0%</div>
+                            <div class="text-slate-500">Score</div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4 mt-6">
+                        <div class="text-center p-4 bg-emerald-50 rounded-xl">
+                            <div class="text-2xl font-bold text-emerald-600" id="correctCount">0</div>
+                            <div class="text-xs text-emerald-600">Correct</div>
+                        </div>
+                        <div class="text-center p-4 bg-red-50 rounded-xl">
+                            <div class="text-2xl font-bold text-red-600" id="incorrectCount">0</div>
+                            <div class="text-xs text-red-600">Incorrect</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg">
+                    <h3 class="font-bold text-lg mb-4">Test Summary</h3>
+                    <div class="space-y-3">
+                        <div class="flex justify-between py-2 border-b border-slate-100">
+                            <span class="text-slate-600">Test Name</span>
+                            <span class="font-medium" id="resultTestName">TEF Listening</span>
+                        </div>
+                        <div class="flex justify-between py-2 border-b border-slate-100">
+                            <span class="text-slate-600">Time Taken</span>
+                            <span class="font-medium" id="timeTaken">25:30</span>
+                        </div>
+                        <div class="flex justify-between py-2 border-b border-slate-100">
+                            <span class="text-slate-600">Questions</span>
+                            <span class="font-medium" id="resultTotalQ">40</span>
+                        </div>
+                        <div class="flex justify-between py-2 border-b border-slate-100">
+                            <span class="text-slate-600">Your Score</span>
+                            <span class="font-bold text-blue-600" id="resultScore">32/40</span>
+                        </div>
+                        <div class="flex justify-between py-2">
+                            <span class="text-slate-600">CLB Level</span>
+                            <span class="font-bold text-purple-600" id="clbLevel">CLB 8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-2xl p-6 shadow-lg mb-8">
+                <h3 class="font-bold text-lg mb-4">Question Review</h3>
+                <div id="reviewContainer" class="space-y-4">
+                    <!-- Review items injected by JS -->
+                </div>
+            </div>
+            
+            <div class="flex justify-center gap-4">
+                <button onclick="closeTest()" class="btn-secondary px-8">
+                    <i class="fas fa-home mr-2"></i> Back to Dashboard
+                </button>
+                <button onclick="retakeTest()" class="btn-primary px-8">
+                    <i class="fas fa-redo mr-2"></i> Retake Test
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+        // Test State
+        let currentTest = null;
+        let currentQuestion = 0;
+        let answers = [];
+        let flagged = [];
+        let timeRemaining = 0;
+        let timerInterval = null;
+        let audioPlaying = false;
+        let testStartTime = null;
+        
+        // Get test ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const testId = urlParams.get('id');
+        
+        // API helper
+        const API_URLS = ['http://localhost:5000/api', 'http://127.0.0.1:5000/api', '/api'];
+        let API_URL = API_URLS[0];
+        const token = localStorage.getItem('token');
+        
+        async function api(endpoint, options = {}) {
+            for (const baseUrl of API_URLS) {
+                try {
+                    const res = await fetch(`${baseUrl}${endpoint}`, {
+                        ...options,
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${token}`,
+                            ...options.headers
+                        }
+                    });
+                    if (res.ok || res.status === 400 || res.status === 404) API_URL = baseUrl;
+                    if (res.status === 401) { localStorage.removeItem('token'); window.location.href = 'login.html'; return; }
+                    return await res.json();
+                } catch (error) { continue; }
+            }
+            throw new Error('API failed');
+        }
+        
+        // Load Test Data
+        async function loadTest() {
+            if (!testId) { alert('No test specified'); window.location.href = 'dashboard.html'; return; }
+            if (!token) { window.location.href = 'login.html'; return; }
+            
+            try {
+                currentTest = await api(`/tests/${testId}`);
+                if (!currentTest || !currentTest.questions) throw new Error('Invalid test data');
+                
+                // Initialize state
+                answers = new Array(currentTest.questions.length).fill(-1);
+                flagged = new Array(currentTest.questions.length).fill(false);
+                timeRemaining = (currentTest.duration || 40) * 60;
+                testStartTime = Date.now();
+                
+                // Update UI
+                document.getElementById('testTitle').textContent = currentTest.title;
+                document.getElementById('headerTitle').textContent = currentTest.title;
+                document.getElementById('durationDisplay').textContent = currentTest.duration || 40;
+                document.getElementById('questionsDisplay').textContent = currentTest.questions.length;
+                document.getElementById('totalQ').textContent = currentTest.questions.length;
+                document.getElementById('difficultyDisplay').textContent = currentTest.difficulty?.toUpperCase() || 'B2';
+                document.getElementById('resultTestName').textContent = currentTest.title;
+                document.getElementById('resultTotalQ').textContent = currentTest.questions.length;
+                
+                // Show/hide audio player
+                const hasAudio = currentTest.type === 'listening';
+                document.getElementById('audioPlayer').classList.toggle('hidden', !hasAudio);
+                if (hasAudio) document.getElementById('questionType').textContent = 'Listening Comprehension';
+                else document.getElementById('questionType').textContent = 'Reading Comprehension';
+                
+                renderQuestionGrid();
+                showQuestion(0);
+                
+            } catch (error) {
+                console.error('Failed to load test:', error);
+                alert('Failed to load test. Please try again.');
+                window.location.href = 'dashboard.html';
+            }
+        }
+        
+        // Start Test
+        function startTest() {
+            document.getElementById('startScreen').classList.add('hidden');
+            document.getElementById('testInterface').classList.remove('hidden');
+            startTimer();
+        }
+        
+        // Timer
+        function startTimer() {
+            updateTimerDisplay();
+            timerInterval = setInterval(() => {
+                timeRemaining--;
+                updateTimerDisplay();
+                if (timeRemaining <= 0) {
+                    clearInterval(timerInterval);
+                    submitTest();
+                }
+            }, 1000);
+        }
+        
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timeRemaining / 60);
+            const seconds = timeRemaining % 60;
+            const display = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            const timerEl = document.getElementById('timer');
+            timerEl.textContent = display;
+            
+            // Add warning colors
+            timerEl.classList.remove('warning', 'critical');
+            if (timeRemaining < 300) timerEl.classList.add('critical'); // < 5 min
+            else if (timeRemaining < 600) timerEl.classList.add('warning'); // < 10 min
+        }
+        
+        // Question Navigation
+        function showQuestion(index) {
+            if (index < 0 || index >= currentTest.questions.length) return;
+            
+            currentQuestion = index;
+            const q = currentTest.questions[index];
+            
+            // Update question display
+            document.getElementById('currentQ').textContent = index + 1;
+            document.getElementById('qNumber').textContent = index + 1;
+            document.getElementById('questionText').textContent = q.question;
+            
+            // Update options
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+            
+            const letters = ['A', 'B', 'C', 'D'];
+            q.options.forEach((option, i) => {
+                const div = document.createElement('div');
+                div.className = `option-card ${answers[index] === i ? 'selected' : ''}`;
+                div.onclick = () => selectAnswer(i);
+                div.innerHTML = `
+                    <div class="option-letter">${letters[i]}</div>
+                    <div class="flex-1 font-medium">${option}</div>
+                    ${answers[index] === i ? '<i class="fas fa-check-circle text-blue-500 text-xl"></i>' : ''}
+                `;
+                optionsContainer.appendChild(div);
+            });
+            
+            // Update buttons
+            document.getElementById('prevBtn').disabled = index === 0;
+            document.getElementById('prevBtn').style.opacity = index === 0 ? '0.5' : '1';
+            document.getElementById('nextBtn').innerHTML = index === currentTest.questions.length - 1 ? 
+                'Finish <i class="fas fa-check ml-2"></i>' : 'Next <i class="fas fa-arrow-right ml-2"></i>';
+            
+            // Update flag button
+            const flagBtn = document.getElementById('flagBtn');
+            flagBtn.innerHTML = flagged[index] ? 
+                '<i class="fas fa-flag"></i> Flagged' : '<i class="far fa-flag"></i> Flag for Review';
+            flagBtn.classList.toggle('flagged', flagged[index]);
+            
+            // Update grid
+            renderQuestionGrid();
+            updateProgress();
+        }
+        
+        function selectAnswer(optionIndex) {
+            answers[currentQuestion] = optionIndex;
+            showQuestion(currentQuestion);
+        }
+        
+        function toggleFlag() {
+            flagged[currentQuestion] = !flagged[currentQuestion];
+            showQuestion(currentQuestion);
+        }
+        
+        function previousQuestion() {
+            if (currentQuestion > 0) showQuestion(currentQuestion - 1);
+        }
+        
+        function nextQuestion() {
+            if (currentQuestion < currentTest.questions.length - 1) {
+                showQuestion(currentQuestion + 1);
+            } else {
+                submitTest();
+            }
+        }
+        
+        function renderQuestionGrid() {
+            const grid = document.getElementById('questionGrid');
+            grid.innerHTML = '';
+            
+            for (let i = 0; i < currentTest.questions.length; i++) {
+                const div = document.createElement('div');
+                div.className = `question-number ${getQuestionStatus(i)}`;
+                div.textContent = i + 1;
+                div.onclick = () => showQuestion(i);
+                grid.appendChild(div);
+            }
+        }
+        
+        function getQuestionStatus(index) {
+            if (index === currentQuestion) return 'current';
+            if (flagged[index]) return 'flagged';
+            if (answers[index] !== -1) return 'answered';
+            return 'unanswered';
+        }
+        
+        function updateProgress() {
+            const answered = answers.filter(a => a !== -1).length;
+            const flaggedCount = flagged.filter(f => f).length;
+            const percent = Math.round((answered / currentTest.questions.length) * 100);
+            
+            document.getElementById('progressPercent').textContent = percent + '%';
+            document.getElementById('testProgressBar').style.width = percent + '%';
+            document.getElementById('answeredCount').textContent = answered + ' answered';
+            document.getElementById('flaggedCount').textContent = flaggedCount + ' flagged';
+        }
+        
+        // Audio Player (Simulated)
+        function playAudio() {
+            const btn = document.getElementById('playBtn');
+            if (audioPlaying) return;
+            
+            audioPlaying = true;
+            btn.classList.add('playing');
+            btn.innerHTML = '<i class="fas fa-volume-up"></i>';
+            
+            // Simulate audio progress
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += 2;
+                document.getElementById('audioProgressBar').style.width = progress + '%';
+                document.getElementById('audioProgress').textContent = 
+                    `0:${Math.floor(progress * 0.45).toString().padStart(2, '0')} / 0:45`;
+                
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    audioPlaying = false;
+                    btn.classList.remove('playing');
+                    btn.innerHTML = '<i class="fas fa-play"></i>';
+                }
+            }, 100);
+        }
+        
+        // Submit Test
+        async function submitTest() {
+            if (timerInterval) clearInterval(timerInterval);
+            
+            const timeSpent = Math.floor((Date.now() - testStartTime) / 1000);
+            const correct = answers.reduce((acc, ans, i) => 
+                acc + (ans === currentTest.questions[i].correctAnswer ? 1 : 0), 0);
+            const score = correct;
+            const maxScore = currentTest.questions.length;
+            
+            try {
+                await api('/tests/submit', {
+                    method: 'POST',
+                    body: JSON.stringify({ testId, answers, score, maxScore, timeSpent })
+                });
+                
+                showResults(score, maxScore, timeSpent);
+            } catch (error) {
+                console.error('Submit failed:', error);
+                showResults(score, maxScore, timeSpent);
+            }
+        }
+        
+        function showResults(score, maxScore, timeSpent) {
+            document.getElementById('testInterface').classList.add('hidden');
+            document.getElementById('resultsScreen').style.display = 'block';
+            
+            const percent = Math.round((score / maxScore) * 100);
+            const incorrect = maxScore - score;
+            const minutes = Math.floor(timeSpent / 60);
+            const seconds = timeSpent % 60;
+            
+            // Update score display
+            document.getElementById('scorePercent').textContent = percent + '%';
+            document.getElementById('scoreCircle').style.setProperty('--score-deg', (percent * 3.6) + 'deg');
+            document.getElementById('correctCount').textContent = score;
+            document.getElementById('incorrectCount').textContent = incorrect;
+            document.getElementById('timeTaken').textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+            document.getElementById('resultScore').textContent = `${score}/${maxScore}`;
+            
+            // Determine CLB level
+            let clb = 'CLB 4';
+            if (percent >= 90) clb = 'CLB 10+';
+            else if (percent >= 80) clb = 'CLB 9';
+            else if (percent >= 70) clb = 'CLB 8';
+            else if (percent >= 60) clb = 'CLB 7';
+            else if (percent >= 50) clb = 'CLB 6';
+            document.getElementById('clbLevel').textContent = clb;
+            
+            // Render review
+            const reviewContainer = document.getElementById('reviewContainer');
+            reviewContainer.innerHTML = '';
+            
+            currentTest.questions.forEach((q, i) => {
+                const isCorrect = answers[i] === q.correctAnswer;
+                const div = document.createElement('div');
+                div.className = `p-4 rounded-xl border-2 ${isCorrect ? 'border-emerald-200 bg-emerald-50' : 'border-red-200 bg-red-50'}`;
+                div.innerHTML = `
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 rounded-full ${isCorrect ? 'bg-emerald-500' : 'bg-red-500'} text-white flex items-center justify-center flex-shrink-0 font-bold">
+                            ${i + 1}
+                        </div>
+                        <div class="flex-1">
+                            <p class="font-medium text-slate-900 mb-2">${q.question}</p>
+                            <div class="text-sm">
+                                <span class="${isCorrect ? 'text-emerald-600' : 'text-red-600'} font-medium">
+                                    ${isCorrect ? '<i class="fas fa-check mr-1"></i> Correct' : '<i class="fas fa-times mr-1"></i> Incorrect'}
+                                </span>
+                                ${!isCorrect ? `<span class="text-slate-500 ml-2">Correct: ${q.options[q.correctAnswer]}</span>` : ''}
+                            </div>
+                            ${q.explanation ? `<p class="text-sm text-slate-600 mt-2 italic"><i class="fas fa-info-circle mr-1"></i> ${q.explanation}</p>` : ''}
+                        </div>
+                    </div>
+                `;
+                reviewContainer.appendChild(div);
+            });
+        }
+        
+        function closeTest() {
+            window.location.href = 'dashboard.html';
+        }
+        
+        function retakeTest() {
+            window.location.reload();
+        }
+        
+        // Initialize
+        loadTest();
+    </script>
+    <script src="js/authGuard.js"></script>
+    
+    <script src="/security/examGuard.js"></script>
+    <script src="/security/videoDRM.js"></script>
+    <script src="js/fetchSecurity.js"></script>
+    <script src="js/examGuard.js"></script>
+</body>
+</html>

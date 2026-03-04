@@ -1,0 +1,1692 @@
+﻿[
+  {
+    "id": 1,
+    "section": "A",
+    "theme": "Daily activities",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne boit du café", "image_prompt": "A person holding a steaming coffee cup in a cozy kitchen" },
+      { "id": "B", "text": "Une personne lit le journal", "image_prompt": "A person reading a newspaper at a breakfast table" },
+      { "id": "C", "text": "Une personne prend le bus", "image_prompt": "A person waiting at a bus stop in the morning" },
+      { "id": "D", "text": "Une personne fait du sport", "image_prompt": "A person doing yoga in a living room" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Chaque matin, avant d'aller au travail, je prends toujours un bon café noir dans ma tasse préférée.",
+    "transcript_en": "Every morning, before going to work, I always have a good black coffee in my favorite mug.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chaque matin, avant d'aller au travail, je prends toujours un bon café noir dans ma tasse préférée."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "A",
+    "theme": "Transport",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un avion décolle", "image_prompt": "An airplane taking off from a runway at sunrise" },
+      { "id": "B", "text": "Un train arrive en gare", "image_prompt": "A train arriving at a modern train station platform" },
+      { "id": "C", "text": "Un taxi attend un client", "image_prompt": "A yellow taxi waiting for passengers on a city street" },
+      { "id": "D", "text": "Un vélo est garé", "image_prompt": "A bicycle parked near a bike rack downtown" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Le train de Montréal arrive maintenant sur la voie numéro trois avec dix minutes de retard.",
+    "transcript_en": "The Montreal train is now arriving on track number three with a ten-minute delay.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le train de Montréal arrive maintenant sur la voie numéro trois avec dix minutes de retard."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "A",
+    "theme": "Food",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une pizza sort du four", "image_prompt": "A fresh pizza coming out of a hot oven" },
+      { "id": "B", "text": "Un sandwich est préparé", "image_prompt": "Hands preparing a sandwich with fresh ingredients" },
+      { "id": "C", "text": "Une soupe est servie", "image_prompt": "A bowl of hot soup being served at a table" },
+      { "id": "D", "text": "Un gâteau est décoré", "image_prompt": "A cake being decorated with icing and fruits" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Ma grand-mère prépare sa soupe aux légumes tous les dimanches pour toute la famille.",
+    "transcript_en": "My grandmother prepares her vegetable soup every Sunday for the whole family.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Ma grand-mère prépare sa soupe aux légumes tous les dimanches pour toute la famille."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "section": "A",
+    "theme": "Weather",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Il neige beaucoup", "image_prompt": "Heavy snowfall covering a city street" },
+      { "id": "B", "text": "Il pleut des cordes", "image_prompt": "Heavy rain falling on an umbrella" },
+      { "id": "C", "text": "Le soleil brille", "image_prompt": "Bright sunshine over a summer park" },
+      { "id": "D", "text": "Il fait très venteux", "image_prompt": "Strong wind blowing through autumn trees" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Attention sur les routes, une tempête de neige est prévue pour cet après-midi avec vingt centimètres attendus.",
+    "transcript_en": "Caution on the roads, a snowstorm is expected this afternoon with twenty centimeters anticipated.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Attention sur les routes, une tempête de neige est prévue pour cet après-midi avec vingt centimètres attendus."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "A",
+    "theme": "Shopping",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne achète des légumes", "image_prompt": "A person selecting vegetables at a farmers market" },
+      { "id": "B", "text": "Une personne essaie des chaussures", "image_prompt": "A person trying on shoes in a shoe store" },
+      { "id": "C", "text": "Une personne paie à la caisse", "image_prompt": "A person paying at a checkout counter with a card" },
+      { "id": "D", "text": "Une personne regarde des vêtements", "image_prompt": "A person browsing through clothes on a rack" }
+    ],
+    "correct": 3,
+    "transcript_fr": "J'ai trouvé une belle chemise en solde, mais je ne sais pas encore si elle me va bien.",
+    "transcript_en": "I found a nice shirt on sale, but I don't know yet if it fits me well.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["J'ai trouvé une belle chemise en solde, mais je ne sais pas encore si elle me va bien."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "section": "A",
+    "theme": "Work",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un ordinateur portable est ouvert", "image_prompt": "A laptop open on a desk with documents nearby" },
+      { "id": "B", "text": "Une réunion a lieu", "image_prompt": "People sitting around a conference table discussing" },
+      { "id": "C", "text": "Quelqu'un écrit au tableau", "image_prompt": "A person writing on a whiteboard in an office" },
+      { "id": "D", "text": "Un téléphone sonne", "image_prompt": "An office phone ringing on a desk" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Nous avons une réunion importante avec le patron à quatorze heures dans la salle de conférence.",
+    "transcript_en": "We have an important meeting with the boss at two o'clock in the conference room.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nous avons une réunion importante avec le patron à quatorze heures dans la salle de conférence."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "section": "B",
+    "theme": "Everyday conversation - Restaurant",
+    "question": "Où se passe cette conversation ?",
+    "options": [
+      { "id": "A", "text": "Dans un bureau" },
+      { "id": "B", "text": "Dans un restaurant" },
+      { "id": "C", "text": "Dans une bibliothèque" },
+      { "id": "D", "text": "Dans un magasin" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Marc: Bonjour madame, une table pour deux personnes s'il vous plaît. Serveuse: Oui monsieur, suivez-moi. Voici la carte, je reviens dans quelques minutes pour prendre votre commande. Marc: Merci beaucoup. Nous allons regarder le menu. Serveuse: Parfait. Voulez-vous de l'eau en attendant ? Marc: Oui, de l'eau plate pour nous deux.",
+    "transcript_en": "Marc: Hello madam, a table for two please. Waitress: Yes sir, follow me. Here is the menu, I'll be back in a few minutes to take your order. Marc: Thank you very much. We'll look at the menu. Waitress: Perfect. Would you like some water while waiting? Marc: Yes, still water for both of us.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour madame, une table pour deux personnes s'il vous plaît."],
+        "female_lines": ["Oui monsieur, suivez-moi. Voici la carte, je reviens dans quelques minutes pour prendre votre commande."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Merci beaucoup. Nous allons regarder le menu."],
+        "female_lines": ["Parfait. Voulez-vous de l'eau en attendant ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Oui, de l'eau plate pour nous deux."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "section": "B",
+    "theme": "Everyday conversation - Post office",
+    "question": "Que veut faire le client ?",
+    "options": [
+      { "id": "A", "text": "Acheter des timbres" },
+      { "id": "B", "text": "Envoyer un colis" },
+      { "id": "C", "text": "Retirer de l'argent" },
+      { "id": "D", "text": "Ouvrir un compte" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Employée: Bonjour monsieur, que puis-je faire pour vous aujourd'hui ? Client: Bonjour, j'aimerais envoyer ce colis au Canada. Employée: D'accord, voulez-vous l'envoyer en express ou en standard ? Client: En standard, ce n'est pas urgent. Employée: Très bien. Puis-je voir ce qu'il y a dedans pour la déclaration ? Client: Oui, ce sont des livres pour ma sœur.",
+    "transcript_en": "Employee: Hello sir, what can I do for you today? Customer: Hello, I would like to send this package to Canada. Employee: Okay, would you like to send it express or standard? Customer: Standard, it's not urgent. Employee: Very well. May I see what's inside for the declaration? Customer: Yes, these are books for my sister.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, j'aimerais envoyer ce colis au Canada."],
+        "female_lines": ["Bonjour monsieur, que puis-je faire pour vous aujourd'hui ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["En standard, ce n'est pas urgent."],
+        "female_lines": ["D'accord, voulez-vous l'envoyer en express ou en standard ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Oui, ce sont des livres pour ma sœur."],
+        "female_lines": ["Très bien. Puis-je voir ce qu'il y a dedans pour la déclaration ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "section": "B",
+    "theme": "Everyday conversation - Doctor",
+    "question": "Quel est le problème du patient ?",
+    "options": [
+      { "id": "A", "text": "Il a mal au dos" },
+      { "id": "B", "text": "Il a de la fièvre" },
+      { "id": "C", "text": "Il a mal à la gorge" },
+      { "id": "D", "text": "Il a mal à la tête" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Docteur: Alors monsieur, que se passe-t-il ? Patient: Docteur, j'ai très mal à la gorge depuis trois jours. Docteur: Je vais vous examiner. Dites 'aaaah'. Patient: Aaaah. Docteur: Vous avez les amygdales enflammées. Je vais vous prescrire des antibiotiques. Patient: Merci docteur. Docteur: Reposez-vous bien et buvez beaucoup d'eau.",
+    "transcript_en": "Doctor: So sir, what is happening? Patient: Doctor, I have a very sore throat for three days. Doctor: I'm going to examine you. Say 'aaaah'. Patient: Aaaah. Doctor: You have inflamed tonsils. I will prescribe antibiotics for you. Patient: Thank you doctor. Doctor: Rest well and drink plenty of water.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Docteur, j'ai très mal à la gorge depuis trois jours."],
+        "female_lines": ["Alors monsieur, que se passe-t-il ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Aaaah."],
+        "female_lines": ["Je vais vous examiner. Dites 'aaaah'."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Merci docteur."],
+        "female_lines": ["Vous avez les amygdales enflammées. Je vais vous prescrire des antibiotiques."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Reposez-vous bien et buvez beaucoup d'eau."]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "section": "B",
+    "theme": "Everyday conversation - Bank",
+    "question": "Pourquoi la cliente est-elle à la banque ?",
+    "options": [
+      { "id": "A", "text": "Pour déposer de l'argent" },
+      { "id": "B", "text": "Pour ouvrir un compte" },
+      { "id": "C", "text": "Pour demander un prêt" },
+      { "id": "D", "text": "Pour fermer son compte" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Conseiller: Bonjour madame, comment puis-je vous aider ? Cliente: Bonjour, j'aimerais demander un prêt hypothécaire pour acheter une maison. Conseiller: Très bien, avez-vous apporté vos documents financiers ? Cliente: Oui, voici mes relevés de salaire et mon bilan financier. Conseiller: Parfait. Analysons votre dossier ensemble.",
+    "transcript_en": "Advisor: Hello madam, how can I help you? Customer: Hello, I would like to apply for a mortgage to buy a house. Advisor: Very well, have you brought your financial documents? Customer: Yes, here are my pay stubs and my financial statement. Advisor: Perfect. Let's analyze your file together.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour madame, comment puis-je vous aider ?"],
+        "female_lines": ["Bonjour, j'aimerais demander un prêt hypothécaire pour acheter une maison."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Oui, voici mes relevés de salaire et mon bilan financier."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Très bien, avez-vous apporté vos documents financiers ?"],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Parfait. Analysons votre dossier ensemble."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "section": "C",
+    "theme": "Airport announcement",
+    "question": "Quelle est la destination du vol ?",
+    "options": [
+      { "id": "A", "text": "Paris" },
+      { "id": "B", "text": "Londres" },
+      { "id": "C", "text": "Montréal" },
+      { "id": "D", "text": "New York" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Mesdames et messieurs, nous vous informons que le vol Air France numéro trois-cinq-zéro-à destination de Paris-Charles de Gaulle va bientôt décoller. Les passagers de la classe affaires sont priés de monter à bord immédiatement par la porte numéro douze. Nous vous rappelons que le port du masque est obligatoire à bord de l'appareil. Merci de votre attention et bon voyage.",
+    "transcript_en": "Ladies and gentlemen, we inform you that Air France flight number three-five-zero to Paris-Charles de Gaulle will be taking off soon. Business class passengers are requested to board immediately through gate number twelve. We remind you that wearing a mask is mandatory on board the aircraft. Thank you for your attention and have a good trip.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mesdames et messieurs, nous vous informons que le vol Air France numéro trois-cinq-zéro-à destination de Paris-Charles de Gaulle va bientôt décoller."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les passagers de la classe affaires sont priés de monter à bord immédiatement par la porte numéro douze."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Nous vous rappelons que le port du masque est obligatoire à bord de l'appareil."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Merci de votre attention et bon voyage."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "section": "C",
+    "theme": "Supermarket announcement",
+    "question": "Quel produit est en promotion spéciale ?",
+    "options": [
+      { "id": "A", "text": "Le fromage" },
+      { "id": "B", "text": "Le pain" },
+      { "id": "C", "text": "Les fruits" },
+      { "id": "D", "text": "Le café" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Chers clients, profitez de notre promotion spéciale aujourd'hui seulement sur tous les fromages québécois. Vous bénéficiez d'une réduction de trente pour cent sur présentation de votre carte de fidélité. Rendez-vous au rayon fromagerie situé au fond du magasin à droite. Notre fromager sera ravi de vous faire déguster nos nouveautés. Merci de votre visite.",
+    "transcript_en": "Dear customers, take advantage of our special promotion today only on all Quebec cheeses. You benefit from a thirty percent discount upon presentation of your loyalty card. Go to the cheese section located at the back of the store on the right. Our cheesemonger will be delighted to have you taste our new products. Thank you for your visit.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers clients, profitez de notre promotion spéciale aujourd'hui seulement sur tous les fromages québécois."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Vous bénéficiez d'une réduction de trente pour cent sur présentation de votre carte de fidélité."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Rendez-vous au rayon fromagerie situé au fond du magasin à droite."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Notre fromager sera ravi de vous faire déguster nos nouveautés. Merci de votre visite."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "section": "C",
+    "theme": "Train station announcement",
+    "question": "Quel est le problème avec le train ?",
+    "options": [
+      { "id": "A", "text": "Il est annulé" },
+      { "id": "B", "text": "Il est en retard" },
+      { "id": "C", "text": "Il est trop plein" },
+      { "id": "D", "text": "Il change de quai" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Attention passagers, le train express pour Québec prévu à quinze heures trente subit actuellement un retard d'environ vingt minutes en raison de travaux sur la voie. Nous vous prions de bien vouloir nous excuser pour ce désagrément. Le train arrivera finalement sur le quai numéro cinq. Restez à l'écoute pour d'autres informations.",
+    "transcript_en": "Attention passengers, the express train to Quebec scheduled for three thirty PM is currently experiencing a delay of approximately twenty minutes due to track work. We apologize for this inconvenience. The train will finally arrive on platform number five. Stay tuned for more information.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Attention passagers, le train express pour Québec prévu à quinze heures trente subit actuellement un retard d'environ vingt minutes en raison de travaux sur la voie."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nous vous prions de bien vouloir nous excuser pour ce désagrément."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le train arrivera finalement sur le quai numéro cinq."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Restez à l'écoute pour d'autres informations."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "section": "C",
+    "theme": "Museum announcement",
+    "question": "Quelle exposition est mentionnée ?",
+    "options": [
+      { "id": "A", "text": "Une exposition de peinture" },
+      { "id": "B", "text": "Une exposition de photographie" },
+      { "id": "C", "text": "Une exposition de sculpture" },
+      { "id": "D", "text": "Une exposition d'art moderne" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Bonjour et bienvenue au Musée des Beaux-Arts de Montréal. Nous vous invitons à découvrir notre nouvelle exposition temporaire sur la sculpture contemporaine canadienne au deuxième étage. Cette exposition présente plus de cinquante œuvres d'artistes émergents. Les visites guidées sont gratuites et commencent à quatorze heures. Profitez-en, c'est la dernière semaine.",
+    "transcript_en": "Hello and welcome to the Montreal Museum of Fine Arts. We invite you to discover our new temporary exhibition on contemporary Canadian sculpture on the second floor. This exhibition presents more than fifty works by emerging artists. Guided tours are free and start at two PM. Take advantage of it, it's the last week.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour et bienvenue au Musée des Beaux-Arts de Montréal."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nous vous invitons à découvrir notre nouvelle exposition temporaire sur la sculpture contemporaine canadienne au deuxième étage."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Cette exposition présente plus de cinquante œuvres d'artistes émergents."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les visites guidées sont gratuites et commencent à quatorze heures. Profitez-en, c'est la dernière semaine."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "section": "C",
+    "theme": "Weather alert",
+    "question": "Quel phénomène météorologique est annoncé ?",
+    "options": [
+      { "id": "A", "text": "Une canicule" },
+      { "id": "B", "text": "Un ouragan" },
+      { "id": "C", "text": "Un verglas" },
+      { "id": "D", "text": "Une tornade" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Avis de vigilance météorologique pour la région de Montréal. Environnement Canada annonce des conditions de verglas importantes pour cette nuit et demain matin. Les routes et les trottoirs seront très glissants. Évitez les déplacements non essentiels et soyez prudents si vous devez conduire. Restez à l'abri et suivez les mises à jour.",
+    "transcript_en": "Weather advisory for the Montreal region. Environment Canada announces significant freezing rain conditions for tonight and tomorrow morning. Roads and sidewalks will be very slippery. Avoid non-essential travel and be careful if you must drive. Stay sheltered and follow updates.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Avis de vigilance météorologique pour la région de Montréal."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Environnement Canada annonce des conditions de verglas importantes pour cette nuit et demain matin."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les routes et les trottoirs seront très glissants. Évitez les déplacements non essentiels et soyez prudents si vous devez conduire."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Restez à l'abri et suivez les mises à jour."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "section": "C",
+    "theme": "Library announcement",
+    "question": "Quel changement est annoncé ?",
+    "options": [
+      { "id": "A", "text": "La bibliothèque ferme plus tôt" },
+      { "id": "B", "text": "La bibliothèque ouvre plus tard" },
+      { "id": "C", "text": "La bibliothèque est fermée pour rénovation" },
+      { "id": "D", "text": "La bibliothèque change d'adresse" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Chers usagers, nous vous informons qu'à compter de lundi prochain, la bibliothèque municipale fermera ses portes à dix-huit heures au lieu de vingt-et-une heures en raison de travaux d'électricité. Ces horaires exceptionnels dureront deux semaines. Les emprunts et retours restent possibles via la borne extérieure. Merci de votre compréhension.",
+    "transcript_en": "Dear users, we inform you that starting next Monday, the municipal library will close at six PM instead of nine PM due to electrical work. These exceptional hours will last two weeks. Borrowing and returns remain possible via the outdoor kiosk. Thank you for your understanding.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers usagers, nous vous informons qu'à compter de lundi prochain, la bibliothèque municipale fermera ses portes à dix-huit heures au lieu de vingt-et-une heures en raison de travaux d'électricité."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Ces horaires exceptionnels dureront deux semaines."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les emprunts et retours restent possibles via la borne extérieure."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Merci de votre compréhension."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "section": "D",
+    "theme": "Dialogue - Intention",
+    "question": "Quelle est l'intention du premier locuteur ?",
+    "options": [
+      { "id": "A", "text": "Demander un conseil" },
+      { "id": "B", "text": "Faire une suggestion" },
+      { "id": "C", "text": "Exprimer un doute" },
+      { "id": "D", "text": "Demander une permission" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Marie: Pierre, et si on allait au cinéma ce soir ? Il y a un nouveau film français qui vient de sortir. Pierre: Bonne idée ! Quelle heure ? Marie: La séance est à vingt heures. Pierre: Parfait, je viens te chercher à dix-neuf heures trente. Marie: Super, à ce soir alors ! Pierre: À ce soir, n'oublie pas ton manteau, il fait frais.",
+    "transcript_en": "Marie: Pierre, what if we went to the cinema tonight? There's a new French movie that just came out. Pierre: Good idea! What time? Marie: The showing is at eight PM. Pierre: Perfect, I'll pick you up at seven thirty PM. Marie: Great, see you tonight then! Pierre: See you tonight, don't forget your coat, it's cool outside.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonne idée ! Quelle heure ?"],
+        "female_lines": ["Pierre, et si on allait au cinéma ce soir ? Il y a un nouveau film français qui vient de sortir."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Parfait, je viens te chercher à dix-neuf heures trente."],
+        "female_lines": ["La séance est à vingt heures."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["À ce soir, n'oublie pas ton manteau, il fait frais."],
+        "female_lines": ["Super, à ce soir alors !"]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "section": "D",
+    "theme": "Dialogue - Intention",
+    "question": "Que veut faire la femme ?",
+    "options": [
+      { "id": "A", "text": "Se plaindre" },
+      { "id": "B", "text": "Refuser une invitation" },
+      { "id": "C", "text": "Demander un service" },
+      { "id": "D", "text": "Donner son opinion" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Sophie: Excusez-moi monsieur, pourriez-vous m'aider à porter cette valise ? Elle est très lourde. Homme: Bien sûr madame, avec plaisir. Où la mettre ? Sophie: Dans le compartiment au-dessus, s'il vous plaît. Homme: Voilà, c'est fait. Attention, elle risque de tomber. Sophie: Merci beaucoup pour votre gentillesse. Homme: Je vous en prie, bon voyage.",
+    "transcript_en": "Sophie: Excuse me sir, could you help me carry this suitcase? It's very heavy. Man: Of course madam, with pleasure. Where should I put it? Sophie: In the overhead compartment, please. Man: There, it's done. Careful, it might fall. Sophie: Thank you very much for your kindness. Man: You're welcome, have a good trip.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bien sûr madame, avec plaisir. Où la mettre ?"],
+        "female_lines": ["Excusez-moi monsieur, pourriez-vous m'aider à porter cette valise ? Elle est très lourde."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Voilà, c'est fait. Attention, elle risque de tomber."],
+        "female_lines": ["Dans le compartiment au-dessus, s'il vous plaît."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je vous en prie, bon voyage."],
+        "female_lines": ["Merci beaucoup pour votre gentillesse."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "section": "D",
+    "theme": "Dialogue - Intention",
+    "question": "Quelle est l'attitude de Jean ?",
+    "options": [
+      { "id": "A", "text": "Il est optimiste" },
+      { "id": "B", "text": "Il est pessimiste" },
+      { "id": "C", "text": "Il est indifférent" },
+      { "id": "D", "text": "Il est en colère" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Lucie: Jean, tu as entendu ? On va avoir une augmentation de salaire ! Jean: Oui, j'ai entendu, mais ça ne couvrira même pas l'inflation. Lucie: Quand même, c'est mieux que rien. Jean: Pas sûr, avec les nouveaux impôts, on va y perdre. Lucie: Tu vois toujours le mauvais côté des choses. Jean: Je suis réaliste, c'est tout.",
+    "transcript_en": "Lucie: Jean, did you hear? We're going to get a salary raise! Jean: Yes, I heard, but it won't even cover inflation. Lucie: Still, it's better than nothing. Jean: Not sure, with the new taxes, we'll lose out. Lucie: You always see the bad side of things. Jean: I'm realistic, that's all.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Oui, j'ai entendu, mais ça ne couvrira même pas l'inflation."],
+        "female_lines": ["Jean, tu as entendu ? On va avoir une augmentation de salaire !"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Pas sûr, avec les nouveaux impôts, on va y perdre."],
+        "female_lines": ["Quand même, c'est mieux que rien."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je suis réaliste, c'est tout."],
+        "female_lines": ["Tu vois toujours le mauvais côté des choses."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "section": "D",
+    "theme": "Dialogue - Intention",
+    "question": "Pourquoi Claire appelle-t-elle ?",
+    "options": [
+      { "id": "A", "text": "Pour confirmer un rendez-vous" },
+      { "id": "B", "text": "Pour annuler un rendez-vous" },
+      { "id": "C", "text": "Pour reporter un rendez-vous" },
+      { "id": "D", "text": "Pour prendre un rendez-vous" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Claire: Allô Thomas ? C'est Claire. Je suis désolée mais je dois décaler notre rendez-vous de demain. Thomas: Pas de problème, tu es disponible jeudi à la même heure ? Claire: Oui, jeudi quatorze heures ça me convient parfaitement. Thomas: D'accord, je note le changement. Claire: Merci beaucoup de ta compréhension. Thomas: Pas de souci, à jeudi alors.",
+    "transcript_en": "Claire: Hello Thomas? It's Claire. I'm sorry but I have to reschedule our appointment tomorrow. Thomas: No problem, are you available Thursday at the same time? Claire: Yes, Thursday at two PM suits me perfectly. Thomas: Okay, I'll note the change. Claire: Thank you very much for your understanding. Thomas: No worries, see you Thursday then.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Pas de problème, tu es disponible jeudi à la même heure ?"],
+        "female_lines": ["Allô Thomas ? C'est Claire. Je suis désolée mais je dois décaler notre rendez-vous de demain."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["D'accord, je note le changement."],
+        "female_lines": ["Oui, jeudi quatorze heures ça me convient parfaitement."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Pas de souci, à jeudi alors."],
+        "female_lines": ["Merci beaucoup de ta compréhension."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "section": "D",
+    "theme": "Dialogue - Intention",
+    "question": "Quel est le ton de la conversation ?",
+    "options": [
+      { "id": "A", "text": "Formel et professionnel" },
+      { "id": "B", "text": "Familier et amical" },
+      { "id": "C", "text": "Tendu et agressif" },
+      { "id": "D", "text": "Triste et mélancolique" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Michel: Salut mon pote ! Ça fait une éternité ! Robert: Michel ! Quel bonheur de te voir ! Tu ne changes pas. Michel: Toi non plus, toujours le même sourire. Robert: Viens, on va prendre un verre pour fêter ça. Michel: Excellente idée, j'ai tellement de choses à te raconter. Robert: Moi aussi, tu ne vas pas me croire !",
+    "transcript_en": "Michel: Hey buddy! It's been ages! Robert: Michel! What a joy to see you! You haven't changed. Michel: You neither, always the same smile. Robert: Come, let's have a drink to celebrate. Michel: Excellent idea, I have so much to tell you. Robert: Me too, you won't believe it!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Salut mon pote ! Ça fait une éternité !"],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Michel ! Quel bonheur de te voir ! Tu ne changes pas."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Toi non plus, toujours le même sourire.", "Excellente idée, j'ai tellement de choses à te raconter."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Viens, on va prendre un verre pour fêter ça.", "Moi aussi, tu ne vas pas me croire !"],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "section": "D",
+    "theme": "Dialogue - Intention",
+    "question": "Que suggère la mère à sa fille ?",
+    "options": [
+      { "id": "A", "text": "D'étudier plus" },
+      { "id": "B", "text": "De faire du sport" },
+      { "id": "C", "text": "De dormir plus" },
+      { "id": "D", "text": "De manger mieux" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Mère: Julie, tes notes ont baissé ce trimestre. Julie: Je sais maman, c'est difficile en ce moment. Mère: Tu devrais peut-être créer un emploi du temps fixe pour réviser. Julie: Tu as raison, je vais essayer d'être plus organisée. Mère: Je peux t'aider si tu veux, on peut travailler ensemble le soir. Julie: Merci maman, ça me ferait plaisir.",
+    "transcript_en": "Mother: Julie, your grades have dropped this term. Julie: I know mom, it's difficult right now. Mother: Maybe you should create a fixed schedule for studying. Julie: You're right, I'll try to be more organized. Mother: I can help you if you want, we can work together in the evening. Julie: Thanks mom, that would make me happy.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Julie, tes notes ont baissé ce trimestre.", "Je sais maman, c'est difficile en ce moment."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Tu devrais peut-être créer un emploi du temps fixe pour réviser.", "Tu as raison, je vais essayer d'être plus organisée."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Je peux t'aider si tu veux, on peut travailler ensemble le soir.", "Merci maman, ça me ferait plaisir."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "section": "E",
+    "theme": "Radio interview - Environment",
+    "question": "Quel est le sujet principal de l'interview ?",
+    "options": [
+      { "id": "A", "text": "La pollution de l'air" },
+      { "id": "B", "text": "Le réchauffement climatique" },
+      { "id": "C", "text": "La protection des océans" },
+      { "id": "D", "text": "La déforestation" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Journaliste: Docteur Tremblay, quelles sont les conséquences du réchauffement climatique au Québec ? Expert: Nous observons déjà une augmentation des températures extrêmes et des inondations plus fréquentes. Journaliste: Quelles solutions proposez-vous ? Expert: Nous devons réduire nos émissions de gaz à effet de serre de cinquante pour cent d'ici dix ans. Journaliste: C'est ambitieux mais nécessaire. Expert: Absolument, l'avenir de notre planète en dépend.",
+    "transcript_en": "Journalist: Dr. Tremblay, what are the consequences of global warming in Quebec? Expert: We are already observing an increase in extreme temperatures and more frequent floods. Journalist: What solutions do you propose? Expert: We must reduce our greenhouse gas emissions by fifty percent within ten years. Journalist: That's ambitious but necessary. Expert: Absolutely, the future of our planet depends on it.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nous observons déjà une augmentation des températures extrêmes et des inondations plus fréquentes."],
+        "female_lines": ["Docteur Tremblay, quelles sont les conséquences du réchauffement climatique au Québec ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nous devons réduire nos émissions de gaz à effet de serre de cinquante pour cent d'ici dix ans."],
+        "female_lines": ["Quelles solutions proposez-vous ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Absolument, l'avenir de notre planète en dépend."],
+        "female_lines": ["C'est ambitieux mais nécessaire."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "section": "E",
+    "theme": "Radio interview - Health",
+    "question": "Quel conseil donne le médecin ?",
+    "options": [
+      { "id": "A", "text": "Manger moins de sucre" },
+      { "id": "B", "text": "Faire plus d'exercice" },
+      { "id": "C", "text": "Dormir huit heures" },
+      { "id": "D", "text": "Boire plus d'eau" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Animatrice: Docteur Lefebvre, comment rester en bonne santé ? Médecin: La clé est l'activité physique régulière, trente minutes par jour minimum. Animatrice: Même une simple marche ? Médecin: Absolument, la marche rapide est excellente pour le cœur. Animatrice: Et pour ceux qui n'ont pas le temps ? Médecin: Prenez les escaliers, stationnez loin, chaque geste compte.",
+    "transcript_en": "Host: Dr. Lefebvre, how to stay healthy? Doctor: The key is regular physical activity, thirty minutes per day minimum. Host: Even a simple walk? Doctor: Absolutely, brisk walking is excellent for the heart. Host: And for those who don't have time? Doctor: Take the stairs, park far away, every gesture counts.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La clé est l'activité physique régulière, trente minutes par jour minimum."],
+        "female_lines": ["Docteur Lefebvre, comment rester en bonne santé ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Absolument, la marche rapide est excellente pour le cœur."],
+        "female_lines": ["Même une simple marche ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Prenez les escaliers, stationnez loin, chaque geste compte."],
+        "female_lines": ["Et pour ceux qui n'ont pas le temps ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "section": "E",
+    "theme": "Radio interview - Technology",
+    "question": "Quelle est l'innovation présentée ?",
+    "options": [
+      { "id": "A", "text": "Une voiture électrique" },
+      { "id": "B", "text": "Un smartphone pliable" },
+      { "id": "C", "text": "Un robot domestique" },
+      { "id": "D", "text": "Des lunettes intelligentes" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Journaliste: Monsieur Dubois, présentez-nous votre nouveau produit. Inventeur: Il s'agit d'un robot domestique qui peut faire le ménage et la cuisine. Journaliste: Incroyable ! Comment fonctionne-t-il ? Inventeur: Il utilise l'intelligence artificielle pour apprendre vos habitudes. Journaliste: Quel est le prix ? Inventeur: Cinq mille dollars, mais il remplace plusieurs appareils.",
+    "transcript_en": "Journalist: Mr. Dubois, introduce us to your new product. Inventor: It's a domestic robot that can do housework and cooking. Journalist: Incredible! How does it work? Inventor: It uses artificial intelligence to learn your habits. Journalist: What is the price? Inventor: Five thousand dollars, but it replaces several appliances.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Il s'agit d'un robot domestique qui peut faire le ménage et la cuisine."],
+        "female_lines": ["Monsieur Dubois, présentez-nous votre nouveau produit."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Il utilise l'intelligence artificielle pour apprendre vos habitudes."],
+        "female_lines": ["Incroyable ! Comment fonctionne-t-il ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Cinq mille dollars, mais il remplace plusieurs appareils."],
+        "female_lines": ["Quel est le prix ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "section": "E",
+    "theme": "Radio interview - Culture",
+    "question": "Quel événement culturel est annoncé ?",
+    "options": [
+      { "id": "A", "text": "Un festival de musique" },
+      { "id": "B", "text": "Une exposition d'art" },
+      { "id": "C", "text": "Un festival de cinéma" },
+      { "id": "D", "text": "Un salon du livre" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Animatrice: Madame Roy, parlez-nous du festival de jazz de Montréal. Organisatrice: C'est le plus grand festival de jazz au monde avec deux millions de visiteurs. Animatrice: Quels artistes seront présents ? Organisatrice: Nous avons des légendes comme Herbie Hancock et de nouveaux talents locaux. Animatrice: Quand commence-t-il ? Organisatrice: Le vingt-huit juin pour dix jours de musique non-stop.",
+    "transcript_en": "Host: Mrs. Roy, tell us about the Montreal Jazz Festival. Organizer: It's the largest jazz festival in the world with two million visitors. Host: Which artists will be present? Organizer: We have legends like Herbie Hancock and new local talents. Host: When does it start? Organizer: June twenty-eighth for ten days of non-stop music.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Madame Roy, parlez-nous du festival de jazz de Montréal.", "C'est le plus grand festival de jazz au monde avec deux millions de visiteurs."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Quels artistes seront présents ?", "Nous avons des légendes comme Herbie Hancock et de nouveaux talents locaux."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Quand commence-t-il ?", "Le vingt-huit juin pour dix jours de musique non-stop."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "section": "F",
+    "theme": "Discussion - Opinions",
+    "question": "Quelle est l'opinion de Martin sur le télétravail ?",
+    "options": [
+      { "id": "A", "text": "Il est totalement contre" },
+      { "id": "B", "text": "Il est totalement pour" },
+      { "id": "C", "text": "Il a une opinion mitigée" },
+      { "id": "D", "text": "Il s'en fiche complètement" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Sophie: Martin, tu préfères travailler à la maison ou au bureau ? Martin: C'est compliqué. J'aime la flexibilité du télétravail mais je manque mes collègues. Sophie: Moi je trouve ça génial, je gagne deux heures de transport. Martin: Oui, mais la frontière entre vie pro et perso s'estompe. Sophie: Tu as raison, c'est difficile de déconnecter. Martin: Exactement, il faut trouver un équilibre.",
+    "transcript_en": "Sophie: Martin, do you prefer working from home or at the office? Martin: It's complicated. I like the flexibility of telework but I miss my colleagues. Sophie: I find it great, I save two hours of commuting. Martin: Yes, but the boundary between work and personal life blurs. Sophie: You're right, it's hard to disconnect. Martin: Exactly, we need to find a balance.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["C'est compliqué. J'aime la flexibilité du télétravail mais je manque mes collègues."],
+        "female_lines": ["Martin, tu préfères travailler à la maison ou au bureau ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Oui, mais la frontière entre vie pro et perso s'estompe."],
+        "female_lines": ["Moi je trouve ça génial, je gagne deux heures de transport."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Exactement, il faut trouver un équilibre."],
+        "female_lines": ["Tu as raison, c'est difficile de déconnecter."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "section": "F",
+    "theme": "Discussion - Opinions",
+    "question": "Que pense Laura de la nourriture bio ?",
+    "options": [
+      { "id": "A", "text": "C'est trop cher" },
+      { "id": "B", "text": "C'est meilleur pour la santé" },
+      { "id": "C", "text": "Ça n'a pas de goût" },
+      { "id": "D", "text": "C'est difficile à trouver" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Thomas: Laura, tu achètes des produits bio ? Laura: Oui, autant que possible. Je pense que c'est meilleur pour notre santé. Thomas: Mais c'est beaucoup plus cher ! Laura: C'est vrai, mais je préfère manger moins mais mieux. Thomas: Et tu trouves que ça a meilleur goût ? Laura: Définitivement, surtout les fruits et légumes de saison.",
+    "transcript_en": "Thomas: Laura, do you buy organic products? Laura: Yes, as much as possible. I think it's better for our health. Thomas: But it's much more expensive! Laura: That's true, but I prefer to eat less but better. Thomas: And you find that it tastes better? Laura: Definitely, especially seasonal fruits and vegetables.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Laura, tu achètes des produits bio ?"],
+        "female_lines": ["Oui, autant que possible. Je pense que c'est meilleur pour notre santé."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Mais c'est beaucoup plus cher !"],
+        "female_lines": ["C'est vrai, mais je préfère manger moins mais mieux."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Et tu trouves que ça a meilleur goût ?"],
+        "female_lines": ["Définitivement, surtout les fruits et légumes de saison."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "section": "F",
+    "theme": "Discussion - Opinions",
+    "question": "Quel est le désaccord entre les deux amis ?",
+    "options": [
+      { "id": "A", "text": "Où partir en vacances" },
+      { "id": "B", "text": "Quand partir en vacances" },
+      { "id": "C", "text": "Comment partir en vacances" },
+      { "id": "D", "text": "Avec qui partir en vacances" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Paul: Cette année, je veux aller à la plage en Floride. Marc: Encore ? Moi je préfère la montagne, faire de la randonnée. Paul: Mais il fait trop froid en hiver dans les montagnes. Marc: C'est justement l'avantage, il y a moins de monde. Paul: Je veux du soleil et de la mer. Marc: Et moi de l'air frais et des paysages. Paul: On ne sera jamais d'accord !",
+    "transcript_en": "Paul: This year, I want to go to the beach in Florida. Marc: Again? I prefer the mountains, hiking. Paul: But it's too cold in winter in the mountains. Marc: That's precisely the advantage, there are fewer people. Paul: I want sun and sea. Marc: And I want fresh air and landscapes. Paul: We'll never agree!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Cette année, je veux aller à la plage en Floride.", "Encore ? Moi je préfère la montagne, faire de la randonnée."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Mais il fait trop froid en hiver dans les montagnes.", "C'est justement l'avantage, il y a moins de monde."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je veux du soleil et de la mer.", "Et moi de l'air frais et des paysages."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["On ne sera jamais d'accord !"],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "section": "F",
+    "theme": "Discussion - Opinions",
+    "question": "Quelle solution proposent-ils pour le problème ?",
+    "options": [
+      { "id": "A", "text": "Acheter une nouvelle voiture" },
+      { "id": "B", "text": "Déménager plus près du travail" },
+      { "id": "C", "text": "Partager les trajets en covoiturage" },
+      { "id": "D", "text": "Prendre les transports en commun" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Isabelle: Le trafic est horrible pour aller au travail. François: On devrait essayer le covoiturage, ça réduirait les coûts. Isabelle: Bonne idée ! Tu connais quelqu'un qui fait le même trajet ? François: Oui, deux collègues habitent près de chez moi. Isabelle: Parfait, on pourrait alterner la conduite. François: Et c'est meilleur pour l'environnement aussi.",
+    "transcript_en": "Isabelle: The traffic is horrible to get to work. François: We should try carpooling, it would reduce costs. Isabelle: Good idea! Do you know anyone who makes the same commute? François: Yes, two colleagues live near me. Isabelle: Perfect, we could alternate driving. François: And it's better for the environment too.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["On devrait essayer le covoiturage, ça réduirait les coûts."],
+        "female_lines": ["Le trafic est horrible pour aller au travail."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Oui, deux collègues habitent près de chez moi."],
+        "female_lines": ["Bonne idée ! Tu connais quelqu'un qui fait le même trajet ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Et c'est meilleur pour l'environnement aussi."],
+        "female_lines": ["Parfait, on pourrait alterner la conduite."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "section": "G",
+    "theme": "Long text - Urban development",
+    "question": "Quel est l'argument principal du texte ?",
+    "options": [
+      { "id": "A", "text": "La ville doit rester historique" },
+      { "id": "B", "text": "La ville doit se moderniser" },
+      { "id": "C", "text": "La ville doit devenir verte" },
+      { "id": "D", "text": "La ville doit accueillir plus d'habitants" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Marie: Bonjour à tous, bienvenue dans notre débat sur l'avenir de notre ville. Pierre: Merci Marie. Je pense que nous devons absolument transformer notre centre-ville en zone piétonne. Marie: C'est une idée intéressante, mais comment les commerçants vont-ils recevoir leurs livraisons ? Pierre: Nous pourrions autoriser les livraisons uniquement entre cinq heures et sept heures du matin. Marie: Et pour les personnes âgées qui habitent au centre ? Pierre: Nous installerons des navettes électriques gratuites toutes les dix minutes. Marie: Qu'en est-il du coût de cette transformation ? Pierre: L'investissement initial est élevé, mais les retombées économiques seront importantes avec plus de touristes. Marie: Les écologistes soutiennent-ils ce projet ? Pierre: Oui, car cela réduira la pollution de l'air de quarante pour cent. Marie: Et les opposants ? Pierre: Certains craignent la perte de clients pour les magasins en périphérie. Marie: Avez-vous une solution pour eux ? Pierre: Nous créerons des parkings relais gratuits à l'entrée de la ville. Marie: Cela semble bien pensé globalement. Pierre: Notre objectif est une ville durable et agréable à vivre pour tous.",
+    "transcript_en": "Marie: Hello everyone, welcome to our debate on the future of our city. Pierre: Thank you Marie. I think we must absolutely transform our downtown into a pedestrian zone. Marie: That's an interesting idea, but how will merchants receive their deliveries? Pierre: We could allow deliveries only between five and seven in the morning. Marie: And for elderly people who live downtown? Pierre: We will install free electric shuttles every ten minutes. Marie: What about the cost of this transformation? Pierre: The initial investment is high, but the economic benefits will be significant with more tourists. Marie: Do environmentalists support this project? Pierre: Yes, because it will reduce air pollution by forty percent. Marie: And the opponents? Pierre: Some fear losing customers for peripheral stores. Marie: Do you have a solution for them? Pierre: We will create free park-and-rides at the city entrance. Marie: This seems well thought out overall. Pierre: Our goal is a sustainable and pleasant city to live in for everyone.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Merci Marie. Je pense que nous devons absolument transformer notre centre-ville en zone piétonne."],
+        "female_lines": ["Bonjour à tous, bienvenue dans notre débat sur l'avenir de notre ville."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nous pourrions autoriser les livraisons uniquement entre cinq heures et sept heures du matin."],
+        "female_lines": ["C'est une idée intéressante, mais comment les commerçants vont-ils recevoir leurs livraisons ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Nous installerons des navettes électriques gratuites toutes les dix minutes."],
+        "female_lines": ["Et pour les personnes âgées qui habitent au centre ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["L'investissement initial est élevé, mais les retombées économiques seront importantes avec plus de touristes."],
+        "female_lines": ["Qu'en est-il du coût de cette transformation ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Oui, car cela réduira la pollution de l'air de quarante pour cent."],
+        "female_lines": ["Les écologistes soutiennent-ils ce projet ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Certains craignent la perte de clients pour les magasins en périphérie."],
+        "female_lines": ["Et les opposants ?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Nous créerons des parkings relais gratuits à l'entrée de la ville."],
+        "female_lines": ["Avez-vous une solution pour eux ?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Notre objectif est une ville durable et agréable à vivre pour tous."],
+        "female_lines": ["Cela semble bien pensé globalement."]
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "section": "G",
+    "theme": "Long text - Education reform",
+    "question": "Quelle est la position de l'experte sur les devoirs ?",
+    "options": [
+      { "id": "A", "text": "Il faut en donner plus" },
+      { "id": "B", "text": "Il faut les supprimer" },
+      { "id": "C", "text": "Il faut les réduire" },
+      { "id": "D", "text": "Il faut les moderniser" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Journaliste: Professeur Martin, que pensez-vous des devoirs à la maison ? Experte: Je crois qu'il faut complètement réformer notre approche. Journaliste: Que suggérez-vous exactement ? Experte: Au lieu de devoirs écrits répétitifs, proposons des projets créatifs en ligne. Journaliste: Comment cela aiderait-il les élèves ? Experte: Ils développeraient des compétences numériques essentielles pour leur avenir. Journaliste: Et les parents qui n'ont pas internet à la maison ? Experte: L'école resterait ouverte jusqu'à dix-huit heures avec accès aux ordinateurs. Journaliste: C'est coûteux comme mesure. Experte: Oui, mais c'est un investissement dans l'égalité des chances. Journaliste: Les enseignants sont-ils formés pour cela ? Experte: Nous proposons une formation continue de vingt heures par an. Journaliste: Quels résultats attendez-vous ? Experte: Une motivation accrue et moins d'inégalités entre les élèves. Journaliste: Merci pour ces précisions éclairantes.",
+    "transcript_en": "Journalist: Professor Martin, what do you think about homework? Expert: I believe we must completely reform our approach. Journalist: What exactly do you suggest? Expert: Instead of repetitive written homework, let's propose creative online projects. Journalist: How would this help students? Expert: They would develop essential digital skills for their future. Journalist: And parents who don't have internet at home? Expert: The school would stay open until six PM with computer access. Journalist: That's an expensive measure. Expert: Yes, but it's an investment in equal opportunity. Journalist: Are teachers trained for this? Expert: We propose twenty hours of continuous training per year. Journalist: What results do you expect? Expert: Increased motivation and less inequality among students. Journalist: Thank you for these enlightening details.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Professeur Martin, que pensez-vous des devoirs à la maison ?", "Je crois qu'il faut complètement réformer notre approche."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Que suggérez-vous exactement ?", "Au lieu de devoirs écrits répétitifs, proposons des projets créatifs en ligne."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Comment cela aiderait-il les élèves ?", "Ils développeraient des compétences numériques essentielles pour leur avenir."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Et les parents qui n'ont pas internet à la maison ?", "L'école resterait ouverte jusqu'à dix-huit heures avec accès aux ordinateurs."]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": ["C'est coûteux comme mesure.", "Oui, mais c'est un investissement dans l'égalité des chances."]
+      },
+      {
+        "point": 6,
+        "male_lines": [],
+        "female_lines": ["Les enseignants sont-ils formés pour cela ?", "Nous proposons une formation continue de vingt heures par an."]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": ["Quels résultats attendez-vous ?", "Une motivation accrue et moins d'inégalités entre les élèves."]
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": ["Merci pour ces précisions éclairantes."]
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "section": "G",
+    "theme": "Long text - Immigration",
+    "question": "Quel est le défi principal discuté ?",
+    "options": [
+      { "id": "A", "text": "Le logement des immigrants" },
+      { "id": "B", "text": "L'intégration linguistique" },
+      { "id": "C", "text": "La reconnaissance des diplômes" },
+      { "id": "D", "text": "L'emploi des immigrants" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Animateur: Madame Gagnon, quel est le plus grand défi pour les immigrants au Québec ? Experte: Sans doute l'accès à un emploi correspondant à leurs qualifications. Animateur: Pouvez-vous développer ? Experte: Beaucoup de médecins étrangers travaillent comme chauffeurs ou caissiers. Animateur: Pourquoi cette situation ? Experte: La reconnaissance des diplômes est longue et complexe. Animateur: Quelles solutions existent ? Experte: Nous proposons des programmes de formation accélérée de six mois. Animateur: Et les employeurs sont-ils sensibilisés ? Experte: Nous organisons des forums de recrutement inclusifs chaque mois. Animateur: Quels résultats observe-t-on ? Experte: Soixante pour cent des participants trouvent un emploi dans leur domaine. Animateur: C'est encourageant. Experte: Oui, mais il reste beaucoup à faire pour l'égalité réelle. Animateur: Merci pour votre témoignage.",
+    "transcript_en": "Host: Mrs. Gagnon, what is the greatest challenge for immigrants in Quebec? Expert: Without doubt access to a job matching their qualifications. Host: Can you elaborate? Expert: Many foreign doctors work as drivers or cashiers. Host: Why this situation? Expert: Diploma recognition is long and complex. Host: What solutions exist? Expert: We propose accelerated training programs of six months. Host: And are employers sensitized? Expert: We organize inclusive recruitment forums every month. Host: What results are observed? Expert: Sixty percent of participants find a job in their field. Host: That's encouraging. Expert: Yes, but there remains much to do for real equality. Host: Thank you for your testimony.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Madame Gagnon, quel est le plus grand défi pour les immigrants au Québec ?", "Sans doute l'accès à un emploi correspondant à leurs qualifications."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Pouvez-vous développer ?", "Beaucoup de médecins étrangers travaillent comme chauffeurs ou caissiers."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Pourquoi cette situation ?", "La reconnaissance des diplômes est longue et complexe."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Quelles solutions existent ?", "Nous proposons des programmes de formation accélérée de six mois."]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": ["Et les employeurs sont-ils sensibilisés ?", "Nous organisons des forums de recrutement inclusifs chaque mois."]
+      },
+      {
+        "point": 6,
+        "male_lines": [],
+        "female_lines": ["Quels résultats observe-t-on ?", "Soixante pour cent des participants trouvent un emploi dans leur domaine."]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": ["C'est encourageant.", "Oui, mais il reste beaucoup à faire pour l'égalité réelle."]
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": ["Merci pour votre témoignage."]
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "section": "G",
+    "theme": "Long text - Technology and society",
+    "question": "Quelle est la crainte principale exprimée ?",
+    "options": [
+      { "id": "A", "text": "La perte d'emplois" },
+      { "id": "B", "text": "La perte de vie privée" },
+      { "id": "C", "text": "La dépendance technologique" },
+      { "id": "D", "text": "La fracture numérique" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Sophie: Thomas, les réseaux sociaux sont-ils dangereux selon toi ? Thomas: Absolument, surtout pour notre vie privée. Sophie: Que veux-tu dire exactement ? Thomas: Nos données personnelles sont revendues à des entreprises sans notre consentement réel. Sophie: Mais on accepte les conditions d'utilisation. Thomas: Qui lit vraiment ces centaines de pages ? Sophie: Personne, c'est vrai. Thomas: Et les algorithmes nous espionnent constamment. Sophie: Tu penses aux publicités ciblées ? Thomas: Oui, et pire, à la manipulation de nos opinions politiques. Sophie: C'est inquiétant effectivement. Thomas: Nous sommes devenus des produits, pas des utilisateurs. Sophie: Que peut-on faire ? Thomas: Exiger des lois plus strictes sur la protection des données. Sophie: Les gouvernements agissent-ils ? Thomas: Trop lentement, les lobbies technologiques sont trop puissants. Sophie: Il faut alerter l'opinion publique. Thomas: C'est notre responsabilité collective.",
+    "transcript_en": "Sophie: Thomas, are social networks dangerous according to you? Thomas: Absolutely, especially for our privacy. Sophie: What do you mean exactly? Thomas: Our personal data is resold to companies without our real consent. Sophie: But we accept the terms of use. Thomas: Who really reads those hundreds of pages? Sophie: Nobody, that's true. Thomas: And algorithms spy on us constantly. Sophie: You're thinking of targeted ads? Thomas: Yes, and worse, the manipulation of our political opinions. Sophie: That's worrying indeed. Thomas: We have become products, not users. Sophie: What can we do? Thomas: Demand stricter laws on data protection. Sophie: Are governments acting? Thomas: Too slowly, technology lobbies are too powerful. Sophie: We must alert public opinion. Thomas: It's our collective responsibility.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Absolument, surtout pour notre vie privée."],
+        "female_lines": ["Thomas, les réseaux sociaux sont-ils dangereux selon toi ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nos données personnelles sont revendues à des entreprises sans notre consentement réel."],
+        "female_lines": ["Que veux-tu dire exactement ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Qui lit vraiment ces centaines de pages ?"],
+        "female_lines": ["Mais on accepte les conditions d'utilisation."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Et les algorithmes nous espionnent constamment."],
+        "female_lines": ["Personne, c'est vrai."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Oui, et pire, à la manipulation de nos opinions politiques."],
+        "female_lines": ["Tu penses aux publicités ciblées ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Nous sommes devenus des produits, pas des utilisateurs."],
+        "female_lines": ["C'est inquiétant effectivement."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Exiger des lois plus strictes sur la protection des données."],
+        "female_lines": ["Que peut-on faire ?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Trop lentement, les lobbies technologiques sont trop puissants."],
+        "female_lines": ["Les gouvernements agissent-ils ?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["C'est notre responsabilité collective."],
+        "female_lines": ["Il faut alerter l'opinion publique."]
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "section": "G",
+    "theme": "Long text - Healthcare system",
+    "question": "Quelle est la proposition clé du médecin ?",
+    "options": [
+      { "id": "A", "text": "Plus d'hôpitaux" },
+      { "id": "B", "text": "Plus de médecins" },
+      { "id": "C", "text": "La télémédecine" },
+      { "id": "D", "text": "La médecine préventive" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Journaliste: Docteur Petit, comment améliorer notre système de santé ? Médecin: Nous devons passer d'une médecine curative à une médecine préventive. Journaliste: Que signifie cela concrètement ? Médecin: Au lieu d'attendre que les gens soient malades, dépistons les risques tôt. Journaliste: Quels types de dépistage ? Médecin: Diabète, hypertension, cancers, tout peut être anticipé. Journaliste: Et le coût de ces dépistages ? Médecin: Moins cher que de soigner des maladies avancées. Journaliste: Les patients sont-ils réceptifs ? Médecin: Quand on explique les bénéfices, oui. Journaliste: Quel rôle pour les généralistes ? Médecin: Ils deviendraient des coachs de santé, pas juste des prescripteurs. Journaliste: C'est une révolution culturelle. Médecin: Nécessaire pour sauver notre système.",
+    "transcript_en": "Journalist: Dr. Petit, how to improve our healthcare system? Doctor: We must move from curative medicine to preventive medicine. Journalist: What does that mean concretely? Doctor: Instead of waiting for people to get sick, let's screen for risks early. Journalist: What types of screening? Doctor: Diabetes, hypertension, cancers, everything can be anticipated. Journalist: And the cost of these screenings? Doctor: Cheaper than treating advanced diseases. Journalist: Are patients receptive? Doctor: When we explain the benefits, yes. Journalist: What role for general practitioners? Doctor: They would become health coaches, not just prescribers. Journalist: That's a cultural revolution. Doctor: Necessary to save our system.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nous devons passer d'une médecine curative à une médecine préventive."],
+        "female_lines": ["Docteur Petit, comment améliorer notre système de santé ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Au lieu d'attendre que les gens soient malades, dépistons les risques tôt."],
+        "female_lines": ["Que signifie cela concrètement ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Diabète, hypertension, cancers, tout peut être anticipé."],
+        "female_lines": ["Quels types de dépistage ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Moins cher que de soigner des maladies avancées."],
+        "female_lines": ["Et le coût de ces dépistages ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Quand on explique les bénéfices, oui."],
+        "female_lines": ["Les patients sont-ils réceptifs ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Ils deviendraient des coachs de santé, pas juste des prescripteurs."],
+        "female_lines": ["Quel rôle pour les généralistes ?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Nécessaire pour sauver notre système."],
+        "female_lines": ["C'est une révolution culturelle."]
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "section": "H",
+    "theme": "Complex recording - Philosophy",
+    "question": "Quelle est la thèse défendue par le philosophe ?",
+    "options": [
+      { "id": "A", "text": "Le bonheur est une illusion" },
+      { "id": "B", "text": "Le bonheur dépend de nous" },
+      { "id": "C", "text": "Le bonheur vient des autres" },
+      { "id": "D", "text": "Le bonheur est matériel" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Conférencier: Mes chers auditeurs, permettez-moi de vous parler du bonheur. Intervenante: Pensez-vous que tout le monde peut être heureux ? Conférencier: Oui, car le bonheur n'est pas une destination mais une manière de voyager. Intervenante: N'est-ce pas une vision trop idéaliste ? Conférencier: Pas du tout. Les stoïciens nous enseignent que notre attitude détermine notre bien-être. Intervenante: Malgré les difficultés de la vie ? Conférencier: Précisément. Nous ne contrôlons pas les événements, mais notre réaction face à eux. Intervenante: Comment appliquer cela concrètement ? Conférencier: En pratiquant la gratitude quotidienne et l'acceptation. Intervenante: C'est accessible à tous ? Conférencier: Oui, c'est une discipline mentale, pas un don du ciel.",
+    "transcript_en": "Speaker: My dear listeners, allow me to talk to you about happiness. Participant: Do you think everyone can be happy? Speaker: Yes, because happiness is not a destination but a way of traveling. Participant: Isn't that too idealistic a view? Speaker: Not at all. The Stoics teach us that our attitude determines our well-being. Participant: Despite life's difficulties? Speaker: Precisely. We don't control events, but our reaction to them. Participant: How to apply this concretely? Speaker: By practicing daily gratitude and acceptance. Participant: Is this accessible to everyone? Speaker: Yes, it's a mental discipline, not a gift from heaven.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mes chers auditeurs, permettez-moi de vous parler du bonheur."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Oui, car le bonheur n'est pas une destination mais une manière de voyager."],
+        "female_lines": ["Pensez-vous que tout le monde peut être heureux ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Pas du tout. Les stoïciens nous enseignent que notre attitude détermine notre bien-être."],
+        "female_lines": ["N'est-ce pas une vision trop idéaliste ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Précisément. Nous ne contrôlons pas les événements, mais notre réaction face à eux."],
+        "female_lines": ["Malgré les difficultés de la vie ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["En pratiquant la gratitude quotidienne et l'acceptation."],
+        "female_lines": ["Comment appliquer cela concrètement ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Oui, c'est une discipline mentale, pas un don du ciel."],
+        "female_lines": ["C'est accessible à tous ?"]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "section": "H",
+    "theme": "Complex recording - Economics",
+    "question": "Quel est l'argument contre la croissance infinie ?",
+    "options": [
+      { "id": "A", "text": "Elle crée du chômage" },
+      { "id": "B", "text": "Elle est impossible physiquement" },
+      { "id": "C", "text": "Elle nuit à l'environnement" },
+      { "id": "D", "text": "Elle augmente les inégalités" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Économiste: Notre modèle économique actuel repose sur une croissance perpétuelle. Journaliste: Quel est le problème selon vous ? Économiste: C'est mathématiquement impossible sur une planète finie. Journaliste: Pourquoi impossible ? Économiste: Les ressources sont limitées, donc la croissance infinie mène à l'épuisement. Journaliste: Mais la technologie ne compense-t-elle pas ? Économiste: Temporairement seulement. L'efficacité a des limites physiques. Journaliste: Quelle alternative proposez-vous ? Économiste: Une économie stationnaire où la qualité prime sur la quantité. Journaliste: Les entreprises accepteront-elles ? Économiste: Elles n'auront pas le choix, la nature imposera ses limites.",
+    "transcript_en": "Economist: Our current economic model is based on perpetual growth. Journalist: What is the problem according to you? Economist: It's mathematically impossible on a finite planet. Journalist: Why impossible? Economist: Resources are limited, so infinite growth leads to exhaustion. Journalist: But doesn't technology compensate? Economist: Only temporarily. Efficiency has physical limits. Journalist: What alternative do you propose? Economist: A steady-state economy where quality prevails over quantity. Journalist: Will businesses accept this? Economist: They won't have a choice, nature will impose its limits.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Notre modèle économique actuel repose sur une croissance perpétuelle."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est mathématiquement impossible sur une planète finie."],
+        "female_lines": ["Quel est le problème selon vous ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les ressources sont limitées, donc la croissance infinie mène à l'épuisement."],
+        "female_lines": ["Pourquoi impossible ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Temporairement seulement. L'efficacité a des limites physiques."],
+        "female_lines": ["Mais la technologie ne compense-t-elle pas ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Une économie stationnaire où la qualité prime sur la quantité."],
+        "female_lines": ["Quelle alternative proposez-vous ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Elles n'auront pas le choix, la nature imposera ses limites."],
+        "female_lines": ["Les entreprises accepteront-elles ?"]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "section": "H",
+    "theme": "Complex recording - Artificial Intelligence",
+    "question": "Quelle est la crainte principale concernant l'IA ?",
+    "options": [
+      { "id": "A", "text": "Elle va remplacer les humains" },
+      { "id": "B", "text": "Elle va devenir incontrôlable" },
+      { "id": "C", "text": "Elle va créer des guerres" },
+      { "id": "D", "text": "Elle va détruire l'économie" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Chercheur: L'intelligence artificielle pose des défis éthiques majeurs. Intervieweuse: Lesquels précisément ? Chercheur: Le risque d'une superintelligence qui échappe à notre contrôle. Intervieweuse: C'est de la science-fiction non ? Chercheur: Pas du tout. Les algorithmes d'apprentissage évoluent exponentiellement. Intervieweuse: Quand cela deviendrait-il dangereux ? Chercheur: Quand l'IA fixera ses propres objectifs sans alignement sur les valeurs humaines. Intervieweuse: Peut-on empêcher cela ? Chercheur: Seulement si nous développons des mécanismes de contrôle robustes maintenant. Intervieweuse: Sommes-nous en retard ? Chercheur: Oui, la recherche avance plus vite que la réglementation.",
+    "transcript_en": "Researcher: Artificial intelligence poses major ethical challenges. Interviewer: Which ones precisely? Researcher: The risk of a superintelligence that escapes our control. Interviewer: That's science fiction, isn't it? Researcher: Not at all. Learning algorithms evolve exponentially. Interviewer: When would this become dangerous? Researcher: When AI sets its own goals without alignment with human values. Interviewer: Can we prevent this? Researcher: Only if we develop robust control mechanisms now. Interviewer: Are we behind? Researcher: Yes, research advances faster than regulation.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'intelligence artificielle pose des défis éthiques majeurs."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le risque d'une superintelligence qui échappe à notre contrôle."],
+        "female_lines": ["Lesquels précisément ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Pas du tout. Les algorithmes d'apprentissage évoluent exponentiellement."],
+        "female_lines": ["C'est de la science-fiction non ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Quand l'IA fixera ses propres objectifs sans alignement sur les valeurs humaines."],
+        "female_lines": ["Quand cela deviendrait-il dangereux ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Seulement si nous développons des mécanismes de contrôle robustes maintenant."],
+        "female_lines": ["Peut-on empêcher cela ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Oui, la recherche avance plus vite que la réglementation."],
+        "female_lines": ["Sommes-nous en retard ?"]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "section": "H",
+    "theme": "Complex recording - Neuroscience",
+    "question": "Quelle découverte est présentée ?",
+    "options": [
+      { "id": "A", "text": "La mémoire est localisée dans une zone précise" },
+      { "id": "B", "text": "Le cerveau peut se régénérer" },
+      { "id": "C", "text": "La conscience est une illusion" },
+      { "id": "D", "text": "Les émotions modifient la structure cérébrale" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Neuroscientifique: Nos dernières recherches révèlent une plasticité émotionnelle inattendue. Journaliste: Que signifie ce terme ? Neuroscientifique: Nos émotions, répétées, modifient physiquement la structure de notre cerveau. Journaliste: Donc le stress chronique ? Neuroscientifique: Il rétrécit l'hippocampe, affectant la mémoire et l'apprentissage. Journaliste: Et les émotions positives ? Neuroscientifique: Elles renforcent les connexions neuronales dans le cortex préfrontal. Journaliste: C'est réversible ? Neuroscientifique: Oui, avec la méditation et la thérapie, le cerveau peut se réorganiser. Journaliste: Quelle implication pour l'éducation ? Neuroscientifique: Créer des environnements émotionnellement sûrs pour optimiser l'apprentissage.",
+    "transcript_en": "Neuroscientist: Our latest research reveals unexpected emotional plasticity. Journalist: What does this term mean? Neuroscientist: Our emotions, when repeated, physically modify the structure of our brain. Journalist: So chronic stress? Neuroscientist: It shrinks the hippocampus, affecting memory and learning. Journalist: And positive emotions? Neuroscientist: They strengthen neural connections in the prefrontal cortex. Journalist: Is this reversible? Neuroscientist: Yes, with meditation and therapy, the brain can reorganize itself. Journalist: What implication for education? Neuroscientist: Create emotionally safe environments to optimize learning.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nos dernières recherches révèlent une plasticité émotionnelle inattendue."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nos émotions, répétées, modifient physiquement la structure de notre cerveau."],
+        "female_lines": ["Que signifie ce terme ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Il rétrécit l'hippocampe, affectant la mémoire et l'apprentissage."],
+        "female_lines": ["Donc le stress chronique ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Elles renforcent les connexions neuronales dans le cortex préfrontal."],
+        "female_lines": ["Et les émotions positives ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Oui, avec la méditation et la thérapie, le cerveau peut se réorganiser."],
+        "female_lines": ["C'est réversible ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Créer des environnements émotionnellement sûrs pour optimiser l'apprentissage."],
+        "female_lines": ["Quelle implication pour l'éducation ?"]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "section": "H",
+    "theme": "Complex recording - Linguistics",
+    "question": "Quel phénomène linguistique est décrit ?",
+    "options": [
+      { "id": "A", "text": "La disparition des langues" },
+      { "id": "B", "text": "L'évolution du français" },
+      { "id": "C", "text": "Le bilinguisme créatif" },
+      { "id": "D", "text": "La création d'un pidgin" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Linguiste: Nous observons un phénomène fascinant chez les jeunes Québécois bilingues. Journaliste: Lequel ? Linguiste: Un mélange créatif de français et d'anglais qu'ils appellent le 'franglais innovant'. Journaliste: Ce n'est pas nouveau ? Linguiste: Si, car ce n'est plus un simple emprunt mais une grammaire hybride stable. Journaliste: Donnez-moi un exemple. Linguiste: 'Je vais checker mes emails' devient grammatical dans leur système. Journaliste: Les puristes ne sont pas choqués ? Linguiste: Ils s'insurgent, mais c'est l'évolution naturelle du langage. Journaliste: Cela s'enseigne-t-il ? Linguiste: Non, c'est acquis naturellement dans la communication entre pairs.",
+    "transcript_en": "Linguist: We are observing a fascinating phenomenon among young bilingual Quebecers. Journalist: Which one? Linguist: A creative mix of French and English that they call 'innovative Franglais'. Journalist: Isn't this new? Linguist: Yes, because it's no longer simple borrowing but a stable hybrid grammar. Journalist: Give me an example. Linguist: 'I'm going to check my emails' becomes grammatical in their system. Journalist: Aren't purists shocked? Linguist: They protest, but it's the natural evolution of language. Journalist: Is this taught? Linguist: No, it's acquired naturally in peer communication.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nous observons un phénomène fascinant chez les jeunes Québécois bilingues."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Un mélange créatif de français et d'anglais qu'ils appellent le 'franglais innovant'."],
+        "female_lines": ["Lequel ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Si, car ce n'est plus un simple emprunt mais une grammaire hybride stable."],
+        "female_lines": ["Ce n'est pas nouveau ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["'Je vais checker mes emails' devient grammatical dans leur système."],
+        "female_lines": ["Donnez-moi un exemple."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Ils s'insurgent, mais c'est l'évolution naturelle du langage."],
+        "female_lines": ["Les puristes ne sont pas choqués ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Non, c'est acquis naturellement dans la communication entre pairs."],
+        "female_lines": ["Cela s'enseigne-t-il ?"]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  }
+]

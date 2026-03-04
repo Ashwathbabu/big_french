@@ -1,0 +1,50 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Expression écrite",
+  "duration_minutes": 60,
+  "sections": [
+    {
+      "id": 1,
+      "section": "A",
+      "title": "Rédiger la suite d'un article",
+      "time_minutes": 20,
+      "word_limit": {
+        "min": 80,
+        "max": 150
+      },
+      "instructions": [
+        "Lisez le début de l'article ci-dessous.",
+        "Continuez l'article avec un ton journalistique.",
+        "Ajoutez des détails, des réactions et des conséquences.",
+        "Utilisez principalement les temps du passé.",
+        "Minimum 80 mots."
+      ],
+      "article_start": "Une panne d'électricité a plongé toute la ville dans le noir hier soir vers 19 heures. Les commerces ont dû fermer plus tôt que prévu et plusieurs feux de circulation ont cessé de fonctionner. Les autorités municipales ont immédiatement ouvert une enquête pour déterminer l'origine du problème."
+    },
+    {
+      "id": 2,
+      "section": "B",
+      "title": "Rédiger un texte argumentatif",
+      "time_minutes": 40,
+      "word_limit": {
+        "min": 200,
+        "max": 300
+      },
+      "instructions": [
+        "Présentez clairement votre opinion.",
+        "Développez au moins deux arguments avec des exemples précis.",
+        "Utilisez des connecteurs logiques.",
+        "Structurez votre texte avec une introduction, un développement et une conclusion.",
+        "Minimum 200 mots."
+      ],
+      "prompt": "Faut-il interdire l'utilisation des smartphones à l'école ? Justifiez votre réponse."
+    }
+  ],
+  "evaluation": {
+    "task_completion": 25,
+    "coherence_and_structure": 20,
+    "vocabulary_range": 20,
+    "grammar_accuracy": 20,
+    "spelling_and_punctuation": 15
+  }
+}

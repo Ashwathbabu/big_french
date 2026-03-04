@@ -1,0 +1,1897 @@
+﻿[
+  {
+    "id": 1,
+    "section": "A",
+    "theme": "Daily activities",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne boit du café", "image_prompt": "A person drinking coffee at a kitchen table in the morning" },
+      { "id": "B", "text": "Une personne prend le bus", "image_prompt": "A person waiting at a bus stop with a backpack" },
+      { "id": "C", "text": "Une personne lit le journal", "image_prompt": "A person reading a newspaper on a sofa" },
+      { "id": "D", "text": "Une personne cuisine le dîner", "image_prompt": "A person cooking dinner in a modern kitchen" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Chaque matin, avant d'aller travailler, je prends toujours une grande tasse de café noir pour me réveiller.",
+    "transcript_en": "Every morning, before going to work, I always have a big cup of black coffee to wake up.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Chaque matin, avant d'aller travailler,",
+          "je prends toujours une grande tasse de café noir pour me réveiller."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "A",
+    "theme": "Transportation",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une voiture rouge", "image_prompt": "A red car parked on a city street" },
+      { "id": "B", "text": "Un train à grande vitesse", "image_prompt": "A high-speed train at a station platform" },
+      { "id": "C", "text": "Un avion décollant", "image_prompt": "An airplane taking off from a runway" },
+      { "id": "D", "text": "Un vélo de montagne", "image_prompt": "A mountain bike on a forest trail" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Je préfère prendre le train pour mes déplacements entre Montréal et Toronto, c'est beaucoup plus relaxant que de conduire.",
+    "transcript_en": "I prefer taking the train for my trips between Montreal and Toronto, it's much more relaxing than driving.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Je préfère prendre le train pour mes déplacements entre Montréal et Toronto,",
+          "c'est beaucoup plus relaxant que de conduire."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "A",
+    "theme": "Food",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une pizza italienne", "image_prompt": "A traditional Italian pizza with mozzarella and basil" },
+      { "id": "B", "text": "Des sushis japonais", "image_prompt": "Fresh sushi rolls on a wooden platter" },
+      { "id": "C", "text": "Un burger classique", "image_prompt": "A classic beef burger with fries on the side" },
+      { "id": "D", "text": "Une salade verte", "image_prompt": "A fresh green salad with vegetables in a bowl" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Aujourd'hui, j'ai vraiment envie de manger un bon burger avec du fromage fondant et des frites croustillantes.",
+    "transcript_en": "Today, I really feel like eating a good burger with melted cheese and crispy fries.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Aujourd'hui, j'ai vraiment envie de manger un bon burger",
+          "avec du fromage fondant et des frites croustillantes."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "section": "A",
+    "theme": "Weather",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un ciel ensoleillé", "image_prompt": "A bright sunny sky with few clouds" },
+      { "id": "B", "text": "De la neige qui tombe", "image_prompt": "Heavy snowfall covering trees and streets" },
+      { "id": "C", "text": "Un orage avec éclairs", "image_prompt": "A thunderstorm with lightning in dark clouds" },
+      { "id": "D", "text": "Un arc-en-ciel", "image_prompt": "A colorful rainbow across the sky after rain" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Il neige tellement fort depuis ce matin que les routes sont complètement blanches et difficiles à emprunter.",
+    "transcript_en": "It has been snowing so hard since this morning that the roads are completely white and difficult to use.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Il neige tellement fort depuis ce matin",
+          "que les routes sont complètement blanches et difficiles à emprunter."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "A",
+    "theme": "Shopping",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un supermarché moderne", "image_prompt": "A modern supermarket aisle with products on shelves" },
+      { "id": "B", "text": "Un marché en plein air", "image_prompt": "An outdoor farmers market with fresh produce stalls" },
+      { "id": "C", "text": "Une pharmacie", "image_prompt": "The interior of a pharmacy with medicine displays" },
+      { "id": "D", "text": "Un magasin de vêtements", "image_prompt": "A clothing store with racks of colorful garments" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Je dois passer au supermarché ce soir pour acheter du lait, du pain et quelques légumes frais pour la semaine.",
+    "transcript_en": "I need to stop by the supermarket tonight to buy milk, bread, and some fresh vegetables for the week.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Je dois passer au supermarché ce soir pour acheter du lait,",
+          "du pain et quelques légumes frais pour la semaine."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "section": "A",
+    "theme": "Work",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un bureau avec ordinateur", "image_prompt": "A modern office desk with computer and documents" },
+      { "id": "B", "text": "Une réunion d'équipe", "image_prompt": "A business team meeting around a conference table" },
+      { "id": "C", "text": "Un ouvrier en construction", "image_prompt": "A construction worker wearing a hard hat at a building site" },
+      { "id": "D", "text": "Un professeur au tableau", "image_prompt": "A teacher writing on a blackboard in a classroom" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Mon frère travaille sur les chantiers de construction depuis dix ans, il adore bâtir des maisons et des édifices.",
+    "transcript_en": "My brother has been working on construction sites for ten years, he loves building houses and buildings.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Mon frère travaille sur les chantiers de construction depuis dix ans,",
+          "il adore bâtir des maisons et des édifices."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "section": "B",
+    "theme": "Restaurant",
+    "question": "Où se déroule cette conversation ?",
+    "options": [
+      { "id": "A", "text": "Dans un musée", "image_prompt": "" },
+      { "id": "B", "text": "Dans un restaurant", "image_prompt": "" },
+      { "id": "C", "text": "Dans une bibliothèque", "image_prompt": "" },
+      { "id": "D", "text": "Dans un cinéma", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme : Bonjour madame, avez-vous réservé une table pour ce soir ? Femme : Oui, j'ai réservé au nom de Martin pour quatre personnes. Homme : Très bien, suivez-moi, votre table est près de la fenêtre. Femme : Parfait, merci beaucoup. Pourriez-vous nous apporter la carte des vins ?",
+    "transcript_en": "Man: Hello madam, do you have a reservation for tonight? Woman: Yes, I made a reservation under the name Martin for four people. Man: Very well, follow me, your table is near the window. Woman: Perfect, thank you very much. Could you bring us the wine menu?",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Bonjour madame, avez-vous réservé une table pour ce soir ?",
+          "Très bien, suivez-moi, votre table est près de la fenêtre."
+        ],
+        "female_lines": [
+          "Oui, j'ai réservé au nom de Martin pour quatre personnes.",
+          "Parfait, merci beaucoup. Pourriez-vous nous apporter la carte des vins ?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "section": "B",
+    "theme": "Doctor",
+    "question": "Quel est le sujet principal de cette conversation ?",
+    "options": [
+      { "id": "A", "text": "Un rendez-vous médical", "image_prompt": "" },
+      { "id": "B", "text": "Un achat de médicaments", "image_prompt": "" },
+      { "id": "C", "text": "Une consultation juridique", "image_prompt": "" },
+      { "id": "D", "text": "Une inscription à un cours", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme : Bonjour docteur, j'ai mal à la gorge depuis trois jours et j'ai de la fièvre. Homme : Je vais vous examiner. Ouvrez la bouche et dites 'aaaah'. Femme : Aaaah. Homme : Vous avez une infection. Je vais vous prescrire des antibiotiques.",
+    "transcript_en": "Woman: Hello doctor, I have had a sore throat for three days and I have a fever. Man: I will examine you. Open your mouth and say 'aaah'. Woman: Aaah. Man: You have an infection. I will prescribe antibiotics for you.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Je vais vous examiner. Ouvrez la bouche et dites 'aaaah'.",
+          "Vous avez une infection. Je vais vous prescrire des antibiotiques."
+        ],
+        "female_lines": [
+          "Bonjour docteur, j'ai mal à la gorge depuis trois jours et j'ai de la fièvre.",
+          "Aaaah."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "section": "B",
+    "theme": "Bank",
+    "question": "Que veut faire la cliente ?",
+    "options": [
+      { "id": "A", "text": "Ouvrir un compte", "image_prompt": "" },
+      { "id": "B", "text": "Faire un virement", "image_prompt": "" },
+      { "id": "C", "text": "Demander un prêt", "image_prompt": "" },
+      { "id": "D", "text": "Fermer son compte", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme : Bonjour, bienvenue à la Banque Royale. Comment puis-je vous aider aujourd'hui ? Femme : Bonjour, je voudrais faire un virement de cinq cents dollars vers mon compte épargne. Homme : D'accord, avez-vous votre carte de débit avec vous ? Femme : Oui, la voici.",
+    "transcript_en": "Man: Hello, welcome to the Royal Bank. How can I help you today? Woman: Hello, I would like to transfer five hundred dollars to my savings account. Man: Okay, do you have your debit card with you? Woman: Yes, here it is.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Bonjour, bienvenue à la Banque Royale. Comment puis-je vous aider aujourd'hui ?",
+          "D'accord, avez-vous votre carte de débit avec vous ?"
+        ],
+        "female_lines": [
+          "Bonjour, je voudrais faire un virement de cinq cents dollars vers mon compte épargne.",
+          "Oui, la voici."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "section": "B",
+    "theme": "Post office",
+    "question": "Quel service le client utilise-t-il ?",
+    "options": [
+      { "id": "A", "text": "Envoyer un colis", "image_prompt": "" },
+      { "id": "B", "text": "Acheter des timbres", "image_prompt": "" },
+      { "id": "C", "text": "Retirer de l'argent", "image_prompt": "" },
+      { "id": "D", "text": "Renouveler son passeport", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme : Bonjour monsieur, que puis-je faire pour vous ? Homme : Bonjour, je voudrais envoyer ce colis à Vancouver. Femme : D'accord, voulez-vous l'envoi standard ou express ? Homme : Express s'il vous plaît, c'est urgent.",
+    "transcript_en": "Woman: Hello sir, what can I do for you? Man: Hello, I would like to send this package to Vancouver. Woman: Okay, would you like standard or express shipping? Man: Express please, it's urgent.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Bonjour, je voudrais envoyer ce colis à Vancouver.",
+          "Express s'il vous plaît, c'est urgent."
+        ],
+        "female_lines": [
+          "Bonjour monsieur, que puis-je faire pour vous ?",
+          "D'accord, voulez-vous l'envoi standard ou express ?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "section": "C",
+    "theme": "Airport announcement",
+    "question": "Quelle information est donnée dans cette annonce ?",
+    "options": [
+      { "id": "A", "text": "Un vol est retardé", "image_prompt": "" },
+      { "id": "B", "text": "Un vol est annulé", "image_prompt": "" },
+      { "id": "C", "text": "L'embarquement commence", "image_prompt": "" },
+      { "id": "D", "text": "Un vol est surbooké", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Mesdames et messieurs, nous vous informons que l'embarquement pour le vol Air Canada numéro trois cent vingt-cinq à destination de Calgary va commencer dans quelques minutes. Les passagers voyageant en classe affaires et les familles avec jeunes enfants sont priés de se présenter au portique numéro douze. Nous vous rappelons que chaque passager ne peut emporter qu'un bagage à main et un article personnel à bord de l'appareil. Merci de votre attention et bon voyage.",
+    "transcript_en": "Ladies and gentlemen, we inform you that boarding for Air Canada flight number three hundred twenty-five to Calgary will begin in a few minutes. Passengers traveling in business class and families with young children are requested to proceed to gate number twelve. We remind you that each passenger may only carry one carry-on bag and one personal item on board the aircraft. Thank you for your attention and have a good flight.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Mesdames et messieurs, nous vous informons que l'embarquement pour le vol Air Canada numéro trois cent vingt-cinq à destination de Calgary va commencer dans quelques minutes.",
+          "Les passagers voyageant en classe affaires et les familles avec jeunes enfants sont priés de se présenter au portique numéro douze.",
+          "Nous vous rappelons que chaque passager ne peut emporter qu'un bagage à main et un article personnel à bord de l'appareil.",
+          "Merci de votre attention et bon voyage."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "section": "C",
+    "theme": "Museum announcement",
+    "question": "Que peut-on faire au musée selon cette annonce ?",
+    "options": [
+      { "id": "A", "text": "Visiter une exposition temporaire", "image_prompt": "" },
+      { "id": "B", "text": "Assister à un concert", "image_prompt": "" },
+      { "id": "C", "text": "Participer à un atelier de peinture", "image_prompt": "" },
+      { "id": "D", "text": "Voir un film documentaire", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Chers visiteurs, bienvenue au Musée des Beaux-Arts de Montréal. Nous vous invitons à découvrir notre nouvelle exposition temporaire consacrée aux impressionnistes canadiens, accessible au deuxième étage jusqu'au trente et un mars prochain. L'entrée est gratuite pour les membres du musée. Des visites guidées sont organisées tous les jours à quatorze heures. Le musée ferme ses portes à dix-huit heures ce soir. Profitez bien de votre visite.",
+    "transcript_en": "Dear visitors, welcome to the Montreal Museum of Fine Arts. We invite you to discover our new temporary exhibition dedicated to Canadian Impressionists, accessible on the second floor until March thirty-first next. Entry is free for museum members. Guided tours are organized every day at two PM. The museum closes its doors at six PM tonight. Enjoy your visit.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Chers visiteurs, bienvenue au Musée des Beaux-Arts de Montréal.",
+          "Nous vous invitons à découvrir notre nouvelle exposition temporaire consacrée aux impressionnistes canadiens, accessible au deuxième étage jusqu'au trente et un mars prochain.",
+          "L'entrée est gratuite pour les membres du musée.",
+          "Des visites guidées sont organisées tous les jours à quatorze heures.",
+          "Le musée ferme ses portes à dix-huit heures ce soir.",
+          "Profitez bien de votre visite."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "section": "C",
+    "theme": "Train station announcement",
+    "question": "Quel changement est annoncé ?",
+    "options": [
+      { "id": "A", "text": "Le train part plus tôt", "image_prompt": "" },
+      { "id": "B", "text": "Le train part plus tard", "image_prompt": "" },
+      { "id": "C", "text": "Le train change de quai", "image_prompt": "" },
+      { "id": "D", "text": "Le train est supprimé", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Attention voyageurs, le train VIA Rail numéro soixante-quinze à destination de Québec, initialement prévu à quatorze heures trente, partira avec un retard de vingt minutes en raison de travaux sur la voie. Nous vous prions de bien vouloir nous excuser pour ce désagrément. Le départ est maintenant fixé à quatorze heures cinquante depuis le même quai. Les passagers peuvent rester dans la salle d'attente climatisée en attendant l'arrivée du train.",
+    "transcript_en": "Attention passengers, VIA Rail train number seventy-five to Quebec, initially scheduled for two thirty PM, will depart with a twenty-minute delay due to track work. We apologize for this inconvenience. Departure is now set for two fifty PM from the same platform. Passengers may stay in the air-conditioned waiting room until the train arrives.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Attention voyageurs, le train VIA Rail numéro soixante-quinze à destination de Québec, initialement prévu à quatorze heures trente, partira avec un retard de vingt minutes en raison de travaux sur la voie.",
+          "Nous vous prions de bien vouloir nous excuser pour ce désagrément.",
+          "Le départ est maintenant fixé à quatorze heures cinquante depuis le même quai.",
+          "Les passagers peuvent rester dans la salle d'attente climatisée en attendant l'arrivée du train."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "section": "C",
+    "theme": "Supermarket announcement",
+    "question": "Quelle promotion est annoncée ?",
+    "options": [
+      { "id": "A", "text": "Réduction sur les fruits", "image_prompt": "" },
+      { "id": "B", "text": "Offre sur la viande", "imageprompt": "" },
+      { "id": "C", "text": "Promotion sur les produits laitiers", "image_prompt": "" },
+      { "id": "D", "text": "Solde sur les vêtements", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Chers clients, profitez aujourd'hui de notre offre spéciale sur les fruits frais. Les fraises du Québec sont à cinq dollars le panier au lieu de huit dollars. Cette promotion est valable jusqu'à la fermeture du magasin ce soir à vingt et une heures. Quantité limitée à cinq paniers par client. Rendez-vous dans le rayon fruits et légumes situé au fond du magasin à votre droite. Merci de votre fidélité.",
+    "transcript_en": "Dear customers, take advantage today of our special offer on fresh fruits. Quebec strawberries are five dollars per basket instead of eight dollars. This promotion is valid until the store closes tonight at nine PM. Limited quantity of five baskets per customer. Go to the fruit and vegetable section located at the back of the store on your right. Thank you for your loyalty.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Chers clients, profitez aujourd'hui de notre offre spéciale sur les fruits frais.",
+          "Les fraises du Québec sont à cinq dollars le panier au lieu de huit dollars.",
+          "Cette promotion est valable jusqu'à la fermeture du magasin ce soir à vingt et une heures.",
+          "Quantité limitée à cinq paniers par client.",
+          "Rendez-vous dans le rayon fruits et légumes situé au fond du magasin à votre droite.",
+          "Merci de votre fidélité."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "section": "C",
+    "theme": "University announcement",
+    "question": "Quelle information contient cette annonce ?",
+    "options": [
+      { "id": "A", "text": "Les inscriptions sont ouvertes", "image_prompt": "" },
+      { "id": "B", "text": "Les examens sont reportés", "image_prompt": "" },
+      { "id": "C", "text": "Une conférence est annulée", "image_prompt": "" },
+      { "id": "D", "text": "La bibliothèque ferme plus tôt", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Étudiants et étudiantes, veuillez noter que la bibliothèque universitaire fermera exceptionnellement à dix-sept heures aujourd'hui en raison d'une réunion du personnel. Les salles de lecture seront accessibles jusqu'à seize heures trente seulement. Les livres empruntés aujourd'hui devront être rapportés avant la fermeture. Le service de prêt fonctionnera normalement demain dès huit heures du matin. Nous vous remercions de votre compréhension.",
+    "transcript_en": "Students, please note that the university library will close exceptionally at five PM today due to a staff meeting. Reading rooms will be accessible until four thirty PM only. Books borrowed today must be returned before closing. The lending service will operate normally tomorrow from eight AM. We thank you for your understanding.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Étudiants et étudiantes, veuillez noter que la bibliothèque universitaire fermera exceptionnellement à dix-sept heures aujourd'hui en raison d'une réunion du personnel.",
+          "Les salles de lecture seront accessibles jusqu'à seize heures trente seulement.",
+          "Les livres empruntés aujourd'hui devront être rapportés avant la fermeture.",
+          "Le service de prêt fonctionnera normalement demain dès huit heures du matin.",
+          "Nous vous remercions de votre compréhension."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "section": "C",
+    "theme": "Weather alert",
+    "question": "Quel temps est annoncé ?",
+    "options": [
+      { "id": "A", "text": "Une tempête de neige", "image_prompt": "" },
+      { "id": "B", "text": "Une canicule", "image_prompt": "" },
+      { "id": "C", "text": "Des orages violents", "image_prompt": "" },
+      { "id": "D", "text": "Du brouillard dense", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Avis de veille météorologique pour la région de Montréal et ses environs. Environnement Canada annonce l'arrivée d'orages violents accompagnés de fortes pluies et de vents pouvant atteindre quatre-vingts kilomètres à l'heure. Ces orages devraient débuter vers dix-huit heures ce soir et se poursuivre jusqu'à minuit. Il est conseillé de rester à l'intérieur et d'éviter les déplacements non essentiels. Restez à l'écoute des médias pour les mises à jour.",
+    "transcript_en": "Weather advisory for the Montreal region and surrounding areas. Environment Canada announces the arrival of violent storms accompanied by heavy rain and winds reaching up to eighty kilometers per hour. These storms should begin around six PM tonight and continue until midnight. It is advised to stay indoors and avoid non-essential travel. Stay tuned to the media for updates.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Avis de veille météorologique pour la région de Montréal et ses environs.",
+          "Environnement Canada annonce l'arrivée d'orages violents accompagnés de fortes pluies et de vents pouvant atteindre quatre-vingts kilomètres à l'heure.",
+          "Ces orages devraient débuter vers dix-huit heures ce soir et se poursuivre jusqu'à minuit.",
+          "Il est conseillé de rester à l'intérieur et d'éviter les déplacements non essentiels.",
+          "Restez à l'écoute des médias pour les mises à jour."
+        ],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "section": "D",
+    "theme": "Job interview",
+    "question": "Quelle est l'intention du recruteur ?",
+    "options": [
+      { "id": "A", "text": "Refuser le candidat", "image_prompt": "" },
+      { "id": "B", "text": "Proposer un contrat", "image_prompt": "" },
+      { "id": "C", "text": "Demander plus d'informations", "image_prompt": "" },
+      { "id": "D", "text": "Reporter l'entretien", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme : Merci d'être venu aujourd'hui, votre CV est très impressionnant. Femme : Je vous remercie, je suis très intéressée par ce poste. Homme : Nous aussi nous sommes intéressés. J'aimerais vous proposer un contrat de six mois renouvelable. Femme : C'est une excellente nouvelle, j'accepte avec plaisir.",
+    "transcript_en": "Man: Thank you for coming today, your resume is very impressive. Woman: Thank you, I am very interested in this position. Man: We are also interested. I would like to offer you a six-month renewable contract. Woman: That's excellent news, I accept with pleasure.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Merci d'être venu aujourd'hui, votre CV est très impressionnant.",
+          "Nous aussi nous sommes intéressés. J'aimerais vous proposer un contrat de six mois renouvelable."
+        ],
+        "female_lines": [
+          "Je vous remercie, je suis très intéressée par ce poste.",
+          "C'est une excellente nouvelle, j'accepte avec plaisir."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "section": "D",
+    "theme": "Complaint",
+    "question": "Que veut la cliente ?",
+    "options": [
+      { "id": "A", "text": "Un remboursement", "image_prompt": "" },
+      { "id": "B", "text": "Un échange", "image_prompt": "" },
+      { "id": "C", "text": "Une réparation", "image_prompt": "" },
+      { "id": "D", "text": "Une réduction", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme : Bonjour, j'ai acheté ce téléphone hier mais il ne fonctionne pas du tout. Homme : Je suis désolé pour ce problème. Voulez-vous un échange ? Femme : Non merci, je préfère être remboursée. Le produit est défectueux. Homme : Très bien, je vais procéder au remboursement immédiatement.",
+    "transcript_en": "Woman: Hello, I bought this phone yesterday but it doesn't work at all. Man: I am sorry for this problem. Would you like an exchange? Woman: No thank you, I prefer to be refunded. The product is defective. Man: Very well, I will proceed with the refund immediately.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Je suis désolé pour ce problème. Voulez-vous un échange ?",
+          "Très bien, je vais procéder au remboursement immédiatement."
+        ],
+        "female_lines": [
+          "Bonjour, j'ai acheté ce téléphone hier mais il ne fonctionne pas du tout.",
+          "Non merci, je préfère être remboursée. Le produit est défectueux."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "section": "D",
+    "theme": "Invitation",
+    "question": "Quelle est la réponse de l'homme ?",
+    "options": [
+      { "id": "A", "text": "Il accepte immédiatement", "image_prompt": "" },
+      { "id": "B", "text": "Il refuse poliment", "image_prompt": "" },
+      { "id": "C", "text": "Il demande à réfléchir", "image_prompt": "" },
+      { "id": "D", "text": "Il propose une autre date", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Femme : Tu viens dîner chez nous samedi soir ? On fête l'anniversaire de Marie. Homme : Samedi soir, je ne peux pas, j'ai déjà un engagement. Femme : Dommage, on sera une dizaine. Homme : Et si on reportait à dimanche midi ? Je serais libre.",
+    "transcript_en": "Woman: Are you coming for dinner at our place Saturday night? We're celebrating Marie's birthday. Man: Saturday night, I can't, I already have a commitment. Woman: Too bad, there will be about ten of us. Man: What if we postponed to Sunday noon? I would be free.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Samedi soir, je ne peux pas, j'ai déjà un engagement.",
+          "Et si on reportait à dimanche midi ? Je serais libre."
+        ],
+        "female_lines": [
+          "Tu viens dîner chez nous samedi soir ? On fête l'anniversaire de Marie.",
+          "Dommage, on sera une dizaine."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "section": "D",
+    "theme": "Advice",
+    "question": "Quel conseil donne la femme ?",
+    "options": [
+      { "id": "A", "text": "Prendre des vacances", "image_prompt": "" },
+      { "id": "B", "text": "Voir un médecin", "image_prompt": "" },
+      { "id": "C", "text": "Changer de travail", "image_prompt": "" },
+      { "id": "D", "text": "Faire du sport", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme : Je ne sais pas quoi faire, je dors très mal depuis des semaines. Femme : C'est inquiétant. Tu devrais consulter un médecin rapidement. Homme : Tu crois que c'est sérieux ? Femme : Mieux vaut prévenir que guérir. Prends rendez-vous demain.",
+    "transcript_en": "Man: I don't know what to do, I have been sleeping very poorly for weeks. Woman: That's concerning. You should see a doctor quickly. Man: Do you think it's serious? Woman: Better safe than sorry. Make an appointment tomorrow.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Je ne sais pas quoi faire, je dors très mal depuis des semaines.",
+          "Tu crois que c'est sérieux ?"
+        ],
+        "female_lines": [
+          "C'est inquiétant. Tu devrais consulter un médecin rapidement.",
+          "Mieux vaut prévenir que guérir. Prends rendez-vous demain."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "section": "D",
+    "theme": "Request",
+    "question": "Que demande l'homme ?",
+    "options": [
+      { "id": "A", "text": "De l'aide pour déménager", "image_prompt": "" },
+      { "id": "B", "text": "Un prêt d'argent", "image_prompt": "" },
+      { "id": "C", "text": "Un service de garderie", "image_prompt": "" },
+      { "id": "D", "text": "Un conseil professionnel", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Homme : Tu serais disponible samedi prochain ? J'ai besoin d'un coup de main. Femme : Pour quoi faire exactement ? Homme : Je déménage et j'ai beaucoup de cartons à transporter. Femme : Pas de problème, je viens avec plaisir t'aider.",
+    "transcript_en": "Man: Would you be available next Saturday? I need a helping hand. Woman: For what exactly? Man: I'm moving and I have a lot of boxes to carry. Woman: No problem, I'll gladly come help you.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Tu serais disponible samedi prochain ? J'ai besoin d'un coup de main.",
+          "Je déménage et j'ai beaucoup de cartons à transporter."
+        ],
+        "female_lines": [
+          "Pour quoi faire exactement ?",
+          "Pas de problème, je viens avec plaisir t'aider."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "section": "D",
+    "theme": "Apology",
+    "question": "Pourquoi l'homme s'excuse-t-il ?",
+    "options": [
+      { "id": "A", "text": "Il est en retard", "image_prompt": "" },
+      { "id": "B", "text": "Il a oublié un rendez-vous", "image_prompt": "" },
+      { "id": "C", "text": "Il a cassé quelque chose", "image_prompt": "" },
+      { "id": "D", "text": "Il a dit quelque chose de mal", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Homme : Je suis vraiment désolé, le métro était en panne et j'ai dû prendre un taxi. Femme : Ça fait une heure que je t'attends ! Homme : Je sais, c'est inexcusable. Le trafic était horrible aussi. Femme : Prochaine fois, préviens-moi plus tôt.",
+    "transcript_en": "Man: I am really sorry, the metro was broken down and I had to take a taxi. Woman: I've been waiting for you for an hour! Man: I know, it's inexcusable. The traffic was horrible too. Woman: Next time, let me know earlier.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Je suis vraiment désolé, le métro était en panne et j'ai dû prendre un taxi.",
+          "Je sais, c'est inexcusable. Le trafic était horrible aussi."
+        ],
+        "female_lines": [
+          "Ça fait une heure que je t'attends !",
+          "Prochaine fois, préviens-moi plus tôt."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "section": "E",
+    "theme": "Radio interview - Environment",
+    "question": "Quel est le sujet principal de l'interview ?",
+    "options": [
+      { "id": "A", "text": "La pollution de l'air", "image_prompt": "" },
+      { "id": "B", "text": "Le réchauffement climatique", "image_prompt": "" },
+      { "id": "C", "text": "La protection des océans", "image_prompt": "" },
+      { "id": "D", "text": "La déforestation", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Journaliste : Bonjour et bienvenue sur Radio-Canada. Aujourd'hui nous recevons le Dr Tremblay, climatologue. Dr Tremblay : Bonjour, merci de m'inviter. Journaliste : Vos recherches montrent une accélération du réchauffement climatique au Canada ? Dr Tremblay : Oui, nos données indiquent une augmentation de deux degrés depuis vingt ans, particulièrement dans le Grand Nord.",
+    "transcript_en": "Journalist: Hello and welcome to Radio-Canada. Today we welcome Dr. Tremblay, climatologist. Dr. Tremblay: Hello, thank you for inviting me. Journalist: Your research shows an acceleration of global warming in Canada? Dr. Tremblay: Yes, our data indicates an increase of two degrees over twenty years, particularly in the Far North.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Bonjour, merci de m'inviter.",
+          "Oui, nos données indiquent une augmentation de deux degrés depuis vingt ans, particulièrement dans le Grand Nord."
+        ],
+        "female_lines": [
+          "Bonjour et bienvenue sur Radio-Canada. Aujourd'hui nous recevons le Dr Tremblay, climatologue.",
+          "Vos recherches montrent une accélération du réchauffement climatique au Canada ?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "section": "E",
+    "theme": "Radio interview - Technology",
+    "question": "Quelle innovation est présentée ?",
+    "options": [
+      { "id": "A", "text": "Une voiture électrique", "image_prompt": "" },
+      { "id": "B", "text": "Un smartphone pliable", "image_prompt": "" },
+      { "id": "C", "text": "Des lunettes intelligentes", "image_prompt": "" },
+      { "id": "D", "text": "Un robot domestique", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Journaliste : Nous avons avec nous aujourd'hui Mme Lefebvre, directrice d'une startup montréalaise. Mme Lefebvre : Bonjour à tous. Journaliste : Vous lancez des lunettes connectées révolutionnaires ? Mme Lefebvre : Exactement. Ces lunettes traduisent en temps réel les conversations dans vingt langues différentes.",
+    "transcript_en": "Journalist: We have with us today Mrs. Lefebvre, director of a Montreal startup. Mrs. Lefebvre: Hello everyone. Journalist: You are launching revolutionary smart glasses? Mrs. Lefebvre: Exactly. These glasses translate conversations in real time into twenty different languages.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": [
+          "Nous avons avec nous aujourd'hui Mme Lefebvre, directrice d'une startup montréalaise.",
+          "Vous lancez des lunettes connectées révolutionnaires ?",
+          "Bonjour à tous.",
+          "Exactement. Ces lunettes traduisent en temps réel les conversations dans vingt langues différentes."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "section": "E",
+    "theme": "Radio interview - Health",
+    "question": "Quel conseil santé est donné ?",
+    "options": [
+      { "id": "A", "text": "Manger moins de sucre", "image_prompt": "" },
+      { "id": "B", "text": "Dormir huit heures", "image_prompt": "" },
+      { "id": "C", "text": "Boire plus d'eau", "image_prompt": "" },
+      { "id": "D", "text": "Faire de la marche", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Journaliste : Le Dr Gagnon nous rejoint pour parler de santé préventive. Dr Gagnon : Bonjour. Journaliste : Quel est votre conseil numéro un pour rester en forme ? Dr Gagnon : La marche quotidienne. Trente minutes de marche rapide par jour réduisent les risques cardiaques de quarante pour cent.",
+    "transcript_en": "Journalist: Dr. Gagnon joins us to talk about preventive health. Dr. Gagnon: Hello. Journalist: What is your number one advice for staying in shape? Dr. Gagnon: Daily walking. Thirty minutes of brisk walking per day reduces heart risks by forty percent.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Bonjour.",
+          "La marche quotidienne. Trente minutes de marche rapide par jour réduisent les risques cardiaques de quarante pour cent."
+        ],
+        "female_lines": [
+          "Le Dr Gagnon nous rejoint pour parler de santé préventive.",
+          "Quel est votre conseil numéro un pour rester en forme ?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "section": "E",
+    "theme": "Radio interview - Culture",
+    "question": "Quel événement culturel est annoncé ?",
+    "options": [
+      { "id": "A", "text": "Un festival de musique", "image_prompt": "" },
+      { "id": "B", "text": "Une exposition d'art", "image_prompt": "" },
+      { "id": "C", "text": "Un festival de cinéma", "image_prompt": "" },
+      { "id": "D", "text": "Un salon du livre", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Journaliste : Nous recevons le directeur du Festival de Jazz de Montréal. Directeur : Merci de m'accueillir. Journaliste : Quelles sont les nouveautés cette année ? Directeur : Nous avons programmé cent cinquante concerts sur dix scènes différentes avec des artistes du monde entier.",
+    "transcript_en": "Journalist: We welcome the director of the Montreal Jazz Festival. Director: Thank you for having me. Journalist: What are the new features this year? Director: We have programmed one hundred fifty concerts on ten different stages with artists from around the world.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Merci de m'accueillir.",
+          "Nous avons programmé cent cinquante concerts sur dix scènes différentes avec des artistes du monde entier."
+        ],
+        "female_lines": [
+          "Nous recevons le directeur du Festival de Jazz de Montréal.",
+          "Quelles sont les nouveautés cette année ?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "section": "F",
+    "theme": "Housing",
+    "question": "Quelle opinion défend l'homme ?",
+    "options": [
+      { "id": "A", "text": "Il faut acheter une maison", "image_prompt": "" },
+      { "id": "B", "text": "Mieux vaut louer un appartement", "image_prompt": "" },
+      { "id": "C", "text": "Il faut habiter en banlieue", "image_prompt": "" },
+      { "id": "D", "text": "Les colocations sont idéales", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Femme : Je pense qu'il faut absolument acheter pour investir dans l'avenir. Homme : Je ne suis pas d'accord. Louer donne plus de flexibilité. Femme : Mais c'est de l'argent perdu chaque mois. Homme : Pas forcément. À Montréal, louer coûte moins cher que les hypothèques actuelles.",
+    "transcript_en": "Woman: I think we absolutely must buy to invest in the future. Man: I don't agree. Renting gives more flexibility. Woman: But it's lost money every month. Man: Not necessarily. In Montreal, renting costs less than current mortgages.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Je ne suis pas d'accord. Louer donne plus de flexibilité.",
+          "Pas forcément. À Montréal, louer coûte moins cher que les hypothèques actuelles."
+        ],
+        "female_lines": [
+          "Je pense qu'il faut absolument acheter pour investir dans l'avenir.",
+          "Mais c'est de l'argent perdu chaque mois."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "section": "F",
+    "theme": "Education",
+    "question": "Sur quoi les interlocuteurs ne sont-ils pas d'accord ?",
+    "options": [
+      { "id": "A", "text": "L'utilité des devoirs", "image_prompt": "" },
+      { "id": "B", "text": "La durée des vacances", "image_prompt": "" },
+      { "id": "C", "text": "L'âge d'entrée à l'école", "image_prompt": "" },
+      { "id": "D", "text": "Les uniformes scolaires", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Homme : Les devoirs à la maison sont essentiels pour réussir. Femme : Je ne suis pas convaincue. Les enfants ont besoin de temps libre. Homme : Sans pratique régulière, ils oublient ce qu'ils ont appris. Femme : L'apprentissage doit se faire principalement à l'école, pas à la maison.",
+    "transcript_en": "Man: Homework is essential for success. Woman: I am not convinced. Children need free time. Man: Without regular practice, they forget what they learned. Woman: Learning should happen mainly at school, not at home.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Les devoirs à la maison sont essentiels pour réussir.",
+          "Sans pratique régulière, ils oublient ce qu'ils ont appris."
+        ],
+        "female_lines": [
+          "Je ne suis pas convaincue. Les enfants ont besoin de temps libre.",
+          "L'apprentissage doit se faire principalement à l'école, pas à la maison."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "section": "F",
+    "theme": "Transportation",
+    "question": "Quelle solution propose la femme ?",
+    "options": [
+      { "id": "A", "text": "Construire plus d'autoroutes", "image_prompt": "" },
+      { "id": "B", "text": "Développer les transports en commun", "image_prompt": "" },
+      { "id": "C", "text": "Interdire les voitures en ville", "image_prompt": "" },
+      { "id": "D", "text": "Augmenter le prix de l'essence", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme : Les embouteillages à Montréal deviennent insupportables. Femme : C'est pourquoi il faut investir dans le métro et les bus. Homme : Les travaux coûtent des milliards. Femme : Oui, mais c'est la seule solution durable pour l'avenir de la ville.",
+    "transcript_en": "Man: Traffic jams in Montreal are becoming unbearable. Woman: That's why we need to invest in the metro and buses. Man: The work costs billions. Woman: Yes, but it's the only sustainable solution for the city's future.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Les embouteillages à Montréal deviennent insupportables.",
+          "Les travaux coûtent des milliards."
+        ],
+        "female_lines": [
+          "C'est pourquoi il faut investir dans le métro et les bus.",
+          "Oui, mais c'est la seule solution durable pour l'avenir de la ville."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "section": "F",
+    "theme": "Work-life balance",
+    "question": "Quel point de vue exprime l'homme ?",
+    "options": [
+      { "id": "A", "text": "Il faut travailler plus pour réussir", "image_prompt": "" },
+      { "id": "B", "text": "Le télétravail est inefficace", "image_prompt": "" },
+      { "id": "C", "text": "La famille passe avant le travail", "image_prompt": "" },
+      { "id": "D", "text": "Les heures supplémentaires sont nécessaires", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme : Pour avancer dans sa carrière, il faut faire des sacrifices. Homme : Je ne partage pas cet avis. La famille est plus importante. Femme : Mais sans travail, on ne peut pas subvenir aux besoins de sa famille. Homme : Certes, mais passer du temps avec ses enfants n'a pas de prix.",
+    "transcript_en": "Woman: To advance in your career, you have to make sacrifices. Man: I don't share this view. Family is more important. Woman: But without work, you cannot provide for your family's needs. Man: Certainly, but spending time with your children is priceless.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Je ne partage pas cet avis. La famille est plus importante.",
+          "Certes, mais passer du temps avec ses enfants n'a pas de prix."
+        ],
+        "female_lines": [
+          "Pour avancer dans sa carrière, il faut faire des sacrifices.",
+          "Mais sans travail, on ne peut pas subvenir aux besoins de sa famille."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "section": "G",
+    "theme": "Urban development debate",
+    "question": "Quel est l'argument principal défendu dans cette discussion ?",
+    "options": [
+      { "id": "A", "text": "La nécessité de préserver les espaces verts", "image_prompt": "" },
+      { "id": "B", "text": "L'importance du développement économique", "image_prompt": "" },
+      { "id": "C", "text": "La priorité du logement social", "image_prompt": "" },
+      { "id": "D", "text": "L'urgence de réparer les infrastructures", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Point 1 - Homme : Madame la mairesse, permettez-moi de commencer par exprimer ma profonde préoccupation concernant le projet de construction sur le mont Royal. Femme : Je vous écoute attentivement, monsieur Dubois. Quels sont vos arguments principaux ? Point 2 - Homme : Premièrement, ce parc est le poumon vert de Montréal. Nous ne pouvons pas sacrifier nos espaces naturels pour des intérêts immobiliers à court terme. Femme : Je comprends votre position, mais la ville manque cruellement de logements abordables. Point 3 - Homme : Deuxièmement, des études scientifiques démontrent que la biodiversité locale serait irrémédiablement affectée par ce projet. Femme : Ces études méritent attention, certes, mais nous devons aussi penser aux familles qui dorment dans la rue. Point 4 - Homme : Troisièmement, le mont Royal est un patrimoine historique classé depuis cent trente ans. Nous avons le devoir de le protéger. Femme : Le patrimoine est important, mais il doit coexister avec les besoins actuels de la population. Point 5 - Homme : Quatrièmement, des alternatives existent. Nous pourrions densifier les zones déjà urbanisées plutôt que d'envahir les espaces verts. Femme : Vos suggestions alternatives sont intéressantes et méritent d'être étudiées sérieusement. Point 6 - Homme : Cinquièmement, les citoyens se sont massivement exprimés contre ce projet lors des consultations publiques. Femme : La participation citoyenne est essentielle dans nos décisions démocratiques, je le reconnais. Point 7 - Homme : Sixièmement, la valeur immobilière des quartiers environnants dépend directement de la préservation de ce parc. Femme : L'aspect économique ne peut être ignoré, bien que ce ne soit pas notre priorité première. Point 8 - Homme : Septièmement, la santé mentale des Montréalais est liée à l'accès à des espaces naturels en ville. Femme : La qualité de vie est effectivement un critère déterminant dans nos politiques urbaines. Point 9 - Homme : Huitièmement, nous proposons un moratoire de cinq ans pour étudier des solutions alternatives viables. Femme : Un moratoire pourrait être envisageable si des garanties sont données sur le logement social. Point 10 - Homme : Neuvièmement et finalement, je vous demande de respecter votre engagement électoral de protéger le mont Royal. Femme : Votre plaidoyer est entendu. Nous allons réexaminer ce dossier en conseil municipal la semaine prochaine.",
+    "transcript_en": "Point 1 - Man: Madam Mayor, allow me to begin by expressing my deep concern regarding the construction project on Mount Royal. Woman: I am listening attentively, Mr. Dubois. What are your main arguments? Point 2 - Man: Firstly, this park is the green lung of Montreal. We cannot sacrifice our natural spaces for short-term real estate interests. Woman: I understand your position, but the city desperately lacks affordable housing. Point 3 - Man: Secondly, scientific studies demonstrate that local biodiversity would be irreparably affected by this project. Woman: These studies deserve attention, certainly, but we must also think of families sleeping on the streets. Point 4 - Man: Thirdly, Mount Royal has been classified as historical heritage for one hundred thirty years. We have a duty to protect it. Woman: Heritage is important, but it must coexist with the current needs of the population. Point 5 - Man: Fourthly, alternatives exist. We could densify already urbanized areas rather than invading green spaces. Woman: Your alternative suggestions are interesting and deserve to be studied seriously. Point 6 - Man: Fifthly, citizens have massively spoken out against this project during public consultations. Woman: Citizen participation is essential in our democratic decisions, I recognize that. Point 7 - Man: Sixthly, the real estate value of surrounding neighborhoods depends directly on the preservation of this park. Woman: The economic aspect cannot be ignored, although it is not our first priority. Point 8 - Man: Seventhly, the mental health of Montrealers is linked to access to natural spaces in the city. Woman: Quality of life is indeed a determining criterion in our urban policies. Point 9 - Man: Eighthly, we propose a five-year moratorium to study viable alternative solutions. Woman: A moratorium could be conceivable if guarantees are given on social housing. Point 10 - Man: Ninthly and finally, I ask you to respect your electoral commitment to protect Mount Royal. Woman: Your plea is heard. We will re-examine this file at city council next week.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Madame la mairesse, permettez-moi de commencer par exprimer ma profonde préoccupation concernant le projet de construction sur le mont Royal.",
+          "Quels sont vos arguments principaux ?"
+        ],
+        "female_lines": [
+          "Je vous écoute attentivement, monsieur Dubois."
+        ]
+      },
+      {
+        "point": 2,
+        "male_lines": [
+          "Premièrement, ce parc est le poumon vert de Montréal.",
+          "Nous ne pouvons pas sacrifier nos espaces naturels pour des intérêts immobiliers à court terme."
+        ],
+        "female_lines": [
+          "Je comprends votre position, mais la ville manque cruellement de logements abordables."
+        ]
+      },
+      {
+        "point": 3,
+        "male_lines": [
+          "Deuxièmement, des études scientifiques démontrent que la biodiversité locale serait irrémédiablement affectée par ce projet."
+        ],
+        "female_lines": [
+          "Ces études méritent attention, certes, mais nous devons aussi penser aux familles qui dorment dans la rue."
+        ]
+      },
+      {
+        "point": 4,
+        "male_lines": [
+          "Troisièmement, le mont Royal est un patrimoine historique classé depuis cent trente ans.",
+          "Nous avons le devoir de le protéger."
+        ],
+        "female_lines": [
+          "Le patrimoine est important, mais il doit coexister avec les besoins actuels de la population."
+        ]
+      },
+      {
+        "point": 5,
+        "male_lines": [
+          "Quatrièmement, des alternatives existent.",
+          "Nous pourrions densifier les zones déjà urbanisées plutôt que d'envahir les espaces verts."
+        ],
+        "female_lines": [
+          "Vos suggestions alternatives sont intéressantes et méritent d'être étudiées sérieusement."
+        ]
+      },
+      {
+        "point": 6,
+        "male_lines": [
+          "Cinquièmement, les citoyens se sont massivement exprimés contre ce projet lors des consultations publiques."
+        ],
+        "female_lines": [
+          "La participation citoyenne est essentielle dans nos décisions démocratiques, je le reconnais."
+        ]
+      },
+      {
+        "point": 7,
+        "male_lines": [
+          "Sixièmement, la valeur immobilière des quartiers environnants dépend directement de la préservation de ce parc."
+        ],
+        "female_lines": [
+          "L'aspect économique ne peut être ignoré, bien que ce ne soit pas notre priorité première."
+        ]
+      },
+      {
+        "point": 8,
+        "male_lines": [
+          "Septièmement, la santé mentale des Montréalais est liée à l'accès à des espaces naturels en ville."
+        ],
+        "female_lines": [
+          "La qualité de vie est effectivement un critère déterminant dans nos politiques urbaines."
+        ]
+      },
+      {
+        "point": 9,
+        "male_lines": [
+          "Huitièmement, nous proposons un moratoire de cinq ans pour étudier des solutions alternatives viables."
+        ],
+        "female_lines": [
+          "Un moratoire pourrait être envisageable si des garanties sont données sur le logement social."
+        ]
+      },
+      {
+        "point": 10,
+        "male_lines": [
+          "Neuvièmement et finalement, je vous demande de respecter votre engagement électoral de protéger le mont Royal."
+        ],
+        "female_lines": [
+          "Votre plaidoyer est entendu. Nous allons réexaminer ce dossier en conseil municipal la semaine prochaine."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "section": "G",
+    "theme": "Immigration policy discussion",
+    "question": "Quelle préoccupation principale est soulevée dans ce débat ?",
+    "options": [
+      { "id": "A", "text": "La sécurité nationale", "image_prompt": "" },
+      { "id": "B", "text": "L'intégration linguistique", "image_prompt": "" },
+      { "id": "C", "text": "La reconnaissance des diplômes", "image_prompt": "" },
+      { "id": "D", "text": "Le logement des nouveaux arrivants", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Point 1 - Femme : Monsieur le ministre, les statistiques montrent que quarante pour cent des immigrants qualifiés travaillent en dessous de leurs compétences. Homme : Ce phénomène nous préoccupe effectivement depuis plusieurs années. Point 2 - Femme : Premièrement, les médecins formés à l'étranger doivent refaire leurs études pendant des années. Homme : Nous avons simplifié certaines procédures, mais le processus reste complexe. Point 3 - Femme : Deuxièmement, les ingénieurs étrangers sont souvent obligés d'accepter des emplois non qualifiés. Homme : C'est une perte économique considérable pour notre société québecoise. Point 4 - Femme : Troisièmement, les frais d'évaluation des diplômes sont prohibitifs pour beaucoup de familles. Homme : Nous avons récemment mis en place des programmes de financement pour ces évaluations. Point 5 - Femme : Quatrièmement, le manque de reconnaissance décourage les immigrants de rester au Québec. Homme : Le taux de départ vers d'autres provinces est effectivement préoccupant. Point 6 - Femme : Cinquièmement, les organismes d'accueil manquent de ressources pour accompagner ces professionnels. Homme : Nous avons augmenté le budget de l'immigration de quinze pour cent cette année. Point 7 - Femme : Sixièmement, les réseaux professionnels fermés empêchent l'intégration dans certains secteurs. Homme : Nous encourageons les associations professionnelles à ouvrir leurs portes. Point 8 - Femme : Septièmement, la formation complémentaire est souvent trop longue et théorique. Homme : Des stages pratiques accélérés sont maintenant proposés dans plusieurs domaines. Point 9 - Femme : Huitièmement, les employeurs québécois méconnaissent les qualifications étrangères. Homme : Des campagnes de sensibilisation sont en cours auprès des entreprises. Point 10 - Femme : Neuvièmement, nous demandons la création d'un ordre national d'évaluation rapide des compétences. Homme : Cette proposition sera étudiée dans le cadre de la prochaine réforme migratoire.",
+    "transcript_en": "Point 1 - Woman: Mr. Minister, statistics show that forty percent of qualified immigrants work below their skill level. Man: This phenomenon has indeed concerned us for several years. Point 2 - Woman: Firstly, doctors trained abroad must redo their studies for years. Man: We have simplified certain procedures, but the process remains complex. Point 3 - Woman: Secondly, foreign engineers are often forced to accept unqualified jobs. Man: This is a considerable economic loss for our Quebec society. Point 4 - Woman: Thirdly, diploma assessment fees are prohibitive for many families. Man: We have recently set up funding programs for these assessments. Point 5 - Woman: Fourthly, the lack of recognition discourages immigrants from staying in Quebec. Man: The departure rate to other provinces is indeed concerning. Point 6 - Woman: Fifthly, reception organizations lack resources to support these professionals. Man: We have increased the immigration budget by fifteen percent this year. Point 7 - Woman: Sixthly, closed professional networks prevent integration in certain sectors. Man: We encourage professional associations to open their doors. Point 8 - Woman: Seventhly, additional training is often too long and theoretical. Man: Accelerated practical internships are now offered in several fields. Point 9 - Woman: Eighthly, Quebec employers are unaware of foreign qualifications. Man: Awareness campaigns are underway with businesses. Point 10 - Woman: Ninthly, we request the creation of a national order for rapid skills assessment. Man: This proposal will be studied as part of the next immigration reform.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Ce phénomène nous préoccupe effectivement depuis plusieurs années."
+        ],
+        "female_lines": [
+          "Monsieur le ministre, les statistiques montrent que quarante pour cent des immigrants qualifiés travaillent en dessous de leurs compétences."
+        ]
+      },
+      {
+        "point": 2,
+        "male_lines": [
+          "Nous avons simplifié certaines procédures, mais le processus reste complexe."
+        ],
+        "female_lines": [
+          "Premièrement, les médecins formés à l'étranger doivent refaire leurs études pendant des années."
+        ]
+      },
+      {
+        "point": 3,
+        "male_lines": [
+          "C'est une perte économique considérable pour notre société québecoise."
+        ],
+        "female_lines": [
+          "Deuxièmement, les ingénieurs étrangers sont souvent obligés d'accepter des emplois non qualifiés."
+        ]
+      },
+      {
+        "point": 4,
+        "male_lines": [
+          "Nous avons récemment mis en place des programmes de financement pour ces évaluations."
+        ],
+        "female_lines": [
+          "Troisièmement, les frais d'évaluation des diplômes sont prohibitifs pour beaucoup de familles."
+        ]
+      },
+      {
+        "point": 5,
+        "male_lines": [
+          "Le taux de départ vers d'autres provinces est effectivement préoccupant."
+        ],
+        "female_lines": [
+          "Quatrièmement, le manque de reconnaissance décourage les immigrants de rester au Québec."
+        ]
+      },
+      {
+        "point": 6,
+        "male_lines": [
+          "Nous avons augmenté le budget de l'immigration de quinze pour cent cette année."
+        ],
+        "female_lines": [
+          "Cinquièmement, les organismes d'accueil manquent de ressources pour accompagner ces professionnels."
+        ]
+      },
+      {
+        "point": 7,
+        "male_lines": [
+          "Nous encourageons les associations professionnelles à ouvrir leurs portes."
+        ],
+        "female_lines": [
+          "Sixièmement, les réseaux professionnels fermés empêchent l'intégration dans certains secteurs."
+        ]
+      },
+      {
+        "point": 8,
+        "male_lines": [
+          "Des stages pratiques accélérés sont maintenant proposés dans plusieurs domaines."
+        ],
+        "female_lines": [
+          "Septièmement, la formation complémentaire est souvent trop longue et théorique."
+        ]
+      },
+      {
+        "point": 9,
+        "male_lines": [
+          "Des campagnes de sensibilisation sont en cours auprès des entreprises."
+        ],
+        "female_lines": [
+          "Huitièmement, les employeurs québécois méconnaissent les qualifications étrangères."
+        ]
+      },
+      {
+        "point": 10,
+        "male_lines": [
+          "Cette proposition sera étudiée dans le cadre de la prochaine réforme migratoire."
+        ],
+        "female_lines": [
+          "Neuvièmement, nous demandons la création d'un ordre national d'évaluation rapide des compétences."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "section": "G",
+    "theme": "Healthcare system debate",
+    "question": "Quelle solution est proposée pour améliorer le système de santé ?",
+    "options": [
+      { "id": "A", "text": "Privatiser les hôpitaux", "image_prompt": "" },
+      { "id": "B", "text": "Augmenter le nombre de médecins de famille", "image_prompt": "" },
+      { "id": "C", "text": "Créer des cliniques sans rendez-vous", "image_prompt": "" },
+      { "id": "D", "text": "Développer la télémédecine", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Point 1 - Homme : Madame la directrice, les listes d'attente pour voir un médecin atteignent des records historiques. Femme : La situation est critique, nous devons agir rapidement et efficacement. Point 2 - Homme : Premièrement, la télémédecine pourrait désengorger les urgences immédiatement. Femme : Les consultations virtuelles ont prouvé leur efficacité pendant la pandémie. Point 3 - Homme : Deuxièmement, les patients des régions éloignées méritent un accès égal aux soins. Femme : La géographie ne devrait pas déterminer la qualité des services de santé. Point 4 - Homme : Troisièmement, les infirmières praticiennes pourraient faire plus de téléconsultations. Femme : Leur expertise est sous-utilisée dans notre système actuel. Point 5 - Homme : Quatrièmement, les technologies modernes permettent des diagnostics à distance fiables. Femme : Nous devons investir dans l'équipement nécessaire pour les cliniques régionales. Point 6 - Homme : Cinquièmement, les personnes âgées ont besoin de suivi régulier sans se déplacer. Femme : Le confort des patients vulnérables doit être notre priorité absolue. Point 7 - Homme : Sixièmement, la télémédecine réduit les coûts de transport pour les patients. Femme : L'aspect économique est important pour les familles à revenus modestes. Point 8 - Homme : Septièmement, les spécialistes pourraient consulter plus de patients quotidiennement. Femme : L'efficacité du système s'en trouverait considérablement améliorée. Point 9 - Homme : Huitièmement, nous proposons un programme pilote dans cinq régions du Québec. Femme : Ce programme pilote sera évalué après six mois d'implantation sur le terrain. Point 10 - Homme : Neuvièmement, la formation du personnel médical à ces nouveaux outils est essentielle. Femme : Des sessions de formation commencent dès le mois prochain dans tous les établissements.",
+    "transcript_en": "Point 1 - Man: Madam Director, waiting lists to see a doctor are reaching historic records. Woman: The situation is critical, we must act quickly and effectively. Point 2 - Man: Firstly, telemedicine could immediately unclog emergency rooms. Woman: Virtual consultations proved their effectiveness during the pandemic. Point 3 - Man: Secondly, patients in remote regions deserve equal access to care. Woman: Geography should not determine the quality of health services. Point 4 - Man: Thirdly, nurse practitioners could do more teleconsultations. Woman: Their expertise is underutilized in our current system. Point 5 - Man: Fourthly, modern technologies allow reliable remote diagnoses. Woman: We must invest in the necessary equipment for regional clinics. Point 6 - Man: Fifthly, elderly people need regular follow-up without traveling. Woman: The comfort of vulnerable patients must be our absolute priority. Point 7 - Man: Sixthly, telemedicine reduces transportation costs for patients. Woman: The economic aspect is important for modest-income families. Point 8 - Man: Seventhly, specialists could consult more patients daily. Woman: The efficiency of the system would be considerably improved. Point 9 - Man: Eighthly, we propose a pilot program in five regions of Quebec. Woman: This pilot program will be evaluated after six months of field implementation. Point 10 - Man: Ninthly, training medical staff on these new tools is essential. Woman: Training sessions begin next month in all establishments.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Madame la directrice, les listes d'attente pour voir un médecin atteignent des records historiques."
+        ],
+        "female_lines": [
+          "La situation est critique, nous devons agir rapidement et efficacement."
+        ]
+      },
+      {
+        "point": 2,
+        "male_lines": [
+          "Premièrement, la télémédecine pourrait désengorger les urgences immédiatement."
+        ],
+        "female_lines": [
+          "Les consultations virtuelles ont prouvé leur efficacité pendant la pandémie."
+        ]
+      },
+      {
+        "point": 3,
+        "male_lines": [
+          "Deuxièmement, les patients des régions éloignées méritent un accès égal aux soins."
+        ],
+        "female_lines": [
+          "La géographie ne devrait pas déterminer la qualité des services de santé."
+        ]
+      },
+      {
+        "point": 4,
+        "male_lines": [
+          "Troisièmement, les infirmières praticiennes pourraient faire plus de téléconsultations."
+        ],
+        "female_lines": [
+          "Leur expertise est sous-utilisée dans notre système actuel."
+        ]
+      },
+      {
+        "point": 5,
+        "male_lines": [
+          "Quatrièmement, les technologies modernes permettent des diagnostics à distance fiables."
+        ],
+        "female_lines": [
+          "Nous devons investir dans l'équipement nécessaire pour les cliniques régionales."
+        ]
+      },
+      {
+        "point": 6,
+        "male_lines": [
+          "Cinquièmement, les personnes âgées ont besoin de suivi régulier sans se déplacer."
+        ],
+        "female_lines": [
+          "Le confort des patients vulnérables doit être notre priorité absolue."
+        ]
+      },
+      {
+        "point": 7,
+        "male_lines": [
+          "Sixièmement, la télémédecine réduit les coûts de transport pour les patients."
+        ],
+        "female_lines": [
+          "L'aspect économique est important pour les familles à revenus modestes."
+        ]
+      },
+      {
+        "point": 8,
+        "male_lines": [
+          "Septièmement, les spécialistes pourraient consulter plus de patients quotidiennement."
+        ],
+        "female_lines": [
+          "L'efficacité du système s'en trouverait considérablement améliorée."
+        ]
+      },
+      {
+        "point": 9,
+        "male_lines": [
+          "Huitièmement, nous proposons un programme pilote dans cinq régions du Québec."
+        ],
+        "female_lines": [
+          "Ce programme pilote sera évalué après six mois d'implantation sur le terrain."
+        ]
+      },
+      {
+        "point": 10,
+        "male_lines": [
+          "Neuvièmement, la formation du personnel médical à ces nouveaux outils est essentielle."
+        ],
+        "female_lines": [
+          "Des sessions de formation commencent dès le mois prochain dans tous les établissements."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "section": "G",
+    "theme": "Education reform debate",
+    "question": "Quel changement éducatif est défendu dans cette discussion ?",
+    "options": [
+      { "id": "A", "text": "L'apprentissage des langues dès la maternelle", "image_prompt": "" },
+      { "id": "B", "text": "La réduction du nombre d'élèves par classe", "image_prompt": "" },
+      { "id": "C", "text": "L'introduction de la programmation informatique", "image_prompt": "" },
+      { "id": "D", "text": "L'augmentation des heures de sport", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Point 1 - Femme : Monsieur le directeur, notre système éducatif doit préparer les enfants au monde numérique. Homme : Je suis entièrement d'accord avec cette vision prospective. Point 2 - Femme : Premièrement, la programmation devrait être enseignée dès le primaire. Homme : Les enfants apprennent les langues naturellement, pourquoi pas les langages informatiques ? Point 3 - Femme : Deuxièmement, la logique algorithmique développe le raisonnement mathématique. Homme : Nous avons constaté une amélioration des résultats en mathématiques dans les écoles pilotes. Point 4 - Femme : Troisièmement, les emplois de demain exigeront des compétences technologiques. Homme : Le marché du travail évolue rapidement et nos programmes doivent suivre. Point 5 - Femme : Quatrièmement, les filles sont sous-représentées dans les domaines technologiques. Homme : Il est urgent de briser ces stéréotypes dès le plus jeune âge. Point 6 - Femme : Cinquièmement, le codage favorise la créativité et la résolution de problèmes. Homme : Ces compétences transversales sont essentielles pour tous les métiers. Point 7 - Femme : Sixièmement, nous proposons une formation continue pour les enseignants actuels. Homme : L'accompagnement pédagogique sera prioritaire dans notre budget. Point 8 - Femme : Septièmement, des partenariats avec l'industrie technologique sont nécessaires. Homme : Des entreprises comme Google et Microsoft ont déjà manifesté leur intérêt. Point 9 - Femme : Huitièmement, chaque école recevra du matériel informatique adapté. Homme : Nous investissons cinquante millions dans l'infrastructure technologique scolaire. Point 10 - Femme : Neuvièmement, les parents seront impliqués dans ce processus d'apprentissage. Homme : Des ateliers familiaux seront organisés pour accompagner cette transition.",
+    "transcript_en": "Point 1 - Woman: Mr. Director, our education system must prepare children for the digital world. Man: I entirely agree with this forward-looking vision. Point 2 - Woman: Firstly, programming should be taught from primary school. Man: Children learn languages naturally, why not computer languages? Point 3 - Woman: Secondly, algorithmic logic develops mathematical reasoning. Man: We have noticed an improvement in math results in pilot schools. Point 4 - Woman: Thirdly, tomorrow's jobs will require technological skills. Man: The job market is evolving rapidly and our programs must follow. Point 5 - Woman: Fourthly, girls are underrepresented in technological fields. Man: It is urgent to break these stereotypes from the youngest age. Point 6 - Woman: Fifthly, coding fosters creativity and problem-solving. Man: These transversal skills are essential for all professions. Point 7 - Woman: Sixthly, we propose continuous training for current teachers. Man: Pedagogical support will be a priority in our budget. Point 8 - Woman: Seventhly, partnerships with the technology industry are necessary. Man: Companies like Google and Microsoft have already expressed their interest. Point 9 - Woman: Eighthly, each school will receive appropriate computer equipment. Man: We are investing fifty million in school technological infrastructure. Point 10 - Woman: Ninthly, parents will be involved in this learning process. Man: Family workshops will be organized to accompany this transition.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Je suis entièrement d'accord avec cette vision prospective."
+        ],
+        "female_lines": [
+          "Monsieur le directeur, notre système éducatif doit préparer les enfants au monde numérique."
+        ]
+      },
+      {
+        "point": 2,
+        "male_lines": [
+          "Les enfants apprennent les langues naturellement, pourquoi pas les langages informatiques ?"
+        ],
+        "female_lines": [
+          "Premièrement, la programmation devrait être enseignée dès le primaire."
+        ]
+      },
+      {
+        "point": 3,
+        "male_lines": [
+          "Nous avons constaté une amélioration des résultats en mathématiques dans les écoles pilotes."
+        ],
+        "female_lines": [
+          "Deuxièmement, la logique algorithmique développe le raisonnement mathématique."
+        ]
+      },
+      {
+        "point": 4,
+        "male_lines": [
+          "Le marché du travail évolue rapidement et nos programmes doivent suivre."
+        ],
+        "female_lines": [
+          "Troisièmement, les emplois de demain exigeront des compétences technologiques."
+        ]
+      },
+      {
+        "point": 5,
+        "male_lines": [
+          "Il est urgent de briser ces stéréotypes dès le plus jeune âge."
+        ],
+        "female_lines": [
+          "Quatrièmement, les filles sont sous-représentées dans les domaines technologiques."
+        ]
+      },
+      {
+        "point": 6,
+        "male_lines": [
+          "Ces compétences transversales sont essentielles pour tous les métiers."
+        ],
+        "female_lines": [
+          "Cinquièmement, le codage favorise la créativité et la résolution de problèmes."
+        ]
+      },
+      {
+        "point": 7,
+        "male_lines": [
+          "L'accompagnement pédagogique sera prioritaire dans notre budget."
+        ],
+        "female_lines": [
+          "Sixièmement, nous proposons une formation continue pour les enseignants actuels."
+        ]
+      },
+      {
+        "point": 8,
+        "male_lines": [
+          "Des entreprises comme Google et Microsoft ont déjà manifesté leur intérêt."
+        ],
+        "female_lines": [
+          "Septièmement, des partenariats avec l'industrie technologique sont nécessaires."
+        ]
+      },
+      {
+        "point": 9,
+        "male_lines": [
+          "Nous investissons cinquante millions dans l'infrastructure technologique scolaire."
+        ],
+        "female_lines": [
+          "Huitièmement, chaque école recevra du matériel informatique adapté."
+        ]
+      },
+      {
+        "point": 10,
+        "male_lines": [
+          "Des ateliers familiaux seront organisés pour accompagner cette transition."
+        ],
+        "female_lines": [
+          "Neuvièmement, les parents seront impliqués dans ce processus d'apprentissage."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "section": "G",
+    "theme": "Environmental policy discussion",
+    "question": "Quelle mesure environnementale est priorisée ?",
+    "options": [
+      { "id": "A", "text": "L'interdiction des sacs plastiques", "image_prompt": "" },
+      { "id": "B", "text": "Le développement des énergies renouvelables", "image_prompt": "" },
+      { "id": "C", "text": "La protection des espèces menacées", "image_prompt": "" },
+      { "id": "D", "text": "La réduction des émissions de gaz à effet de serre", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Point 1 - Homme : Madame la ministre, le Québec doit accélérer sa transition énergétique maintenant. Femme : Notre gouvernement s'est engagé à atteindre la carboneutralité d'ici mille huit cent cinquante. Point 2 - Homme : Premièrement, l'éolien offshore dans le golfe du Saint-Laurent est inexploité. Femme : Le potentiel est énorme, nous pourrions alimenter tout l'est du Québec. Point 3 - Homme : Deuxièmement, l'hydroélectricité québécoise doit moderniser ses infrastructures vieillissantes. Femme : Des investissements de deux milliards sont prévus pour les barrages existants. Point 4 - Homme : Troisièmement, l'énergie solaire pourrait être développée dans les régions ensoleillées. Femme : Le sud du Québec a un potentiel solaire sous-estimé depuis trop longtemps. Point 5 - Homme : Quatrièmement, la géothermie est viable dans plusieurs régions volcaniques anciennes. Femme : Des études géologiques confirment ce potentiel inexploité. Point 6 - Homme : Cinquièmement, les communautés autochtones pourraient devenir productrices d'énergie propre. Femme : C'est une question de justice environnementale et économique. Point 7 - Homme : Sixièmement, les tarifs préférentiels pour l'électricité verte inciteraient les consommateurs. Femme : Nous étudions actuellement un système de crédits d'achat verts. Point 8 - Homme : Septièmement, la formation de main-d'œuvre spécialisée est indispensable. Femme : Des programmes de cégep dédiés aux énergies renouvelables ouvriront l'an prochain. Point 9 - Homme : Huitièmement, les exportations d'électricité verte vers les États-Unis sont lucratives. Femme : Les contrats avec la Nouvelle-Angleterre pourraient rapporter des milliards. Point 10 - Homme : Neuvièmement, nous proposons un fonds d'innovation pour les startups vertes. Femme : Ce fonds de cent millions sera lancé dès le début de l'année fiscale prochaine.",
+    "transcript_en": "Point 1 - Man: Madam Minister, Quebec must accelerate its energy transition now. Woman: Our government is committed to achieving carbon neutrality by eighteen fifty. Point 2 - Man: Firstly, offshore wind in the Gulf of St. Lawrence is unexploited. Woman: The potential is enormous, we could power all of eastern Quebec. Point 3 - Man: Secondly, Quebec hydroelectricity must modernize its aging infrastructure. Woman: Investments of two billion are planned for existing dams. Point 4 - Man: Thirdly, solar energy could be developed in sunny regions. Woman: Southern Quebec has had underestimated solar potential for too long. Point 5 - Man: Fourthly, geothermal energy is viable in several ancient volcanic regions. Woman: Geological studies confirm this unexploited potential. Point 6 - Man: Fifthly, Indigenous communities could become producers of clean energy. Woman: This is a question of environmental and economic justice. Point 7 - Man: Sixthly, preferential rates for green electricity would incentivize consumers. Woman: We are currently studying a green purchase credit system. Point 8 - Man: Seventhly, specialized workforce training is essential. Woman: CEGEP programs dedicated to renewable energies will open next year. Point 9 - Man: Eighthly, exports of green electricity to the United States are lucrative. Woman: Contracts with New England could bring in billions. Point 10 - Man: Ninthly, we propose an innovation fund for green startups. Woman: This one hundred million fund will be launched at the beginning of the next fiscal year.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Madame la ministre, le Québec doit accélérer sa transition énergétique maintenant."
+        ],
+        "female_lines": [
+          "Notre gouvernement s'est engagé à atteindre la carboneutralité d'ici mille huit cent cinquante."
+        ]
+      },
+      {
+        "point": 2,
+        "male_lines": [
+          "Premièrement, l'éolien offshore dans le golfe du Saint-Laurent est inexploité."
+        ],
+        "female_lines": [
+          "Le potentiel est énorme, nous pourrions alimenter tout l'est du Québec."
+        ]
+      },
+      {
+        "point": 3,
+        "male_lines": [
+          "Deuxièmement, l'hydroélectricité québécoise doit moderniser ses infrastructures vieillissantes."
+        ],
+        "female_lines": [
+          "Des investissements de deux milliards sont prévus pour les barrages existants."
+        ]
+      },
+      {
+        "point": 4,
+        "male_lines": [
+          "Troisièmement, l'énergie solaire pourrait être développée dans les régions ensoleillées."
+        ],
+        "female_lines": [
+          "Le sud du Québec a un potentiel solaire sous-estimé depuis trop longtemps."
+        ]
+      },
+      {
+        "point": 5,
+        "male_lines": [
+          "Quatrièmement, la géothermie est viable dans plusieurs régions volcaniques anciennes."
+        ],
+        "female_lines": [
+          "Des études géologiques confirment ce potentiel inexploité."
+        ]
+      },
+      {
+        "point": 6,
+        "male_lines": [
+          "Cinquièmement, les communautés autochtones pourraient devenir productrices d'énergie propre."
+        ],
+        "female_lines": [
+          "C'est une question de justice environnementale et économique."
+        ]
+      },
+      {
+        "point": 7,
+        "male_lines": [
+          "Sixièmement, les tarifs préférentiels pour l'électricité verte inciteraient les consommateurs."
+        ],
+        "female_lines": [
+          "Nous étudions actuellement un système de crédits d'achat verts."
+        ]
+      },
+      {
+        "point": 8,
+        "male_lines": [
+          "Septièmement, la formation de main-d'œuvre spécialisée est indispensable."
+        ],
+        "female_lines": [
+          "Des programmes de cégep dédiés aux énergies renouvelables ouvriront l'an prochain."
+        ]
+      },
+      {
+        "point": 9,
+        "male_lines": [
+          "Huitièmement, les exportations d'électricité verte vers les États-Unis sont lucratives."
+        ],
+        "female_lines": [
+          "Les contrats avec la Nouvelle-Angleterre pourraient rapporter des milliards."
+        ]
+      },
+      {
+        "point": 10,
+        "male_lines": [
+          "Neuvièmement, nous proposons un fonds d'innovation pour les startups vertes."
+        ],
+        "female_lines": [
+          "Ce fonds de cent millions sera lancé dès le début de l'année fiscale prochaine."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "section": "H",
+    "theme": "Philosophical debate on artificial intelligence",
+    "question": "Quelle crainte principale est exprimée concernant l'intelligence artificielle ?",
+    "options": [
+      { "id": "A", "text": "La perte d'emplois", "image_prompt": "" },
+      { "id": "B", "text": "La perte de l'autonomie humaine", "image_prompt": "" },
+      { "id": "C", "text": "Les biais algorithmiques", "image_prompt": "" },
+      { "id": "D", "text": "La consommation énergétique", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Point 1 - Femme : Monsieur le philosophe, l'intelligence artificielle menace-t-elle notre essence d'êtres humains ? Homme : C'est la question existentielle de notre époque technologique. Point 2 - Femme : Premièrement, jusqu'où la délégation de nos décisions aux machines est-elle acceptable ? Homme : Quand un algorithme choisit votre partenaire, votre carrière, vos croyances, où est votre liberté ? Point 3 - Femme : Deuxièmement, la pensée algorithmique uniformise-t-elle notre conception du monde ? Homme : Nous risquons de créer une pensée unique, dictée par des modèles statistiques. Point 4 - Femme : Troisièmement, l'empathie peut-elle être simulée par des lignes de code ? Homme : Un robot caressant un enfant malade ne ressent rien, c'est une parodie d'humanité. Point 5 - Femme : Quatrièmement, la créativité humaine est-elle réductible à des patterns appris ? Homme : Van Gogh n'a pas peint par reconnaissance de patterns, mais par souffrance existentielle. Point 6 - Femme : Cinquièmement, la responsabilité morale peut-elle être transférée à une machine ? Homme : Quand une voiture autonome tue, qui est coupable ? Le programmeur ? Le propriétaire ? Personne ? Point 7 - Femme : Sixièmement, la mémoire numérique remplace-t-elle notre mémoire biologique ? Homme : Nous devenons amnésiques volontaires, dépendants de nos appareils pour penser. Point 8 - Femme : Septièmement, la surveillance totale modifie-t-elle notre comportement intime ? Homme : Nous nous autocensurons sachant observés, perdant notre authenticité fondamentale. Point 9 - Femme : Huitièmement, l'immortalité numérique est-elle une promesse ou une menace ? Homme : Vivre éternellement dans un serveur, est-ce vivre ou simplement exister ? Point 10 - Femme : Neuvièmement, comment préserver l'imprévisible, l'irrationnel, l'amour ? Homme : Ces aspects chaotiques de l'humanité sont notre dernière frontière contre la machine froide.",
+    "transcript_en": "Point 1 - Woman: Mr. Philosopher, does artificial intelligence threaten our essence as human beings? Man: This is the existential question of our technological era. Point 2 - Woman: Firstly, to what extent is the delegation of our decisions to machines acceptable? Man: When an algorithm chooses your partner, your career, your beliefs, where is your freedom? Point 3 - Woman: Secondly, does algorithmic thinking standardize our conception of the world? Man: We risk creating a single thought, dictated by statistical models. Point 4 - Woman: Thirdly, can empathy be simulated by lines of code? Man: A robot caressing a sick child feels nothing, it is a parody of humanity. Point 5 - Woman: Fourthly, is human creativity reducible to learned patterns? Man: Van Gogh did not paint by pattern recognition, but by existential suffering. Point 6 - Woman: Fifthly, can moral responsibility be transferred to a machine? Man: When an autonomous car kills, who is guilty? The programmer? The owner? No one? Point 7 - Woman: Sixthly, is digital memory replacing our biological memory? Man: We are becoming voluntary amnesiacs, dependent on our devices to think. Point 8 - Woman: Seventhly, does total surveillance modify our intimate behavior? Man: We self-censor knowing we are watched, losing our fundamental authenticity. Point 9 - Woman: Eighthly, is digital immortality a promise or a threat? Man: To live eternally in a server, is that living or simply existing? Point 10 - Woman: Ninthly, how to preserve the unpredictable, the irrational, love? Man: These chaotic aspects of humanity are our last frontier against the cold machine.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "C'est la question existentielle de notre époque technologique."
+        ],
+        "female_lines": [
+          "Monsieur le philosophe, l'intelligence artificielle menace-t-elle notre essence d'êtres humains ?"
+        ]
+      },
+      {
+        "point": 2,
+        "male_lines": [
+          "Quand un algorithme choisit votre partenaire, votre carrière, vos croyances, où est votre liberté ?"
+        ],
+        "female_lines": [
+          "Premièrement, jusqu'où la délégation de nos décisions aux machines est-elle acceptable ?"
+        ]
+      },
+      {
+        "point": 3,
+        "male_lines": [
+          "Nous risquons de créer une pensée unique, dictée par des modèles statistiques."
+        ],
+        "female_lines": [
+          "Deuxièmement, la pensée algorithmique uniformise-t-elle notre conception du monde ?"
+        ]
+      },
+      {
+        "point": 4,
+        "male_lines": [
+          "Un robot caressant un enfant malade ne ressent rien, c'est une parodie d'humanité."
+        ],
+        "female_lines": [
+          "Troisièmement, l'empathie peut-elle être simulée par des lignes de code ?"
+        ]
+      },
+      {
+        "point": 5,
+        "male_lines": [
+          "Van Gogh n'a pas peint par reconnaissance de patterns, mais par souffrance existentielle."
+        ],
+        "female_lines": [
+          "Quatrièmement, la créativité humaine est-elle réductible à des patterns appris ?"
+        ]
+      },
+      {
+        "point": 6,
+        "male_lines": [
+          "Quand une voiture autonome tue, qui est coupable ? Le programmeur ? Le propriétaire ? Personne ?"
+        ],
+        "female_lines": [
+          "Cinquièmement, la responsabilité morale peut-elle être transférée à une machine ?"
+        ]
+      },
+      {
+        "point": 7,
+        "male_lines": [
+          "Nous devenons amnésiques volontaires, dépendants de nos appareils pour penser."
+        ],
+        "female_lines": [
+          "Sixièmement, la mémoire numérique remplace-t-elle notre mémoire biologique ?"
+        ]
+      },
+      {
+        "point": 8,
+        "male_lines": [
+          "Nous nous autocensurons sachant observés, perdant notre authenticité fondamentale."
+        ],
+        "female_lines": [
+          "Septièmement, la surveillance totale modifie-t-elle notre comportement intime ?"
+        ]
+      },
+      {
+        "point": 9,
+        "male_lines": [
+          "Vivre éternellement dans un serveur, est-ce vivre ou simplement exister ?"
+        ],
+        "female_lines": [
+          "Huitièmement, l'immortalité numérique est-elle une promesse ou une menace ?"
+        ]
+      },
+      {
+        "point": 10,
+        "male_lines": [
+          "Ces aspects chaotiques de l'humanité sont notre dernière frontière contre la machine froide."
+        ],
+        "female_lines": [
+          "Neuvièmement, comment préserver l'imprévisible, l'irrationnel, l'amour ?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "section": "H",
+    "theme": "Economic inequality analysis",
+    "question": "Quelle est la cause principale des inégalités selon cette analyse ?",
+    "options": [
+      { "id": "A", "text": "La mondialisation", "image_prompt": "" },
+      { "id": "B", "text": "La fiscalité inadéquate", "image_prompt": "" },
+      { "id": "C", "text": "L'automatisation du travail", "image_prompt": "" },
+      { "id": "D", "text": "L'éducation inégale", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Point 1 - Homme : Madame l'économiste, les inégalités de richesse atteignent des niveaux historiques. Femme : Oui, le ratio entre les plus riches et les plus pauvres s'est considérablement creusé. Point 2 - Homme : Premièrement, les taux d'imposition sur les grandes fortunes ont chuté drastiquement. Femme : Dans les années soixante, les marginales atteignaient quatre-vingt-dix pour cent. Point 3 - Homme : Deuxièmement, l'évasion fiscale légale coûte des milliards aux États. Femme : Les paradis fiscaux abritent vingt-six mille milliards de dollars d'actifs cachés. Point 4 - Homme : Troisièmement, la taxation du capital est inférieure à celle du travail. Femme : Un salarié paie plus d'impôts qu'un rentier, c'est absurde économiquement. Point 5 - Homme : Quatrièmement, les niches fiscales bénéficient principalement aux plus aisés. Femme : Les déductions pour dons caritatifs profitent surtout aux grandes fortunes. Point 6 - Homme : Cinquièmement, l'héritage recrée une aristocratie de naissance. Femme : Soixante pour cent des milliardaires ont hérité leur fortune, pas créée. Point 7 - Homme : Sixièmement, la fiscalité sur les successions est quasi inexistante. Femme : Au Canada, l'héritage n'est pratiquement pas taxé, contrairement à l'Europe. Point 8 - Homme : Septièmement, les entreprises multinationales ne paient pas leur juste part. Femme : Le transfert de bénéfices vers des juridictions à faible taxation est légale mais immoral. Point 9 - Homme : Huitièmement, la concentration des richesses réduit la consommation globale. Femme : Les riches épargnent, les pauvres consomment tout : la demande s'effondre. Point 10 - Homme : Neuvièmement, nous proposons une taxe sur la fortune mondiale coordonnée. Femme : Sans coopération internationale, aucun pays ne peut agir seul efficacement.",
+    "transcript_en": "Point 1 - Man: Madam Economist, wealth inequalities are reaching historic levels. Woman: Yes, the ratio between the richest and the poorest has widened considerably. Point 2 - Man: Firstly, tax rates on large fortunes have dropped drastically. Woman: In the sixties, marginal rates reached ninety percent. Point 3 - Man: Secondly, legal tax evasion costs states billions. Woman: Tax havens shelter twenty-six trillion dollars of hidden assets. Point 4 - Man: Thirdly, capital taxation is lower than labor taxation. Woman: A wage earner pays more taxes than a rentier, it's economically absurd. Point 5 - Man: Fourthly, tax loopholes mainly benefit the wealthiest. Woman: Deductions for charitable donations mostly benefit large fortunes. Point 6 - Man: Fifthly, inheritance recreates an aristocracy of birth. Woman: Sixty percent of billionaires inherited their fortune, didn't create it. Point 7 - Man: Sixthly, inheritance taxation is virtually nonexistent. Woman: In Canada, inheritance is practically not taxed, unlike in Europe. Point 8 - Man: Seventhly, multinational corporations don't pay their fair share. Woman: Profit shifting to low-tax jurisdictions is legal but immoral. Point 9 - Man: Eighthly, wealth concentration reduces overall consumption. Woman: The rich save, the poor consume everything: demand collapses. Point 10 - Man: Ninthly, we propose a coordinated global wealth tax. Woman: Without international cooperation, no country can act alone effectively.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Madame l'économiste, les inégalités de richesse atteignent des niveaux historiques."
+        ],
+        "female_lines": [
+          "Oui, le ratio entre les plus riches et les plus pauvres s'est considérablement creusé."
+        ]
+      },
+      {
+        "point": 2,
+        "male_lines": [
+          "Premièrement, les taux d'imposition sur les grandes fortunes ont chuté drastiquement."
+        ],
+        "female_lines": [
+          "Dans les années soixante, les marginales atteignaient quatre-vingt-dix pour cent."
+        ]
+      },
+      {
+        "point": 3,
+        "male_lines": [
+          "Deuxièmement, l'évasion fiscale légale coûte des milliards aux États."
+        ],
+        "female_lines": [
+          "Les paradis fiscaux abritent vingt-six mille milliards de dollars d'actifs cachés."
+        ]
+      },
+      {
+        "point": 4,
+        "male_lines": [
+          "Troisièmement, la taxation du capital est inférieure à celle du travail."
+        ],
+        "female_lines": [
+          "Un salarié paie plus d'impôts qu'un rentier, c'est absurde économiquement."
+        ]
+      },
+      {
+        "point": 5,
+        "male_lines": [
+          "Quatrièmement, les niches fiscales bénéficient principalement aux plus aisés."
+        ],
+        "female_lines": [
+          "Les déductions pour dons caritatifs profitent surtout aux grandes fortunes."
+        ]
+      },
+      {
+        "point": 6,
+        "male_lines": [
+          "Cinquièmement, l'héritage recrée une aristocratie de naissance."
+        ],
+        "female_lines": [
+          "Soixante pour cent des milliardaires ont hérité leur fortune, pas créée."
+        ]
+      },
+      {
+        "point": 7,
+        "male_lines": [
+          "Sixièmement, la fiscalité sur les successions est quasi inexistante."
+        ],
+        "female_lines": [
+          "Au Canada, l'héritage n'est pratiquement pas taxé, contrairement à l'Europe."
+        ]
+      },
+      {
+        "point": 8,
+        "male_lines": [
+          "Septièmement, les entreprises multinationales ne paient pas leur juste part."
+        ],
+        "female_lines": [
+          "Le transfert de bénéfices vers des juridictions à faible taxation est légale mais immoral."
+        ]
+      },
+      {
+        "point": 9,
+        "male_lines": [
+          "Huitièmement, la concentration des richesses réduit la consommation globale."
+        ],
+        "female_lines": [
+          "Les riches épargnent, les pauvres consomment tout : la demande s'effondre."
+        ]
+      },
+      {
+        "point": 10,
+        "male_lines": [
+          "Neuvièmement, nous proposons une taxe sur la fortune mondiale coordonnée."
+        ],
+        "female_lines": [
+          "Sans coopération internationale, aucun pays ne peut agir seul efficacement."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "section": "H",
+    "theme": "Cultural identity in globalization",
+    "question": "Quel danger la mondialisation représente-t-elle selon cette discussion ?",
+    "options": [
+      { "id": "A", "text": "La perte des langues autochtones", "image_prompt": "" },
+      { "id": "B", "text": "L'uniformisation culturelle", "image_prompt": "" },
+      { "id": "C", "text": "L'effondrement économique local", "image_prompt": "" },
+      { "id": "D", "text": "La migration massive", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Point 1 - Femme : Monsieur l'anthropologue, la mondialisation éradique-t-elle nos cultures distinctes ? Homme : C'est le paradoxe de notre époque : plus connectés, plus identiques. Point 2 - Femme : Premièrement, les centres commerciaux se ressemblent de Dubaï à Montréal. Homme : Le même Starbucks, le même Zara, la même expérience consumériste stérile. Point 3 - Femme : Deuxièmement, les langues locales disparaissent au profit de l'anglais global. Homme : Nous perdons cinq langues par semaine, des mondes entiers de pensée s'éteignent. Point 4 - Femme : Troisièmement, la cuisine traditionnelle est remplacée par la restauration rapide. Homme : Les saveurs ancestrales cèdent la place au burger standardisé. Point 5 - Femme : Quatrièmement, les fêtes traditionnelles deviennent des commodités touristiques. Homme : Le sacré devient spectacle, la spiritualité se marchande. Point 6 - Femme : Cinquièmement, les vêtements traditionnels sont relégués aux cérémonies folkloriques. Homme : Le jean universel efface les identités textiles séculaires. Point 7 - Femme : Sixièmement, la musique locale est noyée sous les hits américains. Homme : Les rythmes ancestraux ne résistent pas à l'industrie culturelle dominante. Point 8 - Femme : Septièmement, les contes et légendes ne sont plus transmis aux jeunes générations. Homme : Netflix remplace les grands-parents comme narrateurs de notre humanité. Point 9 - Femme : Huitièmement, l'architecture vernaculaire disparaît au profit du verre et de l'acier. Homme : Les maisons adaptées au climat local cèdent devant les gratte-ciel climatisés. Point 10 - Femme : Neuvièmement, comment sauvegarder l'authenticité sans tomber dans le musée ? Homme : Il faut vivre les traditions, non les momifier pour les touristes.",
+    "transcript_en": "Point 1 - Woman: Mr. Anthropologist, is globalization eradicating our distinct cultures? Man: This is the paradox of our time: more connected, more identical. Point 2 - Woman: Firstly, shopping malls look the same from Dubai to Montreal. Man: The same Starbucks, the same Zara, the same sterile consumerist experience. Point 3 - Woman: Secondly, local languages are disappearing in favor of global English. Man: We lose five languages per week, entire worlds of thought are extinguished. Point 4 - Woman: Thirdly, traditional cuisine is replaced by fast food. Man: Ancestral flavors give way to the standardized burger. Point 5 - Woman: Fourthly, traditional festivals become tourist commodities. Man: The sacred becomes spectacle, spirituality is merchandised. Point 6 - Woman: Fifthly, traditional clothing is relegated to folkloric ceremonies. Man: Universal jeans erase centuries-old textile identities. Point 7 - Woman: Sixthly, local music is drowned under American hits. Man: Ancestral rhythms cannot resist the dominant cultural industry. Point 8 - Woman: Seventhly, tales and legends are no longer transmitted to young generations. Man: Netflix replaces grandparents as narrators of our humanity. Point 9 - Woman: Eighthly, vernacular architecture disappears in favor of glass and steel. Man: Houses adapted to local climate give way to air-conditioned skyscrapers. Point 10 - Woman: Ninthly, how to safeguard authenticity without falling into the museum? Man: We must live traditions, not mummify them for tourists.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "C'est le paradoxe de notre époque : plus connectés, plus identiques."
+        ],
+        "female_lines": [
+          "Monsieur l'anthropologue, la mondialisation éradique-t-elle nos cultures distinctes ?"
+        ]
+      },
+      {
+        "point": 2,
+        "male_lines": [
+          "Le même Starbucks, le même Zara, la même expérience consumériste stérile."
+        ],
+        "female_lines": [
+          "Premièrement, les centres commerciaux se ressemblent de Dubaï à Montréal."
+        ]
+      },
+      {
+        "point": 3,
+        "male_lines": [
+          "Nous perdons cinq langues par semaine, des mondes entiers de pensée s'éteignent."
+        ],
+        "female_lines": [
+          "Deuxièmement, les langues locales disparaissent au profit de l'anglais global."
+        ]
+      },
+      {
+        "point": 4,
+        "male_lines": [
+          "Les saveurs ancestrales cèdent la place au burger standardisé."
+        ],
+        "female_lines": [
+          "Troisièmement, la cuisine traditionnelle est remplacée par la restauration rapide."
+        ]
+      },
+      {
+        "point": 5,
+        "male_lines": [
+          "Le sacré devient spectacle, la spiritualité se marchande."
+        ],
+        "female_lines": [
+          "Quatrièmement, les fêtes traditionnelles deviennent des commodités touristiques."
+        ]
+      },
+      {
+        "point": 6,
+        "male_lines": [
+          "Le jean universel efface les identités textiles séculaires."
+        ],
+        "female_lines": [
+          "Cinquièmement, les vêtements traditionnels sont relégués aux cérémonies folkloriques."
+        ]
+      },
+      {
+        "point": 7,
+        "male_lines": [
+          "Les rythmes ancestraux ne résistent pas à l'industrie culturelle dominante."
+        ],
+        "female_lines": [
+          "Sixièmement, la musique locale est noyée sous les hits américains."
+        ]
+      },
+      {
+        "point": 8,
+        "male_lines": [
+          "Netflix remplace les grands-parents comme narrateurs de notre humanité."
+        ],
+        "female_lines": [
+          "Septièmement, les contes et légendes ne sont plus transmis aux jeunes générations."
+        ]
+      },
+      {
+        "point": 9,
+        "male_lines": [
+          "Les maisons adaptées au climat local cèdent devant les gratte-ciel climatisés."
+        ],
+        "female_lines": [
+          "Huitièmement, l'architecture vernaculaire disparaît au profit du verre et de l'acier."
+        ]
+      },
+      {
+        "point": 10,
+        "male_lines": [
+          "Il faut vivre les traditions, non les momifier pour les touristes."
+        ],
+        "female_lines": [
+          "Neuvièmement, comment sauvegarder l'authenticité sans tomber dans le musée ?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "section": "H",
+    "theme": "Neuroscience and free will",
+    "question": "Quelle conclusion les neurosciences tirent-elles sur le libre arbitre ?",
+    "options": [
+      { "id": "A", "text": "Le libre arbitre est une illusion", "image_prompt": "" },
+      { "id": "B", "text": "Le libre arbitre existe mais est limité", "image_prompt": "" },
+      { "id": "C", "text": "Le libre arbitre dépend de l'éducation", "image_prompt": "" },
+      { "id": "D", "text": "Le libre arbitre est inexplicable scientifiquement", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Point 1 - Homme : Professeure, vos recherches remettent-elles en cause le libre arbitre humain ? Femme : Les données expérimentales sont formelles et déroutantes pour notre intuition. Point 2 - Homme : Premièrement, l'activité cérébrale précède la conscience de la décision. Femme : Notre cerveau décide six secondes avant que nous en ayons conscience. Point 3 - Homme : Deuxièmement, les lésions cérébrales modifient radicalement le comportement moral. Femme : Une tumeur frontale peut transformer un honnête homme en criminel. Point 4 - Homme : Troisièmement, les neurotransmetteurs déterminent nos humeurs et choix. Femme : La dopamine et la sérotonine dictent nos désirs avant même notre réflexion. Point 5 - Homme : Quatrièmement, l'héritage génétique influence nos préférences politiques. Femme : Jusqu'à quarante pour cent de nos opinions seraient inscrites dans nos gènes. Point 6 - Homme : Cinquièmement, l'environnement social façonne nos décisions sans notre consentement. Femme : Nous sommes des marionnettes de notre culture, notre époque, notre classe sociale. Point 7 - Homme : Sixièmement, les expériences de Libet montrent l'initiation inconsciente de l'action. Femme : Le potentiel de préparation cérébrale apparaît avant la volonté consciente. Point 8 - Homme : Septièmement, les illusions d'optique démontrent le caractère constructif de la perception. Femme : Nous ne voyons pas le monde tel qu'il est, mais tel que notre cerveau le reconstruit. Point 9 - Homme : Huitièmement, la responsabilité morale devient problématique sans libre arbitre. Femme : Comment punir quelqu'un pour des actions déterminées par sa neurobiologie ? Point 10 - Homme : Neuvièmement, l'illusion du libre arbitre pourrait avoir une fonction évolutive. Femme : Croire que nous contrôlons nos actions motive l'apprentissage et la planification.",
+    "transcript_en": "Point 1 - Man: Professor, do your researches challenge human free will? Woman: Experimental data is formal and disconcerting for our intuition. Point 2 - Man: Firstly, brain activity precedes consciousness of the decision. Woman: Our brain decides six seconds before we are conscious of it. Point 3 - Man: Secondly, brain lesions radically modify moral behavior. Woman: A frontal tumor can transform an honest man into a criminal. Point 4 - Man: Thirdly, neurotransmitters determine our moods and choices. Woman: Dopamine and serotonin dictate our desires before our reflection. Point 5 - Man: Fourthly, genetic heritage influences our political preferences. Woman: Up to forty percent of our opinions would be written in our genes. Point 6 - Man: Fifthly, social environment shapes our decisions without our consent. Woman: We are puppets of our culture, our era, our social class. Point 7 - Man: Sixthly, Libet's experiments show the unconscious initiation of action. Woman: The brain's readiness potential appears before conscious will. Point 8 - Man: Seventhly, optical illusions demonstrate the constructive nature of perception. Woman: We do not see the world as it is, but as our brain reconstructs it. Point 9 - Man: Eighthly, moral responsibility becomes problematic without free will. Woman: How to punish someone for actions determined by their neurobiology? Point 10 - Man: Ninthly, the illusion of free will might have an evolutionary function. Woman: Believing we control our actions motivates learning and planning.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Professeure, vos recherches remettent-elles en cause le libre arbitre humain ?"
+        ],
+        "female_lines": [
+          "Les données expérimentales sont formelles et déroutantes pour notre intuition."
+        ]
+      },
+      {
+        "point": 2,
+        "male_lines": [
+          "Premièrement, l'activité cérébrale précède la conscience de la décision."
+        ],
+        "female_lines": [
+          "Notre cerveau décide six secondes avant que nous en ayons conscience."
+        ]
+      },
+      {
+        "point": 3,
+        "male_lines": [
+          "Deuxièmement, les lésions cérébrales modifient radicalement le comportement moral."
+        ],
+        "female_lines": [
+          "Une tumeur frontale peut transformer un honnête homme en criminel."
+        ]
+      },
+      {
+        "point": 4,
+        "male_lines": [
+          "Troisièmement, les neurotransmetteurs déterminent nos humeurs et choix."
+        ],
+        "female_lines": [
+          "La dopamine et la sérotonine dictent nos désirs avant même notre réflexion."
+        ]
+      },
+      {
+        "point": 5,
+        "male_lines": [
+          "Quatrièmement, l'héritage génétique influence nos préférences politiques."
+        ],
+        "female_lines": [
+          "Jusqu'à quarante pour cent de nos opinions seraient inscrites dans nos gènes."
+        ]
+      },
+      {
+        "point": 6,
+        "male_lines": [
+          "Cinquièmement, l'environnement social façonne nos décisions sans notre consentement."
+        ],
+        "female_lines": [
+          "Nous sommes des marionnettes de notre culture, notre époque, notre classe sociale."
+        ]
+      },
+      {
+        "point": 7,
+        "male_lines": [
+          "Sixièmement, les expériences de Libet montrent l'initiation inconsciente de l'action."
+        ],
+        "female_lines": [
+          "Le potentiel de préparation cérébrale apparaît avant la volonté consciente."
+        ]
+      },
+      {
+        "point": 8,
+        "male_lines": [
+          "Septièmement, les illusions d'optique démontrent le caractère constructif de la perception."
+        ],
+        "female_lines": [
+          "Nous ne voyons pas le monde tel qu'il est, mais tel que notre cerveau le reconstruit."
+        ]
+      },
+      {
+        "point": 9,
+        "male_lines": [
+          "Huitièmement, la responsabilité morale devient problématique sans libre arbitre."
+        ],
+        "female_lines": [
+          "Comment punir quelqu'un pour des actions déterminées par sa neurobiologie ?"
+        ]
+      },
+      {
+        "point": 10,
+        "male_lines": [
+          "Neuvièmement, l'illusion du libre arbitre pourrait avoir une fonction évolutive."
+        ],
+        "female_lines": [
+          "Croire que nous contrôlons nos actions motive l'apprentissage et la planification."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "section": "H",
+    "theme": "Space exploration ethics",
+    "question": "Quel argument contre l'exploration spatiale est présenté ?",
+    "options": [
+      { "id": "A", "text": "Le coût exorbitant des missions", "image_prompt": "" },
+      { "id": "B", "text": "Les risques pour les astronautes", "image_prompt": "" },
+      { "id": "C", "text": "La colonisation néocoloniale de l'espace", "image_prompt": "" },
+      { "id": "D", "text": "L'impossibilité technologique", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Point 1 - Femme : Monsieur l'ethicien, la conquête spatiale actuelle relève-t-elle du néocolonialisme ? Homme : Cette question dérange mais mérite d'être posée sans tabou. Point 2 - Femme : Premièrement, les milliardaires occidentaux s'approprient l'espace comme les conquistadors le Nouveau Monde. Homme : Musk et Bezos répètent les patterns coloniaux avec des fusées modernes. Point 3 - Femme : Deuxièmement, les ressources spatiales seront-elles exploitées au profit de quelques-uns ? Homme : L'astéroïde riche en platine enrichira des actionnaires, pas l'humanité. Point 4 - Femme : Troisièmement, les traités internationaux sur l'espace sont obsolètes et inapplicables. Homme : La loi de la jungle spatiale remplace le droit international. Point 5 - Femme : Quatrièmement, les peuples autochtones de la Terre n'ont pas voix au chapitre spatial. Homme : Ceux qui respectent la nature sont exclus de la conquête des étoiles. Point 6 - Femme : Cinquièmement, la militarisation de l'espace est inévitable et dangereuse. Homme : Les satellites d'espionnage précèdent les armes orbitales. Point 7 - Femme : Sixièmement, la pollution spatiale menace les futures générations. Homme : Nous transformons l'orbite terrestre en décharge spatiale toxique. Point 8 - Femme : Septièmement, l'évasion spatiale détourne l'attention des crises terrestres. Homme : On rêve de Mars pendant que la Terre brûle climatiquement. Point 9 - Femme : Huitièmement, les travailleurs spatiaux seront-ils des esclaves modernes ? Homme : Les mines lunaires risquent de réinventer le travail forcé extraterrestre. Point 10 - Femme : Neuvièmement, devons-nous vraiment exporter nos conflits vers d'autres mondes ? Homme : L'humanité devrait soigner ses blessures terrestres avant d'infester le cosmos.",
+    "transcript_en": "Point 1 - Woman: Mr. Ethicist, does current space conquest amount to neocolonialism? Man: This question is disturbing but deserves to be asked without taboo. Point 2 - Woman: Firstly, Western billionaires are appropriating space like conquistadors did the New World. Man: Musk and Bezos repeat colonial patterns with modern rockets. Point 3 - Woman: Secondly, will space resources be exploited for the benefit of a few? Man: The platinum-rich asteroid will enrich shareholders, not humanity. Point 4 - Woman: Thirdly, international space treaties are obsolete and unenforceable. Man: The law of the space jungle replaces international law. Point 5 - Woman: Fourthly, indigenous peoples of Earth have no say in space matters. Man: Those who respect nature are excluded from the conquest of the stars. Point 6 - Woman: Fifthly, the militarization of space is inevitable and dangerous. Man: Spy satellites precede orbital weapons. Point 7 - Woman: Sixthly, space pollution threatens future generations. Man: We are transforming Earth's orbit into a toxic space dump. Point 8 - Woman: Seventhly, space escapism diverts attention from earthly crises. Man: We dream of Mars while Earth burns climatically. Point 9 - Woman: Eighthly, will space workers be modern slaves? Man: Lunar mines risk reinventing extraterrestrial forced labor. Point 10 - Woman: Ninthly, must we really export our conflicts to other worlds? Man: Humanity should heal its earthly wounds before infesting the cosmos.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [
+          "Cette question dérange mais mérite d'être posée sans tabou."
+        ],
+        "female_lines": [
+          "Monsieur l'ethicien, la conquête spatiale actuelle relève-t-elle du néocolonialisme ?"
+        ]
+      },
+      {
+        "point": 2,
+        "male_lines": [
+          "Musk et Bezos répètent les patterns coloniaux avec des fusées modernes."
+        ],
+        "female_lines": [
+          "Premièrement, les milliardaires occidentaux s'approprient l'espace comme les conquistadors le Nouveau Monde."
+        ]
+      },
+      {
+        "point": 3,
+        "male_lines": [
+          "L'astéroïde riche en platine enrichira des actionnaires, pas l'humanité."
+        ],
+        "female_lines": [
+          "Deuxièmement, les ressources spatiales seront-elles exploitées au profit de quelques-uns ?"
+        ]
+      },
+      {
+        "point": 4,
+        "male_lines": [
+          "La loi de la jungle spatiale remplace le droit international."
+        ],
+        "female_lines": [
+          "Troisièmement, les traités internationaux sur l'espace sont obsolètes et inapplicables."
+        ]
+      },
+      {
+        "point": 5,
+        "male_lines": [
+          "Ceux qui respectent la nature sont exclus de la conquête des étoiles."
+        ],
+        "female_lines": [
+          "Quatrièmement, les peuples autochtones de la Terre n'ont pas voix au chapitre spatial."
+        ]
+      },
+      {
+        "point": 6,
+        "male_lines": [
+          "Les satellites d'espionnage précèdent les armes orbitales."
+        ],
+        "female_lines": [
+          "Cinquièmement, la militarisation de l'espace est inévitable et dangereuse."
+        ]
+      },
+      {
+        "point": 7,
+        "male_lines": [
+          "Nous transformons l'orbite terrestre en décharge spatiale toxique."
+        ],
+        "female_lines": [
+          "Sixièmement, la pollution spatiale menace les futures générations."
+        ]
+      },
+      {
+        "point": 8,
+        "male_lines": [
+          "On rêve de Mars pendant que la Terre brûle climatiquement."
+        ],
+        "female_lines": [
+          "Septièmement, l'évasion spatiale détourne l'attention des crises terrestres."
+        ]
+      },
+      {
+        "point": 9,
+        "male_lines": [
+          "Les mines lunaires risquent de réinventer le travail forcé extraterrestre."
+        ],
+        "female_lines": [
+          "Huitièmement, les travailleurs spatiaux seront-ils des esclaves modernes ?"
+        ]
+      },
+      {
+        "point": 10,
+        "male_lines": [
+          "L'humanité devrait soigner ses blessures terrestres avant d'infester le cosmos."
+        ],
+        "female_lines": [
+          "Neuvièmement, devons-nous vraiment exporter nos conflits vers d'autres mondes ?"
+        ]
+      }
+    ]
+  }
+]

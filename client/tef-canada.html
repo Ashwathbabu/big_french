@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>TEF Canada Preparation - BigFrench.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        
+        .gradient-text {
+            background: linear-gradient(90deg, #1e40af 0%, #2563eb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .blob {
+            position: absolute;
+            filter: blur(80px);
+            z-index: -1;
+            opacity: 0.6;
+            animation: float 10s infinite ease-in-out;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(20px, -20px) scale(1.1); }
+        }
+        
+        @keyframes scroll-left {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        
+        @keyframes scroll-right {
+            0% { transform: translateX(-50%); }
+            100% { transform: translateX(0); }
+        }
+        
+        .testimonials-row-1 { animation: scroll-left 40s linear infinite; }
+        .testimonials-row-2 { animation: scroll-right 35s linear infinite; }
+        
+        .testimonials-container:hover .testimonials-row-1,
+        .testimonials-container:hover .testimonials-row-2 {
+            animation-play-state: paused;
+        }
+        
+        .testimonial-card {
+            flex-shrink: 0;
+            width: 380px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            z-index: 10;
+        }
+        
+        .week-card {
+            transition: all 0.3s ease;
+        }
+        
+        .week-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .module-card {
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .module-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.13);
+        }
+
+        /* Hover popup */
+        .mod-popup {
+            position: absolute;
+            inset: 0;
+            border-radius: 22px;
+            padding: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.28s ease;
+            z-index: 20;
+        }
+        .module-card:hover .mod-popup { opacity: 1; pointer-events: auto; }
+        .mod-popup-inner {
+            background: rgba(255,255,255,0.97);
+            border-radius: 16px;
+            padding: 18px 20px;
+            box-shadow: 0 16px 48px rgba(0,0,0,0.18);
+            width: 100%;
+        }
+        .mod-popup-inner h4 {
+            font-size: 14px; font-weight: 700;
+            margin: 0 0 10px; color: #1e293b;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .mod-popup-inner ul { list-style: none; padding: 0; margin: 0; }
+        .mod-popup-inner li {
+            font-size: 12.5px; color: #475569;
+            padding: 3px 0;
+            display: flex; align-items: flex-start; gap: 7px;
+        }
+        .mod-popup-inner li i { margin-top: 2px; flex-shrink: 0; }
+        .mod-popup-tip {
+            margin-top: 10px; padding-top: 8px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 12px; font-weight: 600;
+            display: flex; align-items: center; gap: 6px;
+        }
+        
+        .plan-card {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .plan-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .plan-card.selected {
+            border-color: #2563eb;
+            background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+        }
+        
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+        /* ── Pop-hover card system ── */
+        .wc{background:#fff;border:2px solid #e2e8f0;border-radius:20px;padding:2rem;position:relative;overflow:hidden;cursor:default;transition:transform .28s cubic-bezier(.4,0,.2,1),box-shadow .28s cubic-bezier(.4,0,.2,1),border-color .28s ease;}
+        .wc::after{content:'';position:absolute;inset:0;opacity:0;transition:opacity .28s ease;border-radius:18px;pointer-events:none;}
+        .wc:hover{transform:translateY(-10px) scale(1.02);}
+        .wc:hover::after{opacity:1;}
+        .wc .wi{transition:transform .3s cubic-bezier(.4,0,.2,1);}
+        .wc:hover .wi{transform:scale(1.18) rotate(-6deg);}
+        .wc-bl:hover{border-color:#3b82f6;box-shadow:0 20px 50px -10px rgba(59,130,246,.22);}
+        .wc-bl::after{background:linear-gradient(135deg,rgba(59,130,246,.07),rgba(99,102,241,.04));}
+        .wc-pu:hover{border-color:#8b5cf6;box-shadow:0 20px 50px -10px rgba(139,92,246,.22);}
+        .wc-pu::after{background:linear-gradient(135deg,rgba(139,92,246,.07),rgba(168,85,247,.04));}
+        .wc-ye:hover{border-color:#f59e0b;box-shadow:0 20px 50px -10px rgba(245,158,11,.22);}
+        .wc-ye::after{background:linear-gradient(135deg,rgba(245,158,11,.07),rgba(251,191,36,.04));}
+        .wc-em:hover{border-color:#10b981;box-shadow:0 20px 50px -10px rgba(16,185,129,.22);}
+        .wc-em::after{background:linear-gradient(135deg,rgba(16,185,129,.07),rgba(20,184,166,.04));}
+        /* FAQ accordion pop */
+        .faq-item{background:#fff;border:2px solid #e2e8f0;border-radius:16px;overflow:hidden;transition:border-color .25s ease,box-shadow .25s ease,transform .25s ease;}
+        .faq-item:hover{border-color:#3b82f6;box-shadow:0 8px 30px -8px rgba(59,130,246,.18);transform:translateY(-2px);}
+        .faq-item[open]{border-color:#3b82f6;box-shadow:0 8px 30px -8px rgba(59,130,246,.18);}
+        .faq-item summary{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;cursor:pointer;font-weight:600;color:#0f172a;}
+        .faq-item summary::-webkit-details-marker{display:none;}
+        .faq-item summary .faq-icon{transition:transform .3s ease;color:#3b82f6;flex-shrink:0;}
+        .faq-item[open] summary .faq-icon{transform:rotate(180deg);}
+        .faq-item .faq-body{padding:0 1.25rem 1rem;color:#475569;font-size:.875rem;line-height:1.7;}
+
+        
+        .fade-left { background: linear-gradient(to right, #ffffff 0%, transparent 100%); }
+        .fade-right { background: linear-gradient(to left, #ffffff 0%, transparent 100%); }
+        
+        /* =================== FOOTER =================== */
+        .footer-root { background: #2a3040; color: #9aa3b2; font-family: 'Inter', sans-serif; }
+        .footer-rainbow { height: 4px; background: linear-gradient(90deg, #2563eb, #2563eb, #eab308, #22c55e, #3b82f6, #8b5cf6, #ec4899); }
+        .footer-main { width: 100%; margin: 0 auto; padding: 18px 120px 12px; display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 80px; max-width: 100%; }
+        @media (max-width: 768px) { .footer-main { grid-template-columns: 1fr; gap: 20px; padding: 12px 60px 8px; } }
+        .footer-brand-name { font-size: 13px; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 7px; margin-bottom: 8px; }
+        .footer-brand-icon { width: 24px; height: 24px; background: linear-gradient(135deg, #2563eb, #2563eb); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; flex-shrink: 0; }
+        .footer-contact-item { display: flex; align-items: center; gap: 7px; color: #9aa3b2; font-size: 11px; margin-bottom: 6px; text-decoration: none; transition: color 0.2s; }
+        .footer-contact-item:hover { color: #2563eb; }
+        .footer-contact-icon { width: 14px; text-align: center; color: #2563eb; font-size: 11px; flex-shrink: 0; }
+        .footer-col-title { font-size: 11px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px; }
+        .footer-links { list-style: none; padding: 0; margin: 0; }
+        .footer-links li { margin-bottom: 6px; }
+        .footer-links a { font-size: 12px; color: #f0c040; text-decoration: none; font-weight: 500; transition: color 0.2s, padding-left 0.2s; display: inline-block; }
+        .footer-links a:hover { color: #fff; padding-left: 4px; }
+        .footer-courses a { color: #4ade80 !important; }
+        .footer-courses a:hover { color: #86efac !important; }
+        .footer-bottom { width: 100%; margin: 0; padding: 8px 120px 8px; display: flex; align-items: center; justify-content: center; border-top: 1px solid rgba(255,255,255,0.08); font-size: 11px; color: #6b7280; flex-wrap: wrap; gap: 10px; }
+        @media (max-width: 640px) { .footer-bottom { padding: 8px 60px 8px; } }
+        .footer-legal { display: flex; gap: 20px; flex-wrap: wrap; }
+        .footer-legal a { color: #8b5cf6; font-size: 12.5px; text-decoration: none; transition: color 0.2s; }
+        .footer-legal a:hover { color: #c4b5fd; }
+        .footer-social { display: flex; gap: 12px; margin-top: 12px; }
+        .footer-social a { width: 32px; height: 32px; border-radius: 8px; background: #3f4654; color: #9aa3b2; display: flex; align-items: center; justify-content: center; font-size: 12px; transition: all 0.2s; }
+        .footer-social a:hover { background: #2563eb; color: white; }
+    /* ── FOOTER ── */
+        .footer-root { background: #1a2035; color: #9aa3b2; font-family: 'Inter', sans-serif; }
+        .footer-rainbow { height: 4px; background: linear-gradient(90deg, #3b82f6, #6366f1, #8b5cf6, #3b82f6); }
+        .footer-main { width: 100%; margin: 0 auto; padding: 32px 120px 20px; display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 60px; max-width: 100%; }
+        @media (max-width: 768px) { .footer-main { grid-template-columns: 1fr; gap: 28px; padding: 24px 28px 16px; } }
+        .footer-brand-name { font-size: 20px; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 8px; margin-bottom: 6px; letter-spacing: 0; }
+        .footer-brand-icon { width: 36px; height: 36px; background: linear-gradient(135deg, #2563eb, #1d4ed8); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; flex-shrink: 0; box-shadow: 0 4px 12px rgba(37,99,235,0.4); }
+        .footer-dot-com { color: #3b82f6; }
+        .footer-tagline { font-size: 12px; color: #64748b; margin-bottom: 16px; margin-top: 2px; }
+        .footer-contact-item { display: flex; align-items: center; gap: 9px; color: #94a3b8; font-size: 12.5px; margin-bottom: 9px; text-decoration: none; transition: color 0.2s; }
+        .footer-contact-item:hover { color: #3b82f6; }
+        .footer-contact-icon { width: 16px; text-align: center; color: #3b82f6; font-size: 12px; flex-shrink: 0; }
+        .footer-col-title { font-size: 10px; font-weight: 800; color: #fff; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 14px; }
+        .footer-links { list-style: none; padding: 0; margin: 0; }
+        .footer-links li { margin-bottom: 8px; }
+        .footer-links a { font-size: 13px; color: #94a3b8; text-decoration: none; font-weight: 500; transition: color 0.2s, padding-left 0.2s; display: inline-block; }
+        .footer-links a:hover { color: #3b82f6; padding-left: 4px; }
+        .footer-courses a { color: #4ade80 !important; }
+        .footer-courses a:hover { color: #86efac !important; }
+        .footer-bottom { width: 100%; padding: 14px 120px; display: flex; align-items: center; justify-content: center; border-top: 1px solid rgba(255,255,255,0.06); font-size: 11.5px; color: #4b5563; flex-wrap: wrap; gap: 10px; }
+        @media (max-width: 640px) { .footer-bottom { padding: 16px 24px; flex-direction: column; text-align: center; } }
+        .footer-legal { display: flex; gap: 16px; flex-wrap: wrap; }
+        .footer-legal-link { color: #6366f1 !important; font-size: 12.5px; text-decoration: none; transition: color 0.2s; }
+        .footer-legal-link:hover { color: #a5b4fc !important; }
+        .footer-social { display: flex; gap: 8px; margin-top: 20px; }
+        .footer-social a { width: 34px; height: 34px; border-radius: 9px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 13px; text-decoration: none; transition: background 0.2s, color 0.2s, transform 0.2s; }
+        .footer-social a:hover { background: #2563eb; color: white; transform: translateY(-2px); border-color: #2563eb; }
+        /* Floating buttons */
+        .float-whatsapp { position: fixed; bottom: 72px; right: 20px; width: 48px; height: 48px; background: #25d366; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 22px; box-shadow: 0 4px 16px rgba(37,211,102,0.4); text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; z-index: 999; }
+        .float-whatsapp:hover { transform: scale(1.1); box-shadow: 0 8px 24px rgba(37,211,102,0.5); }
+        .float-scroll-top { position: fixed; bottom: 20px; right: 20px; width: 40px; height: 40px; background: #2563eb; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; box-shadow: 0 4px 12px rgba(37,99,235,0.4); cursor: pointer; border: none; transition: transform 0.2s, opacity 0.3s; z-index: 999; opacity: 0; }
+        .float-scroll-top.visible { opacity: 1; }
+        .float-scroll-top:hover { transform: scale(1.1); }
+        </style>
+<base target="_blank">
+    <link rel="stylesheet" href="mobile-optimized.css">
+</head>
+<body class="font-sans text-slate-800 bg-white overflow-x-hidden">
+
+    <!-- Navigation -->
+<nav class="fixed w-full z-50 bg-white/90 backdrop-blur-xl border-b border-slate-200/50 shadow-sm transition-all duration-300" id="navbar">
+  <div class="w-full mx-auto px-6 sm:px-8 lg:px-12">
+    <div class="flex items-center justify-between h-20">
+
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-600/30 group-hover:shadow-blue-600/50 transition-all duration-300 group-hover:scale-105">
+          <i class="fas fa-graduation-cap text-lg"></i>
+        </div>
+        <span class="text-xl font-bold text-slate-800 tracking-tight">
+          BigFrench<span class="text-blue-600">.com</span>
+        </span>
+      </a>
+
+      <!-- Center Links -->
+      <div class="hidden lg:flex items-center gap-1">
+
+        <!-- Courses Dropdown -->
+        <div class="relative group">
+          <button class="flex items-center gap-2 px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">
+            Courses
+            <i class="fas fa-chevron-down text-xs transition-transform duration-300 group-hover:rotate-180"></i>
+          </button>
+          <div class="absolute top-full left-0 mt-2 w-80 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+            <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 p-2 overflow-hidden">
+              <a href="tef-canada.html" class="flex items-start gap-4 p-4 rounded-xl bg-gradient-to-r from-blue-50 to-blue-100/50 transition-all duration-300 group/item">
+                <div class="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white transition-all duration-300 shadow-sm">
+                  <i class="fas fa-book text-lg"></i>
+                </div>
+                <div class="flex-1">
+                  <div class="flex items-center gap-2">
+                    <strong class="text-slate-900 font-semibold">TEF Canada</strong>
+                    <span class="px-2 py-0.5 bg-blue-100 text-blue-700 text-[10px] font-bold rounded-full">POPULAR</span>
+                  </div>
+                  <p class="text-xs text-slate-500 mt-1 leading-relaxed">Complete preparation for Test d'Évaluation de Français</p>
+                </div>
+              </a>
+              <div class="h-px bg-slate-100 my-2"></div>
+              <a href="tcf-canada.html" class="flex items-start gap-4 p-4 rounded-xl hover:bg-gradient-to-r hover:from-emerald-50 hover:to-emerald-100/50 transition-all duration-300 group/item relative overflow-hidden">
+                <div class="absolute top-2 right-2 px-2 py-0.5 bg-emerald-100 text-emerald-700 text-[9px] font-bold rounded-full">SOON</div>
+                <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-emerald-600 group-hover/item:bg-emerald-600 group-hover/item:text-white transition-all duration-300 shadow-sm">
+                  <i class="fas fa-file-alt text-lg"></i>
+                </div>
+                <div class="flex-1">
+                  <strong class="text-slate-900 font-semibold">TCF Canada</strong>
+                  <p class="text-xs text-slate-500 mt-1 leading-relaxed">Test de Connaissance du Français preparation</p>
+                </div>
+              </a>
+              <div class="mt-2 p-3 bg-slate-50 rounded-lg border border-slate-100">
+                <div class="flex items-center justify-between text-xs text-slate-500">
+                  <span class="flex items-center gap-1.5"><i class="fas fa-users text-blue-600"></i> 2,500+ students enrolled</span>
+                  <span class="flex items-center gap-1 text-blue-700 font-medium">View all <i class="fas fa-chevron-right text-[10px]"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#pricing" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">Pricing</a>
+        <a href="#reviews" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">Reviews</a>
+        <a href="#faq" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">FAQ</a>
+        <a href="index.html" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">Home</a>
+      </div>
+
+      <!-- Right Side -->
+      <div class="flex items-center gap-3">
+
+        <!-- LOGIN BUTTON -->
+        <div id="loginBtn">
+          <a href="login.html" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 font-medium text-sm transition-colors duration-300">
+            Sign In
+          </a>
+        </div>
+
+        <!-- USER DROPDOWN -->
+        <div id="userArea" class="relative hidden">
+          <button id="userMenuBtn" type="button" class="flex items-center gap-2 px-3 py-2 bg-white border border-slate-200 rounded-full shadow-sm hover:shadow-md transition-all duration-300">
+            <div id="adminBadge" class="hidden w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white text-xs font-bold shadow-sm">
+              <i class="fas fa-shield-alt text-xs"></i>
+            </div>
+            <div id="userAvatar" class="w-8 h-8 bg-slate-200 rounded-full flex items-center justify-center text-slate-600 text-sm font-semibold">U</div>
+            <span id="userName" class="text-sm font-medium text-slate-700 max-w-[100px] truncate"></span>
+            <i id="userChevron" class="fas fa-chevron-down text-xs text-slate-400 transition-transform duration-300"></i>
+          </button>
+
+          <div id="userMenu" class="hidden absolute right-0 mt-2 w-64 bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden z-50">
+            <div class="p-4 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <div class="font-semibold text-slate-900 text-sm" id="userEmailFull"></div>
+                <span id="adminLabel" class="hidden px-2 py-0.5 bg-purple-100 text-purple-700 text-[10px] font-bold rounded-full">ADMIN</span>
+              </div>
+              <div class="text-xs text-slate-400 mt-0.5" id="userEmailSub"></div>
+            </div>
+            <div class="p-2">
+              <a href="profile.html" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-50 transition-colors duration-200 group">
+                <div class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-500 group-hover:border-blue-400 group-hover:text-blue-600 transition-all duration-200"><i class="far fa-user text-sm"></i></div>
+                <span class="text-sm font-medium text-slate-700">My Profile</span>
+              </a>
+              <a href="dashboard.html" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-50 transition-colors duration-200 group">
+                <div class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-500 group-hover:border-blue-400 group-hover:text-blue-600 transition-all duration-200"><i class="fas fa-chart-bar text-sm"></i></div>
+                <span class="text-sm font-medium text-slate-700">Progress Dashboard</span>
+              </a>
+              <a href="admin.html" id="adminDashboardLink" class="hidden flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-purple-50 transition-colors duration-200 group">
+                <div class="w-8 h-8 rounded-full border border-purple-200 flex items-center justify-center text-purple-500 group-hover:border-purple-500 group-hover:bg-purple-500 group-hover:text-white transition-all duration-200"><i class="fas fa-shield-alt text-sm"></i></div>
+                <div class="flex flex-col">
+                  <span class="text-sm font-medium text-purple-700">Admin Dashboard</span>
+                  <span class="text-[10px] text-purple-400">Management Panel</span>
+                </div>
+              </a>
+              <div class="h-px bg-slate-100 my-2"></div>
+              <button onclick="logout()" class="w-full flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-red-50 transition-colors duration-200 group text-left">
+                <div class="w-8 h-8 rounded-full border border-red-200 flex items-center justify-center text-red-500 group-hover:bg-red-500 group-hover:text-white transition-all duration-200"><i class="fas fa-sign-out-alt text-sm"></i></div>
+                <span class="text-sm font-medium text-red-600">Sign Out</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- GET STARTED -->
+        <a href="signup.html" id="signupBtn"
+          class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2.5 rounded-full font-semibold text-sm shadow-lg shadow-blue-600/30 hover:shadow-blue-600/50 hover:scale-105 transition-all duration-300 flex items-center gap-2 group">
+          Get Started
+          <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-300"></i>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="lg:hidden flex items-center">
+        <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="text-slate-600 p-2 hover:text-blue-600 transition"><i class="fas fa-bars text-xl"></i></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Drawer -->
+<div id="mobileDrawer" class="fixed inset-0 z-40 hidden">
+  <!-- Backdrop -->
+  <div onclick="toggleMobileMenu()" class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+  <!-- Panel -->
+  <div class="absolute top-0 right-0 h-full w-72 bg-white shadow-2xl flex flex-col overflow-y-auto transform transition-transform duration-300">
+    <div class="flex items-center justify-between p-5 border-b border-slate-100">
+      <span class="font-bold text-slate-800">BigFrench<span class="text-blue-600">.com</span></span>
+      <button onclick="toggleMobileMenu()" class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-500 hover:bg-slate-200 transition">
+        <i class="fas fa-times text-sm"></i>
+      </button>
+    </div>
+    <nav class="flex flex-col p-4 gap-1">
+      <a href="#pricing" onclick="toggleMobileMenu()" class="px-4 py-3 rounded-xl text-slate-700 hover:bg-blue-50 hover:text-blue-700 font-medium transition flex items-center gap-3">
+        <i class="fas fa-tag text-blue-500 w-4"></i> Pricing
+      </a>
+      <a href="#reviews" onclick="toggleMobileMenu()" class="px-4 py-3 rounded-xl text-slate-700 hover:bg-blue-50 hover:text-blue-700 font-medium transition flex items-center gap-3">
+        <i class="fas fa-star text-blue-500 w-4"></i> Reviews
+      </a>
+      <a href="#faq" onclick="toggleMobileMenu()" class="px-4 py-3 rounded-xl text-slate-700 hover:bg-blue-50 hover:text-blue-700 font-medium transition flex items-center gap-3">
+        <i class="fas fa-question-circle text-blue-500 w-4"></i> FAQ
+      </a>
+      <div class="h-px bg-slate-100 my-2"></div>
+      <a href="tcf-canada.html" class="px-4 py-3 rounded-xl text-slate-700 hover:bg-emerald-50 hover:text-emerald-600 font-medium transition flex items-center gap-3">
+        <i class="fas fa-file-alt text-emerald-400 w-4"></i> TCF Canada
+      </a>
+      <a href="index.html" class="px-4 py-3 rounded-xl text-slate-700 hover:bg-blue-50 hover:text-blue-700 font-medium transition flex items-center gap-3">
+        <i class="fas fa-home text-blue-500 w-4"></i> Home
+      </a>
+    </nav>
+    <div class="mt-auto p-4 border-t border-slate-100 space-y-2">
+      <div id="mobileAuthArea">
+        <!-- Filled by JS -->
+      </div>
+      <a href="signup.html" id="mobileSignupBtn" class="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full font-semibold text-sm shadow-lg w-full">
+        Get Started <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<script>
+function toggleMobileMenu() {
+  const drawer = document.getElementById('mobileDrawer');
+  const isOpen = !drawer.classList.contains('hidden');
+  if (isOpen) {
+    drawer.classList.add('hidden');
+    document.body.style.overflow = '';
+  } else {
+    drawer.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    // Sync mobile auth state
+    const token = localStorage.getItem('token');
+    const user = JSON.parse(localStorage.getItem('user') || 'null');
+    const mobileAuthArea = document.getElementById('mobileAuthArea');
+    const mobileSignupBtn = document.getElementById('mobileSignupBtn');
+    if (token && user) {
+      const name = user.firstName || user.name || (user.email || '').split('@')[0];
+      const email = user.email || '';
+      mobileAuthArea.innerHTML = `
+        <div class="flex items-center gap-3 px-2 py-2 mb-1">
+          <div class="w-9 h-9 rounded-full bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center text-white font-bold text-sm">${name.charAt(0).toUpperCase()}</div>
+          <div><div class="font-semibold text-slate-800 text-sm">${name}</div><div class="text-slate-400 text-xs truncate max-w-[150px]">${email}</div></div>
+        </div>
+        <a href="dashboard.html" class="flex items-center gap-2 px-4 py-2.5 rounded-xl text-slate-700 hover:bg-slate-50 transition text-sm font-medium"><i class="fas fa-chart-bar text-slate-400 w-4"></i> My Dashboard</a>
+        <button onclick="logout()" class="w-full flex items-center gap-2 px-4 py-2.5 rounded-xl text-red-600 hover:bg-red-50 transition text-sm font-medium text-left"><i class="fas fa-sign-out-alt w-4"></i> Sign Out</button>
+      `;
+      if (mobileSignupBtn) mobileSignupBtn.style.display = 'none';
+    } else {
+      mobileAuthArea.innerHTML = `<a href="login.html" class="flex items-center justify-center gap-2 border-2 border-slate-200 text-slate-600 px-6 py-2.5 rounded-full font-semibold text-sm w-full hover:border-blue-300 hover:text-blue-700 transition">Sign In</a>`;
+      if (mobileSignupBtn) mobileSignupBtn.style.display = 'flex';
+    }
+  }
+}
+</script>
+
+<script>
+(function() {
+  'use strict';
+  const userArea = document.getElementById('userArea');
+  const userMenuBtn = document.getElementById('userMenuBtn');
+  const userMenu = document.getElementById('userMenu');
+  const userChevron = document.getElementById('userChevron');
+  const loginBtn = document.getElementById('loginBtn');
+  const signupBtn = document.getElementById('signupBtn');
+  const adminDashboardLink = document.getElementById('adminDashboardLink');
+  const adminBadge = document.getElementById('adminBadge');
+  const adminLabel = document.getElementById('adminLabel');
+  const userAvatar = document.getElementById('userAvatar');
+  let menuOpen = false;
+  let isAdminUser = false;
+
+  function toggleMenu(e) {
+    if (e) e.stopPropagation();
+    menuOpen = !menuOpen;
+    if (menuOpen) {
+      userMenu.classList.remove('hidden');
+      userChevron.classList.add('rotate-180');
+    } else {
+      userMenu.classList.add('hidden');
+      userChevron.classList.remove('rotate-180');
+    }
+  }
+
+  async function verifyAdminStatus(token) {
+    try {
+      const cachedAdmin = localStorage.getItem('isAdmin');
+      const cacheTime = localStorage.getItem('adminCheckTime');
+      const now = Date.now();
+      if (cachedAdmin && cacheTime && (now - parseInt(cacheTime)) < 3600000) {
+        return cachedAdmin === 'true';
+      }
+      const response = await fetch('http://localhost:5000/api/auth/verify-admin', {
+        method: 'GET',
+        headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }
+      });
+      if (response.ok) {
+        const data = await response.json();
+        isAdminUser = data.isAdmin || false;
+        localStorage.setItem('isAdmin', isAdminUser.toString());
+        localStorage.setItem('adminCheckTime', now.toString());
+        return isAdminUser;
+      }
+    } catch (error) {
+      return checkLocalAdmin();
+    }
+    return false;
+  }
+
+  function checkLocalAdmin() {
+    const user = JSON.parse(localStorage.getItem('user') || '{}');
+    const storedAdmin = localStorage.getItem('isAdmin') === 'true';
+    const adminEmails = ['admin@bigfrench.com', 'superadmin@bigfrench.com'];
+    return storedAdmin || adminEmails.includes((user.email || '').toLowerCase().trim());
+  }
+
+  function updateAdminUI(isAdmin) {
+    if (isAdmin) {
+      if (adminBadge) adminBadge.classList.remove('hidden');
+      if (userAvatar) userAvatar.classList.add('hidden');
+      if (adminLabel) adminLabel.classList.remove('hidden');
+      if (adminDashboardLink) adminDashboardLink.classList.remove('hidden');
+    } else {
+      if (adminBadge) adminBadge.classList.add('hidden');
+      if (userAvatar) userAvatar.classList.remove('hidden');
+      if (adminLabel) adminLabel.classList.add('hidden');
+      if (adminDashboardLink) adminDashboardLink.classList.add('hidden');
+    }
+  }
+
+  async function initAuth() {
+    const token = localStorage.getItem('token');
+    const user = JSON.parse(localStorage.getItem('user') || 'null');
+    if (token && user) {
+      if (loginBtn) loginBtn.style.display = 'none';
+      if (signupBtn) signupBtn.style.display = 'none';
+      if (userArea) {
+        userArea.classList.remove('hidden');
+        const email = user.email || 'user@example.com';
+        const name = user.firstName || user.name || email.split('@')[0];
+        const initials = name.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2);
+        const userEmailFull = document.getElementById('userEmailFull');
+        const userEmailSub = document.getElementById('userEmailSub');
+        const userNameEl = document.getElementById('userName');
+        const userAvatarEl = document.getElementById('userAvatar');
+        if (userEmailFull) userEmailFull.textContent = email;
+        if (userEmailSub) userEmailSub.textContent = email;
+        if (userNameEl) userNameEl.textContent = name;
+        if (userAvatarEl) userAvatarEl.textContent = initials;
+        const isAdmin = await verifyAdminStatus(token);
+        updateAdminUI(isAdmin);
+      }
+    } else {
+      if (loginBtn) loginBtn.style.display = 'block';
+      if (signupBtn) signupBtn.style.display = 'inline-flex';
+      if (userArea) userArea.classList.add('hidden');
+      localStorage.removeItem('isAdmin');
+      localStorage.removeItem('adminCheckTime');
+    }
+  }
+
+  if (userMenuBtn) userMenuBtn.addEventListener('click', toggleMenu);
+  if (userMenu) userMenu.addEventListener('click', function(e) { e.stopPropagation(); });
+  document.addEventListener('click', function(e) {
+    if (menuOpen && userArea && !userArea.contains(e.target)) toggleMenu();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && menuOpen) toggleMenu();
+  });
+
+  initAuth();
+})();
+
+function logout() {
+  localStorage.removeItem('token');
+  localStorage.removeItem('user');
+  localStorage.removeItem('isAdmin');
+  localStorage.removeItem('adminCheckTime');
+  window.location.href = 'index.html';
+}
+</script>
+
+    <!-- Back to Home -->
+    <div class="pt-24 pb-4 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <a href="index.html" class="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 transition text-sm">
+                <i class="fas fa-arrow-left"></i>
+                Back to Home
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative py-16 bg-slate-50 overflow-hidden">
+        <div class="blob bg-blue-200 w-96 h-96 rounded-full top-0 right-0 translate-x-1/2 -translate-y-1/2"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold mb-6">
+                        <i class="fas fa-book"></i>
+                        📘 TEF Canada Preparation
+                    </div>
+                    
+                    <h1 class="text-5xl lg:text-6xl font-bold text-slate-900 mb-4">
+                        TEF <span class="text-blue-600">Canada</span>
+                    </h1>
+                    <p class="text-xl text-slate-500 mb-2">Test d'Évaluation de Français</p>
+                    
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                        Complete preparation for the TEF Canada exam — your gateway to Canadian immigration, citizenship, and study permits. Master all four modules with AI-powered mock tests.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-4 mb-8">
+                        <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
+                            <i class="fas fa-clock text-blue-500"></i>
+                            <span class="font-semibold text-sm">6 Months Access</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
+                            <i class="fas fa-users text-blue-500"></i>
+                            <span class="font-semibold text-sm">2,500+ Enrolled</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <span class="font-semibold text-sm">4.6/5 Rating</span>
+                        </div>
+                    </div>
+                    
+                    <button onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})" class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition flex items-center gap-2">
+                        View Plans & Pricing
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                
+                <div class="relative">
+                    <div class="wc wc-bl rounded-3xl p-8">
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="text-center p-6 bg-blue-50 rounded-2xl">
+                                <div class="text-4xl font-bold text-blue-600 mb-1">2,500+</div>
+                                <div class="text-sm text-slate-600">Students Enrolled</div>
+                            </div>
+                            <div class="text-center p-6 bg-blue-50 rounded-2xl">
+                                <div class="text-4xl font-bold text-blue-700 mb-1">4.6/5</div>
+                                <div class="text-sm text-slate-600">Average Rating</div>
+                            </div>
+                            <div class="col-span-2 text-center p-6 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl text-white">
+                                <i class="fas fa-certificate text-3xl mb-2"></i>
+                                <div class="text-lg font-bold">IRCC Recognized Exams</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Pricing Section with Razorpay -->
+<section class="py-20 bg-white" id="pricing">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-slate-900 mb-4">Choose Your TEF Canada Plan</h2>
+            <p class="text-slate-600 text-lg">Pick the mock test plan that fits your preparation timeline.</p>
+        </div>
+
+        <div class="bg-blue-50 border border-blue-200 rounded-2xl p-4 mb-8 flex items-center justify-center gap-2 text-blue-800">
+            <i class="fas fa-shield-alt"></i>
+            <span class="font-semibold">Secure payments powered by Razorpay · 7-Day Money Back Guarantee</span>
+        </div>
+
+        <!-- Coupon Code Input -->
+        <div class="mb-8 max-w-md mx-auto">
+            <label class="block text-sm font-bold text-slate-700 mb-2 text-center">
+                <i class="fas fa-tag text-blue-600 mr-1"></i> Have a coupon code?
+            </label>
+            <div class="flex gap-2">
+                <input
+                    id="couponInput"
+                    type="text"
+                    placeholder="Enter coupon code (e.g. BIGFRENCH20)"
+                    class="flex-1 border-2 border-slate-200 rounded-xl px-4 py-3 text-sm font-medium uppercase tracking-wider focus:outline-none focus:border-blue-400 transition"
+                    onkeydown="if(event.key==='Enter') applyCoupon()"
+                />
+                <button
+                    id="couponApplyBtn"
+                    onclick="applyCoupon()"
+                    class="px-5 py-3 rounded-xl font-bold text-sm bg-slate-100 text-slate-700 hover:bg-slate-200 transition whitespace-nowrap">
+                    Apply
+                </button>
+                <button onclick="removeCoupon()" title="Clear coupon" class="px-3 py-3 rounded-xl text-slate-400 hover:text-red-500 hover:bg-red-50 transition text-sm">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="couponMsg" class="text-sm mt-2"></div>
+        </div>
+
+        <div class="mb-6 text-center">
+            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Mock Test Simulations</span>
+            <p class="text-slate-500 text-sm mt-1">Real exam-format tests with AI-powered evaluation across all four modules.</p>
+        </div>
+
+        <!-- Pricing Cards Container -->
+        <div class="grid md:grid-cols-3 gap-6 mb-8" id="pricing-cards">
+            <!-- Cards injected by JavaScript -->
+        </div>
+
+        <div class="text-center mb-6">
+            <p class="text-slate-500 text-sm">
+                <i class="fas fa-lock text-emerald-500 mr-1"></i>
+                SSL Secure · Instant Access · 7-Day Money Back
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Razorpay Checkout Script -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<script>
+// Pricing configuration (must match server)
+const pricingConfig = {
+    'CA': { currency: 'CAD', symbol: 'CA$', rates: { '1month': 39, '3months': 99, '6months': 198 } },
+    'US': { currency: 'USD', symbol: '$', rates: { '1month': 29, '3months': 75, '6months': 149 } },
+    'GB': { currency: 'GBP', symbol: '£', rates: { '1month': 23, '3months': 59, '6months': 119 } },
+    'IN': { currency: 'INR', symbol: '₹', rates: { '1month': 2499, '3months': 6499, '6months': 12999 } },
+    'AU': { currency: 'AUD', symbol: 'A$', rates: { '1month': 45, '3months': 115, '6months': 229 } },
+    'EU': { currency: 'EUR', symbol: '€', rates: { '1month': 27, '3months': 69, '6months': 139 } },
+    'NG': { currency: 'NGN', symbol: '₦', rates: { '1month': 45000, '3months': 115000, '6months': 229000 } },
+    'PK': { currency: 'PKR', symbol: '₨', rates: { '1month': 8500, '3months': 22000, '6months': 44000 } },
+    'BD': { currency: 'BDT', symbol: '৳', rates: { '1month': 3500, '3months': 9000, '6months': 18000 } }
+};
+
+const planDetails = {
+    '1month':  { name: '1 Month',  subtitle: 'Unlocks Tests 1–10',    tests: 10,  duration: '1 month access',  popular: false,
+        features: ['10 Mock Tests', 'Basic AI Evaluation', 'Email Support', 'Score Reports'],
+        featureLevel: 'basic' },
+    '3months': { name: '3 Months', subtitle: 'Unlocks Tests 1–30',    tests: 30,  duration: '3 months access', popular: true,
+        features: ['30 Mock Tests', 'Advanced AI Evaluation', 'Priority Support', 'Unlimited Retakes', 'Weakness Analysis'],
+        featureLevel: 'advanced' },
+    '6months': { name: '6 Months', subtitle: 'All 50 Tests Unlocked', tests: 50,  duration: '6 months access', popular: false,
+        features: ['All 50 Mock Tests', 'Premium AI + Human Review', '24/7 Priority Support', 'Weakness Analysis', 'Progress Tracking'],
+        featureLevel: 'premium' },
+};
+
+let currentRegion = 'IN';
+let selectedPlan = null;
+let authToken = localStorage.getItem('token'); // Get auth token from storage
+let appliedCouponDiscount = 0;
+let appliedCouponCode = '';
+
+// Check if user is logged in
+function checkAuth() {
+    if (!authToken) {
+        // Redirect to login or show login modal
+        window.location.href = 'login.html?redirect=tef-canada.html#pricing';
+        return false;
+    }
+    return true;
+}
+
+// Coupon validation
+const COUPONS = {
+    'BIGFRENCH10': { type: 'percent', value: 10, label: '10% OFF applied!' },
+    'BIGFRENCH20': { type: 'percent', value: 20, label: '20% OFF applied!' },
+    'LAUNCH50':    { type: 'percent', value: 50, label: '50% OFF applied!' },
+    'FREEMOCK':    { type: 'fixed',   value: 0,  label: 'Special offer applied!' },
+    'WELCOME':     { type: 'percent', value: 15, label: '15% OFF applied!' },
+};
+
+function applyCoupon() {
+    const input  = document.getElementById('couponInput');
+    const btn    = document.getElementById('couponApplyBtn');
+    const msg    = document.getElementById('couponMsg');
+    const code   = (input.value || '').trim().toUpperCase();
+
+    if (!code) { showCouponMsg('Please enter a coupon code.', 'error'); return; }
+
+    const coupon = COUPONS[code];
+    if (!coupon) {
+        showCouponMsg('Invalid coupon code. Please try again.', 'error');
+        appliedCouponDiscount = 0;
+        appliedCouponCode = '';
+        renderPricingCards();
+        return;
+    }
+
+    appliedCouponCode = code;
+    const config = pricingConfig[currentRegion];
+
+    // Calculate discount based on selected plan (show on all cards)
+    if (coupon.type === 'percent') {
+        // Store as percent, apply per-plan in goToOrder
+        appliedCouponDiscount = coupon.value; // store as percent
+        COUPONS[code]._isPercent = true;
+    } else {
+        appliedCouponDiscount = coupon.value;
+        COUPONS[code]._isPercent = false;
+    }
+
+    showCouponMsg('<i class="fas fa-check-circle mr-1"></i>' + coupon.label, 'success');
+    btn.textContent = 'Applied ✓';
+    btn.classList.add('bg-emerald-500', 'text-white');
+    btn.classList.remove('bg-slate-100', 'text-slate-700');
+    renderPricingCards();
+}
+
+function removeCoupon() {
+    document.getElementById('couponInput').value = '';
+    const btn = document.getElementById('couponApplyBtn');
+    btn.textContent = 'Apply';
+    btn.classList.remove('bg-emerald-500', 'text-white');
+    btn.classList.add('bg-slate-100', 'text-slate-700');
+    appliedCouponDiscount = 0;
+    appliedCouponCode = '';
+    document.getElementById('couponMsg').innerHTML = '';
+    renderPricingCards();
+}
+
+function showCouponMsg(text, type) {
+    const el = document.getElementById('couponMsg');
+    el.innerHTML = text;
+    el.className = type === 'success'
+        ? 'text-sm text-emerald-600 font-semibold mt-2 flex items-center gap-1'
+        : 'text-sm text-red-500 font-semibold mt-2';
+}
+
+// Detect user location and currency
+async function detectLocation() {
+    try {
+        const response = await fetch("/api/ipinfo")
+        const data = await response.json();
+        const countryCode = data.country_code;
+        
+        const countryMap = {
+            'CA': 'CA', 'US': 'US', 'GB': 'GB', 'IN': 'IN',
+            'AU': 'AU', 'FR': 'EU', 'DE': 'EU', 'IT': 'EU',
+            'ES': 'EU', 'NL': 'EU', 'BE': 'EU', 'NG': 'NG',
+            'PK': 'PK', 'BD': 'BD'
+        };
+        
+        currentRegion = countryMap[countryCode] || 'IN';
+        renderPricingCards();
+    } catch (error) {
+        console.error('Location detection failed:', error);
+        renderPricingCards();
+    }
+}
+
+// Render pricing cards
+function renderPricingCards() {
+    const container = document.getElementById('pricing-cards');
+    const config = pricingConfig[currentRegion];
+
+    // Check if user already has a plan (stored in localStorage after purchase)
+    const userPlan = localStorage.getItem('activePlan') || null;
+    // rank: 1month < 3months < 6months
+    const planRank = { '1month': 1, '3months': 2, '6months': 3 };
+
+    container.innerHTML = Object.entries(planDetails).map(([planId, plan]) => {
+        const price = config.rates[planId];
+        const isPopular = plan.popular; // 6months is popular/current plan style
+        const userRank = userPlan ? (planRank[userPlan] || 0) : 0;
+        const thisRank = planRank[planId] || 0;
+        const isCurrentPlan = userPlan === planId;
+        const hasBetterPlan = userRank > thisRank;
+
+        // Price label suffix
+        const priceSuffix = planId === '1month' ? '/mo' : planId === '3months' ? '/3 mo' : '/6 mo';
+
+        // Button
+        let btnHtml = '';
+        if (isCurrentPlan) {
+            btnHtml = `<button disabled class="w-full py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2 border-2 border-emerald-400 text-emerald-600 bg-emerald-50 cursor-default">
+                <i class="fas fa-check"></i> Current Plan
+            </button>`;
+        } else if (hasBetterPlan) {
+            btnHtml = `<button disabled class="w-full py-3 rounded-xl font-bold text-sm text-slate-400 bg-slate-100 cursor-default">
+                Already Have Better Plan
+            </button>`;
+        } else {
+            btnHtml = `<button onclick="goToOrder('${planId}')" class="w-full py-3 rounded-xl font-bold text-sm transition flex items-center justify-center gap-2
+                ${isPopular ? 'bg-gradient-to-r from-emerald-500 to-teal-500 text-white shadow-lg hover:shadow-emerald-200 hover:-translate-y-0.5' : 'bg-slate-100 text-slate-700 hover:bg-slate-200 hover:-translate-y-0.5'}">
+                ${isPopular ? '<i class="fas fa-crown"></i> Get Started' : 'Select Plan'}
+            </button>`;
+        }
+
+        return `
+        <div class="plan-card relative bg-white border-2 rounded-2xl p-6 transition hover:shadow-xl
+            ${isPopular ? 'border-emerald-400 shadow-lg shadow-emerald-50' : 'border-slate-200'}"
+            id="card-${planId}">
+
+            ${isCurrentPlan ? `
+                <div class="absolute -top-3 right-4 bg-emerald-500 text-white text-[10px] font-bold px-3 py-1 rounded-full flex items-center gap-1">
+                    <i class="fas fa-check text-[9px]"></i> CURRENT PLAN
+                </div>` : ''}
+            ${isPopular && !isCurrentPlan ? `
+                <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-xs font-bold px-3 py-1 rounded-full">
+                    MOST POPULAR
+                </div>` : ''}
+
+            <div class="mb-3">
+                <h4 class="text-xl font-bold text-slate-900">${plan.name}</h4>
+                <p class="text-sm text-slate-400 mt-0.5">${plan.subtitle}</p>
+            </div>
+
+            <div class="mb-5">
+                <span class="text-4xl font-black text-blue-600">${config.symbol}${price.toLocaleString('en-IN')}</span>
+                <span class="text-slate-400 text-sm">${priceSuffix}</span>
+            </div>
+
+            <ul class="space-y-2.5 text-sm mb-6">
+                ${plan.features.map(f => `
+                <li class="flex items-center gap-2.5 text-slate-700">
+                    <i class="fas fa-check text-emerald-500 text-xs flex-shrink-0"></i>
+                    ${f}
+                </li>`).join('')}
+            </ul>
+
+            ${btnHtml}
+        </div>`;
+    }).join('');
+}
+
+// Navigate to order page
+function goToOrder(planId) {
+    // Check auth first
+    if (!checkAuth()) return;
+
+    const config  = pricingConfig[currentRegion];
+    const couponInput = document.getElementById('couponInput');
+    const coupon  = couponInput ? couponInput.value.trim().toUpperCase() : '';
+    const origPrice = config.rates[planId];
+
+    let discount = 0;
+    if (coupon && COUPONS[coupon]) {
+        const c = COUPONS[coupon];
+        if (c._isPercent) {
+            discount = Math.round(origPrice * c.value / 100);
+        } else {
+            discount = c.value;
+        }
+    }
+
+    const finalPrice = Math.max(0, origPrice - discount);
+
+    // Build state for order.html
+    const state = {
+        plan:          planId,
+        exam:          'tef',
+        region:        currentRegion,
+        couponCode:    coupon || null,
+        originalPrice: origPrice,
+        discountAmount:discount,
+        finalPrice:    finalPrice,
+        isFree:        finalPrice <= 0
+    };
+    sessionStorage.setItem('orderState', JSON.stringify(state));
+
+    // Also pass via URL as fallback
+    const params = new URLSearchParams({ plan: planId, exam: 'tef', region: currentRegion });
+    if (coupon) params.set('coupon', coupon);
+    window.location.href = `order.html?${params.toString()}`;
+}
+
+// Kept for backward compatibility
+async function initiatePayment(planId) {
+    goToOrder(planId);
+}
+
+// Initialize on load
+document.addEventListener('DOMContentLoaded', () => {
+    detectLocation();
+});
+</script>
+
+    <!-- Learning Path -->
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Your 8-Week Learning Path</h2>
+                <p class="text-slate-600">A structured roadmap from beginner to exam-ready, one milestone at a time.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Week 1-2 -->
+                <div class="week-card wc wc-bl">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 text-xl mb-4">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Week 1–2</h3>
+                    <h4 class="text-blue-600 font-semibold mb-2">Foundations</h4>
+                    <p class="text-sm text-slate-500">Grammar basics, vocabulary building, and listening fundamentals.</p>
+                </div>
+
+                <!-- Week 3-4 -->
+                <div class="week-card wc wc-bl">
+                    <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-emerald-600 text-xl mb-4">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Week 3–4</h3>
+                    <h4 class="text-emerald-600 font-semibold mb-2">Compréhension Orale</h4>
+                    <p class="text-sm text-slate-500">Audio comprehension drills, note-taking techniques, and timed practice.</p>
+                </div>
+
+                <!-- Week 5 -->
+                <div class="week-card wc wc-bl">
+                    <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-purple-600 text-xl mb-4">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Week 5</h3>
+                    <h4 class="text-purple-600 font-semibold mb-2">Compréhension Écrite</h4>
+                    <p class="text-sm text-slate-500">Reading strategies, passage analysis, and speed-reading exercises.</p>
+                </div>
+
+                <!-- Week 6 -->
+                <div class="week-card wc wc-bl">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-700 text-xl mb-4">
+                        <i class="fas fa-pen"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Week 6</h3>
+                    <h4 class="text-blue-700 font-semibold mb-2">Expression Écrite</h4>
+                    <p class="text-sm text-slate-500">Essay structure, argument building, and writing under timed conditions.</p>
+                </div>
+
+                <!-- Week 7 -->
+                <div class="week-card wc wc-bl">
+                    <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-pink-600 text-xl mb-4">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Week 7</h3>
+                    <h4 class="text-pink-600 font-semibold mb-2">Expression Orale</h4>
+                    <p class="text-sm text-slate-500">Speaking confidence, pronunciation polish, and mock interview sessions.</p>
+                </div>
+
+                <!-- Week 8 -->
+                <div class="week-card wc wc-bl md:col-span-2 lg:col-span-2">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center text-white text-xl">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-900">Week 8</h3>
+                            <h4 class="text-blue-700 font-semibold">Full Mock Exams</h4>
+                        </div>
+                    </div>
+                    <p class="text-sm text-slate-500 mb-4">Complete timed simulations, score analysis, and targeted revision.</p>
+                    <div class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-100 to-blue-50 text-blue-700 rounded-full text-sm font-bold">
+                        <i class="fas fa-party-popper"></i>
+                        🎉 Exam Day — You're Ready!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You'll Learn -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">What You'll Learn</h2>
+                <p class="text-slate-600">Complete Exam Syllabus — 180+ lessons covering all four exam modules in depth.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Compréhension Orale -->
+                <div class="module-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-3xl border border-blue-200">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center text-white text-2xl shadow-lg">
+                            <i class="fas fa-headphones"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Compréhension Orale (CO)</h3>
+                            <p class="text-blue-600 font-semibold">Listening Comprehension</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 mb-6 text-sm">
+                        <span class="px-3 py-1 bg-white rounded-full text-slate-600">40 min exam</span>
+                        <span class="px-3 py-1 bg-white rounded-full text-slate-600">48 lessons</span>
+                    </div>
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-500 mt-1"></i> Understanding short announcements & messages</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-500 mt-1"></i> Listening to conversations & dialogues</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-500 mt-1"></i> Comprehending longer monologues & presentations</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-500 mt-1"></i> Note-taking and key information extraction</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-500 mt-1"></i> Identifying speaker intent, tone & attitude</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-500 mt-1"></i> Practice with authentic French audio samples</li>
+                    </ul>
+                    <!-- Hover Popup -->
+                    <div class="mod-popup" style="background:rgba(219,234,254,0.55);backdrop-filter:blur(4px);">
+                        <div class="mod-popup-inner">
+                            <h4><span style="width:28px;height:28px;background:#2563eb;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;flex-shrink:0;"><i class="fas fa-headphones"></i></span><span style="color:#1d4ed8;">Compréhension Orale — 48 Lessons</span></h4>
+                            <ul>
+                                <li><i class="fas fa-circle-dot" style="color:#3b82f6;font-size:10px;margin-top:4px;"></i> Short announcements, voice messages & news snippets</li>
+                                <li><i class="fas fa-circle-dot" style="color:#3b82f6;font-size:10px;margin-top:4px;"></i> Multi-speaker conversations & informal dialogues</li>
+                                <li><i class="fas fa-circle-dot" style="color:#3b82f6;font-size:10px;margin-top:4px;"></i> Long-form lectures, radio broadcasts & reports</li>
+                                <li><i class="fas fa-circle-dot" style="color:#3b82f6;font-size:10px;margin-top:4px;"></i> Note-taking strategies & keyword extraction</li>
+                                <li><i class="fas fa-circle-dot" style="color:#3b82f6;font-size:10px;margin-top:4px;"></i> Detecting tone, mood & speaker attitude</li>
+                                <li><i class="fas fa-circle-dot" style="color:#3b82f6;font-size:10px;margin-top:4px;"></i> Timed drills with authentic French audio samples</li>
+                            </ul>
+                            <div class="mod-popup-tip" style="color:#1d4ed8;"><i class="fas fa-star" style="color:#f59e0b;"></i> Exam format: 40 min · 3 parts · ~30 questions</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compréhension Écrite -->
+                <div class="module-card bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-3xl border border-purple-200">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-16 h-16 bg-purple-600 rounded-2xl flex items-center justify-center text-white text-2xl shadow-lg">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Compréhension Écrite (CE)</h3>
+                            <p class="text-purple-600 font-semibold">Reading Comprehension</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 mb-6 text-sm">
+                        <span class="px-3 py-1 bg-white rounded-full text-slate-600">60 min exam</span>
+                        <span class="px-3 py-1 bg-white rounded-full text-slate-600">52 lessons</span>
+                    </div>
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-purple-500 mt-1"></i> Reading comprehension strategies</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-purple-500 mt-1"></i> Understanding articles & press releases</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-purple-500 mt-1"></i> Analyzing argumentative texts</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-purple-500 mt-1"></i> Speed reading techniques</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-purple-500 mt-1"></i> Identifying main ideas & supporting details</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-purple-500 mt-1"></i> Inference and deduction skills</li>
+                    </ul>
+                    <!-- Hover Popup -->
+                    <div class="mod-popup" style="background:rgba(237,233,254,0.55);backdrop-filter:blur(4px);">
+                        <div class="mod-popup-inner">
+                            <h4><span style="width:28px;height:28px;background:#7c3aed;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;flex-shrink:0;"><i class="fas fa-book-open"></i></span><span style="color:#7c3aed;">Compréhension Écrite — 52 Lessons</span></h4>
+                            <ul>
+                                <li><i class="fas fa-circle-dot" style="color:#8b5cf6;font-size:10px;margin-top:4px;"></i> Skimming & scanning for timed reading efficiency</li>
+                                <li><i class="fas fa-circle-dot" style="color:#8b5cf6;font-size:10px;margin-top:4px;"></i> News articles, editorials & press releases</li>
+                                <li><i class="fas fa-circle-dot" style="color:#8b5cf6;font-size:10px;margin-top:4px;"></i> Argumentative & persuasive text analysis</li>
+                                <li><i class="fas fa-circle-dot" style="color:#8b5cf6;font-size:10px;margin-top:4px;"></i> Speed reading with comprehension drills</li>
+                                <li><i class="fas fa-circle-dot" style="color:#8b5cf6;font-size:10px;margin-top:4px;"></i> Main idea vs. supporting details exercises</li>
+                                <li><i class="fas fa-circle-dot" style="color:#8b5cf6;font-size:10px;margin-top:4px;"></i> Inference & implicit meaning practice</li>
+                            </ul>
+                            <div class="mod-popup-tip" style="color:#7c3aed;"><i class="fas fa-star" style="color:#f59e0b;"></i> Exam format: 60 min · 3 texts · ~50 questions</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expression Orale -->
+                <div class="module-card bg-gradient-to-br from-pink-50 to-pink-100 p-8 rounded-3xl border border-pink-200">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-16 h-16 bg-pink-600 rounded-2xl flex items-center justify-center text-white text-2xl shadow-lg">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Expression Orale (EO)</h3>
+                            <p class="text-pink-600 font-semibold">Speaking</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 mb-6 text-sm">
+                        <span class="px-3 py-1 bg-white rounded-full text-slate-600">15 min exam</span>
+                        <span class="px-3 py-1 bg-white rounded-full text-slate-600">36 lessons</span>
+                    </div>
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-pink-500 mt-1"></i> Structured speaking frameworks</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-pink-500 mt-1"></i> Role-play scenarios & monologues</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-pink-500 mt-1"></i> Pronunciation & intonation practice</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-pink-500 mt-1"></i> Building fluency & confidence</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-pink-500 mt-1"></i> Expressing opinions & justifying arguments</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-pink-500 mt-1"></i> AI-powered speaking evaluation</li>
+                    </ul>
+                    <!-- Hover Popup -->
+                    <div class="mod-popup" style="background:rgba(253,242,248,0.55);backdrop-filter:blur(4px);">
+                        <div class="mod-popup-inner">
+                            <h4><span style="width:28px;height:28px;background:#db2777;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;flex-shrink:0;"><i class="fas fa-microphone"></i></span><span style="color:#be185d;">Expression Orale — 36 Lessons</span></h4>
+                            <ul>
+                                <li><i class="fas fa-circle-dot" style="color:#ec4899;font-size:10px;margin-top:4px;"></i> Self-presentation & monologue frameworks</li>
+                                <li><i class="fas fa-circle-dot" style="color:#ec4899;font-size:10px;margin-top:4px;"></i> Role-plays: complaints, negotiations & advice</li>
+                                <li><i class="fas fa-circle-dot" style="color:#ec4899;font-size:10px;margin-top:4px;"></i> French phonetics, liaisons & intonation drills</li>
+                                <li><i class="fas fa-circle-dot" style="color:#ec4899;font-size:10px;margin-top:4px;"></i> Filler words, transitions & fluency builders</li>
+                                <li><i class="fas fa-circle-dot" style="color:#ec4899;font-size:10px;margin-top:4px;"></i> Structuring arguments: thesis → examples → conclusion</li>
+                                <li><i class="fas fa-circle-dot" style="color:#ec4899;font-size:10px;margin-top:4px;"></i> AI feedback on pronunciation, pace & accuracy</li>
+                            </ul>
+                            <div class="mod-popup-tip" style="color:#be185d;"><i class="fas fa-star" style="color:#f59e0b;"></i> Exam format: 15 min · examiner-led · 3 tasks</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expression Écrite -->
+                <div class="module-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-3xl border border-blue-200">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-16 h-16 bg-blue-700 rounded-2xl flex items-center justify-center text-white text-2xl shadow-lg">
+                            <i class="fas fa-pen-fancy"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Expression Écrite (EE)</h3>
+                            <p class="text-blue-700 font-semibold">Writing</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 mb-6 text-sm">
+                        <span class="px-3 py-1 bg-white rounded-full text-slate-600">60 min exam</span>
+                        <span class="px-3 py-1 bg-white rounded-full text-slate-600">44 lessons</span>
+                    </div>
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-600 mt-1"></i> Essay structure & organization</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-600 mt-1"></i> Formal & informal letter writing</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-600 mt-1"></i> Article & opinion piece writing</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-600 mt-1"></i> Argument building & critical thinking</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-600 mt-1"></i> Grammar accuracy & vocabulary range</li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check-circle text-blue-600 mt-1"></i> Timed writing practice & feedback</li>
+                    </ul>
+                    <!-- Hover Popup -->
+                    <div class="mod-popup" style="background:rgba(219,234,254,0.55);backdrop-filter:blur(4px);">
+                        <div class="mod-popup-inner">
+                            <h4><span style="width:28px;height:28px;background:#1d4ed8;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;flex-shrink:0;"><i class="fas fa-pen-fancy"></i></span><span style="color:#1d4ed8;">Expression Écrite — 44 Lessons</span></h4>
+                            <ul>
+                                <li><i class="fas fa-circle-dot" style="color:#2563eb;font-size:10px;margin-top:4px;"></i> Essay structure: intro, body paragraphs & conclusion</li>
+                                <li><i class="fas fa-circle-dot" style="color:#2563eb;font-size:10px;margin-top:4px;"></i> Formal letters: complaints, requests, applications</li>
+                                <li><i class="fas fa-circle-dot" style="color:#2563eb;font-size:10px;margin-top:4px;"></i> Informal letters & emails for social contexts</li>
+                                <li><i class="fas fa-circle-dot" style="color:#2563eb;font-size:10px;margin-top:4px;"></i> Opinion articles: présenter, nuancer, conclure</li>
+                                <li><i class="fas fa-circle-dot" style="color:#2563eb;font-size:10px;margin-top:4px;"></i> Advanced connectors & vocabulary for B2/C1</li>
+                                <li><i class="fas fa-circle-dot" style="color:#2563eb;font-size:10px;margin-top:4px;"></i> Timed writing under exam conditions + AI feedback</li>
+                            </ul>
+                            <div class="mod-popup-tip" style="color:#1d4ed8;"><i class="fas fa-star" style="color:#f59e0b;"></i> Exam format: 60 min · 2 tasks · min 200 words each</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-slate-50 overflow-hidden" id="reviews">
+        <div class="max-w-full mx-auto px-6">
+            <div class="text-center mb-12 max-w-3xl mx-auto">
+                <p class="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">Student Reviews</p>
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">What Our Students Say</h2>
+                <p class="text-slate-600 text-lg">Real results from real students who achieved their dream scores.</p>
+            </div>
+
+            <div class="testimonials-container relative space-y-6">
+                <div class="absolute left-0 top-0 bottom-0 w-32 fade-left z-20 pointer-events-none"></div>
+                <div class="absolute right-0 top-0 bottom-0 w-32 fade-right z-20 pointer-events-none"></div>
+
+                <!-- Row 1 -->
+                <div class="overflow-hidden">
+                    <div class="testimonials-row-1 flex gap-6 w-max">
+                        <div class="testimonial-card bg-blue-900 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Priya Sharma</div>
+                                    <div class="text-xs text-blue-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-blue-100 mb-4">"The structured lessons helped me go from A1 to B2 in just 4 months. The mock tests were incredibly realistic!"</p>
+                            <span class="inline-block bg-blue-800 text-xs px-3 py-1 rounded-full">🎯 CLB 8 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-red-800 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Wei Chen</div>
+                                    <div class="text-xs text-red-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-red-100 mb-4">"The AI-powered speaking evaluation was spot on. It helped me identify my weak pronunciation areas instantly."</p>
+                            <span class="inline-block bg-red-900 text-xs px-3 py-1 rounded-full">🎯 CLB 10 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-amber-700 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Sarah Mitchell</div>
+                                    <div class="text-xs text-amber-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-amber-100 mb-4">"The mock tests were incredibly realistic. AI feedback on speaking and writing helped me improve so fast!"</p>
+                            <span class="inline-block bg-amber-800 text-xs px-3 py-1 rounded-full">🎯 CLB 9 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-rose-800 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Li Mei</div>
+                                    <div class="text-xs text-rose-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-rose-100 mb-4">"Writing section tips were brilliant. My expression écrite score jumped from B1 to C1 in two months!"</p>
+                            <span class="inline-block bg-rose-900 text-xs px-3 py-1 rounded-full">🎯 CLB 10 Achieved</span>
+                        </div>
+
+                        <!-- Duplicates for loop -->
+                        <div class="testimonial-card bg-blue-900 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Priya Sharma</div>
+                                    <div class="text-xs text-blue-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-blue-100 mb-4">"The structured lessons helped me go from A1 to B2 in just 4 months. The mock tests were incredibly realistic!"</p>
+                            <span class="inline-block bg-blue-800 text-xs px-3 py-1 rounded-full">🎯 CLB 8 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-red-800 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Wei Chen</div>
+                                    <div class="text-xs text-red-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-red-100 mb-4">"The AI-powered speaking evaluation was spot on. It helped me identify my weak pronunciation areas instantly."</p>
+                            <span class="inline-block bg-red-900 text-xs px-3 py-1 rounded-full">🎯 CLB 10 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-amber-700 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Sarah Mitchell</div>
+                                    <div class="text-xs text-amber-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-amber-100 mb-4">"The mock tests were incredibly realistic. AI feedback on speaking and writing helped me improve so fast!"</p>
+                            <span class="inline-block bg-amber-800 text-xs px-3 py-1 rounded-full">🎯 CLB 9 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-rose-800 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Li Mei</div>
+                                    <div class="text-xs text-rose-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-rose-100 mb-4">"Writing section tips were brilliant. My expression écrite score jumped from B1 to C1 in two months!"</p>
+                            <span class="inline-block bg-rose-900 text-xs px-3 py-1 rounded-full">🎯 CLB 10 Achieved</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="overflow-hidden">
+                    <div class="testimonials-row-2 flex gap-6 w-max">
+                        <div class="testimonial-card bg-indigo-800 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Emily Watson</div>
+                                    <div class="text-xs text-indigo-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-indigo-100 mb-4">"I loved the step-by-step unlock system. It kept me motivated and on track throughout my preparation."</p>
+                            <span class="inline-block bg-indigo-900 text-xs px-3 py-1 rounded-full">🎯 CLB 9 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-teal-700 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Xiao Lin</div>
+                                    <div class="text-xs text-teal-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-teal-100 mb-4">"The practice tests mirror the real TEF so closely. I walked into the exam feeling completely prepared."</p>
+                            <span class="inline-block bg-teal-800 text-xs px-3 py-1 rounded-full">🎯 CLB 9 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-slate-700 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Michael Brown</div>
+                                    <div class="text-xs text-slate-300">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-slate-200 mb-4">"As a complete beginner, I reached B2 thanks to the well-structured curriculum. Highly recommended!"</p>
+                            <span class="inline-block bg-slate-800 text-xs px-3 py-1 rounded-full">🎯 CLB 8 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-blue-700 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Arjun Reddy</div>
+                                    <div class="text-xs text-blue-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-blue-100 mb-4">"The speaking practice with AI feedback transformed my oral expression. My score improved dramatically."</p>
+                            <span class="inline-block bg-blue-800 text-xs px-3 py-1 rounded-full">🎯 CLB 10 Achieved</span>
+                        </div>
+
+                        <!-- Duplicates -->
+                        <div class="testimonial-card bg-indigo-800 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Emily Watson</div>
+                                    <div class="text-xs text-indigo-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-indigo-100 mb-4">"I loved the step-by-step unlock system. It kept me motivated and on track throughout my preparation."</p>
+                            <span class="inline-block bg-indigo-900 text-xs px-3 py-1 rounded-full">🎯 CLB 9 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-teal-700 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Xiao Lin</div>
+                                    <div class="text-xs text-teal-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-teal-100 mb-4">"The practice tests mirror the real TEF so closely. I walked into the exam feeling completely prepared."</p>
+                            <span class="inline-block bg-teal-800 text-xs px-3 py-1 rounded-full">🎯 CLB 9 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-slate-700 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Michael Brown</div>
+                                    <div class="text-xs text-slate-300">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-slate-200 mb-4">"As a complete beginner, I reached B2 thanks to the well-structured curriculum. Highly recommended!"</p>
+                            <span class="inline-block bg-slate-800 text-xs px-3 py-1 rounded-full">🎯 CLB 8 Achieved</span>
+                        </div>
+
+                        <div class="testimonial-card bg-blue-700 text-white p-6 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><i class="fas fa-user"></i></div>
+                                <div>
+                                    <div class="font-bold">Arjun Reddy</div>
+                                    <div class="text-xs text-blue-200">TEF Canada</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-blue-100 mb-4">"The speaking practice with AI feedback transformed my oral expression. My score improved dramatically."</p>
+                            <span class="inline-block bg-blue-800 text-xs px-3 py-1 rounded-full">🎯 CLB 10 Achieved</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promise Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Our Promise</h2>
+                <h3 class="text-2xl text-slate-600">Our Promise to You</h3>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="wc wc-bl text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center text-blue-600 text-2xl mx-auto mb-4">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 mb-2">Unlimited Retakes</h4>
+                    <p class="text-sm text-slate-500">Redo any test or lesson</p>
+                </div>
+
+                <div class="wc wc-bl text-center">
+                    <div class="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center text-emerald-600 text-2xl mx-auto mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 mb-2">Secure Payment</h4>
+                    <p class="text-sm text-slate-500">256-bit SSL encryption</p>
+                </div>
+
+                <div class="wc wc-bl text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center text-blue-700 text-2xl mx-auto mb-4">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 mb-2">IRCC Recognized</h4>
+                    <p class="text-sm text-slate-500">Official exam preparation</p>
+                </div>
+
+                <div class="wc wc-bl text-center">
+                    <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center text-purple-600 text-2xl mx-auto mb-4">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-900 mb-2">Dedicated Support</h4>
+                    <p class="text-sm text-slate-500">WhatsApp priority help</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-slate-50" id="faq">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Frequently Asked Questions</h2>
+                <p class="text-slate-600">Everything you need to know before getting started.</p>
+            </div>
+
+            <!-- Tabs -->
+            <div class="flex flex-wrap justify-center gap-2 mb-8">
+                <button class="faq-tab active px-4 py-2 rounded-full bg-blue-600 text-white text-sm font-medium">All</button>
+                <button class="faq-tab px-4 py-2 rounded-full bg-white text-slate-600 border border-slate-200 text-sm font-medium hover:bg-slate-100">General</button>
+                <button class="faq-tab px-4 py-2 rounded-full bg-white text-slate-600 border border-slate-200 text-sm font-medium hover:bg-slate-100">Scoring & Tests</button>
+                <button class="faq-tab px-4 py-2 rounded-full bg-white text-slate-600 border border-slate-200 text-sm font-medium hover:bg-slate-100">Access & Support</button>
+            </div>
+
+            <div class="space-y-3" id="faq-list">
+                <details class="faq-item" data-category="general">
+                    <summary>How long do I have access to the TEF course? <i class="fas fa-chevron-down faq-icon"></i></summary>
+                    <div class="faq-body">You have access for 6 months from the date of purchase. This gives you plenty of time to complete all lessons, take mock tests, and review materials before your exam.</div>
+                </details>
+
+                <details class="faq-item" data-category="general">
+                    <summary>Is this course enough to get CLB 9+? <i class="fas fa-chevron-down faq-icon"></i></summary>
+                    <div class="faq-body">Yes! Our comprehensive curriculum and AI-powered practice tests are designed to help you achieve CLB 9 or higher. 94% of our students who complete the course achieve their target scores.</div>
+                </details>
+
+                <details class="faq-item" data-category="general">
+                    <summary>Can I switch between TEF and TCF later? <i class="fas fa-chevron-down faq-icon"></i></summary>
+                    <div class="faq-body">Yes, you can switch between courses within 7 days of purchase. Both exams test similar skills, so your progress will transfer over.</div>
+                </details>
+
+                <details class="faq-item" data-category="general">
+                    <summary>What if I'm a complete beginner? <i class="fas fa-chevron-down faq-icon"></i></summary>
+                    <div class="faq-body">Our course starts from A1 level and takes you to B2/C1. We cover all grammar, vocabulary, and exam strategies you need, regardless of your starting point.</div>
+                </details>
+
+                <details class="faq-item" data-category="scoring">
+                    <summary>How are the mock tests evaluated? <i class="fas fa-chevron-down faq-icon"></i></summary>
+                    <div class="faq-body">Our AI evaluates your speaking and writing instantly. For listening and reading, you get immediate results with detailed explanations for each answer.</div>
+                </details>
+
+                <details class="faq-item" data-category="scoring">
+                    <summary>How long is the course valid? <i class="fas fa-chevron-down faq-icon"></i></summary>
+                    <div class="faq-body">Course access is valid for 6 months. Mock test plans vary from 1-6 months depending on your selected plan.</div>
+                </details>
+
+                <details class="faq-item" data-category="access">
+                    <summary>In which languages are lessons explained? <i class="fas fa-chevron-down faq-icon"></i></summary>
+                    <div class="faq-body">Lessons are explained in English, with options for Hindi and Punjabi explanations for complex grammar concepts.</div>
+                </details>
+
+                <details class="faq-item" data-category="access">
+                    <summary>Can I access the course on mobile? <i class="fas fa-chevron-down faq-icon"></i></summary>
+                    <div class="faq-body">Yes! Our platform is fully responsive. You can study on your phone, tablet, or computer — anywhere, anytime.</div>
+                </details>
+            </div>
+
+            <!-- Contact Box -->
+            <div class="mt-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl p-8 text-white text-center">
+                <h3 class="text-2xl font-bold mb-2">Still Have Questions?</h3>
+                <p class="mb-6 text-orange-100">Not sure which plan is right for you? Our team is here to help — ask anything about the TEF Canada course.</p>
+                <a href="https://wa.me/19029941800" class="inline-flex items-center gap-2 bg-white text-orange-600 px-6 py-3 rounded-full font-bold hover:bg-orange-50 transition">
+                    <i class="fab fa-whatsapp text-xl"></i>
+                    Chat on WhatsApp
+                </a>
+                <p class="text-sm text-orange-200 mt-3">Typically replies within 5 minutes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Start Your TEF / TCF<br>Canada Preparation Today</h2>
+            <p class="text-xl text-slate-400 mb-8">Practice with real exam-format mock tests. Get AI-powered feedback. Succeed with confidence.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})" class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-10 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition flex items-center justify-center gap-2">
+                    View Mock Test Plans
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+                <a href="tcf-canada.html" class="bg-slate-800 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-slate-700 transition flex items-center justify-center gap-2">
+                    📗 View TCF Courses
+                </a>
+            </div>
+        </div>
+    </section>
+
+   <!-- Compact Spread Footer -->
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer-root">
+  <div class="footer-rainbow"></div>
+
+  <div class="footer-main">
+    <!-- Brand + Contact -->
+    <div>
+      <div class="footer-brand-name">
+        <div class="footer-brand-icon"><i class="fas fa-graduation-cap"></i></div>
+        <span style="letter-spacing:0;">BigFrench<span class="footer-dot-com">.com</span></span>
+      </div>
+      <p class="footer-tagline">Master your French exam with BigFrench.</p>
+
+      <a href="aboutus.html#contact" class="footer-contact-item">
+        <span class="footer-contact-icon"><i class="fas fa-envelope"></i></span>
+        bigfrench.help@gmail.com
+      </a>
+      <!-- <a href="tel:+19029941800" class="footer-contact-item">
+        <span class="footer-contact-icon"><i class="fas fa-phone"></i></span>
+        +1 (902) 994-1800
+      </a> -->
+      <a href="aboutus.html#contact" class="footer-contact-item">
+        <span class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+        Toronto, Canada
+      </a>
+
+      <div class="footer-social">
+        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/19029941800" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="tef-canada.html">TEF Canada</a></li>
+        <li><a href="tcf-canada.html">TCF Canada</a></li>
+        <li><a href="dashboard.html">Mock Tests</a></li>
+        <li><a href="aboutus.html#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Legal + Courses -->
+    <div>
+      <div class="footer-col-title">Courses</div>
+      <ul class="footer-links footer-courses">
+        <li><a href="dashboard.html">Mock Tests</a></li>
+        <li><a href="tef-canada.html">TEF Plans</a></li>
+        <li><a href="tcf-canada.html">TCF Plans</a></li>
+      </ul>
+
+      <div style="margin-top:24px;">
+        <div class="footer-col-title">Legal</div>
+        <div class="footer-legal" style="flex-direction:column; gap:8px;">
+          <a href="legal.html#terms" class="footer-legal-link">Terms of Service</a>
+          <a href="legal.html#privacy" class="footer-legal-link">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Disclaimer -->
+  <div style="width:100%; padding: 0 120px 16px; max-width:100%; box-sizing:border-box;">
+    <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 14px;">
+      <p style="font-size: 10.5px; color: #6b7280; line-height: 1.7; margin: 0; text-align: center;">
+        BigFrench.com is an independent educational platform providing preparation resources and coaching for French language proficiency examinations. It is not affiliated with, endorsed by, sponsored by, or officially connected with Immigration, Refugees and Citizenship Canada (IRCC), Chambre de commerce et d&#39;industrie de Paris Île-de-France, the official administrator of the Test d&#39;évaluation de français (TEF), or France Éducation international, the official administrator of the Test de connaissance du français (TCF). TEF® and TCF® are registered trademarks of their respective owners.
+      </p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 BigFrench.com · Skyspire Academy Private Limited · All Rights Reserved</span>
+  </div>
+</footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/19029941800" class="fixed bottom-6 right-6 w-14 h-14 bg-green-500 rounded-full shadow-2xl flex items-center justify-center text-white text-2xl hover:scale-110 transition z-50">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Plan selection
+        function selectPlan(plan) {
+            document.querySelectorAll('.plan-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+            event.currentTarget.classList.add('selected');
+        }
+
+        // FAQ tabs with filtering
+        document.querySelectorAll('.faq-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                // Update active tab styles
+                document.querySelectorAll('.faq-tab').forEach(t => {
+                    t.classList.remove('bg-blue-600', 'text-white');
+                    t.classList.add('bg-white', 'text-slate-600');
+                });
+                this.classList.remove('bg-white', 'text-slate-600');
+                this.classList.add('bg-blue-600', 'text-white');
+
+                // Map tab label to category
+                const label = this.textContent.trim().toLowerCase();
+                const categoryMap = {
+                    'all': 'all',
+                    'general': 'general',
+                    'scoring & tests': 'scoring',
+                    'access & support': 'access'
+                };
+                const cat = categoryMap[label] || 'all';
+
+                // Show/hide FAQ items
+                document.querySelectorAll('#faq-list .faq-item').forEach(item => {
+                    if (cat === 'all' || item.dataset.category === cat) {
+                        item.style.display = '';
+                    } else {
+                        item.removeAttribute('open');
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('shadow-md');
+                navbar.style.background = 'rgba(255,255,255,0.98)';
+            } else {
+                navbar.classList.remove('shadow-md');
+                navbar.style.background = 'rgba(255,255,255,0.90)';
+            }
+        });
+    </script>
+    <script src="js/authGuard.js"></script>
+    
+</body>
+</html>

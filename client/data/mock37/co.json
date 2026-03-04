@@ -1,0 +1,1602 @@
+﻿[
+ {
+   "id": 1,
+   "section": "A",
+   "theme": "Daily activities",
+   "question": "Quelle image correspond le mieux à l'enregistrement ?",
+   "options": [
+     { "id": "A", "text": "Une personne court dans le parc", "image_prompt": "A person running in a green park, sunny day" },
+     { "id": "B", "text": "Une personne fait du vélo", "image_prompt": "A person riding a bicycle on a city path" },
+     { "id": "C", "text": "Une personue nage", "image_prompt": "A person swimming in a blue pool" },
+     { "id": "D", "text": "Une personne marche avec un chien", "image_prompt": "A person walking a golden retriever in a park" }
+   ],
+   "correct": 0,
+   "transcript_fr": "J'adore commencer ma journée par un petit footing au parc quand il fait beau.",
+   "transcript_en": "I love starting my day with a quick jog in the park when the weather is nice.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["J'adore commencer ma journée par un petit footing au parc quand il fait beau."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 2,
+   "section": "A",
+   "theme": "Food and drink",
+   "question": "Quelle image correspond le mieux à l'enregistrement ?",
+   "options": [
+     { "id": "A", "text": "Un café au lait sur une table", "image_prompt": "A cup of coffee with milk on a wooden table" },
+     { "id": "B", "text": "Un sandwich au jambon", "image_prompt": "A ham sandwich on a plate" },
+     { "id": "C", "text": "Une salade verte dans un bol", "image_prompt": "A green salad in a white bowl" },
+     { "id": "D", "text": "Un verre de jus d'orange", "image_prompt": "A glass of orange juice with ice" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Pour le dîner, je préfère quelque chose de léger comme une salade verte avec des légumes frais.",
+   "transcript_en": "For lunch, I prefer something light like a green salad with fresh vegetables.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Pour le dîner, je préfère quelque chose de léger comme une salade verte avec des légumes frais."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 3,
+   "section": "A",
+   "theme": "Transportation",
+   "question": "Quelle image correspond le mieux à l'enregistrement ?",
+   "options": [
+     { "id": "A", "text": "Un autobus à l'arrêt", "image_prompt": "A bus at a bus stop with passengers waiting" },
+     { "id": "B", "text": "Une voiture rouge garée", "image_prompt": "A red car parked on the street" },
+     { "id": "C", "text": "Un train entrant en gare", "image_prompt": "A train arriving at a station platform" },
+     { "id": "D", "text": "Un avion sur la piste", "image_prompt": "An airplane on the runway at an airport" }
+   ],
+   "correct": 1,
+   "transcript_fr": "J'ai finalement acheté ma première voiture, une petite berline rouge qui est parfaite pour la ville.",
+   "transcript_en": "I finally bought my first car, a small red sedan that's perfect for the city.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["J'ai finalement acheté ma première voiture, une petite berline rouge qui est parfaite pour la ville."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 4,
+   "section": "A",
+   "theme": "Weather",
+   "question": "Quelle image correspond le mieux à l'enregistrement ?",
+   "options": [
+     { "id": "A", "text": "Un ciel ensoleillé avec des nuages", "image_prompt": "A sunny sky with a few white clouds" },
+     { "id": "B", "text": "De la pluie tombant sur une fenêtre", "image_prompt": "Rain falling on a window with droplets" },
+     { "id": "C", "text": "De la neige sur les toits", "image_prompt": "Snow covering the rooftops of houses" },
+     { "id": "D", "text": "Un arc-en-ciel après l'orage", "image_prompt": "A rainbow appearing after a storm" }
+   ],
+   "correct": 3,
+   "transcript_fr": "Après cette forte pluie, regardez comme le ciel est magnifique avec cet arc-en-ciel brillant.",
+   "transcript_en": "After this heavy rain, look how beautiful the sky is with this bright rainbow.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Après cette forte pluie, regardez comme le ciel est magnifique avec cet arc-en-ciel brillant."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 5,
+   "section": "A",
+   "theme": "Shopping",
+   "question": "Quelle image correspond le mieux à l'enregistrement ?",
+   "options": [
+     { "id": "A", "text": "Des fruits et légumes au marché", "image_prompt": "Fresh fruits and vegetables displayed at a market stall" },
+     { "id": "B", "text": "Des vêtements sur des cintres", "image_prompt": "Clothes hanging on racks in a clothing store" },
+     { "id": "C", "text": "Des livres sur une étagère", "image_prompt": "Books arranged on a wooden bookshelf" },
+     { "id": "D", "text": "Des chaussures dans une boîte", "image_prompt": "Shoes inside a shoebox in a store" }
+   ],
+   "correct": 0,
+   "transcript_fr": "Je vais au marché du coin chaque samedi matin pour acheter des légumes frais et des fruits de saison.",
+   "transcript_en": "I go to the neighborhood market every Saturday morning to buy fresh vegetables and seasonal fruits.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Je vais au marché du coin chaque samedi matin pour acheter des légumes frais et des fruits de saison."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 6,
+   "section": "A",
+   "theme": "Work",
+   "question": "Quelle image correspond le mieux à l'enregistrement ?",
+   "options": [
+     { "id": "A", "text": "Un ordinateur portable sur un bureau", "image_prompt": "A laptop computer on a clean office desk" },
+     { "id": "B", "text": "Un téléphone sonnant", "image_prompt": "A telephone ringing on a desk" },
+     { "id": "C", "text": "Une imprimante en fonction", "image_prompt": "A printer printing documents in an office" },
+     { "id": "D", "text": "Une réunion avec plusieurs personnes", "image_prompt": "A business meeting with several people around a table" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Excusez-moi, je dois répondre à cet appel téléphonique important concernant le projet.",
+   "transcript_en": "Excuse me, I need to answer this important phone call regarding the project.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Excusez-moi, je dois répondre à cet appel téléphonique important concernant le projet."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 7,
+   "section": "B",
+   "theme": "Daily activities",
+   "question": "Que fait la femme ce weekend ?",
+   "options": [
+     { "id": "A", "text": "Elle va travailler", "image_prompt": "" },
+     { "id": "B", "text": "Elle visite ses parents", "image_prompt": "" },
+     { "id": "C", "text": "Elle fait du shopping", "image_prompt": "" },
+     { "id": "D", "text": "Elle reste à la maison", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Homme: Salut Marie, tu fais quoi ce weekend? Femme: Je vais chez mes parents à Québec. Homme: Ah super, tu y vas en voiture? Femme: Oui, je prends l'autoroute demain matin. Homme: Bon voyage alors! Femme: Merci, à lundi!",
+   "transcript_en": "Man: Hi Marie, what are you doing this weekend? Woman: I'm going to my parents' place in Quebec City. Man: Oh great, are you driving there? Woman: Yes, I'm taking the highway tomorrow morning. Man: Have a good trip then! Woman: Thanks, see you Monday!",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Salut Marie, tu fais quoi ce weekend?"],
+       "female_lines": ["Je vais chez mes parents à Québec."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Ah super, tu y vas en voiture?"],
+       "female_lines": ["Oui, je prends l'autoroute demain matin."]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Bon voyage alors!"],
+       "female_lines": ["Merci, à lundi!"]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 8,
+   "section": "B",
+   "theme": "Restaurant",
+   "question": "Qu'est-ce que l'homme commande ?",
+   "options": [
+     { "id": "A", "text": "Un steak frites", "image_prompt": "" },
+     { "id": "B", "text": "Une salade César", "image_prompt": "" },
+     { "id": "C", "text": "Un poulet rôti", "image_prompt": "" },
+     { "id": "D", "text": "Une pizza", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Serveuse: Bonjour, vous avez choisi? Homme: Oui, je vais prendre le poulet rôti avec des légumes. Serveuse: Parfait, et comme boisson? Homme: Une eau plate s'il vous plaît. Serveuse: Très bien, je vous apporte ça tout de suite. Homme: Merci beaucoup.",
+   "transcript_en": "Waitress: Hello, have you decided? Man: Yes, I'll have the roast chicken with vegetables. Waitress: Perfect, and to drink? Man: Still water please. Waitress: Very well, I'll bring that right away. Man: Thank you very much.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Oui, je vais prendre le poulet rôti avec des légumes."],
+       "female_lines": ["Bonjour, vous avez choisi?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Une eau plate s'il vous plaît."],
+       "female_lines": ["Parfait, et comme boisson?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Merci beaucoup."],
+       "female_lines": ["Très bien, je vous apporte ça tout de suite."]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 9,
+   "section": "B",
+   "theme": "Transportation",
+   "question": "Où la femme veut-elle aller ?",
+   "options": [
+     { "id": "A", "text": "À la gare", "image_prompt": "" },
+     { "id": "B", "text": "À l'aéroport", "image_prompt": "" },
+     { "id": "C", "text": "Au centre commercial", "image_prompt": "" },
+     { "id": "D", "text": "À l'hôpital", "image_prompt": "" }
+   ],
+   "correct": 0,
+   "transcript_fr": "Femme: Excusez-moi, pour aller à la gare centrale s'il vous plaît? Homme: Oui, prenez le bus numéro 15. Femme: C'est loin d'ici? Homme: Non, l'arrêt est juste là-bas. Femme: Merci beaucoup pour votre aide. Homme: Je vous en prie, bonne journée.",
+   "transcript_en": "Woman: Excuse me, how do I get to the central station please? Man: Yes, take bus number 15. Woman: Is it far from here? Man: No, the stop is right over there. Woman: Thank you very much for your help. Man: You're welcome, have a good day.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Oui, prenez le bus numéro 15."],
+       "female_lines": ["Excusez-moi, pour aller à la gare centrale s'il vous plaît?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Non, l'arrêt est juste là-bas."],
+       "female_lines": ["C'est loin d'ici?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Je vous en prie, bonne journée."],
+       "female_lines": ["Merci beaucoup pour votre aide."]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 10,
+   "section": "B",
+   "theme": "Weather",
+   "question": "Quel temps fait-il demain selon la conversation ?",
+   "options": [
+     { "id": "A", "text": "Il va pleuvoir", "image_prompt": "" },
+     { "id": "B", "text": "Il va neiger", "image_prompt": "" },
+     { "id": "C", "text": "Il va faire beau", "image_prompt": "" },
+     { "id": "D", "text": "Il va faire du vent", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Femme: Tu as vu la météo pour demain? Homme: Oui, ils annoncent du soleil toute la journée. Femme: Super, on peut faire un pique-nique alors! Homme: Bonne idée, je prépare les sandwichs. Femme: Parfait, j'amène les boissons. Homme: À demain alors!",
+   "transcript_en": "Woman: Did you see the weather for tomorrow? Man: Yes, they're forecasting sunshine all day. Woman: Great, we can have a picnic then! Man: Good idea, I'll prepare the sandwiches. Woman: Perfect, I'll bring the drinks. Man: See you tomorrow then!",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Oui, ils annoncent du soleil toute la journée."],
+       "female_lines": ["Tu as vu la météo pour demain?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Bonne idée, je prépare les sandwichs."],
+       "female_lines": ["Super, on peut faire un pique-nique alors!"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["À demain alors!"],
+       "female_lines": ["Parfait, j'amène les boissons."]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 11,
+   "section": "C",
+   "theme": "Public announcement",
+   "question": "Quelle est la destination du train ?",
+   "options": [
+     { "id": "A", "text": "Toronto", "image_prompt": "" },
+     { "id": "B", "text": "Montréal", "image_prompt": "" },
+     { "id": "C", "text": "Québec", "image_prompt": "" },
+     { "id": "D", "text": "Ottawa", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Mesdames et messieurs, nous vous informons que le train numéro 45 à destination de Montréal quittera la voie numéro 3 dans dix minutes. Les passagers sont priés de se présenter au quai avec leur billet valide. Nous rappelons que le port du masque est obligatoire à bord du train. Merci de votre compréhension et bon voyage avec Via Rail Canada.",
+   "transcript_en": "Ladies and gentlemen, we inform you that train number 45 to Montreal will depart from platform number 3 in ten minutes. Passengers are requested to present themselves at the platform with a valid ticket. We remind you that wearing a mask is mandatory on board the train. Thank you for your understanding and have a pleasant journey with Via Rail Canada.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Mesdames et messieurs, nous vous informons que le train numéro 45 à destination de Montréal quittera la voie numéro 3 dans dix minutes."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 12,
+   "section": "C",
+   "theme": "Public announcement",
+   "question": "Quand commence le spectacle ?",
+   "options": [
+     { "id": "A", "text": "À 18h00", "image_prompt": "" },
+     { "id": "B", "text": "À 19h00", "image_prompt": "" },
+     { "id": "C", "text": "À 20h00", "image_prompt": "" },
+     { "id": "D", "text": "À 21h00", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Chers spectateurs, bienvenue au Théâtre du Nouveau Monde. Nous vous rappelons que la représentation de ce soir commence à 20 heures précises. Les portes ouvriront à 19h15. Nous vous prions d'éteindre vos téléphones portables pendant le spectacle. Il est interdit de prendre des photos ou des vidéos. Profitez de la pièce et merci de votre présence.",
+   "transcript_en": "Dear spectators, welcome to the Théâtre du Nouveau Monde. We remind you that tonight's performance begins at 8 PM sharp. Doors will open at 7:15 PM. We ask you to turn off your mobile phones during the show. Taking photos or videos is prohibited. Enjoy the play and thank you for your presence.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Chers spectateurs, bienvenue au Théâtre du Nouveau Monde. Nous vous rappelons que la représentation de ce soir commence à 20 heures précises."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 13,
+   "section": "C",
+   "theme": "Public announcement",
+   "question": "Quel service est fermé temporairement ?",
+   "options": [
+     { "id": "A", "text": "La piscine", "image_prompt": "" },
+     { "id": "B", "text": "Le gym", "image_prompt": "" },
+     { "id": "C", "text": "Le sauna", "image_prompt": "" },
+     { "id": "D", "text": "Les vestiaires", "image_prompt": "" }
+   ],
+   "correct": 0,
+   "transcript_fr": "Attention aux membres du centre sportif. Nous vous informons que la piscine olympique sera fermée pour entretien jusqu'à vendredi prochain. Le gym et le sauna restent ouverts aux horaires habituels. Nous vous prions de nous excuser pour ce désagrément. Pour plus d'informations, consultez notre site web ou contactez l'accueil. Merci de votre compréhension.",
+   "transcript_en": "Attention sports center members. We inform you that the Olympic pool will be closed for maintenance until next Friday. The gym and sauna remain open at regular hours. We apologize for this inconvenience. For more information, please consult our website or contact reception. Thank you for your understanding.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Attention aux membres du centre sportif. Nous vous informons que la piscine olympique sera fermée pour entretien jusqu'à vendredi prochain."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 14,
+   "section": "C",
+   "theme": "Public announcement",
+   "question": "Quel est le sujet principal de cette annonce ?",
+   "options": [
+     { "id": "A", "text": "Une promotion en magasin", "image_prompt": "" },
+     { "id": "B", "text": "Un changement d'horaire", "image_prompt": "" },
+     { "id": "C", "text": "Une fermeture exceptionnelle", "image_prompt": "" },
+     { "id": "D", "text": "Un nouvel employé", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Chers clients de la bibliothèque municipale, nous vous informons que l'établissement sera exceptionnellement fermé ce samedi pour cause de rénovation électrique. La réouverture se fera lundi matin à 9 heures. Les livres à rendre ce week-end ne seront pas pénalisés. Vous pouvez utiliser la bibliothèque en ligne pour vos recherches. Merci de votre patience.",
+   "transcript_en": "Dear library patrons, we inform you that the facility will be exceptionally closed this Saturday due to electrical renovation. Reopening will be Monday morning at 9 AM. Books due this weekend will not be penalized. You can use the online library for your research. Thank you for your patience.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Chers clients de la bibliothèque municipale, nous vous informons que l'établissement sera exceptionnellement fermé ce samedi pour cause de rénovation électrique."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 15,
+   "section": "C",
+   "theme": "Public announcement",
+   "question": "Quel numéro doit-on composer en cas d'urgence ?",
+   "options": [
+     { "id": "A", "text": "311", "image_prompt": "" },
+     { "id": "B", "text": "411", "image_prompt": "" },
+     { "id": "C", "text": "911", "image_prompt": "" },
+     { "id": "D", "text": "811", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Ce message est un rappel de sécurité pour tous les résidents de l'immeuble. En cas d'incendie ou d'urgence médicale, veuillez composer le 911 immédiatement. Ne prenez pas l'ascenseur en cas d'incendie, utilisez les escaliers de secours. Les extincteurs sont situés près de chaque sortie. Pour les questions non urgentes, contactez la concierge au poste 101. Restez vigilants.",
+   "transcript_en": "This is a safety reminder for all building residents. In case of fire or medical emergency, please dial 911 immediately. Do not take the elevator in case of fire, use the emergency stairs. Fire extinguishers are located near each exit. For non-urgent questions, contact the concierge at extension 101. Stay vigilant.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Ce message est un rappel de sécurité pour tous les résidents de l'immeuble. En cas d'incendie ou d'urgence médicale, veuillez composer le 911 immédiatement."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 16,
+   "section": "C",
+   "theme": "Public announcement",
+   "question": "Quel est le nouveau prix du billet ?",
+   "options": [
+     { "id": "A", "text": "10 dollars", "image_prompt": "" },
+     { "id": "B", "text": "12 dollars", "image_prompt": "" },
+     { "id": "C", "text": "15 dollars", "image_prompt": "" },
+     { "id": "D", "text": "20 dollars", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Chers usagers du transport en commun, nous vous informons que les tarifs changent à partir du premier du mois prochain. Le billet simple passera à 12 dollars. Les abonnements mensuels augmenteront également de 5 dollars. Les étudiants et les aînés continuent de bénéficier de tarifs réduits. Vous pouvez acheter vos titres de transport en ligne ou aux guichets. Merci de votre compréhension.",
+   "transcript_en": "Dear public transit users, we inform you that fares will change starting the first of next month. The single ticket will increase to 12 dollars. Monthly passes will also increase by 5 dollars. Students and seniors continue to benefit from reduced rates. You can purchase your transit passes online or at ticket offices. Thank you for your understanding.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Chers usagers du transport en commun, nous vous informons que les tarifs changent à partir du premier du mois prochain. Le billet simple passera à 12 dollars."],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 17,
+   "section": "D",
+   "theme": "Identifying intention",
+   "question": "Quelle est l'intention de la femme ?",
+   "options": [
+     { "id": "A", "text": "Demander des conseils", "image_prompt": "" },
+     { "id": "B", "text": "Se plaindre", "image_prompt": "" },
+     { "id": "C", "text": "Faire une suggestion", "image_prompt": "" },
+     { "id": "D", "text": "Donner des informations", "image_prompt": "" }
+   ],
+   "correct": 0,
+   "transcript_fr": "Femme: Dis-moi, tu connais un bon restaurant italien dans le coin? Homme: Oui, il y a Luigi's sur la rue principale. Femme: Il est cher? Homme: Non, c'est raisonnable et la nourriture est excellente. Femme: Tu me le recommandes alors? Homme: Absolument, j'y vais souvent. Femme: Merci, je vais essayer ce weekend.",
+   "transcript_en": "Woman: Tell me, do you know a good Italian restaurant around here? Man: Yes, there's Luigi's on Main Street. Woman: Is it expensive? Man: No, it's reasonable and the food is excellent. Woman: So you recommend it? Man: Absolutely, I go there often. Woman: Thanks, I'll try it this weekend.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Oui, il y a Luigi's sur la rue principale."],
+       "female_lines": ["Dis-moi, tu connais un bon restaurant italien dans le coin?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Non, c'est raisonnable et la nourriture est excellente."],
+       "female_lines": ["Il est cher?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Absolument, j'y vais souvent."],
+       "female_lines": ["Tu me le recommandes alors?"]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": ["Merci, je vais essayer ce weekend."]
+     }
+   ]
+ },
+ {
+   "id": 18,
+   "section": "D",
+   "theme": "Identifying intention",
+   "question": "Quelle est l'intention de l'homme ?",
+   "options": [
+     { "id": "A", "text": "Accepter une invitation", "image_prompt": "" },
+     { "id": "B", "text": "Refuser une invitation", "image_prompt": "" },
+     { "id": "C", "text": "Proposer une alternative", "image_prompt": "" },
+     { "id": "D", "text": "Demander des précisions", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Femme: Tu viens à ma fête samedi soir? Homme: J'aimerais bien mais je ne peux pas. Femme: Ah bon? Pourquoi? Homme: Je dois travailler ce soir-là, je suis désolé. Femme: C'est dommage, on va s'amuser. Homme: Je sais, peut-être une autre fois. Femme: Oui, on se verra la semaine prochaine.",
+   "transcript_en": "Woman: Are you coming to my party Saturday night? Man: I'd love to but I can't. Woman: Oh really? Why? Man: I have to work that evening, I'm sorry. Woman: That's too bad, we're going to have fun. Man: I know, maybe another time. Woman: Yes, we'll see each other next week.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["J'aimerais bien mais je ne peux pas."],
+       "female_lines": ["Tu viens à ma fête samedi soir?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Je dois travailler ce soir-là, je suis désolé."],
+       "female_lines": ["Ah bon? Pourquoi?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Je sais, peut-être une autre fois."],
+       "female_lines": ["C'est dommage, on va s'amuser."]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": ["Oui, on se verra la semaine prochaine."]
+     }
+   ]
+ },
+ {
+   "id": 19,
+   "section": "D",
+   "theme": "Identifying intention",
+   "question": "Quelle est l'intention de la femme ?",
+   "options": [
+     { "id": "A", "text": "Commander un produit", "image_prompt": "" },
+     { "id": "B", "text": "Se plaindre d'un service", "image_prompt": "" },
+     { "id": "C", "text": "Demander un remboursement", "image_prompt": "" },
+     { "id": "D", "text": "Faire un compliment", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Femme: Bonjour, je voudrais parler au responsable s'il vous plaît. Homme: C'est moi, qu'est-ce qui se passe? Femme: J'attends depuis 45 minutes et toujours pas de service. Homme: Je suis désolé, nous sommes débordés aujourd'hui. Femme: Ce n'est pas acceptable, j'ai un rendez-vous important. Homme: Je comprends, je vais vous prendre en priorité. Femme: Merci, j'apprécie.",
+   "transcript_en": "Woman: Hello, I'd like to speak to the manager please. Man: That's me, what's going on? Woman: I've been waiting for 45 minutes and still no service. Man: I'm sorry, we're overwhelmed today. Woman: This is not acceptable, I have an important appointment. Man: I understand, I'll take care of you as a priority. Woman: Thank you, I appreciate it.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["C'est moi, qu'est-ce qui se passe?"],
+       "female_lines": ["Bonjour, je voudrais parler au responsable s'il vous plaît."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Je suis désolé, nous sommes débordés aujourd'hui."],
+       "female_lines": ["J'attends depuis 45 minutes et toujours pas de service."]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Je comprends, je vais vous prendre en priorité."],
+       "female_lines": ["Ce n'est pas acceptable, j'ai un rendez-vous important."]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": ["Merci, j'apprécie."]
+     }
+   ]
+ },
+ {
+   "id": 20,
+   "section": "D",
+   "theme": "Identifying intention",
+   "question": "Quelle est l'intention de l'homme ?",
+   "options": [
+     { "id": "A", "text": "Demander de l'aide", "image_prompt": "" },
+     { "id": "B", "text": "Offrir son aide", "image_prompt": "" },
+     { "id": "C", "text": "Refuser de l'aide", "image_prompt": "" },
+     { "id": "D", "text": "Donner des instructions", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Femme: Oh non, mes sacs sont trop lourds! Homme: Attendez, laissez-moi vous aider avec ça. Femme: C'est gentil, merci beaucoup. Homme: Pas de problème, où est votre voiture? Femme: Juste là-bas au coin de la rue. Homme: Je vous accompagne, c'est lourd. Femme: Vous êtes très aimable.",
+   "transcript_en": "Woman: Oh no, my bags are too heavy! Man: Wait, let me help you with that. Woman: That's kind, thank you very much. Man: No problem, where is your car? Woman: Just over there at the corner of the street. Man: I'll walk with you, it's heavy. Woman: You're very kind.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Attendez, laissez-moi vous aider avec ça."],
+       "female_lines": ["Oh non, mes sacs sont trop lourds!"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Pas de problème, où est votre voiture?"],
+       "female_lines": ["C'est gentil, merci beaucoup."]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Je vous accompagne, c'est lourd."],
+       "female_lines": ["Juste là-bas au coin de la rue."]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": ["Vous êtes très aimable."]
+     }
+   ]
+ },
+ {
+   "id": 21,
+   "section": "D",
+   "theme": "Identifying intention",
+   "question": "Quelle est l'intention de la femme ?",
+   "options": [
+     { "id": "A", "text": "Confirmer une réservation", "image_prompt": "" },
+     { "id": "B", "text": "Annuler une réservation", "image_prompt": "" },
+     { "id": "C", "text": "Modifier une réservation", "image_prompt": "" },
+     { "id": "D", "text": "Faire une nouvelle réservation", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Femme: Bonjour, j'ai une réservation au nom de Martin pour demain soir. Homme: Oui, table pour deux personnes à 19h. Femme: Pourriez-vous la changer à 20h30 s'il vous plaît? Homme: Je regarde... oui, c'est possible. Femme: Parfait, nous serons trois personnes finalement. Homme: D'accord, je note le changement. Femme: Merci beaucoup.",
+   "transcript_en": "Woman: Hello, I have a reservation under the name Martin for tomorrow evening. Man: Yes, table for two people at 7 PM. Woman: Could you change it to 8:30 PM please? Man: Let me check... yes, that's possible. Woman: Perfect, we'll be three people finally. Man: Okay, I'll note the change. Woman: Thank you very much.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Oui, table pour deux personnes à 19h."],
+       "female_lines": ["Bonjour, j'ai une réservation au nom de Martin pour demain soir."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Je regarde... oui, c'est possible."],
+       "female_lines": ["Pourriez-vous la changer à 20h30 s'il vous plaît?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["D'accord, je note le changement."],
+       "female_lines": ["Parfait, nous serons trois personnes finalement."]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": ["Merci beaucoup."]
+     }
+   ]
+ },
+ {
+   "id": 22,
+   "section": "D",
+   "theme": "Identifying intention",
+   "question": "Quelle est l'intention de l'homme ?",
+   "options": [
+     { "id": "A", "text": "Exprimer son accord", "image_prompt": "" },
+     { "id": "B", "text": "Exprimer son désaccord", "image_prompt": "" },
+     { "id": "C", "text": "Demander une opinion", "image_prompt": "" },
+     { "id": "D", "text": "Changer de sujet", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Femme: Je pense qu'on devrait acheter cette voiture, elle est parfaite. Homme: Je ne suis pas d'accord, elle est trop chère. Femme: Mais elle consomme peu d'essence. Homme: Oui, mais le prix initial est élevé. Femme: Tu as peut-être raison. Homme: Regardons d'autres options avant de décider. Femme: D'accord, on continue les recherches.",
+   "transcript_en": "Woman: I think we should buy this car, it's perfect. Man: I disagree, it's too expensive. Woman: But it doesn't consume much gas. Man: Yes, but the initial price is high. Woman: You may be right. Man: Let's look at other options before deciding. Woman: Okay, we'll continue searching.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Je ne suis pas d'accord, elle est trop chère."],
+       "female_lines": ["Je pense qu'on devrait acheter cette voiture, elle est parfaite."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Oui, mais le prix initial est élevé."],
+       "female_lines": ["Mais elle consomme peu d'essence."]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Regardons d'autres options avant de décider."],
+       "female_lines": ["Tu as peut-être raison."]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": ["D'accord, on continue les recherches."]
+     }
+   ]
+ },
+ {
+   "id": 23,
+   "section": "E",
+   "theme": "Radio interview",
+   "question": "Quel est le sujet principal de l'interview ?",
+   "options": [
+     { "id": "A", "text": "La pollution de l'air", "image_prompt": "" },
+     { "id": "B", "text": "Le réchauffement climatique", "image_prompt": "" },
+     { "id": "C", "text": "La protection des océans", "image_prompt": "" },
+     { "id": "D", "text": "La déforestation", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Journaliste: Bonjour et bienvenue à notre émission. Aujourd'hui nous recevons le Dr. Tremblay, climatologue. Dr. Tremblay: Bonjour, merci de m'inviter. Journaliste: Vos recherches portent sur le réchauffement climatique, c'est exact? Dr. Tremblay: Oui, j'étudie les changements de température depuis vingt ans. Journaliste: Quelles sont vos conclusions principales? Dr. Tremblay: Les données montrent une augmentation constante des températures globales. Journaliste: C'est alarmant. Quelles solutions proposez-vous? Dr. Tremblay: Nous devons réduire nos émissions de gaz à effet de serre rapidement.",
+   "transcript_en": "Journalist: Hello and welcome to our show. Today we receive Dr. Tremblay, climatologist. Dr. Tremblay: Hello, thank you for inviting me. Journalist: Your research focuses on global warming, is that correct? Dr. Tremblay: Yes, I've been studying temperature changes for twenty years. Journalist: What are your main conclusions? Dr. Tremblay: The data shows a constant increase in global temperatures. Journalist: That's alarming. What solutions do you propose? Dr. Tremblay: We must reduce our greenhouse gas emissions quickly.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Bonjour, merci de m'inviter.", "Oui, j'étudie les changements de température depuis vingt ans."],
+       "female_lines": ["Bonjour et bienvenue à notre émission. Aujourd'hui nous recevons le Dr. Tremblay, climatologue.", "Vos recherches portent sur le réchauffement climatique, c'est exact?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Les données montrent une augmentation constante des températures globales."],
+       "female_lines": ["Quelles sont vos conclusions principales?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Nous devons réduire nos émissions de gaz à effet de serre rapidement."],
+       "female_lines": ["C'est alarmant. Quelles solutions proposez-vous?"]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 24,
+   "section": "E",
+   "theme": "Radio interview",
+   "question": "Quelle est la profession de l'invité ?",
+   "options": [
+     { "id": "A", "text": "Écrivain", "image_prompt": "" },
+     { "id": "B", "text": "Musicien", "image_prompt": "" },
+     { "id": "C", "text": "Peintre", "image_prompt": "" },
+     { "id": "D", "text": "Réalisateur", "image_prompt": "" }
+   ],
+   "correct": 0,
+   "transcript_fr": "Journaliste: Nous avons le plaisir d'accueillir l'auteure québécoise Marie-Claire Blais. Mme Blais: Merci, c'est un honneur d'être ici. Journaliste: Votre nouveau roman vient de sortir, racontez-nous l'histoire. Mme Blais: C'est l'histoire d'une famille québécoise sur plusieurs générations. Journaliste: Vous écrivez depuis combien de temps? Mme Blais: J'ai publié mon premier livre il y a quarante ans. Journaliste: Votre style a beaucoup évolué depuis? Mme Blais: Oui, j'expérimente avec de nouvelles formes narratives.",
+   "transcript_en": "Journalist: We have the pleasure of welcoming Quebec author Marie-Claire Blais. Ms. Blais: Thank you, it's an honor to be here. Journalist: Your new novel has just been released, tell us the story. Ms. Blais: It's the story of a Quebec family over several generations. Journalist: How long have you been writing? Ms. Blais: I published my first book forty years ago. Journalist: Has your style evolved a lot since then? Ms. Blais: Yes, I'm experimenting with new narrative forms.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": [],
+       "female_lines": ["Nous avons le plaisir d'accueillir l'auteure québécoise Marie-Claire Blais.", "Merci, c'est un honneur d'être ici."]
+     },
+     {
+       "point": 2,
+       "male_lines": [],
+       "female_lines": ["Votre nouveau roman vient de sortir, racontez-nous l'histoire.", "C'est l'histoire d'une famille québécoise sur plusieurs générations."]
+     },
+     {
+       "point": 3,
+       "male_lines": [],
+       "female_lines": ["Vous écrivez depuis combien de temps?", "J'ai publié mon premier livre il y a quarante ans."]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": ["Votre style a beaucoup évolué depuis?", "Oui, j'expérimente avec de nouvelles formes narratives."]
+     }
+   ]
+ },
+ {
+   "id": 25,
+   "section": "E",
+   "theme": "Radio interview",
+   "question": "Quel problème de santé est discuté ?",
+   "options": [
+     { "id": "A", "text": "Le diabète", "image_prompt": "" },
+     { "id": "B", "text": "Les allergies", "image_prompt": "" },
+     { "id": "C", "text": "Le stress", "image_prompt": "" },
+     { "id": "D", "text": "L'insomnie", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Journaliste: Le Dr. Lefebvre nous parle aujourd'hui du stress au travail. Dr. Lefebvre: C'est un problème de santé publique majeur actuellement. Journaliste: Quels sont les symptômes principaux? Dr. Lefebvre: L'anxiété, la fatigue chronique et les troubles du sommeil. Journaliste: Comment peut-on le prévenir? Dr. Lefebvre: Par une meilleure organisation du travail et des pauses régulières. Journaliste: Les employeurs ont-ils un rôle à jouer? Dr. Lefebvre: Absolument, ils doivent créer un environnement sain.",
+   "transcript_en": "Journalist: Dr. Lefebvre is talking to us today about work-related stress. Dr. Lefebvre: It's a major public health problem currently. Journalist: What are the main symptoms? Dr. Lefebvre: Anxiety, chronic fatigue and sleep disorders. Journalist: How can we prevent it? Dr. Lefebvre: Through better work organization and regular breaks. Journalist: Do employers have a role to play? Dr. Lefebvre: Absolutely, they must create a healthy environment.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["C'est un problème de santé publique majeur actuellement."],
+       "female_lines": ["Le Dr. Lefebvre nous parle aujourd'hui du stress au travail."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["L'anxiété, la fatigue chronique et les troubles du sommeil."],
+       "female_lines": ["Quels sont les symptômes principaux?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Par une meilleure organisation du travail et des pauses régulières."],
+       "female_lines": ["Comment peut-on le prévenir?"]
+     },
+     {
+       "point": 4,
+       "male_lines": ["Absolument, ils doivent créer un environnement sain."],
+       "female_lines": ["Les employeurs ont-ils un rôle à jouer?"]
+     }
+   ]
+ },
+ {
+   "id": 26,
+   "section": "E",
+   "theme": "Radio interview",
+   "question": "Quelle est la nouvelle initiative gouvernementale ?",
+   "options": [
+     { "id": "A", "text": "Un programme de recyclage", "image_prompt": "" },
+     { "id": "B", "text": "Des subventions pour l'éducation", "image_prompt": "" },
+     { "id": "C", "text": "Un plan de transport en commun", "image_prompt": "" },
+     { "id": "D", "text": "Des aides pour les agriculteurs", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Journaliste: La ministre des Transports, Mme Gagnon, est avec nous. Ministre: Bonjour à tous les auditeurs. Journaliste: Vous avez annoncé un nouveau plan pour les transports en commun? Ministre: Oui, un investissement de 2 milliards sur cinq ans. Journaliste: Quels sont les objectifs précis? Ministre: Réduire la congestion et améliorer l'accessibilité. Journaliste: Comment sera financé ce projet? Ministre: Par des fonds fédéraux et provinciaux combinés. Journaliste: Quand les travaux commencent-ils? Ministre: Dès le printemps prochain dans trois grandes villes.",
+   "transcript_en": "Journalist: The Minister of Transport, Ms. Gagnon, is with us. Minister: Hello to all listeners. Journalist: You announced a new plan for public transit? Minister: Yes, a 2 billion investment over five years. Journalist: What are the specific objectives? Minister: Reduce congestion and improve accessibility. Journalist: How will this project be financed? Minister: Through combined federal and provincial funds. Journalist: When do the works begin? Minister: Starting next spring in three major cities.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": [],
+       "female_lines": ["La ministre des Transports, Mme Gagnon, est avec nous.", "Bonjour à tous les auditeurs."]
+     },
+     {
+       "point": 2,
+       "male_lines": [],
+       "female_lines": ["Vous avez annoncé un nouveau plan pour les transports en commun?", "Oui, un investissement de 2 milliards sur cinq ans."]
+     },
+     {
+       "point": 3,
+       "male_lines": [],
+       "female_lines": ["Quels sont les objectifs précis?", "Réduire la congestion et améliorer l'accessibilité."]
+     },
+     {
+       "point": 4,
+       "male_lines": [],
+       "female_lines": ["Comment sera financé ce projet?", "Par des fonds fédéraux et provinciaux combinés."]
+     }
+   ]
+ },
+ {
+   "id": 27,
+   "section": "F",
+   "theme": "Discussion",
+   "question": "Quelle est l'opinion de la femme sur le télétravail ?",
+   "options": [
+     { "id": "A", "text": "Elle est totalement contre", "image_prompt": "" },
+     { "id": "B", "text": "Elle préfère le travail en présentiel", "image_prompt": "" },
+     { "id": "C", "text": "Elle pense que c'est l'avenir", "image_prompt": "" },
+     { "id": "D", "text": "Elle est indifférente", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Homme: Tu travailles encore de la maison cette semaine? Femme: Oui, et franchement je trouve ça génial. Homme: Moi je m'ennuie de mes collègues. Femme: Je comprends, mais la flexibilité est incroyable. Homme: Tu ne trouves pas que c'est isolant? Femme: Un peu, mais les outils numériques compensent. Homme: Notre patron veut qu'on revienne au bureau. Femme: J'espère qu'on aura un modèle hybride.",
+   "transcript_en": "Man: Are you still working from home this week? Woman: Yes, and frankly I find it great. Man: I miss my colleagues. Woman: I understand, but the flexibility is incredible. Man: Don't you find it isolating? Woman: A bit, but digital tools compensate. Man: Our boss wants us back in the office. Woman: I hope we'll have a hybrid model.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Tu travailles encore de la maison cette semaine?"],
+       "female_lines": ["Oui, et franchement je trouve ça génial."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Moi je m'ennuie de mes collègues."],
+       "female_lines": ["Je comprends, mais la flexibilité est incroyable."]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Tu ne trouves pas que c'est isolant?"],
+       "female_lines": ["Un peu, mais les outils numériques compensent."]
+     },
+     {
+       "point": 4,
+       "male_lines": ["Notre patron veut qu'on revienne au bureau."],
+       "female_lines": ["J'espère qu'on aura un modèle hybride."]
+     }
+   ]
+ },
+ {
+   "id": 28,
+   "section": "F",
+   "theme": "Discussion",
+   "question": "Sur quoi les deux personnes ne sont pas d'accord ?",
+   "options": [
+     { "id": "A", "text": "La qualité du film", "image_prompt": "" },
+     { "id": "B", "text": "Le prix du billet", "image_prompt": "" },
+     { "id": "C", "text": "L'acteur principal", "image_prompt": "" },
+     { "id": "D", "text": "La durée du film", "image_prompt": "" }
+   ],
+   "correct": 0,
+   "transcript_fr": "Femme: Alors, tu as aimé le film hier soir? Homme: Pas vraiment, je l'ai trouvé ennuyeux. Femme: Sérieusement? Moi j'ai adoré! Homme: L'histoire était trop prévisible. Femme: Je trouvais au contraire qu'elle était captivante. Homme: Et la fin alors, trop niaise. Femme: J'ai pleuré à la fin, c'était touchant. Homme: On ne peut pas être d'accord sur tout.",
+   "transcript_en": "Woman: So, did you like the movie last night? Man: Not really, I found it boring. Woman: Seriously? I loved it! Man: The story was too predictable. Woman: On the contrary, I found it captivating. Man: And the ending, too cheesy. Woman: I cried at the end, it was touching. Man: We can't agree on everything.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Pas vraiment, je l'ai trouvé ennuyeux."],
+       "female_lines": ["Alors, tu as aimé le film hier soir?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["L'histoire était trop prévisible."],
+       "female_lines": ["Sérieusement? Moi j'ai adoré!"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Et la fin alors, trop niaise."],
+       "female_lines": ["Je trouvais au contraire qu'elle était captivante."]
+     },
+     {
+       "point": 4,
+       "male_lines": ["On ne peut pas être d'accord sur tout."],
+       "female_lines": ["J'ai pleuré à la fin, c'était touchant."]
+     }
+   ]
+ },
+ {
+   "id": 29,
+   "section": "F",
+   "theme": "Discussion",
+   "question": "Quel sujet débattent les deux personnes ?",
+   "options": [
+     { "id": "A", "text": "L'éducation des enfants", "image_prompt": "" },
+     { "id": "B", "text": "L'immigration", "image_prompt": "" },
+     { "id": "C", "text": "L'environnement", "image_prompt": "" },
+     { "id": "D", "text": "L'économie", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Homme: Il faut absolument interdire les sacs plastique partout. Femme: Je suis d'accord, mais ce n'est pas suffisant. Homme: Qu'est-ce que tu proposes alors? Femme: Il faut taxer les grandes entreprises polluantes. Homme: Les petits gestes comptent aussi beaucoup. Femme: Oui, mais le changement systémique est nécessaire. Homme: On peut faire les deux en parallèle. Femme: C'est vrai, chaque action compte.",
+   "transcript_en": "Man: We absolutely must ban plastic bags everywhere. Woman: I agree, but it's not enough. Man: What do you propose then? Woman: We need to tax big polluting companies. Man: Small gestures count a lot too. Woman: Yes, but systemic change is necessary. Man: We can do both in parallel. Woman: That's true, every action counts.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Il faut absolument interdire les sacs plastique partout."],
+       "female_lines": ["Je suis d'accord, mais ce n'est pas suffisant."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Qu'est-ce que tu proposes alors?"],
+       "female_lines": ["Il faut taxer les grandes entreprises polluantes."]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Les petits gestes comptent aussi beaucoup."],
+       "female_lines": ["Oui, mais le changement systémique est nécessaire."]
+     },
+     {
+       "point": 4,
+       "male_lines": ["On peut faire les deux en parallèle."],
+       "female_lines": ["C'est vrai, chaque action compte."]
+     }
+   ]
+ },
+ {
+   "id": 30,
+   "section": "F",
+   "theme": "Discussion",
+   "question": "Quelle solution proposent-ils pour le problème ?",
+   "options": [
+     { "id": "A", "text": "Déménager", "image_prompt": "" },
+     { "id": "B", "text": "Embaucher une nounou", "image_prompt": "" },
+     { "id": "C", "text": "Changer d'horaire de travail", "image_prompt": "" },
+     { "id": "D", "text": "Demander de l'aide à la famille", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Femme: On ne sait plus quoi faire avec les horaires des enfants. Homme: C'est compliqué avec nos deux emplois. Femme: Ma mère habite trop loin pour nous aider. Homme: Et une nounou coûte trop cher. Femme: Que dirais-tu de demander des horaires flexibles? Homme: Mon patron est assez compréhensif normalement. Femme: Le mien aussi, on pourrait essayer. Homme: On fait une demande demain alors.",
+   "transcript_en": "Woman: We don't know what to do with the children's schedules anymore. Man: It's complicated with our two jobs. Woman: My mother lives too far to help us. Man: And a nanny costs too much. Woman: What if we asked for flexible hours? Man: My boss is usually quite understanding. Woman: Mine too, we could try. Man: Let's make a request tomorrow then.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["C'est compliqué avec nos deux emplois."],
+       "female_lines": ["On ne sait plus quoi faire avec les horaires des enfants."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Et une nounou coûte trop cher."],
+       "female_lines": ["Ma mère habite trop loin pour nous aider."]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Mon patron est assez compréhensif normalement."],
+       "female_lines": ["Que dirais-tu de demander des horaires flexibles?"]
+     },
+     {
+       "point": 4,
+       "male_lines": ["On fait une demande demain alors."],
+       "female_lines": ["Le mien aussi, on pourrait essayer."]
+     }
+   ]
+ },
+ {
+   "id": 31,
+   "section": "G",
+   "theme": "Longer text/argument",
+   "question": "Quelle est la thèse principale de cet exposé ?",
+   "options": [
+     { "id": "A", "text": "L'intelligence artificielle est dangereuse", "image_prompt": "" },
+     { "id": "B", "text": "L'intelligence artificielle transforme l'emploi", "image_prompt": "" },
+     { "id": "C", "text": "L'intelligence artificielle améliore la santé", "image_prompt": "" },
+     { "id": "D", "text": "L'intelligence artificielle remplace les humains", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Homme: Bonjour à tous, aujourd'hui je vais vous parler de l'intelligence artificielle. Femme: C'est un sujet qui vous passionne depuis longtemps? Homme: Oui, je travaille dans ce domaine depuis dix ans. Femme: Quels sont les impacts les plus importants selon vous? Homme: Principalement sur le marché du travail, c'est révolutionnaire. Femme: Les robots vont-ils remplacer les humains? Homme: Pas totalement, mais ils transforment les métiers. Femme: Pouvez-vous donner un exemple concret? Homme: Dans les usines, les robots font les tâches répétitives. Femme: Et les employés alors? Homme: Ils se requalifient pour des postes plus techniques. Femme: C'est positif ou négatif selon vous? Homme: C'est une évolution nécessaire, il faut s'adapter. Femme: Quels conseils donneriez-vous aux jeunes? Homme: Il faut se spécialiser dans ce que les machines ne font pas. Femme: Comme quoi par exemple? Homme: La créativité, l'empathie, le jugement critique. Femme: Merci pour ces éclaircissements. Homme: Je vous en prie, c'était un plaisir.",
+   "transcript_en": "Man: Hello everyone, today I'm going to talk about artificial intelligence. Woman: Is this a subject you've been passionate about for a long time? Man: Yes, I've been working in this field for ten years. Woman: What are the most important impacts in your opinion? Man: Mainly on the job market, it's revolutionary. Woman: Will robots replace humans? Man: Not completely, but they are transforming jobs. Woman: Can you give a concrete example? Man: In factories, robots do repetitive tasks. Woman: And the employees then? Man: They retrain for more technical positions. Woman: Is this positive or negative in your opinion? Man: It's a necessary evolution, we must adapt. Woman: What advice would you give to young people? Man: We must specialize in what machines don't do. Woman: Like what for example? Man: Creativity, empathy, critical thinking. Woman: Thank you for these clarifications. Man: You're welcome, it was a pleasure.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Bonjour à tous, aujourd'hui je vais vous parler de l'intelligence artificielle.", "Oui, je travaille dans ce domaine depuis dix ans."],
+       "female_lines": ["C'est un sujet qui vous passionne depuis longtemps?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Principalement sur le marché du travail, c'est révolutionnaire."],
+       "female_lines": ["Quels sont les impacts les plus importants selon vous?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Pas totalement, mais ils transforment les métiers."],
+       "female_lines": ["Les robots vont-ils remplacer les humains?"]
+     },
+     {
+       "point": 4,
+       "male_lines": ["Dans les usines, les robots font les tâches répétitives."],
+       "female_lines": ["Pouvez-vous donner un exemple concret?"]
+     },
+     {
+       "point": 5,
+       "male_lines": ["Ils se requalifient pour des postes plus techniques."],
+       "female_lines": ["Et les employés alors?"]
+     },
+     {
+       "point": 6,
+       "male_lines": ["C'est une évolution nécessaire, il faut s'adapter."],
+       "female_lines": ["C'est positif ou négatif selon vous?"]
+     },
+     {
+       "point": 7,
+       "male_lines": ["Il faut se spécialiser dans ce que les machines ne font pas."],
+       "female_lines": ["Quels conseils donneriez-vous aux jeunes?"]
+     },
+     {
+       "point": 8,
+       "male_lines": ["La créativité, l'empathie, le jugement critique."],
+       "female_lines": ["Comme quoi par exemple?"]
+     },
+     {
+       "point": 9,
+       "male_lines": ["Je vous en prie, c'était un plaisir."],
+       "female_lines": ["Merci pour ces éclaircissements."]
+     },
+     {
+       "point": 10,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 32,
+   "section": "G",
+   "theme": "Longer text/argument",
+   "question": "Quel est l'argument principal défendu dans cette discussion ?",
+   "options": [
+     { "id": "A", "text": "L'urbanisation est inévitable", "image_prompt": "" },
+     { "id": "B", "text": "Les villes doivent devenir plus vertes", "image_prompt": "" },
+     { "id": "C", "text": "La vie à la campagne est meilleure", "image_prompt": "" },
+     { "id": "D", "text": "Les transports publics sont inefficaces", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Femme: Notre ville grandit trop vite, c'est problématique. Homme: Je suis d'accord, on perd nos espaces verts. Femme: Il faut absolument créer plus de parcs urbains. Homme: Et améliorer les transports en commun aussi. Femme: Les gens utilisent trop leur voiture personnelle. Homme: C'est vrai, la pollution de l'air augmente. Femme: Quelles solutions proposez-vous concrètement? Homme: Développer les pistes cyclables sécurisées. Femme: C'est une bonne idée pour la santé aussi. Homme: Oui, et planter des arbres sur tous les trottoirs. Femme: Le coût doit être élevé pour la municipalité. Homme: C'est un investissement pour l'avenir des générations. Femme: Les citoyens sont-ils prêts à changer leurs habitudes? Homme: Il faut les sensibiliser avec des campagnes éducatives. Femme: Vous êtes optimiste pour l'avenir? Homme: Oui, si on agit maintenant c'est encore possible. Femme: Merci pour cette analyse. Homme: Merci de m'avoir invitée.",
+   "transcript_en": "Woman: Our city is growing too fast, it's problematic. Man: I agree, we're losing our green spaces. Woman: We absolutely must create more urban parks. Man: And improve public transportation too. Woman: People use their personal cars too much. Man: That's true, air pollution is increasing. Woman: What concrete solutions do you propose? Man: Develop safe bike lanes. Woman: That's a good idea for health too. Man: Yes, and plant trees on all sidewalks. Woman: The cost must be high for the municipality. Man: It's an investment for future generations. Woman: Are citizens ready to change their habits? Man: We need to raise awareness through educational campaigns. Woman: Are you optimistic about the future? Man: Yes, if we act now it's still possible. Woman: Thank you for this analysis. Man: Thank you for having me.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Je suis d'accord, on perd nos espaces verts."],
+       "female_lines": ["Notre ville grandit trop vite, c'est problématique."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Et améliorer les transports en commun aussi."],
+       "female_lines": ["Il faut absolument créer plus de parcs urbains."]
+     },
+     {
+       "point": 3,
+       "male_lines": ["C'est vrai, la pollution de l'air augmente."],
+       "female_lines": ["Les gens utilisent trop leur voiture personnelle."]
+     },
+     {
+       "point": 4,
+       "male_lines": ["Développer les pistes cyclables sécurisées."],
+       "female_lines": ["Quelles solutions proposez-vous concrètement?"]
+     },
+     {
+       "point": 5,
+       "male_lines": ["Oui, et planter des arbres sur tous les trottoirs."],
+       "female_lines": ["C'est une bonne idée pour la santé aussi."]
+     },
+     {
+       "point": 6,
+       "male_lines": ["C'est un investissement pour l'avenir des générations."],
+       "female_lines": ["Le coût doit être élevé pour la municipalité."]
+     },
+     {
+       "point": 7,
+       "male_lines": ["Il faut les sensibiliser avec des campagnes éducatives."],
+       "female_lines": ["Les citoyens sont-ils prêts à changer leurs habitudes?"]
+     },
+     {
+       "point": 8,
+       "male_lines": ["Oui, si on agit maintenant c'est encore possible."],
+       "female_lines": ["Vous êtes optimiste pour l'avenir?"]
+     },
+     {
+       "point": 9,
+       "male_lines": ["Merci de m'avoir invitée."],
+       "female_lines": ["Merci pour cette analyse."]
+     },
+     {
+       "point": 10,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 33,
+   "section": "G",
+   "theme": "Longer text/argument",
+   "question": "Quel est le problème principal discuté ?",
+   "options": [
+     { "id": "A", "text": "Le manque de logements", "image_prompt": "" },
+     { "id": "B", "text": "La hausse des loyers", "image_prompt": "" },
+     { "id": "C", "text": "La qualité de la construction", "image_prompt": "" },
+     { "id": "D", "text": "L'insalubrité des immeubles", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Homme: Les loyers à Montréal ont augmenté de 30% en cinq ans. Femme: C'est une crise majeure pour les locataires. Homme: Beaucoup de jeunes ne peuvent plus se loger seuls. Femme: Ils doivent partager des appartements ou retourner chez leurs parents. Homme: Le gouvernement doit intervenir avec des mesures fortes. Femme: Quel type de régulation proposez-vous exactement? Homme: Instaurer un contrôle des loyers comme à New York. Femme: Les propriétaires ne vont pas accepter facilement. Homme: Ils doivent comprendre que c'est une nécessité sociale. Femme: Et pour les nouvelles constructions? Homme: Obliger les promoteurs à inclure des logements sociaux. Femme: Cela ralentira-t-il le développement immobilier? Homme: Au contraire, cela stabilisera le marché à long terme. Femme: Les élections municipales approchent, c'est le moment d'agir. Homme: Oui, les citoyens doivent voter pour des changements concrets. Femme: Merci pour cette discussion éclairante. Homme: C'était un plaisir d'échanger avec vous.",
+   "transcript_en": "Man: Rents in Montreal have increased by 30% in five years. Woman: It's a major crisis for tenants. Man: Many young people can no longer afford to live alone. Woman: They have to share apartments or return to their parents' home. Man: The government must intervene with strong measures. Woman: What type of regulation do you propose exactly? Man: Establish rent control like in New York. Woman: Property owners won't accept this easily. Man: They must understand that it's a social necessity. Woman: And for new constructions? Man: Force developers to include social housing. Woman: Won't this slow down real estate development? Man: On the contrary, it will stabilize the market in the long term. Woman: Municipal elections are approaching, it's time to act. Man: Yes, citizens must vote for concrete changes. Woman: Thank you for this enlightening discussion. Man: It was a pleasure exchanging with you.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Les loyers à Montréal ont augmenté de 30% en cinq ans."],
+       "female_lines": ["C'est une crise majeure pour les locataires."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Beaucoup de jeunes ne peuvent plus se loger seuls."],
+       "female_lines": ["Ils doivent partager des appartements ou retourner chez leurs parents."]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Le gouvernement doit intervenir avec des mesures fortes."],
+       "female_lines": ["Quel type de régulation proposez-vous exactement?"]
+     },
+     {
+       "point": 4,
+       "male_lines": ["Instaurer un contrôle des loyers comme à New York."],
+       "female_lines": ["Les propriétaires ne vont pas accepter facilement."]
+     },
+     {
+       "point": 5,
+       "male_lines": ["Ils doivent comprendre que c'est une nécessité sociale."],
+       "female_lines": ["Et pour les nouvelles constructions?"]
+     },
+     {
+       "point": 6,
+       "male_lines": ["Obliger les promoteurs à inclure des logements sociaux."],
+       "female_lines": ["Cela ralentira-t-il le développement immobilier?"]
+     },
+     {
+       "point": 7,
+       "male_lines": ["Au contraire, cela stabilisera le marché à long terme."],
+       "female_lines": ["Les élections municipales approchent, c'est le moment d'agir."]
+     },
+     {
+       "point": 8,
+       "male_lines": ["Oui, les citoyens doivent voter pour des changements concrets."],
+       "female_lines": ["Merci pour cette discussion éclairante."]
+     },
+     {
+       "point": 9,
+       "male_lines": ["C'était un plaisir d'échanger avec vous."],
+       "female_lines": []
+     },
+     {
+       "point": 10,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 34,
+   "section": "G",
+   "theme": "Longer text/argument",
+   "question": "Quelle est la conclusion de cet échange ?",
+   "options": [
+     { "id": "A", "text": "L'éducation traditionnelle est meilleure", "image_prompt": "" },
+     { "id": "B", "text": "L'apprentissage en ligne est l'avenir", "image_prompt": "" },
+     { "id": "C", "text": "Un modèle hybride est nécessaire", "image_prompt": "" },
+     { "id": "D", "text": "Les écoles physiques doivent fermer", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Femme: La pandémie a bouleversé notre système éducatif. Homme: Oui, l'enseignement en ligne est devenu obligatoire du jour au lendemain. Femme: Les résultats des élèves ont-ils été affectés négativement? Homme: C'est mitigé, certains ont prospéré, d'autres ont souffert. Femme: Quels sont les avantages de l'apprentissage à distance? Homme: La flexibilité des horaires et l'accès aux ressources numériques. Femme: Et les inconvénients principaux? Homme: L'isolement social et le manque de motivation. Femme: Faut-il revenir à 100% en présentiel selon vous? Homme: Non, je crois qu'un modèle hybride est plus pertinent. Femme: Comment cela fonctionnerait-il concrètement? Homme: Cours théoriques en ligne, travaux pratiques en présentiel. Femme: Les enseignants sont-ils formés pour cela? Homme: Il faut investir massivement dans la formation continue. Femme: Les parents sont divisés sur cette question. Homme: Il faut les consulter et les accompagner dans ce changement. Femme: Merci pour ces précisions. Homme: Je vous en prie.",
+   "transcript_en": "Woman: The pandemic has disrupted our education system. Man: Yes, online teaching became mandatory overnight. Woman: Have students' results been negatively affected? Man: It's mixed, some thrived, others suffered. Woman: What are the advantages of distance learning? Man: Flexible schedules and access to digital resources. Woman: And the main disadvantages? Man: Social isolation and lack of motivation. Woman: Should we return to 100% in-person according to you? Man: No, I believe a hybrid model is more relevant. Woman: How would that work concretely? Man: Theoretical courses online, practical work in person. Woman: Are teachers trained for this? Man: We must invest massively in continuing education. Woman: Parents are divided on this issue. Man: We must consult them and support them through this change. Woman: Thank you for these details. Man: You're welcome.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Oui, l'enseignement en ligne est devenu obligatoire du jour au lendemain."],
+       "female_lines": ["La pandémie a bouleversé notre système éducatif."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["C'est mitigé, certains ont prospéré, d'autres ont souffert."],
+       "female_lines": ["Les résultats des élèves ont-ils été affectés négativement?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["La flexibilité des horaires et l'accès aux ressources numériques."],
+       "female_lines": ["Quels sont les avantages de l'apprentissage à distance?"]
+     },
+     {
+       "point": 4,
+       "male_lines": ["L'isolement social et le manque de motivation."],
+       "female_lines": ["Et les inconvénients principaux?"]
+     },
+     {
+       "point": 5,
+       "male_lines": ["Non, je crois qu'un modèle hybride est plus pertinent."],
+       "female_lines": ["Faut-il revenir à 100% en présentiel selon vous?"]
+     },
+     {
+       "point": 6,
+       "male_lines": ["Cours théoriques en ligne, travaux pratiques en présentiel."],
+       "female_lines": ["Comment cela fonctionnerait-il concrètement?"]
+     },
+     {
+       "point": 7,
+       "male_lines": ["Il faut investir massivement dans la formation continue."],
+       "female_lines": ["Les enseignants sont-ils formés pour cela?"]
+     },
+     {
+       "point": 8,
+       "male_lines": ["Il faut les consulter et les accompagner dans ce changement."],
+       "female_lines": ["Les parents sont divisés sur cette question."]
+     },
+     {
+       "point": 9,
+       "male_lines": ["Je vous en prie."],
+       "female_lines": ["Merci pour ces précisions."]
+     },
+     {
+       "point": 10,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 35,
+   "section": "G",
+   "theme": "Longer text/argument",
+   "question": "Quel est l'objectif principal de la politique discutée ?",
+   "options": [
+     { "id": "A", "text": "Augmenter les impôts", "image_prompt": "" },
+     { "id": "B", "text": "Réduire la consommation de sucre", "image_prompt": "" },
+     { "id": "C", "text": "Interdire la publicité", "image_prompt": "" },
+     { "id": "D", "text": "Fermer les restaurants rapides", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Homme: Le gouvernement propose une taxe sur les boissons sucrées. Femme: C'est une mesure intéressante pour la santé publique. Homme: Les données montrent que cela réduit la consommation. Femme: Comment réagissent les industriels de la boisson? Homme: Ils s'y opposent évidemment, ça touche leurs profits. Femme: Les consommateurs vont-ils accepter cette hausse de prix? Homme: Les études montrent une baisse de la demande progressive. Femme: Cela s'applique-t-il à tous les produits sucrés? Homme: Principalement aux sodas et aux boissons énergisantes. Femme: Et les jus de fruits naturels? Homme: Ils sont exclus si ils ne contiennent pas de sucre ajouté. Femme: Les revenus de cette taxe serviront à quoi? Homme: À financer des programmes de prévention du diabète. Femme: C'est une bonne idée de réinvestir dans la santé. Homme: Oui, c'est un cercle vertueux théoriquement. Femme: Espérons que cela fonctionne en pratique. Homme: Nous aurons les premiers résultats dans un an.",
+   "transcript_en": "Man: The government is proposing a tax on sugary drinks. Woman: It's an interesting measure for public health. Man: Data shows that this reduces consumption. Woman: How are beverage manufacturers reacting? Man: They obviously oppose it, it affects their profits. Woman: Will consumers accept this price increase? Man: Studies show a gradual decrease in demand. Woman: Does this apply to all sugary products? Man: Mainly to sodas and energy drinks. Woman: And natural fruit juices? Man: They are excluded if they don't contain added sugar. Woman: What will the revenue from this tax be used for? Man: To fund diabetes prevention programs. Woman: It's a good idea to reinvest in health. Man: Yes, it's a virtuous circle theoretically. Woman: Let's hope it works in practice. Man: We'll have the first results in a year.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Le gouvernement propose une taxe sur les boissons sucrées."],
+       "female_lines": ["C'est une mesure intéressante pour la santé publique."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Les données montrent que cela réduit la consommation."],
+       "female_lines": ["Comment réagissent les industriels de la boisson?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Ils s'y opposent évidemment, ça touche leurs profits."],
+       "female_lines": ["Les consommateurs vont-ils accepter cette hausse de prix?"]
+     },
+     {
+       "point": 4,
+       "male_lines": ["Les études montrent une baisse de la demande progressive."],
+       "female_lines": ["Cela s'applique-t-il à tous les produits sucrés?"]
+     },
+     {
+       "point": 5,
+       "male_lines": ["Principalement aux sodas et aux boissons énergisantes."],
+       "female_lines": ["Et les jus de fruits naturels?"]
+     },
+     {
+       "point": 6,
+       "male_lines": ["Ils sont exclus si ils ne contiennent pas de sucre ajouté."],
+       "female_lines": ["Les revenus de cette taxe serviront à quoi?"]
+     },
+     {
+       "point": 7,
+       "male_lines": ["À financer des programmes de prévention du diabète."],
+       "female_lines": ["C'est une bonne idée de réinvestir dans la santé."]
+     },
+     {
+       "point": 8,
+       "male_lines": ["Oui, c'est un cercle vertueux théoriquement."],
+       "female_lines": ["Espérons que cela fonctionne en pratique."]
+     },
+     {
+       "point": 9,
+       "male_lines": ["Nous aurons les premiers résultats dans un an."],
+       "female_lines": []
+     },
+     {
+       "point": 10,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 36,
+   "section": "H",
+   "theme": "Complex/abstract recording",
+   "question": "Quelle est la métaphore principale utilisée par l'orateur ?",
+   "options": [
+     { "id": "A", "text": "La vie est un voyage", "image_prompt": "" },
+     { "id": "B", "text": "La société est une machine", "image_prompt": "" },
+     { "id": "C", "text": "Le temps est de l'argent", "image_prompt": "" },
+     { "id": "D", "text": "La connaissance est une lumière", "image_prompt": "" }
+   ],
+   "correct": 0,
+   "transcript_fr": "Homme: Mes amis, la vie est comme un long voyage en train. Femme: Pouvez-vous développer cette image pour nous? Homme: Nous montons à bord avec nos parents, nos premiers compagnons. Femme: Et ensuite que se passe-t-il dans ce voyage? Homme: Certains descendent rapidement, d'autres restent plus longtemps. Femme: C'est une métaphore sur les relations humaines? Homme: Exactement, certains passagers changent notre vie pour toujours. Femme: Comment gérer les départs douloureux? Homme: Il faut accepter que chaque arrêt fait partie du trajet. Femme: Et les nouveaux passagers qui montent? Homme: Il faut les accueillir avec joie et sans jugement. Femme: Quelle est la destination finale selon vous? Homme: Personne ne le sait vraiment, c'est le mystère du voyage. Femme: C'est une philosophie stoïcienne? Homme: Oui, accepter l'impermanence est la clé du bonheur. Femme: Merci pour cette réflexion profonde. Homme: Je vous remercie de votre écoute attentive.",
+   "transcript_en": "Man: My friends, life is like a long train journey. Woman: Can you develop this image for us? Man: We board with our parents, our first companions. Woman: And then what happens on this journey? Man: Some get off quickly, others stay longer. Woman: Is this a metaphor for human relationships? Man: Exactly, some passengers change our lives forever. Woman: How to handle painful departures? Man: We must accept that each stop is part of the journey. Woman: And the new passengers who get on? Man: We must welcome them with joy and without judgment. Woman: What is the final destination in your opinion? Man: No one really knows, it's the mystery of the journey. Woman: Is this a Stoic philosophy? Man: Yes, accepting impermanence is the key to happiness. Woman: Thank you for this deep reflection. Man: I thank you for your attentive listening.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Mes amis, la vie est comme un long voyage en train."],
+       "female_lines": ["Pouvez-vous développer cette image pour nous?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Nous montons à bord avec nos parents, nos premiers compagnons."],
+       "female_lines": ["Et ensuite que se passe-t-il dans ce voyage?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Certains descendent rapidement, d'autres restent plus longtemps."],
+       "female_lines": ["C'est une métaphore sur les relations humaines?"]
+     },
+     {
+       "point": 4,
+       "male_lines": ["Exactement, certains passagers changent notre vie pour toujours."],
+       "female_lines": ["Comment gérer les départs douloureux?"]
+     },
+     {
+       "point": 5,
+       "male_lines": ["Il faut accepter que chaque arrêt fait partie du trajet."],
+       "female_lines": ["Et les nouveaux passagers qui montent?"]
+     },
+     {
+       "point": 6,
+       "male_lines": ["Il faut les accueillir avec joie et sans jugement."],
+       "female_lines": ["Quelle est la destination finale selon vous?"]
+     },
+     {
+       "point": 7,
+       "male_lines": ["Personne ne le sait vraiment, c'est le mystère du voyage."],
+       "female_lines": ["C'est une philosophie stoïcienne?"]
+     },
+     {
+       "point": 8,
+       "male_lines": ["Oui, accepter l'impermanence est la clé du bonheur."],
+       "female_lines": ["Merci pour cette réflexion profonde."]
+     },
+     {
+       "point": 9,
+       "male_lines": ["Je vous remercie de votre écoute attentive."],
+       "female_lines": []
+     },
+     {
+       "point": 10,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 37,
+   "section": "H",
+   "theme": "Complex/abstract recording",
+   "question": "Quel concept philosophique est exploré ?",
+   "options": [
+     { "id": "A", "text": "Le libre arbitre", "image_prompt": "" },
+     { "id": "B", "text": "L'identité personnelle", "image_prompt": "" },
+     { "id": "C", "text": "La justice sociale", "image_prompt": "" },
+     { "id": "D", "text": "La beauté esthétique", "image_prompt": "" }
+   ],
+   "correct": 1,
+   "transcript_fr": "Femme: Qui sommes-nous vraiment au fond de nous-mêmes? Homme: C'est la question centrale de la philosophie depuis l'Antiquité. Femme: Notre identité est-elle fixe ou en constante évolution? Homme: Les stoïciens croyaient en un moi stable et rationnel. Femme: Et les philosophes modernes, que disent-ils? Homme: Ils voient l'identité comme une construction narrative. Femme: Nous sommes l'histoire que nous nous racontons? Homme: Exactement, notre mémoire façonne qui nous sommes. Femme: Mais les souvenirs sont-ils fiables? Homme: Non, ils sont reconstruits à chaque fois que nous nous souvenons. Femme: Donc notre identité change constamment? Homme: Oui, c'est un flux continu d'expériences et de réinterprétations. Femme: Comment trouver une stabilité dans ce chaos? Homme: En acceptant le changement comme essence même de l'existence. Femme: C'est une perspective libératrice. Homme: Oui, elle nous libère de la peur de changer.",
+   "transcript_en": "Woman: Who are we really deep down? Man: It's the central question of philosophy since Antiquity. Woman: Is our identity fixed or constantly evolving? Man: The Stoics believed in a stable and rational self. Woman: And modern philosophers, what do they say? Man: They see identity as a narrative construction. Woman: We are the story we tell ourselves? Man: Exactly, our memory shapes who we are. Woman: But are memories reliable? Man: No, they are reconstructed every time we remember. Woman: So our identity is constantly changing? Man: Yes, it's a continuous flow of experiences and reinterpretations. Woman: How to find stability in this chaos? Man: By accepting change as the very essence of existence. Woman: It's a liberating perspective. Man: Yes, it frees us from the fear of changing.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["C'est la question centrale de la philosophie depuis l'Antiquité."],
+       "female_lines": ["Qui sommes-nous vraiment au fond de nous-mêmes?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Les stoïciens croyaient en un moi stable et rationnel."],
+       "female_lines": ["Notre identité est-elle fixe ou en constante évolution?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Ils voient l'identité comme une construction narrative."],
+       "female_lines": ["Et les philosophes modernes, que disent-ils?"]
+     },
+     {
+       "point": 4,
+       "male_lines": ["Exactement, notre mémoire façonne qui nous sommes."],
+       "female_lines": ["Nous sommes l'histoire que nous nous racontons?"]
+     },
+     {
+       "point": 5,
+       "male_lines": ["Non, ils sont reconstruits à chaque fois que nous nous souvenons."],
+       "female_lines": ["Mais les souvenirs sont-ils fiables?"]
+     },
+     {
+       "point": 6,
+       "male_lines": ["Oui, c'est un flux continu d'expériences et de réinterprétations."],
+       "female_lines": ["Donc notre identité change constamment?"]
+     },
+     {
+       "point": 7,
+       "male_lines": ["En acceptant le changement comme essence même de l'existence."],
+       "female_lines": ["Comment trouver une stabilité dans ce chaos?"]
+     },
+     {
+       "point": 8,
+       "male_lines": ["Oui, elle nous libère de la peur de changer."],
+       "female_lines": ["C'est une perspective libératrice."]
+     },
+     {
+       "point": 9,
+       "male_lines": [],
+       "female_lines": []
+     },
+     {
+       "point": 10,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 38,
+   "section": "H",
+   "theme": "Complex/abstract recording",
+   "question": "Quelle est la critique principale formulée ?",
+   "options": [
+     { "id": "A", "text": "La technologie déshumanise la société", "image_prompt": "" },
+     { "id": "B", "text": "La technologie crée des inégalités", "image_prompt": "" },
+     { "id": "C", "text": "La technologie détruit l'environnement", "image_prompt": "" },
+     { "id": "D", "text": "La technologie rend les gens paresseux", "image_prompt": "" }
+   ],
+   "correct": 0,
+   "transcript_fr": "Homme: Nous vivons une époque de connexion permanente mais d'isolement profond. Femme: Vous suggérez que la technologie nous sépare plutôt qu'elle ne nous unit? Homme: Exactement, nous avons mille amis virtuels mais peu de contacts réels. Femme: Les réseaux sociaux ne facilitent-ils pas les rencontres? Homme: Ils simulent la connexion sans offrir l'intimité véritable. Femme: Qu'entendez-vous par intimité véritable? Homme: Le regard dans les yeux, le toucher, la présence physique. Femme: Ces éléments sont-ils essentiels à l'humanité? Homme: Ils le sont depuis la nuit des temps, nous sommes des êtres corporels. Femme: La réalité virtuelle ne peut-elle pas compenser? Homme: C'est une pâle copie qui appauvrit nos sens au lieu de les enrichir. Femme: Comment résister à cette tendance? Homme: En imposant des temps de déconnexion forcée, des jours sans écran. Femme: C'est difficile à mettre en pratique. Homme: Oui, mais nécessaire pour préserver notre humanité. Femme: Merci pour cet avertissement salutaire.",
+   "transcript_en": "Man: We live in an era of permanent connection but profound isolation. Woman: You suggest that technology separates us rather than unites us? Man: Exactly, we have a thousand virtual friends but few real contacts. Woman: Don't social media facilitate meetings? Man: They simulate connection without offering true intimacy. Woman: What do you mean by true intimacy? Man: Eye contact, touch, physical presence. Woman: Are these elements essential to humanity? Man: They have been since the dawn of time, we are physical beings. Woman: Can't virtual reality compensate? Man: It's a pale copy that impoverishes our senses instead of enriching them. Woman: How to resist this trend? Man: By imposing forced disconnection times, screen-free days. Woman: It's difficult to put into practice. Man: Yes, but necessary to preserve our humanity. Woman: Thank you for this salutary warning.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Nous vivons une époque de connexion permanente mais d'isolement profond."],
+       "female_lines": ["Vous suggérez que la technologie nous sépare plutôt qu'elle ne nous unit?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Exactement, nous avons mille amis virtuels mais peu de contacts réels."],
+       "female_lines": ["Les réseaux sociaux ne facilitent-ils pas les rencontres?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Ils simulent la connexion sans offrir l'intimité véritable."],
+       "female_lines": ["Qu'entendez-vous par intimité véritable?"]
+     },
+     {
+       "point": 4,
+       "male_lines": ["Le regard dans les yeux, le toucher, la présence physique."],
+       "female_lines": ["Ces éléments sont-ils essentiels à l'humanité?"]
+     },
+     {
+       "point": 5,
+       "male_lines": ["Ils le sont depuis la nuit des temps, nous sommes des êtres corporels."],
+       "female_lines": ["La réalité virtuelle ne peut-elle pas compenser?"]
+     },
+     {
+       "point": 6,
+       "male_lines": ["C'est une pâle copie qui appauvrit nos sens au lieu de les enrichir."],
+       "female_lines": ["Comment résister à cette tendance?"]
+     },
+     {
+       "point": 7,
+       "male_lines": ["En imposant des temps de déconnexion forcée, des jours sans écran."],
+       "female_lines": ["C'est difficile à mettre en pratique."]
+     },
+     {
+       "point": 8,
+       "male_lines": ["Oui, mais nécessaire pour préserver notre humanité."],
+       "female_lines": ["Merci pour cet avertissement salutaire."]
+     },
+     {
+       "point": 9,
+       "male_lines": [],
+       "female_lines": []
+     },
+     {
+       "point": 10,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 39,
+   "section": "H",
+   "theme": "Complex/abstract recording",
+   "question": "Quelle est la conclusion de l'analyse économique ?",
+   "options": [
+     { "id": "A", "text": "L'économie va s'effondrer", "image_prompt": "" },
+     { "id": "B", "text": "La croissance est illusoire", "image_prompt": "" },
+     { "id": "C", "text": "Une récession est inévitable", "image_prompt": "" },
+     { "id": "D", "text": "Le système actuel est insoutenable", "image_prompt": "" }
+   ],
+   "correct": 3,
+   "transcript_fr": "Femme: Notre modèle économique actuel repose sur la croissance infinie. Homme: C'est mathématiquement impossible sur une planète finie. Femme: Quelles sont les conséquences de cette contradiction? Homme: L'épuisement des ressources et l'accroissement des inégalités. Femme: Les économistes ne proposent-ils pas de solutions? Homme: Ils proposent des ajustements marginaux qui évitent le problème fondamental. Femme: Quel serait le problème fondamental selon vous? Homme: La croyance que le PIB est le seul indicateur de progrès. Femme: Quels autres indicateurs faudrait-il prendre en compte? Homme: Le bien-être des citoyens, la santé de l'écosystème, l'équité sociale. Femme: Ces indicateurs sont-ils mesurables concrètement? Homme: Oui, plusieurs pays expérimentent déjà des indices de bonheur. Femme: Le changement sera-t-il facile à implémenter? Homme: Non, il faudra transformer nos structures profondément. Femme: Sommes-nous prêts pour cette transformation? Homme: Nous n'avons pas le choix, la nature nous imposera ses limites.",
+   "transcript_en": "Woman: Our current economic model is based on infinite growth. Man: It's mathematically impossible on a finite planet. Woman: What are the consequences of this contradiction? Man: Resource depletion and increasing inequality. Woman: Don't economists propose solutions? Man: They propose marginal adjustments that avoid the fundamental problem. Woman: What would be the fundamental problem in your opinion? Man: The belief that GDP is the only indicator of progress. Woman: What other indicators should be taken into account? Man: Citizen well-being, ecosystem health, social equity. Woman: Are these indicators concretely measurable? Man: Yes, several countries are already experimenting with happiness indices. Woman: Will the change be easy to implement? Man: No, we will have to transform our structures deeply. Woman: Are we ready for this transformation? Man: We have no choice, nature will impose its limits on us.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["C'est mathématiquement impossible sur une planète finie."],
+       "female_lines": ["Notre modèle économique actuel repose sur la croissance infinie."]
+     },
+     {
+       "point": 2,
+       "male_lines": ["L'épuisement des ressources et l'accroissement des inégalités."],
+       "female_lines": ["Quelles sont les conséquences de cette contradiction?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Ils proposent des ajustements marginaux qui évitent le problème fondamental."],
+       "female_lines": ["Les économistes ne proposent-ils pas de solutions?"]
+     },
+     {
+       "point": 4,
+       "male_lines": ["La croyance que le PIB est le seul indicateur de progrès."],
+       "female_lines": ["Quel serait le problème fondamental selon vous?"]
+     },
+     {
+       "point": 5,
+       "male_lines": ["Le bien-être des citoyens, la santé de l'écosystème, l'équité sociale."],
+       "female_lines": ["Quels autres indicateurs faudrait-il prendre en compte?"]
+     },
+     {
+       "point": 6,
+       "male_lines": ["Oui, plusieurs pays expérimentent déjà des indices de bonheur."],
+       "female_lines": ["Ces indicateurs sont-ils mesurables concrètement?"]
+     },
+     {
+       "point": 7,
+       "male_lines": ["Non, il faudra transformer nos structures profondément."],
+       "female_lines": ["Le changement sera-t-il facile à implémenter?"]
+     },
+     {
+       "point": 8,
+       "male_lines": ["Nous n'avons pas le choix, la nature nous imposera ses limites."],
+       "female_lines": ["Sommes-nous prêts pour cette transformation?"]
+     },
+     {
+       "point": 9,
+       "male_lines": [],
+       "female_lines": []
+     },
+     {
+       "point": 10,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ },
+ {
+   "id": 40,
+   "section": "H",
+   "theme": "Complex/abstract recording",
+   "question": "Quel est le message final de cette conférence ?",
+   "options": [
+     { "id": "A", "text": "L'art est inutile dans la société moderne", "image_prompt": "" },
+     { "id": "B", "text": "L'art doit être accessible à tous", "image_prompt": "" },
+     { "id": "C", "text": "L'art est essentiel à la survie de l'humanité", "image_prompt": "" },
+     { "id": "D", "text": "L'art doit être financé par l'État", "image_prompt": "" }
+   ],
+   "correct": 2,
+   "transcript_fr": "Homme: Dans ces temps troublés, on nous dit souvent que l'art est un luxe. Femme: Vous contestez cette affirmation radicalement? Homme: Absolument, l'art est aussi essentiel que l'eau et la nourriture. Femme: Pouvez-vous justifier cette comparaison audacieuse? Homme: Sans art, l'humanité perd sa capacité à rêver et à espérer. Femme: L'art nourrit l'âme comme la nourriture nourrit le corps? Homme: Exactement, il nous rappelle notre humanité commune. Femme: Face aux crises climatiques et sociales, l'art n'est-il pas futile? Homme: Au contraire, c'est l'art qui nous donne la force de résister. Femme: Comment l'art peut-il sauver l'humanité concrètement? Homme: En créant de l'empathie, en imaginant d'autres mondes possibles. Femme: Les artistes ont-ils une responsabilité particulière? Homme: Oui, ils doivent oser dire la vérité même quand elle dérange. Femme: Le public a-t-il un rôle à jouer? Homme: Il doit défendre la liberté artistique contre la censure. Femme: C'est un appel à l'action urgent. Homme: Oui, sans art nous ne sommes que des machines biologiques.",
+   "transcript_en": "Man: In these troubled times, we are often told that art is a luxury. Woman: You radically contest this statement? Man: Absolutely, art is as essential as water and food. Woman: Can you justify this bold comparison? Man: Without art, humanity loses its capacity to dream and hope. Woman: Art nourishes the soul as food nourishes the body? Man: Exactly, it reminds us of our common humanity. Woman: Faced with climate and social crises, isn't art futile? Man: On the contrary, it's art that gives us the strength to resist. Woman: How can art concretely save humanity? Man: By creating empathy, by imagining other possible worlds. Woman: Do artists have a particular responsibility? Man: Yes, they must dare to tell the truth even when it's uncomfortable. Woman: Does the public have a role to play? Man: They must defend artistic freedom against censorship. Woman: It's an urgent call to action. Man: Yes, without art we are only biological machines.",
+   "points": [
+     {
+       "point": 1,
+       "male_lines": ["Dans ces temps troublés, on nous dit souvent que l'art est un luxe."],
+       "female_lines": ["Vous contestez cette affirmation radicalement?"]
+     },
+     {
+       "point": 2,
+       "male_lines": ["Absolument, l'art est aussi essentiel que l'eau et la nourriture."],
+       "female_lines": ["Pouvez-vous justifier cette comparaison audacieuse?"]
+     },
+     {
+       "point": 3,
+       "male_lines": ["Sans art, l'humanité perd sa capacité à rêver et à espérer."],
+       "female_lines": ["L'art nourrit l'âme comme la nourriture nourrit le corps?"]
+     },
+     {
+       "point": 4,
+       "male_lines": ["Exactement, il nous rappelle notre humanité commune."],
+       "female_lines": ["Face aux crises climatiques et sociales, l'art n'est-il pas futile?"]
+     },
+     {
+       "point": 5,
+       "male_lines": ["Au contraire, c'est l'art qui nous donne la force de résister."],
+       "female_lines": ["Comment l'art peut-il sauver l'humanité concrètement?"]
+     },
+     {
+       "point": 6,
+       "male_lines": ["En créant de l'empathie, en imaginant d'autres mondes possibles."],
+       "female_lines": ["Les artistes ont-ils une responsabilité particulière?"]
+     },
+     {
+       "point": 7,
+       "male_lines": ["Oui, ils doivent oser dire la vérité même quand elle dérange."],
+       "female_lines": ["Le public a-t-il un rôle à jouer?"]
+     },
+     {
+       "point": 8,
+       "male_lines": ["Il doit défendre la liberté artistique contre la censure."],
+       "female_lines": ["C'est un appel à l'action urgent."]
+     },
+     {
+       "point": 9,
+       "male_lines": ["Oui, sans art nous ne sommes que des machines biologiques."],
+       "female_lines": []
+     },
+     {
+       "point": 10,
+       "male_lines": [],
+       "female_lines": []
+     }
+   ]
+ }
+]

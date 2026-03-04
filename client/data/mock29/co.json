@@ -1,0 +1,1422 @@
+﻿[
+  {
+    "id": 1,
+    "section": "A",
+    "theme": "Daily activities",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne court dans le parc", "image_prompt": "A person running in a green park, sunny day" },
+      { "id": "B", "text": "Une personne fait du vélo", "image_prompt": "A person riding a bicycle on a city path" },
+      { "id": "C", "text": "Une personne nage", "image_prompt": "A person swimming in a blue pool" },
+      { "id": "D", "text": "Une personne marche avec un chien", "image_prompt": "A person walking a golden retriever in a park" }
+    ],
+    "correct": 0,
+    "transcript_fr": "J'adore commencer ma journée par un petit footing au parc quand il fait beau.",
+    "transcript_en": "I love starting my day with a quick jog in the park when the weather is nice.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["J'adore commencer ma journée par un petit footing au parc quand il fait beau."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "A",
+    "theme": "Food and drink",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un café avec un croissant", "image_prompt": "A coffee cup and croissant on a wooden table" },
+      { "id": "B", "text": "Un sandwich et une salade", "image_prompt": "A sandwich with fresh salad on a plate" },
+      { "id": "C", "text": "Une pizza entière", "image_prompt": "A whole pizza with melted cheese" },
+      { "id": "D", "text": "Un bol de soupe chaude", "image_prompt": "A bowl of hot soup with steam rising" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Pour le déjeuner, je vais prendre un sandwich au jambon avec une petite salade verte.",
+    "transcript_en": "For lunch, I'll have a ham sandwich with a small green salad.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Pour le déjeuner, je vais prendre un sandwich au jambon avec une petite salade verte."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "A",
+    "theme": "Transportation",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un autobus bondé", "image_prompt": "A crowded city bus with passengers standing" },
+      { "id": "B", "text": "Un métro qui arrive en station", "image_prompt": "A subway train arriving at a platform" },
+      { "id": "C", "text": "Un taxi jaune", "image_prompt": "A yellow taxi cab on a city street" },
+      { "id": "D", "text": "Un train à grande vitesse", "image_prompt": "A high-speed train on railway tracks" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Excusez-moi, vous pourriez me déposer à la gare centrale s'il vous plaît ? Je suis en retard.",
+    "transcript_en": "Excuse me, could you drop me off at the central station please? I'm late.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Excusez-moi, vous pourriez me déposer à la gare centrale s'il vous plaît ? Je suis en retard."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "section": "A",
+    "theme": "Weather",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un ciel bleu sans nuages", "image_prompt": "A clear blue sky with bright sun" },
+      { "id": "B", "text": "De la neige qui tombe", "image_prompt": "Snow falling on a winter landscape" },
+      { "id": "C", "text": "Un orage avec des éclairs", "image_prompt": "A thunderstorm with lightning bolts" },
+      { "id": "D", "text": "De la pluie et des nuages gris", "image_prompt": "Rain falling from grey clouds with umbrellas" }
+    ],
+    "correct": 3,
+    "transcript_fr": "N'oublie pas ton parapluie, il pleut des cordes dehors et le vent est fort.",
+    "transcript_en": "Don't forget your umbrella, it's pouring rain outside and the wind is strong.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["N'oublie pas ton parapluie, il pleut des cordes dehors et le vent est fort."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "A",
+    "theme": "Shopping",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Des fruits et légumes frais", "image_prompt": "Fresh fruits and vegetables at a market stall" },
+      { "id": "B", "text": "Des vêtements sur des cintres", "image_prompt": "Clothes hanging on racks in a boutique" },
+      { "id": "C", "text": "Des livres sur une étagère", "image_prompt": "Books arranged on wooden shelves" },
+      { "id": "D", "text": "Des chaussures dans une boîte", "image_prompt": "Shoes displayed in a shoebox" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Je vais aller au marché pour acheter des tomates, des concombres et des fraises pour le dessert.",
+    "transcript_en": "I'm going to the market to buy tomatoes, cucumbers, and strawberries for dessert.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je vais aller au marché pour acheter des tomates, des concombres et des fraises pour le dessert."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "section": "A",
+    "theme": "Work",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne devant un ordinateur", "image_prompt": "A person working on a laptop computer" },
+      { "id": "B", "text": "Une réunion avec plusieurs personnes", "image_prompt": "A business meeting with people around a table" },
+      { "id": "C", "text": "Une personne au téléphone", "image_prompt": "A person talking on the phone at a desk" },
+      { "id": "D", "text": "Une personne qui écrit sur un tableau", "image_prompt": "A person writing on a whiteboard" }
+    ],
+    "correct": 1,
+    "transcript_fr": "On se retrouve dans la salle de conférence à quatorze heures pour discuter du nouveau projet.",
+    "transcript_en": "Let's meet in the conference room at two o'clock to discuss the new project.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["On se retrouve dans la salle de conférence à quatorze heures pour discuter du nouveau projet."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "section": "B",
+    "theme": "Making an appointment",
+    "question": "Que veut faire la femme ?",
+    "options": [
+      { "id": "A", "text": "Annuler son rendez-vous", "image_prompt": "" },
+      { "id": "B", "text": "Déplacer son rendez-vous à plus tard", "image_prompt": "" },
+      { "id": "C", "text": "Confirmer son rendez-vous", "image_prompt": "" },
+      { "id": "D", "text": "Prendre un nouveau rendez-vous", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme : Bonjour, clinique dentaire Dubois, j'écoute. Femme : Bonjour, c'est Madame Tremblay, j'ai un rendez-vous demain à dix heures mais quelque chose d'urgent est survenu. Homme : Je comprends, vous souhaitez l'annuler ? Femme : Non, plutôt le reporter à la semaine prochaine si possible.",
+    "transcript_en": "Man: Hello, Dubois dental clinic, I'm listening. Woman: Hello, this is Mrs. Tremblay, I have an appointment tomorrow at ten o'clock but something urgent came up. Man: I understand, would you like to cancel it? Woman: No, rather postpone it to next week if possible.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, clinique dentaire Dubois, j'écoute."],
+        "female_lines": ["Bonjour, c'est Madame Tremblay, j'ai un rendez-vous demain à dix heures mais quelque chose d'urgent est survenu."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Je comprends, vous souhaitez l'annuler ?"],
+        "female_lines": ["Non, plutôt le reporter à la semaine prochaine si possible."]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "section": "B",
+    "theme": "At a restaurant",
+    "question": "Qu'est-ce que l'homme commande ?",
+    "options": [
+      { "id": "A", "text": "Un steak et des frites", "image_prompt": "" },
+      { "id": "B", "text": "Du poulet et du riz", "image_prompt": "" },
+      { "id": "C", "text": "Un poisson avec des légumes", "image_prompt": "" },
+      { "id": "D", "text": "Une salade et une soupe", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Serveuse : Bonsoir, avez-vous fait votre choix ? Homme : Oui, je vais prendre le filet de saumon grillé s'il vous plaît. Serveuse : Très bien, et comme accompagnement ? Homme : Avec les légumes de saison, merci.",
+    "transcript_en": "Waitress: Good evening, have you made your choice? Man: Yes, I'll have the grilled salmon fillet please. Waitress: Very well, and as a side dish? Man: With the seasonal vegetables, thank you.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Oui, je vais prendre le filet de saumon grillé s'il vous plaît."],
+        "female_lines": ["Bonsoir, avez-vous fait votre choix ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Avec les légumes de saison, merci."],
+        "female_lines": ["Très bien, et comme accompagnement ?"]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "section": "B",
+    "theme": "Asking for directions",
+    "question": "Où se trouve la bibliothèque ?",
+    "options": [
+      { "id": "A", "text": "À côté de la banque", "image_prompt": "" },
+      { "id": "B", "text": "En face de l'église", "image_prompt": "" },
+      { "id": "C", "text": "Derrière la mairie", "image_prompt": "" },
+      { "id": "D", "text": "Devant le parc", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme : Excusez-moi monsieur, pourriez-vous m'indiquer où est la bibliothèque municipale ? Homme : Bien sûr, continuez tout droit jusqu'au feu rouge. Femme : D'accord, et après ? Homme : Tournez à gauche, c'est juste à côté de la Banque Nationale, vous ne pouvez pas la manquer.",
+    "transcript_en": "Woman: Excuse me sir, could you tell me where the municipal library is? Man: Of course, continue straight ahead until the traffic light. Woman: Okay, and after that? Man: Turn left, it's right next to the National Bank, you can't miss it.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bien sûr, continuez tout droit jusqu'au feu rouge."],
+        "female_lines": ["Excusez-moi monsieur, pourriez-vous m'indiquer où est la bibliothèque municipale ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Tournez à gauche, c'est juste à côté de la Banque Nationale, vous ne pouvez pas la manquer."],
+        "female_lines": ["D'accord, et après ?"]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "section": "B",
+    "theme": "Shopping inquiry",
+    "question": "Quelle taille la cliente cherche-t-elle ?",
+    "options": [
+      { "id": "A", "text": "La taille petite", "image_prompt": "" },
+      { "id": "B", "text": "La taille moyenne", "image_prompt": "" },
+      { "id": "C", "text": "La taille grande", "image_prompt": "" },
+      { "id": "D", "text": "La taille extra-grande", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Vendeur : Bonjour madame, je peux vous aider ? Femme : Oui, j'aime beaucoup cette robe mais la medium est trop serrée. Vendeur : Je vais chercher la large en arrière-boutique. Femme : Parfait, je vais l'essayer.",
+    "transcript_en": "Salesman: Hello madam, can I help you? Woman: Yes, I really like this dress but the medium is too tight. Salesman: I'll get the large from the back store. Woman: Perfect, I'll try it on.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour madame, je peux vous aider ?"],
+        "female_lines": ["Oui, j'aime beaucoup cette robe mais la medium est trop serrée."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Je vais chercher la large en arrière-boutique."],
+        "female_lines": ["Parfait, je vais l'essayer."]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "section": "C",
+    "theme": "Airport announcement",
+    "question": "Quelle est l'information principale de cette annonce ?",
+    "options": [
+      { "id": "A", "text": "Un vol est annulé", "image_prompt": "" },
+      { "id": "B", "text": "Un vol a du retard", "image_prompt": "" },
+      { "id": "C", "text": "L'embarquement commence", "image_prompt": "" },
+      { "id": "D", "text": "La porte d'embarquement a changé", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Mesdames et messieurs, nous vous informons que le vol Air Canada trois-cent-quatre à destination de Montréal subit un changement de porte. L'embarquement se fera maintenant à la porte vingt-deux et non à la porte quinze. Nous vous prions de bien vouloir vous diriger vers la nouvelle porte d'embarquement. L'embarquement prioritaire commence immédiatement. Merci de votre attention.",
+    "transcript_en": "Ladies and gentlemen, we inform you that Air Canada flight three hundred and four to Montreal is undergoing a gate change. Boarding will now take place at gate twenty-two instead of gate fifteen. Please proceed to the new boarding gate. Priority boarding begins immediately. Thank you for your attention.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mesdames et messieurs, nous vous informons que le vol Air Canada trois-cent-quatre à destination de Montréal subit un changement de porte."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "section": "C",
+    "theme": "Supermarket announcement",
+    "question": "Que demande l'annonce ?",
+    "options": [
+      { "id": "A", "text": "De ne pas toucher les produits", "image_prompt": "" },
+      { "id": "B", "text": "De signaler les articles cassés", "image_prompt": "" },
+      { "id": "C", "text": "De demander de l'aide pour les articles en hauteur", "image_prompt": "" },
+      { "id": "D", "text": "De vérifier les dates de péremption", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Chers clients, pour votre sécurité et celle de nos employés, nous vous rappelons que les articles situés sur les étagères supérieures doivent être accessibles uniquement avec l'aide de notre personnel. Veuillez ne pas monter sur les étagères ni utiliser les chariots comme escabeau. Un employé se tient à votre disposition dans chaque allée. Merci de votre compréhension et bonne journée.",
+    "transcript_en": "Dear customers, for your safety and that of our employees, we remind you that items located on the upper shelves must only be accessed with the help of our staff. Please do not climb on the shelves or use carts as step stools. An employee is available to assist you in each aisle. Thank you for your understanding and have a nice day.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers clients, pour votre sécurité et celle de nos employés, nous vous rappelons que les articles situés sur les étagères supérieures doivent être accessibles uniquement avec l'aide de notre personnel."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "section": "C",
+    "theme": "Museum announcement",
+    "question": "Quelle est la nouveauté mentionnée ?",
+    "options": [
+      { "id": "A", "text": "Une exposition temporaire", "image_prompt": "" },
+      { "id": "B", "text": "Un audioguide gratuit", "image_prompt": "" },
+      { "id": "C", "text": "Une visite guidée en soirée", "image_prompt": "" },
+      { "id": "D", "text": "Un café-restaurant", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Bonjour et bienvenue au Musée des Beaux-Arts de Québec. Nous sommes ravis de vous présenter notre nouvelle exposition temporaire consacrée aux impressionnistes canadiens. Cette exposition exceptionnelle est accessible dès aujourd'hui et ce jusqu'au trente et un mars. Les billets sont disponibles à l'accueil. Profitez également de notre boutique de souvenirs pour des articles exclusifs.",
+    "transcript_en": "Hello and welcome to the Quebec Museum of Fine Arts. We are delighted to present our new temporary exhibition dedicated to Canadian impressionists. This exceptional exhibition is accessible starting today until March thirty-first. Tickets are available at the reception. Also enjoy our souvenir shop for exclusive items.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour et bienvenue au Musée des Beaux-Arts de Québec. Nous sommes ravis de vous présenter notre nouvelle exposition temporaire consacrée aux impressionnistes canadiens."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "section": "C",
+    "theme": "Train station announcement",
+    "question": "Quel problème est signalé ?",
+    "options": [
+      { "id": "A", "text": "Une grève des conducteurs", "image_prompt": "" },
+      { "id": "B", "text": "Des travaux sur la voie", "image_prompt": "" },
+      { "id": "C", "text": "Un problème technique", "image_prompt": "" },
+      { "id": "D", "text": "Des conditions météorologiques", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Attention voyageurs, le train de dix-huit heures quarante-cinq à destination de Québec est retardé d'environ vingt minutes en raison de travaux de maintenance sur la voie ferrée entre les gares de Sainte-Foy et de Québec. Nous vous prions de bien vouloir patienter dans la salle d'attente. Le prochain départ est maintenant prévu à dix-neuf heures cinq. Excusez-nous pour ce désagrément.",
+    "transcript_en": "Attention passengers, the six forty-five PM train to Quebec is delayed by approximately twenty minutes due to maintenance work on the railway track between Sainte-Foy and Quebec stations. Please wait in the waiting room. The next departure is now scheduled for seven oh five PM. We apologize for this inconvenience.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Attention voyageurs, le train de dix-huit heures quarante-cinq à destination de Québec est retardé d'environ vingt minutes en raison de travaux de maintenance sur la voie ferrée entre les gares de Sainte-Foy et de Québec."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "section": "C",
+    "theme": "Pharmacy announcement",
+    "question": "Quel service est proposé ?",
+    "options": [
+      { "id": "A", "text": "La vaccination gratuite", "image_prompt": "" },
+      { "id": "B", "text": "Un test de dépistage", "image_prompt": "" },
+      { "id": "C", "text": "La consultation avec un pharmacien", "image_prompt": "" },
+      { "id": "D", "text": "La livraison à domicile", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Clients de la pharmacie Jean-Coutu, nous vous informons que notre service de vaccination contre la grippe saisonnière est maintenant disponible sans rendez-vous. Nos infirmières sont présentes aujourd'hui jusqu'à dix-huit heures. La vaccination est gratuite pour les personnes âgées de soixante-cinq ans et plus ainsi que pour les personnes à risque. Rapprochez-vous du comptoir des services pour plus d'informations.",
+    "transcript_en": "Jean-Coutu pharmacy customers, we inform you that our seasonal flu vaccination service is now available without appointment. Our nurses are present today until six PM. Vaccination is free for people aged sixty-five and over as well as for at-risk individuals. Please approach the service counter for more information.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Clients de la pharmacie Jean-Coutu, nous vous informons que notre service de vaccination contre la grippe saisonnière est maintenant disponible sans rendez-vous."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "section": "C",
+    "theme": "Library announcement",
+    "question": "Quel changement est annoncé ?",
+    "options": [
+      { "id": "A", "text": "Les horaires d'ouverture", "image_prompt": "" },
+      { "id": "B", "text": "L'emplacement d'une section", "image_prompt": "" },
+      { "id": "C", "text": "Les règles d'emprunt", "imageimage_prompt": "" },
+      { "id": "D", "text": "Les tarifs d'abonnement", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Chers usagers, nous vous informons que la section jeunesse déménage temporairement au premier étage pendant la durée des rénovations au rez-de-chaussée. Les livres pour enfants et adolescents sont maintenant accessibles près de la salle informatique. Un personnel est disponible pour vous guider. Les travaux devraient durer environ trois semaines. Merci de votre patience.",
+    "transcript_en": "Dear users, we inform you that the youth section is temporarily moving to the first floor during the renovation work on the ground floor. Children's and teen books are now accessible near the computer room. Staff is available to guide you. The work should last approximately three weeks. Thank you for your patience.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers usagers, nous vous informons que la section jeunesse déménage temporairement au premier étage pendant la durée des rénovations au rez-de-chaussée."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "section": "D",
+    "theme": "Hotel reservation",
+    "question": "Quelle est l'intention de l'appelant ?",
+    "options": [
+      { "id": "A", "text": "Se plaindre du service", "image_prompt": "" },
+      { "id": "B", "text": "Modifier une réservation", "image_prompt": "" },
+      { "id": "C", "text": "Demander un remboursement", "image_prompt": "" },
+      { "id": "D", "text": "Faire une nouvelle réservation", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme : Bonjour, c'est Monsieur Lefebvre, j'ai une réservation pour ce week-end mais je dois changer les dates. Femme : Je vois votre dossier, monsieur. Quelles sont les nouvelles dates souhaitées ? Homme : Du quinze au dix-sept au lieu du huit au dix. Femme : Je vérifie la disponibilité pour ces dates.",
+    "transcript_en": "Man: Hello, this is Mr. Lefebvre, I have a reservation for this weekend but I need to change the dates. Woman: I see your file, sir. What are the desired new dates? Man: From the fifteenth to the seventeenth instead of the eighth to the tenth. Woman: I'm checking availability for those dates.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, c'est Monsieur Lefebvre, j'ai une réservation pour ce week-end mais je dois changer les dates."],
+        "female_lines": ["Je vois votre dossier, monsieur. Quelles sont les nouvelles dates souhaitées ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Du quinze au dix-sept au lieu du huit au dix."],
+        "female_lines": ["Je vérifie la disponibilité pour ces dates."]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "section": "D",
+    "theme": "Job interview",
+    "question": "Que cherche à savoir l'intervieweur ?",
+    "options": [
+      { "id": "A", "text": "Les compétences techniques", "image_prompt": "" },
+      { "id": "B", "text": "La disponibilité immédiate", "image_prompt": "" },
+      { "id": "C", "text": "Les attentes salariales", "image_prompt": "" },
+      { "id": "D", "text": "Les raisons du départ précédent", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme : Merci d'être venu, Monsieur Gagnon. Votre CV est impressionnant. Homme : Je vous remercie de me recevoir. Femme : Pourriez-vous me dire quelle rémunération vous espérez pour ce poste ? Homme : Compte tenu de mon expérience, je viserais entre soixante et soixante-cinq mille dollars par année.",
+    "transcript_en": "Woman: Thank you for coming, Mr. Gagnon. Your resume is impressive. Man: Thank you for receiving me. Woman: Could you tell me what salary you expect for this position? Man: Given my experience, I would aim for between sixty and sixty-five thousand dollars per year.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je vous remercie de me recevoir."],
+        "female_lines": ["Merci d'être venu, Monsieur Gagnon. Votre CV est impressionnant."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Compte tenu de mon expérience, je viserais entre soixante et soixante-cinq mille dollars par année."],
+        "female_lines": ["Pourriez-vous me dire quelle rémunération vous espérez pour ce poste ?"]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "section": "D",
+    "theme": "Neighbor complaint",
+    "question": "Pourquoi la femme appelle-t-elle son voisin ?",
+    "options": [
+      { "id": "A", "text": "Pour l'inviter à dîner", "image_prompt": "" },
+      { "id": "B", "text": "Pour se plaindre du bruit", "image_prompt": "" },
+      { "id": "C", "text": "Pour emprunter quelque chose", "image_prompt": "" },
+      { "id": "D", "text": "Pour proposer son aide", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Femme : Allô, c'est Madame Bergeron du troisième étage. Homme : Oui, bonjour Madame Bergeron, qu'est-ce que je peux faire pour vous ? Femme : J'aimerais vous parler de la musique que vous écoutez le soir, c'est très fort. Homme : Oh, je suis désolé, je ne pensais pas que ça se entendait autant.",
+    "transcript_en": "Woman: Hello, this is Mrs. Bergeron from the third floor. Man: Yes, hello Mrs. Bergeron, what can I do for you? Woman: I would like to talk to you about the music you listen to in the evening, it's very loud. Man: Oh, I'm sorry, I didn't think it could be heard that much.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Oui, bonjour Madame Bergeron, qu'est-ce que je peux faire pour vous ?"],
+        "female_lines": ["Allô, c'est Madame Bergeron du troisième étage."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Oh, je suis désolé, je ne pensais pas que ça se entendait autant."],
+        "female_lines": ["J'aimerais vous parler de la musique que vous écoutez le soir, c'est très fort."]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "section": "D",
+    "theme": "Technical support",
+    "question": "Quel est le problème de l'appelant ?",
+    "options": [
+      { "id": "A", "text": "L'ordinateur ne s'allume pas", "image_prompt": "" },
+      { "id": "B", "text": "La connexion Internet ne fonctionne pas", "image_prompt": "" },
+      { "id": "C", "text": "L'imprimante n'imprime plus", "image_prompt": "" },
+      { "id": "D", "text": "Le logiciel plante constamment", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Homme : Bonjour, c'est pour un problème avec le logiciel de comptabilité. Femme : Je vous écoute, quel est le symptôme exact ? Homme : Il se ferme tout seul dès que j'essaie d'enregistrer un document. Femme : D'accord, nous allons essayer de réinstaller le programme.",
+    "transcript_en": "Man: Hello, it's about a problem with the accounting software. Woman: I'm listening, what is the exact symptom? Man: It closes by itself as soon as I try to save a document. Woman: Okay, we will try to reinstall the program.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, c'est pour un problème avec le logiciel de comptabilité."],
+        "female_lines": ["Je vous écoute, quel est le symptôme exact ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Il se ferme tout seul dès que j'essaie d'enregistrer un document."],
+        "female_lines": ["D'accord, nous allons essayer de réinstaller le programme."]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "section": "D",
+    "theme": "Doctor's office",
+    "question": "Que demande le patient ?",
+    "options": [
+      { "id": "A", "text": "Une ordonnance renouvelée", "image_prompt": "" },
+      { "id": "B", "text": "Un arrêt de travail", "image_prompt": "" },
+      { "id": "C", "text": "Un rendez-vous urgent", "image_prompt": "" },
+      { "id": "D", "text": "Les résultats d'analyse", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme : Cabinet médical du Docteur Martin, bonjour. Homme : Bonjour, c'est Monsieur Caron, je voudrais renouveler mon ordonnance pour mes médicaments contre l'hypertension. Femme : Vos analyses sont à jour ? Homme : Oui, j'ai passé mes examens il y a un mois.",
+    "transcript_en": "Woman: Dr. Martin's medical office, hello. Man: Hello, this is Mr. Caron, I would like to renew my prescription for my blood pressure medication. Woman: Are your tests up to date? Man: Yes, I took my exams a month ago.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, c'est Monsieur Caron, je voudrais renouveler mon ordonnance pour mes médicaments contre l'hypertension."],
+        "female_lines": ["Cabinet médical du Docteur Martin, bonjour."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Oui, j'ai passé mes examens il y a un mois."],
+        "female_lines": ["Vos analyses sont à jour ?"]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "section": "D",
+    "theme": "Bank inquiry",
+    "question": "Pourquoi la cliente contacte-t-elle sa banque ?",
+    "options": [
+      { "id": "A", "text": "Pour ouvrir un compte", "image_prompt": "" },
+      { "id": "B", "text": "Pour signaler une transaction frauduleuse", "image_prompt": "" },
+      { "id": "C", "text": "Pour demander un prêt", "image_prompt": "" },
+      { "id": "D", "text": "Pour augmenter sa limite de crédit", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Femme : Allô, c'est la Banque Royale, service à la clientèle. Homme : Oui, bonjour, j'ai remarqué un retrait de cinq cents dollars sur mon compte que je n'ai pas effectué. Femme : Je comprends, laissez-moi vérifier cette transaction. Homme : C'est arrivé hier soir alors que j'étais chez moi.",
+    "transcript_en": "Woman: Hello, this is Royal Bank, customer service. Man: Yes, hello, I noticed a five hundred dollar withdrawal from my account that I didn't make. Woman: I understand, let me check this transaction. Man: It happened last night while I was at home.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Oui, bonjour, j'ai remarqué un retrait de cinq cents dollars sur mon compte que je n'ai pas effectué."],
+        "female_lines": ["Allô, c'est la Banque Royale, service à la clientèle."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est arrivé hier soir alors que j'étais chez moi."],
+        "female_lines": ["Je comprends, laissez-moi vérifier cette transaction."]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "section": "E",
+    "theme": "Environmental radio interview",
+    "question": "Quelle est la principale préoccupation de l'invité ?",
+    "options": [
+      { "id": "A", "text": "La pollution de l'air", "image_prompt": "" },
+      { "id": "B", "text": "Le réchauffement climatique", "image_prompt": "" },
+      { "id": "C", "text": "La déforestation", "image_prompt": "" },
+      { "id": "D", "text": "La gestion des déchets", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Animatrice : Nous recevons ce matin le professeur Tremblay, spécialiste en environnement. Professeur : Merci de m'accueillir. Animatrice : Quel est le plus grand danger selon vous ? Professeur : Sans hésitation, la déforestation massive qui détruit nos écosystèmes.",
+    "transcript_en": "Host: We are receiving this morning Professor Tremblay, environmental specialist. Professor: Thank you for having me. Host: What is the greatest danger in your opinion? Professor: Without hesitation, the massive deforestation that is destroying our ecosystems.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Merci de m'accueillir."],
+        "female_lines": ["Nous recevons ce matin le professeur Tremblay, spécialiste en environnement."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Sans hésitation, la déforestation massive qui détruit nos écosystèmes."],
+        "female_lines": ["Quel est le plus grand danger selon vous ?"]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "section": "E",
+    "theme": "Cultural radio interview",
+    "question": "De quoi parle l'entretien ?",
+    "options": [
+      { "id": "A", "text": "Un nouveau film québécois", "image_prompt": "" },
+      { "id": "B", "text": "Un festival de musique", "image_prompt": "" },
+      { "id": "C", "text": "Une exposition d'art contemporain", "image_prompt": "" },
+      { "id": "D", "text": "Un livre primé", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Animateur : Aujourd'hui nous parlons avec l'auteure Marie-Claire Blais. Auteure : Bonjour, c'est un plaisir d'être ici. Animateur : Votre dernier roman vient de remporter le prix Governor General. Auteure : Oui, c'est une grande honneur pour moi après vingt ans d'écriture.",
+    "transcript_en": "Host: Today we are talking with author Marie-Claire Blais. Author: Hello, it's a pleasure to be here. Host: Your latest novel just won the Governor General's Award. Author: Yes, it's a great honor for me after twenty years of writing.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Aujourd'hui nous parlons avec l'auteure Marie-Claire Blais."],
+        "female_lines": ["Bonjour, c'est un plaisir d'être ici."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Votre dernier roman vient de remporter le prix Governor General."],
+        "female_lines": ["Oui, c'est une grande honneur pour moi après vingt ans d'écriture."]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "section": "E",
+    "theme": "Economic radio interview",
+    "question": "Quel sujet économique est abordé ?",
+    "options": [
+      { "id": "A", "text": "L'inflation", "image_prompt": "" },
+      { "id": "B", "text": "Le taux de chômage", "image_prompt": "" },
+      { "id": "C", "text": "L'immigration", "image_prompt": "" },
+      { "id": "D", "text": "Le commerce international", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Animatrice : Notre économiste invité est Monsieur Gagnon. Économiste : Bonjour à tous. Animatrice : Les prix augmentent partout, comment expliquer cette inflation ? Économiste : C'est un phénomène mondial lié à la pénurie de main-d'œuvre et aux tensions géopolitiques.",
+    "transcript_en": "Host: Our guest economist is Mr. Gagnon. Economist: Hello everyone. Host: Prices are rising everywhere, how to explain this inflation? Economist: It's a global phenomenon linked to labor shortages and geopolitical tensions.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour à tous."],
+        "female_lines": ["Notre économiste invité est Monsieur Gagnon."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est un phénomène mondial lié à la pénurie de main-d'œuvre et aux tensions géopolitiques."],
+        "female_lines": ["Les prix augmentent partout, comment expliquer cette inflation ?"]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "section": "E",
+    "theme": "Health radio interview",
+    "question": "Quel conseil santé est donné ?",
+    "options": [
+      { "id": "A", "text": "Faire plus d'exercice", "image_prompt": "" },
+      { "id": "B", "text": "Dormir plus", "image_prompt": "" },
+      { "id": "C", "text": "Manger moins de sucre", "image_prompt": "" },
+      { "id": "D", "text": "Boire plus d'eau", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Animateur : Docteur Lefebvre, quelle est votre recommandation principale ? Docteur : Il faut absolument réduire la consommation de sucre ajouté. Animateur : Même le sucre naturel ? Docteur : Non, les fruits sont excellents, mais évitez les boissons sucrées et les pâtisseries industrielles.",
+    "transcript_en": "Host: Dr. Lefebvre, what is your main recommendation? Doctor: We absolutely must reduce added sugar consumption. Host: Even natural sugar? Doctor: No, fruits are excellent, but avoid sugary drinks and industrial pastries.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Il faut absolument réduire la consommation de sucre ajouté."],
+        "female_lines": ["Docteur Lefebvre, quelle est votre recommandation principale ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Non, les fruits sont excellents, mais évitez les boissons sucrées et les pâtisseries industrielles."],
+        "female_lines": ["Même le sucre naturel ?"]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "section": "F",
+    "theme": "Urban planning discussion",
+    "question": "Quel est le point de désaccord entre les interlocuteurs ?",
+    "options": [
+      { "id": "A", "text": "La construction d'un nouveau pont", "image_prompt": "" },
+      { "id": "B", "text": "L'interdiction des voitures en centre-ville", "image_prompt": "" },
+      { "id": "C", "text": "L'augmentation des taxes foncières", "image_prompt": "" },
+      { "id": "D", "text": "La fermeture d'une école", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme : Je pense qu'il faut interdire les voitures dans le centre-ville. Femme : C'est impossible, les commerçants ont besoin de livraisons. Homme : On pourrait autoriser les livraisons la nuit. Femme : Mais les résidents se plaindront du bruit.",
+    "transcript_en": "Man: I think we should ban cars from the city center. Woman: That's impossible, merchants need deliveries. Man: We could allow deliveries at night. Woman: But residents will complain about the noise.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je pense qu'il faut interdire les voitures dans le centre-ville."],
+        "female_lines": ["C'est impossible, les commerçants ont besoin de livraisons."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["On pourrait autoriser les livraisons la nuit."],
+        "female_lines": ["Mais les résidents se plaindront du bruit."]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "section": "F",
+    "theme": "Education discussion",
+    "question": "Sur quoi les deux personnes ne sont pas d'accord ?",
+    "options": [
+      { "id": "A", "text": "Les devoirs à la maison", "image_prompt": "" },
+      { "id": "B", "text": "L'uniforme scolaire", "image_prompt": "" },
+      { "id": "C", "text": "Les classes en ligne", "image_prompt": "" },
+      { "id": "D", "text": "La durée des vacances", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme : Les devoirs sont essentiels pour réviser. Homme : Pas d'accord, les enfants ont besoin de temps libre. Femme : Sans devoirs, les résultats baissent. Homme : Les études montrent que trop de devoirs stressent les élèves.",
+    "transcript_en": "Woman: Homework is essential for reviewing. Man: I disagree, children need free time. Woman: Without homework, results drop. Man: Studies show that too much homework stresses students.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Pas d'accord, les enfants ont besoin de temps libre."],
+        "female_lines": ["Les devoirs sont essentiels pour réviser."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les études montrent que trop de devoirs stressent les élèves."],
+        "female_lines": ["Sans devoirs, les résultats baissent."]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "section": "F",
+    "theme": "Technology discussion",
+    "question": "Quelle technologie débattent-ils ?",
+    "options": [
+      { "id": "A", "text": "Les voitures électriques", "image_prompt": "" },
+      { "id": "B", "text": "Les téléphones intelligents", "image_prompt": "" },
+      { "id": "C", "text": "L'intelligence artificielle", "image_prompt": "" },
+      { "id": "D", "text": "Les réseaux sociaux", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme : L'intelligence artificielle va remplacer tous les emplois. Homme : Exagéré, elle va en créer de nouveaux. Femme : Quels emplois ? Homme : Des ingénieurs en IA, des éthiciens, des spécialistes de données.",
+    "transcript_en": "Woman: Artificial intelligence will replace all jobs. Man: Exaggerated, it will create new ones. Woman: What jobs? Man: AI engineers, ethicists, data specialists.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Exagéré, elle va en créer de nouveaux."],
+        "female_lines": ["L'intelligence artificielle va remplacer tous les emplois."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Des ingénieurs en IA, des éthiciens, des spécialistes de données."],
+        "female_lines": ["Quels emplois ?"]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "section": "F",
+    "theme": "Work-life balance discussion",
+    "question": "Quelle solution propose l'homme ?",
+    "options": [
+      { "id": "A", "text": "Travailler plus le weekend", "image_prompt": "" },
+      { "id": "B", "text": "Le télétravail hybride", "image_prompt": "" },
+      { "id": "C", "text": "Démissionner", "image_prompt": "" },
+      { "id": "D", "text": "Déménager en banlieue", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Femme : Je suis épuisée par les transports chaque jour. Homme : Pourquoi ne pas demander le télétravail hybride ? Femme : Mon patron est contre. Homme : Montre-lui les études sur la productivité, il changera d'avis.",
+    "transcript_en": "Woman: I'm exhausted by commuting every day. Man: Why not ask for hybrid telework? Woman: My boss is against it. Man: Show him the studies on productivity, he'll change his mind.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Pourquoi ne pas demander le télétravail hybride ?"],
+        "female_lines": ["Je suis épuisée par les transports chaque jour."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Montre-lui les études sur la productivité, il changera d'avis."],
+        "female_lines": ["Mon patron est contre."]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "section": "G",
+    "theme": "Immigration policy debate",
+    "question": "Quelle est la position défendue par le premier orateur ?",
+    "options": [
+      { "id": "A", "text": "Fermer complètement les frontières", "image_prompt": "" },
+      { "id": "B", "text": "Augmenter l'immigration qualifiée", "image_prompt": "" },
+      { "id": "C", "text": "Maintenir le statu quo", "image_prompt": "" },
+      { "id": "D", "text": "Réduire drastiquement les quotas", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme : Le Canada fait face à une pénurie de main-d'œuvre sans précédent dans le secteur technologique et la santé. Nous devons absolument augmenter notre seuil d'immigration économique pour rester compétitifs. Les entreprises canadiennes perdent des contrats faute de personnel qualifié. Femme : Je comprends votre argument économique, mais qu'en est-il de l'intégration ? Nous avons déjà des difficultés à loger et former les nouveaux arrivants actuels. Homme : C'est précisément pourquoi je propose un plan d'accueil renforcé avec plus de ressources. Femme : Les ressources sont limitées, nous ne pouvons pas tout financer. Homme : L'investissement dans l'immigration qualifiée rapporte plus qu'il ne coûte selon les études. Femme : Certaines études disent le contraire, surtout à court terme. Homme : Nous devons penser long terme pour la croissance du pays. Femme : La population locale a aussi besoin d'emplois. Homme : Il n'y a pas assez de travailleurs formés localement pour combler les postes vacants. Femme : Alors formons-les plutôt que d'importer de la main-d'œuvre. Homme : La formation prend des années, les besoins sont immédiats. Femme : L'immigration massive crée aussi des tensions sociales. Homme : Avec une meilleure répartition géographique, ces tensions diminueraient.",
+    "transcript_en": "Man: Canada is facing an unprecedented labor shortage in the technology and health sectors. We absolutely must increase our economic immigration threshold to remain competitive. Canadian companies are losing contracts due to lack of qualified staff. Woman: I understand your economic argument, but what about integration? We already have difficulties housing and training current newcomers. Man: That's precisely why I propose an enhanced welcome plan with more resources. Woman: Resources are limited, we cannot finance everything. Man: Investment in skilled immigration brings in more than it costs according to studies. Woman: Some studies say the opposite, especially in the short term. Man: We must think long term for the country's growth. Woman: The local population also needs jobs. Man: There are not enough locally trained workers to fill the vacant positions. Woman: Then let's train them rather than importing labor. Man: Training takes years, the needs are immediate. Woman: Massive immigration also creates social tensions. Man: With better geographic distribution, these tensions would decrease.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le Canada fait face à une pénurie de main-d'œuvre sans précédent dans le secteur technologique et la santé.", "Nous devons absolument augmenter notre seuil d'immigration économique pour rester compétitifs."],
+        "female_lines": ["Je comprends votre argument économique, mais qu'en est-il de l'intégration ?", "Nous avons déjà des difficultés à loger et former les nouveaux arrivants actuels."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est précisément pourquoi je propose un plan d'accueil renforcé avec plus de ressources.", "L'investissement dans l'immigration qualifiée rapporte plus qu'il ne coûte selon les études."],
+        "female_lines": ["Les ressources sont limitées, nous ne pouvons pas tout financer.", "Certaines études disent le contraire, surtout à court terme."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Nous devons penser long terme pour la croissance du pays.", "Il n'y a pas assez de travailleurs formés localement pour combler les postes vacants."],
+        "female_lines": ["La population locale a aussi besoin d'emplois.", "Alors formons-les plutôt que d'importer de la main-d'œuvre."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["La formation prend des années, les besoins sont immédiats.", "Avec une meilleure répartition géographique, ces tensions diminueraient."],
+        "female_lines": ["L'immigration massive crée aussi des tensions sociales."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les entreprises canadiennes perdent des contrats faute de personnel qualifié.", "Nous devons absolument augmenter notre seuil d'immigration économique pour rester compétitifs."],
+        "female_lines": ["Nous avons déjà des difficultés à loger et former les nouveaux arrivants actuels.", "Les ressources sont limitées, nous ne pouvons pas tout financer."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["C'est précisément pourquoi je propose un plan d'accueil renforcé avec plus de ressources.", "L'investissement dans l'immigration qualifiée rapporte plus qu'il ne coûte selon les études."],
+        "female_lines": ["Certaines études disent le contraire, surtout à court terme.", "La population locale a aussi besoin d'emplois."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Nous devons penser long terme pour la croissance du pays.", "Il n'y a pas assez de travailleurs formés localement pour combler les postes vacants."],
+        "female_lines": ["Alors formons-les plutôt que d'importer de la main-d'œuvre.", "L'immigration massive crée aussi des tensions sociales."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["La formation prend des années, les besoins sont immédiats.", "Avec une meilleure répartition géographique, ces tensions diminueraient."],
+        "female_lines": ["Nous avons déjà des difficultés à loger et former les nouveaux arrivants actuels.", "Les ressources sont limitées, nous ne pouvons pas tout financer."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Le Canada fait face à une pénurie de main-d'œuvre sans précédent dans le secteur technologique et la santé.", "Nous devons absolument augmenter notre seuil d'immigration économique pour rester compétitifs."],
+        "female_lines": ["Je comprends votre argument économique, mais qu'en est-il de l'intégration ?", "Certaines études disent le contraire, surtout à court terme."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["L'investissement dans l'immigration qualifiée rapporte plus qu'il ne coûte selon les études.", "Avec une meilleure répartition géographique, ces tensions diminueraient."],
+        "female_lines": ["La population locale a aussi besoin d'emplois.", "Alors formons-les plutôt que d'importer de la main-d'œuvre."]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "section": "G",
+    "theme": "Healthcare system debate",
+    "question": "Quelle réforme propose l'oratrice ?",
+    "options": [
+      { "id": "A", "text": "Privatiser complètement le système", "image_prompt": "" },
+      { "id": "B", "text": "Créer un système mixte public-privé", "image_prompt": "" },
+      { "id": "C", "text": "Augmenter les salaires des médecins", "image_prompt": "" },
+      { "id": "D", "text": "Fermer les petits hôpitaux régionaux", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Femme : Notre système de santé public est en crise, les temps d'attente sont inacceptables. Je propose un système mixte où le public garde les soins essentiels et le privé prend le relais pour les interventions non urgentes. Homme : C'est le début de la fin de l'universel, les riches auront accès à tout et les autres attendront. Femme : Pas si on régule strictement le secteur privé avec des prix plafonnés. Homme : Les cliniques privées choisiront les patients rentables. Femme : On peut légiférer pour qu'elles acceptent tous les patients. Homme : La constitution canadienne garantit l'accès égal, votre plan crée deux vitesses. Femme : L'accès égal théorique ne sert à rien si on attend deux ans pour une opération. Homme : Alors investissons dans le public plutôt que de créer un parallèle. Femme : Nous n'avons pas les milliards nécessaires pour moderniser tout le système public. Homme : Si on arrête de donner des contrats aux amis du parti, on trouve l'argent. Femme : Même avec l'argent, la bureaucratie publique est trop lente. Homme : C'est justement notre rôle de l'accélérer, pas de l'abandonner.",
+    "transcript_en": "Woman: Our public health system is in crisis, wait times are unacceptable. I propose a mixed system where the public keeps essential care and the private sector takes over for non-urgent interventions. Man: This is the beginning of the end of universality, the rich will have access to everything and others will wait. Woman: Not if we strictly regulate the private sector with capped prices. Man: Private clinics will choose profitable patients. Woman: We can legislate so they accept all patients. Man: The Canadian constitution guarantees equal access, your plan creates two tiers. Woman: Theoretical equal access is useless if we wait two years for an operation. Man: Then let's invest in the public sector rather than creating a parallel system. Woman: We don't have the billions needed to modernize the entire public system. Man: If we stop giving contracts to party friends, we find the money. Woman: Even with the money, public bureaucracy is too slow. Man: It's precisely our role to speed it up, not abandon it.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["C'est le début de la fin de l'universel, les riches auront accès à tout et les autres attendront."],
+        "female_lines": ["Notre système de santé public est en crise, les temps d'attente sont inacceptables.", "Je propose un système mixte où le public garde les soins essentiels et le privé prend le relais pour les interventions non urgentes."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les cliniques privées choisiront les patients rentables."],
+        "female_lines": ["Pas si on régule strictement le secteur privé avec des prix plafonnés.", "On peut légiférer pour qu'elles acceptent tous les patients."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["La constitution canadienne garantit l'accès égal, votre plan crée deux vitesses.", "Alors investissons dans le public plutôt que de créer un parallèle."],
+        "female_lines": ["L'accès égal théorique ne sert à rien si on attend deux ans pour une opération."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Si on arrête de donner des contrats aux amis du parti, on trouve l'argent.", "C'est justement notre rôle de l'accélérer, pas de l'abandonner."],
+        "female_lines": ["Nous n'avons pas les milliards nécessaires pour moderniser tout le système public.", "Même avec l'argent, la bureaucratie publique est trop lente."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["C'est le début de la fin de l'universel, les riches auront accès à tout et les autres attendront."],
+        "female_lines": ["Notre système de santé public est en crise, les temps d'attente sont inacceptables.", "Je propose un système mixte où le public garde les soins essentiels et le privé prend le relais pour les interventions non urgentes."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Les cliniques privées choisiront les patients rentables."],
+        "female_lines": ["Pas si on régule strictement le secteur privé avec des prix plafonnés.", "On peut légiférer pour qu'elles acceptent tous les patients."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["La constitution canadienne garantit l'accès égal, votre plan crée deux vitesses.", "Alors investissons dans le public plutôt que de créer un parallèle."],
+        "female_lines": ["L'accès égal théorique ne sert à rien si on attend deux ans pour une opération."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Si on arrête de donner des contrats aux amis du parti, on trouve l'argent.", "C'est justement notre rôle de l'accélérer, pas de l'abandonner."],
+        "female_lines": ["Nous n'avons pas les milliards nécessaires pour moderniser tout le système public.", "Même avec l'argent, la bureaucratie publique est trop lente."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["C'est le début de la fin de l'universel, les riches auront accès à tout et les autres attendront."],
+        "female_lines": ["Notre système de santé public est en crise, les temps d'attente sont inacceptables.", "Je propose un système mixte où le public garde les soins essentiels et le privé prend le relais pour les interventions non urgentes."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Les cliniques privées choisiront les patients rentables."],
+        "female_lines": ["Pas si on régule strictement le secteur privé avec des prix plafonnés.", "On peut légiférer pour qu'elles acceptent tous les patients."]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "section": "G",
+    "theme": "Climate change solutions",
+    "question": "Quelle solution privilégie l'orateur masculin ?",
+    "options": [
+      { "id": "A", "text": "L'énergie nucléaire", "image_prompt": "" },
+      { "id": "B", "text": "Les énergies renouvelables", "image_prompt": "" },
+      { "id": "C", "text": "La réduction de la consommation", "image_prompt": "" },
+      { "id": "D", "text": "Les carburants synthétiques", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Homme : Pour décarboner rapidement notre réseau électrique, nous devons investir massivement dans l'énergie nucléaire, c'est la seule source constante et sans émissions. Femme : C'est dangereux et les déchets restent radioactifs des milliers d'années. Homme : Les réacteurs modernes sont sûrs et les déchets sont gérables avec les nouvelles technologies. Femme : Les accidents comme Tchernobyl restent possibles. Homme : Les centrales canadiennes sont parmi les plus sûres au monde. Femme : Mais ça coûte des milliards et prend dix ans à construire. Homme : Les éoliennes et panneaux solaires ne fournissent pas assez d'énergie stable. Femme : Avec le stockage, on peut compenser l'intermittence. Homme : Le stockage à grande échelle n'existe pas encore économiquement. Femme : Il vaut mieux investir dans l'efficacité énergétique des bâtiments. Homme : Ce n'est pas suffisant, il nous faut une source basale fiable.",
+    "transcript_en": "Man: To rapidly decarbonize our electrical grid, we must invest massively in nuclear energy, it's the only constant and emission-free source. Woman: It's dangerous and waste remains radioactive for thousands of years. Man: Modern reactors are safe and waste is manageable with new technologies. Woman: Accidents like Chernobyl are still possible. Man: Canadian power plants are among the safest in the world. Woman: But it costs billions and takes ten years to build. Man: Wind turbines and solar panels don't provide enough stable energy. Woman: With storage, we can compensate for intermittency. Man: Large-scale storage doesn't exist economically yet. Woman: It's better to invest in building energy efficiency. Man: That's not enough, we need a reliable baseload source.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Pour décarboner rapidement notre réseau électrique, nous devons investir massivement dans l'énergie nucléaire, c'est la seule source constante et sans émissions.", "Les réacteurs modernes sont sûrs et les déchets sont gérables avec les nouvelles technologies."],
+        "female_lines": ["C'est dangereux et les déchets restent radioactifs des milliers d'années."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les centrales canadiennes sont parmi les plus sûres au monde.", "Les éoliennes et panneaux solaires ne fournissent pas assez d'énergie stable."],
+        "female_lines": ["Les accidents comme Tchernobyl restent possibles.", "Mais ça coûte des milliards et prend dix ans à construire."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le stockage à grande échelle n'existe pas encore économiquement.", "Ce n'est pas suffisant, il nous faut une source basale fiable."],
+        "female_lines": ["Avec le stockage, on peut compenser l'intermittence.", "Il vaut mieux investir dans l'efficacité énergétique des bâtiments."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Pour décarboner rapidement notre réseau électrique, nous devons investir massivement dans l'énergie nucléaire, c'est la seule source constante et sans émissions.", "Les réacteurs modernes sont sûrs et les déchets sont gérables avec les nouvelles technologies."],
+        "female_lines": ["C'est dangereux et les déchets restent radioactifs des milliers d'années."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les centrales canadiennes sont parmi les plus sûres au monde.", "Les éoliennes et panneaux solaires ne fournissent pas assez d'énergie stable."],
+        "female_lines": ["Les accidents comme Tchernobyl restent possibles.", "Mais ça coûte des milliards et prend dix ans à construire."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Le stockage à grande échelle n'existe pas encore économiquement.", "Ce n'est pas suffisant, il nous faut une source basale fiable."],
+        "female_lines": ["Avec le stockage, on peut compenser l'intermittence.", "Il vaut mieux investir dans l'efficacité énergétique des bâtiments."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Pour décarboner rapidement notre réseau électrique, nous devons investir massivement dans l'énergie nucléaire, c'est la seule source constante et sans émissions.", "Les réacteurs modernes sont sûrs et les déchets sont gérables avec les nouvelles technologies."],
+        "female_lines": ["C'est dangereux et les déchets restent radioactifs des milliers d'années."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Les centrales canadiennes sont parmi les plus sûres au monde.", "Les éoliennes et panneaux solaires ne fournissent pas assez d'énergie stable."],
+        "female_lines": ["Les accidents comme Tchernobyl restent possibles.", "Mais ça coûte des milliards et prend dix ans à construire."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Le stockage à grande échelle n'existe pas encore économiquement.", "Ce n'est pas suffisant, il nous faut une source basale fiable."],
+        "female_lines": ["Avec le stockage, on peut compenser l'intermittence.", "Il vaut mieux investir dans l'efficacité énergétique des bâtiments."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Pour décarboner rapidement notre réseau électrique, nous devons investir massivement dans l'énergie nucléaire, c'est la seule source constante et sans émissions.", "Les réacteurs modernes sont sûrs et les déchets sont gérables avec les nouvelles technologies."],
+        "female_lines": ["C'est dangereux et les déchets restent radioactifs des milliers d'années."]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "section": "G",
+    "theme": "Education reform debate",
+    "question": "Quel changement défend l'oratrice ?",
+    "options": [
+      { "id": "A", "text": "Supprimer les examens finaux", "image_prompt": "" },
+      { "id": "B", "text": "Augmenter les heures de mathématiques", "image_prompt": "" },
+      { "id": "C", "text": "Introduire le codage dès le primaire", "image_prompt": "" },
+      { "id": "D", "text": "Réduire la taille des classes", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme : Le monde change, nos enfants doivent apprendre à coder dès le primaire comme ils apprennent à lire. C'est une compétence fondamentale du vingt-et-unième siècle. Homme : Ils ont déjà trop d'écrans, apprenons-leur d'abord à penser sans technologie. Femme : Le codage développe justement la pensée logique et la résolution de problèmes. Homme : On peut développer ces compétences avec des méthodes traditionnelles. Femme : Pas aussi efficacement, le codage est concret et motivant pour les enfants. Homme : Qui formera les enseignants ? La plupart ne savent pas coder eux-mêmes. Femme : C'est pourquoi je propose un plan de formation national sur trois ans. Homme : Ça coûte cher et on manque déjà d'enseignants. Femme : Investir dans l'éducation numérique est prioritaire pour notre économie. Homme : Je préfèrerais qu'on investisse dans la lecture et l'écriture d'abord.",
+    "transcript_en": "Woman: The world is changing, our children must learn to code from primary school just as they learn to read. It's a fundamental skill of the twenty-first century. Man: They already have too many screens, let's teach them first to think without technology. Woman: Coding precisely develops logical thinking and problem-solving. Man: We can develop these skills with traditional methods. Woman: Not as effectively, coding is concrete and motivating for children. Man: Who will train the teachers? Most don't know how to code themselves. Woman: That's why I propose a national training plan over three years. Man: It's expensive and we already lack teachers. Woman: Investing in digital education is a priority for our economy. Man: I would prefer we invest in reading and writing first.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Ils ont déjà trop d'écrans, apprenons-leur d'abord à penser sans technologie."],
+        "female_lines": ["Le monde change, nos enfants doivent apprendre à coder dès le primaire comme ils apprennent à lire.", "C'est une compétence fondamentale du vingt-et-unième siècle."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["On peut développer ces compétences avec des méthodes traditionnelles."],
+        "female_lines": ["Pas aussi efficacement, le codage est concret et motivant pour les enfants."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Qui formera les enseignants ? La plupart ne savent pas coder eux-mêmes.", "Ça coûte cher et on manque déjà d'enseignants."],
+        "female_lines": ["C'est pourquoi je propose un plan de formation national sur trois ans."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Je préfèrerais qu'on investisse dans la lecture et l'écriture d'abord."],
+        "female_lines": ["Investir dans l'éducation numérique est prioritaire pour notre économie."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Ils ont déjà trop d'écrans, apprenons-leur d'abord à penser sans technologie."],
+        "female_lines": ["Le monde change, nos enfants doivent apprendre à coder dès le primaire comme ils apprennent à lire.", "C'est une compétence fondamentale du vingt-et-unième siècle."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["On peut développer ces compétences avec des méthodes traditionnelles."],
+        "female_lines": ["Pas aussi efficacement, le codage est concret et motivant pour les enfants."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Qui formera les enseignants ? La plupart ne savent pas coder eux-mêmes.", "Ça coûte cher et on manque déjà d'enseignants."],
+        "female_lines": ["C'est pourquoi je propose un plan de formation national sur trois ans."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Je préfèrerais qu'on investisse dans la lecture et l'écriture d'abord."],
+        "female_lines": ["Investir dans l'éducation numérique est prioritaire pour notre économie."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Ils ont déjà trop d'écrans, apprenons-leur d'abord à penser sans technologie."],
+        "female_lines": ["Le monde change, nos enfants doivent apprendre à coder dès le primaire comme ils apprennent à lire.", "C'est une compétence fondamentale du vingt-et-unième siècle."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["On peut développer ces compétences avec des méthodes traditionnelles."],
+        "female_lines": ["Pas aussi efficacement, le codage est concret et motivant pour les enfants."]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "section": "G",
+    "theme": "Housing crisis discussion",
+    "question": "Quelle mesure propose l'orateur masculin ?",
+    "options": [
+      { "id": "A", "text": "Interdire l'achat par les étrangers", "image_prompt": "" },
+      { "id": "B", "text": "Taxer les propriétaires multiples", "image_prompt": "" },
+      { "id": "C", "text": "Construire des logements sociaux", "image_prompt": "" },
+      { "id": "D", "text": "Réglementer les loyers à long terme", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Homme : La spéculation immobilière fait exploser les prix, nous devons instaurer un contrôle des loyers à long terme pour protéger les locataires. Femme : Mais les investisseurs fuiront et on manquera de logements. Homme : On peut encadrer sans bloquer, avec des augmentations raisonnables indexées. Femme : Les propriétaires ont des coûts qui augmentent aussi. Homme : C'est pourquoi je propose un indexage sur l'inflation plus deux pour cent maximum. Femme : C'est toujours moins que l'augmentation des taxes et assurances. Homme : Alors compensons les petits propriétaires avec des crédits d'impôt. Femme : Ça coûte une fortune à l'État. Homme : Moins cher que les sans-abris et l'insécurité sociale. Femme : La vraie solution c'est d'augmenter l'offre en accélérant les permis. Homme : Ça prend des années, les locataires ont besoin de protection maintenant.",
+    "transcript_en": "Man: Real estate speculation is exploding prices, we must establish long-term rent control to protect tenants. Woman: But investors will flee and we'll lack housing. Man: We can regulate without blocking, with reasonable increases indexed to inflation. Woman: Owners have costs that rise too. Man: That's why I propose indexing to inflation plus two percent maximum. Woman: That's still less than the increase in taxes and insurance. Man: Then let's compensate small owners with tax credits. Woman: That costs the state a fortune. Man: Less expensive than homelessness and social insecurity. Woman: The real solution is to increase supply by speeding up permits. Man: That takes years, tenants need protection now.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La spéculation immobilière fait exploser les prix, nous devons instaurer un contrôle des loyers à long terme pour protéger les locataires.", "On peut encadrer sans bloquer, avec des augmentations raisonnables indexées."],
+        "female_lines": ["Mais les investisseurs fuiront et on manquera de logements."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est pourquoi je propose un indexage sur l'inflation plus deux pour cent maximum.", "Alors compensons les petits propriétaires avec des crédits d'impôt."],
+        "female_lines": ["Les propriétaires ont des coûts qui augmentent aussi.", "C'est toujours moins que l'augmentation des taxes et assurances."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Moins cher que les sans-abris et l'insécurité sociale.", "Ça prend des années, les locataires ont besoin de protection maintenant."],
+        "female_lines": ["Ça coûte une fortune à l'État.", "La vraie solution c'est d'augmenter l'offre en accélérant les permis."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["La spéculation immobilière fait exploser les prix, nous devons instaurer un contrôle des loyers à long terme pour protéger les locataires.", "On peut encadrer sans bloquer, avec des augmentations raisonnables indexées."],
+        "female_lines": ["Mais les investisseurs fuiront et on manquera de logements."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["C'est pourquoi je propose un indexage sur l'inflation plus deux pour cent maximum.", "Alors compensons les petits propriétaires avec des crédits d'impôt."],
+        "female_lines": ["Les propriétaires ont des coûts qui augmentent aussi.", "C'est toujours moins que l'augmentation des taxes et assurances."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Moins cher que les sans-abris et l'insécurité sociale.", "Ça prend des années, les locataires ont besoin de protection maintenant."],
+        "female_lines": ["Ça coûte une fortune à l'État.", "La vraie solution c'est d'augmenter l'offre en accélérant les permis."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["La spéculation immobilière fait exploser les prix, nous devons instaurer un contrôle des loyers à long terme pour protéger les locataires.", "On peut encadrer sans bloquer, avec des augmentations raisonnables indexées."],
+        "female_lines": ["Mais les investisseurs fuiront et on manquera de logements."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["C'est pourquoi je propose un indexage sur l'inflation plus deux pour cent maximum.", "Alors compensons les petits propriétaires avec des crédits d'impôt."],
+        "female_lines": ["Les propriétaires ont des coûts qui augmentent aussi.", "C'est toujours moins que l'augmentation des taxes et assurances."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Moins cher que les sans-abris et l'insécurité sociale.", "Ça prend des années, les locataires ont besoin de protection maintenant."],
+        "female_lines": ["Ça coûte une fortune à l'État.", "La vraie solution c'est d'augmenter l'offre en accélérant les permis."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["La spéculation immobilière fait exploser les prix, nous devons instaurer un contrôle des loyers à long terme pour protéger les locataires.", "On peut encadrer sans bloquer, avec des augmentations raisonnables indexées."],
+        "female_lines": ["Mais les investisseurs fuiront et on manquera de logements."]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "section": "H",
+    "theme": "Philosophical debate on artificial consciousness",
+    "question": "Quelle est la thèse défendue par le philosophe ?",
+    "options": [
+      { "id": "A", "text": "Les machines peuvent devenir conscientes", "image_prompt": "" },
+      { "id": "B", "text": "La conscience est uniquement biologique", "image_prompt": "" },
+      { "id": "C", "text": "La conscience est une illusion", "image_prompt": "" },
+      { "id": "D", "text": "Seuls les humains ont une âme", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Philosophe : La conscience ne peut émerger que d'un substrat biologique organique car elle dépend de processus chimiques et électriques spécifiques au tissu neural. Interlocuteur : Mais si on simule parfaitement ces processus dans un ordinateur ? Philosophe : Une simulation n'est pas une réalisation, simuler la digestion ne nourrit pas. Interlocuteur : L'intelligence artificielle montre pourtant des comportements conscients. Philosophe : C'est de la mimétrie sophistiquée, pas de l'expérience subjective. Interlocuteur : Comment pouvez-vous être certain de l'absence d'expérience chez l'IA ? Philosophe : Parce que l'intentionnalité requiert une incarnation dans un monde physique. Interlocuteur : Les robots sont incarnés physiquement. Philosophe : Mais leur 'corps' est mécanique, pas organique, la différence est fondamentale. Interlocuteur : C'est du bio-essentialisme. Philosophe : C'est la reconnaissance que la vie et la conscience sont des phénomènes émergents de la matière vivante.",
+    "transcript_en": "Philosopher: Consciousness can only emerge from an organic biological substrate because it depends on chemical and electrical processes specific to neural tissue. Interlocutor: But if we perfectly simulate these processes in a computer? Philosopher: A simulation is not a realization, simulating digestion doesn't nourish. Interlocutor: Artificial intelligence still shows conscious behaviors. Philosopher: It's sophisticated mimicry, not subjective experience. Interlocutor: How can you be certain of the absence of experience in AI? Philosopher: Because intentionality requires embodiment in a physical world. Interlocutor: Robots are physically embodied. Philosopher: But their 'body' is mechanical, not organic, the difference is fundamental. Interlocutor: That's bio-essentialism. Philosopher: It's the recognition that life and consciousness are emergent phenomena of living matter.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La conscience ne peut émerger que d'un substrat biologique organique car elle dépend de processus chimiques et électriques spécifiques au tissu neural.", "Une simulation n'est pas une réalisation, simuler la digestion ne nourrit pas."],
+        "female_lines": ["Mais si on simule parfaitement ces processus dans un ordinateur ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est de la mimétrie sophistiquée, pas de l'expérience subjective.", "Parce que l'intentionnalité requiert une incarnation dans un monde physique."],
+        "female_lines": ["L'intelligence artificielle montre pourtant des comportements conscients.", "Comment pouvez-vous être certain de l'absence d'expérience chez l'IA ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Mais leur 'corps' est mécanique, pas organique, la différence est fondamentale.", "C'est la reconnaissance que la vie et la conscience sont des phénomènes émergents de la matière vivante."],
+        "female_lines": ["Les robots sont incarnés physiquement.", "C'est du bio-essentialisme."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["La conscience ne peut émerger que d'un substrat biologique organique car elle dépend de processus chimiques et électriques spécifiques au tissu neural.", "Une simulation n'est pas une réalisation, simuler la digestion ne nourrit pas."],
+        "female_lines": ["Mais si on simule parfaitement ces processus dans un ordinateur ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["C'est de la mimétrie sophistiquée, pas de l'expérience subjective.", "Parce que l'intentionnalité requiert une incarnation dans un monde physique."],
+        "female_lines": ["L'intelligence artificielle montre pourtant des comportements conscients.", "Comment pouvez-vous être certain de l'absence d'expérience chez l'IA ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Mais leur 'corps' est mécanique, pas organique, la différence est fondamentale.", "C'est la reconnaissance que la vie et la conscience sont des phénomènes émergents de la matière vivante."],
+        "female_lines": ["Les robots sont incarnés physiquement.", "C'est du bio-essentialisme."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["La conscience ne peut émerger que d'un substrat biologique organique car elle dépend de processus chimiques et électriques spécifiques au tissu neural.", "Une simulation n'est pas une réalisation, simuler la digestion ne nourrit pas."],
+        "female_lines": ["Mais si on simule parfaitement ces processus dans un ordinateur ?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["C'est de la mimétrie sophistiquée, pas de l'expérience subjective.", "Parce que l'intentionnalité requiert une incarnation dans un monde physique."],
+        "female_lines": ["L'intelligence artificielle montre pourtant des comportements conscients.", "Comment pouvez-vous être certain de l'absence d'expérience chez l'IA ?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Mais leur 'corps' est mécanique, pas organique, la différence est fondamentale.", "C'est la reconnaissance que la vie et la conscience sont des phénomènes émergents de la matière vivante."],
+        "female_lines": ["Les robots sont incarnés physiquement.", "C'est du bio-essentialisme."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["La conscience ne peut émerger que d'un substrat biologique organique car elle dépend de processus chimiques et électriques spécifiques au tissu neural.", "Une simulation n'est pas une réalisation, simuler la digestion ne nourrit pas."],
+        "female_lines": ["Mais si on simule parfaitement ces processus dans un ordinateur ?"]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "section": "H",
+    "theme": "Economic theory discussion",
+    "question": "Quelle théorie économique est critiquée ?",
+    "options": [
+      { "id": "A", "text": "Le keynésianisme", "image_prompt": "" },
+      { "id": "B", "text": "Le monétarisme", "image_prompt": "" },
+      { "id": "C", "text": "La théorie de la croissance infinie", "image_prompt": "" },
+      { "id": "D", "text": "L'économie de marché libre", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Économiste : La croyance en une croissance économique infinie sur une planète finie est une absurdité mathématique et écologique. Interlocuteur : Mais la croissance peut être verte et dématérialisée. Économiste : Même les services numériques consomment énormément d'énergie et de ressources. Interlocuteur : L'efficacité énergétique s'améliore constamment. Économiste : C'est l'effet rebond, on consomme plus car c'est moins cher par unité. Interlocuteur : Alors il faut décroître volontairement ? Économiste : Oui, passer à une économie stationnaire centrée sur le bien-être plutôt que le PIB. Interlocuteur : Les pays en développement refuseront, ils veulent notre niveau de vie. Économiste : C'est pourquoi nous devons décroître pour leur laisser de la marge de manœuvre écologique. Interlocuteur : C'est politiquement impossible dans nos démocraties. Économiste : Plus impossible que l'effondrement écologique qui nous guette ?",
+    "transcript_en": "Economist: The belief in infinite economic growth on a finite planet is a mathematical and ecological absurdity. Interlocutor: But growth can be green and dematerialized. Economist: Even digital services consume enormous amounts of energy and resources. Interlocutor: Energy efficiency is constantly improving. Economist: It's the rebound effect, we consume more because it's cheaper per unit. Interlocutor: So we need to voluntarily degrow? Economist: Yes, move to a steady-state economy focused on well-being rather than GDP. Interlocutor: Developing countries will refuse, they want our standard of living. Economist: That's why we must degrow to leave them ecological maneuvering room. Interlocutor: It's politically impossible in our democracies. Economist: More impossible than the ecological collapse that awaits us?",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La croyance en une croissance économique infinie sur une planète finie est une absurdité mathématique et écologique.", "Même les services numériques consomment énormément d'énergie et de ressources."],
+        "female_lines": ["Mais la croissance peut être verte et dématérialisée."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est l'effet rebond, on consomme plus car c'est moins cher par unité.", "Oui, passer à une économie stationnaire centrée sur le bien-être plutôt que le PIB."],
+        "female_lines": ["L'efficacité énergétique s'améliore constamment.", "Alors il faut décroître volontairement ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est pourquoi nous devons décroître pour leur laisser de la marge de manœuvre écologique.", "Plus impossible que l'effondrement écologique qui nous guette ?"],
+        "female_lines": ["Les pays en développement refuseront, ils veulent notre niveau de vie.", "C'est politiquement impossible dans nos démocraties."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["La croyance en une croissance économique infinie sur une planète finie est une absurdité mathématique et écologique.", "Même les services numériques consomment énormément d'énergie et de ressources."],
+        "female_lines": ["Mais la croissance peut être verte et dématérialisée."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["C'est l'effet rebond, on consomme plus car c'est moins cher par unité.", "Oui, passer à une économie stationnaire centrée sur le bien-être plutôt que le PIB."],
+        "female_lines": ["L'efficacité énergétique s'améliore constamment.", "Alors il faut décroître volontairement ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["C'est pourquoi nous devons décroître pour leur laisser de la marge de manœuvre écologique.", "Plus impossible que l'effondrement écologique qui nous guette ?"],
+        "female_lines": ["Les pays en développement refuseront, ils veulent notre niveau de vie.", "C'est politiquement impossible dans nos démocraties."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["La croyance en une croissance économique infinie sur une planète finie est une absurdité mathématique et écologique.", "Même les services numériques consomment énormément d'énergie et de ressources."],
+        "female_lines": ["Mais la croissance peut être verte et dématérialisée."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["C'est l'effet rebond, on consomme plus car c'est moins cher par unité.", "Oui, passer à une économie stationnaire centrée sur le bien-être plutôt que le PIB."],
+        "female_lines": ["L'efficacité énergétique s'améliore constamment.", "Alors il faut décroître volontairement ?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["C'est pourquoi nous devons décroître pour leur laisser de la marge de manœuvre écologique.", "Plus impossible que l'effondrement écologique qui nous guette ?"],
+        "female_lines": ["Les pays en développement refuseront, ils veulent notre niveau de vie.", "C'est politiquement impossible dans nos démocraties."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["La croyance en une croissance économique infinie sur une planète finie est une absurdité mathématique et écologique.", "Même les services numériques consomment énormément d'énergie et de ressources."],
+        "female_lines": ["Mais la croissance peut être verte et dématérialisée."]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "section": "H",
+    "theme": "Linguistic theory discussion",
+    "question": "Quel concept linguistique est expliqué ?",
+    "options": [
+      { "id": "A", "text": "Le relativisme linguistique", "image_prompt": "" },
+      { "id": "B", "text": "La grammaire universelle", "image_prompt": "" },
+      { "id": "C", "text": "La théorie de l'évolution du langage", "image_prompt": "" },
+      { "id": "D", "text": "La linguistique computationnelle", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Linguiste : L'hypothèse de Sapir-Whorf suggère que la langue que nous parlons façonne notre perception de la réalité. Interlocuteur : C'est-à-dire que les eskimos voient différemment parce qu'ils ont plus de mots pour la neige ? Linguiste : C'est une simplification, mais oui, les catégories grammaticales influencent la cognition. Interlocuteur : Donc les bilingues pensent différemment selon la langue utilisée ? Linguiste : Les recherches montrent effectivement des modes de raisonnement différents. Interlocuteur : C'est déterministe, on ne peut pas échapper à sa langue maternelle ? Linguiste : Non, on peut développer une pensée métalinguistique et critique. Interlocuteur : Mais l'apprentissage précoce marque à vie. Linguiste : Certes, mais le cerveau reste plastique, surtout avant l'adolescence. Interlocuteur : Quelles sont les implications pour l'éducation ? Linguiste : Il faut encourager le multilinguisme jeune pour développer la flexibilité cognitive.",
+    "transcript_en": "Linguist: The Sapir-Whorf hypothesis suggests that the language we speak shapes our perception of reality. Interlocutor: So Eskimos see differently because they have more words for snow? Linguist: It's a simplification, but yes, grammatical categories influence cognition. Interlocutor: So bilinguals think differently depending on the language used? Linguist: Research indeed shows different reasoning modes. Interlocutor: It's deterministic, we can't escape our mother tongue? Linguist: No, we can develop metalinguistic and critical thinking. Interlocutor: But early learning marks for life. Linguist: Certainly, but the brain remains plastic, especially before adolescence. Interlocutor: What are the implications for education? Linguist: We must encourage early multilingualism to develop cognitive flexibility.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'hypothèse de Sapir-Whorf suggère que la langue que nous parlons façonne notre perception de la réalité.", "C'est une simplification, mais oui, les catégories grammaticales influencent la cognition."],
+        "female_lines": ["C'est-à-dire que les eskimos voient différemment parce qu'ils ont plus de mots pour la neige ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les recherches montrent effectivement des modes de raisonnement différents.", "Non, on peut développer une pensée métalinguistique et critique."],
+        "female_lines": ["Donc les bilingues pensent différemment selon la langue utilisée ?", "C'est déterministe, on ne peut pas échapper à sa langue maternelle ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Certes, mais le cerveau reste plastique, surtout avant l'adolescence.", "Il faut encourager le multilinguisme jeune pour développer la flexibilité cognitive."],
+        "female_lines": ["Mais l'apprentissage précoce marque à vie.", "Quelles sont les implications pour l'éducation ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["L'hypothèse de Sapir-Whorf suggère que la langue que nous parlons façonne notre perception de la réalité.", "C'est une simplification, mais oui, les catégories grammaticales influencent la cognition."],
+        "female_lines": ["C'est-à-dire que les eskimos voient différemment parce qu'ils ont plus de mots pour la neige ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les recherches montrent effectivement des modes de raisonnement différents.", "Non, on peut développer une pensée métalinguistique et critique."],
+        "female_lines": ["Donc les bilingues pensent différemment selon la langue utilisée ?", "C'est déterministe, on ne peut pas échapper à sa langue maternelle ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Certes, mais le cerveau reste plastique, surtout avant l'adolescence.", "Il faut encourager le multilinguisme jeune pour développer la flexibilité cognitive."],
+        "female_lines": ["Mais l'apprentissage précoce marque à vie.", "Quelles sont les implications pour l'éducation ?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["L'hypothèse de Sapir-Whorf suggère que la langue que nous parlons façonne notre perception de la réalité.", "C'est une simplification, mais oui, les catégories grammaticales influencent la cognition."],
+        "female_lines": ["C'est-à-dire que les eskimos voient différemment parce qu'ils ont plus de mots pour la neige ?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Les recherches montrent effectivement des modes de raisonnement différents.", "Non, on peut développer une pensée métalinguistique et critique."],
+        "female_lines": ["Donc les bilingues pensent différemment selon la langue utilisée ?", "C'est déterministe, on ne peut pas échapper à sa langue maternelle ?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Certes, mais le cerveau reste plastique, surtout avant l'adolescence.", "Il faut encourager le multilinguisme jeune pour développer la flexibilité cognitive."],
+        "female_lines": ["Mais l'apprentissage précoce marque à vie.", "Quelles sont les implications pour l'éducation ?"]
+      },
+      {
+        "point": 10,
+        "male_lines": ["L'hypothèse de Sapir-Whorf suggère que la langue que nous parlons façonne notre perception de la réalité.", "C'est une simplification, mais oui, les catégories grammaticales influencent la cognition."],
+        "female_lines": ["C'est-à-dire que les eskimos voient différemment parce qu'ils ont plus de mots pour la neige ?"]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "section": "H",
+    "theme": "Neuroscience and free will",
+    "question": "Quelle conclusion tire le neuroscientifique ?",
+    "options": [
+      { "id": "A", "text": "Le libre arbitre est une illusion", "image_prompt": "" },
+      { "id": "B", "text": "Le libre arbitre est prouvé scientifiquement", "image_prompt": "" },
+      { "id": "C", "text": "La question reste ouverte", "image_prompt": "" },
+      { "id": "D", "text": "Seul le subconscient décide", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Neuroscientifique : Nos expériences montrent que le cerveau prend des décisions dix secondes avant que nous en ayons conscience. Interlocuteur : Donc nous ne sommes que des marionnettes de nos neurones ? Neuroscientifique : Dans une certaine mesure oui, le libre arbitre tel que nous le concevons est une illusion rétrospective. Interlocuteur : Mais je sens que je choisis librement ma carrière. Neuroscientifique : C'est une construction narrative, le cerveau justifie a posteriori des décisions déjà prises. Interlocuteur : C'est déprimant, plus de responsabilité morale ? Neuroscientifique : Si, car même sans libre arbitre absolu, nous pouvons modeler nos comportements futurs. Interlocuteur : Comment sans choix libre ? Neuroscientifique : Par l'éducation, l'environnement, nous modifions les circuits cérébraux. Interlocuteur : Donc on peut 'choisir' de changer ? Neuroscientifique : C'est une boucle de rétroaction, pas un choix libre initial mais un processus modifiable.",
+    "transcript_en": "Neuroscientist: Our experiments show that the brain makes decisions ten seconds before we are conscious of them. Interlocutor: So we are just puppets of our neurons? Neuroscientist: To some extent yes, free will as we conceive it is a retrospective illusion. Interlocutor: But I feel like I'm freely choosing my career. Neuroscientist: It's a narrative construction, the brain justifies a posteriori decisions already made. Interlocutor: It's depressing, no more moral responsibility? Neuroscientist: Yes, because even without absolute free will, we can model our future behaviors. Interlocutor: How without free choice? Neuroscientist: Through education, environment, we modify brain circuits. Interlocutor: So we can 'choose' to change? Neuroscientist: It's a feedback loop, not an initial free choice but a modifiable process.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nos expériences montrent que le cerveau prend des décisions dix secondes avant que nous en ayons conscience.", "Dans une certaine mesure oui, le libre arbitre tel que nous le concevons est une illusion rétrospective."],
+        "female_lines": ["Donc nous ne sommes que des marionnettes de nos neurones ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est une construction narrative, le cerveau justifie a posteriori des décisions déjà prises.", "Si, car même sans libre arbitre absolu, nous pouvons modeler nos comportements futurs."],
+        "female_lines": ["Mais je sens que je choisis librement ma carrière.", "C'est déprimant, plus de responsabilité morale ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Par l'éducation, l'environnement, nous modifions les circuits cérébraux.", "C'est une boucle de rétroaction, pas un choix libre initial mais un processus modifiable."],
+        "female_lines": ["Comment sans choix libre ?", "Donc on peut 'choisir' de changer ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Nos expériences montrent que le cerveau prend des décisions dix secondes avant que nous en ayons conscience.", "Dans une certaine mesure oui, le libre arbitre tel que nous le concevons est une illusion rétrospective."],
+        "female_lines": ["Donc nous ne sommes que des marionnettes de nos neurones ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["C'est une construction narrative, le cerveau justifie a posteriori des décisions déjà prises.", "Si, car même sans libre arbitre absolu, nous pouvons modeler nos comportements futurs."],
+        "female_lines": ["Mais je sens que je choisis librement ma carrière.", "C'est déprimant, plus de responsabilité morale ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Par l'éducation, l'environnement, nous modifions les circuits cérébraux.", "C'est une boucle de rétroaction, pas un choix libre initial mais un processus modifiable."],
+        "female_lines": ["Comment sans choix libre ?", "Donc on peut 'choisir' de changer ?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Nos expériences montrent que le cerveau prend des décisions dix secondes avant que nous en ayons conscience.", "Dans une certaine mesure oui, le libre arbitre tel que nous le concevons est une illusion rétrospective."],
+        "female_lines": ["Donc nous ne sommes que des marionnettes de nos neurones ?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["C'est une construction narrative, le cerveau justifie a posteriori des décisions déjà prises.", "Si, car même sans libre arbitre absolu, nous pouvons modeler nos comportements futurs."],
+        "female_lines": ["Mais je sens que je choisis librement ma carrière.", "C'est déprimant, plus de responsabilité morale ?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Par l'éducation, l'environnement, nous modifions les circuits cérébraux.", "C'est une boucle de rétroaction, pas un choix libre initial mais un processus modifiable."],
+        "female_lines": ["Comment sans choix libre ?", "Donc on peut 'choisir' de changer ?"]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Nos expériences montrent que le cerveau prend des décisions dix secondes avant que nous en ayons conscience.", "Dans une certaine mesure oui, le libre arbitre tel que nous le concevons est une illusion rétrospective."],
+        "female_lines": ["Donc nous ne sommes que des marionnettes de nos neurones ?"]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "section": "H",
+    "theme": "Quantum physics interpretation",
+    "question": "Quelle interprétation de la physique quantique est présentée ?",
+    "options": [
+      { "id": "A", "text": "L'interprétation de Copenhague", "image_prompt": "" },
+      { "id": "B", "text": "La théorie des mondes multiples", "image_prompt": "" },
+      { "id": "C", "text": "La physique des supercordes", "image_prompt": "" },
+      { "id": "D", "text": "La gravité quantique à boucles", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Physicien : L'interprétation de Everett, ou théorie des mondes multiples, suggère que toutes les possibilités quantiques se réalisent dans des univers parallèles. Interlocuteur : Donc il existe un univers où j'ai fait des choix différents ? Physicien : Une infinité d'univers où chaque choix quantique a créé une branche. Interlocuteur : C'est de la science-fiction, comment le prouver ? Physicien : C'est mathématiquement élégant et résolve le problème de la mesure. Interlocuteur : Mais on ne peut pas observer ces autres mondes. Physicien : Pas encore, mais certaines expériences d'interférence quantique suggèrent leur existence. Interlocuteur : Ça viole le principe de parcimonie. Physicien : Une infinité d'univers est plus simple qu'un mécanisme de collaps mystérieux. Interlocuteur : Et l'énergie pour créer ces univers ? Physicien : Elle se sépare, pas besoin de création ex nihilo.",
+    "transcript_en": "Physicist: Everett's interpretation, or many-worlds theory, suggests that all quantum possibilities are realized in parallel universes. Interlocutor: So there exists a universe where I made different choices? Physicist: An infinity of universes where each quantum choice created a branch. Interlocutor: That's science fiction, how to prove it? Physicist: It's mathematically elegant and solves the measurement problem. Interlocutor: But we can't observe these other worlds. Physicist: Not yet, but certain quantum interference experiments suggest their existence. Interlocutor: It violates the principle of parsimony. Physicist: An infinity of universes is simpler than a mysterious collapse mechanism. Interlocutor: And the energy to create these universes? Physicist: It splits, no need for creation ex nihilo.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'interprétation de Everett, ou théorie des mondes multiples, suggère que toutes les possibilités quantiques se réalisent dans des univers parallèles.", "Une infinité d'univers où chaque choix quantique a créé une branche."],
+        "female_lines": ["Donc il existe un univers où j'ai fait des choix différents ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est mathématiquement élégant et résolve le problème de la mesure.", "Pas encore, mais certaines expériences d'interférence quantique suggèrent leur existence."],
+        "female_lines": ["C'est de la science-fiction, comment le prouver ?", "Mais on ne peut pas observer ces autres mondes."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Une infinité d'univers est plus simple qu'un mécanisme de collaps mystérieux.", "Elle se sépare, pas besoin de création ex nihilo."],
+        "female_lines": ["Ça viole le principe de parcimonie.", "Et l'énergie pour créer ces univers ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["L'interprétation de Everett, ou théorie des mondes multiples, suggère que toutes les possibilités quantiques se réalisent dans des univers parallèles.", "Une infinité d'univers où chaque choix quantique a créé une branche."],
+        "female_lines": ["Donc il existe un univers où j'ai fait des choix différents ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["C'est mathématiquement élégant et résolve le problème de la mesure.", "Pas encore, mais certaines expériences d'interférence quantique suggèrent leur existence."],
+        "female_lines": ["C'est de la science-fiction, comment le prouver ?", "Mais on ne peut pas observer ces autres mondes."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Une infinité d'univers est plus simple qu'un mécanisme de collaps mystérieux.", "Elle se sépare, pas besoin de création ex nihilo."],
+        "female_lines": ["Ça viole le principe de parcimonie.", "Et l'énergie pour créer ces univers ?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["L'interprétation de Everett, ou théorie des mondes multiples, suggère que toutes les possibilités quantiques se réalisent dans des univers parallèles.", "Une infinité d'univers où chaque choix quantique a créé une branche."],
+        "female_lines": ["Donc il existe un univers où j'ai fait des choix différents ?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["C'est mathématiquement élégant et résolve le problème de la mesure.", "Pas encore, mais certaines expériences d'interférence quantique suggèrent leur existence."],
+        "female_lines": ["C'est de la science-fiction, comment le prouver ?", "Mais on ne peut pas observer ces autres mondes."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Une infinité d'univers est plus simple qu'un mécanisme de collaps mystérieux.", "Elle se sépare, pas besoin de création ex nihilo."],
+        "female_lines": ["Ça viole le principe de parcimonie.", "Et l'énergie pour créer ces univers ?"]
+      },
+      {
+        "point": 10,
+        "male_lines": ["L'interprétation de Everett, ou théorie des mondes multiples, suggère que toutes les possibilités quantiques se réalisent dans des univers parallèles.", "Une infinité d'univers où chaque choix quantique a créé une branche."],
+        "female_lines": ["Donc il existe un univers où j'ai fait des choix différents ?"]
+      }
+    ]
+  }
+]

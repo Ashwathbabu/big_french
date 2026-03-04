@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticating - BigFrench</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background: #fff5e6; margin: 0; flex-direction: column;}
+        .loader { border: 5px solid #f3f3f3; border-top: 5px solid #f97316; border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite; margin-bottom: 20px;}
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        h2 { color: #333; }
+        #status-text { color: #666; margin-top: 10px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+    <h2>Authenticating securely...</h2>
+    <div id="status-text">Fetching your profile...</div>
+
+    <script>
+        // URL se token aur error nikal rahe hain
+        const urlParams = new URLSearchParams(window.location.search);
+        const token = urlParams.get('token');
+        const error = urlParams.get('error');
+
+        if (error) {
+            alert("Login failed: " + error);
+            window.location.replace("login.html");
+        } else if (token) {
+            // 1. Token mil gaya, isko local storage mein set karo
+            localStorage.setItem("token", token);
+            
+            // 2. Token ka use karke backend se User ki details maango
+            fetch('/api/auth/me', {
+                method: 'GET',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => {
+                if (!response.ok) throw new Error("Failed to fetch user data");
+                return response.json();
+            })
+            .then(user => {
+                // 3. User data mil gaya, ab usko save karo
+                localStorage.setItem("user", JSON.stringify(user));
+                
+                const isAdmin = user.role === "admin" || user.isAdmin === true;
+                localStorage.setItem("isAdmin", isAdmin ? "true" : "false");
+
+                document.getElementById('status-text').innerText = "Login successful! Redirecting...";
+
+                // 4. Role ke hisab se sahi page par redirect karo
+                setTimeout(() => {
+                    if (isAdmin) {
+                        window.location.replace("admin.html");
+                    } else {
+                        // Agar student hai toh dashboard ya index par bhejo
+                        window.location.replace("dashboard.html"); 
+                    }
+                }, 500); // 0.5 second ka delay taaki smooth lage
+            })
+            .catch(e => {
+                console.error("Error fetching user data:", e);
+                localStorage.removeItem("token"); // Error aane par token hata do
+                window.location.replace("login.html");
+            });
+
+        } else {
+            // Agar URL mein token nahi mila
+            window.location.replace("login.html");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,575 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "BIBLIOTHÈQUE MUNICIPALE DE MONTRÉAL\n\nHORAIRE D'ÉTÉ (1er juin - 31 août)\n\nLundi : 10h00 - 18h00\nMardi : 10h00 - 20h00\nMercredi : 10h00 - 18h00\nJeudi : 10h00 - 20h00\nVendredi : 12h00 - 17h00\nSamedi : 9h00 - 17h00\nDimanche : Fermé\n\nAttention : La bibliothèque sera exceptionnellement fermée le 24 juin (Fête nationale du Québec) et le 1er juillet (Fête du Canada). Le prêt de livres est limité à 5 documents par personne durant cette période estivale.",
+          "question": "Quel jour la bibliothèque ferme le plus tôt ?",
+          "options": {
+            "A": "Le lundi",
+            "B": "Le vendredi",
+            "C": "Le samedi",
+            "D": "Le dimanche"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "RESTAURANT LE PETIT BISTROT\nMenu du midi - Semaine du 15 au 19 mai\n\nEntrées au choix :\n• Soupe du jour ou salade verte\n\nPlats principaux (15$) :\n• Poulet rôti aux herbes, purée maison\n• Saumon grillé, riz pilaf et légumes\n• Lasagne végétarienne, salade\n• Steak-frites, sauce au poivre\n\nDesserts inclus :\n• Crème caramel ou fruit de saison\n\nBoissons : Café ou thé offert\nService rapide garanti - Réservation conseillée\nTél. : (514) 555-0123 | www.petitbistrot.ca",
+          "question": "Combien coûte un plat principal ?",
+          "options": {
+            "A": "10 dollars",
+            "B": "12 dollars",
+            "C": "15 dollars",
+            "D": "18 dollars"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 3,
+          "text": "AVIS IMPORTANT AUX RÉSIDENTS\n\nTravaux d'entretien dans l'immeuble\n\nChers locataires,\n\nNous vous informons que des travaux de peinture des corridors auront lieu du lundi 5 juin au vendredi 9 juin 2024, entre 9h00 et 16h00.\n\nPendant cette période, nous vous prions de :\n• Ne pas stationner vos véhicules devant les entrées\n• Enlever les objets personnels des corridors avant le 4 juin\n• Respecter les zones de sécurité signalées\n\nNous vous remercions de votre compréhension et nous excusons pour la gêne occasionnée.\n\nLa direction",
+          "question": "Que doivent faire les résidents avant le 4 juin ?",
+          "options": {
+            "A": "Payer leur loyer",
+            "B": "Enlever leurs objets des corridors",
+            "C": "Participer aux travaux",
+            "D": "Changer de logement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "CINÉMA STAR - PROGRAMME DU WEEK-END\n\nSamedi 20 et dimanche 21 mai\n\nSalle 1 : L'Aventure fantastique (2h15)\n12h30 - 15h30 - 18h30 - 21h30\nFilm familial - Tous publics\n\nSalle 2 : Mystère à Paris (1h45)\n13h00 - 16h00 - 19h00 - 22h00\nThriller - Déconseillé aux moins de 12 ans\n\nSalle 3 : La Comédie du siècle (1h30)\n14h00 - 16h45 - 19h30\nComédie - Tous publics\n\nTarifs : Adulte 12$ / Enfant 8$ / Étudiant 10$\nBilletterie ouverte 30 minutes avant la première séance.",
+          "question": "Quel film dure le plus longtemps ?",
+          "options": {
+            "A": "L'Aventure fantastique",
+            "B": "Mystère à Paris",
+            "C": "La Comédie du siècle",
+            "D": "Tous les films ont la même durée"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 5,
+          "text": "SUPERMARCHÉ MÉTRO - CIRCULAIRE HEBDOMADAIRE\n\nOffres valables du jeudi 18 au mercredi 24 mai\n\nFRUITS ET LÉGUMES\nPommes Gala : 1,99$/lb (rég. 3,49$)\nTomates en grappe : 2,99$/lb (rég. 4,99$)\nLaitue iceberg : 1,49$ chaque (rég. 2,29$)\n\nVIANDES\nPoitrines de poulet : 6,99$/lb (rég. 10,99$)\nBœuf haché maigre : 4,99$/lb (rég. 7,99$)\n\nPRODUITS LAITIERS\nFromage cheddar (400g) : 3,99$ (rég. 6,49$)\nYaourt nature (650g) : 2,49$ (rég. 3,99$)\n\nLimites : 4 unités par article, par client.",
+          "question": "Quel produit a la plus grande réduction en dollars ?",
+          "options": {
+            "A": "Les pommes Gala",
+            "B": "Les poitrines de poulet",
+            "C": "Le fromage cheddar",
+            "D": "Le yaourt nature"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "text": "CLINIQUE MÉDICALE SANTÉ-PLUS\n\nHoraire de consultation sans rendez-vous\n\nNotre clinique offre un service de consultation sans rendez-vous pour les problèmes de santé non urgents.\n\nHoraire :\nLundi au vendredi : 8h00 - 20h00\nSamedi et dimanche : 9h00 - 17h00\n\nServices disponibles :\n• Examens médicaux généraux\n• Renouvellement d'ordonnances\n• Vaccinations saisonnières\n• Petites blessures (coups, égratignures)\n\nImportant : Pour les urgences majeures (difficultés respiratoires, douleurs thoraciques, saignements importants), dirigez-vous immédiatement vers l'urgence de l'hôpital le plus proche ou composez le 911.",
+          "question": "Quand peut-on consulter sans rendez-vous le samedi ?",
+          "options": {
+            "A": "De 8h00 à 20h00",
+            "B": "De 9h00 à 17h00",
+            "C": "De 12h00 à 20h00",
+            "D": "Seulement sur rendez-vous"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "text": "GYM ENERGIE - OFFRE SPÉCIALE NOUVEAUX MEMBRES\n\nRejoignez notre centre de conditionnement physique dès maintenant et profitez d'avantages exceptionnels !\n\nOffre valable jusqu'au 30 juin :\n• Inscription gratuite (valeur de 50$)\n• Premier mois à 19$ seulement (rég. 49$)\n• Accès illimité à toutes les installations\n• Cours de groupe inclus (yoga, spinning, aquafitness)\n• Locker gratuit avec cadenas fourni\n\nConditions : Engagement minimum de 12 mois. Offre réservée aux nouveaux membres n'ayant pas été abonnés dans les 6 derniers mois.\n\nRendez-vous à l'accueil ou inscrivez-vous en ligne au www.gymenergie.ca",
+          "question": "Quelle est la condition pour bénéficier de cette offre ?",
+          "options": {
+            "A": "Avoir moins de 30 ans",
+            "B": "S'engager pour 12 mois minimum",
+            "C": "Habiter à proximité",
+            "D": "Venir accompagné"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle ______ (2) des romans policiers et ______ (3) souvent trois ou quatre livres à la fois. Hier, elle ______ (4) un nouveau thriller qu'elle ______ (5) déjà terminé ce matin. Demain, elle ______ (6) le rapporter pour en ______ (7) un autre. Ses amis lui ______ (8) souvent des recommandations de lecture.",
+          "question": "Complétez le trou (1) :",
+          "options": {
+            "A": "va",
+            "B": "allait",
+            "C": "ira",
+            "D": "irait"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 9,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle ______ (2) des romans policiers et ______ (3) souvent trois ou quatre livres à la fois. Hier, elle ______ (4) un nouveau thriller qu'elle ______ (5) déjà terminé ce matin. Demain, elle ______ (6) le rapporter pour en ______ (7) un autre. Ses amis lui ______ (8) souvent des recommandations de lecture.",
+          "question": "Complétez le trou (2) :",
+          "options": {
+            "A": "aime",
+            "B": "aimait",
+            "C": "aimera",
+            "D": "aimerait"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 10,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle ______ (2) des romans policiers et ______ (3) souvent trois ou quatre livres à la fois. Hier, elle ______ (4) un nouveau thriller qu'elle ______ (5) déjà terminé ce matin. Demain, elle ______ (6) le rapporter pour en ______ (7) un autre. Ses amis lui ______ (8) souvent des recommandations de lecture.",
+          "question": "Complétez le trou (3) :",
+          "options": {
+            "A": "emprunte",
+            "B": "empruntait",
+            "C": "empruntera",
+            "D": "a emprunté"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 11,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle ______ (2) des romans policiers et ______ (3) souvent trois ou quatre livres à la fois. Hier, elle ______ (4) un nouveau thriller qu'elle ______ (5) déjà terminé ce matin. Demain, elle ______ (6) le rapporter pour en ______ (7) un autre. Ses amis lui ______ (8) souvent des recommandations de lecture.",
+          "question": "Complétez le trou (4) :",
+          "options": {
+            "A": "emprunte",
+            "B": "empruntait",
+            "C": "a emprunté",
+            "D": "avait emprunté"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 12,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle ______ (2) des romans policiers et ______ (3) souvent trois ou quatre livres à la fois. Hier, elle ______ (4) un nouveau thriller qu'elle ______ (5) déjà terminé ce matin. Demain, elle ______ (6) le rapporter pour en ______ (7) un autre. Ses amis lui ______ (8) souvent des recommandations de lecture.",
+          "question": "Complétez le trou (5) :",
+          "options": {
+            "A": "a",
+            "B": "avait",
+            "C": "a eu",
+            "D": "aura"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 13,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle ______ (2) des romans policiers et ______ (3) souvent trois ou quatre livres à la fois. Hier, elle ______ (4) un nouveau thriller qu'elle ______ (5) déjà terminé ce matin. Demain, elle ______ (6) le rapporter pour en ______ (7) un autre. Ses amis lui ______ (8) souvent des recommandations de lecture.",
+          "question": "Complétez le trou (6) :",
+          "options": {
+            "A": "va",
+            "B": "viendra",
+            "C": "viendrait",
+            "D": "vient"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 14,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle ______ (2) des romans policiers et ______ (3) souvent trois ou quatre livres à la fois. Hier, elle ______ (4) un nouveau thriller qu'elle ______ (5) déjà terminé ce matin. Demain, elle ______ (6) le rapporter pour en ______ (7) un autre. Ses amis lui ______ (8) souvent des recommandations de lecture.",
+          "question": "Complétez le trou (7) :",
+          "options": {
+            "A": "choisir",
+            "B": "choisisse",
+            "C": "choisissant",
+            "D": "choisi"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 15,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle ______ (2) des romans policiers et ______ (3) souvent trois ou quatre livres à la fois. Hier, elle ______ (4) un nouveau thriller qu'elle ______ (5) déjà terminé ce matin. Demain, elle ______ (6) le rapporter pour en ______ (7) un autre. Ses amis lui ______ (8) souvent des recommandations de lecture.",
+          "question": "Complétez le trou (8) :",
+          "options": {
+            "A": "donne",
+            "B": "donneront",
+            "C": "donnaient",
+            "D": "ont donné"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 16,
+          "text": "Le développement durable est devenu une ______ (1) majeure pour les entreprises modernes. ______ (2) de réduire leur impact environnemental, de nombreuses compagnies ______ (3) à adopter des pratiques écoresponsables. Cette ______ (4) nécessite souvent des investissements importants, ______ (5) les bénéfices à long terme sont significatifs. Les consommateurs, de leur côté, ______ (6) de plus en plus attentifs à l'origine des produits qu'ils ______ (7). Ils privilégient les marques ______ (8) démontrent un réel engagement écologique.",
+          "question": "Complétez le trou (1) :",
+          "options": {
+            "A": "préoccupation",
+            "B": "préoccupante",
+            "C": "préoccupé",
+            "D": "préoccuper"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 17,
+          "text": "Le développement durable est devenu une ______ (1) majeure pour les entreprises modernes. ______ (2) de réduire leur impact environnemental, de nombreuses compagnies ______ (3) à adopter des pratiques écoresponsables. Cette ______ (4) nécessite souvent des investissements importants, ______ (5) les bénéfices à long terme sont significatifs. Les consommateurs, de leur côté, ______ (6) de plus en plus attentifs à l'origine des produits qu'ils ______ (7). Ils privilégient les marques ______ (8) démontrent un réel engagement écologique.",
+          "question": "Complétez le trou (2) :",
+          "options": {
+            "A": "Afin",
+            "B": "Pour",
+            "C": "En",
+            "D": "Dans le but"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "AVIS DE CONVOQUATION\n\nMonsieur Pierre Lefebvre\n1234 rue Ontario Est\nMontréal QC H2L 1R6\n\nVous êtes convoqué à comparaître devant le Tribunal administratif du travail le 15 juin 2024 à 9h00.\n\nMotif : Audience relative à votre demande d'indemnisation pour accident du travail survenue le 12 mars 2024.\n\nLieu : 1000 rue De La Gauchetière Ouest, bureau 400, Montréal\n\nVous devez apporter : une pièce d'identité avec photo, votre dossier médical complet et tout document relatif à votre réclamation.\n\nEn cas d'empêchement majeur, contactez-nous au (514) 873-7070 au moins 48 heures à l'avance.",
+          "question": "Quelle est la date de l'audience ?",
+          "options": {
+            "A": "Le 12 mars 2024",
+            "B": "Le 15 juin 2024",
+            "C": "Le 15 juillet 2024",
+            "D": "Le 48e jour du mois"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "INSTRUCTIONS DE MONTAGE - ÉTAGÈRE BIBLIOTHÈQUE\n\nTemps estimé : 45 minutes\nOutils nécessaires : tournevis cruciforme, marteau, niveau\n\nÉtape 1 : Vérifiez que vous disposez de toutes les pièces (référez-vous à la liste ci-jointe).\nÉtape 2 : Assemblez les deux panneaux latéraux avec la base à l'aide des vis fournies.\nÉtape 3 : Fixez les étagères en commençant par la plus basse. Utilisez les taquets métalliques.\nÉtape 4 : Vérifiez l'horizontalité avec un niveau avant de serrer définitivement.\nÉtape 5 : Fixez le panneau arrière avec les petits clous.\n\nAttention : Ne serrez pas les vis complètement avant d'avoir vérifié l'alignement de toutes les pièces.",
+          "question": "Quel outil n'est PAS mentionné comme nécessaire ?",
+          "options": {
+            "A": "Le tournevis cruciforme",
+            "B": "Le marteau",
+            "C": "La clé à molette",
+            "D": "Le niveau"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 20,
+          "text": "REÇU DE PAIEMENT\n\nPharmacie Santé Plus\n456 avenue du Parc, Montréal\nTél. : (514) 555-0199\n\nDate : 22 mai 2024\nClient : Madame Sophie Tremblay\n\nDescription des articles :\n- Médicament prescrit (antibiotique) : 24,50$\n- Pansements assortis (boîte de 50) : 8,99$\n- Solution saline 500ml : 4,49$\n- Vitamine D (90 comprimés) : 12,99$\n\nSous-total : 50,97$\nTPS (5%) : 2,55$\nTVQ (9,975%) : 5,08$\n\nTOTAL : 58,60$\n\nMode de paiement : Carte de débit\nNuméro de transaction : 4521-8899\n\nMerci de votre confiance !",
+          "question": "Quel article coûte le plus cher ?",
+          "options": {
+            "A": "Les pansements",
+            "B": "La solution saline",
+            "C": "Le médicament prescrit",
+            "D": "La vitamine D"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 21,
+          "text": "RÈGLEMENT INTÉRIEUR - PISCINE MUNICIPALE\n\n1. L'accès est réservé aux résidents munis d'un abonnement valide.\n2. Les enfants de moins de 7 ans doivent être accompagnés d'un adulte.\n3. Les plongeons sont interdits sauf dans la zone prévue à cet effet.\n4. La consommation de nourriture est strictement interdite sur le bord de la piscine.\n5. Les douches obligatoires doivent être prises avant d'entrer dans l'eau.\n6. Les articles en verre sont prohibés dans l'enceinte de la piscine.\n7. Les maîtres-nageurs doivent être respectés et leurs consignes suivies immédiatement.\n8. La piscine ferme 15 minutes avant l'heure officielle pour le nettoyage.\n\nTout manquement à ces règles entraînera l'exclusion temporaire ou définitive.",
+          "question": "Que doit-on faire avant d'entrer dans l'eau ?",
+          "options": {
+            "A": "Acheter un abonnement",
+            "B": "Prendre une douche",
+            "C": "Passer un test de natation",
+            "D": "Signaler son arrivée au maître-nageur"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 22,
+          "text": "CONFIRMATION DE RÉSERVATION\n\nAir Canada - Vol AC847\n\nPassager : Monsieur Jean-Philippe Dubois\nClasse : Économique\n\nDépart : Toronto (YYZ) le 10 juin 2024 à 14h30\nArrivée : Paris (CDG) le 11 juin 2024 à 6h45 (heure locale)\n\nSiège : 24A (hublot)\nRepas : Végétarien (précommandé)\nBagages : 1 bagage en soute inclus (23 kg max)\n\nEnregistrement en ligne disponible 24 heures avant le départ.\nPrésentez-vous à l'aéroport au moins 3 heures avant l'heure de départ pour les vols internationaux.\n\nNuméro de confirmation : ACX789456\nContact : 1-888-247-2262",
+          "question": "À quelle heure le passager doit-il être à l'aéroport ?",
+          "options": {
+            "A": "À 11h30",
+            "B": "À 14h30",
+            "C": "À 17h30",
+            "D": "À 6h45"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congé sans solde - Projet personnel\n\nMadame la Directrice,\n\nPar la présente, je vous informe de mon intention de prendre un congé sans solde d'une durée de trois mois, du 1er septembre au 30 novembre 2024.\n\nCe temps me permettra de réaliser un projet personnel de grande importance : la rédaction d'un ouvrage sur l'histoire de l'immigration au Québec. Ce travail de recherche nécessite une concentration exclusive et des déplacements dans différentes archives provinciales.\n\nJe reste évidemment à votre entière disposition pour organiser la transition de mes dossiers actuels et former mon remplaçant. Je suis convaincu que cette démarche enrichira également mes compétences professionnelles.\n\nDans l'attente de votre réponse, je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nThomas Mercier\nAnalyste senior",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Informer",
+            "B": "Se plaindre",
+            "C": "Inviter",
+            "D": "Féliciter"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 24,
+          "text": "Objet : Demande de congé sans solde - Projet personnel\n\nMadame la Directrice,\n\nPar la présente, je vous informe de mon intention de prendre un congé sans solde d'une durée de trois mois, du 1er septembre au 30 novembre 2024.\n\nCe temps me permettra de réaliser un projet personnel de grande importance : la rédaction d'un ouvrage sur l'histoire de l'immigration au Québec. Ce travail de recherche nécessite une concentration exclusive et des déplacements dans différentes archives provinciales.\n\nJe reste évidemment à votre entière disposition pour organiser la transition de mes dossiers actuels et former mon remplaçant. Je suis convaincu que cette démarche enrichira également mes compétences professionnelles.\n\nDans l'attente de votre réponse, je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nThomas Mercier\nAnalyste senior",
+          "question": "Quelle est la durée du congé demandé ?",
+          "options": {
+            "A": "Un mois",
+            "B": "Deux mois",
+            "C": "Trois mois",
+            "D": "Six mois"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 25,
+          "text": "Objet : Demande de congé sans solde - Projet personnel\n\nMadame la Directrice,\n\nPar la présente, je vous informe de mon intention de prendre un congé sans solde d'une durée de trois mois, du 1er septembre au 30 novembre 2024.\n\nCe temps me permettra de réaliser un projet personnel de grande importance : la rédaction d'un ouvrage sur l'histoire de l'immigration au Québec. Ce travail de recherche nécessite une concentration exclusive et des déplacements dans différentes archives provinciales.\n\nJe reste évidemment à votre entière disposition pour organiser la transition de mes dossiers actuels et former mon remplaçant. Je suis convaincu que cette démarche enrichira également mes compétences professionnelles.\n\nDans l'attente de votre réponse, je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nThomas Mercier\nAnalyste senior",
+          "question": "Quel ton utilise l'auteur dans ce message ?",
+          "options": {
+            "A": "Familier et décontracté",
+            "B": "Formel et respectueux",
+            "C": "Urgent et insistant",
+            "D": "Critique et mécontent"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "Chers collègues,\n\nSuite à la réunion du comité de direction tenue hier, nous avons le plaisir de vous annoncer plusieurs changements organisationnels visant à améliorer notre efficacité opérationnelle.\n\nÀ compter du 1er juillet, le service marketing fusionnera avec le service communications pour former une nouvelle équipe regroupant douze employés. Cette restructuration nous permettra de mieux coordonner nos campagnes et d'optimiser nos ressources.\n\nMarie-Claude Lavoie, actuellement directrice marketing, assurera la direction de ce nouveau département. Nous lui adressons nos félicitations pour cette nomination bien méritée.\n\nUne réunion d'information est prévue le 20 juin à 14h00 dans la salle de conférence A. Votre présence est obligatoire.\n\nCordialement,\n\nLa Direction",
+          "question": "Quel est le but principal de ce message ?",
+          "options": {
+            "A": "Annoncer des licenciements",
+            "B": "Informer d'une restructuration",
+            "C": "Critiquer la performance actuelle",
+            "D": "Demander des suggestions"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "Chers collègues,\n\nSuite à la réunion du comité de direction tenue hier, nous avons le plaisir de vous annoncer plusieurs changements organisationnels visant à améliorer notre efficacité opérationnelle.\n\nÀ compter du 1er juillet, le service marketing fusionnera avec le service communications pour former une nouvelle équipe regroupant douze employés. Cette restructuration nous permettra de mieux coordonner nos campagnes et d'optimiser nos ressources.\n\nMarie-Claude Lavoie, actuellement directrice marketing, assurera la direction de ce nouveau département. Nous lui adressons nos félicitations pour cette nomination bien méritée.\n\nUne réunion d'information est prévue le 20 juin à 14h00 dans la salle de conférence A. Votre présence est obligatoire.\n\nCordialement,\n\nLa Direction",
+          "question": "Qui dirigera le nouveau département ?",
+          "options": {
+            "A": "Un nouveau recrutement externe",
+            "B": "Marie-Claude Lavoie",
+            "C": "Le comité de direction",
+            "D": "La direction des communications actuelle"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Madame Tremblay,\n\nNous avons bien reçu votre candidature pour le poste de coordonnatrice aux ressources humaines. Après un examen attentif de votre dossier, nous avons le regret de vous informer que nous ne retiendrons pas votre candidature pour la suite du processus de sélection.\n\nVotre profil présente de nombreuses qualités, notamment votre expérience en gestion d'équipe. Cependant, nous recherchons actuellement un candidat possédant une expertise spécifique en droit du travail que vous n'avez pas encore développée.\n\nNous conservons votre curriculum vitae dans nos dossiers pour une période de douze mois et vous contacterons si un poste correspondant davantage à votre profil se libère.\n\nNous vous souhaitons bonne chance dans vos recherches futures.\n\nCordialement,\n\nService des ressources humaines\nEntreprise TechnoPlus",
+          "question": "Quelle est la nature de ce message ?",
+          "options": {
+            "A": "Une offre d'emploi",
+            "B": "Un refus de candidature",
+            "C": "Une convocation d'entretien",
+            "D": "Une demande de documents"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Madame Tremblay,\n\nNous avons bien reçu votre candidature pour le poste de coordonnatrice aux ressources humaines. Après un examen attentif de votre dossier, nous avons le regret de vous informer que nous ne retiendrons pas votre candidature pour la suite du processus de sélection.\n\nVotre profil présente de nombreuses qualités, notamment votre expérience en gestion d'équipe. Cependant, nous recherchons actuellement un candidat possédant une expertise spécifique en droit du travail que vous n'avez pas encore développée.\n\nNous conservons votre curriculum vitae dans nos dossiers pour une période de douze mois et vous contacterons si un poste correspondant davantage à votre profil se libère.\n\nNous vous souhaitons bonne chance dans vos recherches futures.\n\nCordialement,\n\nService des ressources humaines\nEntreprise TechnoPlus",
+          "question": "Pourquoi la candidature n'est-elle pas retenue ?",
+          "options": {
+            "A": "Manque d'expérience en gestion",
+            "B": "Absence d'expertise en droit du travail",
+            "C": "Dossier incomplet",
+            "D": "Poste déjà pourvu"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 30,
+          "text": "Objet : Retard de livraison - Commande #45892\n\nMonsieur Gagnon,\n\nNous vous prions d'accepter nos sincères excuses pour le retard concernant la livraison de votre commande du 15 mai dernier.\n\nSuite à une panne technique imprévue dans notre centre de distribution, l'expédition de votre colis a été retardée de cinq jours ouvrables. Nous comprenons parfaitement que ce délai supplémentaire puisse vous causer des désagréments, surtout compte tenu de l'urgence que vous aviez mentionnée.\n\nVotre commande a été expédiée ce matin par service accéléré sans frais supplémentaires. Vous devriez la recevoir d'ici demain avant 18h00. Un numéro de suivi vous sera envoyé sous peu.\n\nEn guise de compensation, nous vous offrons un bon d'achat de 50$ valable sur votre prochaine commande.\n\nNous vous remercions de votre compréhension et de votre fidélité.\n\nService clientèle\nBoutique ÉlectroMax",
+          "question": "Quel est le ton général de ce message ?",
+          "options": {
+            "A": "Aggressif et défensif",
+            "B": "Excusatoire et rassurant",
+            "C": "Indifférent et technique",
+            "D": "Enthousiaste et promotionnel"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 31,
+          "text": "Objet : Retard de livraison - Commande #45892\n\nMonsieur Gagnon,\n\nNous vous prions d'accepter nos sincères excuses pour le retard concernant la livraison de votre commande du 15 mai dernier.\n\nSuite à une panne technique imprévue dans notre centre de distribution, l'expédition de votre colis a été retardée de cinq jours ouvrables. Nous comprenons parfaitement que ce délai supplémentaire puisse vous causer des désagréments, surtout compte tenu de l'urgence que vous aviez mentionnée.\n\nVotre commande a été expédiée ce matin par service accéléré sans frais supplémentaires. Vous devriez la recevoir d'ici demain avant 18h00. Un numéro de suivi vous sera envoyé sous peu.\n\nEn guise de compensation, nous vous offrons un bon d'achat de 50$ valable sur votre prochaine commande.\n\nNous vous remercions de votre compréhension et de votre fidélité.\n\nService clientèle\nBoutique ÉlectroMax",
+          "question": "Quelle compensation est proposée au client ?",
+          "options": {
+            "A": "Un remboursement complet",
+            "B": "Un bon d'achat de 50$",
+            "C": "Une livraison gratuite à vie",
+            "D": "Un produit gratuit"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "À l'attention de tous les employés,\n\nNous vous rappelons que la politique de télétravail a été révisée suite aux consultations menées au printemps. Les nouvelles modalités entrent en vigueur le 1er juillet prochain.\n\nDésormais, chaque employé pourra télétravailler jusqu'à trois jours par semaine, sous réserve de l'accord de son superviseur direct et selon les besoins opérationnels du service. Les jours de présence obligatoire restent le mardi et le jeudi pour faciliter les réunions d'équipe.\n\nLes employés souhaitant bénéficier de cette possibilité doivent compléter le formulaire de demande disponible sur l'intranet et assister à la formation sur les bonnes pratiques du travail à distance prévue les 15 et 16 juin.\n\nPour toute question, contactez le service des ressources humaines.\n\nLa Direction des opérations",
+          "question": "Quels jours la présence est-elle obligatoire au bureau ?",
+          "options": {
+            "A": "Lundi et mercredi",
+            "B": "Mardi et jeudi",
+            "C": "Mercredi et vendredi",
+            "D": "Aucun jour n'est obligatoire"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "Le télétravail, une révolution qui s'essouffle ?\n\nDepuis la pandémie, le travail à domicile est devenu la norme pour des millions de Québécois. Pourtant, une étude récente de l'Université de Montréal révèle un phénomène inattendu : près de 40% des travailleurs interrogés expriment le désir de revenir au bureau à temps plein.\n\nLes raisons sont multiples. L'isolement social pèse lourd, surtout chez les jeunes professionnels qui peinent à tisser des liens professionnels solides. De plus, la frontière entre vie professionnelle et personnelle s'est souvent estompée, générant un épuisement diffus.\n\nLes entreprises, de leur côté, constatent une érosion de la culture d'entreprise et des difficultés pour former les nouveaux employés. Certaines multinationales, comme Amazon et Tesla, ont déjà annoncé le retour obligatoire au bureau cinq jours par semaine.\n\nCependant, imposer un retour brutal risque de provoquer un exode vers des employeurs plus flexibles. L'équilibre reste à trouver entre efficacité opérationnelle et bien-être des employés.",
+          "question": "Quelle est la position de l'auteur ?",
+          "options": {
+            "A": "Positive",
+            "B": "Négative",
+            "C": "Neutre",
+            "D": "Critique"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 34,
+          "text": "Le télétravail, une révolution qui s'essouffle ?\n\nDepuis la pandémie, le travail à domicile est devenu la norme pour des millions de Québécois. Pourtant, une étude récente de l'Université de Montréal révèle un phénomène inattendu : près de 40% des travailleurs interrogés expriment le désir de revenir au bureau à temps plein.\n\nLes raisons sont multiples. L'isolement social pèse lourd, surtout chez les jeunes professionnels qui peinent à tisser des liens professionnels solides. De plus, la frontière entre vie professionnelle et personnelle s'est souvent estompée, générant un épuisement diffus.\n\nLes entreprises, de leur côté, constatent une érosion de la culture d'entreprise et des difficultés pour former les nouveaux employés. Certaines multinationales, comme Amazon et Tesla, ont déjà annoncé le retour obligatoire au bureau cinq jours par semaine.\n\nCependant, imposer un retour brutal risque de provoquer un exode vers des employeurs plus flexibles. L'équilibre reste à trouver entre efficacité opérationnelle et bien-être des employés.",
+          "question": "Selon l'article, quel problème les jeunes professionnels rencontrent-ils ?",
+          "options": {
+            "A": "Ils gagnent moins d'argent",
+            "B": "Ils ont du mal à créer des liens professionnels",
+            "C": "Ils travaillent trop d'heures",
+            "D": "Ils n'aiment pas la technologie"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "Le télétravail, une révolution qui s'essouffle ?\n\nDepuis la pandémie, le travail à domicile est devenu la norme pour des millions de Québécois. Pourtant, une étude récente de l'Université de Montréal révèle un phénomène inattendu : près de 40% des travailleurs interrogés expriment le désir de revenir au bureau à temps plein.\n\nLes raisons sont multiples. L'isolement social pèse lourd, surtout chez les jeunes professionnels qui peinent à tisser des liens professionnels solides. De plus, la frontière entre vie professionnelle et personnelle s'est souvent estompée, générant un épuisement diffus.\n\nLes entreprises, de leur côté, constatent une érosion de la culture d'entreprise et des difficultés pour former les nouveaux employés. Certaines multinationales, comme Amazon et Tesla, ont déjà annoncé le retour obligatoire au bureau cinq jours par semaine.\n\nCependant, imposer un retour brutal risque de provoquer un exode vers des employeurs plus flexibles. L'équilibre reste à trouver entre efficacité opérationnelle et bien-être des employés.",
+          "question": "Quelle conclusion l'auteur suggère-t-il ?",
+          "options": {
+            "A": "Il faut interdire le télétravail complètement",
+            "B": "Les employés doivent décider seuls de leur mode de travail",
+            "C": "Un compromis doit être trouvé entre les deux modes",
+            "D": "Les entreprises devraient imposer le retour au bureau"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 36,
+          "text": "La fin programmée des voitures à essence au Québec\n\nLe gouvernement du Québec a annoncé hier l'accélération de la transition énergétique dans le secteur automobile. Dès 2035, la vente de véhicules neufs à essence sera interdite sur le territoire québécois, cinq ans plus tôt que prévu initialement.\n\nCette décision ambitieuse s'inscrit dans la stratégie de réduction des émissions de gaz à effet de serre. Le transport routier représente actuellement 35% des émissions provinciales. Le ministre de l'Environnement a souligné que l'objectif de carboneutralité en 2050 exige des mesures radicales dès maintenant.\n\nLes constructeurs automobiles expriment des réserves. Ils dénoncent l'absence d'infrastructure de recharge adéquate, particulièrement dans les régions éloignées. De plus, le coût des véhicules électriques reste prohibitif pour de nombreux ménages.\n\nLes groupes environnementaux saluent cette annonce tout en demandant des mesures d'accompagnement pour les familles à faible revenu. Le programme de rabais gouvernemental devrait être bonifié pour faciliter l'accès aux technologies propres.",
+          "question": "Quel est le sujet principal de cet article ?",
+          "options": {
+            "A": "Les problèmes des constructeurs automobiles",
+            "B": "L'interdiction future des voitures à essence",
+            "C": "Les infrastructures de recharge",
+            "D": "Les programmes de rabais gouvernementaux"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "La fin programmée des voitures à essence au Québec\n\nLe gouvernement du Québec a annoncé hier l'accélération de la transition énergétique dans le secteur automobile. Dès 2035, la vente de véhicules neufs à essence sera interdite sur le territoire québécois, cinq ans plus tôt que prévu initialement.\n\nCette décision ambitieuse s'inscrit dans la stratégie de réduction des émissions de gaz à effet de serre. Le transport routier représente actuellement 35% des émissions provinciales. Le ministre de l'Environnement a souligné que l'objectif de carboneutralité en 2050 exige des mesures radicales dès maintenant.\n\nLes constructeurs automobiles expriment des réserves. Ils dénoncent l'absence d'infrastructure de recharge adéquate, particulièrement dans les régions éloignées. De plus, le coût des véhicules électriques reste prohibitif pour de nombreux ménages.\n\nLes groupes environnementaux saluent cette annonce tout en demandant des mesures d'accompagnement pour les familles à faible revenu. Le programme de rabais gouvernemental devrait être bonifié pour faciliter l'accès aux technologies propres.",
+          "question": "Quelle est la préoccupation principale des constructeurs automobiles ?",
+          "options": {
+            "A": "Le manque d'infrastructures de recharge",
+            "B": "La baisse des ventes de voitures",
+            "C": "La concurrence étrangère",
+            "D": "Les taxes gouvernementales"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 38,
+          "text": "La fin programmée des voitures à essence au Québec\n\nLe gouvernement du Québec a annoncé hier l'accélération de la transition énergétique dans le secteur automobile. Dès 2035, la vente de véhicules neufs à essence sera interdite sur le territoire québécois, cinq ans plus tôt que prévu initialement.\n\nCette décision ambitieuse s'inscrit dans la stratégie de réduction des émissions de gaz à effet de serre. Le transport routier représente actuellement 35% des émissions provinciales. Le ministre de l'Environnement a souligné que l'objectif de carboneutralité en 2050 exige des mesures radicales dès maintenant.\n\nLes constructeurs automobiles expriment des réserves. Ils dénoncent l'absence d'infrastructure de recharge adéquate, particulièrement dans les régions éloignées. De plus, le coût des véhicules électriques reste prohibitif pour de nombreux ménages.\n\nLes groupes environnementaux saluent cette annonce tout en demandant des mesures d'accompagnement pour les familles à faible revenu. Le programme de rabais gouvernemental devrait être bonifié pour faciliter l'accès aux technologies propres.",
+          "question": "Selon l'article, quel pourcentage des émissions provinciales provient du transport ?",
+          "options": {
+            "A": "25%",
+            "B": "30%",
+            "C": "35%",
+            "D": "40%"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 39,
+          "text": "L'essor des microfermes urbaines redéfinit l'agriculture montréalaise\n\nSur les toits d'immeubles industriels ou dans d'anciens entrepôts désaffectés, une nouvelle génération d'agriculteurs cultive la ville. Les microfermes urbaines connaissent un essor remarquable à Montréal, transformant des espaces vacants en jardins productifs.\n\nMarie-Ève, ancienne ingénieure de 32 ans, a lancé son exploitation sur le plateau Mont-Royal il y a trois ans. Elle y produit des légumes biologiques vendus directement aux restaurants du quartier. Son modèle économique repose sur la proximité : zéro transport longue distance, récolte le matin, livraison l'après-midi.\n\nCette agriculture de proximité répond à une demande croissante des consommateurs soucieux de l'origine de leur alimentation. Les chefs étoilés apprécient particulièrement la fraîcheur irréprochable des produits.\n\nCependant, les défis sont nombreux : coûts élevés des terrains urbains, réglementations complexes et saisonnalité limitée. Malgré tout, ces fermiers urbains démontrent qu'il est possible de nourrir la ville depuis l'intérieur même de ses quartiers.",
+          "question": "Quel avantage les chefs étoilés trouvent-ils aux produits des microfermes ?",
+          "options": {
+            "A": "Leur prix bas",
+            "B": "Leur fraîcheur",
+            "C": "Leur diversité",
+            "D": "Leur durabilité"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "L'essor des microfermes urbaines redéfinit l'agriculture montréalaise\n\nSur les toits d'immeubles industriels ou dans d'anciens entrepôts désaffectés, une nouvelle génération d'agriculteurs cultive la ville. Les microfermes urbaines connaissent un essor remarquable à Montréal, transformant des espaces vacants en jardins productifs.\n\nMarie-Ève, ancienne ingénieure de 32 ans, a lancé son exploitation sur le plateau Mont-Royal il y a trois ans. Elle y produit des légumes biologiques vendus directement aux restaurants du quartier. Son modèle économique repose sur la proximité : zéro transport longue distance, récolte le matin, livraison l'après-midi.\n\nCette agriculture de proximité répond à une demande croissante des consommateurs soucieux de l'origine de leur alimentation. Les chefs étoilés apprécient particulièrement la fraîcheur irréprochable des produits.\n\nCependant, les défis sont nombreux : coûts élevés des terrains urbains, réglementations complexes et saisonnalité limitée. Malgré tout, ces fermiers urbains démontrent qu'il est possible de nourrir la ville depuis l'intérieur même de ses quartiers.",
+          "question": "Quel est l'objectif principal de ce texte ?",
+          "options": {
+            "A": "Critiquer l'agriculture traditionnelle",
+            "B": "Décrire une nouvelle tendance agricole urbaine",
+            "C": "Promouvoir les produits biologiques",
+            "D": "Dénoncer la réglementation urbaine"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

@@ -1,0 +1,41 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Expression orale",
+  "duration_minutes": 15,
+  "sections": [
+    {
+      "id": 1,
+      "section": "Task 1",
+      "title": "Jeu de rôle - Demande d'information",
+      "preparation_time_minutes": 5,
+      "speaking_time_minutes": 5,
+      "instructions": [
+        "Vous devez poser des questions pour obtenir des informations.",
+        "Soyez poli et clair.",
+        "Posez au moins 5 questions différentes."
+      ],
+      "scenario": "Vous téléphonez à une crèche pour inscrire votre enfant. Demandez les horaires, les tarifs et les conditions d'inscription."
+    },
+    {
+      "id": 2,
+      "section": "Task 2",
+      "title": "Exprimer et défendre une opinion",
+      "preparation_time_minutes": 5,
+      "speaking_time_minutes": 5,
+      "instructions": [
+        "Présentez clairement votre opinion.",
+        "Donnez au moins deux arguments.",
+        "Répondez aux objections possibles.",
+        "Concluez votre intervention."
+      ],
+      "scenario": "Votre collègue pense que les transports publics devraient être gratuits pour tous. Discutez avec lui et exprimez votre point de vue."
+    }
+  ],
+  "evaluation": {
+    "fluency": 25,
+    "vocabulary_range": 20,
+    "grammar_accuracy": 20,
+    "interaction_skill": 20,
+    "pronunciation": 15
+  }
+}

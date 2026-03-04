@@ -1,0 +1,512 @@
+﻿[
+  {
+    "question_id": 1,
+    "section": "Section 1 - Textes du quotidien",
+    "text": "SUPERMARCHÉ MÉTRO\n\nHORAIRES D'OUVERTURE\nDu lundi au vendredi : 8h00 - 21h00\nSamedi et dimanche : 9h00 - 17h00\nJours fériés : 10h00 - 16h00\n\nNOUVEAU SERVICE DE LIVRAISON À DOMICILE\nCommandez en ligne avant 14h00 pour une livraison le jour même dans un rayon de 15 km. Frais de livraison : 5,99 $. Gratuit pour les commandes de plus de 75 $. Pour toute question, contactez notre service client au 1-800-METRO-1.",
+    "question": "À quelle heure ferme le supermarché le samedi ?",
+    "options": {
+      "A": "16h00",
+      "B": "17h00",
+      "C": "20h00",
+      "D": "21h00"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 2,
+    "section": "Section 1 - Textes du quotidien",
+    "text": "RESTAURANT LE BISTROT D'ANTOINE\n\nMENU DU MIDI - 22,95 $\nEntrée au choix :\n• Soupe du jour maison\n• Salade verte avec vinaigrette maison\n\nPlat principal au choix :\n• Filet de saumon grillé, légumes de saison\n• Poulet rôti aux herbes, purée maison\n• Risotto aux champignons, copeaux de parmesan\n\nDessert au choix :\n• Crème brûlée\n• Tarte du jour\n• Café ou thé inclus\n\nOffre valable du lundi au vendredi, de 11h30 à 14h30. Réservation recommandée.",
+    "question": "Quel dessert est proposé dans le menu du midi ?",
+    "options": {
+      "A": "Mousse au chocolat",
+      "B": "Crème brûlée",
+      "C": "Tiramisu",
+      "D": "Profiteroles"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 3,
+    "section": "Section 1 - Textes du quotidien",
+    "text": "AVIS IMPORTANT AUX RÉSIDENTS\n\nGestion Immobilière Laurier\n\nEn raison de travaux d'entretien préventif sur le système de chauffage central, l'eau chaude sera coupée temporairement :\n\nDate : Mardi 15 mars 2026\nHeure : 8h00 - 16h00\n\nCette interruption concerne uniquement les appartements du bloc B (appartements 201 à 220). Nous vous recommandons de prendre vos dispositions en conséquence. Pour toute urgence pendant cette période, veuillez contacter le concierge au poste 101 ou appeler le numéro d'urgence : 514-555-0199.\n\nNous vous remercions de votre compréhension.",
+    "question": "Quels appartements sont concernés par la coupure d'eau chaude ?",
+    "options": {
+      "A": "Tous les appartements de l'immeuble",
+      "B": "Les appartements du bloc A uniquement",
+      "C": "Les appartements 201 à 220 du bloc B",
+      "D": "Seulement les appartements pairs"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 4,
+    "section": "Section 1 - Textes du quotidien",
+    "text": "BIBLIOTHÈQUE MUNICIPALE DE SAINT-LAMBERT\n\nPROGRAMME D'ÉTÉ POUR ENFANTS\n\n\"Lecture sous les étoiles\"\nDu 1er juillet au 15 août 2026\n\nActivités proposées :\n- Contes et histoires en plein air (tous les mardis, 19h00)\n- Ateliers de bricolage créatif (mercredis, 14h00)\n- Club de lecture junior (vendredis, 10h00)\n\nInscription obligatoire. Places limitées à 20 enfants par activité.\nCoût : Gratuit pour les résidents, 15 $ par enfant pour les non-résidents.\n\nInscriptions en ligne sur www.bibliotheque-saint-lambert.ca ou sur place à l'accueil.",
+    "question": "Combien coûte l'inscription pour un enfant non-résident ?",
+    "options": {
+      "A": "Gratuit",
+      "B": "5 $",
+      "C": "10 $",
+      "D": "15 $"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "question_id": 5,
+    "section": "Section 1 - Textes du quotidien",
+    "text": "CLINIQUE MÉDICALE DU PARC\n\nDr Marie Tremblay, médecin de famille\nDr Jean-Philippe Lavoie, médecin de famille\nInfirmière : Mme Sophie Gagnon\n\nHEURES DE CONSULTATION\nLundi, mardi, jeudi : 8h00 - 17h00\nMercredi : 8h00 - 20h00\nVendredi : 8h00 - 15h00\n\nURGENCES LE WEEK-END\nNotre clinique offre un service de garde le samedi de 9h00 à 12h00 pour les patients réguliers uniquement. Pour les urgences en dehors de ces heures, veuillez vous rendre à l'Hôpital général de Montréal ou composer le 811.\n\nRendez-vous : 450-555-0147",
+    "question": "Quand la clinique est-elle ouverte le samedi ?",
+    "options": {
+      "A": "8h00 - 17h00",
+      "B": "9h00 - 12h00",
+      "C": "9h00 - 17h00",
+      "D": "Fermée le samedi"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 6,
+    "section": "Section 1 - Textes du quotidien",
+    "text": "CINÉMA CINÉPLEX FORUM\n\nPROGRAMMATION DU WEEK-END\n\nVendredi 20 mars au dimanche 22 mars 2026\n\nSALLE 1 - \"Les Horizons lointains\" (2h15)\nSéances : 13h30, 16h45, 20h00\nTarif : 14,50 $ adulte, 11 $ enfant\n\nSALLE 2 - \"Rires et détente\" (1h35)\nSéances : 14h00, 16h30, 19h00, 21h30\nTarif : 12 $ adulte, 9 $ enfant\n\nSALLE 3 - Documentaire \"Notre planète\" (1h50)\nSéances : 15h00, 18h00\nTarif : 13 $ (tous)\n\nTarif réduit du mardi applicable. Achat des billets en ligne sur www.cineplex.ca.",
+    "question": "À quelle heure commence la dernière séance du film \"Rires et détente\" ?",
+    "options": {
+      "A": "19h00",
+      "B": "20h00",
+      "C": "21h30",
+      "D": "21h00"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 7,
+    "section": "Section 1 - Textes du quotidien",
+    "text": "SALON DE COIFFURE ÉLÉGANCE\n\nCARTE DE FIDÉLITÉ\n\nPour chaque visite chez Élégance, accumulez des points :\n- Coupe : 10 points\n- Coloration : 20 points\n- Mise en plis : 5 points\n- Soin profond : 15 points\n\nRÉCOMPENSES :\n50 points = 10 % de réduction sur votre prochain service\n100 points = Service gratuit (coupe ou mise en plis)\n150 points = 25 % de réduction sur une coloration\n\nCette carte est valable pendant 24 mois à compter de la date d'émission. Non transferable. Présentez votre carte à chaque visite pour accumuler vos points.\n\nÉlégance - 1250 avenue Laurier, Montréal",
+    "question": "Combien de points faut-il pour obtenir une réduction de 25 % sur une coloration ?",
+    "options": {
+      "A": "50 points",
+      "B": "100 points",
+      "C": "150 points",
+      "D": "200 points"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 8,
+    "section": "Section 2 - Texte à trous",
+    "text": "Cher Nicolas,\n\nJ'espère que tu (8)______ bien. Je t'écris pour te donner de mes nouvelles. Depuis mon arrivée à Montréal, je (9)______ beaucoup de choses intéressantes. La semaine dernière, je (10)______ le Musée des beaux-arts et j'ai été impressionné par la collection.\n\nJe (11)______ apprendre le français depuis trois mois maintenant. Mes cours (12)______ lieu tous les mardis et jeudis soirs. Mon professeur est très patient et il m'encourage toujours (13)______ parler, même si je fais des erreurs.\n\nLe week-end prochain, je vais (14)______ mes amis québécois pour une randonnée en montagne. J'ai hâte de découvrir les paysages québécois ! Je te (15)______ des photos dès que possible.\n\nÀ bientôt,\nMarc",
+    "options": {
+      "A": "vas",
+      "B": "vais",
+      "C": "allez",
+      "D": "vont"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 9,
+    "section": "Section 2 - Texte à trous",
+    "text": "Cher Nicolas,\n\nJ'espère que tu vais bien. Je t'écris pour te donner de mes nouvelles. Depuis mon arrivée à Montréal, je (9)______ beaucoup de choses intéressantes. La semaine dernière, je (10)______ le Musée des beaux-arts et j'ai été impressionné par la collection.\n\nJe (11)______ apprendre le français depuis trois mois maintenant. Mes cours (12)______ lieu tous les mardis et jeudis soirs. Mon professeur est très patient et il m'encourage toujours (13)______ parler, même si je fais des erreurs.\n\nLe week-end prochain, je vais (14)______ mes amis québécois pour une randonnée en montagne. J'ai hâte de découvrir les paysages québécois ! Je te (15)______ des photos dès que possible.\n\nÀ bientôt,\nMarc",
+    "options": {
+      "A": "ai découvert",
+      "B": "découvre",
+      "C": "découvrais",
+      "D": "avait découvert"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_id": 10,
+    "section": "Section 2 - Texte à trous",
+    "text": "Cher Nicolas,\n\nJ'espère que tu vais bien. Je t'écris pour te donner de mes nouvelles. Depuis mon arrivée à Montréal, j'ai découvert beaucoup de choses intéressantes. La semaine dernière, je (10)______ le Musée des beaux-arts et j'ai été impressionné par la collection.\n\nJe (11)______ apprendre le français depuis trois mois maintenant. Mes cours (12)______ lieu tous les mardis et jeudis soirs. Mon professeur est très patient et il m'encourage toujours (13)______ parler, même si je fais des erreurs.\n\nLe week-end prochain, je vais (14)______ mes amis québécois pour une randonnée en montagne. J'ai hâte de découvrir les paysages québécois ! Je te (15)______ des photos dès que possible.\n\nÀ bientôt,\nMarc",
+    "options": {
+      "A": "visite",
+      "B": "ai visité",
+      "C": "visiterai",
+      "D": "visitais"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 11,
+    "section": "Section 2 - Texte à trous",
+    "text": "Cher Nicolas,\n\nJ'espère que tu vais bien. Je t'écris pour te donner de mes nouvelles. Depuis mon arrivée à Montréal, j'ai découvert beaucoup de choses intéressantes. La semaine dernière, j'ai visité le Musée des beaux-arts et j'ai été impressionné par la collection.\n\nJe (11)______ apprendre le français depuis trois mois maintenant. Mes cours (12)______ lieu tous les mardis et jeudis soirs. Mon professeur est très patient et il m'encourage toujours (13)______ parler, même si je fais des erreurs.\n\nLe week-end prochain, je vais (14)______ mes amis québécois pour une randonnée en montagne. J'ai hâte de découvrir les paysages québécois ! Je te (15)______ des photos dès que possible.\n\nÀ bientôt,\nMarc",
+    "options": {
+      "A": "apprends",
+      "B": "ai appris",
+      "C": "apprenais",
+      "D": "apprendrai"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_id": 12,
+    "section": "Section 2 - Texte à trous",
+    "text": "Cher Nicolas,\n\nJ'espère que tu vais bien. Je t'écris pour te donner de mes nouvelles. Depuis mon arrivée à Montréal, j'ai découvert beaucoup de choses intéressantes. La semaine dernière, j'ai visité le Musée des beaux-arts et j'ai été impressionné par la collection.\n\nJ'apprends le français depuis trois mois maintenant. Mes cours (12)______ lieu tous les mardis et jeudis soirs. Mon professeur est très patient et il m'encourage toujours (13)______ parler, même si je fais des erreurs.\n\nLe week-end prochain, je vais (14)______ mes amis québécois pour une randonnée en montagne. J'ai hâte de découvrir les paysages québécois ! Je te (15)______ des photos dès que possible.\n\nÀ bientôt,\nMarc",
+    "options": {
+      "A": "ont",
+      "B": "sont",
+      "C": "font",
+      "D": "ont eu"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_id": 13,
+    "section": "Section 2 - Texte à trous",
+    "text": "Cher Nicolas,\n\nJ'espère que tu vais bien. Je t'écris pour te donner de mes nouvelles. Depuis mon arrivée à Montréal, j'ai découvert beaucoup de choses intéressantes. La semaine dernière, j'ai visité le Musée des beaux-arts et j'ai été impressionné par la collection.\n\nJ'apprends le français depuis trois mois maintenant. Mes cours ont lieu tous les mardis et jeudis soirs. Mon professeur est très patient et il m'encourage toujours (13)______ parler, même si je fais des erreurs.\n\nLe week-end prochain, je vais (14)______ mes amis québécois pour une randonnée en montagne. J'ai hâte de découvrir les paysages québécois ! Je te (15)______ des photos dès que possible.\n\nÀ bientôt,\nMarc",
+    "options": {
+      "A": "de",
+      "B": "à",
+      "C": "pour",
+      "D": "sans"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 14,
+    "section": "Section 2 - Texte à trous",
+    "text": "Cher Nicolas,\n\nJ'espère que tu vais bien. Je t'écris pour te donner de mes nouvelles. Depuis mon arrivée à Montréal, j'ai découvert beaucoup de choses intéressantes. La semaine dernière, j'ai visité le Musée des beaux-arts et j'ai été impressionné par la collection.\n\nJ'apprends le français depuis trois mois maintenant. Mes cours ont lieu tous les mardis et jeudis soirs. Mon professeur est très patient et il m'encourage toujours à parler, même si je fais des erreurs.\n\nLe week-end prochain, je vais (14)______ mes amis québécois pour une randonnée en montagne. J'ai hâte de découvrir les paysages québécois ! Je te (15)______ des photos dès que possible.\n\nÀ bientôt,\nMarc",
+    "options": {
+      "A": "rejoindre",
+      "B": "rejoint",
+      "C": "rejoindra",
+      "D": "rejoignais"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_id": 15,
+    "section": "Section 2 - Texte à trous",
+    "text": "Cher Nicolas,\n\nJ'espère que tu vais bien. Je t'écris pour te donner de mes nouvelles. Depuis mon arrivée à Montréal, j'ai découvert beaucoup de choses intéressantes. La semaine dernière, j'ai visité le Musée des beaux-arts et j'ai été impressionné par la collection.\n\nJ'apprends le français depuis trois mois maintenant. Mes cours ont lieu tous les mardis et jeudis soirs. Mon professeur est très patient et il m'encourage toujours à parler, même si je fais des erreurs.\n\nLe week-end prochain, je vais rejoindre mes amis québécois pour une randonnée en montagne. J'ai hâte de découvrir les paysages québécois ! Je te (15)______ des photos dès que possible.\n\nÀ bientôt,\nMarc",
+    "options": {
+      "A": "envoie",
+      "B": "enverrai",
+      "C": "envoyais",
+      "D": "ai envoyé"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 16,
+    "section": "Section 2 - Texte à trous",
+    "text": "Les changements climatiques représentent l'un des plus grands défis de notre époque. Les scientifiques du monde entier s'accordent (16)______ dire que les activités humaines sont la principale cause du réchauffement de la planète. L'utilisation excessive des combustibles fossiles libère des gaz à effet de serre qui piègent la chaleur dans l'atmosphère.\n\nLes conséquences sont déjà visibles : fonte des glaciers, montée des océans, événements météorologiques extrêmes de plus en plus fréquents. De nombreuses espèces animales voient leur habitat naturel disparaître à un rythme alarmant.\n\nFace à cette urgence, il est essentiel que chacun (17)______ sa part de responsabilité. Réduire notre empreinte carbone, privilégier les transports en commun, consommer de manière responsable sont autant de gestes qui peuvent faire la différence.",
+    "options": {
+      "A": "pour",
+      "B": "à",
+      "C": "de",
+      "D": "sur"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_id": 17,
+    "section": "Section 2 - Texte à trous",
+    "text": "Les changements climatiques représentent l'un des plus grands défis de notre époque. Les scientifiques du monde entier s'accordent pour dire que les activités humaines sont la principale cause du réchauffement de la planète. L'utilisation excessive des combustibles fossiles libère des gaz à effet de serre qui piègent la chaleur dans l'atmosphère.\n\nLes conséquences sont déjà visibles : fonte des glaciers, montée des océans, événements météorologiques extrêmes de plus en plus fréquents. De nombreuses espèces animales voient leur habitat naturel disparaître à un rythme alarmant.\n\nFace à cette urgence, il est essentiel que chacun (17)______ sa part de responsabilité. Réduire notre empreinte carbone, privilégier les transports en commun, consommer de manière responsable sont autant de gestes qui peuvent faire la différence.",
+    "options": {
+      "A": "assume",
+      "B": "assumer",
+      "C": "assumera",
+      "D": "assumait"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_id": 18,
+    "section": "Section 3 - Lecture rapide",
+    "text": "AVIS DE CONVOCATION\n\nMonsieur Pierre Lefebvre est prié de se présenter au bureau du Service de l'immigration le mercredi 25 mars 2026 à 9h30 précises.\n\nLieu : Bureau 340, 200 boulevard René-Lévesque Ouest, Montréal\n\nDocuments à apporter :\n- Passeport en cours de validité\n- Permis d'études original\n- Relevés bancaires des trois derniers mois\n- Attestation d'assurance maladie\n\nRetard non toléré. En cas d'empêchement majeur, contacter le bureau au 514-555-0287 au moins 48 heures à l'avance.",
+    "question": "À quelle heure Monsieur Lefebvre doit-il se présenter ?",
+    "options": {
+      "A": "8h30",
+      "B": "9h00",
+      "C": "9h30",
+      "D": "10h00"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 19,
+    "section": "Section 3 - Lecture rapide",
+    "text": "INFORMATIONS PRATIQUES - AÉROPORT TRUDEAU\n\nService de navette gratuite entre les terminaux\nFréquence : toutes les 10 minutes\nHoraire : 24h/24, 7j/7\nPoint de départ : Niveau départ, porte 1\n\nWi-Fi gratuit disponible dans tous les terminaux\nDurée maximale de connexion : 4 heures\nCode d'accès disponible auprès des bornes d'information\n\nConsigne à bagages\nTarif : 5 $ par article pour 24 heures\nEmplacement : Niveau arrivée, entre les terminaux\n\nPour toute assistance : composez le 0 depuis les téléphones publics de l'aéroport.",
+    "question": "Combien coûte la consigne à bagages pour 24 heures ?",
+    "options": {
+      "A": "Gratuit",
+      "B": "3 $",
+      "C": "5 $",
+      "D": "10 $"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 20,
+    "section": "Section 3 - Lecture rapide",
+    "text": "RAPPEL DE RENDEZ-VOUS\n\nClinique dentaire Sourire Santé\n\nMadame Claire Dubois\nDate : Jeudi 26 mars 2026\nHeure : 14h00\nMotif : Nettoyage et examen dentaire annuel\n\nAdresse : 450 rue Saint-Joseph Est, bureau 200, Québec\nStationnement : Gratuit pour les clients (validateur à l'accueil)\n\nIMPORTANT : En cas d'annulation dans les 24 heures précédant le rendez-vous, des frais de 50 $ seront facturés.\n\nPour reporter votre rendez-vous : 418-555-0321",
+    "question": "Quel jour est prévu le rendez-vous de Madame Dubois ?",
+    "options": {
+      "A": "Mercredi 25 mars",
+      "B": "Jeudi 26 mars",
+      "C": "Vendredi 27 mars",
+      "D": "Samedi 28 mars"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 21,
+    "section": "Section 3 - Lecture rapide",
+    "text": "OFFRE SPÉCIALE BILLETTERIE\n\nThéâtre du Nouveau Monde\n\n\"Le Misanthrope\" de Molière\nDu 15 avril au 30 mai 2026\n\nPROMOTION ÉTUDIANT\nPrésentez votre carte étudiante valide et bénéficiez de :\n- 30 % de réduction sur les places de catégorie B\n- Valable du mardi au jeudi uniquement\n- Achat maximum de 2 billets par carte\n\nCode promo en ligne : ETUDIANT30\nBilletterie : 514-555-0765 ou www.tnm.qc.ca\n\nAttention : Places limitées. Offre non cumulable avec d'autres promotions.",
+    "question": "Quel pourcentage de réduction les étudiants peuvent-ils obtenir ?",
+    "options": {
+      "A": "20 %",
+      "B": "25 %",
+      "C": "30 %",
+      "D": "40 %"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 22,
+    "section": "Section 3 - Lecture rapide",
+    "text": "AVIS DE LIVRAISON\n\nChronopost Canada\n\nVotre colis sera livré le vendredi 27 mars 2026 entre 8h00 et 12h00.\n\nAdresse de livraison :\nAppartement 4B\n1250 avenue du Parc\nMontréal, QC H2X 2G1\n\nSi vous n'êtes pas disponible à cette adresse, vous pouvez :\n1. Autoriser la livraison à un voisin (laisser une note sur la porte)\n2. Choisir un point de retrait sur www.chronopost.ca\n3. Reporter la livraison en appelant le 1-800-XXX-XXXX\n\nSignature requise. Présentez une pièce d'identité.",
+    "question": "Quelle plage horaire est prévue pour la livraison ?",
+    "options": {
+      "A": "8h00 - 10h00",
+      "B": "8h00 - 12h00",
+      "C": "12h00 - 16h00",
+      "D": "14h00 - 18h00"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 23,
+    "section": "Section 4 - Documents administratifs / professionnels",
+    "text": "Objet : Demande de congé sans solde\n\nMadame, Monsieur,\n\nPar la présente, je souhaite vous informer de mon intention de prendre un congé sans solde d'une durée de trois mois, du 1er juin au 31 août 2026 inclus.\n\nCe congé me permettra de accompagner ma mère qui doit subir une opération chirurgicale majeure et nécessitera une rééducation prolongée. Étant fils unique, je suis la seule personne de ma famille pouvant assumer cette responsabilité.\n\nJe m'engage à finaliser tous mes projets en cours avant mon départ et à former mon collègue Martin Tremblay pour qu'il puisse assurer la continuité de mes dossiers pendant mon absence. Je resterai disponible par courriel pour les questions urgentes.\n\nJe vous remercie de l'attention portée à ma demande et reste à votre disposition pour en discuter.\n\nCordialement,\nPhilippe Gagnon\nAnalyste financier",
+    "question": "Quel est l'objectif principal de ce message ?",
+    "options": {
+      "A": "Informer",
+      "B": "Se plaindre",
+      "C": "Inviter",
+      "D": "Féliciter"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_id": 24,
+    "section": "Section 4 - Documents administratifs / professionnels",
+    "text": "Objet : Demande de congé sans solde\n\nMadame, Monsieur,\n\nPar la présente, je souhaite vous informer de mon intention de prendre un congé sans solde d'une durée de trois mois, du 1er juin au 31 août 2026 inclus.\n\nCe congé me permettra de accompagner ma mère qui doit subir une opération chirurgicale majeure et nécessitera une rééducation prolongée. Étant fils unique, je suis la seule personne de ma famille pouvant assumer cette responsabilité.\n\nJe m'engage à finaliser tous mes projets en cours avant mon départ et à former mon collègue Martin Tremblay pour qu'il puisse assurer la continuité de mes dossiers pendant mon absence. Je resterai disponible par courriel pour les questions urgentes.\n\nJe vous remercie de l'attention portée à ma demande et reste à votre disposition pour en discuter.\n\nCordialement,\nPhilippe Gagnon\nAnalyste financier",
+    "question": "Quelle est la raison invoquée par Philippe Gagnon pour demander ce congé ?",
+    "options": {
+      "A": "Il veut voyager",
+      "B": "Il doit accompagner sa mère malade",
+      "C": "Il démissionne de son poste",
+      "D": "Il déménage dans une autre ville"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 25,
+    "section": "Section 4 - Documents administratifs / professionnels",
+    "text": "Objet : Demande de congé sans solde\n\nMadame, Monsieur,\n\nPar la présente, je souhaite vous informer de mon intention de prendre un congé sans solde d'une durée de trois mois, du 1er juin au 31 août 2026 inclus.\n\nCe congé me permettra de accompagner ma mère qui doit subir une opération chirurgicale majeure et nécessitera une rééducation prolongée. Étant fils unique, je suis la seule personne de ma famille pouvant assumer cette responsabilité.\n\nJe m'engage à finaliser tous mes projets en cours avant mon départ et à former mon collègue Martin Tremblay pour qu'il puisse assurer la continuité de mes dossiers pendant mon absence. Je resterai disponible par courriel pour les questions urgentes.\n\nJe vous remercie de l'attention portée à ma demande et reste à votre disposition pour en discuter.\n\nCordialement,\nPhilippe Gagnon\nAnalyste financier",
+    "question": "Qui remplacera Philippe Gagnon pendant son absence ?",
+    "options": {
+      "A": "Personne ne le remplacera",
+      "B": "Sa mère",
+      "C": "Martin Tremblay",
+      "D": "Son supérieur hiérarchique"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 26,
+    "section": "Section 4 - Documents administratifs / professionnels",
+    "text": "Objet : Demande de congé sans solde\n\nMadame, Monsieur,\n\nPar la présente, je souhaite vous informer de mon intention de prendre un congé sans solde d'une durée de trois mois, du 1er juin au 31 août 2026 inclus.\n\nCe congé me permettra de accompagner ma mère qui doit subir une opération chirurgicale majeure et nécessitera une rééducation prolongée. Étant fils unique, je suis la seule personne de ma famille pouvant assumer cette responsabilité.\n\nJe m'engage à finaliser tous mes projets en cours avant mon départ et à former mon collègue Martin Tremblay pour qu'il puisse assurer la continuité de mes dossiers pendant mon absence. Je resterai disponible par courriel pour les questions urgentes.\n\nJe vous remercie de l'attention portée à ma demande et reste à votre disposition pour en discuter.\n\nCordialement,\nPhilippe Gagnon\nAnalyste financier",
+    "question": "Combien de temps durera le congé demandé ?",
+    "options": {
+      "A": "Un mois",
+      "B": "Deux mois",
+      "C": "Trois mois",
+      "D": "Six mois"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 27,
+    "section": "Section 4 - Documents administratifs / professionnels",
+    "text": "De : service.client@assuranceplus.ca\nÀ : sophie.martin@email.ca\nDate : 18 mars 2026\nObjet : Votre demande de remboursement - Référence #45678\n\nMadame Martin,\n\nNous accusons réception de votre demande de remboursement concernant les frais dentaires du 10 mars 2026.\n\nAprès analyse de votre dossier, nous vous informons que votre demande a été approuvée. Un montant de 285 $ sera versé sur votre compte bancaire dans un délai de 5 à 7 jours ouvrables.\n\nVeuillez noter que ce remboursement correspond à 80 % des frais éligibles selon votre contrat actuel. Les 20 % restants restent à votre charge conformément aux termes de votre police d'assurance.\n\nPour toute question concernant ce remboursement ou votre couverture, n'hésitez pas à contacter notre service client au 1-800-555-0123, du lundi au vendredi, de 8h00 à 17h00.\n\nCordialement,\nLe Service Clientèle\nAssurance Plus",
+    "question": "Quel est le montant du remboursement approuvé ?",
+    "options": {
+      "A": "200 $",
+      "B": "250 $",
+      "C": "285 $",
+      "D": "350 $"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 28,
+    "section": "Section 4 - Documents administratifs / professionnels",
+    "text": "De : service.client@assuranceplus.ca\nÀ : sophie.martin@email.ca\nDate : 18 mars 2026\nObjet : Votre demande de remboursement - Référence #45678\n\nMadame Martin,\n\nNous accusons réception de votre demande de remboursement concernant les frais dentaires du 10 mars 2026.\n\nAprès analyse de votre dossier, nous vous informons que votre demande a été approuvée. Un montant de 285 $ sera versé sur votre compte bancaire dans un délai de 5 à 7 jours ouvrables.\n\nVeuillez noter que ce remboursement correspond à 80 % des frais éligibles selon votre contrat actuel. Les 20 % restants restent à votre charge conformément aux termes de votre police d'assurance.\n\nPour toute question concernant ce remboursement ou votre couverture, n'hésitez pas à contacter notre service client au 1-800-555-0123, du lundi au vendredi, de 8h00 à 17h00.\n\nCordialement,\nLe Service Clientèle\nAssurance Plus",
+    "question": "Quel pourcentage des frais est couvert par l'assurance ?",
+    "options": {
+      "A": "70 %",
+      "B": "75 %",
+      "C": "80 %",
+      "D": "100 %"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 29,
+    "section": "Section 4 - Documents administratifs / professionnels",
+    "text": "De : service.client@assuranceplus.ca\nÀ : sophie.martin@email.ca\nDate : 18 mars 2026\nObjet : Votre demande de remboursement - Référence #45678\n\nMadame Martin,\n\nNous accusons réception de votre demande de remboursement concernant les frais dentaires du 10 mars 2026.\n\nAprès analyse de votre dossier, nous vous informons que votre demande a été approuvée. Un montant de 285 $ sera versé sur votre compte bancaire dans un délai de 5 à 7 jours ouvrables.\n\nVeuillez noter que ce remboursement correspond à 80 % des frais éligibles selon votre contrat actuel. Les 20 % restants restent à votre charge conformément aux termes de votre police d'assurance.\n\nPour toute question concernant ce remboursement ou votre couverture, n'hésitez pas à contacter notre service client au 1-800-555-0123, du lundi au vendredi, de 8h00 à 17h00.\n\nCordialement,\nLe Service Clientèle\nAssurance Plus",
+    "question": "Dans quel délai le remboursement sera-t-il effectué ?",
+    "options": {
+      "A": "2 à 3 jours",
+      "B": "3 à 5 jours",
+      "C": "5 à 7 jours",
+      "D": "10 à 15 jours"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 30,
+    "section": "Section 4 - Documents administratifs / professionnels",
+    "text": "De : service.client@assuranceplus.ca\nÀ : sophie.martin@email.ca\nDate : 18 mars 2026\nObjet : Votre demande de remboursement - Référence #45678\n\nMadame Martin,\n\nNous accusons réception de votre demande de remboursement concernant les frais dentaires du 10 mars 2026.\n\nAprès analyse de votre dossier, nous vous informons que votre demande a été approuvée. Un montant de 285 $ sera versé sur votre compte bancaire dans un délai de 5 à 7 jours ouvrables.\n\nVeuillez noter que ce remboursement correspond à 80 % des frais éligibles selon votre contrat actuel. Les 20 % restants restent à votre charge conformément aux termes de votre police d'assurance.\n\nPour toute question concernant ce remboursement ou votre couverture, n'hésitez pas à contacter notre service client au 1-800-555-0123, du lundi au vendredi, de 8h00 à 17h00.\n\nCordialement,\nLe Service Clientèle\nAssurance Plus",
+    "question": "Quel type de frais concerne cette demande de remboursement ?",
+    "options": {
+      "A": "Frais médicaux généraux",
+      "B": "Frais dentaires",
+      "C": "Frais d'optique",
+      "D": "Frais de médicaments"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 31,
+    "section": "Section 4 - Documents administratifs / professionnels",
+    "text": "NOTICE D'INFORMATION - RÉUNION DE COPROPRIÉTÉ\n\nConseil d'administration de la Résidence Les Jardins\n\nChers copropriétaires,\n\nNous vous informons qu'une assemblée générale des copropriétaires se tiendra le samedi 5 avril 2026 à 10h00 dans la salle commune du rez-de-chaussée.\n\nORDRE DU JOUR :\n1. Approbation du procès-verbal de la dernière assemblée\n2. Présentation et approbation des états financiers 2025\n3. Vote du budget prévisionnel 2026-2027\n4. Discussion sur les travaux de rénovation de l'ascenseur\n5. Questions diverses\n\nDocuments disponibles à l'administration du lundi au vendredi, de 9h00 à 17h00.\n\nVotre participation est essentielle pour la bonne gestion de notre immeuble. En l'absence de quorum, l'assemblée sera reportée au samedi 12 avril à la même heure.\n\nLe Président du Conseil,\nM. Robert Chen",
+    "question": "Où se déroulera la réunion ?",
+    "options": {
+      "A": "Dans le bureau de l'administration",
+      "B": "Dans la salle commune du rez-de-chaussée",
+      "C": "Dans le hall d'entrée",
+      "D": "À l'extérieur de l'immeuble"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 32,
+    "section": "Section 4 - Documents administratifs / professionnels",
+    "text": "NOTICE D'INFORMATION - RÉUNION DE COPROPRIÉTÉ\n\nConseil d'administration de la Résidence Les Jardins\n\nChers copropriétaires,\n\nNous vous informons qu'une assemblée générale des copropriétaires se tiendra le samedi 5 avril 2026 à 10h00 dans la salle commune du rez-de-chaussée.\n\nORDRE DU JOUR :\n1. Approbation du procès-verbal de la dernière assemblée\n2. Présentation et approbation des états financiers 2025\n3. Vote du budget prévisionnel 2026-2027\n4. Discussion sur les travaux de rénovation de l'ascenseur\n5. Questions diverses\n\nDocuments disponibles à l'administration du lundi au vendredi, de 9h00 à 17h00.\n\nVotre participation est essentielle pour la bonne gestion de notre immeuble. En l'absence de quorum, l'assemblée sera reportée au samedi 12 avril à la même heure.\n\nLe Président du Conseil,\nM. Robert Chen",
+    "question": "Quel sujet figure à l'ordre du jour concernant des travaux ?",
+    "options": {
+      "A": "Rénovation de la piscine",
+      "B": "Rénovation de l'ascenseur",
+      "C": "Peinture des corridors",
+      "D": "Remplacement des fenêtres"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 33,
+    "section": "Section 5 - Article de presse",
+    "text": "LE DEVOIR - 15 mars 2026\n\nTÉLÉTRAVAIL : UN AN APRÈS LE RETOUR AU BUREAU, LES QUÉBÉCOIS RÉSISTENT\n\nPar Marie-Claude Lefrançois\n\nUn an après que les entreprises québécoises aient officiellement rouvert leurs portes en présentiel, le télétravail résiste mieux que prévu. Selon une étude de l'Institut de recherche en économie contemporaine publiée cette semaine, 42 % des travailleurs québécois continuent de travailler à domicile au moins trois jours par semaine, un chiffre supérieur aux prévisions gouvernementales.\n\nCette tendance s'inscrit dans une transformation profonde du monde du travail. Les employés, ayant goûté aux avantages du télétravail pendant la pandémie, réclament désormais une plus grande flexibilité. \"Les entreprises qui imposent un retour complet au bureau sans discussion risquent de perdre leurs meilleurs talents\", prévient l'économiste Thomas Dubois.\n\nCependant, cette évolution soulève de nouveaux défis. La frontière entre vie professionnelle et vie personnelle s'estompe pour de nombreux travailleurs, entraînant un risque accru d'épuisement professionnel. De plus, les jeunes professionnels déplorent la perte du mentorat informel et des opportunités de réseautage qu'offre le milieu de travail traditionnel.",
+    "question": "Quelle est la position de l'auteur concernant le télétravail ?",
+    "options": {
+      "A": "Positive",
+      "B": "Négative",
+      "C": "Neutre",
+      "D": "Critique"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 34,
+    "section": "Section 5 - Article de presse",
+    "text": "LE DEVOIR - 15 mars 2026\n\nTÉLÉTRAVAIL : UN AN APRÈS LE RETOUR AU BUREAU, LES QUÉBÉCOIS RÉSISTENT\n\nPar Marie-Claude Lefrançois\n\nUn an après que les entreprises québécoises aient officiellement rouvert leurs portes en présentiel, le télétravail résiste mieux que prévu. Selon une étude de l'Institut de recherche en économie contemporaine publiée cette semaine, 42 % des travailleurs québécois continuent de travailler à domicile au moins trois jours par semaine, un chiffre supérieur aux prévisions gouvernementales.\n\nCette tendance s'inscrit dans une transformation profonde du monde du travail. Les employés, ayant goûté aux avantages du télétravail pendant la pandémie, réclament désormais une plus grande flexibilité. \"Les entreprises qui imposent un retour complet au bureau sans discussion risquent de perdre leurs meilleurs talents\", prévient l'économiste Thomas Dubois.\n\nCependant, cette évolution soulève de nouveaux défis. La frontière entre vie professionnelle et vie personnelle s'estompe pour de nombreux travailleurs, entraînant un risque accru d'épuisement professionnel. De plus, les jeunes professionnels déplorent la perte du mentorat informel et des opportunités de réseautage qu'offre le milieu de travail traditionnel.",
+    "question": "Selon l'étude citée, quel pourcentage de travailleurs québécois continue de télétravailler au moins trois jours par semaine ?",
+    "options": {
+      "A": "32 %",
+      "B": "38 %",
+      "C": "42 %",
+      "D": "50 %"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 35,
+    "section": "Section 5 - Article de presse",
+    "text": "LE DEVOIR - 15 mars 2026\n\nTÉLÉTRAVAIL : UN AN APRÈS LE RETOUR AU BUREAU, LES QUÉBÉCOIS RÉSISTENT\n\nPar Marie-Claude Lefrançois\n\nUn an après que les entreprises québécoises aient officiellement rouvert leurs portes en présentiel, le télétravail résiste mieux que prévu. Selon une étude de l'Institut de recherche en économie contemporaine publiée cette semaine, 42 % des travailleurs québécois continuent de travailler à domicile au moins trois jours par semaine, un chiffre supérieur aux prévisions gouvernementales.\n\nCette tendance s'inscrit dans une transformation profonde du monde du travail. Les employés, ayant goûté aux avantages du télétravail pendant la pandémie, réclament désormais une plus grande flexibilité. \"Les entreprises qui imposent un retour complet au bureau sans discussion risquent de perdre leurs meilleurs talents\", prévient l'économiste Thomas Dubois.\n\nCependant, cette évolution soulève de nouveaux défis. La frontière entre vie professionnelle et vie personnelle s'estompe pour de nombreux travailleurs, entraînant un risque accru d'épuisement professionnel. De plus, les jeunes professionnels déplorent la perte du mentorat informel et des opportunités de réseautage qu'offre le milieu de travail traditionnel.",
+    "question": "Quel risque le télétravail fait-il courir selon l'article ?",
+    "options": {
+      "A": "La perte d'emploi",
+      "B": "L'épuisement professionnel",
+      "C": "La baisse de salaire",
+      "D": "Le déménagement forcé"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 36,
+    "section": "Section 5 - Article de presse",
+    "text": "LE DEVOIR - 15 mars 2026\n\nTÉLÉTRAVAIL : UN AN APRÈS LE RETOUR AU BUREAU, LES QUÉBÉCOIS RÉSISTENT\n\nPar Marie-Claude Lefrançois\n\nUn an après que les entreprises québécoises aient officiellement rouvert leurs portes en présentiel, le télétravail résiste mieux que prévu. Selon une étude de l'Institut de recherche en économie contemporaine publiée cette semaine, 42 % des travailleurs québécois continuent de travailler à domicile au moins trois jours par semaine, un chiffre supérieur aux prévisions gouvernementales.\n\nCette tendance s'inscrit dans une transformation profonde du monde du travail. Les employés, ayant goûté aux avantages du télétravail pendant la pandémie, réclament désormais une plus grande flexibilité. \"Les entreprises qui imposent un retour complet au bureau sans discussion risquent de perdre leurs meilleurs talents\", prévient l'économiste Thomas Dubois.\n\nCependant, cette évolution soulève de nouveaux défis. La frontière entre vie professionnelle et vie personnelle s'estompe pour de nombreux travailleurs, entraînant un risque accru d'épuisement professionnel. De plus, les jeunes professionnels déplorent la perte du mentorat informel et des opportunités de réseautage qu'offre le milieu de travail traditionnel.",
+    "question": "Que déplorent les jeunes professionnels concernant le télétravail ?",
+    "options": {
+      "A": "Le manque de salaire",
+      "B": "La perte du mentorat et du réseautage",
+      "C": "Les longs trajets",
+      "D": "Le bruit à la maison"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 37,
+    "section": "Section 5 - Article de presse",
+    "text": "LA PRESSE - 12 mars 2026\n\nMONTRÉAL INAUGURE SA PREMIÈRE PISTE CYCLABLE PROTÉGÉE DANS LE VIEUX-PORT\n\nPar Antoine Girard\n\nLa Ville de Montréal a inauguré hier sa première piste cyclable entièrement protégée, s'étendant sur 2,5 kilomètres le long du Vieux-Port. Ce projet phare du Plan de mobilité durable 2025-2030 représente un investissement de 4,2 millions de dollars.\n\n\"Cette infrastructure répond à une demande croissante des citoyens pour des déplacements sécuritaires et écologiques\", a déclaré la mairesse lors de l'inauguration. La piste, séparée de la circulation automobile par des bollards et des jardinières, devrait accueillir près de 5 000 cyclistes par jour durant la saison estivale.\n\nLes réactions des usagers sont partagées. Si les cyclistes se réjouissent de cette nouvelle infrastructure, certains commerçants du secteur craignent une diminution du stationnement et, par conséquent, de leur clientèle. L'administration municipale a toutefois assuré que des mesures d'accompagnement seraient mises en place pour soutenir les entreprises locales.\n\nD'autres projets similaires sont prévus dans les arrondissements du Plateau-Mont-Royal et de Rosemont d'ici 2027.",
+    "question": "Quelle est l'idée principale de cet article ?",
+    "options": {
+      "A": "Les commerçants sont mécontents",
+      "B": "Montréal inaugure une nouvelle piste cyclable protégée",
+      "C": "Le stationnement est un problème majeur",
+      "D": "Les cyclistes sont nombreux à Montréal"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 38,
+    "section": "Section 5 - Article de presse",
+    "text": "LA PRESSE - 12 mars 2026\n\nMONTRÉAL INAUGURE SA PREMIÈRE PISTE CYCLABLE PROTÉGÉE DANS LE VIEUX-PORT\n\nPar Antoine Girard\n\nLa Ville de Montréal a inauguré hier sa première piste cyclable entièrement protégée, s'étendant sur 2,5 kilomètres le long du Vieux-Port. Ce projet phare du Plan de mobilité durable 2025-2030 représente un investissement de 4,2 millions de dollars.\n\n\"Cette infrastructure répond à une demande croissante des citoyens pour des déplacements sécuritaires et écologiques\", a déclaré la mairesse lors de l'inauguration. La piste, séparée de la circulation automobile par des bollards et des jardinières, devrait accueillir près de 5 000 cyclistes par jour durant la saison estivale.\n\nLes réactions des usagers sont partagées. Si les cyclistes se réjouissent de cette nouvelle infrastructure, certains commerçants du secteur craignent une diminution du stationnement et, par conséquent, de leur clientèle. L'administration municipale a toutefois assuré que des mesures d'accompagnement seraient mises en place pour soutenir les entreprises locales.\n\nD'autres projets similaires sont prévus dans les arrondissements du Plateau-Mont-Royal et de Rosemont d'ici 2027.",
+    "question": "Quel est le montant de l'investissement pour ce projet ?",
+    "options": {
+      "A": "2,5 millions de dollars",
+      "B": "3 millions de dollars",
+      "C": "4,2 millions de dollars",
+      "D": "5 millions de dollars"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_id": 39,
+    "section": "Section 5 - Article de presse",
+    "text": "LA PRESSE - 12 mars 2026\n\nMONTRÉAL INAUGURE SA PREMIÈRE PISTE CYCLABLE PROTÉGÉE DANS LE VIEUX-PORT\n\nPar Antoine Girard\n\nLa Ville de Montréal a inauguré hier sa première piste cyclable entièrement protégée, s'étendant sur 2,5 kilomètres le long du Vieux-Port. Ce projet phare du Plan de mobilité durable 2025-2030 représente un investissement de 4,2 millions de dollars.\n\n\"Cette infrastructure répond à une demande croissante des citoyens pour des déplacements sécuritaires et écologiques\", a déclaré la mairesse lors de l'inauguration. La piste, séparée de la circulation automobile par des bollards et des jardinières, devrait accueillir près de 5 000 cyclistes par jour durant la saison estivale.\n\nLes réactions des usagers sont partagées. Si les cyclistes se réjouissent de cette nouvelle infrastructure, certains commerçants du secteur craignent une diminution du stationnement et, par conséquent, de leur clientèle. L'administration municipale a toutefois assuré que des mesures d'accompagnement seraient mises en place pour soutenir les entreprises locales.\n\nD'autres projets similaires sont prévus dans les arrondissements du Plateau-Mont-Royal et de Rosemont d'ici 2027.",
+    "question": "Quelle est la préoccupation des commerçants mentionnée dans l'article ?",
+    "options": {
+      "A": "La hausse des taxes",
+      "B": "La diminution du stationnement",
+      "C": "Le bruit des cyclistes",
+      "D": "La fermeture de leurs magasins"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_id": 40,
+    "section": "Section 5 - Article de presse",
+    "text": "LA PRESSE - 12 mars 2026\n\nMONTRÉAL INAUGURE SA PREMIÈRE PISTE CYCLABLE PROTÉGÉE DANS LE VIEUX-PORT\n\nPar Antoine Girard\n\nLa Ville de Montréal a inauguré hier sa première piste cyclable entièrement protégée, s'étendant sur 2,5 kilomètres le long du Vieux-Port. Ce projet phare du Plan de mobilité durable 2025-2030 représente un investissement de 4,2 millions de dollars.\n\n\"Cette infrastructure répond à une demande croissante des citoyens pour des déplacements sécuritaires et écologiques\", a déclaré la mairesse lors de l'inauguration. La piste, séparée de la circulation automobile par des bollards et des jardinières, devrait accueillir près de 5 000 cyclistes par jour durant la saison estivale.\n\nLes réactions des usagers sont partagées. Si les cyclistes se réjouissent de cette nouvelle infrastructure, certains commerçants du secteur craignent une diminution du stationnement et, par conséquent, de leur clientèle. L'administration municipale a toutefois assuré que des mesures d'accompagnement seraient mises en place pour soutenir les entreprises locales.\n\nD'autres projets similaires sont prévus dans les arrondissements du Plateau-Mont-Royal et de Rosemont d'ici 2027.",
+    "question": "Où d'autres projets similaires sont-ils prévus ?",
+    "options": {
+      "A": "Dans le centre-ville uniquement",
+      "B": "Dans le Vieux-Montréal",
+      "C": "Dans les arrondissements du Plateau-Mont-Royal et de Rosemont",
+      "D": "Dans tout le Grand Montréal"
+    },
+    "correct_answer": "C"
+  }
+]

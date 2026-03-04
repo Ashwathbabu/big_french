@@ -1,0 +1,1552 @@
+﻿[
+  {
+    "id": 1,
+    "section": "A",
+    "theme": "Daily activities",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne court dans le parc", "image_prompt": "A person running in a green park, sunny day" },
+      { "id": "B", "text": "Une personne fait du vélo", "image_prompt": "A person riding a bicycle on a city path" },
+      { "id": "C", "text": "Une personne nage", "image_prompt": "A person swimming in a blue pool" },
+      { "id": "D", "text": "Une personne marche avec un chien", "image_prompt": "A person walking a golden retriever in a park" }
+    ],
+    "correct": 0,
+    "transcript_fr": "J'adore commencer ma journée par un petit footing au parc quand il fait beau.",
+    "transcript_en": "I love starting my day with a quick jog in the park when the weather is nice.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["J'adore commencer ma journée par un petit footing au parc quand il fait beau."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "A",
+    "theme": "Transportation",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un autobus scolaire", "image_prompt": "A yellow school bus on a street" },
+      { "id": "B", "text": "Un métro souterrain", "image_prompt": "A subway train arriving at an underground station" },
+      { "id": "C", "text": "Un taxi", "image_prompt": "A yellow taxi cab on a city street" },
+      { "id": "D", "text": "Un avion à l'aéroport", "image_prompt": "A commercial airplane at an airport gate" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Je prends toujours le métro pour aller travailler, c'est plus rapide que l'autobus.",
+    "transcript_en": "I always take the subway to go to work, it's faster than the bus.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je prends toujours le métro pour aller travailler, c'est plus rapide que l'autobus."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "A",
+    "theme": "Food and dining",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une pizza", "image_prompt": "A hot pizza with cheese and pepperoni" },
+      { "id": "B", "text": "Un sandwich", "image_prompt": "A fresh sandwich with lettuce and tomatoes" },
+      { "id": "C", "text": "Une salade", "image_prompt": "A fresh green salad in a bowl" },
+      { "id": "D", "text": "Un bol de soupe", "image_prompt": "A steaming bowl of soup" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Pour le dîner, je vais préparer une grande salade avec des légumes frais du marché.",
+    "transcript_en": "For dinner, I'm going to prepare a big salad with fresh vegetables from the market.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Pour le dîner, je vais préparer une grande salade avec des légumes frais du marché."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "section": "A",
+    "theme": "Weather",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Il neige", "image_prompt": "Snow falling on a winter landscape" },
+      { "id": "B", "text": "Il pleut", "image_prompt": "Rain falling on a city street with umbrellas" },
+      { "id": "C", "text": "Il fait soleil", "image_prompt": "Bright sunny day with clear blue sky" },
+      { "id": "D", "text": "Il y a du brouillard", "image_prompt": "Foggy morning with low visibility" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Attention sur les routes ce matin, le brouillard est très épais dans la région.",
+    "transcript_en": "Be careful on the roads this morning, the fog is very thick in the area.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Attention sur les routes ce matin, le brouillard est très épais dans la région."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "A",
+    "theme": "Shopping",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un supermarché", "image_prompt": "Interior of a grocery supermarket with aisles" },
+      { "id": "B", "text": "Une pharmacie", "image_prompt": "Exterior of a pharmacy with green cross sign" },
+      { "id": "C", "text": "Une librairie", "image_prompt": "Interior of a bookstore with shelves of books" },
+      { "id": "D", "text": "Un magasin de vêtements", "image_prompt": "Clothing store with racks of clothes" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Je dois passer au supermarché acheter du lait et du pain pour ce soir.",
+    "transcript_en": "I need to stop by the supermarket to buy milk and bread for tonight.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je dois passer au supermarché acheter du lait et du pain pour ce soir."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "section": "A",
+    "theme": "Work",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une réunion au bureau", "image_prompt": "Business meeting in a conference room" },
+      { "id": "B", "text": "Quelqu'un qui travaille à la maison", "image_prompt": "Person working on laptop at home office" },
+      { "id": "C", "text": "Un ouvrier sur un chantier", "image_prompt": "Construction worker at a building site" },
+      { "id": "D", "text": "Un serveur au restaurant", "image_prompt": "Waiter serving customers in a restaurant" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Aujourd'hui je travaille de la maison, j'ai trop de dossiers à finir.",
+    "transcript_en": "Today I'm working from home, I have too many files to finish.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Aujourd'hui je travaille de la maison, j'ai trop de dossiers à finir."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "section": "B",
+    "theme": "Daily activities",
+    "question": "Que fait la femme ce weekend ?",
+    "options": [
+      { "id": "A", "text": "Elle va au cinéma", "image_prompt": "" },
+      { "id": "B", "text": "Elle visite ses parents", "image_prompt": "" },
+      { "id": "C", "text": "Elle reste à la maison", "image_prompt": "" },
+      { "id": "D", "text": "Elle fait du shopping", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: Salut Marie, tu fais quoi ce weekend? Femme: Salut Pierre, je vais visiter mes parents à Québec. Homme: Ah bon? Ils habitent toujours là-bas? Femme: Oui, depuis vingt ans déjà. Homme: C'est loin en voiture? Femme: Oui, environ trois heures de route. Homme: Bon voyage alors! Femme: Merci, à lundi!",
+    "transcript_en": "Man: Hi Marie, what are you doing this weekend? Woman: Hi Pierre, I'm going to visit my parents in Quebec City. Man: Oh really? Do they still live there? Woman: Yes, for twenty years already. Man: Is it far by car? Woman: Yes, about three hours drive. Man: Have a good trip then! Woman: Thanks, see you Monday!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Salut Marie, tu fais quoi ce weekend?"],
+        "female_lines": ["Salut Pierre, je vais visiter mes parents à Québec."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Ah bon? Ils habitent toujours là-bas?"],
+        "female_lines": ["Oui, depuis vingt ans déjà."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est loin en voiture?"],
+        "female_lines": ["Oui, environ trois heures de route."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Bon voyage alors!"],
+        "female_lines": ["Merci, à lundi!"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "section": "B",
+    "theme": "Shopping",
+    "question": "Qu'est-ce que l'homme veut acheter ?",
+    "options": [
+      { "id": "A", "text": "Un cadeau pour sa femme", "image_prompt": "" },
+      { "id": "B", "text": "Un cadeau pour sa mère", "image_prompt": "" },
+      { "id": "C", "text": "Un cadeau pour sa sœur", "image_prompt": "" },
+      { "id": "D", "text": "Un cadeau pour sa fille", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme: Bonjour monsieur, je peux vous aider? Homme: Oui, je cherche un cadeau pour ma sœur. Femme: C'est pour quelle occasion? Homme: C'est son anniversaire demain. Femme: Elle aime quoi comme style? Homme: Elle préfère les choses simples et élégantes. Femme: Je vous propose ce foulard en soie. Homme: C'est parfait, je le prends. Femme: Voulez-vous un emballage cadeau? Homme: Oui, s'il vous plaît.",
+    "transcript_en": "Woman: Hello sir, can I help you? Man: Yes, I'm looking for a gift for my sister. Woman: What occasion is it for? Man: It's her birthday tomorrow. Woman: What style does she like? Man: She prefers simple and elegant things. Woman: I suggest this silk scarf. Man: That's perfect, I'll take it. Woman: Would you like gift wrapping? Man: Yes, please.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Oui, je cherche un cadeau pour ma sœur."],
+        "female_lines": ["Bonjour monsieur, je peux vous aider?", "C'est pour quelle occasion?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est son anniversaire demain."],
+        "female_lines": ["Elle aime quoi comme style?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Elle préfère les choses simples et élégantes."],
+        "female_lines": ["Je vous propose ce foulard en soie."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["C'est parfait, je le prends.", "Oui, s'il vous plaît."],
+        "female_lines": ["Voulez-vous un emballage cadeau?"]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "section": "B",
+    "theme": "Restaurant",
+    "question": "Qu'est-ce que la femme commande ?",
+    "options": [
+      { "id": "A", "text": "Un steak et des frites", "image_prompt": "" },
+      { "id": "B", "text": "Un poulet rôti", "image_prompt": "" },
+      { "id": "C", "text": "Une salade César", "image_prompt": "" },
+      { "id": "D", "text": "Un sandwich au jambon", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: Madame, vous avez choisi? Femme: Oui, je voudrais la salade César comme entrée. Homme: Très bon choix. Et comme plat principal? Femme: Je prendrai le poulet rôti avec des légumes. Homme: Comment voulez-vous votre poulet? Femme: Bien cuit, s'il vous plaît. Homme: Et pour boire? Femme: Un verre d'eau plate. Homme: Parfait, je note tout de suite.",
+    "transcript_en": "Man: Madam, have you decided? Woman: Yes, I would like the Caesar salad as a starter. Man: Very good choice. And for the main course? Woman: I'll have the roast chicken with vegetables. Man: How would you like your chicken? Woman: Well done, please. Man: And to drink? Woman: A glass of still water. Man: Perfect, I'll write that down right away.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Madame, vous avez choisi?"],
+        "female_lines": ["Oui, je voudrais la salade César comme entrée."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Très bon choix. Et comme plat principal?"],
+        "female_lines": ["Je prendrai le poulet rôti avec des légumes."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Comment voulez-vous votre poulet?"],
+        "female_lines": ["Bien cuit, s'il vous plaît."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Et pour boire?", "Parfait, je note tout de suite."],
+        "female_lines": ["Un verre d'eau plate."]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "section": "B",
+    "theme": "Transportation",
+    "question": "Quel moyen de transport l'homme prend-il ?",
+    "options": [
+      { "id": "A", "text": "Le train", "image_prompt": "" },
+      { "id": "B", "text": "L'autobus", "image_prompt": "" },
+      { "id": "C", "text": "Le taxi", "image_prompt": "" },
+      { "id": "D", "text": "Son vélo", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme: Tu vas à Montréal demain? Homme: Oui, je prends le train de 8h. Femme: C'est combien de temps le trajet? Homme: Environ deux heures trente. Femme: Tu as déjà acheté ton billet? Homme: Oui, je l'ai réservé en ligne hier. Femme: Tu reviens quand? Homme: Le soir même, vers 19h. Femme: Bon voyage alors!",
+    "transcript_en": "Woman: Are you going to Montreal tomorrow? Man: Yes, I'm taking the 8 o'clock train. Woman: How long is the trip? Man: About two hours thirty. Woman: Have you already bought your ticket? Man: Yes, I booked it online yesterday. Woman: When are you coming back? Man: The same evening, around 7 PM. Woman: Have a good trip then!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Oui, je prends le train de 8h."],
+        "female_lines": ["Tu vas à Montréal demain?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Environ deux heures trente."],
+        "female_lines": ["C'est combien de temps le trajet?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Oui, je l'ai réservé en ligne hier."],
+        "female_lines": ["Tu as déjà acheté ton billet?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Le soir même, vers 19h."],
+        "female_lines": ["Tu reviens quand?", "Bon voyage alors!"]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "section": "C",
+    "theme": "Public announcement",
+    "question": "Quel est le sujet principal de cette annonce ?",
+    "options": [
+      { "id": "A", "text": "Un changement d'horaire de bus", "image_prompt": "" },
+      { "id": "B", "text": "Une fermeture temporaire de route", "image_prompt": "" },
+      { "id": "C", "text": "Une panne de courant", "image_prompt": "" },
+      { "id": "D", "text": "Un événement sportif", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Attention aux usagers de la route. La rue Saint-Joseph sera fermée à la circulation entre les avenues Papineau et D'Iberville du lundi 15 au vendredi 19 mai, de 8h à 17h, pour des travaux de réparation d'aqueduc. Les détours seront signalés par des panneaux oranges. Les autobus des lignes 45 et 67 seront déviés par le boulevard René-Lévesque. Nous vous recommandons d'éviter le secteur si possible et d'utiliser les transports en commun. Merci de votre compréhension.",
+    "transcript_en": "Attention road users. Saint-Joseph Street will be closed to traffic between Papineau and D'Iberville avenues from Monday May 15 to Friday May 19, from 8 AM to 5 PM, for aqueduct repair work. Detours will be indicated by orange signs. Buses on lines 45 and 67 will be diverted via René-Lévesque Boulevard. We recommend avoiding the area if possible and using public transportation. Thank you for your understanding.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Attention aux usagers de la route. La rue Saint-Joseph sera fermée à la circulation entre les avenues Papineau et D'Iberville du lundi 15 au vendredi 19 mai, de 8h à 17h, pour des travaux de réparation d'aqueduc."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "section": "C",
+    "theme": "Public announcement",
+    "question": "Quel service est annoncé ?",
+    "options": [
+      { "id": "A", "text": "Une nouvelle bibliothèque", "image_prompt": "" },
+      { "id": "B", "text": "Un centre de recyclage", "image_prompt": "" },
+      { "id": "C", "text": "Une clinique médicale", "image_prompt": "" },
+      { "id": "D", "text": "Une piscine municipale", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Chers citoyens, la piscine municipale du parc Lafontaine ouvrira ses portes ce samedi 24 juin pour la saison estivale. Les heures d'ouverture seront de 10h à 20h du lundi au dimanche. Des cours de natation pour enfants et adultes seront offerts à partir du 3 juillet. Les inscriptions se font en ligne sur notre site web ou sur place à l'accueil. Le prix d'entrée est de cinq dollars pour les adultes et trois dollars pour les enfants. N'oubliez pas votre maillot et votre serviette!",
+    "transcript_en": "Dear citizens, the Lafontaine Park municipal pool will open its doors this Saturday, June 24 for the summer season. Opening hours will be from 10 AM to 8 PM Monday through Sunday. Swimming lessons for children and adults will be offered starting July 3. Registration is done online on our website or on-site at the reception. The entrance fee is five dollars for adults and three dollars for children. Don't forget your swimsuit and towel!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers citoyens, la piscine municipale du parc Lafontaine ouvrira ses portes ce samedi 24 juin pour la saison estivale. Les heures d'ouverture seront de 10h à 20h du lundi au dimanche."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "section": "C",
+    "theme": "Public announcement",
+    "question": "Quel est l'objet de ce message ?",
+    "options": [
+      { "id": "A", "text": "Une alerte météorologique", "image_prompt": "" },
+      { "id": "B", "text": "Une offre d'emploi", "image_prompt": "" },
+      { "id": "C", "text": "Un avis de recherche", "image_prompt": "" },
+      { "id": "D", "text": "Un rappel de rendez-vous", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Environnement Canada émet un avertissement de pluie verglaçante pour la région de Montréal et ses environs. Des précipitations verglaçantes commenceront ce soir vers 19h et pourraient persister jusqu'à demain matin. Les accumulations de glace pourraient atteindre cinq millimètres sur les surfaces exposées. Les routes et trottoirs deviendront glissants et dangereux. Évitez les déplacements non essentiels. Si vous devez conduire, réduisez votre vitesse et augmentez la distance de freinage. Restez à l'intérieur si possible.",
+    "transcript_en": "Environment Canada is issuing a freezing rain warning for the Montreal region and surrounding areas. Freezing precipitation will begin this evening around 7 PM and could persist until tomorrow morning. Ice accumulations could reach five millimeters on exposed surfaces. Roads and sidewalks will become slippery and dangerous. Avoid non-essential travel. If you must drive, reduce your speed and increase braking distance. Stay indoors if possible.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Environnement Canada émet un avertissement de pluie verglaçante pour la région de Montréal et ses environs. Des précipitations verglaçantes commenceront ce soir vers 19h et pourraient persister jusqu'à demain matin."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "section": "C",
+    "theme": "Public announcement",
+    "question": "Quel événement est annoncé ?",
+    "options": [
+      { "id": "A", "text": "Un concert de musique classique", "image_prompt": "" },
+      { "id": "B", "text": "Un festival de jazz", "image_prompt": "" },
+      { "id": "C", "text": "Une exposition d'art", "image_prompt": "" },
+      { "id": "D", "text": "Un marché fermier", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Le Festival International de Jazz de Montréal est de retour du 29 juin au 9 juillet au Quartier des Spectacles. Cette édition mettra en vedette plus de trois cents concerts sur douze scènes extérieures gratuites et huit salles de spectacle payantes. Parmi les têtes d'affiche, on retrouve Diana Krall, Gregory Porter et plusieurs artistes québécois émergents. Les billets pour les spectacles en salle sont en vente dès maintenant sur notre site officiel. Venez nombreux célébrer la musique avec nous sous les étoiles de Montréal!",
+    "transcript_en": "The Montreal International Jazz Festival is back from June 29 to July 9 at the Quartier des Spectacles. This edition will feature more than three hundred concerts on twelve free outdoor stages and eight paid concert halls. Among the headliners are Diana Krall, Gregory Porter and several emerging Quebec artists. Tickets for indoor shows are on sale now on our official website. Come celebrate music with us under the stars of Montreal!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le Festival International de Jazz de Montréal est de retour du 29 juin au 9 juillet au Quartier des Spectacles. Cette édition mettra en vedette plus de trois cents concerts sur douze scènes extérieures gratuites et huit salles de spectacle payantes."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "section": "C",
+    "theme": "Public announcement",
+    "question": "Quel service sera interrompu ?",
+    "options": [
+      { "id": "A", "text": "L'eau potable", "image_prompt": "" },
+      { "id": "B", "text": "L'électricité", "image_prompt": "" },
+      { "id": "C", "text": "Le gaz naturel", "image_prompt": "" },
+      { "id": "D", "text": "Le téléphone", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Hydro-Québec informe ses clients que des travaux d'entretien sur le réseau électrique nécessiteront une interruption de service le mercredi 12 avril, de 9h à 14h, dans les secteurs de Rosemont et Petite-Patrie. Cette coupure affectera environ deux mille résidences et commerces. Nous recommandons de débrancher vos appareils électroniques sensibles avant 9h. Le service sera rétabli progressivement après 14h. Pour toute question, contactez notre centre de service au 1-800-790-2424. Nous vous prions de nous excuser pour ce désagrément.",
+    "transcript_en": "Hydro-Québec informs its customers that maintenance work on the electrical network will require a service interruption on Wednesday, April 12, from 9 AM to 2 PM, in the Rosemont and Petite-Patrie areas. This outage will affect approximately two thousand residences and businesses. We recommend unplugging your sensitive electronic devices before 9 AM. Service will be gradually restored after 2 PM. For any questions, contact our service center at 1-800-790-2424. We apologize for this inconvenience.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Hydro-Québec informe ses clients que des travaux d'entretien sur le réseau électrique nécessiteront une interruption de service le mercredi 12 avril, de 9h à 14h, dans les secteurs de Rosemont et Petite-Patrie."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "section": "C",
+    "theme": "Public announcement",
+    "question": "Quel est le but de ce message ?",
+    "options": [
+      { "id": "A", "text": "Recruter des bénévoles", "image_prompt": "" },
+      { "id": "B", "text": "Vendre des billets", "image_prompt": "" },
+      { "id": "C", "text": "Collecter des fonds", "image_prompt": "" },
+      { "id": "D", "text": "Informer d'une réunion", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "La banque alimentaire de Montréal recherche des bénévoles pour son prochain événement de collecte de denrées. Nous avons besoin de cinquante personnes pour distribuer des sacs et récolter des dons dans les supermarchés de l'île ce samedi 20 mai, de 10h à 16h. Aucune expérience n'est requise, seulement votre bonne humeur et votre envie d'aider. Un repas sera offert à tous les participants. Pour vous inscrire, appelez le 514-555-0123 ou envoyez un courriel à benevoles@banquealimentaire.ca. Ensemble, luttons contre la faim dans notre communauté!",
+    "transcript_en": "The Montreal Food Bank is looking for volunteers for its next food collection event. We need fifty people to distribute bags and collect donations in supermarkets across the island this Saturday, May 20, from 10 AM to 4 PM. No experience is required, just your good mood and desire to help. A meal will be offered to all participants. To register, call 514-555-0123 or send an email to benevoles@banquealimentaire.ca. Together, let's fight hunger in our community!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La banque alimentaire de Montréal recherche des bénévoles pour son prochain événement de collecte de denrées. Nous avons besoin de cinquante personnes pour distribuer des sacs et récolter des dons dans les supermarchés de l'île ce samedi 20 mai, de 10h à 16h."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "section": "D",
+    "theme": "Identifying intention",
+    "question": "Quelle est l'intention de la femme ?",
+    "options": [
+      { "id": "A", "text": "Demander des conseils", "image_prompt": "" },
+      { "id": "B", "text": "Se plaindre", "image_prompt": "" },
+      { "id": "C", "text": "Faire une suggestion", "image_prompt": "" },
+      { "id": "D", "text": "Refuser une invitation", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: Tu veux aller au cinéma ce soir? Femme: Pourquoi pas, mais il fait si beau dehors. Homme: Tu préfères faire autre chose? Femme: On pourrait aller faire un pique-nique au parc. Homme: Bonne idée, il y a du soleil. Femme: J'apporterai la salade et les sandwichs. Homme: Et moi, je prendrai les boissons. Femme: Parfait, on se retrouve à 18h? Homme: D'accord, à tout à l'heure!",
+    "transcript_en": "Man: Do you want to go to the movies tonight? Woman: Why not, but it's so nice outside. Man: Would you prefer to do something else? Woman: We could go for a picnic in the park. Man: Good idea, it's sunny. Woman: I'll bring the salad and sandwiches. Man: And I'll bring the drinks. Woman: Perfect, shall we meet at 6 PM? Man: Okay, see you later!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Tu veux aller au cinéma ce soir?", "Tu préfères faire autre chose?"],
+        "female_lines": ["Pourquoi pas, mais il fait si beau dehors."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["On pourrait aller faire un pique-nique au parc."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Bonne idée, il y a du soleil.", "Et moi, je prendrai les boissons."],
+        "female_lines": ["J'apporterai la salade et les sandwichs."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["D'accord, à tout à l'heure!"],
+        "female_lines": ["Parfait, on se retrouve à 18h?"]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "section": "D",
+    "theme": "Identifying intention",
+    "question": "Quelle est l'intention de l'homme ?",
+    "options": [
+      { "id": "A", "text": "Demander un service", "image_prompt": "" },
+      { "id": "B", "text": "Exprimer sa gratitude", "image_prompt": "" },
+      { "id": "C", "text": "S'excuser", "image_prompt": "" },
+      { "id": "D", "text": "Faire une réclamation", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme: Allô, Marie à l'appareil. Homme: Bonjour Marie, c'est Jean. Comment vas-tu? Femme: Ça va bien, et toi? Homme: Écoute, je voulais te demander un service. Femme: Dis-moi tout. Homme: Peux-tu garder mon chien ce weekend? Femme: Avec plaisir, j'adore les animaux. Homme: Tu es vraiment gentille. Femme: C'est quand exactement? Homme: Samedi matin jusqu'à dimanche soir. Femme: Pas de problème, amène-le samedi.",
+    "transcript_en": "Woman: Hello, Marie speaking. Man: Hello Marie, it's Jean. How are you? Woman: I'm well, and you? Man: Listen, I wanted to ask you a favor. Woman: Tell me. Man: Can you watch my dog this weekend? Woman: With pleasure, I love animals. Man: You're really kind. Woman: When exactly? Man: Saturday morning until Sunday evening. Woman: No problem, bring him Saturday.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour Marie, c'est Jean. Comment vas-tu?", "Écoute, je voulais te demander un service."],
+        "female_lines": ["Allô, Marie à l'appareil.", "Ça va bien, et toi?", "Dis-moi tout."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Peux-tu garder mon chien ce weekend?"],
+        "female_lines": ["Avec plaisir, j'adore les animaux."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Tu es vraiment gentille.", "Samedi matin jusqu'à dimanche soir."],
+        "female_lines": ["C'est quand exactement?"]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Pas de problème, amène-le samedi."]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "section": "D",
+    "theme": "Identifying intention",
+    "question": "Quelle est l'intention de la femme ?",
+    "options": [
+      { "id": "A", "text": "Donner son opinion", "image_prompt": "" },
+      { "id": "B", "text": "Exprimer son désaccord", "image_prompt": "" },
+      { "id": "C", "text": "Demander des explications", "image_prompt": "" },
+      { "id": "D", "text": "Accepter une proposition", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: Je pense qu'on devrait acheter cette voiture d'occasion. Femme: Elle a cent mille kilomètres au compteur. Homme: Mais le prix est très intéressant. Femme: Oui, mais elle risque d'avoir des problèmes mécaniques. Homme: Le vendeur dit qu'elle est en bon état. Femme: Je ne suis pas convaincue, on devrait voir autre chose. Homme: Tu as peut-être raison. Femme: Cherchons un modèle plus récent.",
+    "transcript_en": "Man: I think we should buy this used car. Woman: It has one hundred thousand kilometers on the odometer. Man: But the price is very interesting. Woman: Yes, but it might have mechanical problems. Man: The seller says it's in good condition. Woman: I'm not convinced, we should look at something else. Man: You might be right. Woman: Let's look for a more recent model.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je pense qu'on devrait acheter cette voiture d'occasion."],
+        "female_lines": ["Elle a cent mille kilomètres au compteur."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Mais le prix est très intéressant."],
+        "female_lines": ["Oui, mais elle risque d'avoir des problèmes mécaniques."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le vendeur dit qu'elle est en bon état.", "Tu as peut-être raison."],
+        "female_lines": ["Je ne suis pas convaincue, on devrait voir autre chose."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Cherchons un modèle plus récent."]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "section": "D",
+    "theme": "Identifying intention",
+    "question": "Quelle est l'intention de l'homme ?",
+    "options": [
+      { "id": "A", "text": "Faire une promesse", "image_prompt": "" },
+      { "id": "B", "text": "Exprimer ses doutes", "image_prompt": "" },
+      { "id": "C", "text": "Confirmer une information", "image_prompt": "" },
+      { "id": "D", "text": "Changer de sujet", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme: Tu es sûr que le train part à 14h? Homme: Oui, j'ai vérifié sur le site de la gare. Femme: Et il arrive directement à Québec? Homme: Exact, sans correspondance. Femme: Combien de temps dure le trajet? Homme: Trois heures quinze minutes. Femme: Tu as réservé nos places? Homme: Oui, places côté fenêtre comme tu voulais. Femme: Parfait, merci de vérifier.",
+    "transcript_en": "Woman: Are you sure the train leaves at 2 PM? Man: Yes, I checked on the station website. Woman: And does it arrive directly in Quebec City? Man: Exactly, no transfer. Woman: How long is the trip? Man: Three hours fifteen minutes. Woman: Did you reserve our seats? Man: Yes, window seats as you wanted. Woman: Perfect, thanks for checking.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Oui, j'ai vérifié sur le site de la gare."],
+        "female_lines": ["Tu es sûr que le train part à 14h?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Exact, sans correspondance."],
+        "female_lines": ["Et il arrive directement à Québec?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Trois heures quinze minutes.", "Oui, places côté fenêtre comme tu voulais."],
+        "female_lines": ["Combien de temps dure le trajet?", "Tu as réservé nos places?"]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Parfait, merci de vérifier."]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "section": "D",
+    "theme": "Identifying intention",
+    "question": "Quelle est l'intention de la femme ?",
+    "options": [
+      { "id": "A", "text": "Offrir de l'aide", "image_prompt": "" },
+      { "id": "B", "text": "Se renseigner sur un prix", "image_prompt": "" },
+      { "id": "C", "text": "Se plaindre de la qualité", "image_prompt": "" },
+      { "id": "D", "text": "Commander un produit", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Homme: Bonjour, bienvenue chez Électro-Plus. Femme: Bonjour, je voudrais acheter un nouveau téléphone. Homme: Quel modèle vous intéresse? Femme: Le dernier iPhone, s'il vous plaît. Homme: Nous l'avons en stock en noir et en blanc. Femme: Je prendrai le noir avec deux cent cinquante-six gigas. Homme: Voulez-vous l'assurance avec? Femme: Non merci, juste le téléphone. Homme: Ça fait mille deux cents dollars. Femme: Voilà, payez par carte.",
+    "transcript_en": "Man: Hello, welcome to Electro-Plus. Woman: Hello, I would like to buy a new phone. Man: Which model interests you? Woman: The latest iPhone, please. Man: We have it in stock in black and white. Woman: I'll take the black one with two hundred fifty-six gigs. Man: Would you like insurance with it? Woman: No thanks, just the phone. Man: That comes to one thousand two hundred dollars. Woman: Here, paying by card.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, bienvenue chez Électro-Plus.", "Quel modèle vous intéresse?"],
+        "female_lines": ["Bonjour, je voudrais acheter un nouveau téléphone."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nous l'avons en stock en noir et en blanc."],
+        "female_lines": ["Le dernier iPhone, s'il vous plaît."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Voulez-vous l'assurance avec?", "Ça fait mille deux cents dollars."],
+        "female_lines": ["Je prendrai le noir avec deux cent cinquante-six gigas.", "Non merci, juste le téléphone."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Voilà, payez par carte."]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "section": "D",
+    "theme": "Identifying intention",
+    "question": "Quelle est l'intention de l'homme ?",
+    "options": [
+      { "id": "A", "text": "Inviter quelqu'un", "image_prompt": "" },
+      { "id": "B", "text": "Annuler un rendez-vous", "image_prompt": "" },
+      { "id": "C", "text": "Demander des nouvelles", "image_prompt": "" },
+      { "id": "D", "text": "Présenter ses condoléances", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme: Allô? Homme: Salut Sophie, c'est Marc. Femme: Ah salut Marc, ça fait longtemps! Homme: Oui, trop longtemps. Écoute, je t'appelle pour une raison. Femme: Dis-moi. Homme: On organise un barbecue samedi prochain. Femme: C'est gentil de penser à moi. Homme: Tu viens avec ta famille? Femme: Avec plaisir, à quelle heure? Homme: Vers midi, chez nous. Femme: On sera là, merci pour l'invitation!",
+    "transcript_en": "Woman: Hello? Man: Hi Sophie, it's Marc. Woman: Oh hi Marc, long time no see! Man: Yes, too long. Listen, I'm calling you for a reason. Woman: Tell me. Man: We're organizing a barbecue next Saturday. Woman: That's nice of you to think of me. Man: Are you coming with your family? Woman: With pleasure, what time? Man: Around noon, at our place. Woman: We'll be there, thanks for the invitation!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Salut Sophie, c'est Marc.", "Oui, trop longtemps. Écoute, je t'appelle pour une raison."],
+        "female_lines": ["Allô?", "Ah salut Marc, ça fait longtemps!", "Dis-moi."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["On organise un barbecue samedi prochain."],
+        "female_lines": ["C'est gentil de penser à moi."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Tu viens avec ta famille?", "Vers midi, chez nous."],
+        "female_lines": ["Avec plaisir, à quelle heure?"]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["On sera là, merci pour l'invitation!"]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "section": "E",
+    "theme": "Radio interview",
+    "question": "Quel est le sujet principal de l'interview ?",
+    "options": [
+      { "id": "A", "text": "Les bienfaits du yoga", "image_prompt": "" },
+      { "id": "B", "text": "Une nouvelle application mobile", "image_prompt": "" },
+      { "id": "C", "text": "Un programme de recyclage", "image_prompt": "" },
+      { "id": "D", "text": "Un festival de musique", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Présentateur: Aujourd'hui nous recevons Isabelle Tremblay, instructrice de yoga depuis quinze ans. Isabelle: Bonjour, merci de m'accueillir. Présentateur: Vous prônez le yoga pour tous? Isabelle: Absolument, peu importe l'âge ou la condition physique. Présentateur: Quels sont les principaux bienfaits? Isabelle: La réduction du stress, la flexibilité et la concentration. Présentateur: Combien de fois par semaine faut-il pratiquer? Isabelle: Même dix minutes par jour font une différence. Présentateur: Merci Isabelle pour ces conseils. Isabelle: C'est moi qui vous remercie, namasté.",
+    "transcript_en": "Host: Today we welcome Isabelle Tremblay, yoga instructor for fifteen years. Isabelle: Hello, thank you for having me. Host: You advocate yoga for everyone? Isabelle: Absolutely, regardless of age or physical condition. Host: What are the main benefits? Isabelle: Stress reduction, flexibility and concentration. Host: How many times per week should one practice? Isabelle: Even ten minutes per day makes a difference. Host: Thank you Isabelle for these tips. Isabelle: Thank you, namaste.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Aujourd'hui nous recevons Isabelle Tremblay, instructrice de yoga depuis quinze ans.", "Vous prônez le yoga pour tous?"],
+        "female_lines": ["Bonjour, merci de m'accueillir."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Quels sont les principaux bienfaits?"],
+        "female_lines": ["Absolument, peu importe l'âge ou la condition physique."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Combien de fois par semaine faut-il pratiquer?"],
+        "female_lines": ["La réduction du stress, la flexibilité et la concentration."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Merci Isabelle pour ces conseils."],
+        "female_lines": ["Même dix minutes par jour font une différence.", "C'est moi qui vous remercie, namasté."]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "section": "E",
+    "theme": "Radio interview",
+    "question": "Qui est interviewé dans cet extrait ?",
+    "options": [
+      { "id": "A", "text": "Un chef cuisinier", "image_prompt": "" },
+      { "id": "B", "text": "Un architecte", "image_prompt": "" },
+      { "id": "C", "text": "Un écrivain", "image_prompt": "" },
+      { "id": "D", "text": "Un musicien", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Journaliste: Votre nouveau roman vient de paraître aux Éditions du Boréal. Auteur: Oui, c'est mon cinquième livre. Journaliste: De quoi parle cette histoire? Auteur: C'est l'histoire d'une famille québécoise sur trois générations. Journaliste: Vous vous inspirez de votre propre famille? Auteur: Un peu, mais c'est surtout de l'imagination. Journaliste: Combien de temps a duré l'écriture? Auteur: Deux ans, avec beaucoup de recherche historique. Journaliste: Vous partez en tournée promotionnelle? Auteur: Oui, dans dix villes du Québec.",
+    "transcript_en": "Journalist: Your new novel has just been published by Éditions du Boréal. Author: Yes, it's my fifth book. Journalist: What is this story about? Author: It's the story of a Quebec family over three generations. Journalist: Do you draw inspiration from your own family? Author: A little, but it's mostly imagination. Journalist: How long did the writing take? Author: Two years, with a lot of historical research. Journalist: Are you going on a promotional tour? Author: Yes, in ten cities in Quebec.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Votre nouveau roman vient de paraître aux Éditions du Boréal.", "De quoi parle cette histoire?"],
+        "female_lines": ["Oui, c'est mon cinquième livre."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Vous vous inspirez de votre propre famille?"],
+        "female_lines": ["C'est l'histoire d'une famille québécoise sur trois générations."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Combien de temps a duré l'écriture?"],
+        "female_lines": ["Un peu, mais c'est surtout de l'imagination."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Vous partez en tournée promotionnelle?"],
+        "female_lines": ["Deux ans, avec beaucoup de recherche historique.", "Oui, dans dix villes du Québec."]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "section": "E",
+    "theme": "Radio interview",
+    "question": "Quel problème est discuté ?",
+    "options": [
+      { "id": "A", "text": "La pollution de l'air", "image_prompt": "" },
+      { "id": "B", "text": "Le manque de logements abordables", "image_prompt": "" },
+      { "id": "C", "text": "La congestion routière", "image_prompt": "" },
+      { "id": "D", "text": "La fermeture d'écoles", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Animateur: Nous recevons le maire de l'arrondissement. Maire: Bonjour à tous. Animateur: La crise du logement s'aggrave? Maire: Malheureusement oui, les loyers augmentent trop vite. Animateur: Quelles solutions proposez-vous? Maire: Nous construisons cinq cents logements sociaux cette année. Animateur: C'est suffisant selon vous? Maire: Non, il en faudrait trois fois plus. Animateur: Comment financez-vous ces projets? Maire: Avec l'aide du gouvernement provincial et des partenariats privés. Animateur: Merci monsieur le maire pour ces précisions.",
+    "transcript_en": "Host: We welcome the borough mayor. Mayor: Hello everyone. Host: Is the housing crisis getting worse? Mayor: Unfortunately yes, rents are rising too fast. Host: What solutions do you propose? Mayor: We are building five hundred social housing units this year. Host: Is that enough in your opinion? Mayor: No, we would need three times as many. Host: How do you finance these projects? Mayor: With the help of the provincial government and private partnerships. Host: Thank you Mr. Mayor for these details.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nous recevons le maire de l'arrondissement.", "La crise du logement s'aggrave?"],
+        "female_lines": ["Bonjour à tous."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Quelles solutions proposez-vous?"],
+        "female_lines": ["Malheureusement oui, les loyers augmentent trop vite."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est suffisant selon vous?", "Comment financez-vous ces projets?"],
+        "female_lines": ["Nous construisons cinq cents logements sociaux cette année."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Merci monsieur le maire pour ces précisions."],
+        "female_lines": ["Non, il en faudrait trois fois plus.", "Avec l'aide du gouvernement provincial et des partenariats privés."]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "section": "E",
+    "theme": "Radio interview",
+    "question": "Quel est le thème de cette entrevue ?",
+    "options": [
+      { "id": "A", "text": "L'intelligence artificielle", "image_prompt": "" },
+      { "id": "B", "text": "L'agriculture biologique", "image_prompt": "" },
+      { "id": "C", "text": "Les énergies renouvelables", "image_prompt": "" },
+      { "id": "D", "text": "La médecine traditionnelle", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Journaliste: Le Québec vise la neutralité carbone d'ici 2050. Expert: C'est un objectif ambitieux mais réalisable. Journaliste: Quelle est la principale source d'énergie propre? Expert: L'hydroélectricité, nous avons un avantage naturel. Journaliste: Et pour le transport? Expert: Il faut électrifier les voitures et améliorer les transports en commun. Journaliste: Les éoliennes jouent un rôle? Expert: Oui, surtout en Gaspésie où le vent est fort. Journaliste: Le coût de ces transitions? Expert: Élevé à court terme, mais rentable à long terme.",
+    "transcript_en": "Journalist: Quebec aims for carbon neutrality by 2050. Expert: It's an ambitious but achievable goal. Journalist: What is the main source of clean energy? Expert: Hydroelectricity, we have a natural advantage. Journalist: And for transportation? Expert: We need to electrify cars and improve public transit. Journalist: Do wind turbines play a role? Expert: Yes, especially in Gaspésie where the wind is strong. Journalist: The cost of these transitions? Expert: High in the short term, but profitable in the long term.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le Québec vise la neutralité carbone d'ici 2050.", "Quelle est la principale source d'énergie propre?"],
+        "female_lines": ["C'est un objectif ambitieux mais réalisable."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Et pour le transport?"],
+        "female_lines": ["L'hydroélectricité, nous avons un avantage naturel."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les éoliennes jouent un rôle?"],
+        "female_lines": ["Il faut électrifier les voitures et améliorer les transports en commun."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Le coût de ces transitions?"],
+        "female_lines": ["Oui, surtout en Gaspésie où le vent est fort.", "Élevé à court terme, mais rentable à long terme."]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "section": "F",
+    "theme": "Discussion",
+    "question": "Quelle est l'opinion principale exprimée ?",
+    "options": [
+      { "id": "A", "text": "Le télétravail est inefficace", "image_prompt": "" },
+      { "id": "B", "text": "Le télétravail devrait être permanent", "image_prompt": "" },
+      { "id": "C", "text": "Le télétravail a des avantages et des inconvénients", "image_prompt": "" },
+      { "id": "D", "text": "Le télétravail est réservé aux cadres", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme1: Le télétravail change nos habitudes de travail. Femme: C'est vrai, mais ce n'est pas parfait pour tout le monde. Homme2: Personnellement, je suis plus productif chez moi. Homme1: Moi je manque le contact avec mes collègues. Femme: Il faut trouver un équilibre, peut-être trois jours au bureau? Homme2: C'est raisonnable, la flexibilité est importante. Homme1: D'accord, mais certains métiers ne permettent pas le télétravail. Femme: Exact, il ne faut pas généraliser.",
+    "transcript_en": "Man1: Remote work changes our work habits. Woman: That's true, but it's not perfect for everyone. Man2: Personally, I'm more productive at home. Man1: I miss contact with my colleagues. Woman: We need to find a balance, maybe three days at the office? Man2: That's reasonable, flexibility is important. Man1: Okay, but some jobs don't allow remote work. Woman: Exactly, we shouldn't generalize.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le télétravail change nos habitudes de travail."],
+        "female_lines": ["C'est vrai, mais ce n'est pas parfait pour tout le monde."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Personnellement, je suis plus productif chez moi.", "Moi je manque le contact avec mes collègues."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est raisonnable, la flexibilité est importante.", "D'accord, mais certains métiers ne permettent pas le télétravail."],
+        "female_lines": ["Il faut trouver un équilibre, peut-être trois jours au bureau?"]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Exact, il ne faut pas généraliser."]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "section": "F",
+    "theme": "Discussion",
+    "question": "Sur quel sujet les interlocuteurs ne sont-ils pas d'accord ?",
+    "options": [
+      { "id": "A", "text": "La qualité de la nourriture", "image_prompt": "" },
+      { "id": "B", "text": "Le prix des repas", "image_prompt": "" },
+      { "id": "C", "text": "L'ambiance du restaurant", "image_prompt": "" },
+      { "id": "D", "text": "Le service des serveurs", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme1: Ce restaurant est vraiment décevant. Homme: Pourquoi tu dis ça? La décoration est belle. Femme2: Oui, mais la nourriture n'a pas de goût. Femme1: Exactement, mon steak était trop cuit. Homme: Moi j'ai trouvé mon plat délicieux. Femme2: Tu as pris quoi déjà? Homme: Des pâtes carbonara. Femme1: Peut-être que leur spécialité c'est les pâtes. Homme: En tout cas, le prix est raisonnable. Femme2: Oui, ça c'est vrai.",
+    "transcript_en": "Woman1: This restaurant is really disappointing. Man: Why do you say that? The decor is beautiful. Woman2: Yes, but the food has no taste. Woman1: Exactly, my steak was overcooked. Man: I found my dish delicious. Woman2: What did you order again? Man: Carbonara pasta. Woman1: Maybe their specialty is pasta. Man: In any case, the price is reasonable. Woman2: Yes, that's true.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Pourquoi tu dis ça? La décoration est belle."],
+        "female_lines": ["Ce restaurant est vraiment décevant."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Moi j'ai trouvé mon plat délicieux.", "Des pâtes carbonara."],
+        "female_lines": ["Oui, mais la nourriture n'a pas de goût.", "Exactement, mon steak était trop cuit.", "Tu as pris quoi déjà?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["En tout cas, le prix est raisonnable."],
+        "female_lines": ["Peut-être que leur spécialité c'est les pâtes."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Oui, ça c'est vrai."]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "section": "F",
+    "theme": "Discussion",
+    "question": "Quelle solution est proposée ?",
+    "options": [
+      { "id": "A", "text": "Acheter une voiture électrique", "image_prompt": "" },
+      { "id": "B", "text": "Déménager en banlieue", "image_prompt": "" },
+      { "id": "C", "text": "Utiliser les transports en commun", "image_prompt": "" },
+      { "id": "D", "text": "Partager les trajets en covoiturage", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Femme: Le trafic est horrible tous les matins. Homme1: Je perds une heure dans les embouteillages. Homme2: Pourquoi vous ne prenez pas le métro? Femme: Il n'y a pas de station près de chez moi. Homme1: Moi non plus, j'habite trop loin. Homme2: On pourrait faire du covoiturage ensemble? Femme: Bonne idée, on habite dans le même quartier. Homme1: Ça réduirait les coûts d'essence. Homme2: Et ce serait mieux pour l'environnement. Femme: Parfait, commençons lundi!",
+    "transcript_en": "Woman: Traffic is horrible every morning. Man1: I lose an hour in traffic jams. Man2: Why don't you take the metro? Woman: There's no station near my home. Man1: Me neither, I live too far. Man2: Could we carpool together? Woman: Good idea, we live in the same neighborhood. Man1: That would reduce gas costs. Man2: And it would be better for the environment. Woman: Perfect, let's start Monday!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je perds une heure dans les embouteillages.", "Pourquoi vous ne prenez pas le métro?"],
+        "female_lines": ["Le trafic est horrible tous les matins."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Moi non plus, j'habite trop loin.", "On pourrait faire du covoiturage ensemble?"],
+        "female_lines": ["Il n'y a pas de station près de chez moi."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Ça réduirait les coûts d'essence.", "Et ce serait mieux pour l'environnement."],
+        "female_lines": ["Bonne idée, on habite dans le même quartier."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Parfait, commençons lundi!"]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "section": "F",
+    "theme": "Discussion",
+    "question": "Quel est le consensus des participants ?",
+    "options": [
+      { "id": "A", "text": "Il faut interdire les téléphones à l'école", "image_prompt": "" },
+      { "id": "B", "text": "Les téléphones sont utiles pour la sécurité", "image_prompt": "" },
+      { "id": "C", "text": "Il faut réglementer l'usage des téléphones", "image_prompt": "" },
+      { "id": "D", "text": "Les parents sont responsables", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme1: Les enfants sont toujours sur leurs téléphones en classe. Homme: C'est un vrai problème d'attention. Femme2: Mais c'est utile en cas d'urgence. Femme1: D'accord, mais pas pendant les cours. Homme: On pourrait les faire déposer à l'entrée? Femme2: Trop extrême, ils ont besoin de contacter leurs parents. Femme1: Alors une règle stricte: téléphone éteint en classe. Homme: Je suis d'accord, avec des exceptions pour les urgences. Femme2: Ça me semble raisonnable.",
+    "transcript_en": "Woman1: Children are always on their phones in class. Man: It's a real attention problem. Woman2: But it's useful in case of emergency. Woman1: Okay, but not during lessons. Man: Could we have them deposit them at the entrance? Woman2: Too extreme, they need to contact their parents. Woman1: Then a strict rule: phone off in class. Man: I agree, with exceptions for emergencies. Woman2: That seems reasonable.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["C'est un vrai problème d'attention."],
+        "female_lines": ["Les enfants sont toujours sur leurs téléphones en classe."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["On pourrait les faire déposer à l'entrée?"],
+        "female_lines": ["Mais c'est utile en cas d'urgence.", "D'accord, mais pas pendant les cours."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je suis d'accord, avec des exceptions pour les urgences."],
+        "female_lines": ["Trop extrême, ils ont besoin de contacter leurs parents.", "Alors une règle stricte: téléphone éteint en classe."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Ça me semble raisonnable."]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "section": "G",
+    "theme": "Longer text",
+    "question": "Quel est l'argument principal de l'orateur ?",
+    "options": [
+      { "id": "A", "text": "L'immigration est nécessaire pour l'économie", "image_prompt": "" },
+      { "id": "B", "text": "L'immigration menace la culture québécoise", "image_prompt": "" },
+      { "id": "C", "text": "L'intégration des immigrants doit être améliorée", "image_prompt": "" },
+      { "id": "D", "text": "Il faut réduire le nombre d'immigrants", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: Bonjour à tous, aujourd'hui je veux parler d'un sujet qui nous concerne tous: l'intégration des nouveaux arrivants au Québec. Notre province a toujours été terre d'accueil, mais nous devons faire mieux. Premièrement, le français doit être prioritaire dès l'arrivée. Deuxièmement, nous devons reconnaître les diplômes étrangers plus rapidement. Troisièmement, les employeurs québécois doivent ouvrir leurs portes. Quatrièmement, l'accès au logement abordable est crucial. Cinquièmement, les services de santé doivent être adaptés. Sixièmement, les écoles doivent accueillir les enfants immigrants. Septièmement, nous devons lutter contre la discrimination à l'embauche. Huitièmement, les communautés d'accueil méritent plus de soutien. Neuvièmement, le gouvernement doit simplifier les démarches administratives. Dixièmement, ensemble nous bâtissons un Québec plus fort et plus inclusif.",
+    "transcript_en": "Man: Hello everyone, today I want to talk about a subject that concerns us all: the integration of newcomers to Quebec. Our province has always been a land of welcome, but we must do better. First, French must be a priority upon arrival. Second, we must recognize foreign diplomas more quickly. Third, Quebec employers must open their doors. Fourth, access to affordable housing is crucial. Fifth, health services must be adapted. Sixth, schools must welcome immigrant children. Seventh, we must fight against hiring discrimination. Eighth, welcoming communities deserve more support. Ninth, the government must simplify administrative procedures. Tenth, together we are building a stronger and more inclusive Quebec.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour à tous, aujourd'hui je veux parler d'un sujet qui nous concerne tous: l'intégration des nouveaux arrivants au Québec.", "Notre province a toujours été terre d'accueil, mais nous devons faire mieux."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Premièrement, le français doit être prioritaire dès l'arrivée.", "Deuxièmement, nous devons reconnaître les diplômes étrangers plus rapidement."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Troisièmement, les employeurs québécois doivent ouvrir leurs portes.", "Quatrièmement, l'accès au logement abordable est crucial."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Cinquièmement, les services de santé doivent être adaptés.", "Sixièmement, les écoles doivent accueillir les enfants immigrants."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Septièmement, nous devons lutter contre la discrimination à l'embauche.", "Huitièmement, les communautés d'accueil méritent plus de soutien."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Neuvièmement, le gouvernement doit simplifier les démarches administratives.", "Dixièmement, ensemble nous bâtissons un Québec plus fort et plus inclusif."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "section": "G",
+    "theme": "Longer text",
+    "question": "Quelle est la thèse principale de cette conférence ?",
+    "options": [
+      { "id": "A", "text": "L'éducation traditionnelle est obsolète", "image_prompt": "" },
+      { "id": "B", "text": "La technologie doit compléter l'enseignement", "image_prompt": "" },
+      { "id": "C", "text": "Les écoles devraient fermer les laboratoires", "image_prompt": "" },
+      { "id": "D", "text": "Les enseignants seront remplacés par des robots", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Femme: Mesdames et messieurs, permettez-moi de partager ma vision de l'éducation moderne. Nous vivons une révolution numérique qui transforme nos salles de classe. Premièrement, les tableaux interactifs remplacent les tableaux noirs traditionnels. Deuxièmement, les tablettes électroniques offrent des ressources illimitées. Troisièmement, les logiciels éducatifs personnalisent l'apprentissage. Quatrièmement, la réalité virtuelle permet des visites de musées à distance. Cinquièmement, les forums en ligne facilitent l'entraide entre élèves. Sixièmement, les enseignants deviennent des facilitateurs plutôt que des distributeurs de savoir. Septièmement, l'évaluation continue remplace les examens annuels stressants. Huitièmement, les parents suivent les progrès en temps réel via des applications. Neuvièmement, l'accès à l'information démocratise le savoir. Dixièmement, cependant, le contact humain reste irremplaçable dans l'éducation.",
+    "transcript_en": "Woman: Ladies and gentlemen, allow me to share my vision of modern education. We are experiencing a digital revolution that is transforming our classrooms. First, interactive whiteboards are replacing traditional blackboards. Second, electronic tablets offer unlimited resources. Third, educational software personalizes learning. Fourth, virtual reality allows virtual museum visits. Fifth, online forums facilitate peer help. Sixth, teachers become facilitators rather than knowledge distributors. Seventh, continuous assessment replaces stressful annual exams. Eighth, parents follow progress in real-time via applications. Ninth, access to information democratizes knowledge. Tenth, however, human contact remains irreplaceable in education.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Mesdames et messieurs, permettez-moi de partager ma vision de l'éducation moderne.", "Nous vivons une révolution numérique qui transforme nos salles de classe."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Premièrement, les tableaux interactifs remplacent les tableaux noirs traditionnels.", "Deuxièmement, les tablettes électroniques offrent des ressources illimitées."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Troisièmement, les logiciels éducatifs personnalisent l'apprentissage.", "Quatrièmement, la réalité virtuelle permet des visites de musées à distance."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Cinquièmement, les forums en ligne facilitent l'entraide entre élèves.", "Sixièmement, les enseignants deviennent des facilitateurs plutôt que des distributeurs de savoir."]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": ["Septièmement, l'évaluation continue remplace les examens annuels stressants.", "Huitièmement, les parents suivent les progrès en temps réel via des applications."]
+      },
+      {
+        "point": 6,
+        "male_lines": [],
+        "female_lines": ["Neuvièmement, l'accès à l'information démocratise le savoir.", "Dixièmement, cependant, le contact humain reste irremplaçable dans l'éducation."]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "section": "G",
+    "theme": "Longer text",
+    "question": "Quelle est la conclusion de cet exposé ?",
+    "options": [
+      { "id": "A", "text": "Il faut consommer plus local", "image_prompt": "" },
+      { "id": "B", "text": "L'agriculture industrielle est la seule solution", "image_prompt": "" },
+      { "id": "C", "text": "L'agriculture urbaine peut nourrir les villes", "image_prompt": "" },
+      { "id": "D", "text": "Les pesticides sont nécessaires", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: Chers amis, imaginons nos villes transformées en jardins nourriciers. L'agriculture urbaine n'est plus un rêve utopique. Premièrement, les toits d'immeubles deviennent des potagers productifs. Deuxièmement, les balcons d'appartements accueillent des jardinières de légumes. Troisièmement, les terrains vacants se transforment en fermes communautaires. Quatrièmement, les serres hydroponiques produisent toute l'année. Cinquièmement, les circuits courts réduisent l'empreinte carbone. Sixièmement, les légumes frais améliorent la santé des citadins. Septièmement, le jardinage crée du lien social dans les quartiers. Huitièmement, l'éducation alimentaire des enfants s'en trouve renforcée. Neuvièmement, la sécurité alimentaire locale augmente. Dixièmement, chaque grain semé dans la ville est un pas vers l'autonomie alimentaire.",
+    "transcript_en": "Man: Dear friends, let's imagine our cities transformed into nourishing gardens. Urban agriculture is no longer a utopian dream. First, building roofs become productive vegetable gardens. Second, apartment balconies welcome vegetable planters. Third, vacant lots transform into community farms. Fourth, hydroponic greenhouses produce year-round. Fifth, short supply chains reduce carbon footprint. Sixth, fresh vegetables improve city dwellers' health. Seventh, gardening creates social bonds in neighborhoods. Eighth, children's food education is strengthened. Ninth, local food security increases. Tenth, every seed sown in the city is a step toward food autonomy.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers amis, imaginons nos villes transformées en jardins nourriciers.", "L'agriculture urbaine n'est plus un rêve utopique."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Premièrement, les toits d'immeubles deviennent des potagers productifs.", "Deuxièmement, les balcons d'appartements accueillent des jardinières de légumes."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Troisièmement, les terrains vacants se transforment en fermes communautaires.", "Quatrièmement, les serres hydroponiques produisent toute l'année."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Cinquièmement, les circuits courts réduisent l'empreinte carbone.", "Sixièmement, les légumes frais améliorent la santé des citadins."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Septièmement, le jardinage crée du lien social dans les quartiers.", "Huitièmement, l'éducation alimentaire des enfants s'en trouve renforcée."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Neuvièmement, la sécurité alimentaire locale augmente.", "Dixièmement, chaque grain semé dans la ville est un pas vers l'autonomie alimentaire."]
+      },
+      {
+        "point": 7,
+        "male_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": []
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "section": "G",
+    "theme": "Longer text",
+    "question": "Quel est le message central de cette allocution ?",
+    "options": [
+      { "id": "A", "text": "Le sport professionnel est trop commercial", "image_prompt": "" },
+      { "id": "B", "text": "Le sport amateur doit être valorisé", "image_prompt": "" },
+      { "id": "C", "text": "Les stades coûtent trop cher", "image_prompt": "" },
+      { "id": "D", "text": "Les athlètes gagnent trop d'argent", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Femme: Honorables invités, le sport amateur est le cœur battant de notre société. Nous devons le protéger et le promouvoir. Premièrement, il enseigne les valeurs de respect et de dépassement de soi. Deuxièmement, il maintient nos jeunes éloignés de la rue. Troisièmement, il crée des liens intergénérationnels dans nos communautés. Quatrièmement, il coûte peu comparé aux infrastructures professionnelles. Cinquièmement, il développe la santé physique et mentale. Sixièmement, il forme les champions de demain. Septièmement, il fédère les quartiers autour d'équipes locales. Huitièmement, il enseigne la gestion de la victoire comme de la défaite. Neuvièmement, il offre des opportunités regardless du statut socio-économique. Dixièmement, investir dans le sport amateur, c'est investir dans l'avenir de notre société.",
+    "transcript_en": "Woman: Honorable guests, amateur sport is the beating heart of our society. We must protect and promote it. First, it teaches values of respect and self-transcendence. Second, it keeps our youth off the streets. Third, it creates intergenerational bonds in our communities. Fourth, it costs little compared to professional infrastructure. Fifth, it develops physical and mental health. Sixth, it trains tomorrow's champions. Seventh, it unites neighborhoods around local teams. Eighth, it teaches management of both victory and defeat. Ninth, it offers opportunities regardless of socio-economic status. Tenth, investing in amateur sport is investing in the future of our society.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Honorables invités, le sport amateur est le cœur battant de notre société.", "Nous devons le protéger et le promouvoir."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Premièrement, il enseigne les valeurs de respect et de dépassement de soi.", "Deuxièmement, il maintient nos jeunes éloignés de la rue."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Troisièmement, il crée des liens intergénérationnels dans nos communautés.", "Quatrièmement, il coûte peu comparé aux infrastructures professionnelles."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Cinquièmement, il développe la santé physique et mentale.", "Sixièmement, il forme les champions de demain."]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": ["Septièmement, il fédère les quartiers autour d'équipes locales.", "Huitièmement, il enseigne la gestion de la victoire comme de la défaite."]
+      },
+      {
+        "point": 6,
+        "male_lines": [],
+        "female_lines": ["Neuvièmement, il offre des opportunités regardless du statut socio-économique.", "Dixièmement, investir dans le sport amateur, c'est investir dans l'avenir de notre société."]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "section": "G",
+    "theme": "Longer text",
+    "question": "Quelle est la recommandation finale de l'orateur ?",
+    "options": [
+      { "id": "A", "text": "Travailler moins pour vivre mieux", "image_prompt": "" },
+      { "id": "B", "text": "Changer de carrière fréquemment", "image_prompt": "" },
+      { "id": "C", "text": "Équilibrer vie professionnelle et personnelle", "image_prompt": "" },
+      { "id": "D", "text": "Refuser les promotions", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: Mes chers collègues, le burn-out touche un travailleur sur cinq au Québec. Nous devons agir maintenant. Premièrement, respectons les heures de travail contractuelles. Deuxièmement, déconnectons nos courriels le soir et le weekend. Troisièmement, prenons nos vacances intégralement chaque année. Quatrièmement, pratiquons une activité physique régulière. Cinquièmement, cultivons nos relations familiales et amicales. Sixièmement, apprenons à dire non aux tâches supplémentaires. Septièmement, méditons ou pratiquons le yoga pour réduire le stress. Huitièmement, établissons des limites claires avec nos superviseurs. Neuvièmement, priorisons le sommeil et l'alimentation saine. Dixièmement, souvenons-nous que nous travaillons pour vivre, nous ne vivons pas pour travailler.",
+    "transcript_en": "Man: My dear colleagues, burnout affects one in five workers in Quebec. We must act now. First, let's respect contractual working hours. Second, let's disconnect our emails in the evening and on weekends. Third, let's take our vacation time fully every year. Fourth, let's practice regular physical activity. Fifth, let's cultivate our family and friend relationships. Sixth, let's learn to say no to extra tasks. Seventh, let's meditate or practice yoga to reduce stress. Eighth, let's establish clear boundaries with our supervisors. Ninth, let's prioritize sleep and healthy eating. Tenth, let's remember that we work to live, we don't live to work.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mes chers collègues, le burn-out touche un travailleur sur cinq au Québec.", "Nous devons agir maintenant."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Premièrement, respectons les heures de travail contractuelles.", "Deuxièmement, déconnectons nos courriels le soir et le weekend."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Troisièmement, prenons nos vacances intégralement chaque année.", "Quatrièmement, pratiquons une activité physique régulière."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Cinquièmement, cultivons nos relations familiales et amicales.", "Sixièmement, apprenons à dire non aux tâches supplémentaires."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Septièmement, méditons ou pratiquons le yoga pour réduire le stress.", "Huitièmement, établissons des limites claires avec nos superviseurs."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Neuvièmement, priorisons le sommeil et l'alimentation saine.", "Dixièmement, souvenons-nous que nous travaillons pour vivre, nous ne vivons pas pour travailler."]
+      },
+      {
+        "point": 7,
+        "male_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": []
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "section": "H",
+    "theme": "Complex recording",
+    "question": "Quelle est la perspective philosophique présentée ?",
+    "options": [
+      { "id": "A", "text": "L'existentialisme", "image_prompt": "" },
+      { "id": "B", "text": "Le stoïcisme", "image_prompt": "" },
+      { "id": "C", "text": "L'utilitarisme", "image_prompt": "" },
+      { "id": "D", "text": "Le nihilisme", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: Dans un monde d'incertitude permanente, le stoïcisme offre un refuge intérieur. Premièrement, acceptons ce qui échappe à notre contrôle sans nous lamenter. Deuxièmement, concentrons notre énergie sur nos actions et notre caractère. Troisièmement, distinguons soigneusement entre les biens extérieurs et la vertu intérieure. Quatrièmement, pratiquons la méditation sur la mort pour apprécier la vie. Cinquièmement, cultivons l'indifférence envers les opinions d'autrui. Sixièmement, développons la résilience face aux épreuves quotidiennes. Septièmement, embrassons la communauté humaine tout en préservant notre autonomie. Huitièmement, trouvons la joie dans la simplicité volontaire. Neuvièmement, agissons avec justice et sagesse en toutes circonstances. Dixièmement, souvenons-nous que nous sommes des citoyens du monde avant d'être des individus isolés.",
+    "transcript_en": "Man: In a world of permanent uncertainty, Stoicism offers an inner refuge. First, let's accept what escapes our control without lamenting. Second, let's concentrate our energy on our actions and character. Third, let's carefully distinguish between external goods and inner virtue. Fourth, let's practice meditation on death to appreciate life. Fifth, let's cultivate indifference toward others' opinions. Sixth, let's develop resilience in the face of daily trials. Seventh, let's embrace human community while preserving our autonomy. Eighth, let's find joy in voluntary simplicity. Ninth, let's act with justice and wisdom in all circumstances. Tenth, let's remember that we are citizens of the world before being isolated individuals.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Dans un monde d'incertitude permanente, le stoïcisme offre un refuge intérieur.", "Premièrement, acceptons ce qui échappe à notre contrôle sans nous lamenter."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Deuxièmement, concentrons notre énergie sur nos actions et notre caractère.", "Troisièmement, distinguons soigneusement entre les biens extérieurs et la vertu intérieure."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Quatrièmement, pratiquons la méditation sur la mort pour apprécier la vie.", "Cinquièmement, cultivons l'indifférence envers les opinions d'autrui."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Sixièmement, développons la résilience face aux épreuves quotidiennes.", "Septièmement, embrassons la communauté humaine tout en préservant notre autonomie."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Huitièmement, trouvons la joie dans la simplicité volontaire.", "Neuvièmement, agissons avec justice et sagesse en toutes circonstances."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Dixièmement, souvenons-nous que nous sommes des citoyens du monde avant d'être des individus isolés."]
+      },
+      {
+        "point": 7,
+        "male_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": []
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "section": "H",
+    "theme": "Complex recording",
+    "question": "Quel concept économique est expliqué ?",
+    "options": [
+      { "id": "A", "text": "L'inflation", "image_prompt": "" },
+      { "id": "B", "text": "La déflation", "image_prompt": "" },
+      { "id": "C", "text": "La croissance économique", "image_prompt": "" },
+      { "id": "D", "text": "La crise financière", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme: L'inflation n'est pas simplement une hausse des prix, c'est l'érosion silencieuse de notre pouvoir d'achat. Premièrement, elle résulte souvent d'un déséquilibre entre l'offre et la demande. Deuxièmement, la banque centrale utilise les taux d'intérêt pour la contrôler. Troisièmement, une inflation modérée signe une économie en croissance. Quatrièmement, l'hyperinflation détruit les épargnes et les institutions. Cinquièmement, les salaires indexés perdent du terrain face à l'inflation réelle. Sixièmement, les actifs immobiliers deviennent des refuges de valeur. Septièmement, les plus pauvres souffrent proportionnellement plus que les riches. Huitièmement, l'anticipation inflationniste peut devenir prophétie auto-réalisatrice. Neuvièmement, les politiques budgétaires excessives alimentent les pressions inflationnistes. Dixièmement, la stabilité des prix demeure le pilier d'une économie saine.",
+    "transcript_en": "Woman: Inflation is not simply a rise in prices, it is the silent erosion of our purchasing power. First, it often results from an imbalance between supply and demand. Second, the central bank uses interest rates to control it. Third, moderate inflation signals a growing economy. Fourth, hyperinflation destroys savings and institutions. Fifth, indexed wages lose ground against real inflation. Sixth, real estate assets become value refuges. Seventh, the poor suffer proportionally more than the rich. Eighth, inflationary anticipation can become a self-fulfilling prophecy. Ninth, excessive budgetary policies fuel inflationary pressures. Tenth, price stability remains the pillar of a healthy economy.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["L'inflation n'est pas simplement une hausse des prix, c'est l'érosion silencieuse de notre pouvoir d'achat.", "Premièrement, elle résulte souvent d'un déséquilibre entre l'offre et la demande."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Deuxièmement, la banque centrale utilise les taux d'intérêt pour la contrôler.", "Troisièmement, une inflation modérée signe une économie en croissance."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Quatrièmement, l'hyperinflation détruit les épargnes et les institutions.", "Cinquièmement, les salaires indexés perdent du terrain face à l'inflation réelle."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Sixièmement, les actifs immobiliers deviennent des refuges de valeur.", "Septièmement, les plus pauvres souffrent proportionnellement plus que les riches."]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": ["Huitièmement, l'anticipation inflationniste peut devenir prophétie auto-réalisatrice.", "Neuvièmement, les politiques budgétaires excessives alimentent les pressions inflationnistes."]
+      },
+      {
+        "point": 6,
+        "male_lines": [],
+        "female_lines": ["Dixièmement, la stabilité des prix demeure le pilier d'une économie saine."]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "section": "H",
+    "theme": "Complex recording",
+    "question": "Quelle est la thèse défendue concernant l'intelligence artificielle ?",
+    "options": [
+      { "id": "A", "text": "L'IA doit être interdite", "image_prompt": "" },
+      { "id": "B", "text": "L'IA nécessite une régulation éthique", "image_prompt": "" },
+      { "id": "C", "text": "L'IA remplacera tous les emplois", "image_prompt": "" },
+      { "id": "D", "text": "L'IA est sans danger pour l'humanité", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: L'intelligence artificielle révolutionne notre monde, mais elle soulève des questions éthiques fondamentales. Premièrement, les algorithmes peuvent perpétuer les biais humains à grande échelle. Deuxièmement, la vie privée est menacée par la collecte massive de données. Troisièmement, la responsabilité légale des décisions automatisées reste floue. Quatrièmement, l'automatisation massive menace l'emploi dans certains secteurs. Cinquièmement, les armes autonomes posent des dilemmes moraux insolubles. Sixièmement, la transparence des boîtes noires algorithmiques est nécessaire. Septièmement, une gouvernance internationale doit encadrer ces technologies. Huitièmement, l'éducation du public à ces enjeux devient urgente. Neuvièmement, les développeurs doivent adopter un code d'éthique strict. Dixièmement, l'humanité doit rester maître de ses créations technologiques.",
+    "transcript_en": "Man: Artificial intelligence is revolutionizing our world, but it raises fundamental ethical questions. First, algorithms can perpetuate human biases on a large scale. Second, privacy is threatened by massive data collection. Third, legal responsibility for automated decisions remains unclear. Fourth, massive automation threatens employment in certain sectors. Fifth, autonomous weapons pose insoluble moral dilemmas. Sixth, transparency of algorithmic black boxes is necessary. Seventh, international governance must frame these technologies. Eighth, public education on these issues becomes urgent. Ninth, developers must adopt a strict code of ethics. Tenth, humanity must remain master of its technological creations.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'intelligence artificielle révolutionne notre monde, mais elle soulève des questions éthiques fondamentales.", "Premièrement, les algorithmes peuvent perpétuer les biais humains à grande échelle."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Deuxièmement, la vie privée est menacée par la collecte massive de données.", "Troisièmement, la responsabilité légale des décisions automatisées reste floue."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Quatrièmement, l'automatisation massive menace l'emploi dans certains secteurs.", "Cinquièmement, les armes autonomes posent des dilemmes moraux insolubles."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Sixièmement, la transparence des boîtes noires algorithmiques est nécessaire.", "Septièmement, une gouvernance internationale doit encadrer ces technologies."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Huitièmement, l'éducation du public à ces enjeux devient urgente.", "Neuvièmement, les développeurs doivent adopter un code d'éthique strict."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Dixièmement, l'humanité doit rester maître de ses créations technologiques."]
+      },
+      {
+        "point": 7,
+        "male_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": []
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "section": "H",
+    "theme": "Complex recording",
+    "question": "Quelle est la conclusion de l'analyse sur le changement climatique ?",
+    "options": [
+      { "id": "A", "text": "Le réchauffement est irréversible", "image_prompt": "" },
+      { "id": "B", "text": "L'action individuelle est suffisante", "image_prompt": "" },
+      { "id": "C", "text": "Une transformation systémique est nécessaire", "image_prompt": "" },
+      { "id": "D", "text": "Les technologies vertes sont inefficaces", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme: Le changement climatique n'est pas une future menace, c'est notre réalité présente. Premièrement, les canicules records s'intensifient chaque été. Deuxièmement, la fonte des calottes polaires s'accélère alarmamment. Troisièmement, les espèces disparaissent à un rythme sans précédent. Quatrièmement, les événements météorologiques extrêmes se multiplient. Cinquièmement, les récoltes agricoles mondiales deviennent imprévisibles. Sixièmement, les migrations climatiques créent des tensions géopolitiques. Septièmement, les énergies fossiles continuent de dominer malgré leurs coûts cachés. Huitièmement, les petits gestes individuels ne suffisent plus face à l'urgence. Neuvièmement, nous devons transformer radicalement nos systèmes économiques et énergétiques. Dixièmement, chaque fraction de degré compte dans la préservation de notre civilisation.",
+    "transcript_en": "Woman: Climate change is not a future threat, it is our present reality. First, record heat waves intensify every summer. Second, polar ice cap melting is accelerating alarmingly. Third, species are disappearing at an unprecedented rate. Fourth, extreme weather events are multiplying. Fifth, global agricultural harvests are becoming unpredictable. Sixth, climate migrations create geopolitical tensions. Seventh, fossil fuels continue to dominate despite their hidden costs. Eighth, small individual gestures are no longer enough given the urgency. Ninth, we must radically transform our economic and energy systems. Tenth, every fraction of a degree counts in preserving our civilization.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Le changement climatique n'est pas une future menace, c'est notre réalité présente.", "Premièrement, les canicules records s'intensifient chaque été."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Deuxièmement, la fonte des calottes polaires s'accélère alarmamment.", "Troisièmement, les espèces disparaissent à un rythme sans précédent."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Quatrièmement, les événements météorologiques extrêmes se multiplient.", "Cinquièmement, les récoltes agricoles mondiales deviennent imprévisibles."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Sixièmement, les migrations climatiques créent des tensions géopolitiques.", "Septièmement, les énergies fossiles continuent de dominer malgré leurs coûts cachés."]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": ["Huitièmement, les petits gestes individuels ne suffisent plus face à l'urgence.", "Neuvièmement, nous devons transformer radicalement nos systèmes économiques et énergétiques."]
+      },
+      {
+        "point": 6,
+        "male_lines": [],
+        "female_lines": ["Dixièmement, chaque fraction de degré compte dans la préservation de notre civilisation."]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "section": "H",
+    "theme": "Complex recording",
+    "question": "Quelle est la vision de l'avenir présentée ?",
+    "options": [
+      { "id": "A", "text": "Un retour à l'économie traditionnelle", "image_prompt": "" },
+      { "id": "B", "text": "Une société post-scarcité grâce à l'automatisation", "image_prompt": "" },
+      { "id": "C", "text": "Un effondrement économique total", "image_prompt": "" },
+      { "id": "D", "text": "Une stagnation technologique", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: Imaginons un monde où le travail obligatoire appartient au passé. Premièrement, l'automatisation robotique produira l'abondance matérielle. Deuxièmement, le revenu universel garantira la dignité de chacun. Troisièmement, les humains se concentreront sur la créativité et les relations. Quatrièmement, l'éducation deviendra un plaisir tout au long de la vie. Cinquièmement, les maladies seront éradiquées par la médecine prédictive. Sixièmement, l'énergie propre sera illimitée et gratuite. Septièmement, les frontières nationales s'estomperont devant les défis communs. Huitièmement, l'exploration spatiale deviendra accessible à tous. Neuvièmement, l'intelligence augmentée par la technologie élargira nos horizons mentaux. Dixièmement, nous entrerons dans une ère post-capitaliste où le partage remplacera l'accumulation.",
+    "transcript_en": "Man: Let's imagine a world where obligatory work belongs to the past. First, robotic automation will produce material abundance. Second, universal basic income will guarantee everyone's dignity. Third, humans will focus on creativity and relationships. Fourth, education will become a lifelong pleasure. Fifth, diseases will be eradicated by predictive medicine. Sixth, clean energy will be unlimited and free. Seventh, national borders will fade before common challenges. Eighth, space exploration will become accessible to all. Ninth, intelligence augmented by technology will expand our mental horizons. Tenth, we will enter a post-capitalist era where sharing replaces accumulation.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Imaginons un monde où le travail obligatoire appartient au passé.", "Premièrement, l'automatisation robotique produira l'abondance matérielle."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Deuxièmement, le revenu universel garantira la dignité de chacun.", "Troisièmement, les humains se concentreront sur la créativité et les relations."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Quatrièmement, l'éducation deviendra un plaisir tout au long de la vie.", "Cinquièmement, les maladies seront éradiquées par la médecine prédictive."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Sixièmement, l'énergie propre sera illimitée et gratuite.", "Septièmement, les frontières nationales s'estomperont devant les défis communs."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Huitièmement, l'exploration spatiale deviendra accessible à tous.", "Neuvièmement, l'intelligence augmentée par la technologie élargira nos horizons mentaux."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Dixièmement, nous entrerons dans une ère post-capitaliste où le partage remplacera l'accumulation."]
+      },
+      {
+        "point": 7,
+        "male_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": []
+      }
+    ]
+  }
+]

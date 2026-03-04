@@ -1,0 +1,1872 @@
+﻿[
+  {
+    "id": 1,
+    "section": "A",
+    "theme": "Daily activities",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne boit un café au café", "image_prompt": "A person sitting at a café terrace drinking coffee, urban setting" },
+      { "id": "B", "text": "Une personne achète des légumes au marché", "image_prompt": "A person shopping for vegetables at an outdoor farmers market" },
+      { "id": "C", "text": "Une personne lit un livre dans un parc", "image_prompt": "A person reading a book on a park bench under a tree" },
+      { "id": "D", "text": "Une personne fait du jogging le matin", "image_prompt": "A person jogging on a morning trail with sunrise in background" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Excusez-moi, vous avez des tomates bio aujourd'hui ? J'en cherche pour ma salade de ce soir.",
+    "transcript_en": "Excuse me, do you have organic tomatoes today? I'm looking for some for my salad tonight.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Excusez-moi, vous avez des tomates bio aujourd'hui ? J'en cherche pour ma salade de ce soir."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "A",
+    "theme": "Transportation",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un bus arrêté à un arrêt de bus", "image_prompt": "A city bus stopped at a bus stop with passengers waiting" },
+      { "id": "B", "text": "Un taxi attendant un client", "image_prompt": "A yellow taxi cab waiting at a taxi stand in downtown" },
+      { "id": "C", "text": "Un train entrant en gare", "image_prompt": "A commuter train arriving at a station platform" },
+      { "id": "D", "text": "Un vélo de location dans la rue", "image_prompt": "A bike-sharing bicycle parked at a docking station" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Attention, le train de 8h15 en direction de Montréal arrive sur la voie numéro trois.",
+    "transcript_en": "Attention, the 8:15 train to Montreal is arriving on track number three.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Attention, le train de 8h15 en direction de Montréal arrive sur la voie numéro trois."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "A",
+    "theme": "Weather",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une journée ensoleillée à la plage", "image_prompt": "A sunny beach scene with people swimming and sunbathing" },
+      { "id": "B", "text": "Une tempête de neige dans la ville", "image_prompt": "A heavy snowstorm covering city streets and buildings" },
+      { "id": "C", "text": "Une journée pluvieuse avec des parapluies", "image_prompt": "People walking with umbrellas during a rainy day in the city" },
+      { "id": "D", "text": "Un ciel nuageux mais sans pluie", "image_prompt": "Overcast cloudy sky with people walking without umbrellas" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Quelle belle journée ! Le soleil brille et il fait déjà vingt-cinq degrés à neuf heures du matin.",
+    "transcript_en": "What a beautiful day! The sun is shining and it's already twenty-five degrees at nine in the morning.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Quelle belle journée ! Le soleil brille et il fait déjà vingt-cinq degrés à neuf heures du matin."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "section": "A",
+    "theme": "Food and dining",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un chef cuisinant dans une cuisine de restaurant", "image_prompt": "A chef cooking in a professional restaurant kitchen with pots and pans" },
+      { "id": "B", "text": "Une famille mangeant au restaurant", "image_prompt": "A family of four dining together at a restaurant table" },
+      { "id": "C", "text": "Une personne commandant au drive-through", "image_prompt": "A person ordering food at a fast-food drive-through window" },
+      { "id": "D", "text": "Des amis partageant une pizza", "image_prompt": "Friends sharing a pizza at a casual dining table" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Bonjour, je voudrais un menu classique avec un hamburger, des frites et un Coca, s'il vous plaît.",
+    "transcript_en": "Hello, I would like a classic meal with a hamburger, fries, and a Coke, please.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, je voudrais un menu classique avec un hamburger, des frites et un Coca, s'il vous plaît."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "A",
+    "theme": "Shopping",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne essayant des vêtements en magasin", "image_prompt": "A person trying on clothes in a clothing store fitting room" },
+      { "id": "B", "text": "Une caissière scannant des articles", "image_prompt": "A cashier scanning items at a store checkout counter" },
+      { "id": "C", "text": "Une personne regardant les prix en rayon", "image_prompt": "A person looking at price tags on a store shelf" },
+      { "id": "D", "text": "Un client retournant un article au service client", "image_prompt": "A customer returning an item at a customer service desk" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Ça fait quarante-deux dollars cinquante. Voulez-vous payer par carte ou en argent comptant ?",
+    "transcript_en": "That comes to forty-two fifty. Would you like to pay by card or in cash?",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Ça fait quarante-deux dollars cinquante. Voulez-vous payer par carte ou en argent comptant ?"],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "section": "A",
+    "theme": "Work environment",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Des collègues en réunion de bureau", "image_prompt": "Colleagues in a business meeting around a conference table" },
+      { "id": "B", "text": "Une personne travaillant sur ordinateur", "image_prompt": "A person working on a laptop computer at a desk" },
+      { "id": "C", "text": "Un employé répondant au téléphone", "image_prompt": "An employee answering a phone call at a reception desk" },
+      { "id": "D", "text": "Des ouvriers sur un chantier de construction", "image_prompt": "Construction workers at a building site with hard hats" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Allô, Bureau de Tourisme de Québec, Julie à l'appareil. Comment puis-je vous aider aujourd'hui ?",
+    "transcript_en": "Hello, Quebec City Tourism Office, Julie speaking. How can I help you today?",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Allô, Bureau de Tourisme de Québec, Julie à l'appareil. Comment puis-je vous aider aujourd'hui ?"],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "section": "B",
+    "theme": "Making plans",
+    "question": "Qu'est-ce que la femme propose de faire ?",
+    "options": [
+      { "id": "A", "text": "Aller au cinéma ce soir", "image_prompt": "" },
+      { "id": "B", "text": "Dîner au restaurant samedi", "image_prompt": "" },
+      { "id": "C", "text": "Faire une randonnée dimanche", "image_prompt": "" },
+      { "id": "D", "text": "Visiter un musée cet après-midi", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Marc : Salut Sophie, ça va ? Tu as des plans pour le week-end ? Sophie : Salut Marc ! Oui, je pensais qu'on pourrait aller dîner au restaurant samedi soir. J'ai découvert un nouveau bistro italien en centre-ville. Marc : Excellente idée ! J'adore la cuisine italienne. À quelle heure ? Sophie : Vers 19h30 ? Je peux réserver une table pour deux. Marc : Parfait, je t'envoie un message pour confirmer.",
+    "transcript_en": "Marc: Hi Sophie, how are you? Do you have plans for the weekend? Sophie: Hi Marc! Yes, I was thinking we could go have dinner at a restaurant Saturday night. I discovered a new Italian bistro downtown. Marc: Excellent idea! I love Italian cuisine. What time? Sophie: Around 7:30 PM? I can reserve a table for two. Marc: Perfect, I'll send you a message to confirm.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Salut Sophie, ça va ? Tu as des plans pour le week-end ?"],
+        "female_lines": ["Salut Marc ! Oui, je pensais qu'on pourrait aller dîner au restaurant samedi soir."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Excellente idée ! J'adore la cuisine italienne. À quelle heure ?"],
+        "female_lines": ["Vers 19h30 ? Je peux réserver une table pour deux."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Parfait, je t'envoie un message pour confirmer."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["J'ai découvert un nouveau bistro italien en centre-ville."]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "section": "B",
+    "theme": "Asking for help",
+    "question": "Pourquoi l'homme appelle-t-il sa voisine ?",
+    "options": [
+      { "id": "A", "text": "Pour emprunter de la farine", "image_prompt": "" },
+      { "id": "B", "text": "Pour demander de l'aide avec son ordinateur", "image_prompt": "" },
+      { "id": "C", "text": "Pour inviter à une fête", "image_prompt": "" },
+      { "id": "D", "text": "Pour signaler un bruit dans l'immeuble", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Luc : Allô Claire ? C'est Luc de l'appartement 4B. Claire : Ah bonjour Luc ! Qu'est-ce qui se passe ? Luc : J'ai un problème avec mon ordinateur, il ne démarre plus depuis ce matin. Tu t'y connais en informatique, non ? Claire : Oui, un peu. Tu as essayé de le redémarrer en mode sans échec ? Luc : Non, je ne sais pas comment faire. Tu pourrais passer me montrer ? Claire : Bien sûr, j'arrive dans cinq minutes.",
+    "transcript_en": "Luc: Hello Claire? It's Luc from apartment 4B. Claire: Oh hello Luc! What's happening? Luc: I have a problem with my computer, it won't start since this morning. You know about computers, right? Claire: Yes, a little. Have you tried restarting it in safe mode? Luc: No, I don't know how to do that. Could you come show me? Claire: Of course, I'll be there in five minutes.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Allô Claire ? C'est Luc de l'appartement 4B."],
+        "female_lines": ["Ah bonjour Luc ! Qu'est-ce qui se passe ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["J'ai un problème avec mon ordinateur, il ne démarre plus depuis ce matin. Tu t'y connais en informatique, non ?"],
+        "female_lines": ["Oui, un peu. Tu as essayé de le redémarrer en mode sans échec ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Non, je ne sais pas comment faire. Tu pourrais passer me montrer ?"],
+        "female_lines": ["Bien sûr, j'arrive dans cinq minutes."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "section": "B",
+    "theme": "Health",
+    "question": "Quel conseil le médecin donne-t-il à sa patiente ?",
+    "options": [
+      { "id": "A", "text": "Prendre des antibiotiques immédiatement", "image_prompt": "" },
+      { "id": "B", "text": "Boire beaucoup d'eau et se reposer", "image_prompt": "" },
+      { "id": "C", "text": "Aller à l'hôpital pour des examens", "image_prompt": "" },
+      { "id": "D", "text": "Faire de l'exercice tous les jours", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Docteur Martin : Alors Madame Tremblay, vous avez de la fièvre depuis combien de jours ? Madame Tremblay : Depuis hier soir, docteur. J'ai aussi mal à la gorge. Docteur Martin : Je vais vous ausculter. Respirez profondément. C'est une angine virale, rien de grave. Madame Tremblay : Je dois prendre des médicaments ? Docteur Martin : Non, pas d'antibiotiques. Buvez beaucoup d'eau, reposez-vous et revenez me voir si la fièvre persiste après trois jours.",
+    "transcript_en": "Doctor Martin: So Mrs. Tremblay, how many days have you had a fever? Mrs. Tremblay: Since yesterday evening, doctor. I also have a sore throat. Doctor Martin: Let me examine you. Breathe deeply. It's a viral angina, nothing serious. Mrs. Tremblay: Do I need to take medication? Doctor Martin: No, no antibiotics. Drink plenty of water, rest, and come back to see me if the fever persists after three days.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Alors Madame Tremblay, vous avez de la fièvre depuis combien de jours ?"],
+        "female_lines": ["Depuis hier soir, docteur. J'ai aussi mal à la gorge."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Je vais vous ausculter. Respirez profondément. C'est une angine virale, rien de grave."],
+        "female_lines": ["Je dois prendre des médicaments ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Non, pas d'antibiotiques. Buvez beaucoup d'eau, reposez-vous et revenez me voir si la fièvre persiste après trois jours."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "section": "B",
+    "theme": "Bank services",
+    "question": "Pourquoi la cliente se plaint-elle à la banque ?",
+    "options": [
+      { "id": "A", "text": "Son compte a été piraté", "image_prompt": "" },
+      { "id": "B", "text": "Elle a été surchargée de frais bancaires", "image_prompt": "" },
+      { "id": "C", "text": "Sa carte a été déclinée", "image_prompt": "" },
+      { "id": "D", "text": "Elle n'a pas reçu son relevé mensuel", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Conseiller : Bonjour Madame, bienvenue à la Banque Nationale. Comment puis-je vous aider ? Cliente : Bonjour. Je viens voir pour des frais sur mon relevé. On m'a chargée quinze dollars de frais de service ce mois-ci. Conseiller : Je vérifie votre dossier. Effectivement, vous n'avez pas maintenu le solde minimum requis. Cliente : Mais personne ne m'avait prévenue de ce changement ! Conseiller : Je comprends votre frustration. Je peux annuler ces frais cette fois comme geste de bonne volonté.",
+    "transcript_en": "Advisor: Hello Madam, welcome to the National Bank. How can I help you? Client: Hello. I came to inquire about charges on my statement. I was charged fifteen dollars in service fees this month. Advisor: Let me check your file. Indeed, you did not maintain the required minimum balance. Client: But no one warned me about this change! Advisor: I understand your frustration. I can waive these fees this time as a goodwill gesture.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour Madame, bienvenue à la Banque Nationale. Comment puis-je vous aider ?"],
+        "female_lines": ["Bonjour. Je viens voir pour des frais sur mon relevé. On m'a chargée quinze dollars de frais de service ce mois-ci."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Je vérifie votre dossier. Effectivement, vous n'avez pas maintenu le solde minimum requis."],
+        "female_lines": ["Mais personne ne m'avait prévenue de ce changement !"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je comprends votre frustration. Je peux annuler ces frais cette fois comme geste de bonne volonté."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "section": "C",
+    "theme": "Airport announcement",
+    "question": "Quelle information est donnée aux passagers ?",
+    "options": [
+      { "id": "A", "text": "Un vol est retardé à cause de la météo", "image_prompt": "" },
+      { "id": "B", "text": "L'embarquement commence pour le vol 452", "image_prompt": "" },
+      { "id": "C", "text": "Les bagages sont disponibles au carrousel 3", "image_prompt": "" },
+      { "id": "D", "text": "Le vol pour Paris est annulé", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Mesdames et Messieurs, nous vous prions de bien vouloir vous rendre à la porte vingt-quatre. L'embarquement du vol Air Canada quatre-cinquante-deux à destination de Vancouver vient de commencer. Les passagers voyageant en classe affaires et les membres Super Elite sont invités à embarquer en priorité. Veuillez préparer votre carte d'embarquement et une pièce d'identité valide. Nous vous rappelons que cet avion est non-fumeur. Merci de votre attention et bon voyage.",
+    "transcript_en": "Ladies and Gentlemen, we kindly ask you to proceed to gate twenty-four. Boarding for Air Canada flight four-fifty-two to Vancouver has just begun. Passengers traveling in business class and Super Elite members are invited to board first. Please prepare your boarding pass and a valid ID. We remind you that this is a non-smoking flight. Thank you for your attention and have a pleasant trip.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mesdames et Messieurs, nous vous prions de bien vouloir vous rendre à la porte vingt-quatre."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["L'embarquement du vol Air Canada quatre-cinquante-deux à destination de Vancouver vient de commencer."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les passagers voyageant en classe affaires et les membres Super Elite sont invités à embarquer en priorité."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Veuillez préparer votre carte d'embarquement et une pièce d'identité valide."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Nous vous rappelons que cet avion est non-fumeur."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Merci de votre attention et bon voyage."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "section": "C",
+    "theme": "Supermarket announcement",
+    "question": "Quelle promotion est annoncée dans ce magasin ?",
+    "options": [
+      { "id": "A", "text": "50% de réduction sur les fruits et légumes", "image_prompt": "" },
+      { "id": "B", "text": "Un steak gratuit pour trois achetés", "image_prompt": "" },
+      { "id": "C", "text": "Deux pour le prix d'un sur les produits laitiers", "image_prompt": "" },
+      { "id": "D", "text": "Carte de fidélité double points aujourd'hui", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Chers clients, bienvenue chez Provigo. Aujourd'hui seulement, profitez de notre offre spéciale sur les produits laitiers. Tous les yogourts, fromages et crèmes glacées sont en promotion deux pour le prix d'un. Cette offre exceptionnelle est valable jusqu'à la fermeture du magasin ce soir à vingt-et-une heures. N'oubliez pas de présenter votre carte de fidélité à la caisse pour cumuler vos points. Notre équipe reste à votre disposition dans les rayons. Bonnes courses à tous !",
+    "transcript_en": "Dear customers, welcome to Provigo. Today only, take advantage of our special offer on dairy products. All yogurts, cheeses, and ice creams are on sale buy one get one free. This exceptional offer is valid until the store closes tonight at nine PM. Don't forget to present your loyalty card at checkout to accumulate your points. Our team remains at your disposal in the aisles. Happy shopping everyone!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers clients, bienvenue chez Provigo."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Aujourd'hui seulement, profitez de notre offre spéciale sur les produits laitiers."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Tous les yogourts, fromages et crèmes glacées sont en promotion deux pour le prix d'un."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Cette offre exceptionnelle est valable jusqu'à la fermeture du magasin ce soir à vingt-et-une heures."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["N'oubliez pas de présenter votre carte de fidélité à la caisse pour cumuler vos points."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Notre équipe reste à votre disposition dans les rayons. Bonnes courses à tous !"],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "section": "C",
+    "theme": "University announcement",
+    "question": "Quel changement est annoncé aux étudiants ?",
+    "options": [
+      { "id": "A", "text": "La bibliothèque ferme plus tôt aujourd'hui", "image_prompt": "" },
+      { "id": "B", "text": "Un examen est reporté à la semaine prochaine", "image_prompt": "" },
+      { "id": "C", "text": "Le cours de philosophie change de salle", "image_prompt": "" },
+      { "id": "D", "text": "Les inscriptions sont prolongées jusqu'à vendredi", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Attention étudiants, ce message concerne le cours de philosophie moderne de deuxième année. En raison de travaux dans l'aile est du pavillon Hubert-Maisonneuve, le cours de ce mercredi après-midi ne se donnera pas dans l'amphithéâtre habituel. Vous êtes priés de vous rendre au local trois-cents-quatorze du pavillon Jean-Brillant. L'horaire reste inchangé : quatorze heures à seize heures trente. Le professeur Deschênes vous y attend. Merci de votre compréhension et bonne journée.",
+    "transcript_en": "Attention students, this message concerns the second-year modern philosophy course. Due to construction work in the east wing of the Hubert-Maisonneuve building, this Wednesday afternoon's class will not be held in the usual amphitheater. You are requested to go to room three-hundred-fourteen of the Jean-Brillant building. The schedule remains unchanged: two PM to four-thirty PM. Professor Deschênes will be waiting for you there. Thank you for your understanding and have a good day.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Attention étudiants, ce message concerne le cours de philosophie moderne de deuxième année."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["En raison de travaux dans l'aile est du pavillon Hubert-Maisonneuve, le cours de ce mercredi après-midi ne se donnera pas dans l'amphithéâtre habituel."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Vous êtes priés de vous rendre au local trois-cents-quatorze du pavillon Jean-Brillant."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["L'horaire reste inchangé : quatorze heures à seize heures trente."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Le professeur Deschênes vous y attend. Merci de votre compréhension et bonne journée."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "section": "C",
+    "theme": "Public transport announcement",
+    "question": "Quel problème affecte le service de métro ?",
+    "options": [
+      { "id": "A", "text": "Une grève des conducteurs", "image_prompt": "" },
+      { "id": "B", "text": "Des travaux sur la ligne verte", "image_prompt": "" },
+      { "id": "C", "text": "Une panne de signalisation", "image_prompt": "" },
+      { "id": "D", "text": "Un incident technique à la station Berri", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Mesdames et Messieurs, la Société de transport de Montréal vous informe qu'en raison de travaux d'entretien majeurs, la ligne verte du métro connaîtra des interruptions de service ce week-end. Entre les stations Lionel-Groulx et Honoré-Beaugrand, des navettes d'autobus remplaceront les trains de vingt-deux heures vendredi soir jusqu'à cinq heures lundi matin. Nous vous recommandons de prévoir des délais supplémentaires pour vos déplacements. Les billets de métro seront acceptés à bord des autobus de remplacement. Merci de votre patience.",
+    "transcript_en": "Ladies and Gentlemen, the Montreal Transit Corporation informs you that due to major maintenance work, the green metro line will experience service interruptions this weekend. Between Lionel-Groulx and Honoré-Beaugrand stations, shuttle buses will replace trains from ten PM Friday night until five AM Monday morning. We recommend planning additional time for your trips. Metro tickets will be accepted on the replacement buses. Thank you for your patience.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mesdames et Messieurs, la Société de transport de Montréal vous informe qu'en raison de travaux d'entretien majeurs, la ligne verte du métro connaîtra des interruptions de service ce week-end."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Entre les stations Lionel-Groulx et Honoré-Beaugrand, des navettes d'autobus remplaceront les trains de vingt-deux heures vendredi soir jusqu'à cinq heures lundi matin."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Nous vous recommandons de prévoir des délais supplémentaires pour vos déplacements."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les billets de métro seront acceptés à bord des autobus de remplacement. Merci de votre patience."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "section": "C",
+    "theme": "Weather alert",
+    "question": "Quel type d'alerte météorologique est émis ?",
+    "options": [
+      { "id": "A", "text": "Alerte de canicule", "image_prompt": "" },
+      { "id": "B", "text": "Alerte de tempête de neige", "image_prompt": "" },
+      { "id": "C", "text": "Alerte de pluie verglaçante", "image_prompt": "" },
+      { "id": "D", "text": "Alerte de vent violent", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Ceci est un message d'Environnement Canada. Une alerte de tempête de neige est en vigueur pour la région de Montréal et ses environs. Des accumulations de vingt à trente centimètres de neige sont prévues entre ce soir et demain midi. Les vents souffleront à soixante kilomètres à l'heure, créant de la poudrerie et réduisant la visibilité à près de zéro. Évitez tout déplacement non essentiel. Si vous devez sortir, préparez une trousse d'urgence pour votre véhicule. Restez à l'intérieur et en sécurité.",
+    "transcript_en": "This is a message from Environment Canada. A snowstorm warning is in effect for the Montreal region and surrounding areas. Accumulations of twenty to thirty centimeters of snow are expected between tonight and tomorrow noon. Winds will blow at sixty kilometers per hour, creating blowing snow and reducing visibility to near zero. Avoid any non-essential travel. If you must go out, prepare an emergency kit for your vehicle. Stay indoors and stay safe.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Ceci est un message d'Environnement Canada."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Une alerte de tempête de neige est en vigueur pour la région de Montréal et ses environs."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Des accumulations de vingt à trente centimètres de neige sont prévues entre ce soir et demain midi."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les vents souffleront à soixante kilomètres à l'heure, créant de la poudrerie et réduisant la visibilité à près de zéro."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Évitez tout déplacement non essentiel."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Si vous devez sortir, préparez une trousse d'urgence pour votre véhicule. Restez à l'intérieur et en sécurité."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "section": "C",
+    "theme": "Museum announcement",
+    "question": "Quelle nouveauté est présentée au musée ?",
+    "options": [
+      { "id": "A", "text": "Une exposition temporaire sur les dinosaures", "image_prompt": "" },
+      { "id": "B", "text": "Une collection permanente d'art contemporain", "image_prompt": "" },
+      { "id": "C", "text": "Un spectacle multimédia sur l'histoire du Québec", "image_prompt": "" },
+      { "id": "D", "text": "Des ateliers pour enfants le week-end", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Bienvenue au Musée d'Histoire Naturelle de Montréal. Nous sommes ravis de vous présenter notre nouvelle exposition temporaire 'Les Géants du Jurassique'. Pendant trois mois, découvrez des squelettes de dinosaures grandeur nature jamais exposés au Canada. L'exposition comprend des fossiles authentiques, des reconstitutions en réalité virtuelle et des ateliers interactifs pour toute la famille. L'entrée est gratuite pour les enfants de moins de douze ans. Visitez notre site web pour les heures de visite guidée. Profitez de cette aventure préhistorique unique !",
+    "transcript_en": "Welcome to the Montreal Museum of Natural History. We are delighted to present our new temporary exhibition 'Giants of the Jurassic'. For three months, discover life-size dinosaur skeletons never before exhibited in Canada. The exhibition includes authentic fossils, virtual reality reconstructions, and interactive workshops for the whole family. Admission is free for children under twelve. Visit our website for guided tour hours. Enjoy this unique prehistoric adventure!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bienvenue au Musée d'Histoire Naturelle de Montréal."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nous sommes ravis de vous présenter notre nouvelle exposition temporaire 'Les Géants du Jurassique'."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Pendant trois mois, découvrez des squelettes de dinosaures grandeur nature jamais exposés au Canada."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["L'exposition comprend des fossiles authentiques, des reconstitutions en réalité virtuelle et des ateliers interactifs pour toute la famille."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["L'entrée est gratuite pour les enfants de moins de douze ans."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Visitez notre site web pour les heures de visite guidée. Profitez de cette aventure préhistorique unique !"],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "section": "D",
+    "theme": "Making an appointment",
+    "question": "Quelle est l'intention principale de l'homme ?",
+    "options": [
+      { "id": "A", "text": "Se plaindre d'un service", "image_prompt": "" },
+      { "id": "B", "text": "Demander des informations sur les prix", "image_prompt": "" },
+      { "id": "C", "text": "Prendre rendez-vous chez le dentiste", "image_prompt": "" },
+      { "id": "D", "text": "Annuler une consultation", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Réceptionniste : Clinique dentaire du Quartier, bonjour. Thomas : Bonjour, je voudrais prendre rendez-vous pour un détartrage, s'il vous plaît. Réceptionniste : Bien sûr monsieur. Êtes-vous déjà patient chez nous ? Thomas : Non, c'est ma première visite. Je viens d'emménager dans le quartier. Réceptionniste : Je comprends. Avez-vous une préférence pour le jour ou l'heure ? Thomas : Serait-ce possible mardi ou jeudi après-midi ? Je travaille le matin. Réceptionniste : Je regarde... Jeudi quatorze heures est disponible. Ça vous convient ? Thomas : Parfait, je note. Merci beaucoup.",
+    "transcript_en": "Receptionist: Quartier Dental Clinic, hello. Thomas: Hello, I would like to make an appointment for a teeth cleaning, please. Receptionist: Certainly sir. Are you already a patient with us? Thomas: No, it's my first visit. I just moved to the neighborhood. Receptionist: I understand. Do you have a preference for day or time? Thomas: Would Tuesday or Thursday afternoon be possible? I work in the morning. Receptionist: Let me check... Thursday at two PM is available. Does that work for you? Thomas: Perfect, I'll write it down. Thank you very much.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, je voudrais prendre rendez-vous pour un détartrage, s'il vous plaît."],
+        "female_lines": ["Clinique dentaire du Quartier, bonjour."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Non, c'est ma première visite. Je viens d'emménager dans le quartier."],
+        "female_lines": ["Bien sûr monsieur. Êtes-vous déjà patient chez nous ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Serait-ce possible mardi ou jeudi après-midi ? Je travaille le matin."],
+        "female_lines": ["Je comprends. Avez-vous une préférence pour le jour ou l'heure ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Parfait, je note. Merci beaucoup."],
+        "female_lines": ["Je regarde... Jeudi quatorze heures est disponible. Ça vous convient ?"]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "section": "D",
+    "theme": "Giving advice",
+    "question": "Quelle est l'intention de la femme dans cette conversation ?",
+    "options": [
+      { "id": "A", "text": "Critiquer la décision de son ami", "image_prompt": "" },
+      { "id": "B", "text": "Encourager son ami à postuler pour un emploi", "image_prompt": "" },
+      { "id": "C", "text": "Demander de l'aide pour son propre travail", "image_prompt": "" },
+      { "id": "D", "text": "Partager une offre d'emploi", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Éric : Je ne sais pas si je devrais postuler pour ce poste de chef d'équipe. Julie : Mais Éric, tu as toutes les qualifications requises ! Tu travailles dans cette entreprise depuis cinq ans. Éric : Oui, mais je n'ai jamais géré d'équipe auparavant. Julie : Et alors ? Tu es naturellement bon avec les gens. Tes collègues t'apprécient tous. Éric : Tu crois vraiment ? Julie : Absolument ! Tu devrais au moins essayer. Tu regretteras de ne pas tenter ta chance. Éric : Tu as raison, je vais préparer ma candidature ce week-end.",
+    "transcript_en": "Éric: I don't know if I should apply for this team leader position. Julie: But Éric, you have all the required qualifications! You've been working at this company for five years. Éric: Yes, but I've never managed a team before. Julie: So what? You're naturally good with people. All your colleagues appreciate you. Éric: Do you really think so? Julie: Absolutely! You should at least try. You'll regret not taking your chance. Éric: You're right, I'll prepare my application this weekend.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je ne sais pas si je devrais postuler pour ce poste de chef d'équipe."],
+        "female_lines": ["Mais Éric, tu as toutes les qualifications requises ! Tu travailles dans cette entreprise depuis cinq ans."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Oui, mais je n'ai jamais géré d'équipe auparavant."],
+        "female_lines": ["Et alors ? Tu es naturellement bon avec les gens. Tes collègues t'apprécient tous."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Tu crois vraiment ?"],
+        "female_lines": ["Absolument ! Tu devrais au moins essayer. Tu regretteras de ne pas tenter ta chance."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Tu as raison, je vais préparer ma candidature ce week-end."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "section": "D",
+    "theme": "Expressing dissatisfaction",
+    "question": "Pourquoi le client appelle-t-il le service client ?",
+    "options": [
+      { "id": "A", "text": "Pour commander un nouveau produit", "image_prompt": "" },
+      { "id": "B", "text": "Pour se plaindre d'une livraison en retard", "image_prompt": "" },
+      { "id": "C", "text": "Pour demander un remboursement", "image_prompt": "" },
+      { "id": "D", "text": "Pour signaler un produit défectueux", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Agent : Service clientèle, j'écoute. Client : Bonjour, j'ai reçu ma commande hier mais le produit ne fonctionne pas du tout. Agent : Je suis désolé pour ce désagrément. De quel article s'agit-il ? Client : C'est un aspirateur sans fil. Je l'ai chargé toute la nuit mais il ne démarre pas. Agent : Avez-vous vérifié le manuel d'utilisation ? Client : Oui, j'ai suivi toutes les instructions. C'est clairement un défaut de fabrication. Agent : Je comprends. Je peux vous proposer un échange gratuit ou un remboursement complet. Que préférez-vous ? Client : Je préfère un remboursement, merci.",
+    "transcript_en": "Agent: Customer service, I'm listening. Client: Hello, I received my order yesterday but the product doesn't work at all. Agent: I'm sorry for this inconvenience. Which item is it? Client: It's a cordless vacuum cleaner. I charged it all night but it won't start. Agent: Have you checked the user manual? Client: Yes, I followed all the instructions. It's clearly a manufacturing defect. Agent: I understand. I can offer you a free exchange or a full refund. Which do you prefer? Client: I prefer a refund, thank you.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, j'ai reçu ma commande hier mais le produit ne fonctionne pas du tout."],
+        "female_lines": ["Service clientèle, j'écoute."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est un aspirateur sans fil. Je l'ai chargé toute la nuit mais il ne démarre pas."],
+        "female_lines": ["Je suis désolé pour ce désagrément. De quel article s'agit-il ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Oui, j'ai suivi toutes les instructions. C'est clairement un défaut de fabrication."],
+        "female_lines": ["Avez-vous vérifié le manuel d'utilisation ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Je préfère un remboursement, merci."],
+        "female_lines": ["Je comprends. Je peux vous proposer un échange gratuit ou un remboursement complet. Que préférez-vous ?"]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "section": "D",
+    "theme": "Requesting information",
+    "question": "Quelle information la femme cherche-t-elle ?",
+    "options": [
+      { "id": "A", "text": "Les horaires d'ouverture de la bibliothèque", "image_prompt": "" },
+      { "id": "B", "text": "La disponibilité d'un livre spécifique", "image_prompt": "" },
+      { "id": "C", "text": "Comment obtenir une carte de bibliothèque", "image_prompt": "" },
+      { "id": "D", "text": "L'emplacement d'une section dans la bibliothèque", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Bibliothécaire : Bonjour, bienvenue à la bibliothèque municipale. Comment puis-je vous aider ? Amélie : Bonjour, je cherche le livre 'L'Ingénuité québécoise' de Michel Tremblay. Est-il disponible ? Bibliothécaire : Je vérifie dans notre système. Oui, nous l'avons en rayon. C'est dans la section littérature québécoise, étagée K. Amélie : Parfait. Pourrais-je aussi savoir s'il existe une version audio ? Bibliothécaire : Malheureusement non, seulement la version imprimée. Amélie : Ce n'est pas grave, la version papier me convient. Merci pour votre aide. Bibliothécaire : Je vous en prie. Bonne lecture !",
+    "transcript_en": "Librarian: Hello, welcome to the municipal library. How can I help you? Amélie: Hello, I'm looking for the book 'L'Ingénuité québécoise' by Michel Tremblay. Is it available? Librarian: Let me check our system. Yes, we have it on the shelves. It's in the Quebec literature section, shelf K. Amélie: Perfect. Could I also know if there's an audio version? Librarian: Unfortunately no, only the printed version. Amélie: That's fine, the paper version suits me. Thanks for your help. Librarian: You're welcome. Happy reading!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Bonjour, je cherche le livre 'L'Ingénuité québécoise' de Michel Tremblay. Est-il disponible ?", "Bonjour, bienvenue à la bibliothèque municipale. Comment puis-je vous aider ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Je vérifie dans notre système. Oui, nous l'avons en rayon. C'est dans la section littérature québécoise, étagée K.", "Parfait. Pourrais-je aussi savoir s'il existe une version audio ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Malheureusement non, seulement la version imprimée.", "Ce n'est pas grave, la version papier me convient. Merci pour votre aide."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Je vous en prie. Bonne lecture !"]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "section": "D",
+    "theme": "Making a suggestion",
+    "question": "Quelle suggestion l'homme fait-il à sa collègue ?",
+    "options": [
+      { "id": "A", "text": "De prendre une pause café ensemble", "image_prompt": "" },
+      { "id": "B", "text": "De travailler à domicile demain", "imageprompt": "" },
+      { "id": "C", "text": "D'utiliser un nouveau logiciel pour le projet", "image_prompt": "" },
+      { "id": "D", "text": "De demander une extension de délai au patron", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Marie : Cette présentation me prend beaucoup plus de temps que prévu. Pierre : Je remarque que tu galères avec l'ancien logiciel de design. Marie : Oui, il plante toutes les dix minutes, c'est frustrant. Pierre : Tu as essayé le nouveau Canva Pro que l'entreprise a acheté ? Marie : Pas encore, je ne sais pas comment l'utiliser. Pierre : Je peux te montrer en cinq minutes. C'est beaucoup plus intuitif et rapide. Marie : Vraiment ? Ce serait super, je perds tellement de temps actuellement. Pierre : Viens, je t'installe ça maintenant.",
+    "transcript_en": "Marie: This presentation is taking me much longer than expected. Pierre: I notice you're struggling with the old design software. Marie: Yes, it crashes every ten minutes, it's frustrating. Pierre: Have you tried the new Canva Pro that the company bought? Marie: Not yet, I don't know how to use it. Pierre: I can show you in five minutes. It's much more intuitive and fast. Marie: Really? That would be great, I'm losing so much time currently. Pierre: Come, I'll set it up for you now.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je remarque que tu galères avec l'ancien logiciel de design."],
+        "female_lines": ["Cette présentation me prend beaucoup plus de temps que prévu."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Tu as essayé le nouveau Canva Pro que l'entreprise a acheté ?"],
+        "female_lines": ["Oui, il plante toutes les dix minutes, c'est frustrant."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je peux te montrer en cinq minutes. C'est beaucoup plus intuitif et rapide."],
+        "female_lines": ["Pas encore, je ne sais pas comment l'utiliser."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Viens, je t'installe ça maintenant."],
+        "female_lines": ["Vraiment ? Ce serait super, je perds tellement de temps actuellement."]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "section": "D",
+    "theme": "Expressing concern",
+    "question": "De quoi la mère s'inquiète-t-elle ?",
+    "options": [
+      { "id": "A", "text": "Que sa fille ne mange pas assez", "image_prompt": "" },
+      { "id": "B", "text": "Que sa fille travaille trop", "image_prompt": "" },
+      { "id": "C", "text": "Que sa fille ne dort pas suffisamment", "image_prompt": "" },
+      { "id": "D", "text": "Que sa fille a des problèmes d'argent", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Isabelle : Ma fille, tu as l'air épuisée ces derniers temps. Camille : Je vais bien maman, juste un peu fatiguée. Isabelle : Tu rentres à vingt-trois heures presque tous les soirs. Tu ne te reposes jamais. Camille : J'ai beaucoup de projets au travail, c'est temporaire. Isabelle : Temporaire depuis trois mois ? Tu vas tomber malade à ce rythme. Camille : Je sais, mais je ne peux pas dire non à mon patron. Isabelle : Tu dois apprendre à fixer des limites. Ta santé est plus importante.",
+    "transcript_en": "Isabelle: My daughter, you look exhausted lately. Camille: I'm fine mom, just a bit tired. Isabelle: You come home at eleven PM almost every night. You never rest. Camille: I have a lot of projects at work, it's temporary. Isabelle: Temporary for three months? You'll get sick at this pace. Camille: I know, but I can't say no to my boss. Isabelle: You need to learn to set boundaries. Your health is more important.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Ma fille, tu as l'air épuisée ces derniers temps.", "Je vais bien maman, juste un peu fatiguée."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Tu rentres à vingt-trois heures presque tous les soirs. Tu ne te reposes jamais.", "J'ai beaucoup de projets au travail, c'est temporaire."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Temporaire depuis trois mois ? Tu vas tomber malade à ce rythme.", "Je sais, mais je ne peux pas dire non à mon patron."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Tu dois apprendre à fixer des limites. Ta santé est plus importante."]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "section": "E",
+    "theme": "Environmental interview",
+    "question": "Selon l'experte, quel est le plus grand défi environnemental du Québec ?",
+    "options": [
+      { "id": "A", "text": "La déforestation massive", "image_prompt": "" },
+      { "id": "B", "text": "La fonte des glaciers arctiques", "image_prompt": "" },
+      { "id": "C", "text": "La protection de l'eau potable", "image_prompt": "" },
+      { "id": "D", "text": "La réduction des émissions de gaz à effet de serre", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Animateur : Dr. Lefebvre, vous étudiez l'environnement québécois depuis vingt ans. Quel est selon vous le défi le plus urgent ? Dr. Lefebvre : Sans hésitation, la protection de notre eau potable. Le Québec possède 3% des réserves d'eau douce mondiales. Animateur : C'est impressionnant comme responsabilité. Dr. Lefebvre : Exactement. Mais la pollution agricole et industrielle menace nos nappes phréatiques. Animateur : Que recommandez-vous concrètement ? Dr. Lefebvre : Il faut renforcer les lois sur les pesticides et investir dans les stations d'épuration. Animateur : Le gouvernement actuel prend-il des mesures ? Dr. Lefebvre : Certes, mais trop lentement. L'urgence climatique ne nous laisse plus le choix.",
+    "transcript_en": "Host: Dr. Lefebvre, you have been studying the Quebec environment for twenty years. What is in your opinion the most urgent challenge? Dr. Lefebvre: Without hesitation, the protection of our drinking water. Quebec possesses 3% of the world's freshwater reserves. Host: That's an impressive responsibility. Dr. Lefebvre: Exactly. But agricultural and industrial pollution threatens our groundwater. Host: What do you concretely recommend? Dr. Lefebvre: We must strengthen laws on pesticides and invest in wastewater treatment plants. Host: Is the current government taking measures? Dr. Lefebvre: Yes, but too slowly. The climate emergency leaves us no choice.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Dr. Lefebvre, vous étudiez l'environnement québécois depuis vingt ans. Quel est selon vous le défi le plus urgent ?"],
+        "female_lines": ["Sans hésitation, la protection de notre eau potable. Le Québec possède 3% des réserves d'eau douce mondiales."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est impressionnant comme responsabilité."],
+        "female_lines": ["Exactement. Mais la pollution agricole et industrielle menace nos nappes phréatiques."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Que recommandez-vous concrètement ?"],
+        "female_lines": ["Il faut renforcer les lois sur les pesticides et investir dans les stations d'épuration."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Le gouvernement actuel prend-il des mesures ?"],
+        "female_lines": ["Certes, mais trop lentement. L'urgence climatique ne nous laisse plus le choix."]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "section": "E",
+    "theme": "Technology interview",
+    "question": "Quelle est la préoccupation principale de l'expert en cybersécurité ?",
+    "options": [
+      { "id": "A", "text": "Le manque de formation des employés", "image_prompt": "" },
+      { "id": "B", "text": "Les attaques de rançongiciels contre les PME", "image_prompt": "" },
+      { "id": "C", "text": "Le vol de données personnelles", "image_prompt": "" },
+      { "id": "D", "text": "La lenteur des connexions internet", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Journaliste : Monsieur Girard, les cyberattaques augmentent au Québec. Quelle menace inquiète le plus les entreprises ? M. Girard : Les rançongiciels, sans aucun doute. Les petites et moyennes entreprises sont particulièrement vulnérables. Journaliste : Pourquoi spécifiquement les PME ? M. Girard : Elles sous-estiment le risque et investissent peu en sécurité informatique. Les pirates le savent. Journaliste : Quel conseil donnez-vous aux dirigeants ? M. Girard : Sauvegardez vos données quotidiennement et formez vos employés. Un clic sur un lien malveillant suffit. Journaliste : Les autorités peuvent-elles aider ? M. Girard : Elles créent des cellules d'alerte, mais la prévention reste la responsabilité de chaque entreprise.",
+    "transcript_en": "Journalist: Mr. Girard, cyberattacks are increasing in Quebec. What threat worries businesses the most? Mr. Girard: Ransomware, without a doubt. Small and medium-sized enterprises are particularly vulnerable. Journalist: Why specifically SMEs? Mr. Girard: They underestimate the risk and invest little in IT security. The pirates know this. Journalist: What advice do you give to leaders? Mr. Girard: Back up your data daily and train your employees. One click on a malicious link is enough. Journalist: Can the authorities help? Mr. Girard: They are creating alert cells, but prevention remains each company's responsibility.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Monsieur Girard, les cyberattaques augmentent au Québec. Quelle menace inquiète le plus les entreprises ?", "Les rançongiciels, sans aucun doute. Les petites et moyennes entreprises sont particulièrement vulnérables."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Pourquoi spécifiquement les PME ?", "Elles sous-estiment le risque et investissent peu en sécurité informatique. Les pirates le savent."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Quel conseil donnez-vous aux dirigeants ?", "Sauvegardez vos données quotidiennement et formez vos employés. Un clic sur un lien malveillant suffit."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les autorités peuvent-elles aider ?", "Elles créent des cellules d'alerte, mais la prévention reste la responsabilité de chaque entreprise."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "section": "E",
+    "theme": "Health interview",
+    "question": "Quelle solution la nutritionniste propose-t-elle pour lutter contre l'obésité ?",
+    "options": [
+      { "id": "A", "text": "Interdire la publicité pour les aliments sucrés", "image_prompt": "" },
+      { "id": "B", "text": "Réduire les portions dans les restaurants", "image_prompt": "" },
+      { "id": "C", "text": "Éduquer les enfants dès l'école primaire", "image_prompt": "" },
+      { "id": "D", "text": "Taxer les boissons sucrées", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Présentateur : Dre. Bouchard, les taux d'obésité chez les jeunes Québécois inquiètent. Comment inverser cette tendance ? Dre. Bouchard : L'éducation alimentaire doit commencer dès l'école primaire. C'est fondamental. Présentateur : Quelle serait la méthode efficace ? Dre. Bouchard : Intégrer des cours pratiques de cuisine et de nutrition dans le curriculum. Les enfants doivent comprendre ce qu'ils mangent. Présentateur : Les parents ont-ils un rôle à jouer ? Dre. Bouchard : Essentiel ! Mais beaucoup manquent eux-mêmes de connaissances nutritionnelles. Présentateur : Les écoles ont-elles les ressources nécessaires ? Dre. Bouchard : C'est le défi. Il faut financer du personnel qualifié et des cuisines adaptées. L'investissement vaut le coût.",
+    "transcript_en": "Presenter: Dr. Bouchard, obesity rates among young Quebecers are concerning. How can we reverse this trend? Dr. Bouchard: Nutritional education must start in elementary school. It's fundamental. Presenter: What would be an effective method? Dr. Bouchard: Integrate practical cooking and nutrition classes into the curriculum. Children must understand what they eat. Presenter: Do parents have a role to play? Dr. Bouchard: Essential! But many themselves lack nutritional knowledge. Presenter: Do schools have the necessary resources? Dr. Bouchard: That's the challenge. We need to fund qualified staff and appropriate kitchens. The investment is worth the cost.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Dre. Bouchard, les taux d'obésité chez les jeunes Québécois inquiètent. Comment inverser cette tendance ?"],
+        "female_lines": ["L'éducation alimentaire doit commencer dès l'école primaire. C'est fondamental."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Quelle serait la méthode efficace ?"],
+        "female_lines": ["Intégrer des cours pratiques de cuisine et de nutrition dans le curriculum. Les enfants doivent comprendre ce qu'ils mangent."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les parents ont-ils un rôle à jouer ?"],
+        "female_lines": ["Essentiel ! Mais beaucoup manquent eux-mêmes de connaissances nutritionnelles."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les écoles ont-elles les ressources nécessaires ?"],
+        "female_lines": ["C'est le défi. Il faut financer du personnel qualifié et des cuisines adaptées. L'investissement vaut le coût."]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "section": "E",
+    "theme": "Cultural interview",
+    "question": "Pourquoi le directeur du festival est-il optimiste cette année ?",
+    "options": [
+      { "id": "A", "text": "Les ventes de billets ont doublé", "image_prompt": "" },
+      { "id": "B", "text": "De nouveaux artistes locaux participent", "image_prompt": "" },
+      { "id": "C", "text": "Le festival reçoit plus de financement public", "image_prompt": "" },
+      { "id": "D", "text": "La programmation diversifiée attire tous les âges", "image_prompt": "" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Chroniqueur : Monsieur Pelletier, le Festival de Jazz de Montréal approche. Quelles sont vos attentes ? M. Pelletier : Très positives ! Notre programmation cette année touche tous les âges et tous les goûts. Chroniqueur : Comment avez-vous diversifié les spectacles ? M. Pelletier : Nous avons ajouté de la musique électronique, du hip-hop et des concerts familiaux le jour. Chroniqueur : Le public répond-il favorablement ? M. Pelletier : Les ventes dépassent déjà l'année dernière. Les jeunes achètent des billets comme jamais auparavant. Chroniqueur : Quel est le secret de cette réussite ? M. Pelletier : Écouter notre public et oser innover tout en respectant nos racines jazz.",
+    "transcript_en": "Columnist: Mr. Pelletier, the Montreal Jazz Festival is approaching. What are your expectations? Mr. Pelletier: Very positive! Our programming this year reaches all ages and all tastes. Columnist: How have you diversified the shows? Mr. Pelletier: We've added electronic music, hip-hop, and daytime family concerts. Columnist: Is the public responding favorably? Mr. Pelletier: Sales already exceed last year. Young people are buying tickets like never before. Columnist: What is the secret of this success? Mr. Pelletier: Listening to our audience and daring to innovate while respecting our jazz roots.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Monsieur Pelletier, le Festival de Jazz de Montréal approche. Quelles sont vos attentes ?", "Très positives ! Notre programmation cette année touche tous les âges et tous les goûts."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Comment avez-vous diversifié les spectacles ?", "Nous avons ajouté de la musique électronique, du hip-hop et des concerts familiaux le jour."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le public répond-il favorablement ?", "Les ventes dépassent déjà l'année dernière. Les jeunes achètent des billets comme jamais auparavant."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Quel est le secret de cette réussite ?", "Écouter notre public et oser innover tout en respectant nos racines jazz."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "section": "F",
+    "theme": "Housing debate",
+    "question": "Quelle opinion défend la femme dans ce débat sur le logement ?",
+    "options": [
+      { "id": "A", "text": "Il faut construire plus de logements sociaux", "image_prompt": "" },
+      { "id": "B", "text": "Les loyers devraient être complètement libérés", "image_prompt": "" },
+      { "id": "C", "text": "Les jeunes devraient quitter les grandes villes", "image_prompt": "" },
+      { "id": "D", "text": "L'état devrait subventionner les propriétaires", "image_prompt": "" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Philippe : Le prix des loyers à Montréal est devenu impossible pour les jeunes professionnels. Catherine : C'est pourquoi je défends la construction urgente de logements sociaux. L'attente est de cinq ans actuellement. Philippe : Mais ça coûte des milliards aux contribuables. Catherine : Et alors ? La santé mentale et la stabilité des familles n'ont pas de prix. Philippe : Je propose plutôt d'encourager la construction privée avec moins de réglementations. Catherine : Cela profitera aux promoteurs, pas aux locataires. Nous avons besoin d'intervention publique forte. Philippe : Le gouvernement gère déjà mal le parc actuel. Catherine : Justement, investissons pour le moderniser et l'agrandir. C'est une question de justice sociale.",
+    "transcript_en": "Philippe: Rent prices in Montreal have become impossible for young professionals. Catherine: That's why I advocate for the urgent construction of social housing. The wait is five years currently. Philippe: But that costs billions to taxpayers. Catherine: So what? Mental health and family stability have no price. Philippe: I propose instead encouraging private construction with fewer regulations. Catherine: That will benefit developers, not tenants. We need strong public intervention. Philippe: The government already manages the current stock poorly. Catherine: Exactly, let's invest to modernize and expand it. It's a question of social justice.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le prix des loyers à Montréal est devenu impossible pour les jeunes professionnels."],
+        "female_lines": ["C'est pourquoi je défends la construction urgente de logements sociaux. L'attente est de cinq ans actuellement."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Mais ça coûte des milliards aux contribuables."],
+        "female_lines": ["Et alors ? La santé mentale et la stabilité des familles n'ont pas de prix."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je propose plutôt d'encourager la construction privée avec moins de réglementations."],
+        "female_lines": ["Cela profitera aux promoteurs, pas aux locataires. Nous avons besoin d'intervention publique forte."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Le gouvernement gère déjà mal le parc actuel."],
+        "female_lines": ["Justement, investissons pour le moderniser et l'agrandir. C'est une question de justice sociale."]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "section": "F",
+    "theme": "Education debate",
+    "question": "Quelle solution les deux hommes privilégient-ils pour améliorer l'éducation ?",
+    "options": [
+      { "id": "A", "text": "Augmenter les salaires des enseignants", "image_prompt": "" },
+      { "id": "B", "text": "Réduire le nombre d'élèves par classe", "image_prompt": "" },
+      { "id": "C", "text": "Introduire plus de technologie dans les classes", "image_prompt": "" },
+      { "id": "D", "text": "Réformer les programmes scolaires", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "François : Nos enfants ne reçoivent pas l'attention nécessaire à l'école. Les classes sont trop chargées. Robert : Absolument. Réduire le nombre d'élèves par classe devrait être la priorité absolue. François : Un enseignant ne peut pas suivre vingt-huit élèves efficacement. Robert : Dans les écoles privées, les classes de quinze élèves montrent de bien meilleurs résultats. François : Exactement. Investissons dans le recrutement d'enseignants supplémentaires. Robert : C'est coûteux, mais c'est un investissement dans notre avenir collectif. François : Les parents que je connais sont prêts à payer plus d'impôts pour ça. Robert : Moi aussi. La qualité de l'éducation détermine la société de demain.",
+    "transcript_en": "François: Our children don't receive the necessary attention at school. Classes are too crowded. Robert: Absolutely. Reducing the number of students per class should be the absolute priority. François: A teacher cannot effectively follow twenty-eight students. Robert: In private schools, classes of fifteen students show much better results. François: Exactly. Let's invest in recruiting additional teachers. Robert: It's expensive, but it's an investment in our collective future. François: The parents I know are ready to pay more taxes for this. Robert: Me too. The quality of education determines tomorrow's society.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nos enfants ne reçoivent pas l'attention nécessaire à l'école. Les classes sont trop chargées.", "Absolument. Réduire le nombre d'élèves par classe devrait être la priorité absolue."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Un enseignant ne peut pas suivre vingt-huit élèves efficacement.", "Dans les écoles privées, les classes de quinze élèves montrent de bien meilleurs résultats."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Exactement. Investissons dans le recrutement d'enseignants supplémentaires.", "C'est coûteux, mais c'est un investissement dans notre avenir collectif."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les parents que je connais sont prêts à payer plus d'impôts pour ça.", "Moi aussi. La qualité de l'éducation détermine la société de demain."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "section": "F",
+    "theme": "Immigration debate",
+    "question": "Sur quel point la femme et l'homme sont-ils d'accord ?",
+    "options": [
+      { "id": "A", "text": "Il faut réduire le nombre d'immigrants", "image_prompt": "" },
+      { "id": "B", "text": "L'intégration linguistique est essentielle", "image_prompt": "" },
+      { "id": "C", "text": "Les immigrants prennent les emplois des Québécois", "image_prompt": "" },
+      { "id": "D", "text": "Le processus d'immigration est trop rapide", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Jean : Nous accueillons trop d'immigrants sans véritable plan d'intégration. Marie : Je suis partiellement d'accord, mais le problème n'est pas le nombre, c'est l'accompagnement. Jean : Exactement ! Apprendre le français devrait être obligatoire et gratuit dès l'arrivée. Marie : Absolument. Sans maîtrise de la langue, impossible de trouver un emploi qualifié. Jean : Les cours actuels ont des listes d'attente de deux ans. C'est inacceptable. Marie : Investissons dans les centres de francisation. C'est bénéfique pour tout le monde. Jean : Les immigrants réussis contribuent davantage à l'économie. Marie : Et enrichissent notre culture québécoise. L'intégration linguistique est la clé.",
+    "transcript_en": "Jean: We welcome too many immigrants without a real integration plan. Marie: I partially agree, but the problem isn't the number, it's the support. Jean: Exactly! Learning French should be mandatory and free upon arrival. Marie: Absolutely. Without language mastery, it's impossible to find qualified employment. Jean: Current courses have waiting lists of two years. It's unacceptable. Marie: Let's invest in francization centers. It's beneficial for everyone. Jean: Successful immigrants contribute more to the economy. Marie: And enrich our Quebec culture. Linguistic integration is the key.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nous accueillons trop d'immigrants sans véritable plan d'intégration."],
+        "female_lines": ["Je suis partiellement d'accord, mais le problème n'est pas le nombre, c'est l'accompagnement."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Exactement ! Apprendre le français devrait être obligatoire et gratuit dès l'arrivée."],
+        "female_lines": ["Absolument. Sans maîtrise de la langue, impossible de trouver un emploi qualifié."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les cours actuels ont des listes d'attente de deux ans. C'est inacceptable."],
+        "female_lines": ["Investissons dans les centres de francisation. C'est bénéfique pour tout le monde."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les immigrants réussis contribuent davantage à l'économie."],
+        "female_lines": ["Et enrichissent notre culture québécoise. L'intégration linguistique est la clé."]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "section": "F",
+    "theme": "Transport debate",
+    "question": "Quelle opinion défend l'homme concernant le transport en commun ?",
+    "options": [
+      { "id": "A", "text": "Il faut rendre le métro gratuit pour tous", "image_prompt": "" },
+      { "id": "B", "text": "Les investissements doivent prioriser les banlieues", "image_prompt": "" },
+      { "id": "C", "text": "Le tramway est meilleur que le métro souterrain", "image_prompt": "" },
+      { "id": "D", "text": "Les pistes cyclables remplaceront les bus", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Sophie : Le métro de Montréal fonctionne bien, mais les banlieues sont mal desservies. Alexandre : C'est exactement mon point ! Les investissements doivent prioriser les trains de banlieue. Sophie : Les gens de la rive-sud passent deux heures par jour dans les transports. Alexandre : Inacceptable en 2024. Nous avons besoin de lignes rapides et fréquentes. Sophie : Mais ça coûte des milliards pour étendre le réseau. Alexandre : L'alternative, c'est la congestion routière permanente et la pollution. Sophie : Tu as raison sur l'urgence environnementale. Alexandre : Modernisons le réseau existant et créons de nouvelles lignes vers les banlieues éloignées. C'est un impératif économique et écologique.",
+    "transcript_en": "Sophie: The Montreal metro works well, but the suburbs are poorly served. Alexandre: That's exactly my point! Investments must prioritize commuter trains. Sophie: People on the south shore spend two hours per day in transit. Alexandre: Unacceptable in 2024. We need fast and frequent lines. Sophie: But it costs billions to extend the network. Alexandre: The alternative is permanent road congestion and pollution. Sophie: You're right about the environmental urgency. Alexandre: Let's modernize the existing network and create new lines to distant suburbs. It's an economic and ecological imperative.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["C'est exactement mon point ! Les investissements doivent prioriser les trains de banlieue."],
+        "female_lines": ["Le métro de Montréal fonctionne bien, mais les banlieues sont mal desservies."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Inacceptable en 2024. Nous avons besoin de lignes rapides et fréquentes."],
+        "female_lines": ["Les gens de la rive-sud passent deux heures par jour dans les transports."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["L'alternative, c'est la congestion routière permanente et la pollution."],
+        "female_lines": ["Mais ça coûte des milliards pour étendre le réseau."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Modernisons le réseau existant et créons de nouvelles lignes vers les banlieues éloignées. C'est un impératif économique et écologique."],
+        "female_lines": ["Tu as raison sur l'urgence environnementale."]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "section": "G",
+    "theme": "Climate change lecture",
+    "question": "Quelle est la thèse principale de ce discours sur le changement climatique ?",
+    "options": [
+      { "id": "A", "text": "Les énergies fossiles doivent être interdites immédiatement", "image_prompt": "" },
+      { "id": "B", "text": "L'adaptation locale est aussi importante que la réduction des émissions", "image_prompt": "" },
+      { "id": "C", "text": "Seules les technologies vertes peuvent sauver la planète", "image_prompt": "" },
+      { "id": "D", "text": "Le réchauffement climatique est irréversible", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Conférencier : Mesdames et Messieurs, le changement climatique nous concerne tous, mais souvent nous oublions un aspect crucial. Participante : Vous voulez dire la réduction des gaz à effet de serre ? Conférencier : Certes, c'est essentiel, mais l'adaptation locale est tout aussi importante. Notre infrastructure n'est pas préparée aux nouvelles réalités. Participant : Quels types d'adaptation envisagez-vous ? Conférencier : Des systèmes de drainage pour les inondations, des toits blancs contre les canicules, des bâtiments résilients. Participante : Cela semble coûteux pour les municipalités. Conférencier : Moins cher que les dégâts causés par les catastrophes naturelles ! Nous devons agir maintenant. Participant : Le gouvernement fédéral aide-t-il financièrement ? Conférencier : Des programmes existent, mais les fonds sont insuffisants. Chaque communauté doit développer son propre plan d'adaptation. Participante : Comment impliquer les citoyens ? Conférencier : Par l'éducation et la participation locale. Les solutions viennent du terrain, pas seulement des bureaux gouvernementaux.",
+    "transcript_en": "Speaker: Ladies and Gentlemen, climate change concerns us all, but often we forget a crucial aspect. Participant: You mean reducing greenhouse gas emissions? Speaker: Certainly, that's essential, but local adaptation is just as important. Our infrastructure is not prepared for new realities. Participant: What types of adaptation do you envision? Speaker: Drainage systems for floods, white roofs against heat waves, resilient buildings. Participant: This seems expensive for municipalities. Speaker: Cheaper than the damage caused by natural disasters! We must act now. Participant: Does the federal government help financially? Speaker: Programs exist, but funds are insufficient. Each community must develop its own adaptation plan. Participant: How to involve citizens? Speaker: Through education and local participation. Solutions come from the ground, not just government offices.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mesdames et Messieurs, le changement climatique nous concerne tous, mais souvent nous oublions un aspect crucial."],
+        "female_lines": ["Vous voulez dire la réduction des gaz à effet de serre ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Certes, c'est essentiel, mais l'adaptation locale est tout aussi importante. Notre infrastructure n'est pas préparée aux nouvelles réalités."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Quels types d'adaptation envisagez-vous ?"],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Des systèmes de drainage pour les inondations, des toits blancs contre les canicules, des bâtiments résilients."],
+        "female_lines": ["Cela semble coûteux pour les municipalités."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Moins cher que les dégâts causés par les catastrophes naturelles ! Nous devons agir maintenant."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Le gouvernement fédéral aide-t-il financièrement ?"],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Des programmes existent, mais les fonds sont insuffisants. Chaque communauté doit développer son propre plan d'adaptation."],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": ["Comment impliquer les citoyens ?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Par l'éducation et la participation locale. Les solutions viennent du terrain, pas seulement des bureaux gouvernementaux."],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "section": "G",
+    "theme": "Workplace evolution lecture",
+    "question": "Quelle transformation du monde du travail est soulignée dans ce discours ?",
+    "options": [
+      { "id": "A", "text": "La fin du travail à temps plein", "image_prompt": "" },
+      { "id": "B", "text": "L'importance croissante des compétences numériques", "image_prompt": "" },
+      { "id": "C", "text": "Le retour obligatoire au bureau après la pandémie", "image_prompt": "" },
+      { "id": "D", "text": "La disparition des métiers manuels", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Professeur : L'économie québécoise traverse une révolution silencieuse. Étudiante : Vous parlez de l'automatisation ? Professeur : Partiellement, mais surtout de la transformation numérique complète. Aucun secteur n'est épargné. Étudiant : Même les métiers traditionnels comme la construction ? Professeur : Absolument. Les ouvriers utilisent désormais des tablettes pour les plans, des drones pour l'inspection. Étudiante : Quelles compétences deviennent indispensables ? Professeur : La maîtrise des outils collaboratifs, l'analyse de données, la cybersécurité de base. Étudiant : Les employés âgés peuvent-ils s'adapter ? Professeur : Avec une formation continue, oui. Mais il faut volonté de la part des entreprises et des travailleurs. Étudiante : Le télétravail restera-t-il dominant ? Professeur : Le modèle hybride s'impose. Mais les compétences numériques restent le facteur clé de différenciation sur le marché du travail.",
+    "transcript_en": "Professor: The Quebec economy is going through a silent revolution. Student: You're talking about automation? Professor: Partially, but mostly about complete digital transformation. No sector is spared. Student: Even traditional trades like construction? Professor: Absolutely. Workers now use tablets for plans, drones for inspection. Student: What skills are becoming essential? Professor: Mastery of collaborative tools, data analysis, basic cybersecurity. Student: Can older employees adapt? Professor: With continuous training, yes. But there must be willingness from both companies and workers. Student: Will remote work remain dominant? Professor: The hybrid model is becoming standard. But digital skills remain the key differentiating factor in the job market.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'économie québécoise traverse une révolution silencieuse."],
+        "female_lines": ["Vous parlez de l'automatisation ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Partiellement, mais surtout de la transformation numérique complète. Aucun secteur n'est épargné."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Même les métiers traditionnels comme la construction ?"],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Absolument. Les ouvriers utilisent désormais des tablettes pour les plans, des drones pour l'inspection."],
+        "female_lines": ["Quelles compétences deviennent indispensables ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["La maîtrise des outils collaboratifs, l'analyse de données, la cybersécurité de base."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Les employés âgés peuvent-ils s'adapter ?"],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Avec une formation continue, oui. Mais il faut volonté de la part des entreprises et des travailleurs."],
+        "female_lines": ["Le télétravail restera-t-il dominant ?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Le modèle hybride s'impose. Mais les compétences numériques restent le facteur clé de différenciation sur le marché du travail."],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "section": "G",
+    "theme": "Indigenous rights lecture",
+    "question": "Quel argument principal est avancé concernant les droits des peuples autochtones ?",
+    "options": [
+      { "id": "A", "text": "Les traités historiques doivent être renégociés", "image_prompt": "" },
+      { "id": "B", "text": "L'autonomie gouvernementale est essentielle pour la préservation culturelle", "image_prompt": "" },
+      { "id": "C", "text": "Les ressources naturelles appartiennent exclusivement aux autochtones", "image_prompt": "" },
+      { "id": "D", "text": "L'éducation occidentale doit remplacer les traditions orales", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Conférencière : Les Nations autochtones du Québec réclament depuis des décennies une reconnaissance pleine et entière. Participant : De quels droits parlons-nous exactement ? Conférencière : Du droit à l'autodétermination, à gérer leurs propres affaires selon leurs traditions. Participante : Cela inclut le contrôle des terres ? Conférencière : Absolument. Mais surtout l'autonomie gouvernementale pour préserver leur culture. Participant : Comment cela fonctionnerait concrètement ? Conférencière : Des lois autochtones sur la protection de l'enfance, la justice, l'éducation dans les langues ancestrales. Participante : Le gouvernement québécois accepte-t-il ces revendications ? Conférencière : Progressivement. Des ententes de nation à nation sont en cours de négociation. Participant : Quel est l'obstacle principal ? Conférencière : La peur de perdre du pouvoir. Mais la réconciliation exige un partage véritable de l'autorité.",
+    "transcript_en": "Speaker: Indigenous Nations in Quebec have been demanding full and complete recognition for decades. Participant: What rights are we talking about exactly? Speaker: The right to self-determination, to manage their own affairs according to their traditions. Participant: Does this include land control? Speaker: Absolutely. But mostly governmental autonomy to preserve their culture. Participant: How would this work concretely? Speaker: Indigenous laws on child protection, justice, education in ancestral languages. Participant: Does the Quebec government accept these claims? Speaker: Gradually. Nation-to-nation agreements are being negotiated. Participant: What is the main obstacle? Speaker: Fear of losing power. But reconciliation requires a true sharing of authority.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Les Nations autochtones du Québec réclament depuis des décennies une reconnaissance pleine et entière.", "De quels droits parlons-nous exactement ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Du droit à l'autodétermination, à gérer leurs propres affaires selon leurs traditions.", "Cela inclut le contrôle des terres ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Absolument. Mais surtout l'autonomie gouvernementale pour préserver leur culture.", "Comment cela fonctionnerait concrètement ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Des lois autochtones sur la protection de l'enfance, la justice, l'éducation dans les langues ancestrales.", "Le gouvernement québécois accepte-t-il ces revendications ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": ["Progressivement. Des ententes de nation à nation sont en cours de négociation.", "Quel est l'obstacle principal ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": [],
+        "female_lines": ["La peur de perdre du pouvoir. Mais la réconciliation exige un partage véritable de l'autorité."]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "section": "G",
+    "theme": "Healthcare system lecture",
+    "question": "Quelle réforme du système de santé est proposée dans ce discours ?",
+    "options": [
+      { "id": "A", "text": "La privatisation complète des hôpitaux", "image_prompt": "" },
+      { "id": "B", "text": "La création de maisons de santé pluridisciplinaires", "image_prompt": "" },
+      { "id": "C", "text": "La suppression des frais de médicaments", "image_prompt": "" },
+      { "id": "D", "text": "L'interdiction des médecines alternatives", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Dre. Gagnon : Notre système de santé est en crise. Les urgences débordent et les patients attendent des heures. Étudiant : Quelle solution proposez-vous concrètement ? Dre. Gagnon : La création de maisons de santé pluridisciplinaires dans chaque quartier. Étudiante : Qu'est-ce qui différencie ces maisons des cliniques actuelles ? Dre. Gagnon : Médecins, infirmiers, nutritionnistes, travailleurs sociaux travaillent ensemble. Un seul arrêt pour le patient. Étudiant : Cela réduirait les visites aux urgences ? Dre. Gagnon : Considérablement. La prévention et le suivi continu évitent les crises. Étudiante : Qui finance ces maisons de santé ? Dre. Gagnon : L'État doit investir massivement, mais c'est économiquement rentable à long terme. Étudiant : Les médecins de famille sont-ils d'accord ? Dre. Gagnon : Certains résistent au changement, mais la collaboration améliore la qualité des soins pour tous.",
+    "transcript_en": "Dr. Gagnon: Our healthcare system is in crisis. Emergency rooms are overflowing and patients wait for hours. Student: What solution do you concretely propose? Dr. Gagnon: The creation of multidisciplinary health centers in every neighborhood. Student: What differentiates these centers from current clinics? Dr. Gagnon: Doctors, nurses, nutritionists, social workers work together. One stop for the patient. Student: Would this reduce emergency room visits? Dr. Gagnon: Considerably. Prevention and continuous follow-up prevent crises. Student: Who finances these health centers? Dr. Gagnon: The State must invest massively, but it's economically profitable in the long term. Student: Are family doctors in agreement? Dr. Gagnon: Some resist change, but collaboration improves the quality of care for everyone.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Notre système de santé est en crise. Les urgences débordent et les patients attendent des heures.", "Quelle solution proposez-vous concrètement ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["La création de maisons de santé pluridisciplinaires dans chaque quartier.", "Qu'est-ce qui différencie ces maisons des cliniques actuelles ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Médecins, infirmiers, nutritionnistes, travailleurs sociaux travaillent ensemble. Un seul arrêt pour le patient.", "Cela réduirait les visites aux urgences ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Considérablement. La prévention et le suivi continu évitent les crises.", "Qui finance ces maisons de santé ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": ["L'État doit investir massivement, mais c'est économiquement rentable à long terme.", "Les médecins de famille sont-ils d'accord ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": [],
+        "female_lines": ["Certains résistent au changement, mais la collaboration améliore la qualité des soins pour tous."]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "section": "G",
+    "theme": "Food security lecture",
+    "question": "Quel défi majeur concernant la sécurité alimentaire est discuté ?",
+    "options": [
+      { "id": "A", "text": "La disparition des fermes familiales", "image_prompt": "" },
+      { "id": "B", "text": "La dépendance aux importations alimentaires", "image_prompt": "" },
+      { "id": "C", "text": "La contamination des sols agricoles", "image_prompt": "" },
+      { "id": "D", "text": "Le gaspillage alimentaire dans les supermarchés", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Agronome : Le Québec importe plus de 50% de ses fruits et légumes. C'est une vulnérabilité majeure. Étudiante : Pourquoi ne produisons-nous pas plus localement ? Agronome : Le climat est un défi, mais surtout le manque de main-d'œuvre agricole. Étudiant : Les serres chauffées pourraient-elles aider ? Agronome : Certainement, mais elles consomment beaucoup d'énergie. Il faut des solutions durables. Étudiante : Quel serait l'impact d'une crise sur les approvisionnements ? Agronome : Les prix exploseraient et certaines denrées deviendraient rares. Étudiant : Le gouvernement a-t-il un plan ? Agronome : Des incitations existent, mais insuffisantes. Nous devons viser l'autosuffisance alimentaire. Étudiante : Comment les citoyens peuvent-ils contribuer ? Agronome : En consommant local, en soutenant l'agriculture urbaine et en acceptant des fruits et légumes de saison.",
+    "transcript_en": "Agronomist: Quebec imports more than 50% of its fruits and vegetables. This is a major vulnerability. Student: Why don't we produce more locally? Agronomist: Climate is a challenge, but mostly the lack of agricultural workforce. Student: Could heated greenhouses help? Agronomist: Certainly, but they consume a lot of energy. We need sustainable solutions. Student: What would be the impact of a supply crisis? Agronomist: Prices would explode and certain goods would become scarce. Student: Does the government have a plan? Agronomist: Incentives exist, but are insufficient. We must aim for food self-sufficiency. Student: How can citizens contribute? Agronomist: By consuming locally, supporting urban agriculture, and accepting seasonal fruits and vegetables.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le Québec importe plus de 50% de ses fruits et légumes. C'est une vulnérabilité majeure."],
+        "female_lines": ["Pourquoi ne produisons-nous pas plus localement ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le climat est un défi, mais surtout le manque de main-d'œuvre agricole."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les serres chauffées pourraient-elles aider ?"],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Certainement, mais elles consomment beaucoup d'énergie. Il faut des solutions durables."],
+        "female_lines": ["Quel serait l'impact d'une crise sur les approvisionnements ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les prix exploseraient et certaines denrées deviendraient rares."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Le gouvernement a-t-il un plan ?"],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Des incitations existent, mais insuffisantes. Nous devons viser l'autosuffisance alimentaire."],
+        "female_lines": ["Comment les citoyens peuvent-ils contribuer ?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["En consommant local, en soutenant l'agriculture urbaine et en acceptant des fruits et légumes de saison."],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "section": "H",
+    "theme": "Artificial intelligence ethics",
+    "question": "Quelle préoccupation éthique concernant l'IA est soulevée dans ce débat ?",
+    "options": [
+      { "id": "A", "text": "L'IA pourrait remplacer tous les emplois artistiques", "image_prompt": "" },
+      { "id": "B", "text": "Les biais algorithmiques perpétuent les discriminations", "image_prompt": "" },
+      { "id": "C", "text": "L'IA développe une conscience propre", "image_prompt": "" },
+      { "id": "D", "text": "Les robots deviennent trop chers pour les entreprises", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Modérateur : Bienvenue à ce débat sur l'éthique de l'intelligence artificielle. Dr. Chen : Merci d'accueillir cette discussion cruciale. Mme Dubois : L'IA transforme notre société, mais pas toujours équitablement. Modérateur : Quel est le problème principal ? Dr. Chen : Les biais algorithmiques. Les systèmes d'IA reproduisent les préjugés humains présents dans les données. Mme Dubois : Par exemple, les logiciels de recrutement défavorisent souvent les femmes pour les postes techniques. Modérateur : Ces biais sont-ils inévitables ? Dr. Chen : Non, mais ils nécessitent une vigilance constante et des équipes diversifiées de développeurs. Mme Dubois : La transparence est essentielle. Les citoyens doivent savoir quand une décision est prise par un algorithme. Modérateur : Quelle réglementation proposez-vous ? Dr. Chen : Une évaluation obligatoire des impacts sur les droits humains avant déploiement. Mme Dubois : Et des mécanismes de recours pour les personnes discriminées.",
+    "transcript_en": "Moderator: Welcome to this debate on artificial intelligence ethics. Dr. Chen: Thank you for hosting this crucial discussion. Ms. Dubois: AI is transforming our society, but not always equitably. Moderator: What is the main problem? Dr. Chen: Algorithmic biases. AI systems reproduce human prejudices present in the data. Ms. Dubois: For example, recruitment software often disadvantages women for technical positions. Moderator: Are these biases inevitable? Dr. Chen: No, but they require constant vigilance and diverse teams of developers. Ms. Dubois: Transparency is essential. Citizens must know when a decision is made by an algorithm. Moderator: What regulation do you propose? Dr. Chen: A mandatory assessment of human rights impacts before deployment. Ms. Dubois: And appeal mechanisms for discriminated persons.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bienvenue à ce débat sur l'éthique de l'intelligence artificielle.", "Merci d'accueillir cette discussion cruciale."],
+        "female_lines": ["L'IA transforme notre société, mais pas toujours équitablement."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Quel est le problème principal ?", "Les biais algorithmiques. Les systèmes d'IA reproduisent les préjugés humains présents dans les données."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Par exemple, les logiciels de recrutement défavorisent souvent les femmes pour les postes techniques."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Ces biais sont-ils inévitables ?", "Non, mais ils nécessitent une vigilance constante et des équipes diversifiées de développeurs."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": ["La transparence est essentielle. Les citoyens doivent savoir quand une décision est prise par un algorithme."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Quelle réglementation proposez-vous ?", "Une évaluation obligatoire des impacts sur les droits humains avant déploiement."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": ["Et des mécanismes de recours pour les personnes discriminées."]
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "section": "H",
+    "theme": "Urban planning philosophy",
+    "question": "Quelle vision de la ville durable est présentée ?",
+    "options": [
+      { "id": "A", "text": "La ville doit devenir entièrement piétonne", "image_prompt": "" },
+      { "id": "B", "text": "L'agriculture verticale remplacera les parcs", "image_prompt": "" },
+      { "id": "C", "text": "La mixité sociale et fonctionnelle est essentielle", "image_prompt": "" },
+      { "id": "D", "text": "Les gratte-ciel doivent être démolis", "image_prompt": "" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Architecte : La ville du vingt-et-unième siècle doit réinventer son modèle. Urbaniste : Je propose une approche de quartiers complets et autonomes. Sociologue : Qu'entendez-vous par quartiers autonomes ? Urbaniste : Des zones où logements, commerces, bureaux et loisirs coexistent. Architecte : La mixité fonctionnelle réduit les déplacements et crée du lien social. Sociologue : Et la mixité sociale ? Comment l'assurer ? Urbaniste : Par des logements sociaux intégrés, pas concentrés dans des ghettos. Architecte : Les espaces verts doivent aussi être accessibles à tous, pas réservés aux riches. Sociologue : Cela demande une planification rigoureuse et des investissements publics importants. Urbaniste : Oui, mais cela crée des villes plus résilientes et démocratiques. Architecte : Le modèle actuel de banlieues dortoirs a montré ses limites. Urbaniste : Transformons nos villes en écosystèmes vivants où chaque fonction est à proximité.",
+    "transcript_en": "Architect: The 21st-century city must reinvent its model. Urban planner: I propose an approach of complete and autonomous neighborhoods. Sociologist: What do you mean by autonomous neighborhoods? Urban planner: Zones where housing, shops, offices, and leisure coexist. Architect: Functional mixity reduces travel and creates social bonds. Sociologist: And social mixity? How to ensure it? Urban planner: Through integrated social housing, not concentrated in ghettos. Architect: Green spaces must also be accessible to all, not reserved for the rich. Sociologist: This requires rigorous planning and significant public investment. Urban planner: Yes, but it creates more resilient and democratic cities. Architect: The current model of bedroom suburbs has shown its limits. Urban planner: Let's transform our cities into living ecosystems where every function is nearby.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La ville du vingt-et-unième siècle doit réinventer son modèle.", "Je propose une approche de quartiers complets et autonomes."],
+        "female_lines": ["Qu'entendez-vous par quartiers autonomes ?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Des zones où logements, commerces, bureaux et loisirs coexistent."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["La mixité fonctionnelle réduit les déplacements et crée du lien social."],
+        "female_lines": ["Et la mixité sociale ? Comment l'assurer ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Par des logements sociaux intégrés, pas concentrés dans des ghettos."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les espaces verts doivent aussi être accessibles à tous, pas réservés aux riches."],
+        "female_lines": ["Cela demande une planification rigoureuse et des investissements publics importants."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Oui, mais cela crée des villes plus résilientes et démocratiques."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Le modèle actuel de banlieues dortoirs a montré ses limites.", "Transformons nos villes en écosystèmes vivants où chaque fonction est à proximité."],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "section": "H",
+    "theme": "Economic inequality analysis",
+    "question": "Quelle est la cause principale des inégalités économiques selon cette analyse ?",
+    "options": [
+      { "id": "A", "text": "L'automatisation massive des emplois", "image_prompt": "" },
+      { "id": "B", "text": "La concentration du capital entre les mains de quelques-uns", "image_prompt": "" },
+      { "id": "C", "text": "Le manque d'éducation de la population", "image_prompt": "" },
+      { "id": "D", "text": "Les politiques d'immigration restrictives", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Économiste : Les inégalités de richesse au Canada ont atteint des niveaux historiques. Journaliste : Quelles sont les causes profondes selon vous ? Économiste : La concentration extrême du capital. Les 1% les plus riches détiennent 25% des richesses. Journaliste : Cela s'est aggravé récemment ? Économiste : Oui, pendant la pandémie, les fortunes des milliardaires ont explosé pendant que les travailleurs essentiels gagnaient le salaire minimum. Activiste : Le système fiscal favorise-t-il cette concentration ? Économiste : Absolument. Les gains en capital sont moins taxés que le travail. C'est absurde. Journaliste : Quelles solutions proposez-vous ? Économiste : Un impôt sur la fortune, une taxation plus forte des héritages et des réformes fiscales structurelles. Activiste : Les entreprises multinationales échappent-elles à l'imposition ? Économiste : Elles utilisent des paradis fiscaux. Il faut une coopération internationale pour les contraindre.",
+    "transcript_en": "Economist: Wealth inequality in Canada has reached historic levels. Journalist: What are the deep causes according to you? Economist: Extreme concentration of capital. The richest 1% hold 25% of wealth. Journalist: Has this worsened recently? Economist: Yes, during the pandemic, billionaires' fortunes exploded while essential workers earned minimum wage. Activist: Does the tax system favor this concentration? Economist: Absolutely. Capital gains are taxed less than labor. It's absurd. Journalist: What solutions do you propose? Economist: A wealth tax, stronger taxation of inheritances, and structural tax reforms. Activist: Do multinational corporations escape taxation? Economist: They use tax havens. International cooperation is needed to constrain them.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Les inégalités de richesse au Canada ont atteint des niveaux historiques.", "Quelles sont les causes profondes selon vous ?"],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["La concentration extrême du capital. Les 1% les plus riches détiennent 25% des richesses."],
+        "female_lines": ["Cela s'est aggravé récemment ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Oui, pendant la pandémie, les fortunes des milliardaires ont explosé pendant que les travailleurs essentiels gagnaient le salaire minimum."],
+        "female_lines": ["Le système fiscal favorise-t-il cette concentration ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Absolument. Les gains en capital sont moins taxés que le travail. C'est absurde."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Quelles solutions proposez-vous ?"],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Un impôt sur la fortune, une taxation plus forte des héritages et des réformes fiscales structurelles."],
+        "female_lines": ["Les entreprises multinationales échappent-elles à l'imposition ?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Elles utilisent des paradis fiscaux. Il faut une coopération internationale pour les contraindre."],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "section": "H",
+    "theme": "Memory and identity",
+    "question": "Comment la mémoire collective contribue-t-elle à l'identité québécoise selon ce discours ?",
+    "options": [
+      { "id": "A", "text": "Elle crée des divisions entre les générations", "image_prompt": "" },
+      { "id": "B", "text": "Elle renforce la résilience face aux changements", "image_prompt": "" },
+      { "id": "C", "text": "Elle justifie l'isolement du Québec", "image_prompt": "" },
+      { "id": "D", "text": "Elle remplace la nécessité d'une constitution", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Historien : La mémoire collective est le ciment de notre identité nationale. Philosophe : Comment définissez-vous cette mémoire au Québec ? Historien : C'est la somme de nos expériences historiques, de la Nouvelle-France à aujourd'hui. Étudiante : Cette mémoire est-elle un fardeau ou une force ? Historien : Une force considérable. Elle nous donne résilience face aux changements rapides. Philosophe : Pouvez-vous illustrer cette résilience ? Historien : Prenons la Révolution tranquille. Nous avons transformé notre société sans violence, guidés par notre mémoire des luttes passées. Étudiante : Et les jeunes générations ? Historien : Elles réinterprètent cette mémoire, la rendent vivante. Ce n'est pas figé. Philosophe : Le risque de l'oubli existe-t-il ? Historien : Oui, d'où l'importance de l'éducation historique. Connaître notre passé nous aide à naviguer l'avenir avec confiance.",
+    "transcript_en": "Historian: Collective memory is the cement of our national identity. Philosopher: How do you define this memory in Quebec? Historian: It's the sum of our historical experiences, from New France to today. Student: Is this memory a burden or a strength? Historian: A considerable strength. It gives us resilience in the face of rapid changes. Philosopher: Can you illustrate this resilience? Historian: Take the Quiet Revolution. We transformed our society without violence, guided by our memory of past struggles. Student: And the younger generations? Historian: They reinterpret this memory, make it alive. It's not fixed. Philosopher: Is there a risk of forgetting? Historian: Yes, hence the importance of historical education. Knowing our past helps us navigate the future with confidence.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La mémoire collective est le ciment de notre identité nationale.", "Comment définissez-vous cette mémoire au Québec ?"],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est la somme de nos expériences historiques, de la Nouvelle-France à aujourd'hui."],
+        "female_lines": ["Cette mémoire est-elle un fardeau ou une force ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Une force considérable. Elle nous donne résilience face aux changements rapides."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Pouvez-vous illustrer cette résilience ?"],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Prenons la Révolution tranquille. Nous avons transformé notre société sans violence, guidés par notre mémoire des luttes passées."],
+        "female_lines": ["Et les jeunes générations ?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Elles réinterprètent cette mémoire, la rendent vivante. Ce n'est pas figé."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Le risque de l'oubli existe-t-il ?"],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": ["Oui, d'où l'importance de l'éducation historique. Connaître notre passé nous aide à naviguer l'avenir avec confiance."],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "section": "H",
+    "theme": "Scientific paradigm shift",
+    "question": "Quelle révolution scientifique est décrite dans ce texte ?",
+    "options": [
+      { "id": "A", "text": "La découverte de la médecine quantique", "image_prompt": "" },
+      { "id": "B", "text": "La biologie synthétique modifiant le vivant", "image_prompt": "" },
+      { "id": "C", "text": "La fusion nucléaire comme énergie illimitée", "image_prompt": "" },
+      { "id": "D", "text": "L'intelligence artificielle créant de nouvelles théories", "image_prompt": "" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Chercheur : Nous assistons à une révolution dans notre compréhension du vivant. Journaliste : Parlez-vous de la génétique ? Chercheur : Au-delà. La biologie synthétique nous permet de reprogrammer les organismes. Collègue : Quelles applications concrètes envisagez-vous ? Chercheur : Des bactéries produisant du carburant, des plantes détectant les mines antipersonnel. Journaliste : Cela soulève des questions éthiques ? Chercheur : Immenses. Créer de nouvelles formes de vie est une responsabilité sans précédent. Collègue : Les risques de bioterrorisme existent-ils ? Chercheur : Malheureusement oui. D'où la nécessité de réglementations internationales strictes. Journaliste : Le Québec participe-t-il à ces recherches ? Chercheur : Activement. Notre centre de biologie synthétique est reconnu mondialement. Collègue : Quel horizon pour ces technologies ? Chercheur : D'ici vingt ans, nous pourrions fabriquer des matériaux auto-réparateurs et des médicaments sur mesure.",
+    "transcript_en": "Researcher: We are witnessing a revolution in our understanding of living things. Journalist: Are you talking about genetics? Researcher: Beyond that. Synthetic biology allows us to reprogram organisms. Colleague: What concrete applications do you envision? Researcher: Bacteria producing fuel, plants detecting landmines. Journalist: Does this raise ethical questions? Researcher: Immense ones. Creating new forms of life is an unprecedented responsibility. Colleague: Do bioterrorism risks exist? Researcher: Unfortunately yes. Hence the need for strict international regulations. Journalist: Is Quebec participating in this research? Researcher: Actively. Our synthetic biology center is world-renowned. Colleague: What horizon for these technologies? Researcher: Within twenty years, we could manufacture self-repairing materials and customized medications.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nous assistons à une révolution dans notre compréhension du vivant.", "Parlez-vous de la génétique ?"],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Au-delà. La biologie synthétique nous permet de reprogrammer les organismes."],
+        "female_lines": ["Quelles applications concrètes envisagez-vous ?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Des bactéries produisant du carburant, des plantes détectant les mines antipersonnel."],
+        "female_lines": ["Cela soulève des questions éthiques ?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Immenses. Créer de nouvelles formes de vie est une responsabilité sans précédent."],
+        "female_lines": ["Les risques de bioterrorisme existent-ils ?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Malheureusement oui. D'où la nécessité de réglementations internationales strictes."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Le Québec participe-t-il à ces recherches ?"],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Activement. Notre centre de biologie synthétique est reconnu mondialement.", "Quel horizon pour ces technologies ?"],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": ["D'ici vingt ans, nous pourrions fabriquer des matériaux auto-réparateurs et des médicaments sur mesure."],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  }
+]

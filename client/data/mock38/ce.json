@@ -1,0 +1,575 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "Bibliothèque municipale de Saint-Jean\n\nNouveaux horaires d'été (du 15 juin au 31 août)\n\nLundi : 10h00 - 18h00\nMardi : 10h00 - 18h00\nMercredi : 12h00 - 20h00\nJeudi : 10h00 - 18h00\nVendredi : 10h00 - 17h00\nSamedi : 09h00 - 17h00\nDimanche : Fermé\n\nAttention : La bibliothèque sera exceptionnellement fermée le 1er juillet (fête du Canada) et le 24 juin (fête nationale du Québec).",
+          "question": "Quel jour la bibliothèque ferme-t-elle le plus tard ?",
+          "options": {
+            "A": "Le mardi",
+            "B": "Le mercredi",
+            "C": "Le samedi",
+            "D": "Le jeudi"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "Restaurant Le Petit Bistro\nMenu du midi - 22$\n\nEntrée au choix :\n• Soupe du jour maison\n• Salade verte avec vinaigrette maison\n\nPlat principal au choix :\n• Poulet rôti aux herbes avec légumes de saison\n• Saumon grillé sauce citron et riz pilaf\n• Risotto aux champignons (végétarien)\n\nDessert au choix :\n• Crème brûlée\n• Tarte du jour\n• Café ou thé inclus\n\n*Service rapide garanti en 45 minutes maximum pour les déjeuners d'affaires.",
+          "question": "Quelle information est mentionnée dans ce menu ?",
+          "options": {
+            "A": "Le restaurant est ouvert tous les soirs",
+            "B": "Le service rapide est garanti pour les déjeuners d'affaires",
+            "C": "Le menu coûte 25$",
+            "D": "Le saumon est servi avec des frites"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 3,
+          "text": "AVIS IMPORTANT AUX RÉSIDENTS\n\nConseil d'arrondissement de Ville-Marie\n\nEn raison de travaux d'entretien sur le réseau d'aqueduc, l'eau sera coupée dans les secteurs suivants :\n\nDate : Mardi 15 mars 2026\nHeure : 8h00 à 16h00\nSecteurs concernés : Rues Ontario, Sainte-Catherine et Saint-Denis (entre les rues Berri et Saint-Hubert)\n\nNous vous recommandons de remplir des récipients d'eau avant la coupure. L'eau pourra être jaunâtre après la réparation ; laissez couler le robinet quelques minutes avant utilisation.\n\nPour toute question : 514-555-0123\nMerci de votre compréhension.",
+          "question": "Que doivent faire les résidents avant la coupure d'eau ?",
+          "options": {
+            "A": "Appeler le conseil d'arrondissement",
+            "B": "Remplir des récipients d'eau",
+            "C": "Quitter leur domicile",
+            "D": "Fermer les robinets pendant 8 heures"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "Centre sportif Olympique\n\nCours de natation adultes - Session printemps 2026\n\nNiveau débutant : Mardi et jeudi, 18h00-19h00\nNiveau intermédiaire : Lundi et mercredi, 19h30-20h30\nNiveau avancé : Samedi, 10h00-11h30\n\nTarifs :\nMembres : 120$ pour 10 cours\nNon-membres : 180$ pour 10 cours\n\nInscriptions : Du 1er au 15 mars sur place ou en ligne www.cso.natation.ca\nPlaces limitées : 8 participants maximum par cours\n\nMatériel requis : Maillot de bain, bonnet de bain, lunettes (facultatif).",
+          "question": "Combien coûte un cours de natation pour un non-membre ?",
+          "options": {
+            "A": "12$ par cours",
+            "B": "18$ par cours",
+            "C": "120$ pour la session",
+            "D": "180$ pour la session"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 5,
+          "text": "Pharmacie Jean-Coutu\n\nService de vaccination sans rendez-vous\n\nNous offrons les vaccins suivants :\n• Vaccin contre la grippe saisonnière\n• Vaccin contre la COVID-19 (rappels disponibles)\n• Vaccin contre le zona\n• Vaccin contre la pneumonie\n\nHoraires : Lundi au vendredi, 9h00 à 17h00\nSamedi, 10h00 à 14h00\n\nImportant : Apportez votre carte d'assurance-maladie et votre carnet de vaccination. Certaines vaccinations nécessitent une ordonnance médicale.\n\nRenseignements : 450-555-0198\n\nProtégez-vous et protégez les autres !",
+          "question": "Quel document n'est PAS mentionné comme nécessaire ?",
+          "options": {
+            "A": "La carte d'assurance-maladie",
+            "B": "Le carnet de vaccination",
+            "C": "L'ordonnance médicale (pour certains vaccins)",
+            "D": "La carte de crédit"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 6,
+          "text": "Mairie de Trois-Rivières\nAvis d'évacuation temporaire\n\nEn raison d'une fuite de gaz naturel sur la rue Principale, les résidents des immeubles situés aux numéros 1200 à 1250 (côtés pairs et impairs) doivent évacuer immédiatement leur domicile.\n\nPoint de rassemblement : Parc Saint-Jean (angle rues Principale et Saint-Jean)\n\nDurée estimée : 2 à 4 heures\nServices d'urgence sur place : Pompiers, police, techniciens de Gaz Métro\n\nInterdiction formelle d'allumer des flammes ou d'utiliser des appareils électriques dans la zone concernée.\n\nSuivez les consignes des autorités. Merci pour votre coopération.",
+          "question": "Où doivent se rendre les résidents évacués ?",
+          "options": {
+            "A": "À la mairie",
+            "B": "À la caserne de pompiers",
+            "C": "Au parc Saint-Jean",
+            "D": "À l'hôpital le plus proche"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 7,
+          "text": "Supermarché Métro\nCirculaire de la semaine du 20 au 26 février 2026\n\nSpéciaux de la semaine :\n\nPommes Rouge Delicious : 1,49$/lb (régulier 2,29$)\nPoitrines de poulet : 7,99$/lb (régulier 11,99$)\nFromage cheddar vieilli : 5,99$ le bloc de 400g (régulier 8,49$)\nPain tranché Bon Matin : 2/5$ (régulier 3,79$ chaque)\nJus d'orange Tropicana : 3,99$ (régulier 5,49$)\n\nCarte de fidélité Métro : Doublez vos points sur tous les produits laitiers cette semaine !\n\nHeures d'ouverture : 8h00 à 21h00, 7 jours sur 7",
+          "question": "Quel produit offre la plus grande économie en dollars ?",
+          "options": {
+            "A": "Les pommes",
+            "B": "Les poitrines de poulet",
+            "C": "Le fromage cheddar",
+            "D": "Le pain tranché"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Chers collègues,\n\nSuite à votre demande, nous avons décidé d'organiser une réunion ________ le prochain projet. Cette rencontre aura lieu ________ salle de conférence B le vendredi 12 mars ________ 14h00. Nous y discuterons des objectifs ________ des délais à respecter. Votre participation est ________ pour la réussite de cette initiative.\n\nCordialement,\nLa direction",
+          "question": "Quel mot convient pour le premier trou (ligne 2) ?",
+          "options": {
+            "A": "à propos",
+            "B": "concernant",
+            "C": "par rapport",
+            "D": "vis-à-vis"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 9,
+          "text": "Chers collègues,\n\nSuite à votre demande, nous avons décidé d'organiser une réunion concernant le prochain projet. Cette rencontre aura lieu ________ salle de conférence B le vendredi 12 mars ________ 14h00. Nous y discuterons des objectifs ________ des délais à respecter. Votre participation est ________ pour la réussite de cette initiative.\n\nCordialement,\nLa direction",
+          "question": "Quel mot convient pour le deuxième trou (ligne 3) ?",
+          "options": {
+            "A": "à la",
+            "B": "dans la",
+            "C": "en",
+            "D": "au"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 10,
+          "text": "Chers collègues,\n\nSuite à votre demande, nous avons décidé d'organiser une réunion concernant le prochain projet. Cette rencontre aura lieu en salle de conférence B le vendredi 12 mars ________ 14h00. Nous y discuterons des objectifs ________ des délais à respecter. Votre participation est ________ pour la réussite de cette initiative.\n\nCordialement,\nLa direction",
+          "question": "Quel mot convient pour le troisième trou (ligne 3) ?",
+          "options": {
+            "A": "à",
+            "B": "vers",
+            "C": "pour",
+            "D": "dès"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 11,
+          "text": "Chers collègues,\n\nSuite à votre demande, nous avons décidé d'organiser une réunion concernant le prochain projet. Cette rencontre aura lieu en salle de conférence B le vendredi 12 mars à 14h00. Nous y discuterons des objectifs ________ des délais à respecter. Votre participation est ________ pour la réussite de cette initiative.\n\nCordialement,\nLa direction",
+          "question": "Quel mot convient pour le quatrième trou (ligne 4) ?",
+          "options": {
+            "A": "mais aussi",
+            "B": "ainsi que",
+            "C": "et aussi",
+            "D": "plus"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 12,
+          "text": "Chers collègues,\n\nSuite à votre demande, nous avons décidé d'organiser une réunion concernant le prochain projet. Cette rencontre aura lieu en salle de conférence B le vendredi 12 mars à 14h00. Nous y discuterons des objectifs ainsi que des délais à respecter. Votre participation est ________ pour la réussite de cette initiative.\n\nCordialement,\nLa direction",
+          "question": "Quel mot convient pour le cinquième trou (ligne 4) ?",
+          "options": {
+            "A": "nécessaire",
+            "B": "obligatoire",
+            "C": "essentielle",
+            "D": "importante"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 13,
+          "text": "Madame, Monsieur,\n\nNous avons le plaisir de vous confirmer votre réservation ________ chambre double pour les nuits ________ 15 ________ 22 juillet 2026. Le tarif ________ 145$ par nuit inclut le petit-déjeuner continental. Nous vous prions de bien vouloir ________ votre arrivée estimée avant le 10 juillet.\n\nL'équipe de l'Hôtel Bellevue",
+          "question": "Quel mot convient pour le premier trou (ligne 2) ?",
+          "options": {
+            "A": "de",
+            "B": "d'une",
+            "C": "pour une",
+            "D": "en"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 14,
+          "text": "Madame, Monsieur,\n\nNous avons le plaisir de vous confirmer votre réservation d'une chambre double pour les nuits ________ 15 ________ 22 juillet 2026. Le tarif ________ 145$ par nuit inclut le petit-déjeuner continental. Nous vous prions de bien vouloir ________ votre arrivée estimée avant le 10 juillet.\n\nL'équipe de l'Hôtel Bellevue",
+          "question": "Quel mot convient pour le deuxième trou (ligne 2) ?",
+          "options": {
+            "A": "entre le",
+            "B": "du",
+            "C": "depuis le",
+            "D": "à partir du"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 15,
+          "text": "Madame, Monsieur,\n\nNous avons le plaisir de vous confirmer votre réservation d'une chambre double pour les nuits du 15 ________ 22 juillet 2026. Le tarif ________ 145$ par nuit inclut le petit-déjeuner continental. Nous vous prions de bien vouloir ________ votre arrivée estimée avant le 10 juillet.\n\nL'équipe de l'Hôtel Bellevue",
+          "question": "Quel mot convient pour le troisième trou (ligne 2) ?",
+          "options": {
+            "A": "jusqu'au",
+            "B": "à",
+            "C": "et le",
+            "D": "au"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 16,
+          "text": "Madame, Monsieur,\n\nNous avons le plaisir de vous confirmer votre réservation d'une chambre double pour les nuits du 15 au 22 juillet 2026. Le tarif ________ 145$ par nuit inclut le petit-déjeuner continental. Nous vous prions de bien vouloir ________ votre arrivée estimée avant le 10 juillet.\n\nL'équipe de l'Hôtel Bellevue",
+          "question": "Quel mot convient pour le quatrième trou (ligne 3) ?",
+          "options": {
+            "A": "est de",
+            "B": "s'élève à",
+            "C": "de",
+            "D": "à"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 17,
+          "text": "Madame, Monsieur,\n\nNous avons le plaisir de vous confirmer votre réservation d'une chambre double pour les nuits du 15 au 22 juillet 2026. Le tarif de 145$ par nuit inclut le petit-déjeuner continental. Nous vous prions de bien vouloir ________ votre arrivée estimée avant le 10 juillet.\n\nL'équipe de l'Hôtel Bellevue",
+          "question": "Quel mot convient pour le cinquième trou (ligne 3) ?",
+          "options": {
+            "A": "annoncer",
+            "B": "communiquer",
+            "C": "indiquer",
+            "D": "préciser"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "AÉROPORT INTERNATIONAL PIERRE-ELLIOT-TRUDEAU\n\nVol AC456 : Toronto - Montréal\nStatut : Retardé\nHeure prévue : 14h30\nNouvelle heure estimée : 16h45\nPorte : 52 (sujette à changement)\n\nMotif du retard : Conditions météorologiques défavorables à Toronto\n\nLes passagers sont invités à rester dans la zone d'embarquement et à surveiller les écrans d'affichage. Un coupon de repas de 15$ sera distribué aux passagers.\n\nPour toute information : Comptoir Air Canada, porte 50.",
+          "question": "À quelle heure le vol était-il initialement prévu ?",
+          "options": {
+            "A": "16h45",
+            "B": "14h30",
+            "C": "15h00",
+            "D": "17h00"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "AVIS DE CONVOCATION\n\nTribunal municipal de Québec\n\nMonsieur Robert Lachance\n1234, rue Saint-Jean\nQuébec, QC G1R 1B1\n\nVous êtes convoqué à comparaître devant le Tribunal municipal le :\n\nDate : 15 mars 2026\nHeure : 9h00\nLieu : Palais de justice, salle 304\n\nMotif : Infraction au code de la route - excès de vitesse\nArticle 329 du Code de la sécurité routière\n\nVous devez vous présenter en personne ou être représenté par un avocat. Le défaut de comparution pourra entraîner l'émission d'un mandat d'arrestation.",
+          "question": "Quelle est la nature de la convocation ?",
+          "options": {
+            "A": "Une audition pour un emploi",
+            "B": "Une infraction au code de la route",
+            "C": "Une réunion de travail",
+            "D": "Un rendez-vous médical"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 20,
+          "text": "RÉSULTATS D'ANALYSES MÉDICALES\n\nPatient : Marie-Claire Dubois\nDate de naissance : 12/05/1985\nNuméro de dossier : 784562\nDate des analyses : 18 février 2026\n\nGLYCÉMIE À JEUN : 5,2 mmol/L (Valeur normale : 3,9-6,1)\nCHOLESTÉROL TOTAL : 4,8 mmol/L (Valeur normale : < 5,2)\nCHOLESTÉROL LDL : 2,6 mmol/L (Valeur normale : < 3,4)\nCHOLESTÉROL HDL : 1,4 mmol/L (Valeur normale : > 1,0)\nTRIGLYCÉRIDES : 1,2 mmol/L (Valeur normale : < 1,7)\n\nCommentaire : Tous les résultats sont dans les limites normales. Aucune action requise.",
+          "question": "Quel résultat est légèrement supérieur à la normale ?",
+          "options": {
+            "A": "Aucun, tous les résultats sont normaux",
+            "B": "La glycémie",
+            "C": "Le cholestérol LDL",
+            "D": "Les triglycérides"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 21,
+          "text": "PROGRAMME DE FIDÉLITÉ AIR MILES\n\nFélicitations ! Vous avez accumulé 1 250 milles Air Miles cette année.\n\nVotre statut actuel : Or\nAvantages du statut Or :\n• 25% de milles bonus sur chaque achat\n• Accès prioritaire au service clientèle\n• Offres exclusives deux fois par mois\n\nPour conserver votre statut Or en 2027, vous devez accumuler 1 000 milles supplémentaires avant le 31 décembre 2026.\n\nÉchangez vos milles dès maintenant : voyages, marchandises, cartes-cadeaux et plus!\nwww.airmiles.ca",
+          "question": "Quel avantage le statut Or n'offre-t-il PAS ?",
+          "options": {
+            "A": "Des milles bonus",
+            "B": "L'accès aux salons d'aéroport",
+            "C": "L'accès prioritaire au service clientèle",
+            "D": "Des offres exclusives"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 22,
+          "text": "CERTIFICAT DE SCOLARITÉ\n\nUniversité de Montréal\n\nLe présent certificat atteste que :\n\nMadame Sophie Tremblay\nNuméro d'étudiant : 202345678\n\nEst régulièrement inscrite à temps plein pour l'année académique 2025-2026 dans le programme suivant :\n\nBaccalauréat en psychologie\nFaculté des arts et des sciences\n\nSession en cours : Hiver 2026\nDate de début : 6 janvier 2026\nDate de fin : 30 avril 2026\n\nCe certificat est délivré à des fins fiscales et d'assurance.\n\nFait à Montréal, le 15 février 2026\nLe registraire\n(Signature et sceau officiel)",
+          "question": "Pour quelle session le certificat est-il émis ?",
+          "options": {
+            "A": "Automne 2025",
+            "B": "Hiver 2026",
+            "C": "Été 2026",
+            "D": "Année complète 2025-2026"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congé sans solde - Projet personnel\n\nMadame la Directrice,\n\nPar la présente, je vous informe de mon intention de prendre un congé sans solde d'une durée de six mois, du 1er septembre 2026 au 28 février 2027. Cette décision fait suite à une opportunité unique de collaborer à un projet humanitaire au Pérou, dans le cadre d'une mission d'ingénierie pour la construction d'infrastructures d'accès à l'eau potable.\n\nAprès dix années de service au sein de votre entreprise, je souhaite mettre mes compétences au service de cette cause tout en enrichissant mon expérience professionnelle. Je m'engage à assurer une transition optimale de mes dossiers avant mon départ et reste ouvert à un éventuel retour à l'emploi à l'issue de cette période.\n\nJe vous remercie de l'attention portée à ma demande et reste à votre entière disposition pour en discuter.\n\nCordialement,\nThomas Bergeron\nIngénieur senior, Département génie civil",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Démissionner de son emploi",
+            "B": "Demander une augmentation de salaire",
+            "C": "Demander un congé sans solde pour un projet humanitaire",
+            "D": "Se plaindre de ses conditions de travail"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 24,
+          "text": "Objet : Demande de congé sans solde - Projet personnel\n\nMadame la Directrice,\n\nPar la présente, je vous informe de mon intention de prendre un congé sans solde d'une durée de six mois, du 1er septembre 2026 au 28 février 2027. Cette décision fait suite à une opportunité unique de collaborer à un projet humanitaire au Pérou, dans le cadre d'une mission d'ingénierie pour la construction d'infrastructures d'accès à l'eau potable.\n\nAprès dix années de service au sein de votre entreprise, je souhaite mettre mes compétences au service de cette cause tout en enrichissant mon expérience professionnelle. Je m'engage à assurer une transition optimale de mes dossiers avant mon départ et reste ouvert à un éventuel retour à l'emploi à l'issue de cette période.\n\nJe vous remercie de l'attention portée à ma demande et reste à votre entière disposition pour en discuter.\n\nCordialement,\nThomas Bergeron\nIngénieur senior, Département génie civil",
+          "question": "Quelle information implicite peut-on déduire de ce texte ?",
+          "options": {
+            "A": "L'employé est mécontent de son salaire actuel",
+            "B": "L'employé souhaite probablement revenir travailler après son congé",
+            "C": "L'entreprise refuse systématiquement les congés sans solde",
+            "D": "Le projet au Pérou est mieux rémunéré que son emploi actuel"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 25,
+          "text": "Madame, Monsieur,\n\nNous accusons réception de votre courrier du 12 février dernier concernant la livraison défectueuse de marchandises commandées sous le numéro de bon de commande 4521. Nous tenons à vous présenter nos plus sincères excuses pour la gêne occasionnée.\n\nSuite à une erreur interne de notre service d'expédition, les articles reçus ne correspondaient effectivement pas à votre commande initiale. Nous avons procédé immédiatement à l'envoi des produits corrects par transport express, que vous devriez recevoir sous 48 heures.\n\nPar ailleurs, nous vous prions d'agréer un avoir de 15% sur votre prochaine commande en guise de dédommagement. Nous espérons que cette mesure témoignera de notre volonté de maintenir la qualité de notre relation commerciale.\n\nDans l'attente de votre prochaine commande, nous vous prions d'agréer nos salutations distinguées.\n\nLe Service clientèle\nDistribution Nord-Sud inc.",
+          "question": "Quel est le ton de cette lettre ?",
+          "options": {
+            "A": "Aggressif et défensif",
+            "B": "Indifférent et froid",
+            "C": "Courtois et conciliant",
+            "D": "Ironique et sarcastique"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 26,
+          "text": "Madame, Monsieur,\n\nNous accusons réception de votre courrier du 12 février dernier concernant la livraison défectueuse de marchandises commandées sous le numéro de bon de commande 4521. Nous tenons à vous présenter nos plus sincères excuses pour la gêne occasionnée.\n\nSuite à une erreur interne de notre service d'expédition, les articles reçus ne correspondaient effectivement pas à votre commande initiale. Nous avons procédé immédiatement à l'envoi des produits corrects par transport express, que vous devriez recevoir sous 48 heures.\n\nPar ailleurs, nous vous prions d'agréer un avoir de 15% sur votre prochaine commande en guise de dédommagement. Nous espérons que cette mesure témoignera de notre volonté de maintenir la qualité de notre relation commerciale.\n\nDans l'attente de votre prochaine commande, nous vous prions d'agréer nos salutations distinguées.\n\nLe Service clientèle\nDistribution Nord-Sud inc.",
+          "question": "Quelle mesure de compensation est offerte au client ?",
+          "options": {
+            "A": "Un remboursement complet",
+            "B": "Un avoir de 15% sur la prochaine commande",
+            "C": "Un échange gratuit des produits",
+            "D": "Une livraison gratuite à vie"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "PROCÈS-VERBAL DE RÉUNION\nComité de santé et sécurité au travail\nDate : 15 janvier 2026\n\nParticipants : M. Lefebvre (président), Mme Gagnon, M. Nguyen, Mme Ouellet\n\nOrdre du jour :\n1. Bilan des incidents du quatrième trimestre 2025\n2. Présentation du nouveau plan de prévention\n3. Formation obligatoire - échéances\n\nPoints importants abordés :\nM. Lefebvre a souligné la baisse significative des accidents de travail (-23% par rapport à 2024). Mme Gagnon a présenté le calendrier des formations obligatoires : tous les employés doivent suivre la mise à jour sur la prévention des chutes d'ici le 31 mars 2026.\n\nM. Nguyen a expriqué des inquiétudes concernant l'éclairage insuffisant dans l'entrepôt B. Il a été convenu d'effectuer une évaluation technique sous 15 jours.\n\nProchaine réunion : 15 avril 2026\nRédacteur : Mme Ouellet",
+          "question": "Quel problème de sécurité a été soulevé pendant la réunion ?",
+          "options": {
+            "A": "Le manque de formation des employés",
+            "B": "L'éclairage insuffisant dans l'entrepôt B",
+            "C": "L'augmentation des accidents de travail",
+            "D": "Le refus des employés de porter l'équipement de protection"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "PROCÈS-VERBAL DE RÉUNION\nComité de santé et sécurité au travail\nDate : 15 janvier 2026\n\nParticipants : M. Lefebvre (président), Mme Gagnon, M. Nguyen, Mme Ouellet\n\nOrdre du jour :\n1. Bilan des incidents du quatrième trimestre 2025\n2. Présentation du nouveau plan de prévention\n3. Formation obligatoire - échéances\n\nPoints importants abordés :\nM. Lefebvre a souligné la baisse significative des accidents de travail (-23% par rapport à 2024). Mme Gagnon a présenté le calendrier des formations obligatoires : tous les employés doivent suivre la mise à jour sur la prévention des chutes d'ici le 31 mars 2026.\n\nM. Nguyen a exprimé des inquiétudes concernant l'éclairage insuffisant dans l'entrepôt B. Il a été convenu d'effectuer une évaluation technique sous 15 jours.\n\nProchaine réunion : 15 avril 2026\nRédacteur : Mme Ouellet",
+          "question": "Quelle décision a été prise concernant le problème soulevé par M. Nguyen ?",
+          "options": {
+            "A": "Installer immédiatement de nouveaux luminaires",
+            "B": "Effectuer une évaluation technique sous 15 jours",
+            "C": "Fermer temporairement l'entrepôt B",
+            "D": "Transférer les employés vers un autre entrepôt"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Objet : Réponse à votre offre d'emploi - Poste de chef de projet marketing\n\nMadame Tremblay,\n\nC'est avec un vif intérêt que je vous adresse ma candidature pour le poste de chef de projet marketing au sein de votre agence, tel qu'annoncé sur le site Emploi-Québec. Diplômée d'un MBA en marketing de l'Université McGill et forte de huit années d'expérience dans la gestion de campagnes digitales, je suis convaincue que mon profil correspond parfaitement aux attentes de votre équipe.\n\nAu cours de mon précédent mandat chez Agence Creative Inc., j'ai supervisé avec succès le lancement de plus de vingt campagnes multicanaux, générant une augmentation moyenne de 35% du retour sur investissement pour nos clients. Ma capacité à manager des équipes pluridisciplinaires et à respecter des échéances serrées constitue un atout majeur pour ce poste.\n\nJe serais ravie de pouvoir échanger avec vous lors d'un entretien pour vous démontrer comment mon expertise peut contribuer à la croissance de votre agence. Je me tiens à votre entière disposition à votre convenance.\n\nDans l'attente de votre réponse, je vous prie d'agréer mes salutations distinguées.\n\nIsabelle Mercier",
+          "question": "Quel est le but principal de cette lettre ?",
+          "options": {
+            "A": "Demander des informations sur un produit",
+            "B": "Postuler à un emploi",
+            "C": "Se plaindre d'un service",
+            "D": "Proposer une collaboration commerciale"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 30,
+          "text": "Objet : Réponse à votre offre d'emploi - Poste de chef de projet marketing\n\nMadame Tremblay,\n\nC'est avec un vif intérêt que je vous adresse ma candidature pour le poste de chef de projet marketing au sein de votre agence, tel qu'annoncé sur le site Emploi-Québec. Diplômée d'un MBA en marketing de l'Université McGill et forte de huit années d'expérience dans la gestion de campagnes digitales, je suis convaincue que mon profil correspond parfaitement aux attentes de votre équipe.\n\nAu cours de mon précédent mandat chez Agence Creative Inc., j'ai supervisé avec succès le lancement de plus de vingt campagnes multicanaux, générant une augmentation moyenne de 35% du retour sur investissement pour nos clients. Ma capacité à manager des équipes pluridisciplinaires et à respecter des échéances serrées constitue un atout majeur pour ce poste.\n\nJe serais ravie de pouvoir échanger avec vous lors d'un entretien pour vous démontrer comment mon expertise peut contribuer à la croissance de votre agence. Je me tiens à votre entière disposition à votre convenance.\n\nDans l'attente de votre réponse, je vous prie d'agréer mes salutations distinguées.\n\nIsabelle Mercier",
+          "question": "Quelle qualification Isabelle Mercier met-elle en avant ?",
+          "options": {
+            "A": "Elle parle trois langues étrangères",
+            "B": "Elle a un MBA en marketing et 8 ans d'expérience",
+            "C": "Elle a travaillé dans 5 pays différents",
+            "D": "Elle est spécialisée en comptabilité"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 31,
+          "text": "POLITIQUE INTERNE - UTILISATION DES VÉHICULES DE SOCIÉTÉ\n\nEntreprise : Solutions Technologiques XYZ inc.\nDate d'entrée en vigueur : 1er mars 2026\n\n1. Éligibilité : Seuls les employés titulaires d'un permis de conduire valide depuis plus de 3 ans peuvent utiliser les véhicules de l'entreprise.\n\n2. Réservation : Les véhicules doivent être réservés minimum 48 heures à l'avance via le système en ligne. Toute annulation doit être communiquée sous 24 heures.\n\n3. Utilisation : Les véhicules sont strictement réservés aux déplacements professionnels. L'utilisation personnelle est interdite sauf autorisation écrite préalable de la direction.\n\n4. Carburant : Une carte essence est fournie avec chaque véhicule. Les reçus doivent être conservés pour justification.\n\n5. Responsabilité : L'employé est responsable de tout excès de vitesse, contravention ou amende encourus durant l'utilisation du véhicule.\n\nNon-respect : Toute infraction à cette politique entraînera des mesures disciplinaires pouvant aller jusqu'au retrait du privilège d'utilisation.",
+          "question": "Quelle condition doit être respectée pour réserver un véhicule ?",
+          "options": {
+            "A": "Avoir plus de 25 ans",
+            "B": "Réserver minimum 48 heures à l'avance",
+            "C": "Être employé depuis plus d'un an",
+            "D": "Obtenir l'accord de tous les collègues"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "POLITIQUE INTERNE - UTILISATION DES VÉHICULES DE SOCIÉTÉ\n\nEntreprise : Solutions Technologiques XYZ inc.\nDate d'entrée en vigueur : 1er mars 2026\n\n1. Éligibilité : Seuls les employés titulaires d'un permis de conduire valide depuis plus de 3 ans peuvent utiliser les véhicules de l'entreprise.\n\n2. Réservation : Les véhicules doivent être réservés minimum 48 heures à l'avance via le système en ligne. Toute annulation doit être communiquée sous 24 heures.\n\n3. Utilisation : Les véhicules sont strictement réservés aux déplacements professionnels. L'utilisation personnelle est interdite sauf autorisation écrite préalable de la direction.\n\n4. Carburant : Une carte essence est fournie avec chaque véhicule. Les reçus doivent être conservés pour justification.\n\n5. Responsabilité : L'employé est responsable de tout excès de vitesse, contravention ou amende encourus durant l'utilisation du véhicule.\n\nNon-respect : Toute infraction à cette politique entraînera des mesures disciplinaires pouvant aller jusqu'au retrait du privilège d'utilisation.",
+          "question": "Que se passe-t-il si un employé utilise le véhicule à des fins personnelles sans autorisation ?",
+          "options": {
+            "A": "Il doit payer une amende de 500$",
+            "B": "Il fait l'objet de mesures disciplinaires",
+            "C": "Le véhicule est immédiatement vendu",
+            "D": "Rien, c'est toléré occasionnellement"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "Montréal adopte enfin sa stratégie contre les îlots de chaleur urbains\n\nLa Ville de Montréal a dévoilé hier un plan ambitieux visant à réduire de 30% les zones d'îlots de chaleur d'ici 2035. Cette initiative survient après trois étés consécutifs marqués par des canicules record qui ont causé la mort de plus de 150 personnes vulnérables en 2023 seulement.\n\nLe plan prévoit la plantation de 500 000 arbres supplémentaires, la création de 50 nouveaux parcs urbains et l'obligation pour les nouveaux stationnements d'être composés à au moins 40% de surfaces perméables. \"Nous ne pouvons plus attendre, l'urgence climatique est là\", a déclaré la mairesse Valérie Plante lors de la conférence de presse.\n\nCependant, certains critiques dénoncent le manque de financement concret. L'association Écologie Urbaine estime que les 85 millions prévus sur dix ans sont insuffisants face à l'ampleur du défi. \"C'est un bon début, mais sans moyens appropriés, ces belles intentions resteront lettre morte\", analyse son porte-parole.\n\nPar ailleurs, le secteur immobilier exprime des réserves quant aux nouvelles contraintes réglementaires qui pourraient, selon lui, freiner la construction de logements abordables.",
+          "question": "Quelle est la position de l'auteur de l'article ?",
+          "options": {
+            "A": "Il soutient sans réserve le plan de la mairie",
+            "B": "Il est neutre et présente différents points de vue",
+            "C": "Il critique sévèrement l'inaction municipale",
+            "D": "Il minimise l'importance du problème des îlots de chaleur"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 34,
+          "text": "Montréal adopte enfin sa stratégie contre les îlots de chaleur urbains\n\nLa Ville de Montréal a dévoilé hier un plan ambitieux visant à réduire de 30% les zones d'îlots de chaleur d'ici 2035. Cette initiative survient après trois étés consécutifs marqués par des canicules record qui ont causé la mort de plus de 150 personnes vulnérables en 2023 seulement.\n\nLe plan prévoit la plantation de 500 000 arbres supplémentaires, la création de 50 nouveaux parcs urbains et l'obligation pour les nouveaux stationnements d'être composés à au moins 40% de surfaces perméables. \"Nous ne pouvons plus attendre, l'urgence climatique est là\", a déclaré la mairesse Valérie Plante lors de la conférence de presse.\n\nCependant, certains critiques dénoncent le manque de financement concret. L'association Écologie Urbaine estime que les 85 millions prévus sur dix ans sont insuffisants face à l'ampleur du défi. \"C'est un bon début, mais sans moyens appropriés, ces belles intentions resteront lettre morte\", analyse son porte-parole.\n\nPar ailleurs, le secteur immobilier exprime des réserves quant aux nouvelles contraintes réglementaires qui pourraient, selon lui, freiner la construction de logements abordables.",
+          "question": "Quelle mesure le plan municipal n'inclut-il PAS ?",
+          "options": {
+            "A": "La plantation de 500 000 arbres",
+            "B": "L'interdiction totale des véhicules dans le centre-ville",
+            "C": "La création de 50 nouveaux parcs",
+            "D": "Des surfaces perméables obligatoires dans les stationnements"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "Montréal adopte enfin sa stratégie contre les îlots de chaleur urbains\n\nLa Ville de Montréal a dévoilé hier un plan ambitieux visant à réduire de 30% les zones d'îlots de chaleur d'ici 2035. Cette initiative survient après trois étés consécutifs marqués par des canicules record qui ont causé la mort de plus de 150 personnes vulnérables en 2023 seulement.\n\nLe plan prévoit la plantation de 500 000 arbres supplémentaires, la création de 50 nouveaux parcs urbains et l'obligation pour les nouveaux stationnements d'être composés à au moins 40% de surfaces perméables. \"Nous ne pouvons plus attendre, l'urgence climatique est là\", a déclaré la mairesse Valérie Plante lors de la conférence de presse.\n\nCependant, certains critiques dénoncent le manque de financement concret. L'association Écologie Urbaine estime que les 85 millions prévus sur dix ans sont insuffisants face à l'ampleur du défi. \"C'est un bon début, mais sans moyens appropriés, ces belles intentions resteront lettre morte\", analyse son porte-parole.\n\nPar ailleurs, le secteur immobilier exprime des réserves quant aux nouvelles contraintes réglementaires qui pourraient, selon lui, freiner la construction de logements abordables.",
+          "question": "Quelle infération peut-on faire sur l'opinion du secteur immobilier ?",
+          "options": {
+            "A": "Il soutient pleinement les mesures environnementales",
+            "B": "Il craint que les nouvelles réglementations n'affectent la construction de logements",
+            "C": "Il propose d'augmenter le budget alloué au plan",
+            "D": "Il demande l'abandon complet du projet"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "Le télétravail révolutionne l'immobilier québécois : vers la fin des grands centres?\n\nLa pandémie de COVID-19 a accéléré une transformation structurelle du marché immobilier québécois que peu d'experts avaient anticipée. Quatre ans après le début de la crise sanitaire, le télétravail hybride s'est imposé comme norme dans 68% des entreprises québécoises, selon une étude de l'Institut de recherche en économie contemporaine.\n\nCette mutation profonde bouleverse les schémas traditionnels d'urbanisation. Les quartiers centraux des grandes villes connaissent un exode résidentiel sans précédent, tandis que les régions périphériques et les petites municipalités enregistrent une hausse spectaculaire de la demande. Entre 2020 et 2025, les prix de l'immobilier ont augmenté de 45% en Estrie et en Mauricie, contre seulement 12% à Montréal.\n\n\"Nous assistons à une décentralisation forcée de l'économie résidentielle\", analyse l'économiste Marc-André Gagnon. \"Les jeunes familles ne cherchent plus nécessairement la proximité avec leur lieu de travail, mais privilégient l'espace, le rapport qualité-prix et l'accès à la nature.\"\n\nCette tendance soulève cependant de nouveaux défis. Les infrastructures de transport en commun, conçues pour acheminer les travailleurs vers les centres-villes, peinent à s'adapter à des flux désormais multipolaires. Parallèlement, le commerce de détail urbain souffre du manque de clientèle diurne, transformant certaines artères commerciales en déserts économiques.",
+          "question": "Quelle est l'idée principale de cet article ?",
+          "options": {
+            "A": "Le télétravail cause la faillite de toutes les entreprises québécoises",
+            "B": "Le télétravail transforme profondément le marché immobilier et les modèles d'habitation",
+            "C": "Les gens retournent massivement vivre dans les centres-villes",
+            "D": "Le transport en commun est devenu obsolète au Québec"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "Le télétravail révolutionne l'immobilier québécois : vers la fin des grands centres?\n\nLa pandémie de COVID-19 a accéléré une transformation structurelle du marché immobilier québécois que peu d'experts avaient anticipée. Quatre ans après le début de la crise sanitaire, le télétravail hybride s'est imposé comme norme dans 68% des entreprises québécoises, selon une étude de l'Institut de recherche en économie contemporaine.\n\nCette mutation profonde bouleverse les schémas traditionnels d'urbanisation. Les quartiers centraux des grandes villes connaissent un exode résidentiel sans précédent, tandis que les régions périphériques et les petites municipalités enregistrent une hausse spectaculaire de la demande. Entre 2020 et 2025, les prix de l'immobilier ont augmenté de 45% en Estrie et en Mauricie, contre seulement 12% à Montréal.\n\n\"Nous assistons à une décentralisation forcée de l'économie résidentielle\", analyse l'économiste Marc-André Gagnon. \"Les jeunes familles ne cherchent plus nécessairement la proximité avec leur lieu de travail, mais privilégient l'espace, le rapport qualité-prix et l'accès à la nature.\"\n\nCette tendance soulève cependant de nouveaux défis. Les infrastructures de transport en commun, conçues pour acheminer les travailleurs vers les centres-villes, peinent à s'adapter à des flux désormais multipolaires. Parallèlement, le commerce de détail urbain souffre du manque de clientèle diurne, transformant certaines artères commerciales en déserts économiques.",
+          "question": "Selon l'article, quelle région a connu la plus forte augmentation des prix immobiliers ?",
+          "options": {
+            "A": "Montréal",
+            "B": "Québec",
+            "C": "L'Estrie et la Mauricie",
+            "D": "La Gaspésie"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 38,
+          "text": "Le télétravail révolutionne l'immobilier québécois : vers la fin des grands centres?\n\nLa pandémie de COVID-19 a accéléré une transformation structurelle du marché immobilier québécois que peu d'experts avaient anticipée. Quatre ans après le début de la crise sanitaire, le télétravail hybride s'est imposé comme norme dans 68% des entreprises québécoises, selon une étude de l'Institut de recherche en économie contemporaine.\n\nCette mutation profonde bouleverse les schémas traditionnels d'urbanisation. Les quartiers centraux des grandes villes connaissent un exode résidentiel sans précédent, tandis que les régions périphériques et les petites municipalités enregistrent une hausse spectaculaire de la demande. Entre 2020 et 2025, les prix de l'immobilier ont augmenté de 45% en Estrie et en Mauricie, contre seulement 12% à Montréal.\n\n\"Nous assistons à une décentralisation forcée de l'économie résidentielle\", analyse l'économiste Marc-André Gagnon. \"Les jeunes familles ne cherchent plus nécessairement la proximité avec leur lieu de travail, mais privilégient l'espace, le rapport qualité-prix et l'accès à la nature.\"\n\nCette tendance soulève cependant de nouveaux défis. Les infrastructures de transport en commun, conçues pour acheminer les travailleurs vers les centres-villes, peinent à s'adapter à des flux désormais multipolaires. Parallèlement, le commerce de détail urbain souffre du manque de clientèle diurne, transformant certaines artères commerciales en déserts économiques.",
+          "question": "Quel problème le commerce de détail urbain rencontre-t-il selon l'article ?",
+          "options": {
+            "A": "Il manque de personnel qualifié",
+            "B": "Il souffre du manque de clientèle diurne",
+            "C": "Les loyers commerciaux ont triplé",
+            "D": "La concurrence en ligne a disparu"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "L'intelligence artificielle menace-t-elle réellement l'emploi des Québécois?\n\nL'arrivée massive des outils d'intelligence artificielle générative dans les milieux de travail québécois suscite à la fois enthousiasme et anxiété. Une étude récente de l'Observatoire de l'emploi et de la formation professionnelle révèle que 42% des travailleurs québécois craignent pour leur emploi à moyen terme, tandis que 35% utilisent déjà l'IA dans leurs tâches quotidiennes.\n\nCette dualité caractérise le débat actuel. D'un côté, l'automatisation promet d'éliminer les tâches répétitives et de libérer du temps pour des activités à plus forte valeur ajoutée. De l'autre, elle menace des professions entières, particulièrement dans les secteurs administratifs, de la traduction et du service client.\n\nLe gouvernement du Québec a annoncé un investissement de 150 millions sur cinq ans pour accompagner la transition numérique et la reconversion des travailleurs vulnérables. \"L'objectif n'est pas de résister au progrès, mais de l'orienter vers un avenir où l'humain reste au centre\", a affirmé la ministre de l'Économie.\n\nCependant, certains syndicats dénoncent une approche trop timorée. Ils réclament des mesures contraignantes pour les entreprises qui licencieraient massivement au profit de l'automatisation, ainsi qu'un renforcement de la formation continue obligatoire.",
+          "question": "Quelle est la position du gouvernement du Québec sur l'IA ?",
+          "options": {
+            "A": "Interdire complètement l'utilisation de l'IA au travail",
+            "B": "Investir pour accompagner la transition tout en gardant l'humain au centre",
+            "C": "Laisser les entreprises gérer la transition sans intervention",
+            "D": "Imposer des taxes sévères sur les outils d'IA"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "L'intelligence artificielle menace-t-elle réellement l'emploi des Québécois?\n\nL'arrivée massive des outils d'intelligence artificielle générative dans les milieux de travail québécois suscite à la fois enthousiasme et anxiété. Une étude récente de l'Observatoire de l'emploi et de la formation professionnelle révèle que 42% des travailleurs québécois craignent pour leur emploi à moyen terme, tandis que 35% utilisent déjà l'IA dans leurs tâches quotidiennes.\n\nCette dualité caractérise le débat actuel. D'un côté, l'automatisation promet d'éliminer les tâches répétitives et de libérer du temps pour des activités à plus forte valeur ajoutée. De l'autre, elle menace des professions entières, particulièrement dans les secteurs administratifs, de la traduction et du service client.\n\nLe gouvernement du Québec a annoncé un investissement de 150 millions sur cinq ans pour accompagner la transition numérique et la reconversion des travailleurs vulnérables. \"L'objectif n'est pas de résister au progrès, mais de l'orienter vers un avenir où l'humain reste au centre\", a affirmé la ministre de l'Économie.\n\nCependant, certains syndicats dénoncent une approche trop timorée. Ils réclament des mesures contraignantes pour les entreprises qui licencieraient massivement au profit de l'automatisation, ainsi qu'un renforcement de la formation continue obligatoire.",
+          "question": "Que réclament les syndicats selon l'article ?",
+          "options": {
+            "A": "L'interdiction totale de l'IA dans les entreprises",
+            "B": "Des mesures contraignantes pour les entreprises et plus de formation",
+            "C": "Une augmentation générale des salaires de 20%",
+            "D": "Le retour au travail présentiel obligatoire"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

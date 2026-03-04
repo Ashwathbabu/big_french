@@ -1,0 +1,154 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "INSERT 10-LINE TEXT HERE",
+          "question": "INSERT QUESTION HERE",
+          "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "INSERT 10-LINE GAP-FILL TEXT HERE",
+          "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "INSERT 10-LINE TEXT HERE",
+          "question": "INSERT QUESTION HERE",
+          "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "INSERT 10-LINE PROFESSIONAL TEXT HERE",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Informer",
+            "B": "Se plaindre",
+            "C": "Inviter",
+            "D": "Féliciter"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "INSERT 10-LINE PRESS ARTICLE HERE",
+          "question": "Quelle est la position de l'auteur ?",
+          "options": {
+            "A": "Positive",
+            "B": "Négative",
+            "C": "Neutre",
+            "D": "Critique"
+          },
+          "correct_answer": "D"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

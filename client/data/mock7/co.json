@@ -1,0 +1,1472 @@
+﻿[
+  {
+    "id": 1,
+    "section": "A",
+    "theme": "Daily activities",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne boit du café", "image_prompt": "A person sitting at a café terrace drinking coffee, morning light" },
+      { "id": "B", "text": "Une personne lit le journal", "image_prompt": "A person reading a newspaper at a kitchen table" },
+      { "id": "C", "text": "Une personne prend le métro", "image_prompt": "A person entering a subway train during rush hour" },
+      { "id": "D", "text": "Une personne fait ses courses", "image_prompt": "A person pushing a shopping cart in a grocery store" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Chaque matin, avant d'aller au travail, je m'arrête toujours au café du coin pour prendre un espresso bien fort.",
+    "transcript_en": "Every morning, before going to work, I always stop at the corner café to have a strong espresso.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chaque matin, avant d'aller au travail, je m'arrête toujours au café du coin pour prendre un espresso bien fort."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "A",
+    "theme": "Transportation",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un arrêt d'autobus", "image_prompt": "A bus stop with people waiting, urban setting" },
+      { "id": "B", "text": "Une station de BIXI", "image_prompt": "A BIXI bike-sharing station with several bicycles" },
+      { "id": "C", "text": "Un taxi", "image_prompt": "A yellow taxi cab on a city street" },
+      { "id": "D", "text": "Un train", "image_prompt": "A commuter train arriving at a platform" }
+    ],
+    "correct": 1,
+    "transcript_fr": "J'ai décidé de m'abonner au service de vélos en libre-service cette année, c'est tellement pratique pour se déplacer en ville.",
+    "transcript_en": "I decided to subscribe to the bike-sharing service this year, it's so convenient for getting around the city.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["J'ai décidé de m'abonner au service de vélos en libre-service cette année, c'est tellement pratique pour se déplacer en ville."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "A",
+    "theme": "Food",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une poutine", "image_prompt": "A plate of poutine with cheese curds and gravy" },
+      { "id": "B", "text": "Un bagel", "image_prompt": "A Montreal-style bagel with sesame seeds" },
+      { "id": "C", "text": "Une tarte au sucre", "image_prompt": "A slice of sugar pie on a plate" },
+      { "id": "D", "text": "Des crêpes", "image_prompt": "A stack of crepes with maple syrup" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Ma grand-mère prépare la meilleure tarte au sucre de la région, c'est une recette familiale transmise depuis des générations.",
+    "transcript_en": "My grandmother makes the best sugar pie in the region, it's a family recipe passed down for generations.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Ma grand-mère prépare la meilleure tarte au sucre de la région, c'est une recette familiale transmise depuis des générations."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "section": "A",
+    "theme": "Weather",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "De la neige", "image_prompt": "Heavy snowfall in a Montreal street" },
+      { "id": "B", "text": "De la pluie", "image_prompt": "Rain falling on a city sidewalk with umbrellas" },
+      { "id": "C", "text": "Du soleil", "image_prompt": "Bright sunny day with clear blue sky" },
+      { "id": "D", "text": "Du brouillard", "image_prompt": "Thick fog covering a cityscape" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Il faudra sortir les bottes et le manteau d'hiver, les prévisions annoncent vingt centimètres de neige pour demain.",
+    "transcript_en": "We'll need to get out the boots and winter coat, the forecast is calling for twenty centimeters of snow tomorrow.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Il faudra sortir les bottes et le manteau d'hiver, les prévisions annoncent vingt centimètres de neige pour demain."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "A",
+    "theme": "Work",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un bureau avec ordinateur", "image_prompt": "A modern office desk with computer and papers" },
+      { "id": "B", "text": "Une réunion d'équipe", "image_prompt": "A business meeting around a conference table" },
+      { "id": "C", "text": "Du télétravail à la maison", "image_prompt": "A person working on laptop at home in casual clothes" },
+      { "id": "D", "text": "Une présentation devant un tableau", "image_prompt": "A person giving a presentation at a whiteboard" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Depuis la pandémie, notre entreprise permet à tous les employés de travailler à domicile trois jours par semaine.",
+    "transcript_en": "Since the pandemic, our company allows all employees to work from home three days a week.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Depuis la pandémie, notre entreprise permet à tous les employés de travailler à domicile trois jours par semaine."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "section": "A",
+    "theme": "Leisure",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un concert", "image_prompt": "A live music concert with crowd and stage lights" },
+      { "id": "B", "text": "Un match de hockey", "image_prompt": "An ice hockey game at an arena" },
+      { "id": "C", "text": "Une randonnée en montagne", "image_prompt": "Hikers on a mountain trail with scenic view" },
+      { "id": "D", "text": "Un festival de jazz", "image_prompt": "An outdoor jazz festival with musicians and audience" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Le Festival international de jazz de Montréal commence la semaine prochaine, j'ai déjà acheté mes billets pour trois spectacles.",
+    "transcript_en": "The Montreal International Jazz Festival starts next week, I've already bought my tickets for three shows.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le Festival international de jazz de Montréal commence la semaine prochaine, j'ai déjà acheté mes billets pour trois spectacles."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "section": "B",
+    "theme": "Shopping",
+    "question": "Que cherche la femme ?",
+    "options": [
+      { "id": "A", "text": "Un cadeau pour son mari", "image_prompt": null },
+      { "id": "B", "text": "Des chaussures pour elle-même", "imageprompt": null },
+      { "id": "C", "text": "Un manteau d'hiver", "imageprompt": null },
+      { "id": "D", "text": "Un sac à main", "imageprompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Homme: Bonjour madame, puis-je vous aider? Femme: Oui, je cherche un cadeau d'anniversaire pour mon mari. Homme: Qu'est-ce qu'il aime faire? Femme: Il adore le golf, mais il a déjà tous les accessoires. Homme: Et s'il faisait froid, aimerait-il quelque chose pour rester au chaud? Femme: Excellente idée, il a besoin d'un nouveau manteau!",
+    "transcript_en": "Man: Hello madam, may I help you? Woman: Yes, I'm looking for a birthday gift for my husband. Man: What does he like to do? Woman: He loves golf, but he already has all the accessories. Man: And if it were cold, would he like something to keep warm? Woman: Excellent idea, he needs a new coat!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour madame, puis-je vous aider?", "Qu'est-ce qu'il aime faire?"],
+        "female_lines": ["Oui, je cherche un cadeau d'anniversaire pour mon mari.", "Il adore le golf, mais il a déjà tous les accessoires."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Et s'il faisait froid, aimerait-il quelque chose pour rester au chaud?", "Nous avons une excellente sélection de manteaux d'hiver en ce moment."],
+        "female_lines": ["Excellente idée, il a besoin d'un nouveau manteau!", "Pouvez-vous me montrer les modèles disponibles?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Bien sûr, suivez-moi par ici.", "Celui-ci est en duvet canadien, très chaud."],
+        "female_lines": ["Il est élégant, j'aime la couleur.", "Quel est le prix?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Il est en solde à trois cent dollars.", "C'est une excellente affaire."],
+        "female_lines": ["Parfait, je le prends.", "Pouvez-vous l'emballer pour cadeau?"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "section": "B",
+    "theme": "Restaurant",
+    "question": "Pourquoi le client appelle-t-il ?",
+    "options": [
+      { "id": "A", "text": "Pour annuler une réservation", "imageprompt": null },
+      { "id": "B", "text": "Pour réserver une table", "imageprompt": null },
+      { "id": "C", "text": "Pour se plaindre du service", "imageprompt": null },
+      { "id": "D", "text": "Pour commander à emporter", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Femme: Bonjour, restaurant Le Petit Québec, j'écoute. Homme: Bonjour, je voudrais réserver une table pour samedi soir. Femme: Pour combien de personnes? Homme: Pour quatre personnes, deux adultes et deux enfants. Femme: À quelle heure souhaitez-vous venir? Homme: Vers dix-huit heures trente, c'est possible?",
+    "transcript_en": "Woman: Hello, Le Petit Québec restaurant, I'm listening. Man: Hello, I would like to reserve a table for Saturday evening. Woman: For how many people? Man: For four people, two adults and two children. Woman: What time would you like to come? Man: Around six thirty, is that possible?",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, je voudrais réserver une table pour samedi soir.", "Pour quatre personnes, deux adultes et deux enfants."],
+        "female_lines": ["Bonjour, restaurant Le Petit Québec, j'écoute.", "Pour combien de personnes?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Vers dix-huit heures trente, c'est possible?", "Nous préférons manger tôt avec les enfants."],
+        "female_lines": ["À quelle heure souhaitez-vous venir?", "Dix-huit heures trente, c'est parfait, nous avons de la place."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Excellent, au nom de Martin.", "Nous avons un enfant allergique aux arachides."],
+        "female_lines": ["Très bien monsieur Martin, c'est noté.", "Pas de problème, nous sommes habitués aux allergies alimentaires."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Parfait, merci beaucoup.", "À samedi alors."],
+        "female_lines": ["Je vous confirme la réservation par courriel.", "Au plaisir de vous recevoir, bonne journée!"]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "section": "B",
+    "theme": "Bank",
+    "question": "Que veut faire la cliente ?",
+    "options": [
+      { "id": "A", "text": "Ouvrir un compte épargne", "imageprompt": null },
+      { "id": "B", "text": "Demander un prêt hypothécaire", "imageprompt": null },
+      { "id": "C", "text": "Changer de banque", "imageprompt": null },
+      { "id": "D", "text": "Obtenir une carte de crédit", "imageprompt": null }
+    ],
+    "correct": 3,
+    "transcript_fr": "Homme: Bonjour madame, bienvenue à la Banque Nationale. Comment puis-je vous aider aujourd'hui? Femme: Bonjour, j'aimerais demander une carte de crédit. Homme: Très bien, avez-vous déjà un compte chez nous? Femme: Oui, j'ai un compte chèques depuis deux ans. Homme: Parfait, je vais vérifier votre dossier.",
+    "transcript_en": "Man: Hello madam, welcome to National Bank. How can I help you today? Woman: Hello, I would like to apply for a credit card. Man: Very well, do you already have an account with us? Woman: Yes, I've had a checking account for two years. Man: Perfect, I'll check your file.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour madame, bienvenue à la Banque Nationale. Comment puis-je vous aider aujourd'hui?", "Très bien, avez-vous déjà un compte chez nous?"],
+        "female_lines": ["Bonjour, j'aimerais demander une carte de crédit.", "Oui, j'ai un compte chèques depuis deux ans."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Parfait, je vais vérifier votre dossier.", "Votre historique de crédit est excellent."],
+        "female_lines": ["J'aimerais une carte avec des récompenses voyage.", "Quelles sont les options disponibles?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Nous avons la carte World Elite avec des avantages voyages.", "Elle offre des assurances voyage complètes."],
+        "female_lines": ["C'est exactement ce qu'il me faut.", "Quel est le taux d'intérêt annuel?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Le taux est de dix-neuf virgule quatre-neuf pour cent.", "Mais vous avez vingt-et-un jours sans intérêt."],
+        "female_lines": ["C'est raisonnable, je vais prendre celle-là.", "Merci pour votre aide."]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "section": "B",
+    "theme": "Post office",
+    "question": "Que doit envoyer l'homme ?",
+    "options": [
+      { "id": "A", "text": "Une lettre simple", "imageprompt": null },
+      { "id": "B", "text": "Un colis international", "imageprompt": null },
+      { "id": "C", "text": "Un recommandé", "imageprompt": null },
+      { "id": "D", "text": "Un mandat postal", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Femme: Bonjour monsieur, bienvenue à Postes Canada. Homme: Bonjour, je dois envoyer ce colis en France. Femme: D'accord, qu'est-ce qu'il contient? Homme: Des livres et des photos de famille. Femme: Voulez-vous l'envoyer par avion ou par bateau?",
+    "transcript_en": "Woman: Hello sir, welcome to Canada Post. Man: Hello, I need to send this package to France. Woman: Okay, what does it contain? Man: Books and family photos. Woman: Would you like to send it by air or by boat?",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, je dois envoyer ce colis en France.", "Des livres et des photos de famille."],
+        "female_lines": ["Bonjour monsieur, bienvenue à Postes Canada.", "D'accord, qu'est-ce qu'il contient?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Par avion s'il vous plaît, c'est plus rapide.", "C'est urgent, c'est pour l'anniversaire de ma mère."],
+        "female_lines": ["Voulez-vous l'envoyer par avion ou par bateau?", "Par avion, c'est livré en cinq à dix jours ouvrables."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est parfait, elle fête ses soixante-cinq ans.", "Combien ça coûte l'expédition?"],
+        "female_lines": ["Je dois peser le colis d'abord.", "Ça fait deux kilogrammes, soixante-quinze dollars."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Très bien, je prends l'assurance aussi.", "Au cas où il serait perdu."],
+        "female_lines": ["Bonne idée, ça coûte dix dollars de plus.", "Voici votre reçu, bonne journée!"]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "section": "C",
+    "theme": "Airport announcement",
+    "question": "Quel est le problème annoncé ?",
+    "options": [
+      { "id": "A", "text": "Un retard de vol", "imageprompt": null },
+      { "id": "B", "text": "Un changement de porte", "imageprompt": null },
+      { "id": "C", "text": "L'annulation d'un vol", "imageprompt": null },
+      { "id": "D", "text": "Une alerte météo", "imageprompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Mesdames et messieurs, nous avons le regret de vous informer que le vol Air Canada trois-quatre-sept à destination de Vancouver subit un retard de deux heures en raison de conditions météorologiques défavorables sur la côte ouest. L'embarquement qui était prévu à quatorze heures trente aura lieu à seize heures trente. Nous vous invitons à rester dans la zone d'embarquement et à surveiller les écrans d'information. Un service de rafraîchissements est offert gratuitement à tous les passagers près de la porte vingt-quatre. Nous vous prions d'accepter nos sincères excuses pour ce désagrément et vous remercions de votre compréhension.",
+    "transcript_en": "Ladies and gentlemen, we regret to inform you that Air Canada flight three-four-seven to Vancouver is experiencing a two-hour delay due to unfavorable weather conditions on the west coast. Boarding which was scheduled for two thirty p.m. will now take place at four thirty p.m. We invite you to remain in the boarding area and monitor the information screens. A refreshment service is offered free of charge to all passengers near gate twenty-four. We ask you to please accept our sincere apologies for this inconvenience and thank you for your understanding.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mesdames et messieurs, nous avons le regret de vous informer que le vol Air Canada trois-quatre-sept à destination de Vancouver subit un retard de deux heures en raison de conditions météorologiques défavorables sur la côte ouest."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["L'embarquement qui était prévu à quatorze heures trente aura lieu à seize heures trente."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Nous vous invitons à rester dans la zone d'embarquement et à surveiller les écrans d'information."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Un service de rafraîchissements est offert gratuitement à tous les passagers près de la porte vingt-quatre."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Nous vous prions d'accepter nos sincères excuses pour ce désagrément et vous remercions de votre compréhension."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "section": "C",
+    "theme": "Supermarket announcement",
+    "question": "Quelle promotion est annoncée ?",
+    "options": [
+      { "id": "A", "text": "Une réduction sur les fruits", "imageprompt": null },
+      { "id": "B", "text": "Un deuxième produit à moitié prix", "imageprompt": null },
+      { "id": "C", "text": "Un rabais sur le fromage québécois", "imageprompt": null },
+      { "id": "D", "text": "Une offre spéciale sur le pain frais", "imageprompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Chers clients, profitez de notre spéciale du jour sur tous les fromages fins québécois. Jusqu'à la fermeture du magasin ce soir, bénéficiez de vingt-cinq pour cent de rabais sur le cheddar vieilli dix ans de la Fromagerie du Pied-de-Vent, le bleu d'Élizabeth et le tomme de Kamouraska. Cette offre exceptionnelle est valable dans la limite des stocks disponibles et ne peut être combinée avec d'autres promotions. Nos fromagers sont présents au comptoir des produits frais pour vous conseiller et vous faire déguster nos nouveautés. Merci de votre fidélité et bonne journée dans votre supermarché Métro.",
+    "transcript_en": "Dear customers, take advantage of our special of the day on all fine Quebec cheeses. Until store closing tonight, enjoy twenty-five percent off ten-year aged cheddar from Fromagerie du Pied-de-Vent, Bleu d'Élizabeth, and Tomme de Kamouraska. This exceptional offer is valid while supplies last and cannot be combined with other promotions. Our cheesemongers are present at the fresh products counter to advise you and let you taste our new arrivals. Thank you for your loyalty and have a nice day at your Métro supermarket.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers clients, profitez de notre spéciale du jour sur tous les fromages fins québécois."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Jusqu'à la fermeture du magasin ce soir, bénéficiez de vingt-cinq pour cent de rabais sur le cheddar vieilli dix ans de la Fromagerie du Pied-de-Vent, le bleu d'Élizabeth et le tomme de Kamouraska."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Cette offre exceptionnelle est valable dans la limite des stocks disponibles et ne peut être combinée avec d'autres promotions."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Nos fromagers sont présents au comptoir des produits frais pour vous conseiller et vous faire déguster nos nouveautés."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Merci de votre fidélité et bonne journée dans votre supermarché Métro."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "section": "C",
+    "theme": "University announcement",
+    "question": "Quelle information est communiquée ?",
+    "options": [
+      { "id": "A", "text": "L'ouverture des inscriptions", "imageprompt": null },
+      { "id": "B", "text": "La fermeture de la bibliothèque", "imageprompt": null },
+      { "id": "C", "text": "Un changement d'horaire de cours", "imageprompt": null },
+      { "id": "D", "text": "L'annulation des examens", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Attention étudiants et membres du personnel, la bibliothèque principale du campus sera exceptionnellement fermée ce samedi et dimanche pour des travaux d'entretien électrique. Durant cette période, la bibliothèque du pavillon des sciences humaines restera ouverte de huit heures à vingt-deux heures. Les livres en retard pourront être déposés dans la boîte de retour extérieure située près de l'entrée principale sans pénalité. Les services en ligne incluant les bases de données et les revues électroniques restent accessibles vingt-quatre heures sur vingt-quatre. Nous vous remercions de votre compréhension et vous souhaitons une excellente fin de semaine d'étude.",
+    "transcript_en": "Attention students and staff members, the main campus library will be exceptionally closed this Saturday and Sunday for electrical maintenance work. During this period, the humanities pavilion library will remain open from eight a.m. to ten p.m. Overdue books may be deposited in the exterior return box located near the main entrance without penalty. Online services including databases and electronic journals remain accessible twenty-four hours a day. We thank you for your understanding and wish you an excellent weekend of studying.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Attention étudiants et membres du personnel, la bibliothèque principale du campus sera exceptionnellement fermée ce samedi et dimanche pour des travaux d'entretien électrique."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Durant cette période, la bibliothèque du pavillon des sciences humaines restera ouverte de huit heures à vingt-deux heures."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les livres en retard pourront être déposés dans la boîte de retour extérieure située près de l'entrée principale sans pénalité."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les services en ligne incluant les bases de données et les revues électroniques restent accessibles vingt-quatre heures sur vingt-quatre."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Nous vous remercions de votre compréhension et vous souhaitons une excellente fin de semaine d'étude."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "section": "C",
+    "theme": "Public transport announcement",
+    "question": "Quel changement est annoncé ?",
+    "options": [
+      { "id": "A", "text": "Une grève des chauffeurs", "imageprompt": null },
+      { "id": "B", "text": "Une interruption de service", "imageprompt": null },
+      { "id": "C", "text": "Un détournement de ligne", "imageprompt": null },
+      { "id": "D", "text": "Une augmentation des tarifs", "imageprompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Chers usagers de la STM, veuillez prendre note que la ligne orange entre les stations Berri-UQAM et Henri-Bourassa est actuellement interrompue en raison d'une intervention d'urgence. Un service de bus navette est mis en place entre ces deux stations. Les voyageurs sont invités à sortir par la porte arrière du bus et à conserver leur titre de transport pour la correspondance métro. La reprise du service normal est estimée dans environ quarante-cinq minutes. Nous vous recommandons de prévoir du temps supplémentaire pour votre trajet. L'application mobile STM offre l'information en temps réel sur l'état du réseau. Merci de votre patience.",
+    "transcript_en": "Dear STM users, please note that the orange line between Berri-UQAM and Henri-Bourassa stations is currently interrupted due to an emergency intervention. A shuttle bus service is in place between these two stations. Passengers are invited to exit through the rear door of the bus and keep their transit fare for the metro connection. Resumption of normal service is estimated in approximately forty-five minutes. We recommend allowing extra time for your journey. The STM mobile app offers real-time information on the network status. Thank you for your patience.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers usagers de la STM, veuillez prendre note que la ligne orange entre les stations Berri-UQAM et Henri-Bourassa est actuellement interrompue en raison d'une intervention d'urgence."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Un service de bus navette est mis en place entre ces deux stations."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les voyageurs sont invités à sortir par la porte arrière du bus et à conserver leur titre de transport pour la correspondance métro."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["La reprise du service normal est estimée dans environ quarante-cinq minutes."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Nous vous recommandons de prévoir du temps supplémentaire pour votre trajet.", "L'application mobile STM offre l'information en temps réel sur l'état du réseau.", "Merci de votre patience."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "section": "C",
+    "theme": "Hospital announcement",
+    "question": "Que demande l'annonce ?",
+    "options": [
+      { "id": "A", "text": "Des dons de sang", "imageprompt": null },
+      { "id": "B", "text": "Le silence dans les couloirs", "imageprompt": null },
+      { "id": "C", "text": "L'évacuation immédiate", "imageprompt": null },
+      { "id": "D", "text": "La visite des proches", "imageprompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Le Centre hospitalier universitaire de Montréal lance un appel urgent à la population. Nos réserves de sang de type O négatif et AB positif sont actuellement très basses. Nous invitons tous les donneurs éligibles à se présenter au centre de prélèvement situé au cinquième étage du pavillon principal, ouvert tous les jours de huit heures à vingt heures. Le don de sang prend environ quarante-cinq minutes et peut sauver jusqu'à trois vies. Les nouveaux donneurs sont les bienvenus et recevront une carte de donneur. N'oubliez pas de manger avant de venir et d'apporter une pièce d'identité avec photo. Ensemble, sauvons des vies.",
+    "transcript_en": "The Montreal University Hospital Center is making an urgent appeal to the population. Our blood reserves of type O negative and AB positive are currently very low. We invite all eligible donors to come to the collection center located on the fifth floor of the main pavilion, open every day from eight a.m. to eight p.m. Blood donation takes about forty-five minutes and can save up to three lives. New donors are welcome and will receive a donor card. Don't forget to eat before coming and bring photo identification. Together, let's save lives.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le Centre hospitalier universitaire de Montréal lance un appel urgent à la population.", "Nos réserves de sang de type O négatif et AB positif sont actuellement très basses."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nous invitons tous les donneurs éligibles à se présenter au centre de prélèvement situé au cinquième étage du pavillon principal, ouvert tous les jours de huit heures à vingt heures."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le don de sang prend environ quarante-cinq minutes et peut sauver jusqu'à trois vies."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les nouveaux donneurs sont les bienvenus et recevront une carte de donneur."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["N'oubliez pas de manger avant de venir et d'apporter une pièce d'identité avec photo.", "Ensemble, sauvons des vies."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "section": "C",
+    "theme": "Museum announcement",
+    "question": "Quelle information est donnée ?",
+    "options": [
+      { "id": "A", "text": "Une exposition temporaire", "imageprompt": null },
+      { "id": "B", "text": "La fermeture pour rénovation", "imageprompt": null },
+      { "id": "C", "text": "Une visite guidée gratuite", "imageprompt": null },
+      { "id": "D", "text": "Un concert en soirée", "imageprompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Bienvenue au Musée des beaux-arts de Montréal. Nous vous informons qu'une visite guidée gratuite de l'exposition permanente d'art contemporain québécois débutera dans quinze minutes au hall principal. Cette visite d'une heure trente sera animée par notre conservatrice Marie-Claire Lefebvre et comprendra des explications sur les techniques utilisées par les artistes ainsi que des anecdotes sur leur parcours. Les places sont limitées à vingt-cinq personnes, inscription sur place. Les enfants de moins de douze ans doivent être accompagnés d'un adulte. Après la visite, un goûter sera offert dans la cafétéria du musée. Profitez de cette occasion unique pour découvrir nos chefs-d'œuvre.",
+    "transcript_en": "Welcome to the Montreal Museum of Fine Arts. We inform you that a free guided tour of the permanent exhibition of contemporary Quebec art will begin in fifteen minutes in the main hall. This hour-and-a-half tour will be led by our curator Marie-Claire Lefebvre and will include explanations of the techniques used by the artists as well as anecdotes about their careers. Places are limited to twenty-five people, registration on site. Children under twelve must be accompanied by an adult. After the tour, refreshments will be served in the museum cafeteria. Take advantage of this unique opportunity to discover our masterpieces.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bienvenue au Musée des beaux-arts de Montréal.", "Nous vous informons qu'une visite guidée gratuite de l'exposition permanente d'art contemporain québécois débutera dans quinze minutes au hall principal."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Cette visite d'une heure trente sera animée par notre conservatrice Marie-Claire Lefebvre et comprendra des explications sur les techniques utilisées par les artistes ainsi que des anecdotes sur leur parcours."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les places sont limitées à vingt-cinq personnes, inscription sur place.", "Les enfants de moins de douze ans doivent être accompagnés d'un adulte."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Après la visite, un goûter sera offert dans la cafétéria du musée."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Profitez de cette occasion unique pour découvrir nos chefs-d'œuvre."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "section": "D",
+    "theme": "Job interview",
+    "question": "Quelle est l'intention du candidat ?",
+    "options": [
+      { "id": "A", "text": "Obtenir des informations sur le salaire", "imageprompt": null },
+      { "id": "B", "text": "Montrer son intérêt pour le poste", "imageprompt": null },
+      { "id": "C", "text": "Critiquer son ancien employeur", "imageprompt": null },
+      { "id": "D", "text": "Négocier ses horaires", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Femme: Merci de venir pour cet entretien, monsieur Tremblay. Homme: C'est moi qui vous remercie de m'accorder cette opportunité. Femme: Pouvez-vous me parler de votre expérience? Homme: Avec plaisir, j'ai cinq ans d'expérience dans ce domaine et je suis passionné par votre entreprise. Femme: Qu'est-ce qui vous attire chez nous? Homme: Vos valeurs d'innovation correspondent parfaitement à ma vision professionnelle.",
+    "transcript_en": "Woman: Thank you for coming for this interview, Mr. Tremblay. Man: It's me who thanks you for giving me this opportunity. Woman: Can you tell me about your experience? Man: With pleasure, I have five years of experience in this field and I am passionate about your company. Woman: What attracts you to us? Man: Your values of innovation correspond perfectly to my professional vision.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["C'est moi qui vous remercie de m'accorder cette opportunité.", "Avec plaisir, j'ai cinq ans d'expérience dans ce domaine et je suis passionné par votre entreprise."],
+        "female_lines": ["Merci de venir pour cet entretien, monsieur Tremblay.", "Pouvez-vous me parler de votre expérience?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Vos valeurs d'innovation correspondent parfaitement à ma vision professionnelle.", "J'ai suivi vos projets récents avec grand intérêt."],
+        "female_lines": ["Qu'est-ce qui vous attire chez nous?", "Nous recherchons quelqu'un de motivé."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je suis prêt à m'investir pleinement dans ce nouveau défi.", "Mon ancien poste m'a appris l'importance du travail d'équipe."],
+        "female_lines": ["Parlez-moi de vos qualités principales.", "Nous valorisons l'esprit collaboratif."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Je suis organisé, rigoureux et créatif.", "Je crois fermement que je peux apporter une valeur ajoutée."],
+        "female_lines": ["C'est noté, nous vous contacterons sous peu.", "Avez-vous des questions pour nous?"]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "section": "D",
+    "theme": "Neighbor complaint",
+    "question": "Que veut la voisine ?",
+    "options": [
+      { "id": "A", "text": "Que le brisson cesse immédiatement", "imageprompt": null },
+      { "id": "B", "text": "Que l'homme déménage", "imageprompt": null },
+      { "id": "C", "text": "Trouver un compromis horaire", "imageprompt": null },
+      { "id": "D", "text": "Appeler la police", "imageprompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: Bonjour madame, je peux vous aider? Femme: Bonjour, je suis votre voisine du dessous. J'entends de la musique tard le soir. Homme: Oh désolé, je ne savais pas que ça se entendait. Femme: Serait-il possible de baisser le volume après vingt-deux heures? Homme: Bien sûr, pas de problème. Femme: Ou peut-être pourriez-vous mettre des écouteurs? Homme: Excellente idée, je vais acheter une paire demain.",
+    "transcript_en": "Man: Hello madam, can I help you? Woman: Hello, I'm your downstairs neighbor. I hear music late at night. Man: Oh sorry, I didn't know it could be heard. Woman: Would it be possible to turn down the volume after ten p.m.? Man: Of course, no problem. Woman: Or maybe you could use headphones? Man: Excellent idea, I'll buy a pair tomorrow.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour madame, je peux vous aider?", "Oh désolé, je ne savais pas que ça se entendait."],
+        "female_lines": ["Bonjour, je suis votre voisine du dessous.", "J'entends de la musique tard le soir."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Bien sûr, pas de problème.", "Je comprends tout à fait votre situation."],
+        "female_lines": ["Serait-il possible de baisser le volume après vingt-deux heures?", "J'ai des enfants qui dorment tôt."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je vais faire attention à partir de maintenant.", "Excellente idée, je vais acheter une paire demain."],
+        "female_lines": ["Ou peut-être pourriez-vous mettre des écouteurs?", "Ce serait une solution idéale pour nous deux."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Je m'excuse pour le dérangement causé.", "Merci d'être venue me voir directement."],
+        "female_lines": ["Je vous remercie de votre compréhension.", "Bonne journée à vous."]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "section": "D",
+    "theme": "Doctor appointment",
+    "question": "Pourquoi la patiente consulte-t-elle ?",
+    "options": [
+      { "id": "A", "text": "Pour un renouvellement d'ordonnance", "imageprompt": null },
+      { "id": "B", "text": "Pour une douleur persistante", "imageprompt": null },
+      { "id": "C", "text": "Pour un bilan de santé annuel", "imageprompt": null },
+      { "id": "D", "text": "Pour une vaccination", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: Bonjour madame, qu'est-ce qui vous amène aujourd'hui? Femme: Docteur, j'ai mal au dos depuis trois semaines. Homme: Racontez-moi, où exactement? Femme: C'est dans le bas du dos, à droite. Homme: Est-ce que c'est constant ou seulement quand vous bougez? Femme: C'est surtout le matin au réveil et quand je reste assise longtemps.",
+    "transcript_en": "Man: Hello madam, what brings you here today? Woman: Doctor, I've had back pain for three weeks. Man: Tell me, where exactly? Woman: It's in the lower back, on the right. Man: Is it constant or only when you move? Woman: It's mostly in the morning when I wake up and when I sit for a long time.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour madame, qu'est-ce qui vous amène aujourd'hui?", "Racontez-moi, où exactement?"],
+        "female_lines": ["Docteur, j'ai mal au dos depuis trois semaines.", "C'est dans le bas du dos, à droite."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Est-ce que c'est constant ou seulement quand vous bougez?", "À quelle intensité sur une échelle de un à dix?"],
+        "female_lines": ["C'est surtout le matin au réveil et quand je reste assise longtemps.", "Je dirais une six ou sept."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Avez-vous eu un choc récemment?", "Je vais vous examiner rapidement."],
+        "female_lines": ["Non, rien de particulier.", "J'ai essayé le repos mais ça ne passe pas."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Je vais vous prescrire des anti-inflammatoires.", "Et je vous recommande la physiothérapie."],
+        "female_lines": ["Merci docteur, j'espérais une solution.", "Je vais prendre rendez-vous avec un kiné."]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "section": "D",
+    "theme": "Returning item",
+    "question": "Quel est l'objectif de la cliente ?",
+    "options": [
+      { "id": "A", "text": "Échanger un article défectueux", "imageprompt": null },
+      { "id": "B", "text": "Obtenir un remboursement", "imageprompt": null },
+      { "id": "C", "text": "Acheter un accessoire", "imageprompt": null },
+      { "id": "D", "text": "Se plaindre du personnel", "imageprompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Homme: Bonjour, puis-je vous aider? Femme: Oui, j'aimerais échanger ce lecteur DVD. Homme: Quel est le problème? Femme: Il ne lit pas les disques, il affiche toujours erreur. Homme: Avez-vous la facture? Femme: Oui, je l'ai acheté la semaine dernière. Homme: Très bien, je vais vous donner un modèle neuf.",
+    "transcript_en": "Man: Hello, may I help you? Woman: Yes, I would like to exchange this DVD player. Man: What is the problem? Woman: It doesn't read discs, it always shows error. Man: Do you have the receipt? Woman: Yes, I bought it last week. Man: Very well, I'll give you a new model.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, puis-je vous aider?", "Quel est le problème?"],
+        "female_lines": ["Oui, j'aimerais échanger ce lecteur DVD.", "Il ne lit pas les disques, il affiche toujours erreur."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Avez-vous la facture?", "La semaine dernière, c'est dans le délai."],
+        "female_lines": ["Oui, je l'ai acheté la semaine dernière.", "J'ai le ticket de caisse ici."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Très bien, je vais vous donner un modèle neuf.", "Ou vous préférez un remboursement?"],
+        "female_lines": ["Un modèle neuf suffira, merci.", "J'espère que celui-ci fonctionnera."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Je vais le tester devant vous.", "Voici votre nouvel appareil."],
+        "female_lines": ["Parfait, c'est rassurant.", "Merci pour votre service rapide."]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "section": "D",
+    "theme": "Asking directions",
+    "question": "Que cherche le touriste ?",
+    "options": [
+      { "id": "A", "text": "Un restaurant recommandé", "imageprompt": null },
+      { "id": "B", "text": "La station de métro la plus proche", "imageprompt": null },
+      { "id": "C", "text": "Le vieux port de Montréal", "imageprompt": null },
+      { "id": "D", "text": "Un bureau de change", "imageprompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: Excusez-moi madame, je suis perdu. Femme: Oui, où souhaitez-vous aller? Homme: Je cherche le vieux port de Montréal. Femme: C'est tout droit sur cette rue, environ dix minutes à pied. Homme: Puis-je y aller en métro? Femme: Oui, prenez la ligne orange jusqu'à la station Champ-de-Mars.",
+    "transcript_en": "Man: Excuse me madam, I'm lost. Woman: Yes, where would you like to go? Man: I'm looking for the Old Port of Montreal. Woman: It's straight ahead on this street, about ten minutes walk. Man: Can I go by metro? Woman: Yes, take the orange line to Champ-de-Mars station.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Excusez-moi madame, je suis perdu.", "Je cherche le vieux port de Montréal."],
+        "female_lines": ["Oui, où souhaitez-vous aller?", "C'est tout droit sur cette rue, environ dix minutes à pied."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Puis-je y aller en métro?", "Je préfère éviter de marcher avec mes valises."],
+        "female_lines": ["Oui, prenez la ligne orange jusqu'à la station Champ-de-Mars.", "C'est plus rapide en effet."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["La station est loin d'ici?", "Je ne connais pas bien le réseau."],
+        "female_lines": ["Non, c'est à trois minutes de marche.", "Tournez à gauche au prochain coin de rue."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Merci beaucoup pour votre aide.", "Les Montréalais sont très accueillants."],
+        "female_lines": ["Avec plaisir, bonne visite!", "N'hésitez pas si vous avez d'autres questions."]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "section": "D",
+    "theme": "Making invitation",
+    "question": "Quelle est l'intention de l'homme ?",
+    "options": [
+      { "id": "A", "text": "Proposer un rendez-vous romantique", "imageprompt": null },
+      { "id": "B", "text": "Inviter à une fête d'anniversaire", "imageprompt": null },
+      { "id": "C", "text": "Organiser une réunion professionnelle", "imageprompt": null },
+      { "id": "D", "text": "Proposer une sortie entre amis", "imageprompt": null }
+    ],
+    "correct": 3,
+    "transcript_fr": "Homme: Salut Julie, tu fais quoi samedi soir? Femme: Rien de spécial, pourquoi? Homme: On organise un souper chez nous avec Marc et Léa. Femme: C'est gentil, à quelle heure? Homme: Vers dix-neuf heures, tu peux amener quelque chose à boire? Femme: Avec plaisir, j'apporterai du vin.",
+    "transcript_en": "Man: Hi Julie, what are you doing Saturday night? Woman: Nothing special, why? Man: We're organizing dinner at our place with Marc and Léa. Woman: That's nice, what time? Man: Around seven p.m., can you bring something to drink? Woman: With pleasure, I'll bring wine.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Salut Julie, tu fais quoi samedi soir?", "On organise un souper chez nous avec Marc et Léa."],
+        "female_lines": ["Rien de spécial, pourquoi?", "C'est gentil, à quelle heure?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Vers dix-neuf heures, tu peux amener quelque chose à boire?", "Ce sera très sympa, on va jouer aux jeux de société."],
+        "female_lines": ["Avec plaisir, j'apporterai du vin.", "J'adore les soirées jeux!"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Parfait, tu connais déjà l'adresse?", "On se fait une fondue, tu aimes ça?"],
+        "female_lines": ["Oui, rue Saint-Denis numéro cent-vingt.", "J'adore la fondue, quelle bonne idée!"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Super, on t'attend samedi alors.", "N'oublie pas d'être à l'heure!"],
+        "female_lines": ["Je serai là ponctuelle.", "Merci de m'avoir invitée."]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "section": "E",
+    "theme": "Radio interview - Environment",
+    "question": "Quelle solution propose l'invité ?",
+    "options": [
+      { "id": "A", "text": "Interdire les voitures en ville", "imageprompt": null },
+      { "id": "B", "text": "Développer les transports en commun électriques", "imageprompt": null },
+      { "id": "C", "text": "Augmenter les taxes sur l'essence", "imageprompt": null },
+      { "id": "D", "text": "Construire plus d'autoroutes", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Animatrice: Nous recevons aujourd'hui monsieur Dubois, expert en environnement. Monsieur Dubois: Merci de m'accueillir. Animatrice: Comment réduire la pollution dans nos villes? Monsieur Dubois: Il faut investir massivement dans les transports en commun électriques. Animatrice: C'est coûteux non? Monsieur Dubois: Oui, mais c'est rentable à long terme pour la santé publique.",
+    "transcript_en": "Host: We welcome today Mr. Dubois, environment expert. Mr. Dubois: Thank you for having me. Host: How to reduce pollution in our cities? Mr. Dubois: We must invest massively in electric public transportation. Host: Isn't that expensive? Mr. Dubois: Yes, but it's profitable in the long term for public health.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Merci de m'accueillir.", "Il faut investir massivement dans les transports en commun électriques."],
+        "female_lines": ["Nous recevons aujourd'hui monsieur Dubois, expert en environnement.", "Comment réduire la pollution dans nos villes?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Oui, mais c'est rentable à long terme pour la santé publique.", "Les études montrent une réduction de quarante pour cent des émissions."],
+        "female_lines": ["C'est coûteux non?", "Mais qui va financer ces projets?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les gouvernements doivent prioriser ces investissements.", "C'est une question de volonté politique."],
+        "female_lines": ["Et les citoyens, peuvent-ils aider?", "Quelles sont les actions individuelles?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Bien sûr, utiliser le vélo ou marcher pour les courts trajets.", "Chaque geste compte pour l'avenir."],
+        "female_lines": ["Merci pour ces conseils.", "Nous allons suivre vos recommandations."]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "section": "E",
+    "theme": "Radio interview - Technology",
+    "question": "Quel est l'avis de la spécialiste sur le télétravail ?",
+    "options": [
+      { "id": "A", "text": "Il est dangereux pour la santé mentale", "imageprompt": null },
+      { "id": "B", "text": "Il doit être hybride pour être efficace", "imageprompt": null },
+      { "id": "C", "text": "Il doit être permanent pour tous", "imageprompt": null },
+      { "id": "D", "text": "Il nuit à la productivité", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Animateur: Docteur Lavoie, le télétravail est-il l'avenir? Docteur Lavoie: C'est un outil puissant mais qui doit être bien utilisé. Animateur: Que recommandez-vous? Docteur Lavoie: Un modèle hybride, trois jours au bureau, deux à la maison. Animateur: Pourquoi pas le full remote? Docteur Lavoie: Parce que l'humain a besoin de contact social pour créer et innover.",
+    "transcript_en": "Host: Dr. Lavoie, is remote work the future? Dr. Lavoie: It's a powerful tool but must be used well. Host: What do you recommend? Dr. Lavoie: A hybrid model, three days in the office, two at home. Host: Why not full remote? Dr. Lavoie: Because humans need social contact to create and innovate.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Docteur Lavoie, le télétravail est-il l'avenir?", "Que recommandez-vous?"],
+        "female_lines": ["C'est un outil puissant mais qui doit être bien utilisé.", "Un modèle hybride, trois jours au bureau, deux à la maison."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Pourquoi pas le full remote?", "Beaucoup d'employés le demandent pourtant."],
+        "female_lines": ["Parce que l'humain a besoin de contact social pour créer et innover.", "L'isolation mène à l'épuisement professionnel."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Quels sont les bénéfices du présentiel alors?", "Les entreprises hésitent à imposer le retour."],
+        "female_lines": ["La collaboration spontanée, la culture d'entreprise.", "Et la formation des nouveaux employés est facilitée."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Comment convaincre les réfractaires?", "Certains ne veulent plus remettre les pieds au bureau."],
+        "female_lines": ["En montrant les avantages sociaux et professionnels.", "Et en aménageant des espaces de travail attractifs."]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "section": "E",
+    "theme": "Radio interview - Health",
+    "question": "Quel conseil donne le médecin ?",
+    "options": [
+      { "id": "A", "text": "Faire du sport tous les jours", "imageprompt": null },
+      { "id": "B", "text": "Dormir au moins huit heures", "imageprompt": null },
+      { "id": "C", "text": "Manger cinq fruits et légumes", "imageprompt": null },
+      { "id": "D", "text": "Boire deux litres d'eau par jour", "imageprompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Animatrice: Docteur Gagnon, quel est votre conseil santé numéro un? Docteur Gagnon: Manger au moins cinq fruits et légumes par jour. Animatrice: C'est difficile pour beaucoup de gens. Docteur Gagnon: Commencez par en ajouter un à chaque repas. Animatrice: Et les compléments alimentaires? Docteur Gagnon: Ils ne remplacent jamais une alimentation variée.",
+    "transcript_en": "Host: Dr. Gagnon, what is your number one health advice? Dr. Gagnon: Eat at least five fruits and vegetables per day. Host: That's difficult for many people. Dr. Gagnon: Start by adding one to each meal. Host: And dietary supplements? Dr. Gagnon: They never replace a varied diet.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Manger au moins cinq fruits et légumes par jour.", "Commencez par en ajouter un à chaque repas."],
+        "female_lines": ["Docteur Gagnon, quel est votre conseil santé numéro un?", "C'est difficile pour beaucoup de gens."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Ils ne remplacent jamais une alimentation variée.", "Les nutriments naturels sont mieux absorbés."],
+        "female_lines": ["Et les compléments alimentaires?", "Les gens pensent que c'est équivalent."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est une erreur coûteuse.", "Un régime équilibré coûte moins cher."],
+        "female_lines": ["Quels légumes privilégier?", "Y a-t-il des saisons meilleures?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Tous les légumes sont bons, variez les couleurs.", "Mangez de saison pour plus de saveur."],
+        "female_lines": ["Merci pour ces conseils pratiques.", "Nous allons appliquer cès aujourd'hui."]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "section": "E",
+    "theme": "Radio interview - Culture",
+    "question": "Quel est l'objectif du festival mentionné ?",
+    "options": [
+      { "id": "A", "text": "Promouvoir les artistes locaux", "imageprompt": null },
+      { "id": "B", "text": "Attirer les touristes étrangers", "imageprompt": null },
+      { "id": "C", "text": "Préserver le patrimoine québécois", "imageprompt": null },
+      { "id": "D", "text": "Encourager la jeunesse à créer", "imageprompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Animateur: Madame Roy, directrice du festival, quel est votre objectif? Madame Roy: Mettre en avant nos artistes québécois émergents. Animateur: Comment sélectionnez-vous les participants? Madame Roy: Nous organisons des auditions ouvertes dans toute la province. Animateur: Et le public répond présent? Madame Roy: Oui, nous avons vendu dix mille billets l'an dernier.",
+    "transcript_en": "Host: Mrs. Roy, festival director, what is your goal? Mrs. Roy: To showcase our emerging Quebec artists. Host: How do you select participants? Mrs. Roy: We organize open auditions throughout the province. Host: And does the public show up? Mrs. Roy: Yes, we sold ten thousand tickets last year.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Madame Roy, directrice du festival, quel est votre objectif?", "Comment sélectionnez-vous les participants?"],
+        "female_lines": ["Mettre en avant nos artistes québécois émergents.", "Nous organisons des auditions ouvertes dans toute la province."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Et le public répond présent?", "Quels genres musicaux privilégiez-vous?"],
+        "female_lines": ["Oui, nous avons vendu dix mille billets l'an dernier.", "Tous styles confondus, de la chanson à l'électro."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Comment financez-vous cet événement?", "Les subventions publiques suffisent-elles?"],
+        "female_lines": ["Nous avons des sponsors privés importants.", "Et la billetterie couvre les frais de production."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Quels sont vos projets futurs?", "Le festival va-t-il s'agrandir?"],
+        "female_lines": ["Nous envisageons une tournée dans les régions.", "Pour toucher un public plus large."]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "section": "F",
+    "theme": "Housing debate",
+    "question": "Quelle est l'opinion de la femme ?",
+    "options": [
+      { "id": "A", "text": "Il faut construire plus de logements sociaux", "imageprompt": null },
+      { "id": "B", "text": "Les loyers sont trop élevés", "imageprompt": null },
+      { "id": "C", "text": "Il faut quitter la ville", "imageprompt": null },
+      { "id": "D", "text": "Les jeunes devraient acheter", "imageprompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Homme: Le marché immobilier est devenu inaccessible. Femme: C'est pourquoi nous devons construire plus de logements sociaux. Homme: Mais ça coûte cher aux contribuables. Femme: Moins cher que les sans-abris dans les rues. Homme: Tu as peut-être raison. Femme: C'est une question de solidarité sociale.",
+    "transcript_en": "Man: The real estate market has become inaccessible. Woman: That's why we must build more social housing. Man: But it's expensive for taxpayers. Woman: Less expensive than homeless people on the streets. Man: You may be right. Woman: It's a question of social solidarity.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le marché immobilier est devenu inaccessible.", "Les prix ont augmenté de trente pour cent en cinq ans."],
+        "female_lines": ["C'est pourquoi nous devons construire plus de logements sociaux.", "Les jeunes ne peuvent plus se loger décemment."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Mais ça coûte cher aux contribuables.", "Où trouver l'argent pour ces projets?"],
+        "female_lines": ["Moins cher que les sans-abris dans les rues.", "Et les coûts de santé associés."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Tu as peut-être raison.", "Mais les promoteurs privés ne veulent pas construire social."],
+        "female_lines": ["C'est une question de solidarité sociale.", "L'état doit imposer des quotas."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["C'est une solution radicale.", "Mais nécessaire peut-être."],
+        "female_lines": ["Il faut agir maintenant avant que la crise s'aggrave.", "Nos enfants méritent mieux."]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "section": "F",
+    "theme": "Education debate",
+    "question": "Quel est l'avis de l'homme sur les devoirs ?",
+    "options": [
+      { "id": "A", "text": "Il faut les interdire complètement", "imageprompt": null },
+      { "id": "B", "text": "Ils doivent rester obligatoires", "imageprompt": null },
+      { "id": "C", "text": "Ils devraient être optionnels", "imageprompt": null },
+      { "id": "D", "text": "Il faut réduire leur quantité", "imageprompt": null }
+    ],
+    "correct": 3,
+    "transcript_fr": "Femme: Les enfants passent trop de temps sur les devoirs. Homme: Je suis d'accord, il faut réduire leur quantité. Femme: Mais ils doivent réviser ce qu'ils ont appris. Homme: Oui, mais pas trois heures par soir. Femme: C'est excessif en effet. Homme: Vingt minutes suffisent pour consolider.",
+    "transcript_en": "Woman: Children spend too much time on homework. Man: I agree, we must reduce their quantity. Woman: But they must review what they've learned. Man: Yes, but not three hours every evening. Woman: That's excessive indeed. Man: Twenty minutes is enough to consolidate.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je suis d'accord, il faut réduire leur quantité.", "Mon fils travaille jusqu'à vingt-deux heures."],
+        "female_lines": ["Les enfants passent trop de temps sur les devoirs.", "C'est mauvais pour leur développement."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Oui, mais pas trois heures par soir.", "Ils ont besoin de temps libre pour jouer."],
+        "female_lines": ["Mais ils doivent réviser ce qu'ils ont appris.", "Sans quoi ils oublient vite."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Vingt minutes suffisent pour consolider.", "La qualité prime sur la quantité."],
+        "female_lines": ["C'est excessif en effet.", "Mais certains enseignants s'entêtent."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Il faut sensibiliser les écoles.", "Une charte des devoirs serait utile."],
+        "female_lines": ["Je vais en parler au conseil d'établissement.", "Ensemble nous pouvons changer les choses."]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "section": "F",
+    "theme": "Immigration debate",
+    "question": "Quelle est la position de la femme ?",
+    "options": [
+      { "id": "A", "text": "Fermer les frontières immédiatement", "imageprompt": null },
+      { "id": "B", "text": "Accueillir plus de réfugiés", "imageprompt": null },
+      { "id": "C", "text": "Sélectionner selon les compétences", "imageprompt": null },
+      { "id": "D", "text": "Maintenir le statu quo", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: Le Québec ne peut plus accueillir autant d'immigrants. Femme: Au contraire, nous devons accueillir plus de réfugiés. Homme: Mais l'intégration est difficile. Femme: Avec plus de ressources, ce serait possible. Homme: Ça coûte cher. Femme: C'est notre devoir humanitaire.",
+    "transcript_en": "Man: Quebec can no longer welcome so many immigrants. Woman: On the contrary, we must welcome more refugees. Man: But integration is difficult. Woman: With more resources, it would be possible. Man: It's expensive. Woman: It's our humanitarian duty.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le Québec ne peut plus accueillir autant d'immigrants.", "Les services sont déjà saturés."],
+        "female_lines": ["Au contraire, nous devons accueillir plus de réfugiés.", "Le monde a besoin de notre solidarité."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Mais l'intégration est difficile.", "Les cours de français manquent."],
+        "female_lines": ["Avec plus de ressources, ce serait possible.", "Il faut investir dans l'accueil."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Ça coûte cher.", "Les contribuables ne veulent pas payer plus."],
+        "female_lines": ["C'est notre devoir humanitaire.", "Nous avons signé des conventions internationales."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Je comprends ton point de vue.", "Mais la réalité budgétaire est là."],
+        "female_lines": ["La richesse se partage.", "C'est ça être Québécois."]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "section": "F",
+    "theme": "Technology debate",
+    "question": "Quel est l'argument de l'homme ?",
+    "options": [
+      { "id": "A", "text": "Les écrans sont dangereux pour les enfants", "imageprompt": null },
+      { "id": "B", "text": "Il faut interdire les smartphones à l'école", "imageprompt": null },
+      { "id": "C", "text": "La technologie facilite l'apprentissage", "imageprompt": null },
+      { "id": "D", "text": "Les livres sont obsolètes", "imageprompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme: Les écrans détruisent la concentration des jeunes. Homme: Je ne suis pas d'accord, la technologie facilite l'apprentissage. Femme: Mais ils deviennent dépendants. Homme: Avec une bonne pédagogie, ce n'est pas un problème. Femme: C'est optimiste. Homme: C'est l'avenir de l'éducation.",
+    "transcript_en": "Woman: Screens destroy young people's concentration. Man: I don't agree, technology facilitates learning. Woman: But they become dependent. Man: With good pedagogy, it's not a problem. Woman: That's optimistic. Man: It's the future of education.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je ne suis pas d'accord, la technologie facilite l'apprentissage.", "Les tablettes permettent des exercices interactifs."],
+        "female_lines": ["Les écrans détruisent la concentration des jeunes.", "Ils ne savent plus lire un livre entier."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Avec une bonne pédagogie, ce n'est pas un problème.", "L'important est l'encadrement."],
+        "female_lines": ["Mais ils deviennent dépendants.", "Ils font des crises sans leur téléphone."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est l'avenir de l'éducation.", "Nos enfants vivront dans un monde numérique."],
+        "female_lines": ["C'est optimiste.", "Moi je vois des adolescents anxieux."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Il faut trouver un équilibre.", "Ni tout numérique, ni tout papier."],
+        "female_lines": ["Là je suis d'accord.", "La modération est la clé."]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "section": "G",
+    "theme": "Urban planning",
+    "question": "Quel est le sujet principal de la discussion ?",
+    "options": [
+      { "id": "A", "text": "La construction d'un nouveau pont", "imageprompt": null },
+      { "id": "B", "text": "L'aménagement d'un parc urbain", "imageprompt": null },
+      { "id": "C", "text": "La piétonisation du centre-ville", "imageprompt": null },
+      { "id": "D", "text": "L'extension du métro", "imageprompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: Le conseil municipal propose de piétonniser la rue Sainte-Catherine cet été. Femme: C'est une excellente idée pour dynamiser le commerce. Homme: Mais les commerçants craignent de perdre des clients. Femme: Au contraire, les piétons dépensent plus que les automobilistes. Homme: Les livraisons seront compliquées. Femme: Elles pourront se faire tôt le matin. Homme: Et le stationnement? Femme: Il faut construire des parcs relais aux entrées de ville. Homme: Ça coûte cher. Femme: L'investissement sera rentabilisé par le tourisme. Homme: Les résidents protestent déjà. Femme: Une consultation publique est prévue. Homme: J'espère qu'ils écouteront la population. Femme: La démocratie participative est essentielle. Homme: Personnellement, je suis pour. Femme: Moi aussi, Montréal mérite un centre-ville vivant. Homme: Allons voter lors de la consultation. Femme: Chaque voix comptera pour l'avenir de notre ville.",
+    "transcript_en": "Man: The city council proposes to pedestrianize Sainte-Catherine Street this summer. Woman: It's an excellent idea to boost commerce. Man: But merchants fear losing customers. Woman: On the contrary, pedestrians spend more than motorists. Man: Deliveries will be complicated. Woman: They can be made early in the morning. Man: And parking? Woman: We need to build park-and-rides at city entrances. Man: That's expensive. Woman: The investment will be profitable through tourism. Man: Residents are already protesting. Woman: A public consultation is planned. Man: I hope they will listen to the population. Woman: Participatory democracy is essential. Man: Personally, I'm in favor. Woman: Me too, Montreal deserves a lively downtown. Man: Let's vote during the consultation. Woman: Every voice will count for the future of our city.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le conseil municipal propose de piétonniser la rue Sainte-Catherine cet été.", "Mais les commerçants craignent de perdre des clients."],
+        "female_lines": ["C'est une excellente idée pour dynamiser le commerce.", "Au contraire, les piétons dépensent plus que les automobilistes."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les livraisons seront compliquées.", "Et le stationnement?"],
+        "female_lines": ["Elles pourront se faire tôt le matin.", "Il faut construire des parcs relais aux entrées de ville."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Ça coûte cher.", "Les résidents protestent déjà."],
+        "female_lines": ["L'investissement sera rentabilisé par le tourisme.", "Une consultation publique est prévue."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["J'espère qu'ils écouteront la population.", "Personnellement, je suis pour."],
+        "female_lines": ["La démocratie participative est essentielle.", "Moi aussi, Montréal mérite un centre-ville vivant."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Allons voter lors de la consultation."],
+        "female_lines": ["Chaque voix comptera pour l'avenir de notre ville."]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "section": "G",
+    "theme": "Climate change",
+    "question": "Quelle solution privilégient les interlocuteurs ?",
+    "options": [
+      { "id": "A", "text": "L'énergie nucléaire", "imageprompt": null },
+      { "id": "B", "text": "Les énergies renouvelables", "imageprompt": null },
+      { "id": "C", "text": "La réduction de la consommation", "imageprompt": null },
+      { "id": "D", "text": "La capture du carbone", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: Le réchauffement climatique s'accélère plus vite que prévu. Femme: Nous devons passer aux énergies renouvelables immédiatement. Homme: Le solaire et l'éolien sont intermittents. Femme: Avec le stockage, ce problème est résolu. Homme: Les batteries polluent aussi. Femme: Moins que les énergies fossiles. Homme: Le coût reste élevé. Femme: Il diminue chaque année. Homme: Le Québec a un avantage avec l'hydroélectricité. Femme: Oui, mais nous devons diversifier. Homme: Les panneaux solaires sur les toits? Femme: Obligatoires sur les nouveaux bâtiments. Homme: C'est ambitieux. Femme: C'est nécessaire pour nos enfants. Homme: Je vais installer des panneaux chez moi. Femme: Moi aussi, et une borne de recharge pour ma voiture. Homme: Ensemble nous ferons la différence. Femme: Chaque geste compte pour la planète.",
+    "transcript_en": "Man: Global warming is accelerating faster than expected. Woman: We must switch to renewable energies immediately. Man: Solar and wind are intermittent. Woman: With storage, this problem is solved. Man: Batteries also pollute. Woman: Less than fossil fuels. Man: The cost remains high. Woman: It decreases every year. Man: Quebec has an advantage with hydroelectricity. Woman: Yes, but we must diversify. Man: Solar panels on roofs? Woman: Mandatory on new buildings. Man: That's ambitious. Woman: It's necessary for our children. Man: I'm going to install panels at home. Woman: Me too, and a charging station for my car. Man: Together we will make a difference. Woman: Every gesture counts for the planet.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le réchauffement climatique s'accélère plus vite que prévu.", "Le solaire et l'éolien sont intermittents."],
+        "female_lines": ["Nous devons passer aux énergies renouvelables immédiatement.", "Avec le stockage, ce problème est résolu."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les batteries polluent aussi.", "Le coût reste élevé."],
+        "female_lines": ["Moins que les énergies fossiles.", "Il diminue chaque année."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le Québec a un avantage avec l'hydroélectricité.", "Les panneaux solaires sur les toits?"],
+        "female_lines": ["Oui, mais nous devons diversifier.", "Obligatoires sur les nouveaux bâtiments."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["C'est ambitieux.", "Je vais installer des panneaux chez moi."],
+        "female_lines": ["C'est nécessaire pour nos enfants.", "Moi aussi, et une borne de recharge pour ma voiture."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Ensemble nous ferons la différence."],
+        "female_lines": ["Chaque geste compte pour la planète."]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "section": "G",
+    "theme": "Healthcare system",
+    "question": "Quel problème du système de santé est discuté ?",
+    "options": [
+      { "id": "A", "text": "La pénurie de médecins", "imageprompt": null },
+      { "id": "B", "text": "Les listes d'attente interminables", "imageprompt": null },
+      { "id": "C", "text": "Le manque d'équipement", "imageprompt": null },
+      { "id": "D", "text": "La fermeture des hôpitaux régionaux", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: J'attends depuis six mois pour une opération du genou. Femme: Les listes d'attente sont un scandale. Homme: Ma douleur empire chaque jour. Femme: Il faut plus de chirurgiens et de salles d'opération. Homme: Le gouvernement promet depuis des années. Femme: Les élections approchent, ils vont agir. Homme: J'en doute, c'est toujours pareil. Femme: La privatisation n'est pas la solution. Homme: Certains payent pour opérer au privé. Femme: C'est injuste pour les moins nantis. Homme: Que proposez-vous alors? Femme: Une meilleure gestion des ressources existantes. Homme: Comment? Femme: En réduisant la bureaucratie et en numérisant les dossiers. Homme: C'est sensé. Femme: Et en embauchant des infirmières praticiennes. Homme: Pour soulager les médecins. Femme: Exactement, il faut optimiser notre système public.",
+    "transcript_en": "Man: I've been waiting six months for knee surgery. Woman: The waiting lists are a scandal. Man: My pain gets worse every day. Woman: We need more surgeons and operating rooms. Man: The government has been promising for years. Woman: Elections are coming, they will act. Man: I doubt it, it's always the same. Woman: Privatization is not the solution. Man: Some pay to have surgery privately. Woman: It's unfair to the less fortunate. Man: What do you propose then? Woman: Better management of existing resources. Man: How? Woman: By reducing bureaucracy and digitizing records. Man: That makes sense. Woman: And by hiring nurse practitioners. Man: To relieve doctors. Woman: Exactly, we must optimize our public system.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["J'attends depuis six mois pour une opération du genou.", "Ma douleur empire chaque jour."],
+        "female_lines": ["Les listes d'attente sont un scandale.", "Il faut plus de chirurgiens et de salles d'opération."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le gouvernement promet depuis des années.", "J'en doute, c'est toujours pareil."],
+        "female_lines": ["Les élections approchent, ils vont agir.", "La privatisation n'est pas la solution."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Certains payent pour opérer au privé.", "Que proposez-vous alors?"],
+        "female_lines": ["C'est injuste pour les moins nantis.", "Une meilleure gestion des ressources existantes."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Comment?", "Pour soulager les médecins."],
+        "female_lines": ["En réduisant la bureaucratie et en numérisant les dossiers.", "Exactement, il faut optimiser notre système public."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["C'est sensé."],
+        "female_lines": ["Et en embauchant des infirmières praticiennes."]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "section": "G",
+    "theme": "Language policy",
+    "question": "Quel est l'enjeu de la discussion ?",
+    "options": [
+      { "id": "A", "text": "L'obligation du français au travail", "imageprompt": null },
+      { "id": "B", "text": "L'enseignement de l'anglais à l'école", "imageprompt": null },
+      { "id": "C", "text": "La protection du français au Québec", "imageprompt": null },
+      { "id": "D", "text": "L'immigration francophone", "imageprompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: La loi cent-un sur la protection du français divise les opinions. Femme: Elle est nécessaire, notre langue est menacée. Homme: Mais les entreprises se plaignent des coûts de traduction. Femme: C'est un investissement culturel essentiel. Homme: Les jeunes préfèrent parler anglais. Femme: Parce qu'on ne leur apprend pas assez l'amour du français. Homme: Internet est majoritairement anglophone. Femme: Alors créons plus de contenu québécois de qualité. Homme: Les plateformes de streaming? Femme: Elles doivent financer la production locale. Homme: C'est une bataille perdue? Femme: Jamais, le français est notre identité. Homme: Comment convaincre les nouveaux arrivants? Femme: Par l'accueil et des cours gratuits adaptés. Homme: Je suis fier de notre résistance linguistique. Femme: Nous sommes les gardiens d'un trésor précieux. Homme: À nous de le transmettre intact. Femme: Aux générations futures.",
+    "transcript_en": "Man: Law one-oh-one on French protection divides opinions. Woman: It's necessary, our language is threatened. Man: But companies complain about translation costs. Woman: It's an essential cultural investment. Man: Young people prefer to speak English. Woman: Because we don't teach them enough love for French. Man: The internet is mostly English-speaking. Woman: Then let's create more quality Quebec content. Man: Streaming platforms? Woman: They must fund local production. Man: Is it a lost battle? Woman: Never, French is our identity. Man: How to convince newcomers? Woman: Through welcome and adapted free courses. Man: I'm proud of our linguistic resistance. Woman: We are guardians of a precious treasure. Man: It's up to us to pass it on intact. Woman: To future generations.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La loi cent-un sur la protection du français divise les opinions.", "Mais les entreprises se plaignent des coûts de traduction."],
+        "female_lines": ["Elle est nécessaire, notre langue est menacée.", "C'est un investissement culturel essentiel."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les jeunes préfèrent parler anglais.", "Internet est majoritairement anglophone."],
+        "female_lines": ["Parce qu'on ne leur apprend pas assez l'amour du français.", "Alors créons plus de contenu québécois de qualité."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les plateformes de streaming?", "C'est une bataille perdue?"],
+        "female_lines": ["Elles doivent financer la production locale.", "Jamais, le français est notre identité."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Comment convaincre les nouveaux arrivants?", "Je suis fier de notre résistance linguistique."],
+        "female_lines": ["Par l'accueil et des cours gratuits adaptés.", "Nous sommes les gardiens d'un trésor précieux."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["À nous de le transmettre intact."],
+        "female_lines": ["Aux générations futures."]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "section": "G",
+    "theme": "Indigenous reconciliation",
+    "question": "Quelle action concrète est suggérée ?",
+    "options": [
+      { "id": "A", "text": "Des excuses officielles du gouvernement", "imageprompt": null },
+      { "id": "B", "text": "L'enseignement des langues autochtones", "imageprompt": null },
+      { "id": "C", "text": "La restitution des terres", "imageprompt": null },
+      { "id": "D", "text": "La création d'un jour férié national", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: La réconciliation avec les peuples autochtones progresse trop lentement. Femme: Il faut commencer par l'éducation, enseigner les langues autochtones à l'école. Homme: Mais il manque d'enseignants qualifiés. Femme: Formons les dans les communautés elles-mêmes. Homme: Le curriculum est déjà chargé. Femme: Intégrons ces enseignements dans l'histoire et la géographie. Homme: Les écoles résidentielles ont causé tant de torts. Femme: C'est pourquoi la vérité doit être connue de tous. Homme: Les jeunes Québécois sont-ils sensibilisés? Femme: Pas assez, il faut des échanges avec les communautés. Homme: Les aînés autochtones pourraient témoigner. Femme: Leur sagesse est précieuse pour notre société. Homme: Je vais proposer cela au conseil d'établissement. Femme: Et moi à mon député provincial. Homme: Chaque pas compte vers la réconciliation. Femme: C'est un chemin long mais nécessaire.",
+    "transcript_en": "Man: Reconciliation with Indigenous peoples is progressing too slowly. Woman: We must start with education, teaching Indigenous languages in school. Man: But there is a lack of qualified teachers. Woman: Let's train them in the communities themselves. Man: The curriculum is already full. Woman: Let's integrate these teachings into history and geography. Man: Residential schools caused so much harm. Woman: That's why the truth must be known by all. Man: Are young Quebecers aware? Woman: Not enough, we need exchanges with communities. Man: Indigenous elders could testify. Woman: Their wisdom is precious for our society. Man: I'll propose this to the school board. Woman: And I to my provincial MNA. Man: Every step counts toward reconciliation. Woman: It's a long but necessary journey.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La réconciliation avec les peuples autochtones progresse trop lentement.", "Mais il manque d'enseignants qualifiés."],
+        "female_lines": ["Il faut commencer par l'éducation, enseigner les langues autochtones à l'école.", "Formons les dans les communautés elles-mêmes."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le curriculum est déjà chargé.", "Les écoles résidentielles ont causé tant de torts."],
+        "female_lines": ["Intégrons ces enseignements dans l'histoire et la géographie.", "C'est pourquoi la vérité doit être connue de tous."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les jeunes Québécois sont-ils sensibilisés?", "Les aînés autochtones pourraient témoigner."],
+        "female_lines": ["Pas assez, il faut des échanges avec les communautés.", "Leur sagesse est précieuse pour notre société."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Je vais proposer cela au conseil d'établissement.", "Chaque pas compte vers la réconciliation."],
+        "female_lines": ["Et moi à mon député provincial.", "C'est un chemin long mais nécessaire."]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "section": "H",
+    "theme": "Artificial intelligence ethics",
+    "question": "Quelle est la préoccupation principale exprimée ?",
+    "options": [
+      { "id": "A", "text": "Le chômage massif causé par les robots", "imageprompt": null },
+      { "id": "B", "text": "La perte de confidentialité des données", "imageprompt": null },
+      { "id": "C", "text": "Le biais algorithmique dans les décisions", "imageprompt": null },
+      { "id": "D", "text": "L'autonomie croissante des machines", "imageprompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: L'intelligence artificielle révolutionne notre société mais pose des défis éthiques majeurs. Femme: Le plus inquiétant est le biais algorithmique dans les décisions administratives. Homme: Expliquez-moi ce concept. Femme: Les algorithmes reproduisent les préjugés humains présents dans les données d'entraînement. Homme: Donnez-moi un exemple concret. Femme: Un logiciel de recrutement qui favorise systématiquement les candidats masculins pour les postes techniques. Homme: Parce qu'il a été nourri avec des données historiques sexistes. Femme: Exactement, et ces biais sont difficiles à détecter. Homme: Comment les éliminer alors? Femme: Il faut des équipes diversifiées qui créent ces algorithmes et des audits réguliers. Homme: Et une réglementation stricte? Femme: Indispensable, mais la technologie évolue plus vite que les lois. Homme: Le Québec a-t-il une politique en la matière? Femme: Encore insuffisante, nous devons agir rapidement. Homme: La transparence est la clé. Femme: Chaque citoyen devrait pouvoir comprendre comment une décision l'affecte. Homme: C'est un droit fondamental à l'ère numérique. Femme: Protégeons notre humanité face à ces machines.",
+    "transcript_en": "Man: Artificial intelligence is revolutionizing our society but poses major ethical challenges. Woman: The most worrying is algorithmic bias in administrative decisions. Man: Explain this concept to me. Woman: Algorithms reproduce human prejudices present in training data. Man: Give me a concrete example. Woman: Recruitment software that systematically favors male candidates for technical positions. Man: Because it was fed with sexist historical data. Woman: Exactly, and these biases are difficult to detect. Man: How to eliminate them then? Woman: We need diverse teams creating these algorithms and regular audits. Man: And strict regulation? Woman: Essential, but technology evolves faster than laws. Man: Does Quebec have a policy on this? Woman: Still insufficient, we must act quickly. Man: Transparency is the key. Woman: Every citizen should be able to understand how a decision affects them. Man: It's a fundamental right in the digital age. Woman: Let's protect our humanity in the face of these machines.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'intelligence artificielle révolutionne notre société mais pose des défis éthiques majeurs.", "Expliquez-moi ce concept."],
+        "female_lines": ["Le plus inquiétant est le biais algorithmique dans les décisions administratives.", "Les algorithmes reproduisent les préjugés humains présents dans les données d'entraînement."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Donnez-moi un exemple concret.", "Parce qu'il a été nourri avec des données historiques sexistes."],
+        "female_lines": ["Un logiciel de recrutement qui favorise systématiquement les candidats masculins pour les postes techniques.", "Exactement, et ces biais sont difficiles à détecter."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Comment les éliminer alors?", "Et une réglementation stricte?"],
+        "female_lines": ["Il faut des équipes diversifiées qui créent ces algorithmes et des audits réguliers.", "Indispensable, mais la technologie évolue plus vite que les lois."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Le Québec a-t-il une politique en la matière?", "La transparence est la clé."],
+        "female_lines": ["Encore insuffisante, nous devons agir rapidement.", "Chaque citoyen devrait pouvoir comprendre comment une décision l'affecte."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["C'est un droit fondamental à l'ère numérique."],
+        "female_lines": ["Protégeons notre humanité face à ces machines."]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "section": "H",
+    "theme": "Economic inequality",
+    "question": "Quelle est la cause de l'inégalité selon la discussion ?",
+    "options": [
+      { "id": "A", "text": "La mondialisation des échanges", "imageprompt": null },
+      { "id": "B", "text": "La fiscalité avantageant les riches", "imageprompt": null },
+      { "id": "C", "text": "L'automatisation des emplois", "imageprompt": null },
+      { "id": "D", "text": "La corruption politique", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: L'écart entre riches et pauvres s'accélère au Québec. Femme: Principalement à cause d'une fiscalité qui avantage excessivement les plus riches. Homme: Les impôts sont déjà élevés ici. Femme: Pas assez sur le capital, seulement sur le travail. Homme: Les paradis fiscaux aggravent le problème. Femme: Exactement, des milliards échappent à notre collectivité. Homme: Les entreprises menacent de partir si on augmente les taxes. Femme: C'est un chantage, elles ont besoin de nos marchés. Homme: Que proposez-vous concrètement? Femme: Une taxe sur la fortune, comme en France. Homme: Et sur les héritages? Femme: Réformer la taxation pour plus d'équité intergénérationnelle. Homme: Les lobbies financiers vont s'y opposer. Femme: La démocratie doit primer sur l'argent. Homme: Les citoyens sont-ils prêts? Femme: Une majorité soutient ces mesures quand on les explique. Homme: Espérons que les politiciens écouteront. Femme: C'est notre responsabilité collective de réclamer justice.",
+    "transcript_en": "Man: The gap between rich and poor is accelerating in Quebec. Woman: Mainly because of taxation that excessively favors the richest. Man: Taxes are already high here. Woman: Not enough on capital, only on labor. Man: Tax havens aggravate the problem. Woman: Exactly, billions escape our community. Man: Companies threaten to leave if we raise taxes. Woman: That's blackmail, they need our markets. Man: What do you concretely propose? Woman: A wealth tax, like in France. Man: And on inheritances? Woman: Reform taxation for more intergenerational equity. Man: Financial lobbies will oppose this. Woman: Democracy must prevail over money. Man: Are citizens ready? Woman: A majority supports these measures when explained. Man: Let's hope politicians will listen. Woman: It's our collective responsibility to demand justice.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'écart entre riches et pauvres s'accélère au Québec.", "Les impôts sont déjà élevés ici."],
+        "female_lines": ["Principalement à cause d'une fiscalité qui avantage excessivement les plus riches.", "Pas assez sur le capital, seulement sur le travail."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les paradis fiscaux aggravent le problème.", "Les entreprises menacent de partir si on augmente les taxes."],
+        "female_lines": ["Exactement, des milliards échappent à notre collectivité.", "C'est un chantage, elles ont besoin de nos marchés."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Que proposez-vous concrètement?", "Et sur les héritages?"],
+        "female_lines": ["Une taxe sur la fortune, comme en France.", "Réformer la taxation pour plus d'équité intergénérationnelle."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les lobbies financiers vont s'y opposer.", "Les citoyens sont-ils prêts?"],
+        "female_lines": ["La démocratie doit primer sur l'argent.", "Une majorité soutient ces mesures quand on les explique."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Espérons que les politiciens écouteront."],
+        "female_lines": ["C'est notre responsabilité collective de réclamer justice."]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "section": "H",
+    "theme": "Cultural identity",
+    "question": "Quel défi identitaire est abordé ?",
+    "options": [
+      { "id": "A", "text": "L'assimilation des immigrants", "imageprompt": null },
+      { "id": "B", "text": "La perte des traditions rurales", "imageprompt": null },
+      { "id": "C", "text": "L'influence américaine culturelle", "imageprompt": null },
+      { "id": "D", "text": "Le vieillissement de la population", "imageprompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: Notre identité québécoise est en constante mutation. Femme: Le défi majeur reste l'influence américaine culturelle omniprésente. Homme: Nous consommons leurs films, leur musique, leur mode de vie. Femme: Sans même nous en rendre compte, nous adoptons leurs valeurs. Homme: Est-ce une menace réelle ou une opportunité? Femme: Les deux, mais il faut rester vigilant. Homme: Comment résister sans devenir fermés? Femme: En créant une culture forte, attractive, exportable. Homme: Notre cinéma y parvient parfois. Femme: Oui, mais il faut plus de soutien étatique. Homme: Les jeunes s'intéressent-ils à notre patrimoine? Femme: Pas assez, l'éducation nationale doit réagir. Homme: Les médias sociaux amplifient l'homogénéisation. Femme: Utilisons-les pour promouvoir notre différence. Homme: C'est une question de fierté personnelle. Femme: Et de survie collective à long terme. Homme: Choisissons consciemment ce que nous consommons. Femme: Pour préserver ce qui fait notre âme.",
+    "transcript_en": "Man: Our Quebec identity is constantly evolving. Woman: The major challenge remains the omnipresent American cultural influence. Man: We consume their movies, their music, their lifestyle. Woman: Without even realizing it, we adopt their values. Man: Is it a real threat or an opportunity? Woman: Both, but we must remain vigilant. Man: How to resist without becoming closed off? Woman: By creating a strong, attractive, exportable culture. Man: Our cinema sometimes succeeds. Woman: Yes, but we need more state support. Man: Are young people interested in our heritage? Woman: Not enough, the education system must react. Man: Social media amplifies homogenization. Woman: Let's use them to promote our difference. Man: It's a question of personal pride. Woman: And of long-term collective survival. Man: Let's consciously choose what we consume. Woman: To preserve what makes our soul.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Notre identité québécoise est en constante mutation.", "Nous consommons leurs films, leur musique, leur mode de vie."],
+        "female_lines": ["Le défi majeur reste l'influence américaine culturelle omniprésente.", "Sans même nous en rendre compte, nous adoptons leurs valeurs."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Est-ce une menace réelle ou une opportunité?", "Comment résister sans devenir fermés?"],
+        "female_lines": ["Les deux, mais il faut rester vigilant.", "En créant une culture forte, attractive, exportable."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Notre cinéma y parvient parfois.", "Les jeunes s'intéressent-ils à notre patrimoine?"],
+        "female_lines": ["Oui, mais il faut plus de soutien étatique.", "Pas assez, l'éducation nationale doit réagir."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les médias sociaux amplifient l'homogénéisation.", "C'est une question de fierté personnelle."],
+        "female_lines": ["Utilisons-les pour promouvoir notre différence.", "Et de survie collective à long terme."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Choisissons consciemment ce que nous consommons."],
+        "female_lines": ["Pour préserver ce qui fait notre âme."]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "section": "H",
+    "theme": "Scientific research funding",
+    "question": "Quel argument défend la femme ?",
+    "options": [
+      { "id": "A", "text": "La recherche doit être rentable immédiatement", "imageprompt": null },
+      { "id": "B", "text": "Il faut privilégier la recherche fondamentale", "imageprompt": null },
+      { "id": "C", "text": "Les entreprises doivent financer seules", "imageprompt": null },
+      { "id": "D", "text": "Réduire les dépenses de recherche", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: Le financement de la recherche au Québec stagne depuis dix ans. Femme: C'est inquiétant, nous devons privilégier la recherche fondamentale. Homme: Mais les contribuables veulent des résultats concrets rapidement. Femme: La vraie innovation vient de la curiosité sans but lucratif immédiat. Homme: L'ARN messager a pourtant rapporté des milliards. Femme: Après des décennies de recherche pure sans garantie de succès. Homme: Les laboratoires universitaires manquent de ressources. Femme: Exactement, nos meilleurs cerveaux partent à l'étranger. Homme: Comment les retenir? Femme: En créant des conditions de travail exceptionnelles. Homme: Et en rémunérant à la hauteur du privé? Femme: La passion de la découverte compte autant que le salaire. Homme: Les politiciens comprennent-ils l'enjeu? Femme: Pas assez, il faut les sensibiliser constamment. Homme: Notre avenir dépend de cette volonté politique. Femme: Investir dans la connaissance, c'est investir dans l'avenir.",
+    "transcript_en": "Man: Research funding in Quebec has stagnated for ten years. Woman: That's worrying, we must prioritize fundamental research. Man: But taxpayers want concrete results quickly. Woman: True innovation comes from curiosity without immediate profit motive. Man: Yet mRNA has brought in billions. Woman: After decades of pure research with no guarantee of success. Man: University laboratories lack resources. Woman: Exactly, our best brains are leaving abroad. Man: How to keep them? Woman: By creating exceptional working conditions. Man: And by paying as much as the private sector? Woman: The passion for discovery counts as much as salary. Man: Do politicians understand the stakes? Woman: Not enough, we must constantly raise their awareness. Man: Our future depends on this political will. Woman: Investing in knowledge is investing in the future.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le financement de la recherche au Québec stagne depuis dix ans.", "Mais les contribuables veulent des résultats concrets rapidement."],
+        "female_lines": ["C'est inquiétant, nous devons privilégier la recherche fondamentale.", "La vraie innovation vient de la curiosité sans but lucratif immédiat."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["L'ARN messager a pourtant rapporté des milliards.", "Les laboratoires universitaires manquent de ressources."],
+        "female_lines": ["Après des décennies de recherche pure sans garantie de succès.", "Exactement, nos meilleurs cerveaux partent à l'étranger."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Comment les retenir?", "Et en rémunérant à la hauteur du privé?"],
+        "female_lines": ["En créant des conditions de travail exceptionnelles.", "La passion de la découverte compte autant que le salaire."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les politiciens comprennent-ils l'enjeu?", "Notre avenir dépend de cette volonté politique."],
+        "female_lines": ["Pas assez, il faut les sensibiliser constamment.", "Investir dans la connaissance, c'est investir dans l'avenir."]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "section": "H",
+    "theme": "Constitutional reform",
+    "question": "Quel obstacle à la réforme est mentionné ?",
+    "options": [
+      { "id": "A", "text": "L'opposition des provinces anglophones", "imageprompt": null },
+      { "id": "B", "text": "La procédure d'amendement complexe", "imageprompt": null },
+      { "id": "C", "text": "Le manque d'intérêt des citoyens", "imageprompt": null },
+      { "id": "D", "text": "La crainte de l'instabilité politique", "imageprompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: Le Canada a besoin d'une réforme constitutionnelle depuis mille neuf cent quatre-vingt-deux. Femme: L'obstacle majeur reste la procédure d'amendement complexe. Homme: Sept provinces sur dix avec cinquante pour cent de la population. Femme: C'est pratiquement impossible à réunir aujourd'hui. Homme: Le Québec n'a toujours pas signé la Constitution. Femme: Et les revendications distinctes compliquent les négociations. Homme: Les autochtones réclament aussi leur place. Femme: À juste titre, ce sont les fondateurs oubliés. Homme: Faut-il ouvrir le débat à nouveau? Femme: C'est risqué, mais nécessaire pour notre évolution. Homme: Les risques de l'échec sont énormes. Femme: Moins grands que ceux de l'immobilisme. Homme: Comment convaincre les provinces réticentes? Femme: En montrant les bénéfices économiques d'une nouvelle entente. Homme: C'est un défi de gouvernance majeur. Femme: Qui déterminera notre avenir en tant que nation.",
+    "transcript_en": "Man: Canada has needed constitutional reform since nineteen eighty-two. Woman: The major obstacle remains the complex amendment procedure. Man: Seven provinces out of ten with fifty percent of the population. Woman: It's practically impossible to gather today. Man: Quebec still hasn't signed the Constitution. Woman: And distinct claims complicate negotiations. Man: Indigenous peoples also claim their place. Woman: Rightfully so, they are the forgotten founders. Man: Should we open the debate again? Woman: It's risky, but necessary for our evolution. Man: The risks of failure are enormous. Woman: Less than those of immobility. Man: How to convince reluctant provinces? Woman: By showing the economic benefits of a new agreement. Man: It's a major governance challenge. Woman: That will determine our future as a nation.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le Canada a besoin d'une réforme constitutionnelle depuis mille neuf cent quatre-vingt-deux.", "Sept provinces sur dix avec cinquante pour cent de la population."],
+        "female_lines": ["L'obstacle majeur reste la procédure d'amendement complexe.", "C'est pratiquement impossible à réunir aujourd'hui."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le Québec n'a toujours pas signé la Constitution.", "Les autochtones réclament aussi leur place."],
+        "female_lines": ["Et les revendications distinctes compliquent les négociations.", "À juste titre, ce sont les fondateurs oubliés."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Faut-il ouvrir le débat à nouveau?", "Les risques de l'échec sont énormes."],
+        "female_lines": ["C'est risqué, mais nécessaire pour notre évolution.", "Moins grands que ceux de l'immobilisme."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Comment convaincre les provinces réticentes?", "C'est un défi de gouvernance majeur."],
+        "female_lines": ["En montrant les bénéfices économiques d'une nouvelle entente.", "Qui déterminera notre avenir en tant que nation."]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": []
+      }
+    ]
+  }
+]

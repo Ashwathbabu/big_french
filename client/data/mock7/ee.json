@@ -1,0 +1,40 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Expression écrite",
+  "duration_minutes": 60,
+  "sections": [
+    {
+      "id": 1,
+      "section": "A",
+      "title": "Rédiger la suite d'un article",
+      "time_minutes": 20,
+      "word_limit": { "min": 80, "max": 150 },
+      "instructions": [
+        "Continuez le texte.",
+        "Ajoutez des détails réalistes.",
+        "Restez dans le registre journalistique."
+      ],
+      "article_start": "Une exposition artistique internationale a ouvert ses portes hier dans le musée principal de la ville. L'événement attire déjà un grand nombre de visiteurs."
+    },
+    {
+      "id": 2,
+      "section": "B",
+      "title": "Rédiger un texte argumentatif",
+      "time_minutes": 40,
+      "word_limit": { "min": 200, "max": 300 },
+      "instructions": [
+        "Donnez votre point de vue.",
+        "Appuyez vos arguments avec des exemples.",
+        "Concluez clairement."
+      ],
+      "prompt": "Faut-il imposer des limites strictes à l'utilisation d'Internet chez les enfants ?"
+    }
+  ],
+  "evaluation": {
+    "task_completion": 25,
+    "coherence_and_structure": 20,
+    "vocabulary_range": 20,
+    "grammar_accuracy": 20,
+    "spelling_and_punctuation": 15
+  }
+}

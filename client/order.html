@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Complete Your Order — BigFrench.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+  <style>
+    :root {
+      --cream:    #eff6ff;
+      --peach:    #dbeafe;
+      --peach2:   #bfdbfe;
+      --orange:   #2563eb;
+      --orange-d: #1d4ed8;
+      --red:      #dc2626;
+      --navy:     #1e3a8a;
+      --navy2:    #1e40af;
+      --green:    #16a34a;
+      --slate:    #475569;
+      --slate-l:  #94a3b8;
+      --white:    #ffffff;
+      --border:   #e2e8f0;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(145deg, #eff6ff 0%, #dbeafe 35%, #eef2ff 65%, #e0e7ff 100%);
+      min-height: 100vh;
+      color: #0f172a;
+    }
+
+    body::after {
+      content: '';
+      position: fixed; inset: 0; pointer-events: none; z-index: 0;
+      background-image: radial-gradient(rgba(37,99,235,0.07) 1.5px, transparent 1.5px);
+      background-size: 30px 30px;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 200;
+      height: 62px;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(37,99,235,0.12);
+      box-shadow: 0 2px 16px rgba(37,99,235,0.06);
+      display: flex; align-items: center;
+      padding: 0 2rem; gap: 1rem;
+      justify-content: space-between;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-logo-icon {
+      width: 38px; height: 38px; border-radius: 11px;
+      background: linear-gradient(135deg, #1d4ed8, #1e40af);
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 16px;
+      box-shadow: 0 4px 12px rgba(37,99,235,0.35);
+    }
+    .nav-logo-text { font-weight: 800; font-size: 1.1rem; color: #0f172a; letter-spacing: -0.02em; }
+    .nav-logo-text span { color: var(--orange); }
+    .nav-crumbs { display: flex; align-items: center; gap: 6px; font-size: 0.78rem; color: var(--slate-l); }
+    .nav-crumbs a { color: var(--orange); text-decoration: none; font-weight: 600; }
+    .nav-crumbs i { font-size: 0.6rem; }
+    .nav-secure {
+      display: flex; align-items: center; gap: 6px;
+      background: #f0fdf4; border: 1px solid #bbf7d0;
+      border-radius: 20px; padding: 5px 14px;
+      font-size: 0.73rem; font-weight: 600; color: var(--green);
+    }
+
+    .page {
+      position: relative; z-index: 1;
+      max-width: 1080px; margin: 0 auto;
+      padding: 2.5rem 1.5rem 5rem;
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid rgba(226,232,240,0.8);
+      border-radius: 22px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.05);
+      overflow: hidden;
+      margin-bottom: 1.25rem;
+    }
+    .card-header {
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: 10px;
+    }
+    .card-header-icon {
+      width: 34px; height: 34px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.9rem; color: #fff; flex-shrink: 0;
+    }
+    .card-header-icon.orange { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+    .card-header-icon.navy   { background: linear-gradient(135deg, var(--navy), var(--navy2)); }
+    .card-header-icon.green  { background: linear-gradient(135deg, var(--green), #15803d); }
+    .card-title { font-weight: 700; font-size: 0.95rem; color: #0f172a; }
+    .card-sub   { font-size: 0.75rem; color: var(--slate-l); margin-top: 1px; }
+    .card-body  { padding: 20px 24px; }
+
+    .left { min-width: 0; }
+
+    .page-eyebrow {
+      font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--orange);
+      margin-bottom: 6px;
+    }
+    .page-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 800; line-height: 1.15;
+      color: #0f172a; margin-bottom: 6px;
+    }
+    .page-title em { color: var(--orange); font-style: normal; }
+    .page-sub { font-size: 0.85rem; color: var(--slate-l); margin-bottom: 2rem; }
+
+    .bundle-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .bundle-item {
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 1.5px solid var(--border);
+      background: linear-gradient(135deg, #fff, #fafafa);
+      display: flex; align-items: flex-start; gap: 12px;
+      transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s, background 0.25s;
+      position: relative;
+      cursor: default;
+    }
+    .bundle-item:hover {
+      border-color: #2563eb;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 28px rgba(37,99,235,0.18), 0 0 0 3px rgba(37,99,235,0.08);
+      background: linear-gradient(135deg, #fff, #f0f6ff);
+    }
+    .bundle-item:hover .bundle-icon {
+      transform: scale(1.12);
+      transition: transform 0.2s;
+    }
+    .bundle-item:hover .bundle-item-title {
+      color: #1d4ed8;
+    }
+    .bundle-icon {
+      width: 36px; height: 36px; border-radius: 10px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.85rem;
+      transition: transform 0.2s;
+    }
+    .bundle-icon.blue   { background: #eff6ff; color: var(--navy2); }
+    .bundle-icon.orange { background: #eff6ff; color: #1d4ed8; }
+    .bundle-icon.green  { background: #f0fdf4; color: var(--green); }
+    .bundle-icon.red    { background: #fef2f2; color: var(--red); }
+    .bundle-icon.purple { background: #faf5ff; color: #7c3aed; }
+    .bundle-icon.teal   { background: #f0fdfa; color: #0d9488; }
+    .bundle-item-title { font-weight: 700; font-size: 0.82rem; color: #0f172a; margin-bottom: 2px; transition: color 0.2s; }
+    .bundle-item-sub   { font-size: 0.72rem; color: var(--slate-l); line-height: 1.4; }
+
+    .plan-header {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 100%);
+      padding: 20px 24px;
+      color: #fff;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .plan-exam-tag {
+      font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase;
+      background: rgba(255,255,255,0.15);
+      border-radius: 6px; padding: 3px 10px;
+      display: inline-block; margin-bottom: 6px;
+    }
+    .plan-name-h { font-size: 1.15rem; font-weight: 800; }
+    .plan-duration-h { font-size: 0.78rem; opacity: 0.7; margin-top: 2px; }
+    .plan-price-h { text-align: right; }
+    .plan-price-orig-h { font-size: 0.8rem; opacity: 0.55; text-decoration: line-through; }
+    .plan-price-amt-h  { font-size: 1.8rem; font-weight: 900; letter-spacing: -0.04em; }
+    .plan-price-free-h { color: #86efac; }
+    .plan-price-save-h {
+      font-size: 0.65rem; font-weight: 700;
+      background: rgba(34,197,94,0.2); border-radius: 6px;
+      padding: 2px 8px; display: inline-block; margin-top: 2px; color: #86efac;
+    }
+
+    .modules-list { display: flex; flex-direction: column; gap: 0; }
+    .module-row {
+      display: flex; align-items: center; gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .module-row:last-child { border-bottom: none; }
+    .module-num {
+      width: 28px; height: 28px; border-radius: 8px; flex-shrink: 0;
+      background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.72rem; font-weight: 800; color: var(--orange-d);
+    }
+    .module-name { font-size: 0.82rem; font-weight: 600; color: #0f172a; }
+    .module-desc { font-size: 0.72rem; color: var(--slate-l); margin-top: 1px; }
+    .module-tag {
+      margin-left: auto; flex-shrink: 0;
+      font-size: 0.65rem; font-weight: 700;
+      padding: 3px 8px; border-radius: 6px;
+    }
+    .module-tag.inc  { background: #f0fdf4; color: var(--green); }
+    .module-tag.feat { background: #eff6ff; color: var(--navy2); }
+
+    .instructor-row { display: flex; align-items: center; gap: 16px; }
+    .instructor-avatar {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--navy), var(--navy2));
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 1.4rem; flex-shrink: 0;
+      border: 3px solid var(--bfdbfe);
+    }
+    .instructor-name { font-weight: 700; font-size: 0.95rem; }
+    .instructor-title { font-size: 0.75rem; color: var(--slate-l); margin-top: 2px; }
+    .instructor-stats { display: flex; gap: 16px; margin-top: 8px; flex-wrap: wrap; }
+    .istat { font-size: 0.72rem; color: var(--slate); }
+    .istat strong { color: #0f172a; font-size: 0.8rem; }
+
+    .testimonial-strip {
+      background: linear-gradient(135deg, var(--navy), var(--navy2));
+      border-radius: 16px; padding: 18px 20px;
+      color: #fff; margin-top: 1.25rem;
+      display: flex; gap: 14px; align-items: flex-start;
+    }
+    .testimonial-avatar {
+      width: 40px; height: 40px; border-radius: 50%;
+      background: rgba(255,255,255,0.15);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; flex-shrink: 0;
+    }
+    .testimonial-quote { font-size: 0.82rem; line-height: 1.6; opacity: 0.9; margin-bottom: 8px; }
+    .testimonial-author { font-size: 0.72rem; font-weight: 700; opacity: 0.65; }
+    .testimonial-stars { color: #fbbf24; font-size: 0.7rem; margin-bottom: 4px; }
+
+    .right { position: sticky; top: 80px; }
+
+    .summary-section { padding: 20px 24px; }
+    .sum-row {
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.82rem; margin-bottom: 8px;
+    }
+    .sum-row .lbl { color: var(--slate-l); }
+    .sum-row .val { font-weight: 600; color: #0f172a; }
+    .sum-row .val.crossed { text-decoration: line-through; color: var(--slate-l); font-weight: 400; }
+    .sum-row .val.green { color: var(--green); }
+    .sum-divider { height: 1px; background: var(--border); margin: 12px 0; }
+    .sum-total { display: flex; justify-content: space-between; align-items: flex-end; }
+    .sum-total-lbl { font-weight: 700; font-size: 0.9rem; }
+    .sum-total-lbl small { display: block; font-size: 0.7rem; color: var(--slate-l); font-weight: 400; margin-top: 1px; }
+    .sum-total-amt { font-size: 2rem; font-weight: 900; letter-spacing: -0.04em; color: #0f172a; }
+    .sum-total-amt.free { color: var(--green); }
+
+
+    /* ── Full width layout ── */
+.page {
+  max-width: 1400px;
+  grid-template-columns: 1fr 460px;
+  gap: 2.5rem;
+  padding: 2.5rem 2.5rem 5rem;
+}
+
+.bundle-grid { grid-template-columns: 1fr 1fr 1fr; }
+
+.bundle-item { padding: 18px 20px; }
+.bundle-icon { width: 44px; height: 44px; font-size: 1rem; }
+.bundle-item-title { font-size: 1rem; }
+.bundle-item-sub   { font-size: 0.82rem; }
+
+.module-row  { padding: 16px 0; }
+.module-name { font-size: 1rem; }
+.module-desc { font-size: 0.82rem; }
+.module-num  { width: 34px; height: 34px; font-size: 0.8rem; }
+
+.card-title  { font-size: 1.1rem; }
+.card-sub    { font-size: 0.85rem; }
+.card-header { padding: 22px 28px; }
+.card-body   { padding: 24px 28px; }
+
+.plan-name-h     { font-size: 1.5rem; }
+.plan-duration-h { font-size: 0.92rem; }
+.plan-price-amt-h{ font-size: 2.2rem; }
+.plan-header     { padding: 24px 28px; }
+
+.sum-row       { font-size: 0.95rem; }
+.sum-total-amt { font-size: 2.4rem; }
+.pay-btn       { font-size: 1.15rem; padding: 20px; }
+
+.trust-grid  { grid-template-columns: 1fr 1fr; gap: 10px; }
+.trust-item  { font-size: 0.82rem; padding: 10px 12px; }
+
+    .coupon-badge {
+      display: none; margin-top: 10px;
+      align-items: center; gap: 8px;
+      background: #f0fdf4; border: 1px solid #bbf7d0;
+      border-radius: 10px; padding: 8px 12px;
+      font-size: 0.75rem; font-weight: 600; color: var(--green);
+    }
+    .coupon-badge.show { display: flex; }
+
+    .pay-btn {
+      width: 100%; margin-top: 18px;
+      padding: 17px;
+      border: none; border-radius: 16px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 800; font-size: 1rem;
+      cursor: pointer; transition: all 0.28s cubic-bezier(0.4,0,0.2,1);
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      position: relative; overflow: hidden;
+    }
+    .pay-btn::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.18), transparent);
+      opacity: 0; transition: opacity 0.2s;
+    }
+    .pay-btn:hover:not(:disabled)::before { opacity: 1; }
+    .pay-btn:hover:not(:disabled) { transform: translateY(-2px); }
+    .pay-btn:active:not(:disabled) { transform: translateY(0); }
+    .pay-btn:disabled { opacity: 0.55; cursor: not-allowed; transform: none !important; }
+
+    .pay-btn.pay-orange {
+      background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+      color: #fff;
+      box-shadow: 0 8px 28px rgba(37,99,235,0.38);
+    }
+    .pay-btn.pay-orange:hover:not(:disabled) { box-shadow: 0 14px 36px rgba(37,99,235,0.48); }
+
+    .pay-btn.pay-green {
+      background: linear-gradient(135deg, #16a34a, #15803d);
+      color: #fff;
+      box-shadow: 0 8px 28px rgba(22,163,74,0.38);
+    }
+    .pay-btn.pay-green:hover:not(:disabled) { box-shadow: 0 14px 36px rgba(22,163,74,0.48); }
+
+    .btn-orig { font-size: 0.78rem; opacity: 0.6; text-decoration: line-through; font-weight: 400; }
+
+    .spinner {
+      width: 18px; height: 18px;
+      border: 2.5px solid rgba(255,255,255,0.3);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .pay-note {
+      text-align: center; font-size: 0.7rem; color: var(--slate-l);
+      margin-top: 10px;
+      display: flex; align-items: center; justify-content: center; gap: 5px;
+    }
+    .pay-note i { color: var(--green); }
+
+    .methods-row {
+      display: flex; gap: 6px; flex-wrap: wrap;
+      margin-top: 14px; padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+    .method-chip {
+      display: flex; align-items: center; gap: 5px;
+      padding: 5px 10px;
+      border: 1px solid var(--border);
+      border-radius: 8px; background: #f8fafc;
+      font-size: 0.68rem; font-weight: 600; color: var(--slate);
+    }
+    .method-chip i.visa   { color: #1a1f71; }
+    .method-chip i.mc     { color: #eb001b; }
+    .method-chip i.upi    { color: #6b21a8; }
+    .method-chip i.nb     { color: #0369a1; }
+    .method-chip i.wallet { color: #d97706; }
+
+    .trust-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 14px; }
+    .trust-item {
+      display: flex; align-items: center; gap: 7px;
+      font-size: 0.7rem; color: var(--slate);
+      padding: 7px 9px;
+      background: #eff6ff;
+      border-radius: 9px;
+    }
+    .trust-item i { color: #2563eb; font-size: 0.78rem; }
+
+    .guarantee {
+      background: linear-gradient(135deg, #eff6ff, #dbeafe);
+      border: 1.5px solid rgba(37,99,235,0.2);
+      border-radius: 16px; padding: 16px 18px;
+      display: flex; gap: 12px; align-items: flex-start;
+      margin-top: 1.25rem;
+    }
+    .guarantee-icon {
+      width: 38px; height: 38px; border-radius: 11px; flex-shrink: 0;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 0.95rem;
+    }
+    .guarantee-text { font-size: 0.78rem; color: var(--slate); line-height: 1.55; }
+    .guarantee-text strong { display: block; font-size: 0.83rem; color: #0f172a; margin-bottom: 2px; }
+
+    #successOverlay {
+      display: none; position: fixed; inset: 0; z-index: 9000;
+      background: rgba(239,246,255,0.97);
+      backdrop-filter: blur(24px);
+      align-items: center; justify-content: center;
+      flex-direction: column; text-align: center;
+      padding: 2rem;
+    }
+    #successOverlay.show { display: flex; }
+
+    .success-ring {
+      width: 110px; height: 110px; border-radius: 50%;
+      background: linear-gradient(135deg, #16a34a, #22c55e);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 3rem; color: #fff;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 0 18px rgba(34,197,94,0.1), 0 0 0 36px rgba(34,197,94,0.05);
+      animation: popIn 0.55s cubic-bezier(0.34,1.56,0.64,1) both;
+    }
+    @keyframes popIn { from { transform: scale(0); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+    .success-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem; font-weight: 800;
+      color: #0f172a; margin-bottom: 6px;
+    }
+    .success-sub { color: var(--slate-l); font-size: 0.9rem; margin-bottom: 1.2rem; }
+    .success-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #dcfce7; border: 1px solid #bbf7d0;
+      border-radius: 20px; padding: 10px 24px;
+      color: var(--green); font-weight: 700; font-size: 0.9rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .invoice-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px 24px;
+      width: 360px; max-width: 100%;
+      text-align: left;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.06);
+      margin-bottom: 1.5rem;
+    }
+    .invoice-header {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      padding-bottom: 14px; margin-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .invoice-logo { font-weight: 800; font-size: 0.95rem; }
+    .invoice-logo span { color: var(--orange); }
+    .invoice-id { font-size: 0.7rem; color: var(--slate-l); text-align: right; }
+    .invoice-id strong { display: block; color: #0f172a; font-size: 0.78rem; }
+    .invoice-row { display: flex; justify-content: space-between; font-size: 0.78rem; margin-bottom: 6px; }
+    .invoice-row .k { color: var(--slate-l); }
+    .invoice-row .v { font-weight: 600; }
+    .invoice-divider { height: 1px; background: var(--border); margin: 10px 0; }
+    .invoice-total { display: flex; justify-content: space-between; font-weight: 800; font-size: 1rem; }
+    .invoice-total .amt { color: var(--green); font-size: 1.1rem; }
+    .invoice-download {
+      width: 100%; margin-top: 14px;
+      padding: 10px;
+      border: 1.5px dashed #2563eb;
+      border-radius: 10px;
+      background: #eff6ff;
+      color: #1d4ed8;
+      font-weight: 700; font-size: 0.78rem;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center; gap: 7px;
+      transition: background 0.2s;
+    }
+    .invoice-download:hover { background: #dbeafe; }
+
+    .redirect-track {
+      width: 220px; height: 4px;
+      background: var(--border); border-radius: 4px;
+      overflow: hidden; margin-top: 16px;
+    }
+    .redirect-track::after {
+      content: ''; display: block; height: 100%;
+      background: linear-gradient(90deg, var(--green), #2563eb);
+      animation: fillBar 3s linear forwards;
+    }
+    @keyframes fillBar { from { width: 0; } to { width: 100%; } }
+    .redirect-note {
+      font-size: 0.75rem; color: var(--slate-l); margin-top: 10px;
+      display: flex; align-items: center; gap: 6px; justify-content: center;
+    }
+
+    #toast {
+      position: fixed; top: 76px; right: 20px; z-index: 8000;
+      padding: 12px 20px; border-radius: 12px;
+      font-size: 0.82rem; font-weight: 600;
+      display: flex; align-items: center; gap: 8px;
+      transform: translateX(130%);
+      transition: transform 0.35s cubic-bezier(0.34,1.56,0.64,1);
+      max-width: 320px;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+    }
+    #toast.show { transform: translateX(0); }
+    #toast.success { background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; }
+    #toast.error   { background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; }
+    #toast.info    { background: #eff6ff; border: 1px solid #bfdbfe; color: #1e40af; }
+
+    @media (max-width: 760px) {
+      .page { grid-template-columns: 1fr; }
+      .right { position: static; }
+      .bundle-grid { grid-template-columns: 1fr; }
+      nav { padding: 0 1rem; }
+      .nav-crumbs { display: none; }
+      .invoice-card { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon"><i class="fas fa-graduation-cap"></i></div>
+      <span class="nav-logo-text">BigFrench<span>.com</span></span>
+    </a>
+    <div class="nav-crumbs">
+      <a href="index.html">Home</a>
+      <i class="fas fa-chevron-right"></i>
+      <span style="color:#0f172a;font-weight:600;">Complete Order</span>
+    </div>
+    <div class="nav-secure"><i class="fas fa-lock"></i> Secured by Razorpay</div>
+  </nav>
+
+  <!-- PAGE -->
+  <div class="page">
+
+    <!-- ═══ LEFT ═══ -->
+    <div class="left">
+      <div class="page-eyebrow">Step 2 of 2 — Complete Your Order</div>
+      <h1 class="page-title">You're getting <em>everything</em><br/>you need to pass.</h1>
+      <p class="page-sub">Review your bundle below, then pay securely to get instant access.</p>
+
+      <!-- WHAT YOU GET -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-header-icon navy"><i class="fas fa-box-open"></i></div>
+          <div>
+            <div class="card-title">What's inside your bundle</div>
+            <div class="card-sub">Everything you need — in one plan</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="bundle-grid">
+            <div class="bundle-item">
+              <div class="bundle-icon blue"><i class="fas fa-headphones"></i></div>
+              <div>
+                <div class="bundle-item-title">Listening Tests</div>
+                <div class="bundle-item-sub">Real audio clips, full exam-format simulation</div>
+              </div>
+            </div>
+            <div class="bundle-item">
+              <div class="bundle-icon orange"><i class="fas fa-book-open"></i></div>
+              <div>
+                <div class="bundle-item-title">Reading Tests</div>
+                <div class="bundle-item-sub">Timed reading comprehension + vocabulary</div>
+              </div>
+            </div>
+            <div class="bundle-item">
+              <div class="bundle-icon green"><i class="fas fa-pen-nib"></i></div>
+              <div>
+                <div class="bundle-item-title">Writing Tests</div>
+                <div class="bundle-item-sub">Essay prompts with AI-scored feedback</div>
+              </div>
+            </div>
+            <div class="bundle-item">
+              <div class="bundle-icon red"><i class="fas fa-microphone"></i></div>
+              <div>
+                <div class="bundle-item-title">Speaking Tests</div>
+                <div class="bundle-item-sub">Oral simulation with scoring rubrics</div>
+              </div>
+            </div>
+            <div class="bundle-item">
+              <div class="bundle-icon purple"><i class="fas fa-robot"></i></div>
+              <div>
+                <div class="bundle-item-title">AI Evaluation</div>
+                <div class="bundle-item-sub">Instant feedback & improvement tips</div>
+              </div>
+            </div>
+            <div class="bundle-item">
+              <div class="bundle-icon teal"><i class="fas fa-chart-line"></i></div>
+              <div>
+                <div class="bundle-item-title">Score Analytics</div>
+                <div class="bundle-item-sub">Track progress across all 4 modules</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- YOUR PLAN -->
+      <div class="card" style="overflow:hidden;">
+        <div class="plan-header" id="planHeader">
+          <div class="plan-header-left">
+            <div class="plan-exam-tag" id="planExamTag">TEF Canada</div>
+            <div class="plan-name-h" id="planNameH">—</div>
+            <div class="plan-duration-h" id="planDurationH">—</div>
+          </div>
+          <div class="plan-price-h">
+            <div class="plan-price-orig-h" id="planOrigH" style="display:none;"></div>
+            <div class="plan-price-amt-h" id="planAmtH">—</div>
+            <div class="plan-price-save-h" id="planSaveH" style="display:none;"></div>
+          </div>
+        </div>
+        <div class="card-body" style="padding-top:16px;">
+          <div class="modules-list" id="modulesList"></div>
+        </div>
+      </div>
+
+      <!-- INSTRUCTOR -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-header-icon orange"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div>
+            <div class="card-title">Your Instructor</div>
+            <div class="card-sub">Certified French language expert</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="instructor-row">
+            <div class="instructor-avatar"><i class="fas fa-user-tie"></i></div>
+            <div>
+              <div class="instructor-name">BigFrench Expert Team</div>
+              <div class="instructor-title">TEF & TCF Canada Certified Instructors</div>
+              <div class="instructor-stats">
+                <div class="istat"><strong>3,200+</strong> students</div>
+                <div class="istat"><strong>4.9★</strong> rating</div>
+                <div class="istat"><strong>8+ years</strong> experience</div>
+                <div class="istat"><strong>91%</strong> pass rate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TESTIMONIAL -->
+      <div class="testimonial-strip">
+        <div class="testimonial-avatar"><i class="fas fa-user-graduate"></i></div>
+        <div>
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-quote">"I scored CLB 9 on my first attempt after just 2 months with BigFrench. The mock tests were almost identical to the real exam. Absolutely worth every penny."</div>
+          <div class="testimonial-author">— Priya S., Landed in Canada · TEF Canada · CLB 9</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ RIGHT ═══ -->
+    <div class="right">
+
+      <!-- ORDER SUMMARY -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-header-icon orange"><i class="fas fa-receipt"></i></div>
+          <div>
+            <div class="card-title">Order Summary</div>
+            <div class="card-sub">BigFrench.com</div>
+          </div>
+        </div>
+        <div class="summary-section">
+          <div class="sum-row">
+            <span class="lbl" id="sumPlanLbl">Plan</span>
+            <span class="val" id="sumOrigAmt">—</span>
+          </div>
+          <div class="sum-row" id="sumDiscRow" style="display:none;">
+            <span class="lbl"><i class="fas fa-tag" style="color:var(--green);margin-right:4px;font-size:0.7rem;"></i>Coupon discount</span>
+            <span class="val green" id="sumDiscAmt">—</span>
+          </div>
+          <div class="sum-divider"></div>
+          <div class="sum-total">
+            <div class="sum-total-lbl">
+              Total due today
+              <small>One-time · No recurring charges</small>
+            </div>
+            <div class="sum-total-amt" id="sumFinalAmt">—</div>
+          </div>
+          <div class="coupon-badge" id="couponBadge">
+            <i class="fas fa-check-circle"></i>
+            <span id="couponBadgeText">Coupon applied</span>
+          </div>
+        </div>
+
+        <!-- PAY BUTTON -->
+        <div style="padding: 0 24px 24px;">
+          <button class="pay-btn pay-orange" id="payBtn" onclick="startPayment()">
+            <i class="fas fa-lock"></i>
+            <span id="payBtnText">Pay Now</span>
+          </button>
+          <div class="pay-note"><i class="fas fa-shield-alt"></i> 256-bit SSL · PCI-DSS compliant</div>
+
+          <div class="methods-row">
+            <div class="method-chip"><i class="fab fa-cc-visa visa"></i> Visa</div>
+            <div class="method-chip"><i class="fab fa-cc-mastercard mc"></i> Mastercard</div>
+            <div class="method-chip"><i class="fas fa-mobile-alt upi"></i> UPI</div>
+            <div class="method-chip"><i class="fas fa-university nb"></i> Net Banking</div>
+            <div class="method-chip"><i class="fas fa-wallet wallet"></i> Wallets</div>
+          </div>
+
+          <div class="trust-grid">
+            <div class="trust-item"><i class="fas fa-bolt"></i> Instant access</div>
+            <div class="trust-item"><i class="fas fa-undo"></i> 7-day refund</div>
+            <div class="trust-item"><i class="fas fa-mobile-alt"></i> All devices</div>
+            <div class="trust-item"><i class="fas fa-headset"></i> 24/7 support</div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- ═══ SUCCESS OVERLAY ═══ -->
+  <div id="successOverlay">
+    <div class="success-ring"><i class="fas fa-check"></i></div>
+    <div class="success-title">Payment Successful! 🎉</div>
+    <div class="success-sub">Welcome to BigFrench.com — your full access is now active</div>
+    <div class="success-badge" id="successBadge"><i class="fas fa-crown"></i> Plan Activated</div>
+
+    <!-- INVOICE -->
+    <div class="invoice-card" id="invoiceCard">
+      <div class="invoice-header">
+        <div class="invoice-logo">BigFrench<span>.com</span></div>
+        <div class="invoice-id">
+          <div>Invoice</div>
+          <strong id="invoiceId">—</strong>
+        </div>
+      </div>
+      <div class="invoice-row">
+        <span class="k">Plan</span>
+        <span class="v" id="invPlan">—</span>
+      </div>
+      <div class="invoice-row">
+        <span class="k">Exam</span>
+        <span class="v" id="invExam">—</span>
+      </div>
+      <div class="invoice-row">
+        <span class="k">Access until</span>
+        <span class="v" id="invExpiry">—</span>
+      </div>
+      <div class="invoice-row" id="invCouponRow" style="display:none;">
+        <span class="k">Coupon</span>
+        <span class="v green" id="invCoupon">—</span>
+      </div>
+      <div class="invoice-divider"></div>
+      <div class="invoice-total">
+        <span>Total Paid</span>
+        <span class="amt" id="invTotal">—</span>
+      </div>
+      <button class="invoice-download" onclick="printInvoice()">
+        <i class="fas fa-download"></i> Download Invoice
+      </button>
+    </div>
+
+    <div class="redirect-track"></div>
+    <div class="redirect-note"><i class="fas fa-spinner fa-spin"></i> Redirecting to dashboard in 3 seconds…</div>
+  </div>
+
+  <!-- TOAST -->
+  <div id="toast"></div>
+
+  <script>
+  // ══════════════════════════════════════════════════════════
+  // CONFIG
+  // ══════════════════════════════════════════════════════════
+  const API          = 'http://localhost:5000';
+  const RZP_KEY      = 'rzp_live_SF8Vw6DzJIj5Zd';
+
+  const pricingConfig = {
+    CA:{currency:'CAD',symbol:'CA$', rates:{'1month':39,   '3months':99,   '6months':198   }},
+    US:{currency:'USD',symbol:'$',   rates:{'1month':29,   '3months':75,   '6months':149   }},
+    GB:{currency:'GBP',symbol:'£',   rates:{'1month':23,   '3months':59,   '6months':119   }},
+    IN:{currency:'INR',symbol:'₹',   rates:{'1month':2499, '3months':6499, '6months':12999 }},
+    AU:{currency:'AUD',symbol:'A$',  rates:{'1month':45,   '3months':115,  '6months':229   }},
+    EU:{currency:'EUR',symbol:'€',   rates:{'1month':27,   '3months':69,   '6months':139   }},
+    NG:{currency:'NGN',symbol:'₦',   rates:{'1month':45000,'3months':115000,'6months':229000}},
+    PK:{currency:'PKR',symbol:'₨',   rates:{'1month':8500, '3months':22000, '6months':44000 }},
+    BD:{currency:'BDT',symbol:'৳',   rates:{'1month':3500, '3months':9000,  '6months':18000 }},
+  };
+
+  const planDetails = {
+    '1month' : { name:'1 Month Plan',  tests:15,  days:30,  duration:'1 month access'  },
+    '3months': { name:'3 Months Plan', tests:60,  days:90,  duration:'3 months access' },
+    '6months': { name:'6 Months Plan', tests:120, days:180, duration:'6 months access' },
+  };
+
+  const examModules = [
+    { num:'01', name:'Listening Comprehension',  desc:'Audio clips + multiple-choice questions',        tag:'Included',   style:'inc'  },
+    { num:'02', name:'Reading Comprehension',    desc:'Texts, vocabulary & grammar analysis',           tag:'Included',   style:'inc'  },
+    { num:'03', name:'Written Expression',       desc:'Guided essay writing with AI scoring',           tag:'Included',   style:'inc'  },
+    { num:'04', name:'Oral Production',          desc:'Speaking simulation with examiner rubrics',      tag:'Included',   style:'inc'  },
+    { num:'05', name:'AI Score Feedback',        desc:'Instant analysis after every test submission',   tag:'AI Powered', style:'feat' },
+    { num:'06', name:'Progress Dashboard',       desc:'Track CLB level improvement over time',          tag:'Analytics',  style:'feat' },
+  ];
+
+  // ══════════════════════════════════════════════════════════
+  // STATE
+  // ══════════════════════════════════════════════════════════
+  let S = {};
+  let authToken   = localStorage.getItem('token');
+  let currentUser = JSON.parse(localStorage.getItem('user') || 'null');
+
+  function loadState() {
+    // If URL has a plan param, always use URL params (ignore stale sessionStorage)
+    const p = new URLSearchParams(location.search);
+    if (p.get('plan')) {
+      try { sessionStorage.removeItem('orderState'); } catch(e) {}
+    } else {
+      try {
+        const raw = sessionStorage.getItem('orderState');
+        if (raw) { S = JSON.parse(raw); return; }
+      } catch(e) {}
+    }
+    const region = p.get('region') || localStorage.getItem('preferredCurrency') || 'IN';
+    const plan   = p.get('plan') || '3months';
+    const cfg    = pricingConfig[region] || pricingConfig['IN'];
+    S = {
+      plan, exam: p.get('exam') || 'tef', region,
+      couponCode: p.get('coupon') || null,
+      originalPrice: cfg.rates[plan],
+      discountAmount: 0,
+      finalPrice: cfg.rates[plan],
+      isFree: false
+    };
+  }
+
+  // ══════════════════════════════════════════════════════════
+  // FORMAT
+  // ══════════════════════════════════════════════════════════
+  function fmt(amount) {
+    const cfg = pricingConfig[S.region] || pricingConfig['IN'];
+    if (cfg.currency === 'INR') return '₹' + Math.round(amount).toLocaleString('en-IN');
+    return cfg.symbol + Math.round(amount).toLocaleString();
+  }
+
+  // ══════════════════════════════════════════════════════════
+  // RENDER
+  // ══════════════════════════════════════════════════════════
+  function render() {
+    const plan = planDetails[S.plan] || planDetails['3months'];
+    const isFree = S.finalPrice <= 0;
+
+    document.getElementById('planExamTag').textContent    = `${(S.exam||'tef').toUpperCase()} Canada`;
+    document.getElementById('planNameH').textContent      = plan.name;
+    document.getElementById('planDurationH').textContent  = `${plan.tests} mock tests · ${plan.duration}`;
+
+    if (S.discountAmount > 0) {
+      document.getElementById('planOrigH').textContent    = fmt(S.originalPrice);
+      document.getElementById('planOrigH').style.display  = 'block';
+      document.getElementById('planSaveH').textContent    = `SAVE ${fmt(S.discountAmount)}`;
+      document.getElementById('planSaveH').style.display  = 'inline-block';
+    }
+    const amtEl = document.getElementById('planAmtH');
+    amtEl.textContent = isFree ? 'FREE' : fmt(S.finalPrice);
+    if (isFree) amtEl.classList.add('plan-price-free-h');
+
+    document.getElementById('modulesList').innerHTML = examModules.map(m => `
+      <div class="module-row">
+        <div class="module-num">${m.num}</div>
+        <div>
+          <div class="module-name">${m.name}</div>
+          <div class="module-desc">${m.desc}</div>
+        </div>
+        <div class="module-tag ${m.style}">${m.tag}</div>
+      </div>
+    `).join('');
+
+    document.getElementById('sumPlanLbl').textContent = `${plan.name} (${(S.exam||'tef').toUpperCase()})`;
+    document.getElementById('sumOrigAmt').textContent = fmt(S.originalPrice);
+
+    if (S.discountAmount > 0) {
+      document.getElementById('sumDiscRow').style.display = 'flex';
+      document.getElementById('sumDiscAmt').textContent   = `−${fmt(S.discountAmount)}`;
+    }
+
+    const finalEl = document.getElementById('sumFinalAmt');
+    finalEl.textContent = isFree ? 'FREE' : fmt(S.finalPrice);
+    if (isFree) finalEl.classList.add('free');
+
+    if (S.couponCode && S.discountAmount > 0) {
+      document.getElementById('couponBadge').classList.add('show');
+      document.getElementById('couponBadgeText').textContent =
+        `Coupon "${S.couponCode}" — saves you ${fmt(S.discountAmount)}!`;
+    }
+
+    const btn  = document.getElementById('payBtn');
+    const btxt = document.getElementById('payBtnText');
+    if (isFree) {
+      btn.className = 'pay-btn pay-green';
+      btxt.innerHTML = '<i class="fas fa-gift"></i> &nbsp;Activate Free Plan';
+    } else {
+      const origStr = S.discountAmount > 0 ? `<span class="btn-orig">${fmt(S.originalPrice)}</span>&nbsp;` : '';
+      btxt.innerHTML = `${origStr}Pay ${fmt(S.finalPrice)} Securely`;
+    }
+  }
+
+  // ══════════════════════════════════════════════════════════
+  // PAYMENT FLOW
+  // ══════════════════════════════════════════════════════════
+  async function startPayment() {
+    authToken   = localStorage.getItem('token');
+    currentUser = JSON.parse(localStorage.getItem('user') || 'null');
+
+    if (!authToken || !currentUser) {
+      window.location.href = 'login.html?redirect=order.html';
+      return;
+    }
+
+    if (S.finalPrice <= 0) { await processFreeOrder(); return; }
+
+    setBtnLoading(true);
+    try {
+      const res  = await fetch(`${API}/api/payments/create-order`, {
+        method: 'POST',
+        headers: { 'Content-Type':'application/json', 'Authorization':`Bearer ${authToken}` },
+        body: JSON.stringify({
+          plan:           S.plan,
+          exam:           S.exam,
+          region:         S.region,
+          couponCode:     S.couponCode || null,
+          originalAmount: S.originalPrice,
+          discountAmount: S.discountAmount,
+          finalAmount:    S.finalPrice
+        })
+      });
+      const data = await res.json();
+
+      if (data.free) { showSuccess(); return; }
+      if (!data.success) throw new Error(data.error || 'Could not create order');
+
+      const rzp = new Razorpay({
+        key:         data.key_id || RZP_KEY,
+        amount:      data.amount,
+        currency:    data.currency || (pricingConfig[S.region]||pricingConfig['IN']).currency,
+        name:        'BigFrench.com',
+        description: `${(S.exam||'tef').toUpperCase()} Canada — ${planDetails[S.plan].name}`,
+        order_id:    data.order_id,
+        image:       'https://bigfrench.com/logo.png',
+        prefill: {
+          name:    `${currentUser.firstName||''} ${currentUser.lastName||''}`.trim(),
+          email:   currentUser.email || '',
+          contact: ''
+        },
+        theme:  { color: '#1e3a8a' },
+        modal:  { ondismiss: () => setBtnLoading(false) },
+        handler: (r) => verifyPayment(r)
+      });
+      rzp.open();
+
+    } catch(err) {
+      showToast(err.message || 'Payment failed. Please try again.', 'error');
+      setBtnLoading(false);
+    }
+  }
+
+  async function processFreeOrder() {
+    setBtnLoading(true, 'Activating your plan…');
+
+    if (S.couponCode) {
+      const coupons = JSON.parse(localStorage.getItem('coupons')||'{}');
+      if (coupons[S.couponCode]) {
+        coupons[S.couponCode].uses = (coupons[S.couponCode].uses||0)+1;
+        localStorage.setItem('coupons', JSON.stringify(coupons));
+      }
+    }
+
+    try {
+      await fetch(`${API}/api/payments/free-order`, {
+        method:'POST',
+        headers:{'Content-Type':'application/json','Authorization':`Bearer ${authToken}`},
+        body: JSON.stringify({ plan:S.plan, exam:S.exam, couponCode:S.couponCode||null })
+      });
+    } catch(e) { console.warn('Free order backend warn:', e.message); }
+
+    showSuccess('FREE');
+  }
+
+  async function verifyPayment(rzpRes) {
+    setBtnLoading(true, 'Verifying payment…');
+    try {
+      const res  = await fetch(`${API}/api/payments/verify`, {
+        method:'POST',
+        headers:{'Content-Type':'application/json','Authorization':`Bearer ${authToken}`},
+        body: JSON.stringify({
+          razorpay_payment_id: rzpRes.razorpay_payment_id,
+          razorpay_order_id:   rzpRes.razorpay_order_id,
+          razorpay_signature:  rzpRes.razorpay_signature,
+          couponCode:          S.couponCode || null
+        })
+      });
+      const data = await res.json();
+      if (!data.success) throw new Error('Verification failed');
+
+      if (S.couponCode) {
+        const coupons = JSON.parse(localStorage.getItem('coupons')||'{}');
+        if (coupons[S.couponCode]) {
+          coupons[S.couponCode].uses = (coupons[S.couponCode].uses||0)+1;
+          localStorage.setItem('coupons', JSON.stringify(coupons));
+        }
+      }
+
+      showSuccess(rzpRes.razorpay_payment_id);
+
+    } catch(err) {
+      showToast('Payment received! Verification pending — contact support if needed.', 'error');
+      setBtnLoading(false);
+    }
+  }
+
+  // ══════════════════════════════════════════════════════════
+  // SUCCESS + INVOICE
+  // ══════════════════════════════════════════════════════════
+  function showSuccess(paymentId) {
+    const plan   = planDetails[S.plan] || planDetails['3months'];
+    const expiry = new Date();
+    expiry.setDate(expiry.getDate() + plan.days);
+    const expiryStr = expiry.toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'});
+    const isFree = S.finalPrice <= 0;
+    const invoiceNum = 'BF-' + Date.now().toString().slice(-8);
+
+    document.getElementById('successBadge').innerHTML =
+      `<i class="fas fa-crown"></i> ${(S.exam||'tef').toUpperCase()} Canada · ${plan.name} Activated!`;
+
+    document.getElementById('invoiceId').textContent  = invoiceNum;
+    document.getElementById('invPlan').textContent    = plan.name;
+    document.getElementById('invExam').textContent    = `${(S.exam||'tef').toUpperCase()} Canada`;
+    document.getElementById('invExpiry').textContent  = expiryStr;
+    document.getElementById('invTotal').textContent   = isFree ? 'FREE (100% coupon)' : fmt(S.finalPrice);
+
+    if (S.couponCode) {
+      document.getElementById('invCouponRow').style.display = 'flex';
+      document.getElementById('invCoupon').textContent      = `${S.couponCode} (−${fmt(S.discountAmount)})`;
+    }
+
+    document.getElementById('successOverlay').classList.add('show');
+    sessionStorage.removeItem('orderState');
+
+    // ── FIXED: redirect to dashboard instead of index ──────────────────────
+    setTimeout(() => {
+      window.location.href = 'dashboard.html?purchase=success&plan=' + S.plan;
+    }, 3000);
+  }
+
+  function printInvoice() {
+    window.print();
+  }
+
+  // ══════════════════════════════════════════════════════════
+  // UI HELPERS
+  // ══════════════════════════════════════════════════════════
+  function setBtnLoading(loading, label) {
+    const btn  = document.getElementById('payBtn');
+    const btxt = document.getElementById('payBtnText');
+    btn.disabled = loading;
+    if (loading) {
+      btxt.innerHTML = `<div class="spinner"></div> ${label||'Processing…'}`;
+    } else {
+      render();
+    }
+  }
+
+  let _toastTimer;
+  function showToast(msg, type='info') {
+    const el = document.getElementById('toast');
+    const icons = {success:'fa-check-circle',error:'fa-exclamation-circle',info:'fa-info-circle'};
+    el.className = `toast ${type} show`;
+    el.innerHTML = `<i class="fas ${icons[type]||'fa-info-circle'}"></i> ${msg}`;
+    clearTimeout(_toastTimer);
+    _toastTimer = setTimeout(()=>el.classList.remove('show'), 5000);
+  }
+
+  // ══════════════════════════════════════════════════════════
+  // BOOT
+  // ══════════════════════════════════════════════════════════
+  window.addEventListener('DOMContentLoaded', () => {
+    authToken   = localStorage.getItem('token');
+    currentUser = JSON.parse(localStorage.getItem('user')||'null');
+    if (!authToken) {
+      window.location.href = 'login.html?redirect=order.html';
+      return;
+    }
+    loadState();
+    render();
+  });
+  </script>
+  <script src="js/authGuard.js"></script>
+</body>
+</html>

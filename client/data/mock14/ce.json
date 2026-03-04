@@ -1,0 +1,565 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AVIS IMPORTANT AUX RÉSIDENTS\n\nLa piscine municipale sera fermée pour travaux de rénovation du 15 juin au 30 juin inclus. Durant cette période, les abonnés pourront utiliser gratuitement la piscine du centre sportif voisin sur présentation de leur carte d'abonnement en cours de validité. Les cours de natation prévus pendant ces deux semaines sont reportés au mois de juillet. Pour tout remboursement ou demande d'information, veuillez contacter l'accueil du centre aquatique du lundi au vendredi de 9h à 17h. Nous vous prions de bien vouloir nous excuser pour la gêne occasionnée et vous remercions de votre compréhension.",
+          "question": "Quelle proposition correspond à l'information principale de ce document ?",
+          "options": {
+            "A": "La piscine municipale est définitivement fermée.",
+            "B": "Des travaux de rénovation auront lieu et une solution alternative est proposée.",
+            "C": "Les cours de natation sont annulés sans remplacement.",
+            "D": "Le centre sportif voisin est gratuit pour tout le monde."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "RESTAURANT LE BISTROT GOURMAND\nMenu du Midi - Semaine du 20 au 26 mai\n\nEntrées au choix :\n• Salade de chèvre chaud aux noix\n• Soupe de saison maison\n• Terrine de campagne et pickles\n\nPlats au choix :\n• Filet de saumon sauce hollandaise\n• Steak frites ou légumes grillés\n• Risotto aux champignons\n\nDesserts au choix :\n• Crème brûlée à la vanille\n• Tarte tatin et sa boule de glace\n• Café gourmand\n\nPrix : 24,90 € - Boisson comprise (vin, bière ou soft)\nRéservation recommandée : 01 23 45 67 89",
+          "question": "Combien coûte ce menu si on choisit le steak frites et une bière ?",
+          "options": {
+            "A": "19,90 €",
+            "B": "24,90 €",
+            "C": "29,90 €",
+            "D": "Le prix dépend des choix effectués."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 3,
+          "text": "HORAIRES D'OUVERTURE - BIBLIOTHÈQUE MUNICIPALE\n\nLundi : 14h00 - 19h00\nMardi : 10h00 - 12h30 et 14h00 - 19h00\nMercredi : 10h00 - 12h30 et 14h00 - 18h00\nJeudi : 10h00 - 12h30 et 14h00 - 19h00\nVendredi : 14h00 - 19h00\nSamedi : 10h00 - 17h00 (sans interruption)\nDimanche : Fermé\n\nAttention : La bibliothèque sera exceptionnellement fermée le samedi 15 juin pour l'inventaire annuel. Les emprunts en retard ce jour-là ne seront pas pénalisés. La médiathèque numérique reste accessible 24h/24 sur notre site internet.",
+          "question": "Un usager souhaite venir emprunter des livres un vendredi matin. Que doit-il faire ?",
+          "options": {
+            "A": "Il peut venir à 10h30.",
+            "B": "Il doit attendre l'après-midi.",
+            "C": "La bibliothèque est fermée le vendredi.",
+            "D": "Il doit vérifier s'il n'y a pas d'inventaire."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "AFFICHE - JOURNÉE PORTES OUVERTES\n\nL'association des Parents d'Élèves de l'École Primaire Jules Ferry vous invite à sa traditionnelle journée portes ouvertes le samedi 8 juin prochain de 10h à 18h. Au programme : vide-grenier, vente de gâteaux maison, jeux gonflables pour les enfants, et spectacle de magie à 15h. Les fonds récoltés serviront à financer le voyage scolaire des classes de CM2. Entrée gratuite pour tous. Restauration sur place possible. Venez nombreux partager ce moment de convivialité et découvrir les projets de l'association !",
+          "question": "Quel est l'objectif principal de cette manifestation ?",
+          "options": {
+            "A": "Présenter les nouveaux professeurs de l'école.",
+            "B": "Récolter des fonds pour un voyage scolaire.",
+            "C": "Organiser un vide-grenier municipal.",
+            "D": "Fêter la fin de l'année scolaire."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 5,
+          "text": "AVIS DE PASSAGE - SERVICE DES EAUX\n\nNous sommes passés ce jour à votre domicile (18 mai à 14h30) pour la relève de votre compteur d'eau, mais nous n'avons pas pu accéder à celui-ci. Il est impératif que nous procédions à cette relève pour établir votre prochaine facture. En l'absence d'accès, nous serons contraints d'établir un montant forfaitaire basé sur votre consommation moyenne des années précédentes, ce qui pourrait être défavorable. Merci de nous contacter au 0 800 123 456 (appel gratuit) pour convenir d'un nouveau rendez-vous dans les plus brefs délais.",
+          "question": "Pourquoi le service des eaux demande-t-il un nouveau rendez-vous ?",
+          "options": {
+            "A": "Parce que la facture précédente n'a pas été payée.",
+            "B": "Parce qu'il y a une fuite d'eau détectée.",
+            "C": "Parce qu'il n'a pas pu accéder au compteur.",
+            "D": "Parce que le compteur est défectueux."
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 6,
+          "text": "INSTRUCTIONS DE LAVAGE - PULL EN LAINE\n\nComposition : 100% laine mérinos. Pour préserver la qualité de votre vêtement, nous vous recommandons de le laver à la main dans de l'eau tiède (max 30°C) avec un détergent spécial laine. Ne pas utiliser d'assouplissant. Ne pas essorer ni tordre le vêtement. Sécher à plat à l'abri de la chaleur directe et du soleil. Ne pas suspendre pour éviter l'étirement. Repassage interdit. Possibilité de nettoyage à sec chez un professionnel. La laine est une fibre naturelle vivante qui nécessite des soins particuliers pour conserver sa douceur et sa forme.",
+          "question": "Que conseille-t-on de faire pour sécher ce pull ?",
+          "options": {
+            "A": "Le suspendre sur un cintre.",
+            "B": "Le mettre au sèche-linge à basse température.",
+            "C": "L'étendre à plat à l'ombre.",
+            "D": "Le repasser à température douce."
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 7,
+          "text": "PROGRAMME DU THÉÂTRE MUNICIPAL - MOIS DE JUIN\n\nSamedi 1er juin à 20h30 : Concert de jazz - \"Nuits d'été\" (complet)\nMercredi 12 juin à 19h00 : Conférence sur l'architecture durable (entrée libre)\nVendredi 21 juin à 21h00 : Fête de la musique - concerts en plein air (gratuit)\nSamedi 29 juin à 20h30 : Pièce de théâtre \"Le Malade Imaginaire\" (tarif réduit pour les moins de 26 ans)\n\nBilletterie ouverte du mardi au samedi de 14h à 19h. Réservation en ligne possible sur www.theatremunicipal.fr. Attention : les places pour le concert de jazz sont épuisées, mais une liste d'attente est disponible à l'accueil.",
+          "question": "Quelle activité est accessible gratuitement ?",
+          "options": {
+            "A": "Le concert de jazz du 1er juin.",
+            "B": "La conférence sur l'architecture durable.",
+            "C": "La pièce de théâtre du 29 juin.",
+            "D": "Aucune, toutes les activités sont payantes."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Marie ________ (1) dans cette entreprise depuis plus de dix ans. Elle ________ (2) beaucoup évolué et occupe aujourd'hui un poste à responsabilités. Ses collègues ________ (3) beaucoup d'estime pour elle car elle est toujours ________ (4) à les aider en cas de difficulté. L'année dernière, elle ________ (5) d'ailleurs été élue déléguée du personnel. Elle ________ (6) particulièrement fière de ce qui ________ (7) accompli au cours de ces dernières années.",
+          "options": {
+            "A": "travaille - est - ont - prête - a - est - a été",
+            "B": "travaille - a - ont - prête - a - est - a été",
+            "C": "travaille - a - ont - prête - a - est - est",
+            "D": "travaille - est - ont - prête - a - est - est"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 9,
+          "text": "Le développement durable est devenu une ________ (1) majeure pour notre société. Il s'agit de répondre aux besoins du présent ________ (2) compromettre la capacité des générations futures à répondre aux leurs. Cette approche ________ (3) en compte trois dimensions : économique, sociale et environnementale. De nombreuses entreprises ont ________ (4) conscience de l'importance de ces enjeux et ________ (5) des efforts considérables pour réduire leur impact écologique. Cependant, il reste encore beaucoup à ________ (6) pour atteindre les objectifs fixés par les accords internationaux.",
+          "options": {
+            "A": "préoccupation - sans - prend - pris - font - faire",
+            "B": "préoccupation - sans - prend - prise - font - faire",
+            "C": "préoccupation - sans - prend - pris - font - fait",
+            "D": "préoccupation - sans - prend - prise - font - fait"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 10,
+          "text": "Si j'________ (1) suis rendu compte plus tôt de l'importance de cette réunion, j'________ (2) certainement modifié mon planning. Malheureusement, l'information ne m'________ (3) parvenue qu'hier soir et il était déjà trop tard pour ________ (4) des arrangements. Je ________ (5) donc obligé de manquer cette présentation importante, ce qui m'________ (6) beaucoup déçu. La prochaine fois, je veillerai à ________ (7) mieux informé des événements à venir.",
+          "options": {
+            "A": "m'étais - aurais - était - faire - suis - a - être",
+            "B": "m'étais - aurais - est - faire - suis - a - être",
+            "C": "m'étais - aurais - est - fais - suis - a - être",
+            "D": "m'étais - aurais - était - faire - suis - a - être"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 11,
+          "text": "L'adaptation au changement climatique ________ (1) un défi considérable pour les régions côtières. L'élévation du niveau de la mer ________ (2) déjà des conséquences visibles sur certaines zones habitées. Les scientifiques prévoient que ces phénomènes s'________ (3) dans les décennies à venir. Les gouvernements locaux doivent ________ (4) en place des stratégies d'atténuation et d'adaptation. Il est essentiel que des mesures ________ (5) prises rapidement pour protéger les populations vulnérables. Cette question ne concerne pas ________ (6) les pays développés, mais l'ensemble de la planète.",
+          "options": {
+            "A": "représente - a - intensifieront - mettre - soient - seulement",
+            "B": "représente - a - intensifieront - mettre - sont - seulement",
+            "C": "représente - ont - intensifieront - mettre - soient - seulement",
+            "D": "représente - a - intensifieront - mettre - soient - seules"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 12,
+          "text": "Le télétravail s'est considérablement développé ________ (1) la crise sanitaire. De nombreux salariés ont découvert les avantages de cette organisation : gain de temps, flexibilité, meilleure ________ (2) vie professionnelle et personnelle. Cependant, cette pratique soulève également des questions concernant la ________ (3) entre collègues et la supervision des équipes. Certaines entreprises ont choisi d'________ (4) un modèle hybride, alternant présentiel et distanciel. Il semble que cette tendance ________ (5) s'inscrire durablement dans le paysage professionnel, même si elle nécessite une adaptation des méthodes de management.",
+          "options": {
+            "A": "depuis - conciliation - cohésion - adopter - va",
+            "B": "depuis - conciliation - cohésion - adopter - aille",
+            "C": "pendant - conciliation - cohésion - adopter - va",
+            "D": "depuis - conciliation - cohésion - adopter - allait"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 13,
+          "text": "L'intelligence artificielle transforme ________ (1) de nombreux secteurs d'activité. Dans le domaine médical, elle permet d'________ (2) des diagnostics plus précis et plus rapides. Les algorithmes peuvent analyser des milliers d'________ (3) en quelques secondes, détectant des anomalies invisibles à l'œil humain. Cependant, cette technologie soulève des ________ (4) éthiques concernant la protection des données personnelles. Il est crucial que son développement s'________ (5) dans un cadre réglementaire strict pour garantir son utilisation responsable.",
+          "options": {
+            "A": "radicalement - établir - images - questions - inscrive",
+            "B": "radicalement - établir - images - questionnements - inscrive",
+            "C": "radicalement - établir - images - questions - inscrit",
+            "D": "radicalement - établir - imageries - questions - inscrive"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 14,
+          "text": "La biodiversité est essentielle au ________ (1) de nos écosystèmes. Chaque espèce joue un ________ (2) spécifique dans la chaîne alimentaire et la régulation des milieux naturels. La disparition d'une seule espèce peut ________ (3) des conséquences en cascade sur l'ensemble du système. Malheureusement, l'activité humaine a ________ (4) à l'extinction accélérée de nombreuses espèces. La protection de la biodiversité est donc une ________ (5) urgente qui nécessite l'engagement de tous.",
+          "options": {
+            "A": "équilibre - rôle - avoir - conduit - nécessité",
+            "B": "équilibre - rôle - avoir - mené - nécessité",
+            "C": "équilibre - rôle - avoir - conduit - nécessaire",
+            "D": "équilibre - rôle - avoir - conduit - nécessité"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 15,
+          "text": "Les transports en commun jouent un ________ (1) déterminant dans la réduction des émissions de gaz à effet de serre. En incitant les citoyens à ________ (2) leur voiture par le bus ou le métro, les villes peuvent significativement améliorer la qualité de l'air. Néanmoins, pour que cette ________ (3) soit efficace, il faut que les offres de transport soient fiables, fréquentes et ________ (4). De nombreuses métropoles investissent dans la modernisation de leurs réseaux et l'extension des lignes. Ces investissements, bien que coûteux, s'avèrent ________ (5) sur le long terme.",
+          "options": {
+            "A": "rôle - remplacer - politique - accessibles - rentables",
+            "B": "rôle - substituer - politique - accessibles - rentables",
+            "C": "rôle - remplacer - politique - accessibles - rentable",
+            "D": "rôle - remplacer - politiques - accessibles - rentables"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 16,
+          "text": "La réforme de l'orthographe ________ (1) débattue depuis plusieurs années dans le monde francophone. Certains linguistes prônent une ________ (2) des règles pour faciliter l'apprentissage du français, tandis que d'autres s'inquiètent de la ________ (3) de la langue. Cette question divise également l'opinion publique : ________ (4) prêts à adopter des simplifications, d'autres s'y opposent farouchement. Il semble ________ (5) qu'un consensus soit trouvé rapidement sur ce sujet sensible.",
+          "options": {
+            "A": "est - simplification - dégradation - les uns - peu probable",
+            "B": "est - simplification - dégradation - certains - peu probable",
+            "C": "est - simplification - dégradation - les uns - improbable",
+            "D": "est - simplification - dégradation - les uns - peu probable"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 17,
+          "text": "L'apprentissage des langues étrangères offre de ________ (1) avantages cognitifs et professionnels. Les personnes bilingues développent une plus grande ________ (2) mentale et une meilleure capacité à résoudre des problèmes complexes. Sur le marché du ________ (3), la maîtrise de plusieurs langues constitue un atout majeur. Cependant, pour devenir véritablement ________ (4) dans une langue, il faut pratiquer régulièrement et s'immerger dans la culture ________ (5). Les séjours linguistiques restent donc une méthode efficace, bien qu'onéreuse.",
+          "options": {
+            "A": "nombreux - flexibilité - travail - compétent - cible",
+            "B": "nombreux - flexibilité - travail - compétente - cible",
+            "C": "nombreux - flexibilité - travail - compétent - cible",
+            "D": "nombreux - flexibilité - travail - compétent - visée"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "URGENCE DENTAIRE - Dr. Martin Dubois\n\nCabinet dentaire ouvert 7j/7 pour urgences\nAdresse : 15 rue de la Paix, 75002 Paris\nTéléphone : 01 42 60 00 00\nHoraires d'ouverture :\nLundi-Vendredi : 8h-20h\nSamedi : 9h-18h\nDimanche et jours fériés : 10h-16h (urgences uniquement)\n\nServices disponibles : soins d'urgence, dévitalisations, extractions, réparations de couronnes, traitement des abcès. La clinique accepte tous les modes de règlement et les cartes de mutuelle. Stationnement payant à proximité. Métro : lignes 3, 8, 9 (Opéra).",
+          "question": "À quelle heure ferme le cabinet le samedi ?",
+          "options": {
+            "A": "16h00",
+            "B": "18h00",
+            "C": "20h00",
+            "D": "Le samedi, le cabinet est fermé."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "CONDITIONS GÉNÉRALES DE VENTE\n\nArticle 5 : Droit de rétractation\nLe consommateur dispose d'un délai de quatorze jours francs à compter de la réception de sa commande pour exercer son droit de rétractation, sans avoir à justifier de motifs ni à payer de pénalités. Pour les produits personnalisés ou sur mesure, ce délai est réduit à sept jours. Le retour des articles doit se faire dans leur emballage d'origine, accompagné de la facture. Les frais de retour sont à la charge du client, sauf en cas de produit défectueux. Le remboursement sera effectué dans un délai maximum de 14 jours après réception des articles retournés.",
+          "question": "Dans quel cas le délai de rétractation est-il de 7 jours seulement ?",
+          "options": {
+            "A": "Pour tous les produits achetés en ligne.",
+            "B": "Pour les produits personnalisés ou sur mesure.",
+            "C": "Pour les produits en promotion.",
+            "D": "Pour les produits défectueux."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 20,
+          "text": "INFORMATIONS PRATIQUES - MUSÉE DU LOUVRE\n\nHoraires : Ouvert tous les jours sauf le mardi, de 9h à 18h (21h45 les mercredis et vendredis nocturnes)\nFermeture : Les 1er janvier, 1er mai et 25 décembre\nTarifs 2024 : Plein tarif 22 €, Tarif réduit 18 € (jeunes 18-25 ans résidents UE, enseignants), Gratuit (moins de 18 ans, résidents UE 18-25 ans, demandeurs d'emploi)\nRéservation obligatoire en ligne pour tous les visiteurs, même les bénéficiaires de la gratuité. Délai moyen de visite recommandé : 3 à 4 heures. Entrée principale par la Pyramide du Louvre. Accès prioritaire pour les détenteurs du Pass Musées.",
+          "question": "Quel jour le musée ferme-t-il à 18h ?",
+          "options": {
+            "A": "Le mercredi",
+            "B": "Le vendredi",
+            "C": "Le dimanche",
+            "D": "Tous les jours d'ouverture."
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 21,
+          "text": "AVIS D'IMPÔT - EXPLICATION DES CODES\n\nCode 1AJ : Salaires imposables - déclarant 1\nCode 1BJ : Salaires imposables - déclarant 2\nCode 1AK : Frais réels déductibles - déclarant 1\nCode 1BK : Frais réels déductibles - déclarant 2\nCode 2DC : Revenus de capitaux mobiliers\nCode 3VG : Plus-values immobilières\nCode 7UF : Dons aux œuvres (66% de réduction d'impôt)\nCode 7UK : Dons aux organismes d'aide aux personnes en difficulté (75% de réduction)\n\nPour toute question concernant votre déclaration, contactez votre centre des impôts ou consultez impots.gouv.fr.",
+          "question": "Quel code faut-il utiliser pour déclarer les salaires du conjoint ?",
+          "options": {
+            "A": "1AJ",
+            "B": "1BJ",
+            "C": "1AK",
+            "D": "2DC"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 22,
+          "text": "CONSIGNES DE SÉCURITÉ - AÉROPORT\n\n1. Les liquides sont interdits en cabine sauf dans des contenants de max 100ml placés dans un sac transparent refermable de max 1 litre (1 sac par passager).\n2. Les ordinateurs portables et tablettes doivent être retirés des bagages lors du passage aux contrôles.\n3. Les couteaux, ciseaux et outils tranchants sont interdits en cabine (autorisés en soute).\n4. Les batteries au lithium doivent être transportées en cabine (interdiction en soute).\n5. L'embarquement ferme 20 minutes avant le décollage. Présentez-vous au portail d'embarquement au moins 45 minutes avant l'heure de départ pour les vols intérieurs, 60 minutes pour l'international.",
+          "question": "Où doit-on placer les batteries au lithium ?",
+          "options": {
+            "A": "En soute uniquement.",
+            "B": "En cabine uniquement.",
+            "C": "Soit en cabine, soit en soute.",
+            "D": "Elles sont interdites."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congés sans solde - Projet personnel\n\nMadame la Directrice,\n\nPar la présente, je vous informe de mon souhait de bénéficier d'un congé sans solde d'une durée de six mois, à compter du 1er septembre prochain. Ce temps me permettra de consacrer mon énergie à la création d'une association humanitaire que je porte depuis plusieurs années.\n\nJe tiens à préciser que je souhaite reintégrer mon poste à l'issue de cette période et que je reste bien entendu à votre disposition pour faciliter la transition avec mon remplaçant. Je suis convaincu que cette expérience m'apportera une perspective enrichissante qui pourra également bénéficier à notre entreprise.\n\nDans l'attente de votre réponse, je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nThomas Bernard\nResponsable Marketing",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Démissionner de son emploi.",
+            "B": "Demander une augmentation de salaire.",
+            "C": "Solliciter un congé sans solde pour un projet personnel.",
+            "D": "Proposer la création d'une association par l'entreprise."
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 24,
+          "text": "Chers collègues,\n\nSuite à la réunion de direction du 15 courant, nous vous communiquons les nouvelles modalités de télétravail qui entreront en vigueur le 1er juillet. Conformément aux engagements pris, nous adoptons un système hybride équilibré : trois jours de présence sur site et deux jours de télétravail par semaine.\n\nCette organisation vise à préserver la cohésion d'équipe tout en maintenant la flexibilité que vous appréciez. Les jours de présence seront fixés collectivement par service pour optimiser les échanges. Les jours de télétravail restent à votre choix, sous réserve de validation par votre manager.\n\nNous restons à votre disposition pour échanger sur ces nouvelles dispositions lors de la réunion d'équipe prévue vendredi prochain.\n\nCordialement,\nLa Direction des Ressources Humaines",
+          "question": "Quelle information est implicite dans ce message ?",
+          "options": {
+            "A": "Le télétravail total est désormais interdit.",
+            "B": "Les employés n'ont aucune liberté dans l'organisation de leur semaine.",
+            "C": "L'entreprise cherche un compromis entre présentiel et distanciel.",
+            "D": "Tous les employés sont mécontents du télétravail."
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 25,
+          "text": "Objet : Réclamation concernant la livraison n°45892\n\nMadame,\n\nNous avons bien reçu votre courrier du 12 mai dernier relatif à la livraison incomplète de votre commande du 28 avril. Nous vous prions d'accepter nos sincères excuses pour ce désagrément qui résulte d'une erreur de préparation de notre entrepôt.\n\nConformément à votre demande, nous procédons immédiatement à l'expédition des articles manquants (référence A-452 et B-891) par transport express, sans frais supplémentaires. Vous recevrez ces produits sous 48 heures ouvrées.\n\nPar ailleurs, nous vous offrons un bon d'achat de 50 € valable sur votre prochaine commande en guise de dédommagement. Nous espérons que cette proposition saura rétablir votre confiance en notre service client.\n\nVeuillez agréer, Madame, l'assurance de notre considération distinguée.\n\nLe Service Client",
+          "question": "Quel est le ton de ce message ?",
+          "options": {
+            "A": "Aggressif et défensif.",
+            "B": "Indifférent et froid.",
+            "C": "Excusé et conciliant.",
+            "D": "Ironique et sarcastique."
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 26,
+          "text": "Note de service N°2024-056\nÀ l'attention de tous les personnels\n\nIl est rappelé à l'ensemble des agents que la consommation d'alcool est strictement interdite dans les locaux de l'administration pendant les heures de service, conformément à l'article 12 du règlement intérieur. Cette interdiction vise à garantir la sécurité de tous et le bon fonctionnement de nos services publics.\n\nTout manquement à cette règle pourra entraîner des sanctions disciplinaires allant de l'avertissement à la mise à pied, voire à des procédures plus lourdes en cas de récidive. Les responsables de service sont tenus de veiller strictement à l'application de cette consigne et de signaler immédiatement tout incident.\n\nLes agents sont invités à se reporter à la note de service N°2023-112 pour rappel des règles relatives aux pauses et aux temps de restauration.\n\nLe Directeur des Ressources Humaines",
+          "question": "Quelle est l'intention principale de cette note de service ?",
+          "options": {
+            "A": "Informer d'une nouvelle politique de recrutement.",
+            "B": "Rappeler une interdiction et les sanctions encourues.",
+            "C": "Organiser une fête pour les employés.",
+            "D": "Modifier les horaires de travail."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "Objet : Invitation à la cérémonie de remise des prix\n\nMadame la Proviseure,\n\nL'association des anciens élèves du Lycée Victor Hugo a l'honneur de vous convier à la cérémonie annuelle de remise des prix d'excellence, qui se tiendra le samedi 15 juin à 14h30 dans la salle des fêtes de la mairie du 15ème arrondissement.\n\nCette année, nous récompenserons trois de vos élèves pour leurs résultats remarquables aux concours nationaux de mathématiques et de sciences. Votre présence, ainsi que celle de vos professeurs, serait particulièrement appréciée pour encourager ces jeunes talents.\n\nUn cocktail suivra la cérémonie, offrant l'occasion d'échanger dans une ambiance conviviale. Nous vous prions de bien vouloir confirmer votre participation avant le 5 juin par retour de mail ou par téléphone au 01 45 67 89 00.\n\nDans l'attente de votre réponse, nous vous prions d'agréer, Madame, l'expression de notre haute considération.",
+          "question": "Pourquoi la destinataire est-elle invitée ?",
+          "options": {
+            "A": "Pour recevoir un prix personnel.",
+            "B": "Pour assister à la récompense de ses élèves.",
+            "C": "Pour donner une conférence.",
+            "D": "Pour organiser la prochaine cérémonie."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Compte-rendu de réunion - Projet \"Green Office\"\nDate : 20 mai 2024\nParticipants : Équipe développement durable + Direction\n\nPoints abordés :\n1. Bilan des actions 2023 : réduction de 15% de la consommation électrique, mise en place du tri sélectif renforcé dans tous les services.\n2. Objectifs 2024 : atteindre 30% de réduction des déchets papier, généraliser les visioconférences pour limiter les déplacements professionnels.\n3. Budget alloué : 45 000 € pour l'installation de panneaux solaires sur le toit du bâtiment B.\n\nDécisions prises :\n- Nomination d'un référent écologie par étage pour sensibiliser les collègues.\n- Organisation d'une journée de formation au développement durable le 12 septembre.\n- Report au trimestre suivant du projet de vélos en libre-service (raisons budgétaires).\n\nProchaine réunion : 15 juillet 2024",
+          "question": "Quel projet a été reporté ?",
+          "options": {
+            "A": "L'installation de panneaux solaires.",
+            "B": "La formation au développement durable.",
+            "C": "Le projet de vélos en libre-service.",
+            "D": "La nomination des référents écologie."
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 29,
+          "text": "Objet : Confirmation de réservation - Séminaire entreprise\n\nMadame Lefranc,\n\nNous avons le plaisir de confirmer votre réservation pour l'organisation du séminaire de votre entreprise du 12 au 14 juin 2024 dans notre établissement.\n\nDétails de la prestation :\n- 15 chambres individuelles avec petit-déjeuner\n- Salle de réunion \"Les Pins\" équipée (vidéoprojecteur, paperboard, WiFi)\n- Déjeuners buffet et dîners gastronomiques (menus validés)\n- Activité team-building : initiation à l'œnologie (jeudi après-midi)\n\nTarif total : 4 850 € TTC (acompte de 50% à la réservation, solde 15 jours avant l'arrivée). Conditions d'annulation gratuite jusqu'à 7 jours avant la date d'arrivée.\n\nNous restons à votre entière disposition pour toute modification ou demande particulière.\n\nCordialement,\nCatherine Moreau\nDirectrice de l'Hôtel des Vignes",
+          "question": "Quelle information manque dans ce document ?",
+          "options": {
+            "A": "Le nombre de participants.",
+            "B": "Les dates du séminaire.",
+            "C": "Le prix total.",
+            "D": "Le type d'activité prévue."
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 30,
+          "text": "Attestation d'employeur\n\nJe soussigné, Pierre Durand, gérant de la société DURAND SARL, immatriculée au RCS de Lyon sous le numéro 123 456 789, certifie que Madame Sophie Martin, née le 15 mars 1985 à Lyon, a travaillé dans notre entreprise du 1er septembre 2018 au 28 février 2024 en qualité de Responsable Comptable.\n\nDurant cette période, Madame Martin a fait preuve d'un grand professionnalisme et d'une parfaite maîtrise de ses fonctions. Elle a su gérer avec efficacité une équipe de cinq personnes et mettre en place de nouveaux outils de gestion financière qui ont permis d'optimiser nos processus internes.\n\nCette attestation est délivrée à l'intéressée pour servir et valoir ce que de droit.\n\nFait à Lyon, le 15 mars 2024\nSignature : Pierre Durand\nCachet de l'entreprise",
+          "question": "Quel est le but de ce document ?",
+          "options": {
+            "A": "Licencier une employée.",
+            "B": "Certifier l'expérience professionnelle d'une personne.",
+            "C": "Demander une augmentation de salaire.",
+            "D": "Annoncer une promotion."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 31,
+          "text": "Objet : Mise en demeure - Paiement de loyer impayé\n\nMadame,\n\nPar courrier recommandé avec accusé de réception du 15 avril dernier, nous vous avions informée de l'existence de trois loyers impayés correspondant aux mois de janvier, février et mars 2024, soit un montant total de 2 700 €.\n\nÀ ce jour, nous n'avons toujours pas reçu le règlement de ces sommes malgré nos relances répétées. Par conséquent, nous vous mettons en demeure de payer la somme de 2 700 €, majorée de 150 € d'indemnités de retard, dans un délai de huit jours à compter de la réception de la présente.\n\nÀ défaut de paiement dans ce délai, nous serons contraints d'engager une procédure d'expulsion pour loyers impayés auprès du tribunal d'instance, avec demande de condamnation aux frais judiciaires.\n\nNous vous prions d'agréer, Madame, l'expression de nos salutations distinguées.\n\nLe Propriétaire\nReprésenté par l'agence immobilière CENTURY 21",
+          "question": "Quelle menace est contenue dans ce document ?",
+          "options": {
+            "A": "Une augmentation du loyer.",
+            "B": "Une procédure d'expulsion.",
+            "C": "Une saisie des biens personnels.",
+            "D": "Une interdiction de recevoir du courrier."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "Rapport d'activité trimestriel - Service Informatique\nPériode : Janvier-Mars 2024\n\nRéalisations majeures :\n- Migration complète du système de gestion de tickets vers la nouvelle plateforme ServiceNow (achèvement le 28 février)\n- Déploiement de la mise à jour de sécurité critique sur 100% des postes de travail\n- Réduction du temps moyen de résolution des incidents de 15% (passage de 4h à 3h24)\n\nPoints de vigilance :\n- Surcharge temporaire de l'équipe support lors de la migration (résolu par recours à une prestation externe)\n- Quelques retards sur le projet de virtualisation des serveurs (report au T2)\n\nPerspectives T2 :\n- Lancement du projet de déploiement de la double authentification\n- Formation de l'équipe aux nouveaux outils de cybersécurité\n- Recrutement d'un administrateur système supplémentaire",
+          "question": "Quel problème a été rencontré et comment a-t-il été résolu ?",
+          "options": {
+            "A": "Un virus informatique éliminé par un antivirus.",
+            "B": "Une surcharge de travail gérée par une prestation externe.",
+            "C": "Une panne de serveur réparée par remplacement matériel.",
+            "D": "Une fuite de données résolue par changement de mot de passe."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "La fin du tout-voiture en ville ? Les nouvelles mobilités gagnent du terrain\n\nLes centres-villes français connaissent une mutation profonde. Après Paris, Lyon, Bordeaux et de nombreuses autres métropoles restreignent progressivement la circulation automobile au profit des transports doux. Vélibs, trottinettes électriques, voitures en libre-service et bus électriques investissent l'espace public, tandis que les voies cyclables se multiplient comme des champignons. Cette révolution des mobilités, accélérée par les politiques de déconfinement post-Covid, rencontre un succès croissant auprès des citadins : selon une récente étude, 68% des Franciliens se déclarent favorables à une réduction du trafic motorisé dans la capitale.\n\nPourtant, cette transition n'est pas sans heurts. Les commerçants redoutent la baisse de leur clientèle, les banlieusards dénoncent un urbanisme qui les exclurait, et les débats sur le partage de l'espace public tournent parfois à l'affrontement. La question du financement de ces infrastructures reste également épineuse : qui paiera la facture de cette transformation urbaine ? L'État, les collectivités locales, ou les usagers eux-mêmes via de nouvelles taxes ? Le débat est loin d'être clos, mais une chose est certaine : la ville du XXIe siècle ne ressemblera plus à celle de nos parents.",
+          "question": "Quelle est la position de l'auteur concernant cette évolution ?",
+          "options": {
+            "A": "Il s'y oppose fermement.",
+            "B": "Il la considère comme inévitable malgré les difficultés.",
+            "C": "Il reste neutre et objectif.",
+            "D": "Il la juge comme une erreur économique."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 34,
+          "text": "Le télétravail, deux ans après : bilan mitigé pour les entreprises françaises\n\nLe grand exode des bureaux semble bel et bien terminé. Deux ans après la généralisation du télétravail forcé par la pandémie, les entreprises françaises tirent un bilan contrasté de cette révolution organisationnelle. Si les salariés ont massivement adopté cette nouvelle formule - 85% souhaiteraient conserver au moins deux jours de télétravail par semaine - les directions restent plus circonspectes. Productivité stable, voire en hausse, selon certaines études ; difficultés de management, perte de culture d'entreprise et érosion de la créativité collective selon d'autres.\n\nLes modèles hybrides s'imposent progressivement comme un compromis acceptable, même si leur mise en œuvre soulève de nouvelles questions. Comment maintenir la cohésion d'équipe lorsque certains collègues ne se croisent plus jamais ? Quelle surveillance des salariés à distance, sans tomber dans le \"big brother\" numérique ? Et surtout, comment réorganiser les immenses surfaces de bureaux désormais sous-utilisées ? Les entreprises qui trouveront les réponses adaptées à leur culture disposeront d'un avantage concurrentiel décisif pour attirer les talents.",
+          "question": "Quel défi majeur les entreprises doivent-elles relever selon l'article ?",
+          "options": {
+            "A": "Augmenter les salaires pour attirer des talents.",
+            "B": "Trouver le bon équilibre entre télétravail et présentiel.",
+            "C": "Supprimer complètement le télétravail.",
+            "D": "Construire de nouveaux bureaux plus grands."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "L'intelligence artificielle dans les salles de classe : opportunité ou menace ?\n\nChatGPT et ses concurrents débarquent dans l'éducation nationale, et le malaise est palpable. Depuis la rentrée, de nombreux enseignants découvrent avec stupéfaction que leurs élèves peuvent désormais générer en quelques secondes des dissertations cohérentes, résoudre des problèmes mathématiques complexes ou traduire des textes latins. La fraude aux devoirs maison n'a jamais été aussi simple, et les outils de détection se révèlent perfectibles.\n\nPourtant, une minorité de pédagogues voit dans cette disruption technologique une opportunité historique. Pourquoi s'obstiner à faire apprendre par cœur des connaissances que l'IA maîtrise mieux que quiconque ? Ne serait-il pas plus pertinent de former les élèves à l'esprit critique, à la vérification des sources, à la formulation de questions pertinentes ? L'école du XXIe siècle pourrait enfin se libérer du carcan de la mémorisation pour se consacrer à l'apprentissage de la pensée. Mais cette transformation exige une formation massive des enseignants et une refonte complète des programmes, perspectives qui semblent encore lointaines vu les moyens alloués à l'éducation.",
+          "question": "Quelle conclusion l'auteur semble-t-il suggérer ?",
+          "options": {
+            "A": "L'IA doit être interdite dans les écoles immédiatement.",
+            "B": "L'éducation doit évoluer mais manque de moyens pour le faire.",
+            "C": "Les enseignants sont tous opposés à l'IA.",
+            "D": "Les élèves trichent plus qu'avant grâce à l'IA."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "La gastronomie française face au défi écologique : quand Michelin rime avec durable\n\nLes grands chefs français ne peuvent plus ignorer l'urgence climatique. Dans leurs cuisines étoilées, une révolution silencieuse s'opère : produits locaux et de saison, réduction du gaspillage alimentaire, suppression du plastique, circuits courts privilégiés. Le guide Michelin vient d'ailleurs d'instaurer une nouvelle distinction, le \"Green Star\", récompensant les établissements engagés dans une démarche écoresponsable. Une reconnaissance symbolique forte dans un milieu traditionnellement plus attentif à la technique qu'à l'empreinte carbone.\n\nCette évolution ne se limite pas à l'effet de mode. Les clients, eux-mêmes sensibilisés, exigent désormais une cuisine éthique. \"On ne peut plus se permettre de servir des fraises en décembre ou du bar de Méditerranée alors que nous sommes en Bretagne\", confie le chef étoilé Arnaud Donckele. Cette conscience nouvelle transforme l'approvisionnement, les recettes, voire la carte des vins. Certains critiques redoutent cependant une uniformisation des saveurs, limitées par la saisonnalité stricte. D'autres y voient au contraire un retour à l'authenticité et à la créativité véritable, loin des artifices permis par la mondialisation agroalimentaire.",
+          "question": "Quelle est l'attitude des chefs face à cette transition écologique ?",
+          "options": {
+            "A": "Ils y sont tous opposés par principe.",
+            "B": "Ils l'acceptent parfois malgré certaines craintes.",
+            "C": "Ils l'adoptent de plus en plus comme une nécessité.",
+            "D": "Ils l'ignorent complètement."
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 37,
+          "text": "L'essor du bio : entre aspiration écologique et réalités économiques\n\nLe marché des produits biologiques connaît une croissance continue en France, avec une progression de 5% sur l'année écoulée. Les consommateurs, soucieux de leur santé et de l'environnement, sont de plus en plus nombreux à privilégier les labels AB et Eurofeuille. Cette tendance de fond semble irréversible, dopée par les scandales alimentaires récents et une prise de conscience collective sur les pesticides.\n\nCependant, le bio reste inaccessible à une partie de la population en raison de ses prix supérieurs de 20 à 40% aux produits conventionnels. Les discounters ont bien tenté de démocratiser l'accès à ces produits, mais la qualité est parfois au rendez-vous. Par ailleurs, certains scientifiques relativisent les bénéfices sanitaires du bio, arguant que la différence nutritionnelle avec l'agriculture conventionnelle reste marginale. Le débat reste ouvert, mais une évidence s'impose : le bio ne pourra véritablement devenir la norme que si l'offre s'élargit suffisamment pour faire baisser les prix, ou si les pouvoirs publics augmentent les aides à l'installation des agriculteurs en conversion.",
+          "question": "Quel obstacle majeur freine la généralisation du bio ?",
+          "options": {
+            "A": "Le manque d'intérêt des consommateurs.",
+            "B": "Le prix plus élevé des produits biologiques.",
+            "C": "L'indisponibilité des produits en magasin.",
+            "D": "L'opposition des agriculteurs."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 38,
+          "text": "La France, championne du monde du tourisme... mais pour combien de temps ?\n\nAvec près de 90 millions de visiteurs étrangers par an, la France conserve son titre de première destination touristique mondiale. Notre patrimoine culturel exceptionnel, notre gastronomie et notre art de vivre continuent d'attirer des foules venues des quatre coins de la planète. Pourtant, ce leadership n'est pas acquis définitivement.\n\nLa concurrence s'intensifie : l'Espagne et l'Italie grignotent des parts de marché, tandis que de nouvelles destinations émergentes (Croatie, Portugal, pays baltes) séduisent les voyageurs en quête d'authenticité et de prix modérés. Le surtourisme parisien engendre lassitude et saturation, et les attentats récents ont durablement marqué l'image de la France dans certains pays émetteurs. De plus, le réchauffement climatique menace nos stations de ski et nos côtes.\n\nPour rester compétitive, la France doit diversifier son offre, mieux répartir les flux touristiques sur le territoire et investir dans l'accueil numérique. La qualité de l'expérience client, souvent décriée, devra s'améliorer drastiquement. Car dans le tourisme d'aujourd'hui, un selfie devant la Tour Eiffel ne suffit plus : le voyageur moderne recherche une immersion authentique et personnalisée.",
+          "question": "Quelle menace pèse sur le tourisme français selon l'auteur ?",
+          "options": {
+            "A": "Le manque de monuments historiques.",
+            "B": "La concurrence internationale croissante et le changement climatique.",
+            "C": "L'absence de restaurants gastronomiques.",
+            "D": "Les prix trop bas qui attirent les touristes."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "Le retour en grâce du train de nuit : nostalgie ou avenir des mobilités ?\n\nIls étaient condamnés, victimes de la concurrence aérienne et de l'état délabré des voies. Pourtant, les trains de nuit connaissent un renouveau inattendu en France. La ligne Paris-Nice, réouverte en 2021, affiche des taux de remplissage record. Le gouvernement a annoncé la création de dix nouvelles liaisons d'ici 2030, reliant notamment Paris à Toulouse, Lourdes ou même Berlin.\n\nCette résurrection s'inscrit dans la stratégie de décarbonation des transports. Un voyageur en train émet 50 fois moins de CO2 que s'il prend l'avion sur un trajet comparable. Mais au-delà de l'argument écologique, c'est l'expérience elle-même qui séduit : dormir pendant le trajet, arriver au cœur de la ville, éviter les contraintes aéroportuaires. \"C'est un mode de voyage plus humain\", résume un habitué.\n\nLes défis restent nombreux : infrastructures vétustes nécessitant des investissements colossaux, temps de trajet souvent supérieurs à ceux d'il y a trente ans, difficultés de concilier fret et voyageurs sur les mêmes lignes. Le succès de ce pari dépendra de la volonté politique à long terme et de la capacité à offrir un service fiable et confortable, loin de l'image vétuste des trains de nuit d'antan.",
+          "question": "Quel argument principal justifie le retour des trains de nuit ?",
+          "options": {
+            "A": "Ils sont plus rapides que les avions.",
+            "B": "Ils sont plus écologiques et pratiques.",
+            "C": "Ils sont moins chers que les bus.",
+            "D": "Ils offrent plus de divertissements à bord."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "La génération Z au travail : mythes et réalités d'une nouvelle approche professionnelle\n\nNés entre 1997 et 2010, ils débarquent sur le marché du travail avec leurs exigences et bouleversent les codes établis. On les dit volatiles, exigeants, addicts aux écrans, désintéressés par l'argent. Mais que disent vraiment les études sur cette génération Z ?\n\nEn réalité, ces jeunes privilégient avant tout le sens et l'équilibre de vie. Ils sont prêts à accepter des salaires inférieurs pour travailler dans une entreprise alignée sur leurs valeurs écologiques et sociales. Ils valorisent la flexibilité horaire et le télétravail, mais pas au détriment des relations humaines : ils recherchent davantage de feedback et de reconnaissance que leurs aînés. Leur maîtrise des outils numériques est indéniable, mais ils souffrent souvent d'une formation insuffisante aux soft skills.\n\nLes entreprises qui parviendront à attirer et fidéliser ces talents devront adapter leur management : plus horizontal, plus transparent, plus engagé socialement. Car cette génération, malgré sa réputation de \"fragile\", fait preuve d'une exigence salutaire qui pourrait contribuer à humaniser le monde du travail. À condition, bien sûr, que les organisations acceptent de se remettre en question.",
+          "question": "Quel reproche fait-on à tort à la génération Z selon l'article ?",
+          "options": {
+            "A": "De manquer de compétences numériques.",
+            "B": "De ne pas vouloir travailler du tout.",
+            "C": "D'être désintéressée par l'argent.",
+            "D": "De refuser toute forme de management."
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

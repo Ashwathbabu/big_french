@@ -1,0 +1,38 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Expression écrite",
+  "duration_minutes": 60,
+  "sections": [
+    {
+      "id": 1,
+      "section": "A",
+      "title": "Rédiger la suite d'un article",
+      "time_minutes": 20,
+      "word_limit": { "min": 80, "max": 150 },
+      "instructions": [
+        "Ajoutez des informations supplémentaires.",
+        "Restez dans un registre formel."
+      ],
+      "article_start": "Un projet de rénovation du centre historique a été approuvé par le conseil municipal après plusieurs mois de débats."
+    },
+    {
+      "id": 2,
+      "section": "B",
+      "time_minutes": 40,
+      "title": "Rédiger un texte argumentatif",
+      "word_limit": { "min": 200, "max": 300 },
+      "instructions": [
+        "Développez au moins deux arguments.",
+        "Donnez des exemples."
+      ],
+      "prompt": "Faut-il encourager davantage le bénévolat chez les jeunes ?"
+    }
+  ],
+  "evaluation": {
+    "task_completion": 25,
+    "coherence_and_structure": 20,
+    "vocabulary_range": 20,
+    "grammar_accuracy": 20,
+    "spelling_and_punctuation": 15
+  }
+}

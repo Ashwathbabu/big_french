@@ -1,0 +1,565 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AVIS IMPORTANT À TOUS LES RÉSIDENTS DU 45 RUE DES ÉRABLES\n\nEn raison de travaux d'entretien sur le système de plomberie, l'eau chaude sera coupée le samedi 15 mars de 8h00 à 16h00. Nous vous recommandons de remplir des récipients d'eau à l'avance pour vos besoins essentiels. Les ascenseurs seront également indisponibles durant cette période pour des raisons de sécurité. Le syndicat vous remercie de votre compréhension et vous invite à contacter la concierge Mme Dubois au 514-555-0123 pour toute urgence. Ces améliorations permettront une meilleure efficacité énergétique de l'immeuble dès le mois prochain.",
+          "question": "Quel est le principal objectif de cet avis ?",
+          "options": {
+            "A": "Informer les résidents d'une interruption de service",
+            "B": "Demander aux résidents de payer des frais de rénovation",
+            "C": "Annoncer une augmentation des loyers",
+            "D": "Inviter les résidents à une réunion du syndicat"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 2,
+          "text": "RESTAURANT LE PETIT BISTROT - MENU DU MIDI\n\nEntrées : Salade verte (6$) ou Soupe du jour (5$)\nPlats principaux : Poulet rôti avec légumes (14$), Saumon grillé avec riz (16$), ou Pâtes à la carbonara (13$)\nDesserts : Crème brûlée (7$) ou Tarte aux pommes (6$)\nFormule complète (entrée + plat + dessert) : 22$\nBoissons non comprises. Service compris.\nHoraires : Du lundi au vendredi, de 11h30 à 14h30.\nRéservations recommandées : 450-555-0198\nParking gratuit disponible derrière le restaurant. Accessible aux personnes à mobilité réduite.",
+          "question": "Combien coûte la formule complète ?",
+          "options": {
+            "A": "18$",
+            "B": "20$",
+            "C": "22$",
+            "D": "25$"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 3,
+          "text": "CENTRE SPORTIF MUNICIPAL - NOUVEAUX HORAIRES\n\nPiscine : Lundi, mercredi, vendredi de 6h00 à 21h00. Mardi, jeudi de 12h00 à 21h00. Samedi et dimanche de 9h00 à 17h00.\nSalle de musculation : Tous les jours de 6h00 à 22h00.\nCours de yoga : Lundi et jeudi de 18h00 à 19h30, samedi de 10h00 à 11h30.\nBadminton : Sur réservation uniquement, mardi et vendredi de 19h00 à 21h00.\nFermeture exceptionnelle le 25 décembre et le 1er janvier.\nTarifs réduits pour les étudiants et les aînés sur présentation d'un justificatif. Inscriptions en ligne sur www.centresportif.ville.ca ou au bureau d'accueil.",
+          "question": "Quand peut-on nager le mardi ?",
+          "options": {
+            "A": "De 6h00 à 21h00",
+            "B": "De 12h00 à 21h00",
+            "C": "De 9h00 à 17h00",
+            "D": "La piscine est fermée le mardi"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "AFFICHE - JOURNÉE PORTES OUVERTES\n\nL'École de Langues Francophones vous invite à sa journée portes ouvertes annuelle le samedi 12 avril de 10h00 à 16h00. Découvrez nos programmes de français langue seconde, participez à des ateliers gratuits de conversation et rencontrez nos professeurs expérimentés. Des tests de niveau gratuits seront disponibles toute la journée. Snacks et rafraîchissements offerts. Parking gratuit sur place. Métro : Station Laurier, sortie 3. Inscription recommandée mais non obligatoire sur www.ecolefrancophones.ca. Cette journée est l'occasion idéale pour évaluer vos besoins et choisir le cours qui vous convient le mieux. Bourses d'études disponibles pour les inscriptions anticipées.",
+          "question": "Que peut-on faire lors de cette journée portes ouvertes ?",
+          "options": {
+            "A": "Passer un examen officiel payant",
+            "B": "Obtenir un diplôme immédiatement",
+            "C": "Faire un test de niveau gratuit",
+            "D": "Rencontrer uniquement des étudiants"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 5,
+          "text": "NOTICE D'UTILISATION - LAVE-LINGE ÉCO-2000\n\n1. Triez votre linge par couleur et par température de lavage recommandée.\n2. Ne surchargez pas le tambour : remplissez aux deux tiers maximum.\n3. Utilisez uniquement de la lessive liquide haute efficacité (HE).\n4. Sélectionnez le programme adapté : coton, synthétique, laine ou rapide.\n5. Pour les taches tenaces, utilisez le pré-lavage.\n6. Nettoyez le filtre après chaque cycle pour optimiser les performances.\n7. Laissez la porte entrouverte après utilisation pour éviter les odeurs.\n8. En cas de dysfonctionnement, débranchez l'appareil et contactez le service technique au 1-800-555-0145. Garantie valable deux ans à compter de la date d'achat sur présentation de la facture.",
+          "question": "Que faut-il utiliser comme lessive ?",
+          "options": {
+            "A": "N'importe quelle lessive en poudre",
+            "B": "De la lessive liquide haute efficacité uniquement",
+            "C": "Du savon de Marseille uniquement",
+            "D": "Aucune lessive n'est nécessaire"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "text": "ANNONCE IMMOBILIÈRE\n\nMagnifique condo de deux chambres à louer dans le quartier Rosemont, à deux pas du métro Rosemont. L'appartement comprend une cuisine moderne entièrement équipée avec électroménagers neufs, un salon lumineux avec balcon, deux chambres de bonne dimension avec placards intégrés, et une salle de bain rénovée. Chauffage, électricité et internet haute vitesse inclus dans le loyer. Buanderie commune au sous-sol. Animaux acceptés sur demande. Disponible immédiatement. Loyer mensuel : 1 450$. Caution d'un mois requise. Pour visiter, contactez M. Tremblay au 514-555-0167 ou par courriel à locations@tremblay.ca. Références demandées.",
+          "question": "Qu'est-ce qui est inclus dans le loyer ?",
+          "options": {
+            "A": "Un stationnement intérieur",
+            "B": "Chauffage, électricité et internet",
+            "C": "Un service de ménage hebdomadaire",
+            "D": "Les frais de gym"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "text": "BIBLIOTHÈQUE MUNICIPALE DE SAINT-LAMBERT\n\nHoraire d'ouverture : Mardi au vendredi de 10h00 à 18h00, samedi de 10h00 à 17h00. Fermé le dimanche et le lundi.\nServices disponibles : Prêt de livres, DVD et magazines (3 semaines), accès Internet gratuit (limité à 30 minutes par jour), salle d'étude silencieuse, et animations pour enfants le samedi matin.\nCarte de bibliothèque gratuite pour les résidents sur présentation d'une preuve d'adresse. Les non-résidents doivent payer 25$ par année.\nRetards : 0,50$ par jour par document en retard.\nRetours possibles dans la boîte extérieure 24h/24.\nNouveautés : Consultez notre site web pour les nouveautés de la semaine et réservez vos documents en ligne.",
+          "question": "Quel jour la bibliothèque est-elle fermée ?",
+          "options": {
+            "A": "Le samedi",
+            "B": "Le dimanche et le lundi",
+            "C": "Le mardi",
+            "D": "Le vendredi"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle y ______ (2) des romans policiers et des magazines d'actualité. Hier, elle ______ (3) un nouveau livre qui lui a beaucoup plu. Elle ______ (4) le lire ce week-end si elle a le temps. Ses amis lui ______ (5) souvent de bons conseils de lecture. La semaine prochaine, elle ______ (6) participer à un club de lecture organisé par la bibliothèque municipale. Elle espère ______ (7) de nouvelles personnes partageant les mêmes intérêts.",
+          "options": {
+            "A": "1. va / 2. emprunte / 3. a trouvé / 4. compte / 5. donnent / 6. va / 7. rencontrer",
+            "B": "1. allait / 2. empruntait / 3. trouvait / 4. comptait / 5. donnaient / 6. allait / 7. rencontrait",
+            "C": "1. est allée / 2. a emprunté / 3. trouve / 4. a compté / 5. ont donné / 6. est / 7. a rencontré",
+            "D": "1. ira / 2. empruntera / 3. trouvera / 4. comptait / 5. donnaient / 6. ira / 7. rencontrera"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 9,
+          "text": "Les études ______ (1) que le sommeil est essentiel pour la santé. Une personne adulte ______ (2) dormir entre sept et neuf heures par nuit. Ceux qui ______ (3) suffisamment ont plus de difficultés à se concentrer au travail. De plus, le manque de sommeil ______ (4) le système immunitaire et augmente le risque de maladies. Les experts ______ (5) d'établir une routine régulière. Il est également recommandé d'éviter ______ (6) écrans avant de se coucher. La qualité du sommeil ______ (7) autant que la quantité.",
+          "options": {
+            "A": "1. démontrent / 2. devrait / 3. ne dorment pas / 4. affaiblit / 5. conseillent / 6. les / 7. compte",
+            "B": "1. démontraient / 2. devait / 3. ne dormaient pas / 4. affaiblissait / 5. conseillaient / 6. des / 7. comptait",
+            "C": "1. ont démontré / 2. doit / 3. dorment / 4. a affaibli / 5. ont conseillé / 6. les / 7. a compté",
+            "D": "1. démontreront / 2. aura dû / 3. dormaient / 4. affaiblira / 5. conseilleront / 6. ces / 7. comptera"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 10,
+          "text": "Le changement climatique ______ (1) de plus en plus préoccupant pour les scientifiques. Les températures moyennes ______ (2) augmenté significativement au cours des dernières décennies. Si nous n'agissons pas rapidement, les conséquences ______ (3) désastreuses pour notre planète. Les gouvernements ______ (4) des mesures pour réduire les émissions de gaz à effet de serre. Chaque citoyen peut également ______ (5) sa part en adoptant des habitudes plus écologiques. Il est crucial que nous ______ (6) conscience de l'urgence de la situation. L'avenir de la prochaine génération ______ (7) de nos actions présentes.",
+          "options": {
+            "A": "1. devient / 2. ont / 3. seront / 4. doivent prendre / 5. faire / 6. prenions / 7. dépend",
+            "B": "1. devenait / 2. avaient / 3. étaient / 4. devaient prendre / 5. faisaient / 6. prenaient / 7. dépendait",
+            "C": "1. est devenu / 2. sont / 3. ont été / 4. ont pris / 5. ont fait / 6. avons pris / 7. a dépendu",
+            "D": "1. deviendra / 2. auront / 3. seraient / 4. prennent / 5. fassent / 6. prendrons / 7. dépendra"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 11,
+          "text": "L'apprentissage des langues étrangères ______ (1) de nombreux avantages cognitifs. Les bilingues ______ (2) souvent une meilleure mémoire et une plus grande capacité de concentration. De plus, parler plusieurs langues ______ (3) les opportunités professionnelles. Beaucoup d'employeurs recherchent activement des candidats ______ (4) maîtrisent l'anglais et le français. Il n'est jamais trop tard ______ (5) commencer à apprendre une nouvelle langue. Avec la pratique régulière, on peut ______ (6) des progrès remarquables en quelques mois. La clé du succès ______ (7) dans la persévérance et l'immersion.",
+          "options": {
+            "A": "1. offre / 2. ont / 3. augmente / 4. qui / 5. pour / 6. faire / 7. réside",
+            "B": "1. offrait / 2. avaient / 3. augmentait / 4. que / 5. de / 6. faisaient / 7. résidait",
+            "C": "1. a offert / 2. ont eu / 3. a augmenté / 4. dont / 5. à / 6. ont fait / 7. a résidé",
+            "D": "1. offrira / 2. auront / 3. augmentera / 4. lesquels / 5. pour / 6. feront / 7. résidera"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 12,
+          "text": "Le télétravail ______ (1) considérablement depuis le début de la pandémie. De nombreuses entreprises ______ (2) adopté cette modalité pour assurer la sécurité de leurs employés. Cependant, cette nouvelle organisation ______ (3) aussi des défis. Certains travailleurs ______ (4) du mal à séparer vie professionnelle et vie personnelle. D'autres ______ (5) l'isolement social difficile à supporter. Les employeurs doivent ______ (6) en place des stratégies pour maintenir la cohésion d'équipe. L'avenir du travail ______ (7) probablement un modèle hybride combinant présentiel et distanciel.",
+          "options": {
+            "A": "1. a augmenté / 2. ont / 3. présente / 4. ont / 5. trouvent / 6. mettre / 7. sera",
+            "B": "1. augmentait / 2. avaient / 3. présentait / 4. avaient / 5. trouvaient / 6. mettaient / 7. serait",
+            "C": "1. augmente / 2. ont eu / 3. a présenté / 4. ont eu / 5. ont trouvé / 6. ont mis / 7. a été",
+            "D": "1. augmentera / 2. auront / 3. présentera / 4. auront / 5. trouveront / 6. mettront / 7. serait"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 13,
+          "text": "La nutrition équilibrée joue un rôle ______ (1) dans le maintien de la santé. Les médecins ______ (2) de consommer au moins cinq portions de fruits et légumes par jour. Il est également important de ______ (3) les aliments trop transformés riches en sucres ajoutés. L'eau reste la meilleure boisson pour ______ (4) hydrater correctement. Ceux qui ______ (5) une alimentation variée ont généralement plus d'énergie. Il ne faut pas ______ (6) les repas, surtout le petit-déjeuner. Une bonne alimentation ______ (7) avec l'activité physique garantit un meilleur bien-être.",
+          "options": {
+            "A": "1. essentiel / 2. recommandent / 3. limiter / 4. se / 5. adoptent / 6. sauter / 7. combinée",
+            "B": "1. essentielle / 2. recommandaient / 3. limitaient / 4. s' / 5. adoptaient / 6. sautaient / 7. combinait",
+            "C": "1. essentiels / 2. ont recommandé / 3. ont limité / 4. les / 5. ont adopté / 6. ont sauté / 7. a combiné",
+            "D": "1. essentielles / 2. recommanderont / 3. limitera / 4. nous / 5. adopteront / 6. sauteront / 7. combinant"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 14,
+          "text": "Les réseaux sociaux ______ (1) profondément la façon dont nous communiquons. Les jeunes générations ______ (2) passent plusieurs heures par jour sur ces plateformes. Cependant, une utilisation excessive peut ______ (3) à l'anxiété et à la dépression. Les experts ______ (4) de limiter le temps d'écran et de privilégier les interactions en personne. Il est important de ______ (5) que la vie présentée en ligne est souvent idéalisée. Les parents doivent ______ (6) leurs enfants à utiliser ces outils de manière responsable. L'équilibre entre vie numérique et vie réelle ______ (7) crucial pour la santé mentale.",
+          "options": {
+            "A": "1. ont transformé / 2. y / 3. conduire / 4. conseillent / 5. se rappeler / 6. éduquer / 7. reste",
+            "B": "1. transformaient / 2. en / 3. conduisaient / 4. conseillaient / 5. se rappelaient / 6. éduquaient / 7. restait",
+            "C": "1. transformaient / 2. les / 3. ont conduit / 4. ont conseillé / 5. se sont rappelés / 6. ont éduqué / 7. est resté",
+            "D": "1. transformeront / 2. leur / 3. conduiront / 4. conseilleront / 5. se rappelleront / 6. éduqueront / 7. restera"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 15,
+          "text": "L'immigration contribue ______ (1) à la richesse culturelle du Canada. Chaque année, des milliers de nouveaux arrivants ______ (2) de nouvelles compétences et perspectives. Le processus d'intégration ______ (3) du temps et des efforts de la part des immigrants. Les programmes de francisation ______ (4) essentiels pour faciliter l'insertion professionnelle. Le gouvernement ______ (5) des services gratuits pour apprendre le français ou l'anglais. Il est important que les employeurs ______ (6) la valeur de l'expérience internationale. La diversité culturelle ______ (7) considérée comme un atout majeur pour le pays.",
+          "options": {
+            "A": "1. largement / 2. apportent / 3. demande / 4. sont / 5. offre / 6. reconnaissent / 7. est",
+            "B": "1. large / 2. apportaient / 3. demandait / 4. étaient / 5. offrait / 6. reconnaissaient / 7. était",
+            "C": "1. larges / 2. ont apporté / 3. a demandé / 4. ont été / 5. a offert / 6. ont reconnu / 7. a été",
+            "D": "1. largeur / 2. apporteront / 3. demandera / 4. seront / 5. offrira / 6. reconnaîtront / 7. sera"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 16,
+          "text": "Le développement durable ______ (1) de plus en plus d'attention dans le monde des affaires. Les consommateurs ______ (2) privilégient les entreprises respectueuses de l'environnement. Les entreprises doivent ______ (3) leurs pratiques pour réduire leur empreinte carbone. Investir dans les énergies renouvelables ______ (4) non seulement écologique mais aussi économique. Les générations futures ______ (5) des choix responsables aujourd'hui. Il est urgent que nous ______ (6) notre mode de consommation. La protection de l'environnement ______ (7) une responsabilité collective.",
+          "options": {
+            "A": "1. attire / 2. actuels / 3. modifier / 4. est / 5. méritent / 6. changions / 7. constitue",
+            "B": "1. attirait / 2. actuelles / 3. modifiaient / 4. était / 5. méritaient / 6. changions / 7. constituait",
+            "C": "1. a attiré / 2. actuels / 3. ont modifié / 4. a été / 5. ont mérité / 6. avons changé / 7. a constitué",
+            "D": "1. attirera / 2. actuellement / 3. modifieront / 4. sera / 5. mériteront / 6. changerons / 7. constituera"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 17,
+          "text": "La lecture régulière ______ (1) le vocabulaire et stimule l'imagination. Les enfants qui ______ (2) beaucoup ont généralement de meilleurs résultats scolaires. Les bibliothèques publiques ______ (3) un accès gratuit à des milliers d'ouvrages. Il est recommandé de ______ (4) au moins vingt minutes par jour à la lecture. Les livres numériques ______ (5) de plus en plus populaires, mais beaucoup préfèrent encore le papier. Les clubs de lecture ______ (6) l'occasion de partager ses découvertes littéraires. La littérature ______ (7) ouvrir l'esprit aux différentes cultures du monde.",
+          "options": {
+            "A": "1. enrichit / 2. lisent / 3. offrent / 4. consacrer / 5. deviennent / 6. offrent / 7. permet de",
+            "B": "1. enrichissait / 2. lisaient / 3. offraient / 4. consacraient / 5. devenaient / 6. offraient / 7. permettaient de",
+            "C": "1. a enrichi / 2. ont lu / 3. ont offert / 4. ont consacré / 5. sont devenus / 6. ont offert / 7. ont permis de",
+            "D": "1. enrichira / 2. liront / 3. offriront / 4. consacreront / 5. deviendront / 6. offriront / 7. permettront de"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "AVIS DE CONVOCATION\n\nVous êtes convoqué(e) au bureau de l'immigration le 15 mai 2024 à 9h30. Veuillez apporter : passeport valide, preuve de résidence, certificat de naissance traduit, et deux photos d'identité récentes. Retard maximum toléré : 15 minutes. En cas d'empêchement, contactez immédiatement le 1-800-555-0200. Absence non justifiée = report du dossier de 6 mois.",
+          "question": "Quelle est la conséquence d'une absence non justifiée ?",
+          "options": {
+            "A": "Une amende de 500$",
+            "B": "Un report du dossier de 6 mois",
+            "C": "Une interdiction de territoire",
+            "D": "Un rendez-vous le lendemain"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "FACTURE ÉLECTRICITÉ - HYDRO-QUÉBEC\n\nPériode : 1er janvier au 31 janvier 2024\nConsommation : 850 kWh\nTarif : 6,159 ¢/kWh (premier 40 kWh/jour)\n        : 9,502 ¢/kWh (excédent)\nTotal avant taxes : 58,45 $\nTPS/TVQ : 8,72 $\nMONTANT TOTAL : 67,17 $\nDate limite de paiement : 20 février 2024",
+          "question": "Quel est le montant total à payer ?",
+          "options": {
+            "A": "58,45 $",
+            "B": "67,17 $",
+            "C": "76,89 $",
+            "D": "49,73 $"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 20,
+          "text": "PROGRAMME DE RECYCLAGE MUNICIPAL\n\nAccepté : Papier, carton, verre, plastiques 1-7, métaux.\nNON accepté : Pizza boxes souillés, sacs en plastique, vaisselle cassée, ampoules.\nCollecte : Mercredis matin, bac bleu au bord de la rue avant 7h00.\nCentre de tri ouvert : Mardi au samedi, 8h00-17h00.\nInfraction : Amende de 100$ pour mauvais tri répété.\nQuestions : 311 ou recyclage@ville.ca",
+          "question": "Quand doit-on sortir le bac de recyclage ?",
+          "options": {
+            "A": "Le lundi soir",
+            "B": "Le mercredi avant 7h00",
+            "C": "Le vendredi matin",
+            "D": "Le samedi après-midi"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 21,
+          "text": "AVIS DE TRAVAIL ROUTIER\n\nIntersection : Boulevard Saint-Laurent et Avenue du Mont-Royal\nDurée : Du 1er au 15 juin 2024\nHeures : 7h00 à 19h00 (du lundi au vendredi)\nFermeture : Voie de droite dans les deux directions\nDétour : Utiliser l'avenue Laurier ou le boulevard René-Lévesque\nStationnement interdit dans la zone de travaux.\nBruit prévu : Forage et pavage entre 10h00 et 16h00.",
+          "question": "Quelle voie est fermée ?",
+          "options": {
+            "A": "La voie de gauche",
+            "B": "La voie du centre",
+            "C": "La voie de droite dans les deux directions",
+            "D": "Toutes les voies"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 22,
+          "text": "RÈGLEMENT DE COPROPRIÉTÉ - ARTICLE 12\n\nLes animaux domestiques sont autorisés dans l'immeuble sous réserve des conditions suivantes : Maximum 2 animaux par appartement. Chiens doivent être tenus en laisse dans les parties communes. Interdiction absolue d'animaux bruyants après 22h00. Les propriétaires sont responsables du nettoyage des déjections dans les espaces extérieurs. Non-respect = mise en demeure et possible résiliation de bail.",
+          "question": "Quelle est la limite d'animaux autorisés par appartement ?",
+          "options": {
+            "A": "1 animal",
+            "B": "2 animaux",
+            "C": "3 animaux",
+            "D": "Aucune limite"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congé sans solde\n\nMadame la Directrice,\n\nJe vous écris pour solliciter un congé sans solde d'une durée de trois mois, à compter du 1er septembre 2024. Cette décision fait suite à une opportunité professionnelle à l'étranger qui nécessite ma présence sur place. J'ai veillé à terminer tous mes projets en cours et à préparer une passation complète avec mon collègue M. Bernard. Je reste évidemment disponible pour toute question pendant cette période. Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nThomas Martin\nService Marketing",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Informer",
+            "B": "Se plaindre",
+            "C": "Inviter",
+            "D": "Féliciter"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 24,
+          "text": "Chers clients,\n\nSuite à votre réclamation concernant la livraison tardive de votre commande #45892, nous tenons à vous présenter nos sincères excuses pour ce désagrément. Nous comprenons l'importance de la ponctualité pour votre activité. En guise de compensation, nous vous offrons un bon d'achat de 50$ valable sur votre prochaine commande. Nous avons également renforcé nos procédures logistiques pour éviter que cela ne se reproduise. Nous espérons regagner votre confiance et restons à votre disposition pour tout complément d'information.\n\nService Clientèle\nEntreprise LogiPlus",
+          "question": "Quel est le ton de ce message ?",
+          "options": {
+            "A": "Aggressif",
+            "B": "Excuses et conciliant",
+            "C": "Indifférent",
+            "D": "Sarcastique"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 25,
+          "text": "Objet : Invitation à la réunion annuelle des actionnaires\n\nMonsieur,\n\nNous avons le plaisir de vous convier à la réunion annuelle des actionnaires qui se tiendra le jeudi 25 avril 2024 à 14h00 au siège social de la société, 1000 rue de la Gauchetière, salle 2000. À l'ordre du jour : présentation des résultats financiers 2023, renouvellement du conseil d'administration, et projets stratégiques 2024. Un cocktail suivra la séance. Veuillez confirmer votre présence avant le 15 avril par courriel à actionnaires@socgen.ca ou par téléphone au 514-555-0300. Nous vous remercions de votre fidélité.",
+          "question": "Quel est le but de ce document ?",
+          "options": {
+            "A": "Licencier des employés",
+            "B": "Inviter à une réunion officielle",
+            "C": "Annoncer une faillite",
+            "D": "Vendre des produits"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "Madame Tremblay,\n\nNous accusons réception de votre candidature au poste de gestionnaire de projet dans notre entreprise. Après examen attentif de votre dossier, nous regrettons de vous informer que nous ne pouvons donner suite à votre demande. Le profil recherché nécessite une expérience spécifique de cinq ans dans le secteur financier que vous ne possédez pas encore. Nous vous encourageons néanmoins à postuler à nouveau dans le futur car votre parcours est intéressant. Nous vous souhaitons bonne continuation dans vos recherches professionnelles.\n\nCordialement,\nDirection des Ressources Humaines\nBanque Nationale",
+          "question": "Quelle information est implicite dans ce message ?",
+          "options": {
+            "A": "La candidate est acceptée",
+            "B": "La candidate n'a pas l'expérience requise",
+            "C": "La candidate doit payer des frais",
+            "D": "La candidate est licenciée"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "À l'attention de tous les employés,\n\nVeuillez noter que suite à la mise à jour de notre système informatique, de nouvelles procédures de sécurité entrent en vigueur dès lundi prochain. Tous les mots de passe doivent désormais comporter au moins 12 caractères incluant des symboles. L'authentification à deux facteurs sera obligatoire pour accéder aux données confidentielles. Une session de formation obligatoire est prévue ce vendredi à 14h00 en salle B. Le non-respect de ces nouvelles mesures pourrait entraîner une suspension temporaire des accès. Merci de votre coopération.\n\nService Informatique",
+          "question": "Quelle conséquence est mentionnée pour le non-respect des règles ?",
+          "options": {
+            "A": "Une prime de risque",
+            "B": "Une suspension temporaire des accès",
+            "C": "Une promotion",
+            "D": "Une augmentation de salaire"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Objet : Confirmation de réservation - Hôtel Lac-Bleu\n\nMadame Dubois,\n\nNous confirmons votre réservation pour les dates suivantes : arrivée le 15 juillet 2024, départ le 22 juillet 2024. Chambre double avec vue sur le lac, petit-déjeuner inclus. Tarif : 145$ par nuit. Un acompte de 290$ a été débité sur votre carte se terminant par 4521. Le solde sera payable à l'arrivée. Annulation gratuite jusqu'au 1er juillet. Passé cette date, des frais d'une nuitée seront retenus. Nous vous attendons avec impatience et restons à votre disposition pour organiser des activités sur place.\n\nLa direction",
+          "question": "Quel est le ton général de ce message ?",
+          "options": {
+            "A": "Hostile",
+            "B": "Professionnel et accueillant",
+            "C": "Négligent",
+            "D": "Urgent et alarmant"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Chers collègues,\n\nJ'ai le regret de vous informer que notre collègue Jean-Pierre Lefebvre prendra sa retraite après 35 années de loyaux services au sein de notre entreprise. Pour marquer cet événement, nous organisons une petite cérémonie d'adieu le vendredi 28 juin à 16h00 dans la salle de conférence principale. Un pot suivra pour l'occasion. Nous vous invitons à contribuer à une collecte pour lui offrir un cadeau souvenir. Vos témoignages et anecdotes seront également les bienvenus. Merci de confirmer votre présence avant le 20 juin auprès de la secrétaire.",
+          "question": "Quel est le but principal de ce message ?",
+          "options": {
+            "A": "Annoncer une retraite et organiser un événement",
+            "B": "Licencier un employé",
+            "C": "Annoncer une augmentation de salaire",
+            "D": "Critiquer un collègue"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 30,
+          "text": "Objet : Réclamation concernant la facture #7845\n\nMonsieur le Gérant,\n\nJe me permets de vous contacter au sujet de la facture reçue le 10 mai, laquelle comporte plusieurs erreurs. Premièrement, vous m'avez facturé deux fois la prestation du 3 avril. Deuxièmement, le taux horaire appliqué ne correspond pas à celui convenu lors de notre entretien. Je vous joins une copie du contrat initial pour votre référence. Je vous prie de bien vouloir corriger ces erreurs et m'envoyer une facture rectifiée dans les plus brefs délais. Dans l'attente de votre réponse, je vous prie d'agréer mes salutations distinguées.\n\nMartin Gagnon\nDirecteur des Achats",
+          "question": "Quelle est l'intention de l'expéditeur ?",
+          "options": {
+            "A": "Féliciter pour un bon service",
+            "B": "Demander une correction de facture",
+            "C": "Commander de nouveaux produits",
+            "D": "Annuler un contrat"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 31,
+          "text": "Madame,\n\nSuite à votre entretien d'embauche du 12 mars dernier, nous avons le plaisir de vous informer que votre candidature a été retenue pour le poste d'assistante administrative au sein de notre département juridique. Nous vous proposons un contrat à durée indéterminée à temps plein, avec une période d'essai de trois mois. Le salaire annuel brut proposé est de 45 000$ avec avantages sociaux. Veuillez nous faire part de votre décision avant le 25 mars. Nous restons à votre disposition pour discuter des modalités. Dans l'attente de votre réponse favorable.\n\nCordialement,\nMe Sophie Lambert\nAssociée gérante",
+          "question": "Quel type de contrat est proposé ?",
+          "options": {
+            "A": "Contrat à durée déterminée",
+            "B": "Contrat à durée indéterminée",
+            "C": "Contrat de stage non rémunéré",
+            "D": "Contrat temporaire"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "À tous les résidents du quartier,\n\nLa Ville de Montréal procédera à l'inspection et au remplacement des conduites d'eau potable sur votre rue du 10 au 24 août prochain. Durant cette période, des coupures d'eau intermittentes sont à prévoir entre 9h00 et 16h00. Des panneaux indicateurs seront installés pour signaler les zones de travaux. Nous vous recommandons de remplir des récipients d'eau la veille. Les accès piétonniers seront maintenus mais la circulation automobile sera déviée. Nous vous prions de bien vouloir nous excuser pour la gêne occasionnée et vous remercions de votre compréhension.",
+          "question": "Quel est le ton de cette communication ?",
+          "options": {
+            "A": "Informatif et excuse",
+            "B": "Aggressif et menaçant",
+            "C": "Commercial et promotionnel",
+            "D": "Humoristique et léger"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "Le télétravail s'installe durablement dans le paysage québécois, transformant profondément nos habitudes de travail. Selon une récente étude de l'Institut de recherche en économie contemporaine, près de 40% des travailleurs québécois effectuent désormais au moins une partie de leur semaine à distance. Cette révolution silencieuse soulève pourtant des questions cruciales sur l'équilibre vie professionnelle-vie personnelle. Si beaucoup saluent la flexibilité retrouvée, d'autres déplorent l'effacement progressif des frontières entre le bureau et le domicile. Les experts alertent sur les risques de burn-out liés à la surcharge de travail. Par ailleurs, les entreprises doivent réinventer leur management et maintenir la cohésion d'équipe à distance. Le défi majeur reste de préserver la santé mentale des employés tout en maintenant la productivité. L'avenir semble pointer vers un modèle hybride, mais sa mise en œuvre nécessite une réflexion approfondie sur les droits des travailleurs.",
+          "question": "Quelle est la position de l'auteur concernant le télétravail ?",
+          "options": {
+            "A": "Positive",
+            "B": "Négative",
+            "C": "Neutre",
+            "D": "Critique"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 34,
+          "text": "L'inflation galopante qui frappe le Canada depuis deux années inquiète économistes et citoyens. Les prix à la consommation ont augmenté de 3,4% sur les douze derniers mois, affectant particulièrement les catégories les plus vulnérables. L'alimentation et le logement constituent les postes de dépenses les plus durement touchés. Les ménages à revenus modestes doivent désormais faire des choix drastiques, parfois entre se nourrir convenablement et payer leur loyer. La Banque du Canada maintient ses taux d'intérêt élevés pour juguler cette hausse, mais cette politique monétaire restrictive pèse sur l'accès à la propriété. Les jeunes générations voient leur rêve de propriété s'éloigner davantage. Les syndicats réclament des hausses de salaires significatives pour préserver le pouvoir d'achat. Le gouvernement fédéral promet des mesures ciblées, mais leur efficacité reste à démontrer. Cette crise économique risque de laisser des séquelles durables sur la cohésion sociale.",
+          "question": "Quelle est l'idée principale de cet article ?",
+          "options": {
+            "A": "L'inflation bénéficie aux jeunes générations",
+            "B": "L'inflation a des conséquences sociales graves",
+            "C": "La Banque du Canada a baissé les taux d'intérêt",
+            "D": "Les salaires ont augmenté significativement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "La transition écologique s'impose comme le défi majeur de notre siècle, pourtant les actions concrètes peinent à suivre les discours volontaristes. Le Canada s'est engagé à réduire ses émissions de gaz à effet de serre de 40% d'ici 2030, un objectif ambitieux qui nécessite une transformation radicale de notre économie. Les industries polluantes, notamment l'exploitation pétrolière albertaine, résistent farouchement à toute réglementation contraignante. Les gouvernements provinciaux multiplient les recours juridiques pour contourner les politiques fédérales. Pendant ce temps, les citoyens observent avec inquiétude la multiplication des catastrophes climatiques : feux de forêt dévastateurs, inondations historiques, canicules meurtrières. La jeunesse québécoise manifeste régulièrement pour exiger des actions immédiates. Pourtant, les investissements massifs nécessaires dans les énergies renouvelables tardent à se concrétiser. Le fossé se creuse entre l'urgence climatique scientifiquement établie et la lenteur des processus décisionnaires politiques.",
+          "question": "Quelle inférence peut-on tirer de cet article ?",
+          "options": {
+            "A": "Tous les Canadiens soutiennent la transition écologique",
+            "B": "Il existe des tensions entre intérêts économiques et environnementaux",
+            "C": "Le Canada a déjà atteint ses objectifs climatiques",
+            "D": "Les catastrophes climatiques ont cessé"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "L'intelligence artificielle bouleverse le monde du travail à une vitesse vertigineuse, suscitant à la fois espoirs et angoisses. Les algorithmes sophistiqués automatisent désormais des tâches jugées jusqu'ici réservées à l'intelligence humaine : traduction, analyse juridique, diagnostic médical, création artistique. Cette révolution technologique promet des gains de productivité considérables mais menace des millions d'emplois. Les chauffeurs, les comptables, les employés de bureau voient leur avenir professionnel menacé par des machines toujours plus performantes. Les experts estiment que 40% des emplois actuels pourraient disparaître d'ici vingt ans. Pourtant, l'IA crée également de nouvelles opportunités dans des secteurs émergents. Le défi consiste à accompagner cette transition par une formation massive de la main-d'œuvre. Les gouvernements doivent anticiper ces mutations pour éviter une fracture sociale majeure. L'adaptation rapide des systèmes éducatifs s'impose comme une urgence absolue.",
+          "question": "Quelle est l'opinion de l'auteur sur l'IA ?",
+          "options": {
+            "A": "Elle est entièrement positive",
+            "B": "Elle présente des opportunités mais aussi des risques",
+            "C": "Elle doit être interdite immédiatement",
+            "D": "Elle n'affectera pas l'emploi"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "La crise du logement atteint des proportions alarmantes dans les grandes villes canadiennes, transformant l'accès à un domicile décent en véritable casse-tête pour des milliers de familles. À Toronto et Vancouver, le prix moyen d'une maison dépasse désormais le million de dollars, excluant définitivement la classe moyenne du marché immobilier. Même les locations deviennent impossibles à assumer pour de nombreux ménages, contraints de s'éloigner en banlieue ou de partager des logements exigus. Les promoteurs immobiliers privilégient les projets luxueux aux dépens du logement social. Les gouvernements municipaux peinent à imposer des quotas de logements abordables. Cette crise touche particulièrement les nouveaux arrivants et les jeunes professionnels qui constituent pourtant l'avenir économique du pays. L'exode urbain s'accélère, vidant les centres-villes de leur vitalité. Des solutions radicales s'imposent : taxation des spéculateurs, encadrement des loyers, investissements massifs dans le logement social. L'inaction politique risque de générer des fractures sociales profondes et durables.",
+          "question": "Quel est le ton de l'auteur ?",
+          "options": {
+            "A": "Indifférent",
+            "B": "Alarmiste et critique",
+            "C": "Optimiste",
+            "D": "Sarcastique"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 38,
+          "text": "L'immigration constitue le moteur démographique essentiel du Canada, compensant le déclin de la natalité et le vieillissement de la population. Chaque année, le pays accueille plus de 400 000 nouveaux résidents permanents, un record historique parmi les pays développés. Cette politique d'ouverture enrichit considérablement le tissu culturel et économique canadien. Les immigrants apportent des compétences variées, créent des entreprises et contribuent au financement des régimes publics. Pourtant, l'intégration reste un défi majeur. De nombreux professionnels qualifiés peinent à faire reconnaître leurs diplômes et vivent de précaires emplois sous-qualifiés. Le rac systémique persiste dans l'accès à l'emploi et au logement. Les communautés francophones s'inquiètent du déclin démographique relatif des francophones hors Québec. Les débats sur les seuils d'immigration s'intensifient, opposant ceux qui réclament plus d'entrées pour pallier la pénurie de main-d'œuvre et ceux qui craignent la pression sur les infrastructures. Trouver l'équilibre entre accueil et intégration efficace reste le défi central des politiques migratoires canadiennes.",
+          "question": "Quelle nuance l'auteur apporte-t-il sur l'immigration ?",
+          "options": {
+            "A": "Elle est uniquement bénéfique sans aucun problème",
+            "B": "Elle est positive mais pose des défis d'intégration",
+            "C": "Elle doit être complètement arrêtée",
+            "D": "Elle n'a aucun impact économique"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "La santé mentale des jeunes Canadiens inquiète gravement les spécialistes, qui observent une augmentation alarmante des troubles anxieux et dépressifs depuis la pandémie. Les réseaux sociaux, la pression scolaire et l'incertitude économique créent un cocktail délétère pour la génération Z. Les temps d'attente pour consulter un psychologue dépassent souvent six mois dans le public, condamnant les familles à des dépenses privées insoutenables ou à une souffrance non traitée. Les écoles manquent cruellement de ressources en santé mentale, avec un ratio de conseillers d'orientation dépassant souvent 1 pour 500 élèves. La stigmatisation persiste, empêchant nombre de jeunes de chercher de l'aide. Les gouvernements annoncent régulièrement des investissements, mais les services sur le terrain peinent à suivre la demande explosive. La prévention reste insuffisante, privilégiant souvent l'intervention en crise plutôt que l'accompagnement précoce. Cette négligence risque de laisser des séquelles durables sur une génération entière.",
+          "question": "Quelle est la position de l'auteur sur la gestion actuelle ?",
+          "options": {
+            "A": "Elle est parfaitement adéquate",
+            "B": "Elle est insuffisante et réactive plutôt que préventive",
+            "C": "Elle est excellente et exemplaire",
+            "D": "Elle ne concerne que les adultes"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "La francophonie canadienne fait face à des défis existentiels qui menacent sa pérennité hors Québec. Les recensements successifs révèlent un déclin relatif de la proportion de francophones dans l'ensemble du pays, passée de 30% en 1961 à moins de 20% aujourd'hui. L'assimilation linguistique frappe particulièrement les communautés minoritaires où l'exogamie et l'attrait de l'anglais érodent la transmission intergénérationnelle. Les services en français restent insuffisants dans les provinces anglophones malgré les obligations légales. Les jeunes francophones quittent souvent leurs régions natales pour des opportunités économiques ailleurs, vidant les communautés de leur dynamisme. Pourtant, des initiatives prometteuses émergent : immersion française en hausse, médias francophones numériques innovants, revendications juridiques victorieuses. La loi sur les langues officielles récemment modernisée renforce les droits linguistiques. Mais sans volonté politique soutenue et investissements massifs en éducation et en services, le français risque de devenir une langue de courtoisie plutôt que de vie quotidienne pour les générations futures. L'avenir du bilinguisme canadien se joue dans les prochaines décennies.",
+          "question": "Quelle conclusion l'auteur suggère-t-il ?",
+          "options": {
+            "A": "Le français est condamné à disparaître immédiatement",
+            "B": "L'avenir du français dépend des actions politiques et éducatives",
+            "C": "Le bilinguisme canadien est déjà mort",
+            "D": "Les francophones ne sont pas concernés par ces défis"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

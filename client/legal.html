@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Legal – BigFrench.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: { blue: '#1e40af', red: '#ef4444', dark: '#0f172a', light: '#f8fafc' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* ── FOOTER ── */
+        .footer-root { background: #2a3040; color: #9aa3b2; font-family: 'Inter', sans-serif; }
+        .footer-rainbow { height: 4px; background: linear-gradient(90deg, #ef4444, #1E40AF, #eab308, #22c55e, #3b82f6, #8b5cf6, #ec4899); }
+        .footer-main { width: 100%; margin: 0 auto; padding: 18px 120px 12px; display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 80px; max-width: 100%; }
+        @media (max-width: 768px) { .footer-main { grid-template-columns: 1fr; gap: 20px; padding: 12px 32px 8px; } }
+        .footer-brand-name { font-size: 13px; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 7px; margin-bottom: 8px; }
+        .footer-brand-icon { width: 24px; height: 24px; background: linear-gradient(135deg, #1E40AF, #ef4444); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; flex-shrink: 0; }
+        .footer-contact-item { display: flex; align-items: center; gap: 7px; color: #9aa3b2; font-size: 11px; margin-bottom: 6px; text-decoration: none; transition: color 0.2s; }
+        .footer-contact-item:hover { color: #1E40AF; }
+        .footer-contact-icon { width: 14px; text-align: center; color: #1E40AF; font-size: 11px; flex-shrink: 0; }
+        .footer-col-title { font-size: 11px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px; }
+        .footer-links { list-style: none; padding: 0; margin: 0; }
+        .footer-links li { margin-bottom: 6px; }
+        .footer-links a { font-size: 12px; color: #f0c040; text-decoration: none; font-weight: 500; transition: color 0.2s, padding-left 0.2s; display: inline-block; }
+        .footer-links a:hover { color: #fff; padding-left: 4px; }
+        .footer-courses a { color: #4ade80 !important; }
+        .footer-courses a:hover { color: #86efac !important; }
+        .footer-bottom { width: 100%; padding: 8px 120px 8px; display: flex; align-items: center; justify-content: center; border-top: 1px solid rgba(255,255,255,0.08); font-size: 11px; color: #6b7280; flex-wrap: wrap; gap: 10px; }
+        @media (max-width: 640px) { .footer-bottom { padding: 16px 24px 20px; flex-direction: column; text-align: center; } }
+        .footer-social { display: flex; gap: 10px; margin-top: 18px; }
+        .footer-social a { width: 32px; height: 32px; border-radius: 8px; background: rgba(255,255,255,0.07); display: flex; align-items: center; justify-content: center; color: #9aa3b2; font-size: 13px; text-decoration: none; transition: background 0.2s, color 0.2s; }
+        .footer-social a:hover { background: #1E40AF; color: white; }
+        .float-whatsapp { position: fixed; bottom: 72px; right: 20px; width: 48px; height: 48px; background: #25d366; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 22px; box-shadow: 0 4px 16px rgba(37,211,102,0.4); text-decoration: none; transition: transform 0.2s; z-index: 999; }
+        .float-whatsapp:hover { transform: scale(1.1); }
+        .float-scroll-top { position: fixed; bottom: 20px; right: 20px; width: 40px; height: 40px; background: #1E40AF; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; cursor: pointer; border: none; transition: transform 0.2s, opacity 0.3s; z-index: 999; opacity: 0; }
+        .float-scroll-top.visible { opacity: 1; }
+
+        /* ── LEGAL CONTENT ── */
+        .gradient-text { background: linear-gradient(90deg, #1e40af 0%, #ef4444 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .tab-btn { transition: all 0.3s ease; }
+        .tab-btn.active { background: linear-gradient(135deg, #1e40af, #2563eb); color: white; box-shadow: 0 8px 24px rgba(30,64,175,0.3); }
+        .tab-panel { display: none; }
+        .tab-panel.active { display: block; }
+
+        .section-card {
+            background: white;
+            border-radius: 16px;
+            border: 1px solid #e2e8f0;
+            padding: 28px 32px;
+            margin-bottom: 16px;
+            transition: box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+        .section-card:hover {
+            box-shadow: 0 8px 32px rgba(30,64,175,0.08);
+            border-color: #bfdbfe;
+        }
+        .section-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #1e40af, #3b82f6);
+            color: white;
+            font-weight: 700;
+            font-size: 13px;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+        .section-title {
+            font-size: 17px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+        .section-body {
+            font-size: 14px;
+            color: #475569;
+            line-height: 1.8;
+        }
+        .subsection-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1e3a8a;
+            margin-top: 16px;
+            margin-bottom: 6px;
+        }
+        .bullet-list {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .bullet-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 6px 0;
+            font-size: 14px;
+            color: #475569;
+            line-height: 1.6;
+        }
+        .bullet-list li::before {
+            content: '';
+            display: block;
+            width: 6px;
+            height: 6px;
+            background: #3b82f6;
+            border-radius: 50%;
+            margin-top: 7px;
+            flex-shrink: 0;
+        }
+        .warning-box {
+            background: linear-gradient(135deg, #fef3c7, #fde68a20);
+            border: 1px solid #fcd34d;
+            border-left: 4px solid #f59e0b;
+            border-radius: 10px;
+            padding: 14px 18px;
+            margin: 14px 0;
+            font-size: 13.5px;
+            color: #92400e;
+            line-height: 1.7;
+        }
+        .danger-box {
+            background: linear-gradient(135deg, #fef2f2, #fee2e2);
+            border: 1px solid #fca5a5;
+            border-left: 4px solid #ef4444;
+            border-radius: 10px;
+            padding: 14px 18px;
+            margin: 14px 0;
+            font-size: 13.5px;
+            color: #991b1b;
+            line-height: 1.7;
+        }
+        .info-box {
+            background: linear-gradient(135deg, #eff6ff, #dbeafe40);
+            border: 1px solid #93c5fd;
+            border-left: 4px solid #3b82f6;
+            border-radius: 10px;
+            padding: 14px 18px;
+            margin: 14px 0;
+            font-size: 13.5px;
+            color: #1e3a8a;
+            line-height: 1.7;
+        }
+        .toc-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #475569;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
+        }
+        .toc-link:hover {
+            background: #eff6ff;
+            color: #1e40af;
+            border-color: #bfdbfe;
+        }
+        .toc-link .toc-num {
+            font-size: 11px;
+            font-weight: 700;
+            color: #1e40af;
+            background: #dbeafe;
+            border-radius: 4px;
+            padding: 1px 6px;
+            flex-shrink: 0;
+        }
+        .hero-legal {
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 40%, #1e3a8a 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-legal::before {
+            content: '';
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%);
+            top: -200px;
+            right: -100px;
+            border-radius: 50%;
+        }
+        .hero-legal::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(239,68,68,0.1) 0%, transparent 70%);
+            bottom: -100px;
+            left: -50px;
+            border-radius: 50%;
+        }
+        .sticky-toc {
+            position: sticky;
+            top: 96px;
+        }
+        @media (max-width: 1024px) {
+            .sticky-toc { position: static; }
+        }
+    </style>
+    <link rel="stylesheet" href="mobile-optimized.css">
+</head>
+<body class="font-sans text-slate-800 bg-slate-50 overflow-x-hidden">
+
+<!-- ══════════════ NAVBAR ══════════════ -->
+<nav class="fixed w-full z-50 bg-white/90 backdrop-blur-xl border-b border-slate-200/50 shadow-sm transition-all duration-300" id="navbar">
+  <div class="w-full mx-auto px-6 sm:px-8 lg:px-12">
+    <div class="flex items-center justify-between h-20">
+
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-700 rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-600/30 group-hover:shadow-blue-600/50 transition-all duration-300 group-hover:scale-105">
+          <i class="fas fa-graduation-cap text-lg"></i>
+        </div>
+        <span class="text-xl font-bold text-slate-800 tracking-tight">
+          BigFrench<span class="text-blue-600">.com</span>
+        </span>
+      </a>
+
+      <!-- Center Links -->
+      <div class="hidden lg:flex items-center gap-1">
+        <div class="relative group">
+          <button class="flex items-center gap-2 px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">
+            Courses <i class="fas fa-chevron-down text-xs transition-transform duration-300 group-hover:rotate-180"></i>
+          </button>
+          <div class="absolute top-full left-0 mt-2 w-80 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+            <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 p-2 overflow-hidden">
+              <a href="tef-canada.html" class="flex items-start gap-4 p-4 rounded-xl hover:bg-gradient-to-r hover:from-blue-50 hover:to-blue-100/50 transition-all duration-300 group/item">
+                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 group-hover/item:bg-blue-600 group-hover/item:text-white transition-all duration-300 shadow-sm"><i class="fas fa-book text-lg"></i></div>
+                <div class="flex-1">
+                  <div class="flex items-center gap-2"><strong class="text-slate-900 font-semibold">TEF Canada</strong><span class="px-2 py-0.5 bg-blue-100 text-blue-700 text-[10px] font-bold rounded-full">POPULAR</span></div>
+                  <p class="text-xs text-slate-500 mt-1 leading-relaxed">Complete preparation for Test d'Évaluation de Français</p>
+                </div>
+              </a>
+              <div class="h-px bg-slate-100 my-2"></div>
+              <a href="tcf-canada.html" class="flex items-start gap-4 p-4 rounded-xl hover:bg-gradient-to-r hover:from-emerald-50 hover:to-emerald-100/50 transition-all duration-300 group/item relative overflow-hidden">
+                <div class="absolute top-2 right-2 px-2 py-0.5 bg-emerald-100 text-emerald-700 text-[9px] font-bold rounded-full">SOON</div>
+                <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-emerald-600 group-hover/item:bg-emerald-600 group-hover/item:text-white transition-all duration-300 shadow-sm"><i class="fas fa-file-alt text-lg"></i></div>
+                <div class="flex-1">
+                  <strong class="text-slate-900 font-semibold">TCF Canada</strong>
+                  <p class="text-xs text-slate-500 mt-1 leading-relaxed">Test de Connaissance du Français preparation</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#how-it-works" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">How It Works</a>
+        <a href="index.html#compare" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">Compare</a>
+        <a href="index.html#reviews" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">Reviews</a>
+        <a href="index.html#faq" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">FAQ</a>
+        <a href="aboutus.html" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">About Us</a>
+      </div>
+
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenuBtn" class="lg:hidden flex flex-col gap-1.5 p-2 rounded-lg hover:bg-slate-100 transition" aria-label="Menu">
+        <span class="block w-5 h-0.5 bg-slate-700 rounded"></span>
+        <span class="block w-5 h-0.5 bg-slate-700 rounded"></span>
+        <span class="block w-5 h-0.5 bg-slate-700 rounded"></span>
+      </button>
+      <!-- Right Side -->
+      <div class="flex items-center gap-3">
+        <div id="loginBtn">
+          <a href="login.html" class="relative group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-2.5 rounded-full font-bold text-sm transition-all duration-300 hover:scale-105 hover:shadow-[0_10px_30px_rgba(30,64,175,0.4)] flex items-center justify-center gap-2">
+            Sign In <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-300"></i>
+          </a>
+        </div>
+        <div id="userArea" class="relative hidden">
+          <button id="userMenuBtn" type="button" class="flex items-center gap-2 px-3 py-2 bg-white border border-slate-200 rounded-full shadow-sm hover:shadow-md transition-all duration-300">
+            <div id="userAvatar" class="w-8 h-8 bg-slate-200 rounded-full flex items-center justify-center text-slate-600 text-sm font-semibold">AS</div>
+            <span id="userName" class="text-sm font-medium text-slate-700 max-w-[100px] truncate">User</span>
+            <i id="userChevron" class="fas fa-chevron-down text-xs text-slate-400 transition-transform duration-300"></i>
+          </button>
+          <div id="userMenu" class="hidden absolute right-0 mt-2 w-64 bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden z-50">
+            <div class="p-4 border-b border-slate-100">
+              <div class="font-semibold text-slate-900 text-sm" id="userEmailFull"></div>
+              <div class="text-xs text-slate-400 mt-0.5" id="userEmailSub"></div>
+            </div>
+            <div class="p-2">
+              <a href="profile.html" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-50 transition-colors duration-200 group">
+                <div class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-500 group-hover:border-blue-400 group-hover:text-blue-600 transition-all duration-200"><i class="far fa-user text-sm"></i></div>
+                <span class="text-sm font-medium text-slate-700">My Profile</span>
+              </a>
+              <a href="dashboard.html" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-50 transition-colors duration-200 group">
+                <div class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-500 group-hover:border-blue-400 group-hover:text-blue-600 transition-all duration-200"><i class="fas fa-chart-bar text-sm"></i></div>
+                <span class="text-sm font-medium text-slate-700">Progress Dashboard</span>
+              </a>
+              <div class="h-px bg-slate-100 my-2"></div>
+              <button onclick="logout()" class="w-full flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-red-50 transition-colors duration-200 group text-left">
+                <div class="w-8 h-8 rounded-full border border-red-200 flex items-center justify-center text-red-500 group-hover:bg-red-500 group-hover:text-white transition-all duration-200"><i class="fas fa-sign-out-alt text-sm"></i></div>
+                <span class="text-sm font-medium text-red-600">Sign Out</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <a href="signup.html" id="signupBtn" class="relative group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-2.5 rounded-full font-bold text-sm transition-all duration-300 hover:scale-105 hover:shadow-[0_10px_30px_rgba(30,64,175,0.4)] flex items-center justify-center gap-2">
+          Get Started <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-300"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div id="mobileNavOverlay" class="fixed inset-0 bg-black/50 z-40 hidden lg:hidden" onclick="closeMobileMenu()"></div>
+<div id="mobileNav" class="fixed top-0 right-0 h-full w-72 max-w-[85vw] bg-white z-50 shadow-2xl transform translate-x-full transition-transform duration-300 lg:hidden overflow-y-auto">
+  <div class="p-5">
+    <div class="flex items-center justify-between mb-6">
+      <a href="index.html" class="flex items-center gap-2">
+        <div class="w-8 h-8 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white"><i class="fas fa-graduation-cap text-sm"></i></div>
+        <span class="font-bold text-slate-800">BigFrench<span class="text-blue-600">.com</span></span>
+      </a>
+      <button onclick="closeMobileMenu()" class="w-9 h-9 flex items-center justify-center rounded-lg hover:bg-slate-100 text-slate-500"><i class="fas fa-times"></i></button>
+    </div>
+    <nav class="flex flex-col gap-1">
+      <a href="tef-canada.html" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-blue-50 text-slate-700 font-medium transition"><i class="fas fa-book text-blue-500 w-4"></i> TEF Canada</a>
+      <a href="tcf-canada.html" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-emerald-50 text-slate-700 font-medium transition"><i class="fas fa-file-alt text-emerald-500 w-4"></i> TCF Canada</a>
+      <div class="h-px bg-slate-100 my-2"></div>
+      <a href="index.html#how-it-works" onclick="closeMobileMenu()" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-50 text-slate-700 transition"><i class="fas fa-route text-slate-400 w-4"></i> How It Works</a>
+      <a href="index.html#compare" onclick="closeMobileMenu()" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-50 text-slate-700 transition"><i class="fas fa-balance-scale text-slate-400 w-4"></i> Compare</a>
+      <a href="index.html#reviews" onclick="closeMobileMenu()" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-50 text-slate-700 transition"><i class="fas fa-star text-slate-400 w-4"></i> Reviews</a>
+      <a href="aboutus.html" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-50 text-slate-700 transition"><i class="fas fa-users text-slate-400 w-4"></i> About Us</a>
+      <div class="h-px bg-slate-100 my-2"></div>
+      <a href="login.html" class="flex items-center justify-center gap-2 w-full bg-blue-600 text-white px-4 py-3 rounded-xl font-bold text-sm hover:bg-blue-700 transition"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+      <a href="signup.html" class="flex items-center justify-center gap-2 w-full border-2 border-blue-600 text-blue-600 px-4 py-3 rounded-xl font-bold text-sm hover:bg-blue-50 transition mt-1">Get Started Free</a>
+    </nav>
+  </div>
+</div>
+<script>
+function openMobileMenu(){document.getElementById('mobileNav').style.transform='translateX(0)';document.getElementById('mobileNavOverlay').classList.remove('hidden');document.body.style.overflow='hidden';}
+function closeMobileMenu(){document.getElementById('mobileNav').style.transform='translateX(100%)';document.getElementById('mobileNavOverlay').classList.add('hidden');document.body.style.overflow='';}
+var _mmb=document.getElementById('mobileMenuBtn');if(_mmb)_mmb.addEventListener('click',openMobileMenu);
+</script>
+
+
+<!-- ══════════════ HERO ══════════════ -->
+<section class="hero-legal pt-36 pb-16 relative z-10">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-blue-300 text-sm font-medium mb-6 border border-white/20">
+      <i class="fas fa-shield-alt"></i>
+      Legal Documentation · Skyspire Academy Private Limited
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-4 leading-tight">
+      Legal <span style="background: linear-gradient(90deg, #60a5fa, #f87171); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Protection</span> Centre
+    </h1>
+    <p class="text-slate-400 text-lg max-w-2xl mx-auto mb-4">
+      Our commitment to transparency. Please read these documents carefully before using BigFrench.com.
+    </p>
+    <div class="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-500 mt-6">
+      <span class="flex items-center gap-1.5"><i class="fas fa-calendar-alt text-blue-400"></i> Effective: February 14, 2026</span>
+      <span class="text-slate-700">•</span>
+      <span class="flex items-center gap-1.5"><i class="fas fa-sync-alt text-blue-400"></i> Last Updated: February 19, 2026</span>
+      <span class="text-slate-700">•</span>
+      <span class="flex items-center gap-1.5"><i class="fas fa-building text-blue-400"></i> Governing Law: India</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ TABS ══════════════ -->
+<div class="sticky top-20 z-40 bg-white/95 backdrop-blur-xl border-b border-slate-200 shadow-sm">
+  <div class="max-w-5xl mx-auto px-6 py-3 flex gap-3">
+    <button class="tab-btn active flex items-center gap-2 px-6 py-2.5 rounded-full font-semibold text-sm" onclick="switchTab('terms', this)">
+      <i class="fas fa-file-contract"></i> Terms &amp; Conditions
+    </button>
+    <button class="tab-btn flex items-center gap-2 px-6 py-2.5 rounded-full font-semibold text-sm text-slate-600 border border-slate-200 hover:border-blue-300 hover:text-blue-700" onclick="switchTab('privacy', this)">
+      <i class="fas fa-user-shield"></i> Privacy Policy
+    </button>
+  </div>
+</div>
+
+<!-- ══════════════ CONTENT ══════════════ -->
+<div class="max-w-5xl mx-auto px-6 py-12">
+
+  <!-- ─── TERMS & CONDITIONS ─── -->
+  <div id="tab-terms" class="tab-panel active">
+    <div class="flex gap-8 lg:gap-12 items-start">
+
+      <!-- TOC Sidebar -->
+      <aside class="hidden lg:block w-60 flex-shrink-0">
+        <div class="sticky-toc bg-white rounded-2xl border border-slate-200 p-4 shadow-sm">
+          <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3 px-2">Contents</div>
+          <nav class="space-y-1">
+            <a href="#t1" class="toc-link"><span class="toc-num">1</span> Eligibility &amp; Accounts</a>
+            <a href="#t2" class="toc-link"><span class="toc-num">2</span> Nature of Service</a>
+            <a href="#t2b" class="toc-link"><span class="toc-num">2B</span> Independent Platform Disclaimer</a>
+            <a href="#t3" class="toc-link"><span class="toc-num">3</span> User Responsibilities</a>
+            <a href="#t4" class="toc-link"><span class="toc-num">4</span> No-Refund Policy</a>
+            <a href="#t5" class="toc-link"><span class="toc-num">5</span> Intellectual Property</a>
+            <a href="#t6" class="toc-link"><span class="toc-num">6</span> Contact &amp; Grievance</a>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <div class="flex-1 min-w-0">
+        <!-- Preamble -->
+        <div class="info-box mb-8">
+          <strong class="block mb-2"><i class="fas fa-info-circle mr-2"></i>BIGFRENCH.COM – LEGAL PROTECTION MASTER PAGE</strong>
+          <p class="mb-1"><strong>Effective Date:</strong> February 14, 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> February 19, 2026</p>
+          <p class="mt-2">BigFrench.com (the "Platform", "Website", or "Service") is owned and operated by Skyspire Academy Private Limited, a company incorporated under the laws of India (the "Company", "we", "our", or "us"). By accessing, browsing, registering on, or using any part of the Platform, you ("you", "user", "candidate", or "customer") expressly agree to be bound by this Legal Protection Master Page.</p>
+          <p class="mt-2">If you do not agree with any part of this document, you must not access or use the Platform in any manner.</p>
+        </div>
+
+        <!-- Section 1 -->
+        <div class="section-card" id="t1">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="section-number">1</span>
+            <h2 class="section-title">ELIGIBILITY, ACCEPTANCE, AND ACCOUNT CREATION</h2>
+          </div>
+          <div class="section-body">
+            <p class="subsection-title">1.1 Eligibility</p>
+            <p>You must be at least 18 years of age or the age of legal majority in your jurisdiction to enter into a binding contract. Minors may only use the Platform under the direct supervision and consent of a parent or legal guardian, who assumes full legal responsibility for the minor's actions and payments on the Platform.</p>
+
+            <p class="subsection-title">1.2 Account Registration &amp; Security</p>
+            <p>To access our mock tests, you must create an account. You agree to provide true, accurate, and complete information. You are strictly responsible for maintaining the confidentiality of your login credentials. Any activity—lawful or unlawful—conducted under your account will be deemed your responsibility.</p>
+
+            <p class="subsection-title">1.3 One User – One Account</p>
+            <p>Account sharing is strictly prohibited. Your account is for your personal use only. Creating multiple accounts to abuse free trials, bypass limits, or manipulate the Platform is a violation of these Terms.</p>
+
+            <p class="subsection-title">1.4 Account Dormancy &amp; Deletion</p>
+            <p>To protect our server resources and user security, the Company reserves the right to suspend or permanently delete accounts (and associated data) that have remained completely inactive for a continuous period of twelve (12) months. No refunds or reinstatements will be provided for data lost due to dormancy.</p>
+          </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="section-card" id="t2">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="section-number">2</span>
+            <h2 class="section-title">NATURE OF SERVICE &amp; ACCESS LIMITATIONS</h2>
+          </div>
+          <div class="section-body">
+            <p class="subsection-title">2.1 Mock Test Platform Only</p>
+            <p>BigFrench.com is an online portal providing digital mock tests, question banks, and automated analytics for French language exam preparation. We do not provide live tutoring, video lectures, visa consulting, or immigration advice.</p>
+
+            <p class="subsection-title">2.2 No Guarantee of Real-World Outcomes</p>
+            <p>Our mock tests are designed to simulate official exams (e.g., TEF, TCF, DELF), but they are purely for practice. The Company makes no guarantees, representations, or warranties regarding your success in any official examination, academic admission, or immigration process.</p>
+
+            <p class="subsection-title">2.3 Definition of "Lifetime Access" or "Unlimited Access"</p>
+            <p>If any product is sold with "Lifetime Access," this legally refers to the lifetime of the specific digital product or the Platform itself, not the lifetime of the purchaser. The Company reserves the right to retire, update, or discontinue products or the Platform at any time. In the event of discontinuation, we will attempt to provide a 30-day notice, after which access will be revoked without refund.</p>
+          </div>
+        </div>
+
+        <!-- Section 2B – Independent Platform & Trademark Disclaimer -->
+        <div class="section-card" id="t2b">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="section-number" style="background: linear-gradient(135deg, #0369a1, #0ea5e9);">2B</span>
+            <h2 class="section-title">INDEPENDENT PLATFORM &amp; TRADEMARK DISCLAIMER</h2>
+          </div>
+          <div class="section-body">
+            <p>BigFrench.com is an independent educational platform that provides study materials, preparation resources, practice content, and coaching services for individuals preparing for French language proficiency examinations.</p>
+
+            <p class="subsection-title">No Government or Official Affiliation</p>
+            <p>BigFrench.com is <strong>not affiliated with, endorsed by, sponsored by, authorized by, or in any way officially connected with</strong> Immigration, Refugees and Citizenship Canada (IRCC) or any governmental authority responsible for Canadian immigration policies or decisions.</p>
+
+            <p class="subsection-title">No Affiliation with TEF or TCF Administrators</p>
+            <p>BigFrench.com is also <strong>not affiliated with, endorsed by, sponsored by, or officially associated with</strong> Chambre de commerce et d'industrie de Paris Île-de-France, the official administrator of the Test d'évaluation de français (TEF), nor with France Éducation international, the official administrator of the Test de connaissance du français (TCF).</p>
+
+            <div class="warning-box">
+              <i class="fas fa-trademark mr-2"></i>
+              <strong>TEF® and TCF® are registered trademarks of their respective owners.</strong> Any references to IRCC, TEF, or TCF on this website are used strictly for descriptive and informational purposes to identify the examinations for which preparation support is offered. Such references do not imply any partnership, joint venture, agency relationship, approval, accreditation, or endorsement.
+            </div>
+
+            <p class="subsection-title">Scope of Our Services</p>
+            <p>BigFrench.com does <strong>not</strong> administer official examinations, issue official test scores, process immigration applications, or provide legal or immigration advice. All trademarks, logos, and brand names mentioned on this Platform remain the property of their respective owners.</p>
+
+            <p class="subsection-title">User Responsibility for Official Information</p>
+            <p>Users are advised to refer directly to the official websites of IRCC, CCI Paris Île-de-France, and France Éducation international for authoritative information regarding examination registration, scoring policies, and immigration requirements.</p>
+
+            <div class="info-box">
+              <i class="fas fa-info-circle mr-2"></i>
+              By using this website, you acknowledge and agree that BigFrench.com operates solely as an <strong>independent preparation resource</strong> and is not a substitute for official examination bodies or immigration authorities.
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="section-card" id="t3">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="section-number">3</span>
+            <h2 class="section-title">USER RESPONSIBILITIES AND PROHIBITED CONDUCT</h2>
+          </div>
+          <div class="section-body">
+            <p class="mb-3">You agree to use the Platform only for lawful purposes. You strictly agree NOT to:</p>
+            <ul class="bullet-list">
+              <li>Share your password, license, or access with any third party.</li>
+              <li>Attempt to bypass, disable, or interfere with security-related features of the Platform.</li>
+              <li>Upload viruses, trojans, malware, or any other malicious code.</li>
+              <li>Use the Platform to harass, defame, or harm the Company or other users.</li>
+              <li>Post false, misleading, or defamatory reviews about the Platform based on your personal exam failure.</li>
+            </ul>
+            <div class="danger-box mt-4">
+              <strong><i class="fas fa-ban mr-2"></i>Consequences of Violation:</strong> The Company utilizes automated and manual monitoring to detect abuse. Violations will result in immediate account termination, IP blocking, and potential civil or criminal legal action. No refunds will be issued to terminated accounts.
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 4 -->
+        <div class="section-card" id="t4">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="section-number">4</span>
+            <h2 class="section-title">STRICT NO‑REFUND &amp; NO‑CANCELLATION POLICY</h2>
+          </div>
+          <div class="section-body">
+            <p class="subsection-title">4.1 Instant Digital Delivery</p>
+            <p>All purchases on BigFrench.com grant immediate access to intangible, digital content. Because this content cannot be "returned" once accessed, all sales are final.</p>
+
+            <p class="subsection-title">4.2 Zero Exceptions Policy</p>
+            <p class="mb-2">We do not offer refunds, partial refunds, or chargebacks under any circumstances, including but not limited to:</p>
+            <ul class="bullet-list">
+              <li>Change of mind after purchase.</li>
+              <li>Failure to use the tests before their expiration date.</li>
+              <li>Dissatisfaction with the difficulty level of the tests or the resulting scores.</li>
+              <li>Technical limitations on your end (e.g., poor internet connection, outdated browser, or device malfunction).</li>
+              <li>Cancellation or postponement of your actual official French exam by external authorities.</li>
+            </ul>
+
+            <p class="subsection-title">4.3 Fraudulent Chargebacks</p>
+            <p>If you consume our digital content and subsequently file a fraudulent chargeback with your bank or credit card company, we will treat this as theft. Your account will be immediately terminated, and we will submit your usage logs, IP address, and login history to the payment processor and relevant legal authorities to contest the chargeback.</p>
+          </div>
+        </div>
+
+        <!-- Section 5 -->
+        <div class="section-card" id="t5">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="section-number">5</span>
+            <h2 class="section-title">INTELLECTUAL PROPERTY &amp; ANTI-SCRAPING POLICY</h2>
+          </div>
+          <div class="section-body">
+            <p class="subsection-title">5.1 Exclusive Ownership</p>
+            <p>All materials on BigFrench.com—including test questions, audio files, reading passages, answer keys, explanations, UI/UX design, logos, and software—are the exclusive intellectual property of Skyspire Academy Private Limited and are protected by Indian and international copyright laws.</p>
+
+            <p class="subsection-title">5.2 Strict Ban on Copying and AI Training</p>
+            <p class="mb-2">You are granted a revocable, non-transferable license to view the content solely for personal study. You are expressly prohibited from:</p>
+            <ul class="bullet-list">
+              <li>Taking screenshots, screen recordings, or photographs of the test questions.</li>
+              <li>Downloading, copying, or transcribing audio files or text.</li>
+              <li>Sharing our content on social media, Telegram groups, forums, or rival platforms.</li>
+              <li><strong>AI &amp; Machine Learning Ban:</strong> Using web scrapers, spiders, or automated scripts to extract our content for the purpose of training Artificial Intelligence (AI) models, Large Language Models (LLMs), or generating derivative test prep materials.</li>
+            </ul>
+            <div class="danger-box mt-4">
+              <i class="fas fa-exclamation-circle mr-2"></i>
+              Any unauthorized reproduction or extraction of our IP will result in immediate legal action for damages.
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 6 - Contact & Grievance -->
+        <div class="section-card" id="t6">
+          <div class="flex items-center gap-3 mb-4">
+            <h2 class="section-title">CONTACT &amp; GRIEVANCE OFFICER</h2>
+          </div>
+          <div class="section-body">
+            <p class="mb-3">For any queries, concerns, or grievances related to these Terms and Conditions, please contact us at:</p>
+            <div class="info-box">
+              <ul style="list-style:none;padding:0;margin:0;line-height:2;">
+                <li><strong>Company:</strong> Skyspire Academy Private Limited</li>
+                <li><strong>Email:</strong> <a href="/cdn-cgi/l/email-protection#65070c020317000b060d4b0d000915250208040c094b060a08" style="color:#1e40af;"><span class="__cf_email__" data-cfemail="1d7f747a7b6f78737e75337578716d5d7a707c7471337e7270">[email&#160;protected]</span></a></li>
+                <li><strong>Time:</strong> Monday to Friday (10:00 AM to 5:00 PM IST)</li>
+                <li><strong>Website:</strong> <a href="https://www.bigfrench.com" style="color:#1e40af;">www.bigfrench.com</a></li>
+                <li><strong>Address:</strong> Skyspire Academy Private Limited, Near Dr Ambedkar Park, Village Gurha, PO Bara Pind, District Jalandhar, Punjab, India, Zip Code 144418.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── PRIVACY POLICY ─── -->
+  <div id="tab-privacy" class="tab-panel">
+    <div class="flex gap-8 lg:gap-12 items-start">
+
+      <!-- TOC Sidebar -->
+      <aside class="hidden lg:block w-60 flex-shrink-0">
+        <div class="sticky-toc bg-white rounded-2xl border border-slate-200 p-4 shadow-sm">
+          <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3 px-2">Contents</div>
+          <nav class="space-y-1">
+            <a href="#p6" class="toc-link"><span class="toc-num">6</span> Privacy &amp; Data</a>
+            <a href="#p6-1" class="toc-link"><span class="toc-num">6.1</span> Data Collection</a>
+            <a href="#p6-2" class="toc-link"><span class="toc-num">6.2</span> Data Usage</a>
+            <a href="#p6-3" class="toc-link"><span class="toc-num">6.3</span> Cookies</a>
+            <a href="#p7" class="toc-link"><span class="toc-num">7</span> Disclaimers</a>
+            <a href="#p7b" class="toc-link"><span class="toc-num">7B</span> Trademark Notice</a>
+            <a href="#p8" class="toc-link"><span class="toc-num">8</span> Miscellaneous</a>
+            <a href="#p9" class="toc-link"><span class="toc-num">9</span> Governing Law</a>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <div class="flex-1 min-w-0">
+        <div class="info-box mb-8">
+          <strong class="block mb-2"><i class="fas fa-user-shield mr-2"></i>PRIVACY POLICY &amp; DATA PROTECTION</strong>
+          <p class="mt-1">BigFrench.com (the "Platform") is owned and operated by Skyspire Academy Private Limited. This Privacy Policy explains what data we collect, how we use it, and your rights as a user.</p>
+        </div>
+
+        <!-- Section 6 -->
+        <div class="section-card" id="p6">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="section-number" style="background: linear-gradient(135deg, #7c3aed, #8b5cf6);">6</span>
+            <h2 class="section-title">PRIVACY POLICY &amp; DATA PROTECTION</h2>
+          </div>
+
+          <!-- 6.1 Data Collection -->
+          <div class="section-body" id="p6-1">
+            <p class="subsection-title">6.1 Data Collection</p>
+            <p>We collect minimal necessary data to provide our services, including your name, email, IP address, device identifiers, and testing performance data. We do not store your complete credit card numbers; all payments are processed through secure, PCI-compliant third-party gateways (e.g., Stripe, Razorpay).</p>
+          </div>
+
+          <!-- 6.2 Data Usage -->
+          <div class="section-body mt-4" id="p6-2">
+            <p class="subsection-title">6.2 Data Usage</p>
+            <p class="mb-3">Your data is used exclusively to:</p>
+            <ul class="bullet-list">
+              <li>Administer your account and test access.</li>
+              <li>Provide automated scoring and analytics.</li>
+              <li>Monitor for security threats, account sharing, and IP theft.</li>
+              <li>Send transactional emails (receipts, password resets) and occasional promotional offers (which you can opt out of).</li>
+            </ul>
+            <div class="info-box mt-3">
+              <i class="fas fa-shield-alt mr-2"></i>We will <strong>never sell</strong> your personal data to third-party marketing firms.
+            </div>
+          </div>
+
+          <!-- 6.3 Cookies -->
+          <div class="section-body mt-4" id="p6-3">
+            <p class="subsection-title">6.3 Cookies</p>
+            <p>We use strictly necessary cookies to keep you logged in and functional cookies to remember your test progress. By using the Platform, you consent to our use of these cookies.</p>
+          </div>
+        </div>
+
+        <!-- Section 7 -->
+        <div class="section-card" id="p7">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="section-number" style="background: linear-gradient(135deg, #7c3aed, #8b5cf6);">7</span>
+            <h2 class="section-title">DISCLAIMERS AND LIMITATION OF LIABILITY</h2>
+          </div>
+          <div class="section-body">
+            <p class="subsection-title">7.1 "As-Is" Basis</p>
+            <p>The Platform is provided on an "as-is" and "as-available" basis. While we strive for accuracy, we do not warrant that the mock tests are perfectly error-free or that the servers will experience 100% uptime.</p>
+
+            <p class="subsection-title">7.2 Limitation of Liability</p>
+            <p>To the maximum extent permitted by law, Skyspire Academy Private Limited shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or career opportunities, arising from your use of or inability to use the Platform.</p>
+
+            <p class="subsection-title">7.3 Liability Cap</p>
+            <p>In no event shall our total aggregate liability to you for all damages, losses, and causes of action exceed the total amount paid by you to the Company for the specific mock test package in dispute.</p>
+          </div>
+        </div>
+
+        <!-- Section 8 -->
+        <div class="section-card" id="p7b">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="section-number" style="background: linear-gradient(135deg, #0369a1, #0ea5e9);">7B</span>
+            <h2 class="section-title">TRADEMARK &amp; THIRD-PARTY BRAND NOTICE</h2>
+          </div>
+          <div class="section-body">
+            <p>This Privacy Policy applies solely to BigFrench.com, an independent educational platform operated by Skyspire Academy Private Limited. BigFrench.com is <strong>not affiliated with, endorsed by, sponsored by, authorized by, or in any way officially connected with</strong> Immigration, Refugees and Citizenship Canada (IRCC), Chambre de commerce et d'industrie de Paris Île-de-France (the official administrator of TEF), or France Éducation international (the official administrator of TCF).</p>
+            <div class="warning-box mt-3">
+              <i class="fas fa-trademark mr-2"></i>
+              <strong>TEF® and TCF® are registered trademarks of their respective owners.</strong> Any references to these brands on our Platform are used strictly for descriptive purposes and do not imply any endorsement or official association. This platform does not administer official exams, issue official scores, process immigration applications, or provide legal or immigration advice.
+            </div>
+            <p class="mt-3">When you submit personal data on BigFrench.com, your data is managed solely by Skyspire Academy Private Limited and is not shared with or accessible by any of the above-mentioned organizations.</p>
+          </div>
+        </div>
+
+        <!-- Section 8 (original) -->
+        <div class="section-card" id="p8">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="section-number" style="background: linear-gradient(135deg, #7c3aed, #8b5cf6);">8</span>
+            <h2 class="section-title">MISCELLANEOUS LEGAL PROVISIONS</h2>
+          </div>
+          <div class="section-body">
+            <p class="subsection-title">8.1 Force Majeure</p>
+            <p>We shall not be held responsible for any delay or failure to perform our obligations under these Terms if such delay or failure is caused by events beyond our reasonable control, including internet outages, natural disasters, government actions, or pandemics.</p>
+
+            <p class="subsection-title">8.2 Severability</p>
+            <p>If any provision of these Terms is found to be unlawful, void, or unenforceable by a court of competent jurisdiction, that specific provision shall be deemed severed from the rest of the document, and the remaining provisions shall continue in full force and effect.</p>
+
+            <p class="subsection-title">8.3 Waiver</p>
+            <p>The failure of the Company to enforce any right or provision of these Terms shall not constitute a waiver of future enforcement of that right or provision.</p>
+
+            <p class="subsection-title">8.4 Amendments</p>
+            <p>We reserve the right to update or modify these Terms at any time without prior notice. The updated Terms will be posted on this page with a revised "Last Updated" date. Continued use of the Platform after changes are posted constitutes your acceptance of the new Terms.</p>
+          </div>
+        </div>
+
+        <!-- Section 9 -->
+        <div class="section-card" id="p9">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="section-number" style="background: linear-gradient(135deg, #7c3aed, #8b5cf6);">9</span>
+            <h2 class="section-title">GOVERNING LAW, JURISDICTION, AND GRIEVANCE OFFICER</h2>
+          </div>
+          <div class="section-body">
+            <p class="subsection-title">9.1 Governing Law</p>
+            <p>These Terms, and any disputes arising out of your use of the Platform, shall be governed entirely by the laws of India, without regard to conflict of law principles.</p>
+
+            <p class="subsection-title">9.2 Exclusive Jurisdiction</p>
+            <p>You agree that any legal action or proceeding arising out of or related to these Terms shall be brought exclusively in the courts located in Punjab, India. You hereby consent to the personal jurisdiction of such courts.</p>
+
+            <p class="subsection-title">9.3 Grievance Officer (Compliance with IT Act, 2000)</p>
+            <p class="mb-3">In accordance with the Information Technology Act, 2000 and rules made thereunder, the name and contact details of the Grievance Officer are provided below. If you have any concerns regarding data privacy, security, or platform abuse, please contact:</p>
+            <div class="info-box">
+              <ul style="list-style:none;padding:0;margin:0;line-height:2;">
+                <li><strong>Company:</strong> Skyspire Academy Private Limited</li>
+                <li><strong>Email:</strong> <a href="/cdn-cgi/l/email-protection#b3d1dad4d5c1d6ddd0db9ddbd6dfc3f3d4ded2dadf9dd0dcde" style="color:#1e40af;"><span class="__cf_email__" data-cfemail="c6a4afa1a0b4a3a8a5aee8aea3aab686a1aba7afaae8a5a9ab">[email&#160;protected]</span></a></li>
+                <li><strong>Time:</strong> Monday to Friday (10:00 AM to 5:00 PM IST)</li>
+                <li><strong>Website:</strong> <a href="https://www.bigfrench.com" style="color:#1e40af;">www.bigfrench.com</a></li>
+                <li><strong>Address:</strong> Skyspire Academy Private Limited, Near Dr Ambedkar Park, Village Gurha, PO Bara Pind, District Jalandhar, Punjab, India, Zip Code 144418.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer class="footer-root">
+  <div class="footer-rainbow"></div>
+  <div class="footer-main">
+    <div>
+      <div class="footer-brand-name">
+        <div class="footer-brand-icon"><i class="fas fa-graduation-cap"></i></div>
+        BigFrench<span style="color:#1E40AF;">.com</span>
+      </div>
+      <a href="/cdn-cgi/l/email-protection#57353e3031253239343f793f323b2717303a363e3b7934383a" class="footer-contact-item">
+        <span class="footer-contact-icon"><i class="fas fa-envelope"></i></span>
+        <span class="__cf_email__" data-cfemail="d4b6bdb3b2a6b1bab7bcfabcb1b8a494b3b9b5bdb8fab7bbb9">[email&#160;protected]</span>
+      </a>
+      <!-- <a href="tel:+19029941800" class="footer-contact-item">
+        <span class="footer-contact-icon"><i class="fas fa-phone"></i></span>
+        +1 (902) 994-1800
+      </a> -->
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+        Toronto, Canada
+      </div>
+      <div class="footer-social">
+        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <ul class="footer-links">
+        <li><a href="index.html#exams">Exams</a></li>
+        <li><a href="index.html#courses">Courses</a></li>
+        <li><a href="index.html#how-it-works">How It Works</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="aboutus.html">About</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Courses</div>
+      <ul class="footer-links footer-courses">
+        <li><a href="dashboard.html">Mock Tests</a></li>
+        <li><a href="tef-canada.html">TEF Plans</a></li>
+        <li><a href="tcf-canada.html">TCF Plans</a></li>
+      </ul>
+      <div style="margin-top: 24px;">
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <a href="legal.html" style="color:#8b5cf6;font-size:13px;text-decoration:none;" onmouseover="this.style.color='#a78bfa'" onmouseout="this.style.color='#8b5cf6'">Terms of Service</a>
+          <a href="legal.html" style="color:#8b5cf6;font-size:13px;text-decoration:none;" onmouseover="this.style.color='#a78bfa'" onmouseout="this.style.color='#8b5cf6'">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Disclaimer inside dark footer area -->
+  <div style="width:100%; padding: 0 120px 16px; max-width:100%; box-sizing:border-box;">
+    <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 14px;">
+      <p style="font-size: 10.5px; color: #6b7280; line-height: 1.7; margin: 0; text-align: center;">
+        BigFrench.com is an independent educational platform providing preparation resources and coaching for French language proficiency examinations. It is not affiliated with, endorsed by, sponsored by, or officially connected with Immigration, Refugees and Citizenship Canada (IRCC), Chambre de commerce et d'industrie de Paris Île-de-France, the official administrator of the Test d'évaluation de français (TEF), or France Éducation international, the official administrator of the Test de connaissance du français (TCF). TEF® and TCF® are registered trademarks of their respective owners.
+      </p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 BigFrench.com · Skyspire Academy Private Limited · All Rights Reserved</span>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/19029941800" target="_blank" class="float-whatsapp" title="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Scroll to Top -->
+<button class="float-scroll-top" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  // 🟢 1. TAB SWITCHING LOGIC
+  function switchTab(tabName, clickedBtn = null) {
+    // Sabhi panels ko chupao
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    
+    // Sabhi buttons ko reset karo (inactive style)
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      b.classList.add('text-slate-600', 'border', 'border-slate-200');
+    });
+
+    // Target panel ko active karo
+    const targetPanel = document.getElementById('tab-' + tabName);
+    if (targetPanel) targetPanel.classList.add('active');
+
+    // Button ko active karo (Agar clickedBtn nahi diya, toh automatic dhoondho)
+    let targetBtn = clickedBtn;
+    if (!targetBtn) {
+      // Button dhoondho jiske onclick mein tabName likha ho
+      const allBtns = document.querySelectorAll('.tab-btn');
+      allBtns.forEach(btn => {
+        if (btn.getAttribute('onclick').includes(tabName)) {
+          targetBtn = btn;
+        }
+      });
+    }
+
+    if (targetBtn) {
+      targetBtn.classList.add('active');
+      targetBtn.classList.remove('text-slate-600', 'border', 'border-slate-200');
+    }
+
+    // URL update karo bina reload kiye
+    history.replaceState(null, '', '#' + tabName);
+  }
+
+  // 🟢 2. AUTO-OPEN TAB ON PAGE LOAD (Fixed Logic)
+  document.addEventListener('DOMContentLoaded', function() {
+    // URL se hash nikalo (e.g., #privacy -> privacy)
+    const hash = window.location.hash.replace('#', '');
+    
+    // Signup page se agar localStorage set hua ho
+    const storedTab = localStorage.getItem('activeLegalTab');
+
+    if (hash === 'privacy' || storedTab === 'privacy') {
+        switchTab('privacy');
+        localStorage.removeItem('activeLegalTab'); // Clear storage
+    } else {
+        // Default Terms hi khulega
+        switchTab('terms');
+    }
+
+    // Auth check run karo
+    checkAuthStatus();
+  });
+
+  // 🟢 3. AUTHENTICATION CHECK
+  function checkAuthStatus() {
+    const token = localStorage.getItem('token');
+    const user = localStorage.getItem('user');
+    const loginBtn = document.getElementById('loginBtn');
+    const signupBtn = document.getElementById('signupBtn');
+    const userArea = document.getElementById('userArea');
+
+    if (token && user) {
+      try {
+        const userData = JSON.parse(user);
+        
+        // Login buttons chupao
+        if(loginBtn) loginBtn.classList.add('hidden');
+        if(signupBtn) signupBtn.classList.add('hidden');
+        
+        // User menu dikhao
+        if(userArea) userArea.classList.remove('hidden');
+        
+        // Data populate karo
+        const initials = (userData.firstName || userData.name || 'U').charAt(0).toUpperCase();
+        const fullName = (userData.firstName || '') + ' ' + (userData.lastName || '');
+        
+        const avatarEl = document.getElementById('userAvatar');
+        const nameEl = document.getElementById('userName');
+        const emailEl = document.getElementById('userEmailFull');
+        const emailSubEl = document.getElementById('userEmailSub');
+
+        if(avatarEl) avatarEl.textContent = initials;
+        if(nameEl) nameEl.textContent = userData.firstName || 'User';
+        if(emailEl) emailEl.textContent = userData.email || '';
+        if(emailSubEl) emailSubEl.textContent = userData.email || '';
+
+      } catch(e) {
+        console.error("Auth parse error", e);
+      }
+    }
+
+    // Dropdown Menu Toggle Logic
+    const btn = document.getElementById('userMenuBtn');
+    const menu = document.getElementById('userMenu');
+    const chevron = document.getElementById('userChevron');
+
+    if (btn && menu) {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const isHidden = menu.classList.contains('hidden');
+        if (isHidden) {
+            menu.classList.remove('hidden');
+            if(chevron) chevron.classList.add('rotate-180');
+        } else {
+            menu.classList.add('hidden');
+            if(chevron) chevron.classList.remove('rotate-180');
+        }
+      });
+      
+      // Bahar click karne par band karo
+      document.addEventListener('click', function() {
+        menu.classList.add('hidden');
+        if(chevron) chevron.classList.remove('rotate-180');
+      });
+    }
+  }
+
+  // 🟢 4. LOGOUT FUNCTION
+  function logout() {
+    localStorage.removeItem('token');
+    localStorage.removeItem('user');
+    window.location.href = 'index.html';
+  }
+
+  // 🟢 5. SCROLL TO TOP & SMOOTH SCROLL
+  window.addEventListener('scroll', function() {
+    const btn = document.getElementById('scrollTopBtn');
+    if (btn) {
+        if(window.scrollY > 400) btn.classList.add('visible');
+        else btn.classList.remove('visible');
+    }
+  });
+
+  // Anchor links smooth scroll fix
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', function(e) {
+      const targetId = this.getAttribute('href');
+      if(targetId && targetId !== '#') {
+        const targetEl = document.querySelector(targetId);
+        if(targetEl) {
+          e.preventDefault();
+          const offset = 100;
+          const top = targetEl.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top: top, behavior: 'smooth' });
+        }
+      }
+    });
+  });
+
+</script>
+</body>
+</html>

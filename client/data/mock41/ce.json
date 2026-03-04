@@ -1,0 +1,565 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "BIBLIOTHÈQUE MUNICIPALE DE SAINT-LAMBERT\n\nHORAIRES D'OUVERTURE\n\nLundi : fermé\nMardi : 10h00 - 18h00\nMercredi : 12h00 - 20h00\nJeudi : 10h00 - 18h00\nVendredi : 10h00 - 17h00\nSamedi : 10h00 - 17h00\nDimanche : 13h00 - 17h00\n\nATTENTION : La bibliothèque sera exceptionnellement fermée le samedi 15 juillet pour travaux de rénovation. Les emprunts en retard seront pardonnés cette journée. Pour toute question, contactez-nous au 450-555-0123.",
+          "question": "Quand la bibliothèque est-elle ouverte le plus tard dans la semaine ?",
+          "options": {
+            "A": "Le mardi",
+            "B": "Le mercredi",
+            "C": "Le jeudi",
+            "D": "Le dimanche"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "RESTAURANT LE PETIT BISTROT\nMENU DU MIDI - 18$\n\nEntrée au choix :\n• Soupe du jour maison\n• Salade verte aux noix\n\nPlat principal au choix :\n• Filet de saumon grillé, riz et légumes\n• Poulet rôti à la moutarde, purée maison\n• Risotto aux champignons (option végétarienne)\n\nDessert au choix :\n• Crème caramel\n• Tarte du jour\n\nBoisson comprise : café, thé ou jus d'orange\nService continu de 11h30 à 14h30 du lundi au vendredi.",
+          "question": "Quelle affirmation concernant ce menu est correcte ?",
+          "options": {
+            "A": "Le menu est disponible le week-end",
+            "B": "Le risotto contient de la viande",
+            "C": "Une boisson est incluse dans le menu",
+            "D": "Le restaurant ouvre à 11h00"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 3,
+          "text": "AVIS DE CONVOCATION\n\nMairie de Trois-Rivières\nService des Ressources Humaines\n\nMadame Claire Dubois\n123 rue Saint-Pierre\nTrois-Rivières, QC G8T 4K2\n\nObjet : Entrevue d'embauche - Poste d'assistante administrative\n\nNous avons le plaisir de vous convoquer à une entrevue le jeudi 8 juin 2024 à 14h00. Le rendez-vous aura lieu au 3ème étage de l'hôtel de ville, salle 305. Veuillez vous présenter à l'accueil 15 minutes avant l'heure prévue. Munissez-vous de votre curriculum vitae, de vos références professionnelles et d'une pièce d'identité avec photo. En cas d'empêchement, contactez-nous au moins 24 heures à l'avance.",
+          "question": "Que doit apporter Claire Dubois à l'entrevue ?",
+          "options": {
+            "A": "Un chèque de caution",
+            "B": "Son curriculum vitae et une pièce d'identité",
+            "C": "Un contrat de travail signé",
+            "D": "Une lettre de recommandation de son médecin"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "PROGRAMME D'ACTIVITÉS ESTIVALES\nCentre communautaire de Verdun\nJuillet et août 2024\n\nCOURS DE NATATION (tous niveaux)\nDu 1er au 31 juillet, lundi au vendredi\nEnfants (5-12 ans) : 9h00 - 10h30\nAdolescents (13-17 ans) : 11h00 - 12h30\nAdultes : 18h00 - 19h30\nTarif : 80$ par session\n\nCLUB DE LECTURE ESTIVAL\nTous les mercredis de 14h00 à 16h00\nPour les 8 à 12 ans\nGratuit - Inscription obligatoire\n\nATELIER DE JARDINAGE\nSamedis 15 et 29 juillet, 9h00 - 12h00\nApprenez à cultiver vos légumes!\nMatériel fourni - 25$ par atelier",
+          "question": "Quelle activité est gratuite ?",
+          "options": {
+            "A": "Le cours de natation pour adultes",
+            "B": "L'atelier de jardinage",
+            "C": "Le club de lecture estival",
+            "D": "Toutes les activités pour enfants"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 5,
+          "text": "INSTRUCTIONS DE LAVAGE\nÉtiquette trouvée sur un pull en laine\n\nComposition : 100% laine mérinos\n\n• Laver à la main à l'eau tiède (30°C maximum)\n• Ne pas utiliser d'eau de Javel\n• Ne pas passer au sèche-linge\n• Sécher à plat sur une serviette propre\n• Repasser à température basse si nécessaire\n• Nettoyage à sec autorisé\n• Ne pas faire tremper\n\nAttention : La laine naturelle peut rétrécir si elle est exposée à la chaleur ou agitée mécaniquement. Pour préserver la forme de votre vêtement, respectez scrupuleusement ces consignes.",
+          "question": "Que ne faut-il surtout pas faire avec ce vêtement ?",
+          "options": {
+            "A": "Le laver à la main",
+            "B": "Le passer au sèche-linge",
+            "C": "Le repasser",
+            "D": "Le confier au nettoyage à sec"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "text": "ANNONCE IMMOBILIÈRE\n\nÀ LOUER - Appartement 3½\n\nSitué au cœur du Plateau-Mont-Royal, cet appartement lumineux offre :\n- Une chambre à coucher spacieuse avec walk-in\n- Un salon avec baie vitrée donnant sur le parc\n- Une cuisine rénovée avec électroménagers inclus\n- Une salle de bain avec baignoire et laveuse-sécheuse\n- Chauffage et électricité inclus dans le loyer\n\nLoyer mensuel : 1 250$\nDisponible immédiatement\nAnimaux non acceptés\nStationnement extérieur possible (+75$/mois)\n\nContact : Michel Tremblay au 514-555-7890\nVisites sur rendez-vous uniquement",
+          "question": "Quel service est inclus dans le loyer de base ?",
+          "options": {
+            "A": "Le stationnement extérieur",
+            "B": "L'accès au parc voisin",
+            "C": "Le chauffage et l'électricité",
+            "D": "La garde d'animaux domestiques"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 7,
+          "text": "AVIS DE VOYAGE - GOUVERNEMENT DU CANADA\n\nDestination : Mexique\nDate de publication : 15 mai 2024\n\nNiveau de risque : Faites preuve d'une grande prudence\n\nLe ministère des Affaires étrangères recommande aux voyageurs canadiens de faire preuve d'une grande prudence en raison de la criminalité élevée dans certaines régions. Évitez les déplacements nocturnes dans les zones rurales isolées. Utilisez uniquement des taxis officiels ou des services de transport approuvés par votre hôtel. Conservez vos documents de voyage dans un endroit sécurisé et laissez une copie à un proche au Canada. Enregistrez-vous auprès du service Inscription des Canadiens à l'étranger avant votre départ.",
+          "question": "Quel conseil le gouvernement donne-t-il aux voyageurs ?",
+          "options": {
+            "A": "Ne pas voyager au Mexique",
+            "B": "Utiliser uniquement les transports officiels",
+            "C": "Voyager uniquement la nuit",
+            "D": "Ne pas emporter de documents d'identité"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Marie ________ (travailler) dans cette entreprise depuis plus de dix ans. Elle ________ (commencer) comme assistante et maintenant elle est directrice commerciale. L'année prochaine, elle ________ (pouvoir) prendre sa retraite si elle le souhaite.",
+          "options": {
+            "A": "travaille - a commencé - pourra",
+            "B": "a travaillé - commençait - peut",
+            "C": "travaille - commençait - pourrait",
+            "D": "a travaillé - a commencé - peut"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 9,
+          "text": "Si j'________ (savoir) que le train aurait du retard, je ne ________ (se presser) pas autant. Maintenant, je ________ (attendre) sur le quai depuis vingt minutes sans rien faire.",
+          "options": {
+            "A": "savais - me serais pas pressé - attends",
+            "B": "avais su - me serais pas pressé - attends",
+            "C": "savais - ne me pressais pas - attendais",
+            "D": "avais su - ne me pressais pas - attendais"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 10,
+          "text": "Les étudiants ________ (devoir) remettre leur dissertation avant vendredi prochain. Le professeur a insisté ________ le fait que les travaux en retard ne ________ (pas accepter).",
+          "options": {
+            "A": "doivent - sur - seraient pas acceptés",
+            "B": "devaient - pour - sont pas acceptés",
+            "C": "doivent - sur - seraient pas acceptés",
+            "D": "devront - à - ne seraient pas acceptés"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 11,
+          "text": "Bien qu'il ________ (faire) très froid dehors, nous ________ (décider) de sortir faire une promenade. Nous nous sommes habillés chaudement et nous ________ (ne pas regretter) notre choix.",
+          "options": {
+            "A": "fasse - avons décidé - n'avons pas regretté",
+            "B": "faisait - décidions - ne regrettions pas",
+            "C": "ait fait - décidions - n'avons pas regretté",
+            "D": "fasse - décidions - ne regrettions pas"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 12,
+          "text": "Le nouveau musée ________ (inaugurer) par le maire le mois dernier. Depuis son ouverture, plus de dix mille visiteurs ________ (déjà venir) l'admirer. On ________ (pouvoir) y voir des œuvres exceptionnelles.",
+          "options": {
+            "A": "a été inauguré - sont déjà venus - peut",
+            "B": "était inauguré - étaient déjà venus - pouvait",
+            "C": "a inauguré - ont déjà venus - peut",
+            "D": "a été inauguré - ont déjà venus - peut"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 13,
+          "text": "Je me souviens du jour ________ nous nous sommes rencontrés pour la première fois. Tu ________ (porter) un manteau rouge et tu ________ (sourire) en entrant dans la pièce.",
+          "options": {
+            "A": "où - portais - souriais",
+            "B": "que - portais - souriais",
+            "C": "dont - portes - souris",
+            "D": "quand - as porté - as souri"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 14,
+          "text": "________ (Malgré/Bien que) la pluie, le match de tennis ________ (continuer). Les joueurs étaient déterminés et le public ________ (ne pas vouloir) partir.",
+          "options": {
+            "A": "Malgré - a continué - ne voulait pas",
+            "B": "Bien que - a continué - ne voulait pas",
+            "C": "Malgré - continuait - n'a pas voulu",
+            "D": "Bien que - continuait - n'a pas voulu"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 15,
+          "text": "Pierre m'a demandé si je ________ (vouloir) l'accompagner au concert. Je lui ai répondu que j'________ (être) ravie d'accepter son invitation car je ________ (adorer) ce groupe depuis longtemps.",
+          "options": {
+            "A": "voulais - étais - adore",
+            "B": "veux - suis - adore",
+            "C": "voudrais - serais - adorais",
+            "D": "voulais - étais - adorais"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 16,
+          "text": "Les enfants ________ (jouer) dans le jardin quand soudain il ________ (commencer) à tonner. Leur mère les a appelés ________ rentrer immédiatement à la maison.",
+          "options": {
+            "A": "jouaient - a commencé - pour",
+            "B": "jouaient - commençait - à",
+            "C": "ont joué - a commencé - pour",
+            "D": "jouaient - commençait - pour"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 17,
+          "text": "C'est le livre ________ je t'ai parlé hier. Il raconte l'histoire d'une femme ________ a survécu à de nombreuses épreuves. Je pense qu'il te ________ (plaire) beaucoup.",
+          "options": {
+            "A": "dont - qui - plaira",
+            "B": "que - qui - plaît",
+            "C": "duquel - laquelle - plairait",
+            "D": "dont - elle - plaira"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "GRAPHIQUE : ÉVOLUTION DU TAUX DE CHÔMAGE AU QUÉBEC (2019-2024)\n\n2019 : 5,1%\n2020 : 8,9% (hausse due à la pandémie)\n2021 : 6,3%\n2022 : 4,7% (plus bas niveau historique)\n2023 : 5,2%\n2024 (prévision) : 5,5%\n\nNote : Le taux de chômage représente la proportion de la population active sans emploi qui recherche activement du travail. Les données 2024 sont des estimations basées sur les premiers trimestres.",
+          "question": "En quelle année le taux de chômage a-t-il atteint son niveau le plus bas ?",
+          "options": {
+            "A": "2019",
+            "B": "2020",
+            "C": "2022",
+            "D": "2024"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 19,
+          "text": "RECETTE : TARTE AUX POMMES TRADITIONNELLE\n\nPréparation : 30 minutes\nCuisson : 45 minutes\nPortions : 8 personnes\n\nIngrédients :\n- 6 pommes Golden\n- 200g de farine\n- 100g de beurre\n- 100g de sucre\n- 2 œufs\n- Cannelle\n\nPréchauffer le four à 180°C. Préparer la pâte brisée avec la farine, le beurre et un œuf. Étaler dans un moule à tarte. Peler et couper les pommes en lamelles. Disposer sur la pâte. Saupoudrer de sucre et de cannelle. Battre le second œuf et en badigeonner les pommes. Enfourner 45 minutes.",
+          "question": "Combien de temps faut-il prévoir au total pour réaliser cette tarte ?",
+          "options": {
+            "A": "30 minutes",
+            "B": "45 minutes",
+            "C": "1 heure 15 minutes",
+            "D": "1 heure 30 minutes"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 20,
+          "text": "TABLEAU DES DROITS DE SCOLARITÉ UNIVERSITAIRES 2024-2025\n\nÉtudiants québécois : 2 700$ par session\nÉtudiants canadiens (hors Québec) : 8 200$ par session\nÉtudiants internationaux : 15 500$ par session\n\nFrais annexes obligatoires (tous étudiants) :\n- Assurance santé : 300$\n- Association étudiante : 100$\n- Services technologiques : 150$\n\nTotal des frais annexes : 550$ par session\n\nNote : Les étudiants à temps partiel paient les droits au prorata de leurs cours.",
+          "question": "Combien paiera un étudiant international en totalité pour une session ?",
+          "options": {
+            "A": "15 500$",
+            "B": "16 050$",
+            "C": "16 500$",
+            "D": "17 000$"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 21,
+          "text": "INDICE DE QUALITÉ DE L'AIR - MONTRÉAL\n\nAujourd'hui : 45 (Bon)\nDemain : 62 (Modéré)\nWeek-end : 35 à 40 (Bon)\n\nÉchelle :\n0-50 : Bon - Qualité de l'air satisfaisante\n51-100 : Modéré - Acceptable pour la plupart des gens\n101-150 : Mauvais pour les groupes sensibles\n151-200 : Mauvais - Tout le monde peut ressentir des effets\n201-300 : Très mauvais - Alertes santé\n\nRecommandation pour demain : Les personnes sensibles (enfants, personnes âgées, asthmatiques) devraient limiter les activités physiques intenses à l'extérieur.",
+          "question": "Quelle catégorie qualifie la qualité de l'air de demain ?",
+          "options": {
+            "A": "Bon",
+            "B": "Modéré",
+            "C": "Mauvais pour les groupes sensibles",
+            "D": "Mauvais"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 22,
+          "text": "PLAN DE MÉTRO - STATION BERRI-UQAM\n\nLigne 1 (Verte) : Direction Honoré-Beaugrand / Angrignon\nLigne 2 (Orange) : Direction Montmorency / Côte-Vertu\nLigne 4 (Jaune) : Direction Longueuil\n\nCorrespondances :\n- Bus 15, 30, 125, 361 (nuit)\n- Train de banlieue (gare Centrale à 5 min à pied)\n- BIXI (station à l'angle Ontario/ Saint-Denis)\n\nAccès : \n- Sortie A : Université du Québec à Montréal\n- Sortie B : Bibliothèque Gabrielle-Roy\n- Sortie C : Place Émilie-Gamelin\n\nStation accessible aux personnes à mobilité réduite.",
+          "question": "Quelle ligne ne passe PAS par la station Berri-UQAM ?",
+          "options": {
+            "A": "La ligne verte",
+            "B": "La ligne orange",
+            "C": "La ligne jaune",
+            "D": "La ligne bleue"
+          },
+          "correct_answer": "D"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congé sans solde\n\nMadame la Directrice,\n\nPar la présente, je vous informe de mon intention de prendre un congé sans solde d'une durée de trois mois, du 1er septembre au 30 novembre 2024. Cette décision fait suite à une opportunité professionnelle à l'étranger qui nécessite ma présence sur place.\n\nJe souhaite préciser que je suis consciente des implications de ce choix sur mes avantages sociaux et mon ancienneté. J'ai déjà consulté le service des ressources humaines concernant les modalités de maintien de mes assurances durant cette période.\n\nJe reste à votre entière disposition pour organiser la transmission de mes dossiers actuels et former mon remplaçant. Je vous remercie de l'attention portée à ma demande.\n\nCordialement,\nSophie Lemaire\nAgente de développement",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Informer",
+            "B": "Se plaindre",
+            "C": "Inviter",
+            "D": "Féliciter"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 24,
+          "text": "Objet : Réclamation concernant la livraison commande #45892\n\nMadame, Monsieur,\n\nJ'ai le regret de vous informer que la commande passée sur votre site le 15 mai dernier n'a toujours pas été livrée, bien que le délai annoncé était de 3 à 5 jours ouvrables. Il s'agit d'un cadeau d'anniversaire dont j'avais impérativement besoin pour le 25 mai.\n\nMalgré mes deux emails précédents restés sans réponse, je n'ai reçu aucune information sur le statut de ma livraison. Le numéro de suivi indiqué sur votre site est invalide et votre service client téléphonique est injoignable.\n\nJe vous demande donc soit l'expédition immédiate de ma commande avec remboursement des frais de port, soit l'annulation totale de la transaction avec remboursement intégral sous 48 heures. À défaut, je me verrai dans l'obligation de saisir la direction générale et les services compétents.\n\nDans l'attente d'une réponse rapide,\nThomas Bernard",
+          "question": "Quel est le ton de ce message ?",
+          "options": {
+            "A": "Amical et décontracté",
+            "B": "Formel et menaçant",
+            "C": "Enthousiaste et reconnaissant",
+            "D": "Neutre et informatif"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 25,
+          "text": "Objet : Invitation à la 15ème édition du Salon des Entrepreneurs\n\nCher partenaire,\n\nC'est avec un immense plaisir que nous vous invitons à la 15ème édition du Salon des Entrepreneurs de Montréal, qui se tiendra les 14 et 15 mars 2025 au Palais des congrès.\n\nEn tant que membre fondateur de notre réseau d'affaires, votre présence serait un honneur pour nous. Cette année, le salon mettra particulièrement l'accent sur l'innovation durable et les technologies vertes, un domaine dans lequel votre entreprise excelle depuis plusieurs années.\n\nNous vous réservons une place privilégiée pour la conférence d'ouverture et un cocktail exclusif réservé aux partenaires historiques. Votre badge VIP vous permettra également d'accéder à l'espace networking réservé.\n\nConfirmez-nous votre participation avant le 1er février 2025. Nous avons hâte de vous retrouver!\n\nBien cordialement,\nL'équipe organisatrice",
+          "question": "Pourquoi le destinataire reçoit-il un traitement privilégié ?",
+          "options": {
+            "A": "Il a payé un supplément",
+            "B": "Il est membre fondateur du réseau",
+            "C": "Il est employé par l'organisateur",
+            "D": "Il a gagné un concours"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "Objet : Confirmation de réservation - Séminaire \"Gestion du stress\"\n\nBonjour Madame Tremblay,\n\nNous avons le plaisir de confirmer votre inscription au séminaire \"Gestion du stress et bien-être au travail\" prévu le 12 juin 2024 de 9h00 à 17h00 à l'Hôtel Le Centre-Ville.\n\nVotre participation est entièrement prise en charge par votre employeur, Gestion Martin Inc. Le montant de 450$ a été réglé selon les modalités conventionnelles. Un reçu officiel sera émis à l'attention du service comptable.\n\nVeuillez arriver 15 minutes avant le début des activités pour récupérer votre badge et votre trousse de formation. Le déjeuner est inclus et se tiendra à la brasserie de l'hôtel à 12h30. Des options végétariennes et sans gluten sont disponibles sur demande préalable.\n\nEn pièce jointe : programme détaillé et plan d'accès.\n\nAu plaisir de vous accueillir,\nCaroline Dubé\nCoordonnatrice événementielle",
+          "question": "Qui paie pour la participation de Madame Tremblay ?",
+          "options": {
+            "A": "Elle-même",
+            "B": "Son employeur",
+            "C": "L'hôtel",
+            "D": "Le gouvernement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "Objet : Mise à jour des procédures de sécurité informatique\n\nÀ l'attention de tous les employés,\n\nSuite à la récente tentative de piratage subie par notre entreprise, le service informatique met en place de nouvelles mesures de sécurité obligatoires à compter du 1er juillet prochain.\n\nDorénavant, tous les mots de passe devront comporter au minimum 12 caractères incluant majuscules, minuscules, chiffres et symboles. Une authentification à deux facteurs sera requise pour accéder aux systèmes internes depuis l'extérieur du bureau.\n\nDe plus, il est strictement interdit de connecter des appareils personnels (clés USB, téléphones) aux ordinateurs professionnels sans autorisation préalable du service IT. Toute infraction à cette règle entraînera des sanctions disciplinaires.\n\nUne formation obligatoire de sensibilisation aura lieu le 25 juin à 14h00 dans la salle de conférence principale. L'attendance sera prise.\n\nMerci de votre coopération,\nDirection des Systèmes d'Information",
+          "question": "Quelle est la conséquence d'une infraction aux nouvelles règles ?",
+          "options": {
+            "A": "Une amende financière",
+            "B": "Des sanctions disciplinaires",
+            "C": "Un licenciement immédiat",
+            "D": "Une mise à pied sans solde"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Objet : Offre de stage - Marketing digital\n\nMadame Lefebvre,\n\nNous avons étudié avec grand intérêt votre candidature pour le poste de stagiaire en marketing digital au sein de notre agence. Votre parcours académique et votre maîtrise des outils d'analyse web correspondent parfaitement au profil recherché.\n\nNous vous proposons donc un stage de 4 mois à compter du 1er septembre 2024. La rémunération mensuelle est de 800$, conformément aux normes en vigueur. Vous bénéficierez d'un mentorat personnalisé et participerez à des projets concrets pour nos clients.\n\nVotre principale mission consistera à gérer les campagnes publicitaires sur les réseaux sociaux et à analyser leur performance. Une proposition d'emploi à l'issue du stage n'est pas garantie mais reste envisageable selon vos résultats et nos besoins.\n\nVeuillez nous confirmer votre acceptation par retour de mail avant le 15 juin. Nous restons disponibles pour répondre à vos questions.\n\nCordialement,\nMarc Gagnon\nDirecteur marketing",
+          "question": "Qu'est-ce qui N'EST PAS garanti dans cette offre ?",
+          "options": {
+            "A": "Une rémunération mensuelle",
+            "B": "Un mentorat personnalisé",
+            "C": "Un emploi après le stage",
+            "D": "Une durée de 4 mois"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 29,
+          "text": "Objet : Report de la réunion du comité de direction\n\nChers membres du comité,\n\nJe vous informe que la réunion mensuelle initialement prévue ce jeudi 20 juin à 9h00 est reportée au mardi 25 juin à la même heure, salle de réunion B.\n\nCe changement s'explique par l'indisponibilité de plusieurs membres clés qui doivent assister à une conférence de presse importante concernant notre nouveau produit. Il est impératif que nous soyons tous présents pour finaliser le budget du troisième trimestre.\n\nVeuillez mettre à jour vos agendas en conséquence. Pour ceux qui avaient bloqué toute la journée du 20 juin, sachez que la réunion n'occupera que la matinée du 25 juin, vous laissant l'après-midi de libre.\n\nLes documents préparatoires vous seront envoyés dès demain matin. Merci de les consulter avant la réunion pour gagner du temps.\n\nBien à vous,\nJeanne Moreau\nDirectrice générale",
+          "question": "Pourquoi la réunion a-t-elle été reportée ?",
+          "options": {
+            "A": "La salle de réunion est occupée",
+            "B": "Des membres doivent assister à une conférence de presse",
+            "C": "Le budget n'est pas encore prêt",
+            "D": "La directrice est malade"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 30,
+          "text": "Objet : Avis de cotisation - Impôt foncier 2024\n\nMonsieur et Madame Gagnon,\n\nNous avons le regret de vous informer que votre propriété située au 456 avenue des Pins a été réévaluée par le service d'évaluation de la Ville de Québec. La nouvelle valeur de votre terrain est désormais fixée à 385 000$, soit une augmentation de 12% par rapport à l'année précédente.\n\nPar conséquent, votre compte de taxes foncières pour 2024 s'élève à 4 620$, payable en deux versements égaux : le 1er juillet et le 1er septembre. Un intérêt de 1% par mois sera appliqué sur tout paiement tardif.\n\nSi vous contestez cette évaluation, vous disposez d'un délai de 60 jours à compter de la réception de cet avis pour déposer une demande de révision. Le formulaire approprié est disponible sur notre site municipal ou au bureau d'accueil de l'hôtel de ville.\n\nPour toute question, contactez le service de perception au 418-555-0147.\n\nCordialement,\nLe Service des Finances",
+          "question": "Quel délai ont les propriétaires pour contester l'évaluation ?",
+          "options": {
+            "A": "30 jours",
+            "B": "60 jours",
+            "C": "90 jours",
+            "D": "1 an"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 31,
+          "text": "Objet : Demande de documents complémentaires - Dossier immigration\n\nNuméro de dossier : CA2024-789456\n\nMadame, Monsieur,\n\nSuite à l'examen préliminaire de votre demande de résidence permanente au Canada, nous vous prions de bien vouloir nous transmettre les documents suivants dans les 30 jours suivant la réception de ce courrier :\n\n1. Une copie certifiée conforme de votre diplôme de master (traduction officielle en français ou en anglais requise)\n2. Un relevé bancaire des trois derniers mois prouvant vos fonds disponibles\n3. Un certificat médical datant de moins de 6 mois établi par un médecin agréé\n4. Une lettre de votre employeur actuel confirmant votre poste et votre ancienneté\n\nLe non-respect de ce délai entraînera le rejet de votre demande sans possibilité d'appel. Veuillez mentionner votre numéro de dossier sur tous les documents envoyés.\n\nTransmettez les pièces par voie électronique via votre portail sécurisé ou par courrier recommandé à l'adresse ci-dessus.\n\nCordialement,\nAgent d'immigration\nCitoyenneté et Immigration Canada",
+          "question": "Quelle sera la conséquence si les documents ne sont pas envoyés à temps ?",
+          "options": {
+            "A": "Une prolongation du délai",
+            "B": "Le rejet de la demande",
+            "C": "Une amende financière",
+            "D": "Une convocation à un entretien"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "Objet : Acceptation de votre article pour publication\n\nCher Dr. Martin,\n\nNous avons le plaisir de vous informer que votre article intitulé \"L'impact du télétravail sur la productivité des employés québécois\" a été accepté pour publication dans la Revue canadienne de gestion, suite à une évaluation positive par les pairs.\n\nVos deux évaluateurs ont particulièrement apprécié la méthodologie rigoureuse et l'originalité de vos données empiriques. Toutefois, ils suggèrent quelques révisions mineures concernant la section \"Limites de l'étude\" et la bibliographie qui doit être mise à jour avec des références plus récentes.\n\nVous disposez de 6 semaines pour soumettre votre version révisée. Une fois les modifications acceptées, votre article sera publié dans le numéro de décembre 2024. Un contrat de cession des droits vous sera envoyé sous peu.\n\nFélicitations pour cette contribution importante à la recherche en gestion!\n\nSincères salutations,\nProfesseure Diane Roy\nRédactrice en chef",
+          "question": "Quel compliment les évaluateurs ont-ils fait à l'auteur ?",
+          "options": {
+            "A": "L'article est très court",
+            "B": "La méthodologie est rigoureuse",
+            "C": "La bibliographie est parfaite",
+            "D": "Les données sont anciennes"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "MONTRÉAL DÉVOILE SON NOUVEAU PLAN DE MOBILITÉ DURABLE\n\nLa mairesse de Montréal, Valérie Plante, a présenté hier le Plan de mobilité 2024-2030, un projet ambitieux qui vise à réduire de 50% les émissions de gaz à effet de serre liées au transport d'ici six ans. Le plan prévoit l'ajout de 150 kilomètres de pistes cyclables protégées, l'électrification complète du réseau d'autobus d'ici 2027, et la création de cinq nouvelles lignes de tramway traversant l'île.\n\nCette annonce a suscité des réactions partagées. Les associations écologistes saluent une \"avancée historique\" qui positionne Montréal comme leader nord-américain en matière de transport vert. Cependant, le syndicat des chauffeurs d'autobus exprique des inquiétudes quant à la formation rapide du personnel pour les nouveaux véhicules électriques. De leur côté, les commerçants du centre-ville craignent que les travaux de construction des tramways ne paralysent leur activité pendant des années.\n\nLe projet, estimé à 8 milliards de dollars, sera financé par un mélange de fonds provinciaux, fédéraux et d'une hausse modérée des taxes foncières. Les premiers chantiers devraient débuter au printemps prochain.",
+          "question": "Quelle est la position de l'auteur de cet article ?",
+          "options": {
+            "A": "Positive",
+            "B": "Négative",
+            "C": "Neutre",
+            "D": "Critique"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 34,
+          "text": "MONTRÉAL DÉVOILE SON NOUVEAU PLAN DE MOBILITÉ DURABLE\n\nLa mairesse de Montréal, Valérie Plante, a présenté hier le Plan de mobilité 2024-2030, un projet ambitieux qui vise à réduire de 50% les émissions de gaz à effet de serre liées au transport d'ici six ans. Le plan prévoit l'ajout de 150 kilomètres de pistes cyclables protégées, l'électrification complète du réseau d'autobus d'ici 2027, et la création de cinq nouvelles lignes de tramway traversant l'île.\n\nCette annonce a suscité des réactions partagées. Les associations écologistes saluent une \"avancée historique\" qui positionne Montréal comme leader nord-américain en matière de transport vert. Cependant, le syndicat des chauffeurs d'autobus exprime des inquiétudes quant à la formation rapide du personnel pour les nouveaux véhicules électriques. De leur côté, les commerçants du centre-ville craignent que les travaux de construction des tramways ne paralysent leur activité pendant des années.\n\nLe projet, estimé à 8 milliards de dollars, sera financé par un mélange de fonds provinciaux, fédéraux et d'une hausse modérée des taxes foncières. Les premiers chantiers devraient débuter au printemps prochain.",
+          "question": "Quel groupe exprime des préoccupations concernant la formation ?",
+          "options": {
+            "A": "Les associations écologistes",
+            "B": "Les commerçants du centre-ville",
+            "C": "Le syndicat des chauffeurs d'autobus",
+            "D": "Le gouvernement fédéral"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 35,
+          "text": "LA TÉLÉMÉDECINE RÉVOLUTIONNE LES SOINS DE SANTÉ EN RÉGION\n\nDans les régions éloignées du Québec, l'accès aux médecins spécialistes est devenu un luxe rare. C'est pourquoi l'implantation massive de la télémédecine ces deux dernières années représente une véritable bouffée d'oxygène pour des milliers de patients. Grâce à des plateformes sécurisées, un habitant de Gaspésie peut désormais consulter un cardiologue à Montréal sans parcourir des centaines de kilomètres.\n\nLes chiffres parlent d'eux-mêmes : en 2023, plus de 2,5 millions de consultations virtuelles ont été réalisées, soit une augmentation de 340% par rapport à 2019. Dr Caroline Lavoie, médecin de famille en Abitibi, témoigne : \"Avant, je devais envoyer mes patients à Val-d'Or pour des avis spécialisés. Aujourd'hui, l'attente passe de trois mois à quelques jours. C'est transformateur.\"\n\nPourtant, des défis persistent. La connectivité Internet reste précaire dans certaines zones, et de nombreux patients âgés peinent à maîtriser la technologie. De plus, certains spécialistes s'inquiètent de la perte de la relation humaine et de l'impossibilité de procéder à des examens physiques complets à distance.",
+          "question": "Selon le Dr Lavoie, quel est l'avantage principal de la télémédecine ?",
+          "options": {
+            "A": "C'est moins cher pour les patients",
+            "B": "L'attente pour un avis spécialisé est réduite",
+            "C": "Les médecins gagnent plus d'argent",
+            "D": "Les examens physiques sont meilleurs"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "LA TÉLÉMÉDECINE RÉVOLUTIONNE LES SOINS DE SANTÉ EN RÉGION\n\nDans les régions éloignées du Québec, l'accès aux médecins spécialistes est devenu un luxe rare. C'est pourquoi l'implantation massive de la télémédecine ces deux dernières années représente une véritable bouffée d'oxygène pour des milliers de patients. Grâce à des plateformes sécurisées, un habitant de Gaspésie peut désormais consulter un cardiologue à Montréal sans parcourir des centaines de kilomètres.\n\nLes chiffres parlent d'eux-mêmes : en 2023, plus de 2,5 millions de consultations virtuelles ont été réalisées, soit une augmentation de 340% par rapport à 2019. Dr Caroline Lavoie, médecin de famille en Abitibi, témoigne : \"Avant, je devais envoyer mes patients à Val-d'Or pour des avis spécialisés. Aujourd'hui, l'attente passe de trois mois à quelques jours. C'est transformateur.\"\n\nPourtant, des défis persistent. La connectivité Internet reste précaire dans certaines zones, et de nombreux patients âgés peinent à maîtriser la technologie. De plus, certains spécialistes s'inquiètent de la perte de la relation humaine et de l'impossibilité de procéder à des examens physiques complets à distance.",
+          "question": "Quel problème les patients âgés rencontrent-ils selon l'article ?",
+          "options": {
+            "A": "Ils n'ont pas accès à Internet",
+            "B": "Ils ont du mal à utiliser la technologie",
+            "C": "Ils préfèrent les médecins de famille",
+            "D": "Ils doivent payer plus cher"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "CRISSE DU LOGEMENT : LA GÉNÉRATION Z ABANDONNE MONTRÉAL\n\nLe rêve montréalais s'effrite pour la nouvelle génération. Face à une flambée des loyers sans précédent - augmentation moyenne de 25% en trois ans - de plus en plus de jeunes professionnels quittent la métropole pour des villes régionales où le coût de la vie reste abordable. Selon une récente étude de l'Institut de recherche en économie contemporaine, 38% des 18-35 ans actifs à Montréal envisagent sérieusement un déménagement dans les deux ans.\n\nSarah, 28 ans, ingénieure en informatique, illustre ce phénomène : \"Je paie 1 400$ pour un trois-et-demi insalubre à Rosemont. À Québec, pour le même prix, j'aurais un condo neuf avec stationnement. Le choix est vite fait.\" Son employeur, une entreprise technologique, a d'ailleurs accepté son télétravail permanent, élargissant ses options géographiques.\n\nCette exode inquiète les économistes. \"Montréal risque de perdre son dynamisme démographique et économique si elle ne devient pas rapidement accessible aux jeunes talents\", alerte l'économiste Pierre Fortin. La Ville a annoncé un plan de 20 000 logements abordables, mais les critiques jugent ces mesures insuffisantes face à l'ampleur de la crise.",
+          "question": "Quelle est l'idée principale de cet article ?",
+          "options": {
+            "A": "Montréal construit 20 000 logements",
+            "B": "Les loyers ont augmenté de 25%",
+            "C": "Les jeunes quittent Montréal à cause du coût du logement",
+            "D": "Le télétravail est devenu populaire"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 38,
+          "text": "CRISSE DU LOGEMENT : LA GÉNÉRATION Z ABANDONNE MONTRÉAL\n\nLe rêve montréalais s'effrite pour la nouvelle génération. Face à une flambée des loyers sans précédent - augmentation moyenne de 25% en trois ans - de plus en plus de jeunes professionnels quittent la métropole pour des villes régionales où le coût de la vie reste abordable. Selon une récente étude de l'Institut de recherche en économie contemporaine, 38% des 18-35 ans actifs à Montréal envisagent sérieusement un déménagement dans les deux ans.\n\nSarah, 28 ans, ingénieure en informatique, illustre ce phénomène : \"Je paie 1 400$ pour un trois-et-demi insalubre à Rosemont. À Québec, pour le même prix, j'aurais un condo neuf avec stationnement. Le choix est vite fait.\" Son employeur, une entreprise technologique, a d'ailleurs accepté son télétravail permanent, élargissant ses options géographiques.\n\nCette exode inquiète les économistes. \"Montréal risque de perdre son dynamisme démographique et économique si elle ne devient pas rapidement accessible aux jeunes talents\", alerte l'économiste Pierre Fortin. La Ville a annoncé un plan de 20 000 logements abordables, mais les critiques jugent ces mesures insuffisantes face à l'ampleur de la crise.",
+          "question": "Que pense Pierre Fortin de la situation ?",
+          "options": {
+            "A": "Il est optimiste pour l'avenir",
+            "B": "Il craint une perte de dynamisme pour Montréal",
+            "C": "Il trouve que les logements sont abordables",
+            "D": "Il encourage les jeunes à déménager"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "L'INTELLIGENCE ARTIFICIELLE MENACE-T-ELLE L'EMPLOI DES CADRES ?\n\nLongtemps épargnées par l'automatisation, les professions intellectuelles supérieures sont désormais dans le viseur de l'intelligence artificielle générative. Un rapport récent du Bureau international du Travail révèle que les postes de gestionnaires, d'analystes financiers et de juristes sont parmi les plus exposés à la disruption technologique.\n\nAu Canada, plusieurs grandes banques ont déjà déployé des algorithmes capables de rédiger des rapports d'analyse en quelques secondes, une tâche qui prenait auparavant des heures à des employés qualifiés. \"Nous ne remplaçons pas nos analystes, nous les libérons de tâches répétitives pour qu'ils se concentrent sur la stratégie\", se défend le directeur des innovations de la Banque Nationale.\n\nCette vision optimiste n'est pas partagée par tous. Le syndicat des professionnels du Québec craint une dégradation de la qualité du travail et une pression à la baisse sur les salaires. \"Si une IA peut faire 80% du travail d'un débutant, pourquoi embaucherait-on à plein salaire ?\", questionne sa porte-parole, Marie-Claude Gauthier.\n\nLes experts préconisent une régulation rapide et une reconversion massive des compétences pour accompagner cette transition.",
+          "question": "Quelle est l'attitude de la Banque Nationale concernant l'IA ?",
+          "options": {
+            "A": "Elle craint les pertes d'emplois",
+            "B": "Elle voit l'IA comme un outil d'amélioration",
+            "C": "Elle refuse d'utiliser l'IA",
+            "D": "Elle veut réduire les salaires"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "L'INTELLIGENCE ARTIFICIELLE MENACE-T-ELLE L'EMPLOI DES CADRES ?\n\nLongtemps épargnées par l'automatisation, les professions intellectuelles supérieures sont désormais dans le viseur de l'intelligence artificielle générative. Un rapport récent du Bureau international du Travail révèle que les postes de gestionnaires, d'analystes financiers et de juristes sont parmi les plus exposés à la disruption technologique.\n\nAu Canada, plusieurs grandes banques ont déjà déployé des algorithmes capables de rédiger des rapports d'analyse en quelques secondes, une tâche qui prenait auparavant des heures à des employés qualifiés. \"Nous ne remplaçons pas nos analystes, nous les libérons de tâches répétitives pour qu'ils se concentrent sur la stratégie\", se défend le directeur des innovations de la Banque Nationale.\n\nCette vision optimiste n'est pas partagée par tous. Le syndicat des professionnels du Québec craint une dégradation de la qualité du travail et une pression à la baisse sur les salaires. \"Si une IA peut faire 80% du travail d'un débutant, pourquoi embaucherait-on à plein salaire ?\", questionne sa porte-parole, Marie-Claude Gauthier.\n\nLes experts préconisent une régulation rapide et une reconversion massive des compétences pour accompagner cette transition.",
+          "question": "Quelle solution les experts recommandent-ils pour gérer cette situation ?",
+          "options": {
+            "A": "Interdire l'utilisation de l'IA",
+            "B": "Augmenter les salaires des cadres",
+            "C": "Réguler et reconvertir les compétences",
+            "D": "Embaucher plus de débutants"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

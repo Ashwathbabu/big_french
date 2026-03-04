@@ -1,0 +1,38 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Expression écrite",
+  "duration_minutes": 60,
+  "sections": [
+    {
+      "id": 1,
+      "section": "A",
+      "title": "Rédiger la suite d'un article",
+      "time_minutes": 20,
+      "word_limit": { "min": 80, "max": 150 },
+      "instructions": [
+        "Ajoutez des détails réalistes.",
+        "Utilisez les temps du passé."
+      ],
+      "article_start": "Une importante conférence technologique a attiré des milliers de participants cette semaine."
+    },
+    {
+      "id": 2,
+      "section": "B",
+      "title": "Rédiger un texte argumentatif",
+      "time_minutes": 40,
+      "word_limit": { "min": 200, "max": 300 },
+      "instructions": [
+        "Exprimez clairement votre opinion.",
+        "Développez vos arguments."
+      ],
+      "prompt": "Les centres-villes devraient-ils devenir entièrement piétons ?"
+    }
+  ],
+  "evaluation": {
+    "task_completion": 25,
+    "coherence_and_structure": 20,
+    "vocabulary_range": 20,
+    "grammar_accuracy": 20,
+    "spelling_and_punctuation": 15
+  }
+}

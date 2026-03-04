@@ -1,0 +1,38 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Expression écrite",
+  "duration_minutes": 60,
+  "sections": [
+    {
+      "id": 1,
+      "section": "A",
+      "title": "Rédiger la suite d'un article",
+      "time_minutes": 20,
+      "word_limit": { "min": 80, "max": 150 },
+      "instructions": [
+        "Ajoutez des détails supplémentaires.",
+        "Respectez le style journalistique."
+      ],
+      "article_start": "Une découverte archéologique importante a été annoncée par une équipe de chercheurs locaux."
+    },
+    {
+      "id": 2,
+      "section": "B",
+      "time_minutes": 40,
+      "title": "Rédiger un texte argumentatif",
+      "word_limit": { "min": 200, "max": 300 },
+      "instructions": [
+        "Exprimez clairement votre opinion.",
+        "Appuyez vos arguments."
+      ],
+      "prompt": "Le travail à temps partiel est-il bénéfique pour les étudiants universitaires ?"
+    }
+  ],
+  "evaluation": {
+    "task_completion": 25,
+    "coherence_and_structure": 20,
+    "vocabulary_range": 20,
+    "grammar_accuracy": 20,
+    "spelling_and_punctuation": 15
+  }
+}

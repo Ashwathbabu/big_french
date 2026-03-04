@@ -1,0 +1,38 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Expression écrite",
+  "duration_minutes": 60,
+  "sections": [
+    {
+      "id": 1,
+      "section": "A",
+      "title": "Rédiger la suite d'un article",
+      "time_minutes": 20,
+      "word_limit": { "min": 80, "max": 150 },
+      "instructions": [
+        "Continuez l'article.",
+        "Ajoutez des détails sur l'enquête."
+      ],
+      "article_start": "Un mystérieux bruit a semé la panique parmi les habitants d'un quartier résidentiel durant la nuit."
+    },
+    {
+      "id": 2,
+      "section": "B",
+      "time_minutes": 40,
+      "title": "Rédiger un texte argumentatif",
+      "word_limit": { "min": 200, "max": 300 },
+      "instructions": [
+        "Présentez votre opinion.",
+        "Utilisez des exemples concrets."
+      ],
+      "prompt": "Les cours d'éducation financière devraient-ils être obligatoires à l'école ?"
+    }
+  ],
+  "evaluation": {
+    "task_completion": 25,
+    "coherence_and_structure": 20,
+    "vocabulary_range": 20,
+    "grammar_accuracy": 20,
+    "spelling_and_punctuation": 15
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful - BigFrench.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl shadow-xl max-w-md w-full p-8 text-center">
+        <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-check text-4xl text-green-600"></i>
+        </div>
+        
+        <h1 class="text-2xl font-bold text-slate-900 mb-2">Payment Successful!</h1>
+        <p class="text-slate-500 mb-6">Your plan has been activated successfully.</p>
+        
+        <!-- Order Details -->
+        <div class="bg-slate-50 rounded-2xl p-4 mb-6 text-left">
+            <div class="flex justify-between mb-2">
+                <span class="text-slate-600">Plan</span>
+                <span class="font-bold text-slate-900" id="planName">-</span>
+            </div>
+            <div class="flex justify-between mb-2">
+                <span class="text-slate-600">Exam</span>
+                <span class="font-bold text-slate-900 uppercase" id="examName">-</span>
+            </div>
+            
+            <!-- Coupon Section (shown only if coupon applied) -->
+            <div id="couponSection" class="hidden border-t border-slate-200 pt-3 mt-3">
+                <div class="flex justify-between mb-2 text-green-600">
+                    <span class="flex items-center gap-2">
+                        <i class="fas fa-tag"></i>
+                        Coupon <span id="couponCode" class="font-bold"></span>
+                    </span>
+                    <span class="font-bold" id="discountAmount">-</span>
+                </div>
+            </div>
+            
+            <div class="flex justify-between border-t border-slate-200 pt-3 mt-3">
+                <span class="text-slate-600">Total Paid</span>
+                <span class="font-bold text-xl text-green-600" id="finalAmount">-</span>
+            </div>
+        </div>
+        
+        <div class="space-y-3">
+            <a href="dashboard.html" class="block w-full bg-gradient-to-r from-orange-500 to-red-500 text-white py-3 rounded-xl font-bold hover:shadow-lg transition">
+                Go to Dashboard
+            </a>
+            <a href="index.html" class="block w-full bg-slate-100 text-slate-700 py-3 rounded-xl font-medium hover:bg-slate-200 transition">
+                Back to Home
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Parse URL parameters
+        const params = new URLSearchParams(window.location.search);
+        
+        document.getElementById('planName').textContent = params.get('plan') || 'Premium';
+        document.getElementById('examName').textContent = params.get('exam') || 'TEF';
+        
+        const currency = params.get('currency') || '₹';
+        const finalPrice = params.get('final_price') || params.get('amount') || '0';
+        document.getElementById('finalAmount').textContent = currency + finalPrice;
+        
+        // Show coupon section if coupon was applied
+        const coupon = params.get('coupon');
+        const discount = params.get('discount');
+        
+        if (coupon && discount && discount !== '0') {
+            document.getElementById('couponSection').classList.remove('hidden');
+            document.getElementById('couponCode').textContent = coupon;
+            document.getElementById('discountAmount').textContent = '-' + currency + discount;
+        }
+        
+        // Clear applied coupon from memory
+        localStorage.removeItem('appliedCoupon');
+    </script>
+</body>
+</html>

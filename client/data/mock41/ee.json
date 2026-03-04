@@ -1,0 +1,38 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Expression écrite",
+  "duration_minutes": 60,
+  "sections": [
+    {
+      "id": 1,
+      "section": "A",
+      "title": "Rédiger la suite d'un article",
+      "time_minutes": 20,
+      "word_limit": { "min": 80, "max": 150 },
+      "instructions": [
+        "Continuez l'article avec un ton journalistique.",
+        "Ajoutez des détails et réactions."
+      ],
+      "article_start": "Un important chantier de rénovation a commencé cette semaine dans le centre historique de la ville."
+    },
+    {
+      "id": 2,
+      "section": "B",
+      "title": "Rédiger un texte argumentatif",
+      "time_minutes": 40,
+      "word_limit": { "min": 200, "max": 300 },
+      "instructions": [
+        "Présentez clairement votre opinion.",
+        "Développez au moins deux arguments."
+      ],
+      "prompt": "Les véhicules autonomes représentent-ils l'avenir du transport ?"
+    }
+  ],
+  "evaluation": {
+    "task_completion": 25,
+    "coherence_and_structure": 20,
+    "vocabulary_range": 20,
+    "grammar_accuracy": 20,
+    "spelling_and_punctuation": 15
+  }
+}

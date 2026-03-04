@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - BigFrench.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .split-layout {
+            display: flex;
+            min-height: 100vh;
+            width: 100%;
+        }
+
+        .image-side {
+            flex: 0.6;
+            position: relative;
+            background-image: url('./signup-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-color: #1E40AF;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            padding: 2rem;
+        }
+
+        .image-banner {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            z-index: 10;
+        }
+
+        .banner-orange {
+            background: #F97316;
+            color: white;
+            padding: 0.875rem 1rem;
+            border-radius: 8px;
+            font-weight: 800;
+            font-size: 1.25rem;
+            font-style: italic;
+            box-shadow: 0 4px 12px rgba(249, 115, 22, 0.5);
+            line-height: 1.2;
+        }
+
+        .banner-white {
+            background: white;
+            color: #F97316;
+            padding: 0.875rem 1rem;
+            border-radius: 8px;
+            font-weight: 800;
+            font-size: 1.25rem;
+            font-style: italic;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            line-height: 1.2;
+        }
+
+        .banner-dark {
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 0.625rem 0.875rem;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.875rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            width: fit-content;
+        }
+
+        .form-side {
+            flex: 0.4;
+            background: linear-gradient(135deg, #F5E6D3 0%, #E8D4C4 50%, #F0E6F6 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+            min-height: 100vh;
+            overflow-y: auto;
+        }
+
+        .signup-card {
+            background: white;
+            border-radius: 24px;
+            padding: 2rem;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .logo-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            background: linear-gradient(135deg, #1E40AF 0%, #1E3A8A 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.25rem;
+            box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+        }
+
+        .logo-text {
+            font-size: 1rem;
+            font-weight: 800;
+            color: #1F2937;
+            letter-spacing: -0.5px;
+        }
+
+        .logo-dot {
+            color: #1E40AF;
+        }
+
+        .page-title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #1F2937;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .page-subtitle {
+            text-align: center;
+            color: #9CA3AF;
+            font-size: 0.85rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .step-indicator {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .step-circle {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+
+        .step-circle.active {
+            background: linear-gradient(135deg, #1E40AF 0%, #1E3A8A 100%);
+            color: white;
+            box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+        }
+
+        .step-circle.inactive {
+            background: #E5E7EB;
+            color: #6B7280;
+        }
+
+        .step-line {
+            width: 2rem;
+            height: 2px;
+            background: #E5E7EB;
+            transition: all 0.3s;
+        }
+
+        .step-line.active {
+            background: #1E40AF;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: #1F2937;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.4rem;
+        }
+
+        .form-input-wrapper {
+            position: relative;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 0.75rem 1rem 0.75rem 2.25rem;
+            border: 1px solid #E5E7EB;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            background: #F9FAFB;
+            transition: all 0.3s;
+        }
+
+        .form-input:focus {
+            background: white;
+            border-color: #1E40AF;
+            box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
+            outline: none;
+        }
+
+        .form-input::placeholder {
+            color: #D1D5DB;
+        }
+
+        .form-input-icon {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #9CA3AF;
+            font-size: 0.85rem;
+        }
+
+        .grid-2-cols {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+        }
+
+        .continue-btn {
+            width: 100%;
+            padding: 0.9rem;
+            background: linear-gradient(135deg, #1E40AF 0%, #1E3A8A 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 12px rgba(30, 64, 175, 0.2);
+        }
+
+        .continue-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(30, 64, 175, 0.3);
+        }
+
+        .continue-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .back-btn {
+            padding: 0.9rem;
+            border-radius: 8px;
+            font-weight: 700;
+            border: 1px solid #E5E7EB;
+            background: white;
+            color: #6B7280;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #F9FAFB;
+        }
+
+        .divider-text {
+            text-align: center;
+            color: #9CA3AF;
+            font-size: 0.8rem;
+            margin: 1.25rem 0 1rem 0;
+        }
+
+        .google-btn {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #E5E7EB;
+            border-radius: 8px;
+            background: white;
+            color: #374151;
+            font-weight: 600;
+            font-size: 0.85rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .google-btn:hover {
+            background: #F9FAFB;
+            border-color: #D1D5DB;
+            transform: translateY(-1px);
+        }
+
+        .google-icon {
+            width: 1rem;
+            height: 1rem;
+        }
+
+        .signin-link {
+            text-align: center;
+            margin-top: 1rem;
+            color: #6B7280;
+            font-size: 0.8rem;
+        }
+
+        .signin-link a {
+            color: #1E40AF;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .signin-link a:hover {
+            text-decoration: underline;
+        }
+
+        .back-home {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .back-home-link {
+            color: #9CA3AF;
+            text-decoration: none;
+            font-size: 0.8rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            transition: color 0.2s;
+        }
+
+        .back-home-link:hover {
+            color: #1E40AF;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+            margin-bottom: 1rem;
+            font-size: 0.8rem;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.4rem;
+        }
+
+        .checkbox-item input {
+            width: 1rem;
+            height: 1rem;
+            margin-top: 0.1rem;
+            cursor: pointer;
+            accent-color: #1E40AF;
+        }
+
+        .checkbox-item label {
+            cursor: pointer;
+            color: #6B7280;
+            line-height: 1.4;
+        }
+
+        .checkbox-item a {
+            color: #1E40AF;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .checkbox-item a:hover {
+            text-decoration: underline;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 1024px) {
+            .split-layout {
+                flex-direction: column;
+            }
+
+            .image-side {
+                min-height: 250px;
+            }
+
+            .form-side {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="split-layout">
+        <!-- LEFT: Image Section (60%) -->
+        <div class="image-side">
+            <div class="image-banner">
+                <div class="banner-orange">Your journey to</div>
+                <div class="banner-white">C1 starts here.</div>
+                <div class="banner-dark">
+                    <i class="fas fa-fire"></i>
+                    <span>2,500+ students • AI-powered mock tests • Real exam format</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT: Form Section (40%) -->
+        <div class="form-side">
+            <div class="signup-card">
+                <!-- Logo -->
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <span class="logo-text">BigFrench<span class="logo-dot">.com</span></span>
+                </div>
+
+                <!-- Title -->
+                <h1 class="page-title">Create Your Account</h1>
+                <p class="page-subtitle">Start your journey to French fluency today</p>
+
+                <!-- Step Indicator -->
+                <div class="step-indicator">
+                    <div class="step-circle active" id="step1">1</div>
+                    <div class="step-line active" id="line1"></div>
+                    <div class="step-circle inactive" id="step2">2</div>
+                    <div class="step-line" id="line2"></div>
+                    <div class="step-circle inactive" id="step3">3</div>
+                </div>
+
+                <!-- Signup Form -->
+                <form id="signupForm">
+                    <!-- Step 1: Basic Info -->
+                    <div id="step1Content">
+                        <div class="grid-2-cols">
+                            <div class="form-group">
+                                <label class="form-label">First Name</label>
+                                <div class="form-input-wrapper">
+                                    <i class="fas fa-user form-input-icon"></i>
+                                    <input type="text" id="firstName" required class="form-input" placeholder="First Name">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Last Name</label>
+                                <div class="form-input-wrapper">
+                                    <i class="fas fa-user form-input-icon"></i>
+                                    <input type="text" id="lastName" required class="form-input" placeholder="Last Name">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Email Address</label>
+                            <div class="form-input-wrapper">
+                                <i class="fas fa-envelope form-input-icon"></i>
+                                <input type="email" id="email" required class="form-input" placeholder="you@example.com">
+                            </div>
+                        </div>
+
+                        <button type="button" onclick="nextStep(2)" class="continue-btn">
+                            Continue <i class="fas fa-arrow-right" style="margin-left: 0.5rem; font-size: 0.8rem;"></i>
+                        </button>
+                    </div>
+
+                    <!-- Step 2: Password -->
+                    <div id="step2Content" class="hidden">
+                        <div class="form-group">
+                            <label class="form-label">Password</label>
+                            <div class="form-input-wrapper">
+                                <i class="fas fa-lock form-input-icon"></i>
+                                <input type="password" id="password" required minlength="8" class="form-input" placeholder="Min 8 characters">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Confirm Password</label>
+                            <div class="form-input-wrapper">
+                                <i class="fas fa-lock form-input-icon"></i>
+                                <input type="password" id="confirmPassword" required class="form-input" placeholder="Repeat password">
+                            </div>
+                        </div>
+
+                        <div class="grid-2-cols">
+                            <button type="button" onclick="prevStep(1)" class="back-btn">
+                                <i class="fas fa-arrow-left" style="margin-right: 0.4rem; font-size: 0.8rem;"></i> Back
+                            </button>
+                            <button type="button" onclick="nextStep(3)" class="continue-btn">
+                                Continue <i class="fas fa-arrow-right" style="margin-left: 0.4rem; font-size: 0.8rem;"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Exam & Agreement -->
+                    <div id="step3Content" class="hidden">
+                        <div class="form-group">
+                            <label class="form-label">Select Your Exam</label>
+                            <div class="grid-2-cols">
+                                <label style="cursor: pointer; font-size: 0.85rem;">
+                                    <input type="radio" name="exam" value="tef" checked style="margin-right: 0.4rem; accent-color: #1E40AF;">
+                                    <span style="color: #6B7280;">TEF Canada</span>
+                                </label>
+                                <label style="cursor: pointer; font-size: 0.85rem;">
+                                    <input type="radio" name="exam" value="tcf" style="margin-right: 0.4rem; accent-color: #1E40AF;">
+                                    <span style="color: #6B7280;">TCF</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Terms & Privacy Checkboxes -->
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="termsCheckbox" required>
+                                <label for="termsCheckbox">
+                                    I agree to the <a href="legal.html#terms" target="_blank" onclick="localStorage.setItem('activeLegalTab', 'terms')">Terms of Service</a> and <a href="legal.html#privacy" target="_blank" onclick="localStorage.setItem('activeLegalTab', 'privacy')">Privacy Policy</a>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="grid-2-cols">
+                            <button type="button" onclick="prevStep(2)" class="back-btn">
+                                <i class="fas fa-arrow-left" style="margin-right: 0.4rem; font-size: 0.8rem;"></i> Back
+                            </button>
+                            <button type="submit" id="submitBtn" class="continue-btn">
+                                Create
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Divider -->
+                <p class="divider-text">Or sign up with</p>
+
+                <!-- Google Button -->
+                <button type="button" id="btn-google" class="google-btn">
+                    <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google" class="google-icon">
+                    <span>Google</span>
+                </button>
+
+                
+
+                <!-- Sign In Link -->
+                <p class="signin-link">
+                    Have an account? <a href="login.html">Sign in</a>
+                </p>
+
+                <!-- Back to Home -->
+                <div class="back-home">
+                    <a href="index.html" class="back-home-link">
+                        <i class="fas fa-arrow-left"></i> Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function nextStep(step) {
+            if (step === 2) {
+                const firstName = document.getElementById('firstName').value.trim();
+                const lastName = document.getElementById('lastName').value.trim();
+                const email = document.getElementById('email').value.trim();
+
+                if (!firstName || !lastName || !email) {
+                    alert('Please fill in all fields');
+                    return;
+                }
+                if (!email.includes('@')) {
+                    alert('Please enter a valid email');
+                    return;
+                }
+            }
+
+            if (step === 3) {
+                const password = document.getElementById('password').value;
+                const confirmPassword = document.getElementById('confirmPassword').value;
+
+                if (password.length < 8) {
+                    alert('Password must be at least 8 characters');
+                    return;
+                }
+                if (password !== confirmPassword) {
+                    alert('Passwords do not match');
+                    return;
+                }
+            }
+
+            document.getElementById('step1Content').classList.add('hidden');
+            document.getElementById('step2Content').classList.add('hidden');
+            document.getElementById('step3Content').classList.add('hidden');
+            document.getElementById('step' + step + 'Content').classList.remove('hidden');
+            updateSteps(step);
+        }
+
+        function prevStep(step) {
+            document.getElementById('step1Content').classList.add('hidden');
+            document.getElementById('step2Content').classList.add('hidden');
+            document.getElementById('step3Content').classList.add('hidden');
+            document.getElementById('step' + step + 'Content').classList.remove('hidden');
+            updateSteps(step);
+        }
+
+        function updateSteps(currentStep) {
+            for (let i = 1; i <= 3; i++) {
+                const stepEl = document.getElementById('step' + i);
+                const lineEl = document.getElementById('line' + (i - 1));
+
+                if (i < currentStep) {
+                    stepEl.className = 'step-circle active';
+                    stepEl.innerHTML = '<i class="fas fa-check"></i>';
+                    if (lineEl) lineEl.classList.add('active');
+                } else if (i === currentStep) {
+                    stepEl.className = 'step-circle active';
+                    stepEl.textContent = i;
+                    if (lineEl) lineEl.classList.remove('active');
+                } else {
+                    stepEl.className = 'step-circle inactive';
+                    stepEl.textContent = i;
+                    if (lineEl) lineEl.classList.remove('active');
+                }
+            }
+        }
+
+        document.getElementById('signupForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const firstName = document.getElementById('firstName').value.trim();
+            const lastName = document.getElementById('lastName').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value;
+            const examType = document.querySelector('input[name="exam"]:checked').value;
+            const termsAccepted = document.getElementById('termsCheckbox').checked;
+
+            if (!termsAccepted) {
+                alert('You must agree to Terms of Service and Privacy Policy');
+                return;
+            }
+
+            const btn = document.getElementById('submitBtn');
+            const originalContent = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Creating...';
+            btn.disabled = true;
+
+            try {
+                const res = await fetch('http://localhost:5000/api/auth/signup', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        firstName,
+                        lastName,
+                        email,
+                        password,
+                        examType
+                    })
+                });
+
+                const data = await res.json();
+
+                if (res.ok) {
+                    alert('Signup successful! Please login.');
+                    window.location.href = 'login.html';
+                } else {
+                    alert(data.message || 'Signup failed');
+                    btn.innerHTML = originalContent;
+                    btn.disabled = false;
+                }
+            } catch (error) {
+                console.error(error);
+                alert('Server error. Please try again.');
+                btn.innerHTML = originalContent;
+                btn.disabled = false;
+            }
+        });
+    </script>
+    <script src="js/fetchSecurity.js"></script>
+    <script src="/js/socialAuth.js"></script>
+</body>
+</html>

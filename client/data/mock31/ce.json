@@ -1,0 +1,575 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "FESTIVAL DES LUMIÈRES DE MONTRÉAL\n\nDu 15 au 25 février 2026, le Vieux-Port de Montréal accueille la 12e édition du Festival des Lumières. Cet événement hivernal transforme le quartier historique en un parcours magique de plus de 25 installations lumineuses créées par des artistes locaux et internationaux. Les visiteurs peuvent déambuler gratuitement sur le site de 18h à 23h tous les soirs. Des food trucks proposent des spécialités québécoises pour réchauffer les promeneurs. Un spectacle de drones lumineux est programmé le samedi 20 février à 20h30. Les enfants de moins de 12 ans pourront participer à des ateliers de lanternes les week-ends. Le stationnement est disponible au Quai Jacques-Cartier pour 15$ la soirée. Pour plus d'informations, consultez www.festivaldeslumieres.ca ou suivez-nous sur les réseaux sociaux.",
+          "question": "Quel élément du festival est décrit comme payant ?",
+          "options": {
+            "A": "Les ateliers de lanternes pour enfants",
+            "B": "Le stationnement au Quai Jacques-Cartier",
+            "C": "L'accès aux installations lumineuses",
+            "D": "Le spectacle de drones lumineux"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "AVIS DE FERMETURE - BIBLIOTHÈQUE MUNICIPALE\n\nChers usagers, nous vous informons que la bibliothèque centrale du quartier Saint-Lambert sera exceptionnellement fermée pour travaux de rénovation du 1er au 21 mars 2026. Durant cette période, les emprunts et retours de documents seront possibles à la bibliothèque annexe située au 45 avenue des Érables, ouverte du mardi au samedi de 10h à 17h. Les réservations en ligne restent actives et les livres pourront être récupérés à l'annexe sous 48 heures. Les clubs de lecture et les ateliers d'écriture seront déplacés à la Maison des Associations, rue Principale. L'agrandissement de la section jeunesse et la création d'un espace multimédia moderne sont prévus. Nous vous remercions de votre compréhension et vous donnons rendez-vous le 22 mars pour découvrir vos nouveaux espaces rénovés.",
+          "question": "Où les usagers peuvent-ils récupérer leurs réservations pendant la fermeture ?",
+          "options": {
+            "A": "À la bibliothèque centrale",
+            "B": "À la Maison des Associations",
+            "C": "À la bibliothèque annexe",
+            "D": "En ligne uniquement"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 3,
+          "text": "MENU DU JOUR - RESTAURANT LE PETIT BISTROT\n\nEntrées : Soupe à l'oignon gratinée 9$ | Salade César au poulet 12$ | Tartare de saumon 14$\nPlats principaux : Magret de canard sauce figues 26$ | Risotto aux champignons sauvages 22$ | Filet de doré sauce beurre blanc 28$\nDesserts : Crème brûlée à la vanille 8$ | Tarte au citron meringuée 9$ | Assiette de fromages fins 11$\nFormule déjeuner (11h-14h) : Entrée + Plat + Café 24$\nFormule soir (à partir de 18h) : Entrée + Plat + Dessert 38$\nSupplément vin au verre : 7$ | Bouteille à partir de 32$\nService continu le samedi et dimanche de 11h à 22h. Réservations recommandées pour le dîner du vendredi soir. Menu végétarien disponible sur demande. Taxes en sus. Service compris.",
+          "question": "Combien coûte la formule déjeuner complète ?",
+          "options": {
+            "A": "22$",
+            "B": "24$",
+            "C": "26$",
+            "D": "38$"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "AFFICHE - COURS DE YOGA EN PLEIN AIR\n\nRejoignez-nous cet été pour des séances de yoga en plein air au parc Lafontaine ! Du 1er juin au 31 août 2026, professeurs certifiés vous proposent des cours adaptés à tous les niveaux, du débutant au confirmé. Les séances ont lieu les mardis et jeudis de 7h à 8h, et les samedis de 9h à 10h30, près du lac aux castors. Apportez votre tapis de yoga, une serviette et une bouteille d'eau. En cas de pluie, les cours sont annulés 30 minutes avant le début et reportés à la semaine suivante. Participation libre - dons suggérés de 5$ à 10$ pour couvrir les frais organisationnels. Les chiens ne sont pas admis sur le site des cours. Pour toute question, contactez Marie au 514-555-0123 ou par email yoga@parclafontaine.ca.",
+          "question": "Quel jour de la semaine les cours durent-ils le plus longtemps ?",
+          "options": {
+            "A": "Le mardi",
+            "B": "Le jeudi",
+            "C": "Le samedi",
+            "D": "Tous les cours durent la même durée"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 5,
+          "text": "NOTICE D'UTILISATION - MACHINE À CAFÉ ESPRESSO PRO\n\nFélicitations pour votre achat ! Avant la première utilisation, rincez le réservoir d'eau et remplissez-le d'eau fraîche non calcaire. Insérez une dosette dans le porte-filtre en alignant les repères. Verrouillez le porte-filtre en tournant vers la droite jusqu'à la butée. Placez votre tasse sous la buse. Appuyez sur le bouton espresso court (40ml) ou long (110ml) selon votre préférence. La machine chauffe automatiquement en 25 secondes. Nettoyez le bac à capsules quotidiennement et détartrer l'appareil tous les 3 mois avec le produit fourni. En cas de voyant rouge clignotant, vérifiez le niveau d'eau ou le bac à capsules plein. Pour l'entretien, utilisez uniquement des accessoires d'origine. Garantie 2 ans pièces et main-d'œuvre sur présentation de la facture.",
+          "question": "Que faut-il faire lorsque le voyant rouge clignote ?",
+          "options": {
+            "A": "Détartrer immédiatement l'appareil",
+            "B": "Vérifier le niveau d'eau ou le bac à capsules",
+            "C": "Appuyer sur le bouton de réinitialisation",
+            "D": "Contacter le service après-vente"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "text": "HORAIRES DES TRAJETS - FERRY VANCOUVER-VICTORIA\n\nTraversée quotidienne entre le terminal de Tsawwassen (Vancouver) et Swartz Bay (Victoria). Durée approximative : 1 heure 35 minutes. Départs de Vancouver : 7h00, 9h00, 11h00, 13h00, 15h00, 17h00, 19h00, 21h00. Départs de Victoria : 8h00, 10h00, 12h00, 14h00, 16h00, 18h00, 20h00, 22h00. Tarifs adultes (12-64 ans) : 18,50$ par personne. Tarifs réduits enfants (5-11 ans) et aînés (65+) : 9,25$. Gratuit pour les enfants de moins de 5 ans. Réservations obligatoires les week-ends et jours fériés. Arrivez 45 minutes avant le départ pour l'embarquement. Service de restauration à bord. Wi-Fi gratuit disponible dans les salons passagers. Animaux domestiques acceptés dans les zones désignées contre supplément de 15$. Informations et réservations : www.bcferries.com ou 1-888-BC-FERRY.",
+          "question": "À quelle heure doit-on arriver au terminal pour le ferry de 15h00 ?",
+          "options": {
+            "A": "14h00",
+            "B": "14h15",
+            "C": "14h30",
+            "D": "14h45"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "text": "ANNONCE DE LOCATION - APPARTEMENT CENTRE-VILLE\n\nGrand 3½ rénové disponible immédiatement au centre-ville de Québec, rue Saint-Jean. Surface habitable de 65m² au 2e étage d'un immeuble historique sécurisé avec interphone. Cuisine moderne équipée (réfrigérateur, cuisinière, lave-vaisselle), salon lumineux avec parquet en chêne, chambre avec grand placard, salle de bain avec baignoire. Chauffage et eau chaude inclus dans les charges. Internet haute vitesse disponible. Proximité immédiate des commerces, restaurants et transports en commun (bus 5 min à pied). Stationnement intérieur disponible en option (+100$/mois). Loyer mensuel : 1 250$. Caution : un mois de loyer. Visites sur rendez-vous du lundi au samedi. Interdiction de fumer et animaux non acceptés. Pour plus de renseignements, contactez Mme Tremblay au 418-555-0198 ou location@immoquebec.ca.",
+          "question": "Quel service est inclus dans le loyer de base ?",
+          "options": {
+            "A": "Le stationnement intérieur",
+            "B": "L'Internet haute vitesse",
+            "C": "Le chauffage et l'eau chaude",
+            "D": "Le service de concierge"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Le télétravail est devenu une réalité pour de nombreux employés canadiens depuis 2020. Cette nouvelle organisation du travail présente ______ avantages indéniables, notamment la flexibilité des horaires et la réduction du temps de transport. Cependant, elle soulève également des défis importants concernant la séparation entre vie professionnelle et vie personnelle. Plusieurs études montrent que les télétravailleurs ont ______ à déconnecter après leur journée de travail. Les entreprises doivent donc mettre en place des politiques claires pour préserver le bien-être de leurs collaborateurs. Il est essentiel d'établir des plages horaires dédiées au travail et de respecter le droit à la déconnexion numérique. Le succès du télétravail dépend ______ d'une bonne organisation individuelle et collective.",
+          "question": "Quel mot convient pour le premier trou (ligne 2) ?",
+          "options": {
+            "A": "peu",
+            "B": "des",
+            "C": "un",
+            "D": "chaque"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 9,
+          "text": "Le télétravail est devenu une réalité pour de nombreux employés canadiens depuis 2020. Cette nouvelle organisation du travail présente des avantages indéniables, notamment la flexibilité des horaires et la réduction du temps de transport. Cependant, elle soulève également des défis importants concernant la séparation entre vie professionnelle et vie personnelle. Plusieurs études montrent que les télétravailleurs ont ______ à déconnecter après leur journée de travail. Les entreprises doivent donc mettre en place des politiques claires pour préserver le bien-être de leurs collaborateurs. Il est essentiel d'établir des plages horaires dédiées au travail et de respecter le droit à la déconnexion numérique. Le succès du télétravail dépend ______ d'une bonne organisation individuelle et collective.",
+          "question": "Quel mot convient pour le deuxième trou (ligne 5) ?",
+          "options": {
+            "A": "tendance",
+            "B": "habitude",
+            "C": "coutume",
+            "D": "pratique"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 10,
+          "text": "Le télétravail est devenu une réalité pour de nombreux employés canadiens depuis 2020. Cette nouvelle organisation du travail présente des avantages indéniables, notamment la flexibilité des horaires et la réduction du temps de transport. Cependant, elle soulève également des défis importants concernant la séparation entre vie professionnelle et vie personnelle. Plusieurs études montrent que les télétravailleurs ont tendance à déconnecter après leur journée de travail. Les entreprises doivent donc mettre en place des politiques claires pour préserver le bien-être de leurs collaborateurs. Il est essentiel d'établir des plages horaires dédiées au travail et de respecter le droit à la déconnexion numérique. Le succès du télétravail dépend ______ d'une bonne organisation individuelle et collective.",
+          "question": "Quel mot convient pour le troisième trou (ligne 8) ?",
+          "options": {
+            "A": "surtout",
+            "B": "pourtant",
+            "C": "cependant",
+            "D": "néanmoins"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 11,
+          "text": "L'alimentation durable est un enjeu majeur de notre société moderne. De plus en plus de consommateurs cherchent à réduire leur impact environnemental ______ leurs choix alimentaires. Cette conscience écologique se traduit par une demande croissante de produits locaux, biologiques et de saison. Les marchés fermiers connaissent un regain de popularité ______ toutes les grandes villes canadiennes. Les jeunes générations sont particulièrement sensibles à ces questions et privilégient souvent la qualité ______ la quantité. Cependant, le coût des produits bio demeure un obstacle pour certaines familles. Les gouvernements envisagent des subventions pour rendre ces aliments plus accessibles. La transition vers une alimentation responsable nécessite à la fois une éducation du public et des politiques ______ encourageantes.",
+          "question": "Quel mot convient pour le premier trou (ligne 2) ?",
+          "options": {
+            "A": "par",
+            "B": "avec",
+            "C": "via",
+            "D": "pour"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 12,
+          "text": "L'alimentation durable est un enjeu majeur de notre société moderne. De plus en plus de consommateurs cherchent à réduire leur impact environnemental via leurs choix alimentaires. Cette conscience écologique se traduit par une demande croissante de produits locaux, biologiques et de saison. Les marchés fermiers connaissent un regain de popularité ______ toutes les grandes villes canadiennes. Les jeunes générations sont particulièrement sensibles à ces questions et privilégient souvent la qualité ______ la quantité. Cependant, le coût des produits bio demeure un obstacle pour certaines familles. Les gouvernements envisagent des subventions pour rendre ces aliments plus accessibles. La transition vers une alimentation responsable nécessite à la fois une éducation du public et des politiques ______ encourageantes.",
+          "question": "Quel mot convient pour le deuxième trou (ligne 4) ?",
+          "options": {
+            "A": "dans",
+            "B": "par",
+            "C": "chez",
+            "D": "sur"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 13,
+          "text": "L'alimentation durable est un enjeu majeur de notre société moderne. De plus en plus de consommateurs cherchent à réduire leur impact environnemental via leurs choix alimentaires. Cette conscience écologique se traduit par une demande croissante de produits locaux, biologiques et de saison. Les marchés fermiers connaissent un regain de popularité dans toutes les grandes villes canadiennes. Les jeunes générations sont particulièrement sensibles à ces questions et privilégient souvent la qualité ______ la quantité. Cependant, le coût des produits bio demeure un obstacle pour certaines familles. Les gouvernements envisagent des subventions pour rendre ces aliments plus accessibles. La transition vers une alimentation responsable nécessite à la fois une éducation du public et des politiques ______ encourageantes.",
+          "question": "Quel mot convient pour le troisième trou (ligne 5) ?",
+          "options": {
+            "A": "que",
+            "B": "à",
+            "C": "de",
+            "D": "sur"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 14,
+          "text": "L'alimentation durable est un enjeu majeur de notre société moderne. De plus en plus de consommateurs cherchent à réduire leur impact environnemental via leurs choix alimentaires. Cette conscience écologique se traduit par une demande croissante de produits locaux, biologiques et de saison. Les marchés fermiers connaissent un regain de popularité dans toutes les grandes villes canadiennes. Les jeunes générations sont particulièrement sensibles à ces questions et privilégient souvent la qualité à la quantité. Cependant, le coût des produits bio demeure un obstacle pour certaines familles. Les gouvernements envisagent des subventions pour rendre ces aliments plus accessibles. La transition vers une alimentation responsable nécessite à la fois une éducation du public et des politiques ______ encourageantes.",
+          "question": "Quel mot convient pour le quatrième trou (ligne 8) ?",
+          "options": {
+            "A": "toujours",
+            "B": "encore",
+            "C": "plus",
+            "D": "mieux"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 15,
+          "text": "Le sport constitue un excellent moyen de maintenir la santé physique et mentale. Les médecins recommandent ______ moins 150 minutes d'activité modérée par semaine pour rester en forme. Cette pratique régulière permet de réduire le risque de maladies cardiovasculaires et de renforcer le système immunitaire. De nombreux Canadiens ont découvert le plaisir de la course ______ pied pendant la pandémie. Les parcs urbains se sont transformés en véritables salles de sport en plein air. Pour ceux qui préfèrent l'intérieur, les centres sportifs proposent une variété de cours collectifs ______ le yoga et la musculation. L'important est de trouver une activité qui procure du plaisir pour pouvoir la maintenir sur le long terme. L'activité physique doit devenir un plaisir et non une ______.",
+          "question": "Quel mot convient pour le premier trou (ligne 2) ?",
+          "options": {
+            "A": "au",
+            "B": "du",
+            "C": "le",
+            "D": "de"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 16,
+          "text": "Le sport constitue un excellent moyen de maintenir la santé physique et mentale. Les médecins recommandent au moins 150 minutes d'activité modérée par semaine pour rester en forme. Cette pratique régulière permet de réduire le risque de maladies cardiovasculaires et de renforcer le système immunitaire. De nombreux Canadiens ont découvert le plaisir de la course ______ pied pendant la pandémie. Les parcs urbains se sont transformés en véritables salles de sport en plein air. Pour ceux qui préfèrent l'intérieur, les centres sportifs proposent une variété de cours collectifs ______ le yoga et la musculation. L'important est de trouver une activité qui procure du plaisir pour pouvoir la maintenir sur le long terme. L'activité physique doit devenir un plaisir et non une ______.",
+          "question": "Quel mot convient pour le deuxième trou (ligne 4) ?",
+          "options": {
+            "A": "au",
+            "B": "du",
+            "C": "à",
+            "D": "de"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 17,
+          "text": "Le sport constitue un excellent moyen de maintenir la santé physique et mentale. Les médecins recommandent au moins 150 minutes d'activité modérée par semaine pour rester en forme. Cette pratique régulière permet de réduire le risque de maladies cardiovasculaires et de renforcer le système immunitaire. De nombreux Canadiens ont découvert le plaisir de la course à pied pendant la pandémie. Les parcs urbains se sont transformés en véritables salles de sport en plein air. Pour ceux qui préfèrent l'intérieur, les centres sportifs proposent une variété de cours collectifs ______ le yoga et la musculation. L'important est de trouver une activité qui procure du plaisir pour pouvoir la maintenir sur le long terme. L'activité physique doit devenir un plaisir et non une ______.",
+          "question": "Quel mot convient pour le troisième trou (ligne 6) ?",
+          "options": {
+            "A": "comme",
+            "B": "tel que",
+            "C": "ainsi que",
+            "D": "par exemple"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "AVIS IMPORTANT - CHANGEMENT DE NUMÉROS DE TÉLÉPHONE\n\nÀ compter du 15 mars 2026, la région de l'Outaouais passera à la numérotation à 10 chiffres obligatoire pour tous les appels locaux. Cette modification vise à répondre à la pénurie croissante de numéros de téléphone dans la région. Les résidents devront désormais composer le 819 ou le 873 suivi des 7 chiffres du numéro, même pour appeler leur voisin. Une période de transition de 60 jours permettra une adaptation progressive : du 15 mars au 14 mai, un message préenregistré rappellera la nouvelle procédure sans couper la communication. Après cette date, les appels à 7 chiffres ne seront plus acheminés. Les services d'urgence 911 et les numéros sans frais 1-800 ne sont pas concernés par ce changement. Pour toute question, composez le 611 depuis votre ligne résidentielle.",
+          "question": "Quelle mesure accompagne la période de transition ?",
+          "options": {
+            "A": "Une réduction des tarifs téléphoniques",
+            "B": "Un message préenregistré informatif",
+            "C": "La gratuité des appels locaux",
+            "D": "L'attribution de nouveaux numéros"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "PROGRAMME DE RECYCLAGE ÉLECTRONIQUE - VILLE DE CALGARY\n\nLa municipalité lance une collecte spéciale pour les appareils électroniques usagés du 1er au 15 avril 2026. Les résidents peuvent déposer gratuitement leurs vieux ordinateurs, téléphones mobiles, téléviseurs et petits électroménagers aux points de collecte suivants : Centre communautaire de Kensington (lundi-samedi 9h-17h), Parc de stationnement du Centre commercial North Hill (dimanche 10h-16h), et Dépôt écologique Sud (tous les jours 8h-20h). Les données personnelles doivent être effacées avant le dépôt. Les batteries au lithium doivent être retirées et déposées séparément. Cette initiative vise à récupérer les métaux précieux et prévenir la contamination des sols. En 2025, plus de 12 tonnes d'électronique ont été recyclées grâce à ce programme. Renseignements : 311 ou www.calgary.ca/recyclage.",
+          "question": "Où peut-on déposer des appareils le dimanche ?",
+          "options": {
+            "A": "Au Centre communautaire de Kensington",
+            "B": "Au Dépôt écologique Sud",
+            "C": "Au Centre commercial North Hill",
+            "D": "Dans tous les points de collecte"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 20,
+          "text": "RAPPEL DE SÉCURITÉ - SIÈGES D'AUTO POUR ENFANTS\n\nTransports Canada annonce le rappel immédiat des modèles de sièges d'auto « SafeRide 3000 » fabriqués entre janvier 2023 et juin 2024. Un défaut de fabrication dans la boucle de harnais pourrait se désolidariser en cas d'impact, compromettant la sécurité de l'enfant. Les propriétaires concernés doivent cesser d'utiliser immédiatement le produit et contacter le fabricant au 1-800-555-SAFE pour recevoir un kit de réparation gratuit. Le numéro de série est situé sous la base du siège. Ce rappel concerne environ 45 000 unités vendues au Canada. Aucun blessé n'a été signalé à ce jour, mais la prudence est de mise. Les inspections des points de vente sont en cours pour retirer les stocks concernés. Les consommateurs peuvent vérifier si leur modèle est concerné sur le site rappel.canada.ca.",
+          "question": "Que doivent faire les propriétaires des sièges concernés ?",
+          "options": {
+            "A": "Rapporter l'incident à la police",
+            "B": "Contacter le fabricant pour un kit de réparation",
+            "C": "Retourner le produit au magasin d'achat",
+            "D": "Continuer à utiliser le siège avec précaution"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 21,
+          "text": "OFFRE D'EMPLOI - AGENT DE SERVICE À LA CLIENTÈLE\n\nEntreprise : Solutions Tech Plus\nLieu : Centre-ville de Toronto (hybride 2 jours/sem. au bureau)\nType : Temps plein, permanent\nSalaire : 45 000$ à 52 000$ selon expérience + avantages sociaux complets\nResponsabilités : Répondre aux demandes clients par téléphone et email, résoudre les problèmes techniques de niveau 1, documenter les interactions dans le système CRM, collaborer avec l'équipe technique pour les escalades.\nProfil recherché : Bilingue français-anglais impératif, expérience minimum 1 an en service client, excellentes capacités de communication, maîtrise de Microsoft Office.\nAvantages : Assurance santé dès le premier jour, REER collectif, 4 semaines de vacances annuelles, environnement de travail inclusif.\nDate limite de candidature : 15 mars 2026.\nEnvoyer CV et lettre de motivation à : carrieres@solutionstechplus.ca",
+          "question": "Quelle compétence linguistique est obligatoire pour ce poste ?",
+          "options": {
+            "A": "Maîtrise de l'espagnol",
+            "B": "Bilinguisme français-anglais",
+            "C": "Connaissance de la langue des signes",
+            "D": "Maîtrise du mandarin"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 22,
+          "text": "AVIS DE TRAVAUX - ARRONDISSEMENT DU PLATEAU-MONT-ROYAL\n\nLa Ville de Montréal informe les résidents que des travaux de réparation d'aqueduc auront lieu sur l'avenue du Mont-Royal entre les rues Saint-Denis et Berri du 10 au 30 mars 2026. Ces interventions nécessitent la fermeture complète de la chaussée dans ce secteur. Des détours seront signalés via les rues Sherbrooke et Rachel. Le stationnement sera interdit sur le côté nord de l'avenue pendant toute la durée des travaux. Les commerces resteront accessibles aux piétons. Des bruits de forage sont prévus entre 7h et 19h, du lundi au vendredi. L'approvisionnement en eau potable ne sera pas interrompu grâce à des conduites temporaires. Les autobus des lignes 11 et 97 seront déviés. La Ville présente ses excuses pour la gêne occasionnée et remercie la population de sa compréhension.",
+          "question": "Quel service restera opérationnel pendant les travaux ?",
+          "options": {
+            "A": "Le stationnement sur le côté nord",
+            "B": "La circulation automobile sur l'avenue",
+            "C": "L'approvisionnement en eau potable",
+            "D": "Les autobus des lignes 11 et 97 sur leur trajet habituel"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congé sans solde - Projet personnel de formation\n\nMadame la Directrice,\n\nPar la présente, je vous informe de ma volonté de m'absenter du 1er septembre au 31 décembre 2026 pour suivre une formation certifiante en gestion de projet à temps plein. Cette démarche s'inscrit dans ma volonté de développer de nouvelles compétences qui pourront, à terme, bénéficier à notre équipe.\n\nConformément à la convention collective, je vous adresse ma demande officielle de congé sans solde pour motif de formation professionnelle, accompagnée de l'attestation d'inscription de l'établissement concerné. Je reste naturellement disponible pour organiser la transmission de mes dossiers en cours et former mon remplaçant durant le mois d'août.\n\nJe vous remercie de l'attention portée à ma demande et reste à votre entière disposition pour échanger sur les modalités pratiques de cette période.\n\nCordialement,\nMarc Dubois\nAnalyste financier",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Démissionner de son poste actuel",
+            "B": "Demander une promotion",
+            "C": "Solliciter un congé pour formation",
+            "D": "Proposer un changement de service"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 24,
+          "text": "Objet : Demande de congé sans solde - Projet personnel de formation\n\nMadame la Directrice,\n\nPar la présente, je vous informe de ma volonté de m'absenter du 1er septembre au 31 décembre 2026 pour suivre une formation certifiante en gestion de projet à temps plein. Cette démarche s'inscrit dans ma volonté de développer de nouvelles compétences qui pourront, à terme, bénéficier à notre équipe.\n\nConformément à la convention collective, je vous adresse ma demande officielle de congé sans solde pour motif de formation professionnelle, accompagnée de l'attestation d'inscription de l'établissement concerné. Je reste naturellement disponible pour organiser la transmission de mes dossiers en cours et former mon remplaçant durant le mois d'août.\n\nJe vous remercie de l'attention portée à ma demande et reste à votre entière disposition pour échanger sur les modalités pratiques de cette période.\n\nCordialement,\nMarc Dubois\nAnalyste financier",
+          "question": "Quelle attitude adopte l'auteur envers son employeur ?",
+          "options": {
+            "A": "Confrontationnelle et exigeante",
+            "B": "Respectueuse et collaborative",
+            "C": "Distante et indifférente",
+            "D": "Critique et mécontente"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 25,
+          "text": "Chers collègues,\n\nSuite à la réunion de direction du 10 février, nous vous communiquons les nouvelles directives concernant l'utilisation des espaces communs au siège social. À compter du 1er mars 2026, la salle de réunion A sera réservée exclusivement aux entretiens confidentiels et aux réunions impliquant des partenaires externes. Les réunions internes d'équipe devront désormais se tenir dans les salles B et C, accessibles via la nouvelle application de réservation en ligne.\n\nPar ailleurs, nous vous rappelons que la cuisine collective doit rester propre après chaque utilisation. Le réfrigérateur sera vidé tous les vendredis à 17h ; les contenants non identifiés seront éliminés sans préavis. Nous comptons sur votre civisme pour préserver la qualité de nos espaces de travail partagés.\n\nPour toute question, contactez le service des ressources générales.\n\nLe Comité de Direction",
+          "question": "Quel changement majeur est annoncé concernant la salle de réunion A ?",
+          "options": {
+            "A": "Elle sera fermée pour rénovation",
+            "B": "Son accès sera limité à certains types de réunions",
+            "C": "Elle deviendra une salle de détente",
+            "D": "Elle sera accessible uniquement sur réservation téléphonique"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "Chers collègues,\n\nSuite à la réunion de direction du 10 février, nous vous communiquons les nouvelles directives concernant l'utilisation des espaces communs au siège social. À compter du 1er mars 2026, la salle de réunion A sera réservée exclusivement aux entretiens confidentiels et aux réunions impliquant des partenaires externes. Les réunions internes d'équipe devront désormais se tenir dans les salles B et C, accessibles via la nouvelle application de réservation en ligne.\n\nPar ailleurs, nous vous rappelons que la cuisine collective doit rester propre après chaque utilisation. Le réfrigérateur sera vidé tous les vendredis à 17h ; les contenants non identifiés seront éliminés sans préavis. Nous comptons sur votre civisme pour préserver la qualité de nos espaces de travail partagés.\n\nPour toute question, contactez le service des ressources générales.\n\nLe Comité de Direction",
+          "question": "Quel ton utilise le Comité de Direction dans ce message ?",
+          "options": {
+            "A": "Informel et amical",
+            "B": "Informatif et prescriptif",
+            "C": "Inquiet et alarmiste",
+            "D": "Humoristique et léger"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "Madame Tremblay,\n\nNous accusons réception de votre courrier du 15 février concernant la facture numéro F-2026-0892 émise par notre entreprise le 3 février dernier. Après vérification attentive de votre dossier, nous constatons effectivement une erreur de calcul sur le montant des heures supplémentaires facturées.\n\nLe montant correct devrait être de 1 240$ TTC au lieu des 1 540$ portés sur la facture initiale. Nous vous prions d'accepter nos sincères excuses pour cette inadvertance. Une note de crédit de 300$ sera émise sous 48 heures et vous parviendra par courrier séparé.\n\nNous vous remercions d'avoir attiré notre attention sur ce dysfonctionnement et restons à votre disposition pour tout complément d'information. Nous espérons que cette rectification rapide préservera la qualité de notre relation commerciale.\n\nDans l'attente de votre prochaine collaboration, nous vous prions d'agréer, Madame, l'expression de nos salutations distinguées.\n\nLe Service Comptabilité\nEntreprise Constructions Durables Inc.",
+          "question": "Pourquoi l'entreprise contacte-t-elle Madame Tremblay ?",
+          "options": {
+            "A": "Pour réclamer un paiement en retard",
+            "B": "Pour corriger une erreur de facturation",
+            "C": "Pour proposer un nouveau contrat",
+            "D": "Pour annuler une commande"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Madame Tremblay,\n\nNous accusons réception de votre courrier du 15 février concernant la facture numéro F-2026-0892 émise par notre entreprise le 3 février dernier. Après vérification attentive de votre dossier, nous constatons effectivement une erreur de calcul sur le montant des heures supplémentaires facturées.\n\nLe montant correct devrait être de 1 240$ TTC au lieu des 1 540$ portés sur la facture initiale. Nous vous prions d'accepter nos sincères excuses pour cette inadvertance. Une note de crédit de 300$ sera émise sous 48 heures et vous parviendra par courrier séparé.\n\nNous vous remercions d'avoir attiré notre attention sur ce dysfonctionnement et restons à votre disposition pour tout complément d'information. Nous espérons que cette rectification rapide préservera la qualité de notre relation commerciale.\n\nDans l'attente de votre prochaine collaboration, nous vous prions d'agréer, Madame, l'expression de nos salutations distinguées.\n\nLe Service Comptabilité\nEntreprise Constructions Durables Inc.",
+          "question": "Quelle est l'attitude de l'entreprise face à cette situation ?",
+          "options": {
+            "A": "Défensive et méfiante",
+            "B": "Proactive et conciliante",
+            "C": "Indifférente et lente",
+            "D": "Aggressive et accusatrice"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Objet : Invitation à la réunion annuelle des actionnaires\n\nMonsieur Bernard Lachance,\n\nEn tant qu'actionnaire de la Société Innovatech, vous êtes cordialement invité à participer à l'assemblée générale annuelle qui se tiendra le vendredi 25 avril 2026 à 14h00 au Centre des Congrès de Québec, salle Harmonie.\n\nL'ordre du jour comprendra : présentation des résultats financiers de l'exercice 2025, renouvellement du tiers du conseil d'administration, approbation du dividende proposé de 1,20$ par action, et questions diverses. Les documents préparatoires (rapport annuel, procuration) vous seront expédiés par courrier d'ici le 1er avril.\n\nSi vous ne pouvez être présent en personne, vous pouvez vous faire représenter par un mandataire muni d'une procuration datée et signée, ou voter à distance via la plateforme sécurisée accessible 48 heures avant la réunion. Votre participation est essentielle pour la bonne gouvernance de notre entreprise.\n\nVeuillez confirmer votre présence avant le 10 avril à actionnaires@innovatech.ca.\n\nLe Secrétariat du Conseil",
+          "question": "Quel est le but principal de ce courriel ?",
+          "options": {
+            "A": "Annoncer la vente de l'entreprise",
+            "B": "Inviter à une assemblée d'actionnaires",
+            "C": "Demander un investissement supplémentaire",
+            "D": "Informer d'une fusion imminente"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 30,
+          "text": "Objet : Invitation à la réunion annuelle des actionnaires\n\nMonsieur Bernard Lachance,\n\nEn tant qu'actionnaire de la Société Innovatech, vous êtes cordialement invité à participer à l'assemblée générale annuelle qui se tiendra le vendredi 25 avril 2026 à 14h00 au Centre des Congrès de Québec, salle Harmonie.\n\nL'ordre du jour comprendra : présentation des résultats financiers de l'exercice 2025, renouvellement du tiers du conseil d'administration, approbation du dividende proposé de 1,20$ par action, et questions diverses. Les documents préparatoires (rapport annuel, procuration) vous seront expédiés par courrier d'ici le 1er avril.\n\nSi vous ne pouvez être présent en personne, vous pouvez vous faire représenter par un mandataire muni d'une procuration datée et signée, ou voter à distance via la plateforme sécurisée accessible 48 heures avant la réunion. Votre participation est essentielle pour la bonne gouvernance de notre entreprise.\n\nVeuillez confirmer votre présence avant le 10 avril à actionnaires@innovatech.ca.\n\nLe Secrétariat du Conseil",
+          "question": "Quelle alternative est proposée aux actionnaires ne pouvant pas se déplacer ?",
+          "options": {
+            "A": "Une retransmission en direct sur Internet",
+            "B": "Le vote par correspondance postal uniquement",
+            "C": "La représentation par mandataire ou le vote à distance",
+            "D": "Une réunion reportée à une date ultérieure"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 31,
+          "text": "Chers parents,\n\nNous tenons à vous informer que, conformément à la nouvelle politique alimentaire du Ministère de l'Éducation, notre école procèdera à des changements importants dans la composition des menus de la cafétéria à compter de la rentrée scolaire de septembre 2026. Ces modifications visent à réduire la consommation de sucres ajoutés et de sel, ainsi qu'à augmenter la part de produits locaux et biologiques dans les assiettes de vos enfants.\n\nLes boissons sucrées ne seront plus vendues sur le site ; des distributeurs d'eau aromatisée naturellement et de lait seront installés. Les desserts industriels seront remplacés par des préparations maison élaborées par notre chef cuisinier. Nous sollicitons votre collaboration pour sensibiliser vos enfants à ces nouvelles habitudes alimentaires saines.\n\nUne réunion d'information est prévue le 15 juin à 19h à l'auditorium. Votre présence nous permettra d'échanger sur ces évolutions et de répondre à vos interrogations.\n\nLa Direction de l'École Secondaire du Lac",
+          "question": "Quelle est la motivation principale des changements annoncés ?",
+          "options": {
+            "A": "Réduire les coûts de fonctionnement",
+            "B": "Améliorer la qualité nutritionnelle des repas",
+            "C": "Augmenter les profits de la cafétéria",
+            "D": "Simplifier la logistique des approvisionnements"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "Chers parents,\n\nNous tenons à vous informer que, conformément à la nouvelle politique alimentaire du Ministère de l'Éducation, notre école procèdera à des changements importants dans la composition des menus de la cafétéria à compter de la rentrée scolaire de septembre 2026. Ces modifications visent à réduire la consommation de sucres ajoutés et de sel, ainsi qu'à augmenter la part de produits locaux et biologiques dans les assiettes de vos enfants.\n\nLes boissons sucrées ne seront plus vendues sur le site ; des distributeurs d'eau aromatisée naturellement et de lait seront installés. Les desserts industriels seront remplacés par des préparations maison élaborées par notre chef cuisinier. Nous sollicitons votre collaboration pour sensibiliser vos enfants à ces nouvelles habitudes alimentaires saines.\n\nUne réunion d'information est prévue le 15 juin à 19h à l'auditorium. Votre présence nous permettra d'échanger sur ces évolutions et de répondre à vos interrogations.\n\nLa Direction de l'École Secondaire du Lac",
+          "question": "Que demande explicitement la direction aux parents ?",
+          "options": {
+            "A": "De payer les repas à l'avance",
+            "B": "D'aider à sensibiliser les enfants aux nouvelles habitudes",
+            "C": "De participer à la préparation des repas",
+            "D": "De fournir des produits bio pour la cafétéria"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "Le virage vert de l'industrie automobile canadienne suscite à la fois espoirs et inquiétudes dans les communautés manufacturières de l'Ontario. Alors que le gouvernement fédéral investit massivement dans la transition électrique, avec des subventions record accordées aux constructeurs pour la production de véhicules à batterie, les syndicats s'interrogent sur l'avenir des milliers de travailleurs spécialisés dans les moteurs thermiques. Les nouvelles usines de batteries, certes innovantes, nécessitent une main-d'œuvre différente, souvent moins nombreuse et hautement qualifiée en électronique. Les formations de reconversion peinent à suivre la cadence des annonces industrielles. Pourtant, certains observateurs soulignent que cette transformation pourrait créer davantage d'emplois indirects dans les mines de lithium et les technologies de recyclage. La question demeure : la promesse d'une économie verte profitera-t-elle à ceux qui ont bâti leur vie sur l'ancienne économie fossile ?",
+          "question": "Quelle est la position de l'auteur concernant la transition automobile ?",
+          "options": {
+            "A": "Il la présente comme une opportunité sans risque",
+            "B": "Il souligne les défis sociaux et économiques qu'elle pose",
+            "C": "Il s'y oppose catégoriquement",
+            "D": "Il reste complètement neutre sans émettre d'opinion"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 34,
+          "text": "Le virage vert de l'industrie automobile canadienne suscite à la fois espoirs et inquiétudes dans les communautés manufacturières de l'Ontario. Alors que le gouvernement fédéral investit massivement dans la transition électrique, avec des subventions record accordées aux constructeurs pour la production de véhicules à batterie, les syndicats s'interrogent sur l'avenir des milliers de travailleurs spécialisés dans les moteurs thermiques. Les nouvelles usines de batteries, certes innovantes, nécessitent une main-d'œuvre différente, souvent moins nombreuse et hautement qualifiée en électronique. Les formations de reconversion peinent à suivre la cadence des annonces industrielles. Pourtant, certains observateurs soulignent que cette transformation pourrait créer davantage d'emplois indirects dans les mines de lithium et les technologies de recyclage. La question demeure : la promesse d'une économie verte profitera-t-elle à ceux qui ont bâti leur vie sur l'ancienne économie fossile ?",
+          "question": "Quelle préoccupation principale est exprimée par les syndicats ?",
+          "options": {
+            "A": "La qualité des véhicules électriques",
+            "B": "L'avenir professionnel des travailleurs actuels",
+            "C": "Le coût environnemental des batteries",
+            "D": "La concurrence étrangère"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "Le virage vert de l'industrie automobile canadienne suscite à la fois espoirs et inquiétudes dans les communautés manufacturières de l'Ontario. Alors que le gouvernement fédéral investit massivement dans la transition électrique, avec des subventions record accordées aux constructeurs pour la production de véhicules à batterie, les syndicats s'interrogent sur l'avenir des milliers de travailleurs spécialisés dans les moteurs thermiques. Les nouvelles usines de batteries, certes innovantes, nécessitent une main-d'œuvre différente, souvent moins nombreuse et hautement qualifiée en électronique. Les formations de reconversion peinent à suivre la cadence des annonces industrielles. Pourtant, certains observateurs soulignent que cette transformation pourrait créer davantage d'emplois indirects dans les mines de lithium et les technologies de recyclage. La question demeure : la promesse d'une économie verte profitera-t-elle à ceux qui ont bâti leur vie sur l'ancienne économie fossile ?",
+          "question": "Quel contraste l'auteur établit-il concernant les nouvelles usines de batteries ?",
+          "options": {
+            "A": "Elles sont innovantes mais nécessitent moins de personnel",
+            "B": "Elles sont rentables mais polluantes",
+            "C": "Elles sont modernes mais inefficaces",
+            "D": "Elles sont populaires mais chères"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 36,
+          "text": "La pénurie de main-d'œuvre dans le secteur de la santé atteint des niveaux critiques dans plusieurs provinces canadiennes, forçant les hôpitaux à recourir à des mesures désespérées. Au Québec, certaines urgences ferment temporairement faute de personnel infirmier suffisant, tandis qu'en Colombie-Britannique, les temps d'attente pour des chirurgies non urgentes dépassent désormais 18 mois. Les causes sont multiples : épuisement professionnel massif après la pandémie, départs à la retraite non remplacés, et immigration lente des professionnels de santé formés à l'étranger. Pourtant, les solutions gouvernementales peinent à convaincre. Les primes de rétention sont jugées insuffisantes face à la charge de travail écrasante, et les programmes d'accélération des formations infirmières suscitent des inquiétudes sur la qualité des soins. Certains experts préconisent une refonte radicale du modèle, avec davantage de tâches déléguées aux préposés aux bénéficiaires, mais la résistance des ordres professionnels freine ces réformes. Entre l'urgence immédiate et les transformations structurelles nécessaires, le système vacille.",
+          "question": "Quelle est l'idée principale de cet article ?",
+          "options": {
+            "A": "La qualité des soins s'est améliorée après la pandémie",
+            "B": "Le système de santé canadien fait face à une crise majeure de personnel",
+            "C": "Les nouvelles technologies vont résoudre la pénurie d'infirmiers",
+            "D": "Les hôpitaux canadiens ferment définitivement leurs portes"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "La pénurie de main-d'œuvre dans le secteur de la santé atteint des niveaux critiques dans plusieurs provinces canadiennes, forçant les hôpitaux à recourir à des mesures désespérées. Au Québec, certaines urgences ferment temporairement faute de personnel infirmier suffisant, tandis qu'en Colombie-Britannique, les temps d'attente pour des chirurgies non urgentes dépassent désormais 18 mois. Les causes sont multiples : épuisement professionnel massif après la pandémie, départs à la retraite non remplacés, et immigration lente des professionnels de santé formés à l'étranger. Pourtant, les solutions gouvernementales peinent à convaincre. Les primes de rétention sont jugées insuffisantes face à la charge de travail écrasante, et les programmes d'accélération des formations infirmières suscitent des inquiétudes sur la qualité des soins. Certains experts préconisent une refonte radicale du modèle, avec davantage de tâches déléguées aux préposés aux bénéficiaires, mais la résistance des ordres professionnels freine ces réformes. Entre l'urgence immédiate et les transformations structurelles nécessaires, le système vacille.",
+          "question": "Quel obstacle empêche la mise en place de certaines réformes proposées ?",
+          "options": {
+            "A": "Le manque de financement gouvernemental",
+            "B": "La résistance des ordres professionnels",
+            "C": "L'indifférence de la population",
+            "D": "L'absence de préposés aux bénéficiaires"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 38,
+          "text": "La pénurie de main-d'œuvre dans le secteur de la santé atteint des niveaux critiques dans plusieurs provinces canadiennes, forçant les hôpitaux à recourir à des mesures désespérées. Au Québec, certaines urgences ferment temporairement faute de personnel infirmier suffisant, tandis qu'en Colombie-Britannique, les temps d'attente pour des chirurgies non urgentes dépassent désormais 18 mois. Les causes sont multiples : épuisement professionnel massif après la pandémie, départs à la retraite non remplacés, et immigration lente des professionnels de santé formés à l'étranger. Pourtant, les solutions gouvernementales peinent à convaincre. Les primes de rétention sont jugées insuffisantes face à la charge de travail écrasante, et les programmes d'accélération des formations infirmières suscitent des inquiétudes sur la qualité des soins. Certains experts préconisent une refonte radicale du modèle, avec davantage de tâches déléguées aux préposés aux bénéficiaires, mais la résistance des ordres professionnels freine ces réformes. Entre l'urgence immédiate et les transformations structurelles nécessaires, le système vacille.",
+          "question": "Quelle conclusion l'auteur suggère-t-il à la fin de l'article ?",
+          "options": {
+            "A": "Le système de santé fonctionne parfaitement",
+            "B": "Les solutions actuelles sont insuffisantes face à l'ampleur du problème",
+            "C": "La situation va s'améliorer spontanément",
+            "D": "Les patients doivent se soigner eux-mêmes"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "La montée fulgurante des prix immobiliers dans les grandes métropoles canadiennes transforme profondément le tissu social urbain, selon une étude dévoilée hier par l'Institut de recherche en urbanisme. Toronto et Vancouver figurent désormais parmi les villes les moins abordables au monde, avec des ratios prix/revenus dépassant 10:1. Cette crise de l'accessibilité pousse les jeunes professionnels à s'exiler en banlieue éloignée ou dans des villes secondaires comme Halifax ou Kitchener, vidant les centres-villes de leur dynamisme démographique traditionnel. Paradoxalement, cette désurbanisation contrainte alimente à son tour la spéculation dans les marchés périphériques, reproduisant les mêmes mécanismes d'exclusion. Les politiques de logement social, bien que renforcées récemment, peinent à suivre l'ampleur du phénomène. Certains urbanistes plaident pour une densification accrue et une réforme radicale du zonage, mais ces propositions heurtent la résistance des quartiers historiques et des propriétaires soucieux de préserver le caractère de leur voisinage. Entre la préservation patrimoniale et la nécessité de loger dignement la population active, les municipalités peinent à trouver un équilibre.",
+          "question": "Quel phénomène l'auteur décrit-il comme paradoxal ?",
+          "options": {
+            "A": "La baisse des prix dans les centres-villes",
+            "B": "L'exode vers la banlieue qui alimente la spéculation périphérique",
+            "C": "L'augmentation des revenus des jeunes professionnels",
+            "D": "La diminution de la demande de logements sociaux"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "La montée fulgurante des prix immobiliers dans les grandes métropoles canadiennes transforme profondément le tissu social urbain, selon une étude dévoilée hier par l'Institut de recherche en urbanisme. Toronto et Vancouver figurent désormais parmi les villes les moins abordables au monde, avec des ratios prix/revenus dépassant 10:1. Cette crise de l'accessibilité pousse les jeunes professionnels à s'exiler en banlieue éloignée ou dans des villes secondaires comme Halifax ou Kitchener, vidant les centres-villes de leur dynamisme démographique traditionnel. Paradoxalement, cette désurbanisation contrainte alimente à son tour la spéculation dans les marchés périphériques, reproduisant les mêmes mécanismes d'exclusion. Les politiques de logement social, bien que renforcées récemment, peinent à suivre l'ampleur du phénomène. Certains urbanistes plaident pour une densification accrue et une réforme radicale du zonage, mais ces propositions heurtent la résistance des quartiers historiques et des propriétaires soucieux de préserver le caractère de leur voisinage. Entre la préservation patrimoniale et la nécessité de loger dignement la population active, les municipalités peinent à trouver un équilibre.",
+          "question": "Quel dilemme les municipalités doivent-elles résoudre selon l'article ?",
+          "options": {
+            "A": "Entre attirer les touristes et les résidents permanents",
+            "B": "Entre préserver le patrimoine et loger la population",
+            "C": "Entre construire des gratte-ciel et des maisons individuelles",
+            "D": "Entre baisser les impôts et augmenter les services"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

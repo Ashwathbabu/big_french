@@ -1,0 +1,575 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AVIS IMPORTANT AUX RÉSIDENTS\n\nEn raison de travaux d'entretien sur le réseau d'eau potable, l'alimentation en eau sera temporairement coupée dans votre secteur. Cette interruption se déroulera le mardi 15 mars, de 8h00 à 14h00. Nous vous recommandons de remplir quelques récipients d'eau avant cette période. Une fois le service rétabli, laissez couler votre robinet pendant quelques minutes jusqu'à ce que l'eau soit claire. Pour toute urgence pendant les travaux, veuillez contacter le service technique au 514-555-0123. Nous vous remercions de votre compréhension et nous excusons pour la gêne occasionnée.",
+          "question": "Quelle mesure les résidents doivent-ils prendre avant les travaux ?",
+          "options": {
+            "A": "Contacter le service technique",
+            "B": "Remplir des récipients d'eau",
+            "C": "Laisser couler le robinet",
+            "D": "Quitter leur domicile"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "RESTAURANT LE BISTROT GOURMAND\n\nMenu du midi - Semaine du 20 au 24 juin\n\nEntrées au choix :\n• Salade César traditionnelle\n• Velouté de champignons sauvages\n\nPlats principaux :\n• Filet de saumon grillé, riz basmati\n• Poulet rôti aux herbes, légumes de saison\n• Risotto aux asperges (végétarien)\n\nDesserts :\n• Tarte au citron meringuée\n• Mousse au chocolat noir\n\nPrix : 24,95 $ taxes comprises\nService de 11h30 à 14h30\nRéservation recommandée : (514) 555-0198",
+          "question": "Quelle information n'est pas mentionnée dans ce menu ?",
+          "options": {
+            "A": "Les heures de service",
+            "B": "Le numéro de téléphone",
+            "C": "Les boissons incluses",
+            "D": "Les options végétariennes"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 3,
+          "text": "BIBLIOTHÈQUE MUNICIPALE DE SAINT-LAMBERT\n\nHORAIRE D'ÉTÉ (1er juillet au 31 août)\n\nLundi : Fermé\nMardi : 10h00 - 18h00\nMercredi : 10h00 - 18h00\nJeudi : 12h00 - 20h00\nVendredi : 10h00 - 17h00\nSamedi : 10h00 - 16h00\nDimanche : Fermé\n\nServices disponibles : prêt de livres, accès Internet, ateliers de lecture pour enfants tous les mercredis à 14h00. La bibliothèque sera exceptionnellement fermée le 1er juillet (fête du Canada) et le 4 août (fête civique). Pour connaître les nouvelles acquisitions, consultez notre site web ou inscrivez-vous à notre infolettre mensuelle.",
+          "question": "À quelle heure ferme la bibliothèque le jeudi pendant l'été ?",
+          "options": {
+            "A": "17h00",
+            "B": "18h00",
+            "C": "20h00",
+            "D": "16h00"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 4,
+          "text": "SUPER MARCHÉ DÉPÔT - CIRCULAIRE DE LA SEMAINE\n\nSpéciaux valables du jeudi 12 au mercredi 18 mai\n\nFruits et légumes :\nPommes Gala : 1,99 $ la livre (rég. 3,49 $)\nTomates sur vigne : 2,99 $ la boîte de 2 lb (rég. 4,99 $)\nBrocolis : 1,49 $ la botte (rég. 2,29 $)\n\nProduits laitiers :\nFromage cheddar vieilli : 5,99 $ le bloc de 400g (rég. 8,99 $)\nYogourt nature : 3,49 $ le pot de 750g (rég. 4,79 $)\n\nViandes :\nPoitrines de poulet : 8,99 $ le kg (rég. 12,99 $)\n\n*Quantités limitées. Les articles en spécial sont disponibles tant que dure notre stock.",
+          "question": "Quel produit offre la plus grande économie en dollars ?",
+          "options": {
+            "A": "Les pommes Gala",
+            "B": "Le fromage cheddar",
+            "C": "Les poitrines de poulet",
+            "D": "Le yogourt nature"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 5,
+          "text": "CENTRE SPORTIF OLYMPIQUE\n\nNOUVEAU ! Programme d'initiation à la natation pour adultes\n\nVous avez toujours rêvé d'apprendre à nager ou de perfectionner votre technique ? Notre nouveau programme est conçu spécialement pour les débutants de 18 ans et plus. Les cours se donnent en petits groupes de maximum 6 participants pour garantir un encadrement personnalisé. Sessions de 8 semaines disponibles à l'année. Prochaine session : du 5 septembre au 28 octobre 2023. Tarif : 285 $ taxes incluses. Inscription en ligne sur www.centresportifolympique.ca ou au comptoir de la piscine. Équipement requis : maillot de bain, lunettes et bonnet de bain obligatoire.",
+          "question": "Quelle condition doit respecter un participant pour s'inscrire ?",
+          "options": {
+            "A": "Avoir moins de 18 ans",
+            "B": "Savoir déjà nager",
+            "C": "Avoir 18 ans ou plus",
+            "D": "Acheter l'équipement sur place"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 6,
+          "text": "SERVICE DES PASSES DE TRANSPORT EN COMMUN\n\nAVIS DE RENOUVELLEMENT\n\nVotre passe mensuel étudiant expire le 30 avril 2024. Pour éviter toute interruption de service, nous vous invitons à renouveler votre abonnement avant cette date. Le renouvellement peut s'effectuer en ligne via votre portail étudiant, dans les dépanneurs participants, ou directement à notre bureau situé au 1250 rue Berri, bureau 100, ouvert du lundi au vendredi de 8h00 à 17h00. N'oubliez pas de présenter votre carte étudiante valide lors du renouvellement. Tarif étudiant : 53 $ par mois. Après le 30 avril, des frais de réactivation de 15 $ s'appliqueront.",
+          "question": "Quel document faut-il présenter pour renouveler le passe ?",
+          "options": {
+            "A": "Un permis de conduire",
+            "B": "Une carte étudiante valide",
+            "C": "Un passeport",
+            "D": "Une facture d'électricité"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "text": "CLINIQUE DENTAIRE SOURIANTE\n\nCONSIGNES POST-OPÉRATOIRES APRÈS EXTRACTION DENTAIRE\n\n1. Maintenez la compresse de gaze sur la plaie pendant 30 minutes après l'intervention.\n2. Évitez de rincer votre bouche ou de cracher vigoureusement pendant les 24 premières heures.\n3. Ne consommez pas d'aliments chauds pendant 4 heures. Privilégiez les aliments froids et mous.\n4. Ne fumez pas et évitez l'alcool pendant au moins 48 heures.\n5. Reposez-vous et évitez les efforts physiques intenses pendant 24 heures.\n6. En cas de saignement persistant ou de douleur intense, contactez immédiatement notre ligne d'urgence au (514) 555-0147.\n\nVotre confort et votre guérison sont notre priorité. Suivez attentivement ces instructions pour une récupération optimale.",
+          "question": "Que doit faire le patient s'il saigne encore après l'intervention ?",
+          "options": {
+            "A": "Rincer la bouche vigoureusement",
+            "B": "Fumer pour se détendre",
+            "C": "Appeler la ligne d'urgence",
+            "D": "Manger des aliments chauds"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle y ______ (2) des romans policiers qu'elle dévore en quelques jours. Hier, alors qu'elle ______ (3) dans le rayon littérature, elle ______ (4) un livre rare de son auteur préféré. Elle ne pouvait pas ______ (5) cette occasion ! Sans hésiter, elle ______ (6) le livre et se dirigea vers le comptoir de prêt. La bibliothécaire, qui la ______ (7) depuis des années, lui ______ (8) avec un sourire. Marie ______ (9) chez elle, ravie de sa découverte. Ce soir-là, elle ______ (10) déjà les trois premiers chapitres.",
+          "question": "(1) ______",
+          "options": {
+            "A": "va",
+            "B": "allait",
+            "C": "est allée",
+            "D": "irait"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 9,
+          "text": "Marie va à la bibliothèque tous les samedis matins. Elle y ______ (2) des romans policiers qu'elle dévore en quelques jours. Hier, alors qu'elle ______ (3) dans le rayon littérature, elle ______ (4) un livre rare de son auteur préféré. Elle ne pouvait pas ______ (5) cette occasion ! Sans hésiter, elle ______ (6) le livre et se dirigea vers le comptoir de prêt. La bibliothécaire, qui la ______ (7) depuis des années, lui ______ (8) avec un sourire. Marie ______ (9) chez elle, ravie de sa découverte. Ce soir-là, elle ______ (10) déjà les trois premiers chapitres.",
+          "question": "(2) ______",
+          "options": {
+            "A": "emprunte",
+            "B": "empruntait",
+            "C": "a emprunté",
+            "D": "empruntera"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 10,
+          "text": "Marie va à la bibliothèque tous les samedis matins. Elle y emprunte des romans policiers qu'elle dévore en quelques jours. Hier, alors qu'elle ______ (3) dans le rayon littérature, elle ______ (4) un livre rare de son auteur préféré. Elle ne pouvait pas ______ (5) cette occasion ! Sans hésiter, elle ______ (6) le livre et se dirigea vers le comptoir de prêt. La bibliothécaire, qui la ______ (7) depuis des années, lui ______ (8) avec un sourire. Marie ______ (9) chez elle, ravie de sa découverte. Ce soir-là, elle ______ (10) déjà les trois premiers chapitres.",
+          "question": "(3) ______",
+          "options": {
+            "A": "cherche",
+            "B": "cherchait",
+            "C": "a cherché",
+            "D": "cherchera"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 11,
+          "text": "Marie va à la bibliothèque tous les samedis matins. Elle y emprunte des romans policiers qu'elle dévore en quelques jours. Hier, alors qu'elle cherchait dans le rayon littérature, elle ______ (4) un livre rare de son auteur préféré. Elle ne pouvait pas ______ (5) cette occasion ! Sans hésiter, elle ______ (6) le livre et se dirigea vers le comptoir de prêt. La bibliothécaire, qui la ______ (7) depuis des années, lui ______ (8) avec un sourire. Marie ______ (9) chez elle, ravie de sa découverte. Ce soir-là, elle ______ (10) déjà les trois premiers chapitres.",
+          "question": "(4) ______",
+          "options": {
+            "A": "trouve",
+            "B": "trouvait",
+            "C": "a trouvé",
+            "D": "trouverait"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 12,
+          "text": "Marie va à la bibliothèque tous les samedis matins. Elle y emprunte des romans policiers qu'elle dévore en quelques jours. Hier, alors qu'elle cherchait dans le rayon littérature, elle a trouvé un livre rare de son auteur préféré. Elle ne pouvait pas ______ (5) cette occasion ! Sans hésiter, elle ______ (6) le livre et se dirigea vers le comptoir de prêt. La bibliothécaire, qui la ______ (7) depuis des années, lui ______ (8) avec un sourire. Marie ______ (9) chez elle, ravie de sa découverte. Ce soir-là, elle ______ (10) déjà les trois premiers chapitres.",
+          "question": "(5) ______",
+          "options": {
+            "A": "manquer",
+            "B": "manquait",
+            "C": "a manqué",
+            "D": "manquerait"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 13,
+          "text": "Marie va à la bibliothèque tous les samedis matins. Elle y emprunte des romans policiers qu'elle dévore en quelques jours. Hier, alors qu'elle cherchait dans le rayon littérature, elle a trouvé un livre rare de son auteur préféré. Elle ne pouvait pas manquer cette occasion ! Sans hésiter, elle ______ (6) le livre et se dirigea vers le comptoir de prêt. La bibliothécaire, qui la ______ (7) depuis des années, lui ______ (8) avec un sourire. Marie ______ (9) chez elle, ravie de sa découverte. Ce soir-là, elle ______ (10) déjà les trois premiers chapitres.",
+          "question": "(6) ______",
+          "options": {
+            "A": "prend",
+            "B": "prenait",
+            "C": "a pris",
+            "D": "prendra"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 14,
+          "text": "Marie va à la bibliothèque tous les samedis matins. Elle y emprunte des romans policiers qu'elle dévore en quelques jours. Hier, alors qu'elle cherchait dans le rayon littérature, elle a trouvé un livre rare de son auteur préféré. Elle ne pouvait pas manquer cette occasion ! Sans hésiter, elle a pris le livre et se dirigea vers le comptoir de prêt. La bibliothécaire, qui la ______ (7) depuis des années, lui ______ (8) avec un sourire. Marie ______ (9) chez elle, ravie de sa découverte. Ce soir-là, elle ______ (10) déjà les trois premiers chapitres.",
+          "question": "(7) ______",
+          "options": {
+            "A": "connaît",
+            "B": "connaissait",
+            "C": "a connu",
+            "D": "connaîtra"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 15,
+          "text": "Marie va à la bibliothèque tous les samedis matins. Elle y emprunte des romans policiers qu'elle dévore en quelques jours. Hier, alors qu'elle cherchait dans le rayon littérature, elle a trouvé un livre rare de son auteur préféré. Elle ne pouvait pas manquer cette occasion ! Sans hésiter, elle a pris le livre et se dirigea vers le comptoir de prêt. La bibliothécaire, qui la connaît depuis des années, lui ______ (8) avec un sourire. Marie ______ (9) chez elle, ravie de sa découverte. Ce soir-là, elle ______ (10) déjà les trois premiers chapitres.",
+          "question": "(8) ______",
+          "options": {
+            "A": "sourit",
+            "B": "souriait",
+            "C": "a souri",
+            "D": "sourira"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 16,
+          "text": "Marie va à la bibliothèque tous les samedis matins. Elle y emprunte des romans policiers qu'elle dévore en quelques jours. Hier, alors qu'elle cherchait dans le rayon littérature, elle a trouvé un livre rare de son auteur préféré. Elle ne pouvait pas manquer cette occasion ! Sans hésiter, elle a pris le livre et se dirigea vers le comptoir de prêt. La bibliothécaire, qui la connaît depuis des années, lui a souri avec un sourire. Marie ______ (9) chez elle, ravie de sa découverte. Ce soir-là, elle ______ (10) déjà les trois premiers chapitres.",
+          "question": "(9) ______",
+          "options": {
+            "A": "retourne",
+            "B": "retournait",
+            "C": "est retournée",
+            "D": "retournera"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 17,
+          "text": "Marie va à la bibliothèque tous les samedis matins. Elle y emprunte des romans policiers qu'elle dévore en quelques jours. Hier, alors qu'elle cherchait dans le rayon littérature, elle a trouvé un livre rare de son auteur préféré. Elle ne pouvait pas manquer cette occasion ! Sans hésiter, elle a pris le livre et se dirigea vers le comptoir de prêt. La bibliothécaire, qui la connaît depuis des années, lui a souri avec un sourire. Marie est retournée chez elle, ravie de sa découverte. Ce soir-là, elle ______ (10) déjà les trois premiers chapitres.",
+          "question": "(10) ______",
+          "options": {
+            "A": "lit",
+            "B": "lisait",
+            "C": "a lu",
+            "D": "lira"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "URGENCE CLIMATIQUE : LES GLACIERS ALPINS FONDENT À UNE VITESSE RECORD\n\nLes scientifiques du Centre national de recherche scientifique (CNRS) viennent de publier une étude alarmante. Les glaciers des Alpes françaises ont perdu en moyenne 15% de leur volume glaciaire entre 2010 et 2020, soit le double du taux observé durant la décennie précédente. Le glacier du Mont-Blanc, symbole emblématique, a reculé de 120 mètres en seulement cinq ans. Les chercheurs attribuent cette accélération à l'augmentation des températures estivales et à la diminution des précipitations neigeuses en haute altitude. Si cette tendance se poursuit, certains glaciers pourraient disparaître complètement d'ici 2100.",
+          "question": "Quel facteur contribue principalement à la fonte accélérée des glaciers selon le texte ?",
+          "options": {
+            "A": "L'augmentation du tourisme",
+            "B": "Les tremblements de terre fréquents",
+            "C": "L'augmentation des températures et la diminution des précipitations",
+            "D": "La pollution industrielle locale"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 19,
+          "text": "NOUVELLE NORME : LE TÉLÉTRAVAIL DEVIENT UN DROIT LÉGAL AU CANADA\n\nÀ compter du 1er janvier 2024, tous les employés canadiens ayant accompli au moins six mois de service continu auront le droit de demander un arrangement de travail à distance. Cette nouvelle législation fédérale oblige les employeurs à évaluer chaque demande de manière objective et à fournir une réponse écrite motivée en cas de refus. Les employeurs devront également établir une politique claire concernant les équipements fournis et les frais remboursables. Cette mesure vise à améliorer l'équilibre travail-vie personnelle et à réduire l'empreinte carbone liée aux déplacements domicile-travail.",
+          "question": "Quelle est la durée minimale de service requise pour bénéficier de ce droit ?",
+          "options": {
+            "A": "Trois mois",
+            "B": "Six mois",
+            "C": "Un an",
+            "D": "Aucune durée minimale"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 20,
+          "text": "FESTIVAL INTERNATIONAL DE JAZZ DE MONTRÉAL - PROGRAMME 2024\n\nDu 27 juin au 6 juillet, le Quartier des spectacles vibrera au rythme du jazz. Cette 44e édition accueillera plus de 350 concerts répartis sur 10 jours, dont 150 spectacles gratuits en plein air. Têtes d'affiche : Diana Krall (28 juin, salle Wilfrid-Pelletier), Herbie Hancock (30 juin, même salle), et un hommage à Oscar Peterson par le Monty Alexander Trio (2 juillet, Théâtre Maisonneuve). Nouveauté cette année : un village gastronomique mettant en vedette les chefs locaux et une programmation spéciale dédiée aux jeunes talents québécois. Les billets sont en vente dès maintenant sur jazzmontreal.com.",
+          "question": "Quelle nouveauté est introduite cette année selon le programme ?",
+          "options": {
+            "A": "Des concerts payants en salle",
+            "B": "Un village gastronomique",
+            "C": "La présence de Diana Krall",
+            "D": "Des spectacles gratuits"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 21,
+          "text": "AVIS DE RECRUTEMENT - POSTE : COORDONNATEUR(TRICE) MARKETING DIGITAL\n\nL'entreprise TechnoSolutions Inc., leader en solutions informatiques basée à Québec, recherche un(e) coordonnateur(trice) marketing digital. Responsabilités : gestion des réseaux sociaux, analyse des données web, création de contenu et campagnes publicitaires en ligne. Profil recherché : diplôme en marketing ou communications, 3 ans d'expérience minimum, maîtrise de Google Analytics et des outils de design graphique. Bilinguisme français-anglais essentiel. Salaire compétitif selon expérience, assurances collectives, horaire flexible et possibilité de télétravail partiel. Date limite pour postuler : 15 mars 2024. Envoyer CV et lettre de motivation à carrieres@technosolutions.ca.",
+          "question": "Quelle compétence linguistique est décrite comme essentielle pour ce poste ?",
+          "options": {
+            "A": "L'espagnol",
+            "B": "Le bilinguisme français-anglais",
+            "C": "Le mandarin",
+            "D": "L'allemand"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 22,
+          "text": "MÉTRO DE MONTRÉAL - MODIFICATIONS DE SERVICE\n\nEn raison de travaux majeurs de modernisation sur la ligne orange, des perturbations sont prévues les weekends des 15-16 et 22-23 février. Entre les stations Lionel-Groulx et Berri-UQAM, le service de métro sera remplacé par des autobus-navettes gratuits. Ces autobus circuleront aux 5 à 10 minutes, de 6h00 à 1h00 le samedi et de 6h00 à minuit le dimanche. Les voyageurs doivent prévoir un temps de trajet supplémentaire d'environ 15 minutes. Les stations concernées resteront ouvertes pour l'achat de titres de transport. Pour planifier votre déplacement, consultez l'application STM ou composez le 511.",
+          "question": "Quel moyen de transport de remplacement est prévu pendant les travaux ?",
+          "options": {
+            "A": "Des taxis gratuits",
+            "B": "Des vélos en libre-service",
+            "C": "Des autobus-navettes gratuits",
+            "D": "Un service de métro réduit"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congé sans solde - Projet personnel de formation\n\nMadame la Directrice,\n\nPar la présente, je vous informe de mon intention de prendre un congé sans solde d'une durée de six mois, à compter du 1er septembre 2024. Cette décision fait suite à mon acceptation dans un programme de maîtrise en gestion internationale à l'Université de Montréal, une opportunité qui correspond parfaitement à mes objectifs de développement professionnel au sein de notre entreprise.\n\nJe souhaite souligner que cette démarche s'inscrit dans une perspective de retour à mes fonctions actuelles, enrichi de nouvelles compétences stratégiques bénéfiques pour notre département. Je reste entièrement disponible pour organiser la transmission de mes dossiers et former mon remplaçant durant les semaines précédant mon départ.\n\nDans l'attente de votre réponse favorable, je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nThomas Mercier\nAnalyste financier",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Démissionner de son poste",
+            "B": "Demander une augmentation de salaire",
+            "C": "Demander un congé pour poursuivre des études",
+            "D": "Se plaindre de ses conditions de travail"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 24,
+          "text": "Objet : Réponse à votre réclamation concernant la livraison #45892\n\nMadame Tremblay,\n\nNous avons bien reçu votre courriel du 12 février dernier et nous tenons à vous présenter nos sincères excuses pour le désagrément causé par le retard de livraison de votre commande. Nous comprenons parfaitement votre déception, d'autant plus que cet article était destiné à un anniversaire.\n\nSuite à notre enquête interne, nous avons identifié un problème logistique chez notre transporteur habituel. Pour compenser cette situation, nous vous offrons un remboursement intégral des frais de livraison ainsi qu'un bon d'achat de 50 $ valable sur votre prochaine commande. Votre colis vous sera livré expressément d'ici demain, suivi d'un appel de confirmation de notre part.\n\nNous espérons que ces mesures témoigneront de notre engagement à votre égard et de notre volonté de maintenir votre confiance.\n\nCordialement,\nService clientèle",
+          "question": "Quel est le ton général de ce message ?",
+          "options": {
+            "A": "Aggressif et défensif",
+            "B": "Indifférent et froid",
+            "C": "Excusé et accommodant",
+            "D": "Sarcastique et ironique"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 25,
+          "text": "Objet : Invitation à la réunion stratégique trimestrielle\n\nChers membres de l'équipe de direction,\n\nJ'ai le plaisir de vous convier à notre réunion stratégique trimestrielle qui se tiendra le jeudi 28 mars 2024, de 9h00 à 16h00, dans la salle de conférence du 15e étage. L'ordre du jour comprendra : présentation des résultats financiers du premier trimestre, analyse des nouveaux projets en cours, et discussion sur les orientations budgétaires pour l'exercice à venir.\n\nVotre participation est essentielle pour garantir la cohérence de nos décisions collectives. Veuillez confirmer votre présence avant le 20 mars auprès de ma secrétaire, Mme Lacroix. Les documents préparatoires vous seront transmis par courriel une semaine avant la réunion.\n\nUn dîner de travail sera servi sur place. Merci de m'informer de vos éventuelles restrictions alimentaires.\n\nDans l'attente de vous retrouver tous, je vous prie d'agréer mes salutations les meilleures.\n\nJean-Philippe Larocque\nPrésident-directeur général",
+          "question": "Que doit faire le destinataire avant le 20 mars ?",
+          "options": {
+            "A": "Préparer une présentation",
+            "B": "Confirmer sa présence",
+            "C": "Envoyer les documents financiers",
+            "D": "Choisir le menu du dîner"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "Objet : Mise en demeure - Paiement de loyer impayé\n\nMonsieur Bernard,\n\nPar la présente, nous vous informons que vous êtes actuellement redevable d'un montant de 2 400 $ correspondant à trois mensualités de loyer impayées pour votre logement situé au 2850 avenue Papineau, appartement 4. Malgré nos rappels répétés par téléphone et par courriel, nous n'avons à ce jour reçu aucun paiement ni explication de votre part.\n\nConformément aux dispositions de votre bail et à la réglementation en vigueur, nous vous mettons en demeure de régulariser cette situation dans un délai de 10 jours suivant la réception de la présente lettre. À défaut de paiement intégral dans ce délai, nous nous verrons dans l'obligation d'entreprendre les démarches judiciaires nécessaires pour résiliation de bail et récupération des sommes dues, incluant les frais juridiques.\n\nNous vous encourageons vivement à nous contacter rapidement afin de trouver une solution amiable à ce litige.\n\nLe Gestionnaire immobilier",
+          "question": "Quelle menace est implicite dans ce document ?",
+          "options": {
+            "A": "Une augmentation de loyer",
+            "B": "Des poursuites judiciaires",
+            "C": "Une mutation professionnelle",
+            "D": "Une exclusion du quartier"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "Objet : Acceptation de votre candidature - Programme de stage international\n\nChère Mademoiselle Chen,\n\nNous avons le plaisir de vous informer que votre candidature au Programme de stage international de notre organisation a été retenue. Votre parcours académique exceptionnel et votre engagement communautaire ont particulièrement retenu l'attention du comité de sélection.\n\nVotre stage débutera le 3 juin 2024 au siège social de Genève et se poursuivra pendant six mois. Vous serez intégrée à l'équipe des affaires humanitaires sous la supervision directe de M. Laurent Dubois. Une bourse mensuelle de 2 500 CHF vous sera versée, ainsi qu'une allocation logement.\n\nVeuillez confirmer votre acceptation par retour de courriel avant le 15 mars, accompagnée des documents joints (contrat de stage, formulaire d'assurance). Nous restons à votre disposition pour toute question concernant les démarches administratives préalables à votre arrivée.\n\nFélicitations et bienvenue dans notre équipe !\n\nDirection des ressources humaines",
+          "question": "Quelle information pratique est fournie concernant la rémunération ?",
+          "options": {
+            "A": "Un salaire horaire de 25 $",
+            "B": "Une bourse mensuelle de 2 500 CHF",
+            "C": "Un bonus annuel de 5 000 $",
+            "D": "Aucune rémunération n'est prévue"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Objet : Modifications aux politiques de télétravail - Mise à jour importante\n\nÀ tous les employés,\n\nSuite à l'évaluation trimestrielle de notre programme de travail hybride, nous apportons les ajustements suivants à compter du 1er avril 2024. Premièrement, le nombre de jours de télétravail autorisés passe de deux à trois par semaine pour les postes administratifs. Deuxièmement, une nouvelle politique d'allocation pour aménagement de bureau à domicile est instaurée : jusqu'à 500 $ remboursables pour l'achat de mobilier ergonomique sur présentation de factures.\n\nCependant, nous insistons sur la présence obligatoire au bureau les mardis pour les réunions d'équipe et les mercredis pour les activités de formation collective. Ces jours seront désormais appelés 'jours d'ancrage'. Nous croyons que ces mesures préserveront l'équilibre entre flexibilité et cohésion d'équipe.\n\nUne session d'information virtuelle est prévue le 25 mars à 14h00. Votre participation est requise.\n\nDirection des ressources humaines",
+          "question": "Quelle est la nouvelle exigence concernant les jours de présence au bureau ?",
+          "options": {
+            "A": "Tous les jours de la semaine",
+            "B": "Les mardis et mercredis obligatoires",
+            "C": "Un jour par mois seulement",
+            "D": "Aucune présence n'est requise"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Objet : Réponse à votre demande de subvention - Projet 'Éco-quartier durable'\n\nMonsieur le Président de l'Association de développement local,\n\nLe Ministère de l'Environnement et de la Lutte contre les changements climatiques a étudié avec attention votre proposition soumise le 15 janvier dernier. Nous reconnaissons la qualité de votre démarche participative et la pertinence de vos objectifs de réduction de l'empreinte carbone communautaire.\n\nNous avons le plaisir de vous accorder une subvention de 75 000 $ sur deux ans pour la réalisation de votre projet, soit 80% du montant demandé. Cette enveloppe couvrira spécifiquement l'installation des jardins collectifs, les ateliers de sensibilisation énergétique et l'achat de composteurs communautaires. Un rapport d'étape semestriel sera exigé.\n\nVeuillez signer et retourner la convention jointe avant le 30 mars pour débloquer le premier versement de 37 500 $. Nous vous félicitons pour cette initiative exemplaire et restons disponibles pour accompagner sa mise en œuvre.\n\nLa Directrice des programmes communautaires",
+          "question": "Quel pourcentage du montant demandé a été accordé ?",
+          "options": {
+            "A": "50%",
+            "B": "75%",
+            "C": "80%",
+            "D": "100%"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 30,
+          "text": "Objet : Convocation à entretien préalable - Procédure disciplinaire\n\nMonsieur Gagnon,\n\nConformément aux dispositions de la convention collective et après consultation du syndicat, nous vous convoquons à un entretien préalable le mardi 12 mars 2024 à 10h00, dans le bureau de la direction des ressources humaines. Cette convocation fait suite à plusieurs signalements concernant des retards répétés et des absences non justifiées survenues ces trois derniers mois.\n\nDurant cet entretien, vous aurez l'opportunité de présenter votre version des faits et de fournir toute explication ou document justificatif que vous jugerez utile. Vous pouvez vous faire assister par un représentant syndical de votre choix. L'objectif est de comprendre les circonstances ayant conduit à cette situation et d'envisager ensemble les mesures correctives appropriées.\n\nVotre présence est obligatoire. En cas d'empêchement majeur, veuillez nous en informer dans les 48 heures.\n\nLa Directrice des ressources humaines",
+          "question": "Quel droit est accordé à Monsieur Gagnon pour cet entretien ?",
+          "options": {
+            "A": "Refuser de participer",
+            "B": "Être accompagné d'un représentant syndical",
+            "C": "Enregistrer la conversation",
+            "D": "Choisir la date de l'entretien"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 31,
+          "text": "Objet : Confirmation de réservation - Séminaire d'entreprise\n\nMadame Lefebvre,\n\nNous confirmons avec plaisir la réservation de votre séminaire d'entreprise prévu du 15 au 17 mai 2024 au Centre de conférences Mont-Royal. Votre forfait 'Exécutif Plus' comprend : la salle Victoria (capacité 50 personnes) équipée de vidéoprojecteur et système de visioconférence, deux pauses-café par jour avec rafraîchissements, un déjeuner buffet les trois jours, et un dîner de gala le dernier soir dans notre salon panoramique.\n\nLe montant total de 8 500 $ taxes et service compris sera facturé selon l'échéancier convenu : 50% à la signature du contrat, solde 15 jours avant l'événement. Notre coordonnateur événementiel, M. Saïd, vous contactera sous 48 heures pour finaliser les détails techniques et le menu.\n\nNous mettons à votre disposition une navette depuis le centre-ville et un service de conciergerie pour vos invités. Nous nous réjouissons de contribuer au succès de votre événement.\n\nCordialement,\nDirectrice de l'hébergement événementiel",
+          "question": "Quel service additionnel est mentionné pour les participants ?",
+          "options": {
+            "A": "Un massage gratuit",
+            "B": "Une navette depuis le centre-ville",
+            "C": "Un guide touristique privé",
+            "D": "Des billets de spectacle"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "Objet : Avis de fin de contrat à échéance\n\nChère Madame Kosinski,\n\nNous vous informons par la présente que votre contrat de travail à durée déterminée, en vigueur depuis le 1er septembre 2023, arrivera à échéance le 31 août 2024 conformément aux termes convenus. Nous tenons à vous remercier sincèrement pour la qualité de votre travail et votre contribution significative au développement de nos programmes éducatifs durant cette année académique.\n\nCompte tenu des effectifs prévus pour l'année prochaine, nous ne serons malheureusement pas en mesure de vous proposer un renouvellement de contrat pour le moment. Cependant, nous conservons volontiers votre candidature dans nos dossiers pour d'éventuelles opportunités futures correspondant à votre profil.\n\nVous recevrez sous peu les documents relatifs à votre solde de tout compte, attestations d'emploi et relevé de carrière. Nous vous invitons à prendre rendez-vous avec le service des ressources humaines pour un entretien de fin de contrat.\n\nNous vous souhaitons plein succès dans vos projets futurs.\n\nLe Proviseur",
+          "question": "Quelle est l'intention principale de ce message ?",
+          "options": {
+            "A": "Promouvoir l'employée",
+            "B": "Informer de la non-reconduction du contrat",
+            "C": "Demander une augmentation de salaire",
+            "D": "Critiquer le travail effectué"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "LE MONDE DES AFFAIRES - 15 FÉVRIER 2024\n\nLa révolution silencieuse des quatre jours de travail semble irrésistiblement gagner du terrain à travers le monde occidental. Après les expérimentations concluantes menées en Islande, au Royaume-Uni et en Nouvelle-Zélande, plusieurs entreprises québécoises tentent l'aventure. Pourtant, cette tendance cache une réalité plus complexe que l'enthousiasme médiatique ne le suggère.\n\nLes promoteurs de ce modèle vantent une productivité maintenue, voire améliorée, et une réduction significative du stress des employés. Les chiffres semblent leur donner raison : chez les pionniers, l'absentéisme a chuté de 30% et le taux de rétention a grimpé en flèche. Mais cette approche soulève des questions fondamentales sur la nature même du travail. Peut-on vraiment condenser cinq jours d'activité en quatre sans sacrifier la qualité ? Les secteurs de services continus, comme la santé ou la sécurité, peuvent-ils s'y adapter ?\n\nCritique de cette tendance, l'économiste Hélène Bourdages met en garde contre une généralisation hâtive. 'On risque de créer une société à deux vitesses où les privilégiés des bureaux bénéficient de cette flexibilité pendant que les travailleurs essentiels maintiennent le rythme traditionnel. C'est une question d'équité sociale.'\n\nLes entreprises qui réussissent leur transition partagent un trait commun : une culture organisationnelle déjà saine. Celles qui espèrent ce modèle comme panacée à des problèmes structurels plus profonds risquent la déception.",
+          "question": "Quelle est la position de l'auteur concernant la généralisation du modèle des quatre jours ?",
+          "options": {
+            "A": "Il en fait la promotion enthousiaste",
+            "B": "Il reste neutre et objectif",
+            "C": "Il exprique des réserves nuancées",
+            "D": "Il s'y oppose catégoriquement"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 34,
+          "text": "LE MONDE DES AFFAIRES - 15 FÉVRIER 2024\n\nLa révolution silencieuse des quatre jours de travail semble irrésistiblement gagner du terrain à travers le monde occidental. Après les expérimentations concluantes menées en Islande, au Royaume-Uni et en Nouvelle-Zélande, plusieurs entreprises québécoises tentent l'aventure. Pourtant, cette tendance cache une réalité plus complexe que l'enthousiasme médiatique ne le suggère.\n\nLes promoteurs de ce modèle vantent une productivité maintenue, voire améliorée, et une réduction significative du stress des employés. Les chiffres semblent leur donner raison : chez les pionniers, l'absentéisme a chuté de 30% et le taux de rétention a grimpé en flèche. Mais cette approche soulève des questions fondamentales sur la nature même du travail. Peut-on vraiment condenser cinq jours d'activité en quatre sans sacrifier la qualité ? Les secteurs de services continus, comme la santé ou la sécurité, peuvent-ils s'y adapter ?\n\nCritique de cette tendance, l'économiste Hélène Bourdages met en garde contre une généralisation hâtive. 'On risque de créer une société à deux vitesses où les privilégiés des bureaux bénéficient de cette flexibilité pendant que les travailleurs essentiels maintiennent le rythme traditionnel. C'est une question d'équité sociale.'\n\nLes entreprises qui réussissent leur transition partagent un trait commun : une culture organisationnelle déjà saine. Celles qui espèrent ce modèle comme panacée à des problèmes structurels plus profonds risquent la déception.",
+          "question": "Selon l'économiste citée, quel risque la généralisation du modèle des quatre jours fait-elle courir ?",
+          "options": {
+            "A": "Une baisse de la productivité générale",
+            "B": "Une société à deux vitesses inéquitable",
+            "C": "Une augmentation des licenciements",
+            "D": "Une crise économique majeure"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "LE MONDE DES AFFAIRES - 15 FÉVRIER 2024\n\nLa révolution silencieuse des quatre jours de travail semble irrésistiblement gagner du terrain à travers le monde occidental. Après les expérimentations concluantes menées en Islande, au Royaume-Uni et en Nouvelle-Zélande, plusieurs entreprises québécoises tentent l'aventure. Pourtant, cette tendance cache une réalité plus complexe que l'enthousiasme médiatique ne le suggère.\n\nLes promoteurs de ce modèle vantent une productivité maintenue, voire améliorée, et une réduction significative du stress des employés. Les chiffres semblent leur donner raison : chez les pionniers, l'absentéisme a chuté de 30% et le taux de rétention a grimpé en flèche. Mais cette approche soulève des questions fondamentales sur la nature même du travail. Peut-on vraiment condenser cinq jours d'activité en quatre sans sacrifier la qualité ? Les secteurs de services continus, comme la santé ou la sécurité, peuvent-ils s'y adapter ?\n\nCritique de cette tendance, l'économiste Hélène Bourdages met en garde contre une généralisation hâtive. 'On risque de créer une société à deux vitesses où les privilégiés des bureaux bénéficient de cette flexibilité pendant que les travailleurs essentiels maintiennent le rythme traditionnel. C'est une question d'équité sociale.'\n\nLes entreprises qui réussissent leur transition partagent un trait commun : une culture organisationnelle déjà saine. Celles qui espèrent ce modèle comme panacée à des problèmes structurels plus profonds risquent la déception.",
+          "question": "Quelle condition est présentée comme essentielle pour la réussite de cette transition ?",
+          "options": {
+            "A": "Une réduction des salaires",
+            "B": "Une culture organisationnelle saine préexistante",
+            "C": "Des subventions gouvernementales",
+            "D": "Une formation intensive des employés"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "LA PRESSE MÉDICALE - 22 FÉVRIER 2024\n\nL'intelligence artificielle s'invite de plus en plus dans les salles d'opération canadiennes, transformant la chirurgie moderne en une symphonie algorithmique. Les systèmes d'assistance robotique, guidés par des algorithmes d'apprentissage profond, permettent désormais des interventions d'une précision millimétrique impensable il y a dix ans. Le Dr Amir Hassan, chirurgien-cardiaque à l'Institut de cardiologie de Montréal, utilise quotidiennement ces technologies. 'L'IA ne remplace pas le chirurgien, elle amplifie ses capacités. C'est comme passer d'une montre mécanique à une montre atomique.'\n\nLes bénéfices sont indéniables : réduction des temps opératoires, diminution des saignements, et surtout, récupération accélérée des patients. Une étude récente publiée dans le New England Journal of Medicine démontre une réduction de 40% des complications post-opératoires dans les procédures assistées par IA comparées aux méthodes traditionnelles.\n\nCependant, cette révolution soulève des interrogations éthiques majeures. Qui assume la responsabilité en cas d'erreur algorithmique ? Comment garantir la protection des données médicales ultra-sensibles traitées par ces systèmes ? Le Collège des médecins du Québec plaide pour un encadrement strict et une formation obligatoire des praticiens.\n\nL'enjeu dépasse le cadre strictement médical. Il touche à la confiance que nous accordons aux machines pour préserver nos vies.",
+          "question": "Quelle métaphore le Dr Hassan utilise-t-il pour décrire l'apport de l'IA ?",
+          "options": {
+            "A": "Une symphonie algorithmique",
+            "B": "Le passage d'une montre mécanique à une montre atomique",
+            "C": "Une révolution silencieuse",
+            "D": "Une danse millimétrique"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "LA PRESSE MÉDICALE - 22 FÉVRIER 2024\n\nL'intelligence artificielle s'invite de plus en plus dans les salles d'opération canadiennes, transformant la chirurgie moderne en une symphonie algorithmique. Les systèmes d'assistance robotique, guidés par des algorithmes d'apprentissage profond, permettent désormais des interventions d'une précision millimétrique impensable il y a dix ans. Le Dr Amir Hassan, chirurgien-cardiaque à l'Institut de cardiologie de Montréal, utilise quotidiennement ces technologies. 'L'IA ne remplace pas le chirurgien, elle amplifie ses capacités. C'est comme passer d'une montre mécanique à une montre atomique.'\n\nLes bénéfices sont indéniables : réduction des temps opératoires, diminution des saignements, et surtout, récupération accélérée des patients. Une étude récente publiée dans le New England Journal of Medicine démontre une réduction de 40% des complications post-opératoires dans les procédures assistées par IA comparées aux méthodes traditionnelles.\n\nCependant, cette révolution soulève des interrogations éthiques majeures. Qui assume la responsabilité en cas d'erreur algorithmique ? Comment garantir la protection des données médicales ultra-sensibles traitées par ces systèmes ? Le Collège des médecins du Québec plaide pour un encadrement strict et une formation obligatoire des praticiens.\n\nL'enjeu dépasse le cadre strictement médical. Il touche à la confiance que nous accordons aux machines pour préserver nos vies.",
+          "question": "Quel pourcentage de réduction des complications est mentionné dans l'étude ?",
+          "options": {
+            "A": "30%",
+            "B": "40%",
+            "C": "50%",
+            "D": "60%"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 38,
+          "text": "LA PRESSE MÉDICALE - 22 FÉVRIER 2024\n\nL'intelligence artificielle s'invite de plus en plus dans les salles d'opération canadiennes, transformant la chirurgie moderne en une symphonie algorithmique. Les systèmes d'assistance robotique, guidés par des algorithmes d'apprentissage profond, permettent désormais des interventions d'une précision millimétrique impensable il y a dix ans. Le Dr Amir Hassan, chirurgien-cardiaque à l'Institut de cardiologie de Montréal, utilise quotidiennement ces technologies. 'L'IA ne remplace pas le chirurgien, elle amplifie ses capacités. C'est comme passer d'une montre mécanique à une montre atomique.'\n\nLes bénéfices sont indéniables : réduction des temps opératoires, diminution des saignements, et surtout, récupération accélérée des patients. Une étude récente publiée dans le New England Journal of Medicine démontre une réduction de 40% des complications post-opératoires dans les procédures assistées par IA comparées aux méthodes traditionnelles.\n\nCependant, cette révolution soulève des interrogations éthiques majeures. Qui assume la responsabilité en cas d'erreur algorithmique ? Comment garantir la protection des données médicales ultra-sensibles traitées par ces systèmes ? Le Collège des médecins du Québec plaide pour un encadrement strict et une formation obligatoire des praticiens.\n\nL'enjeu dépasse le cadre strictement médical. Il touche à la confiance que nous accordons aux machines pour préserver nos vies.",
+          "question": "Quelle préoccupation éthique principale est soulevée concernant la responsabilité ?",
+          "options": {
+            "A": "Le coût des équipements",
+            "B": "La responsabilité en cas d'erreur de l'algorithme",
+            "C": "La formation des infirmières",
+            "D": "L'accès aux soins dans les régions rurales"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "LE DEVOIR - CULTURE - 18 FÉVRIER 2024\n\nLe Musée des beaux-arts de Montréal ose une provocation salutaire avec son nouvelle exposition 'Décoloniser le regard', qui remet en question la manière dont les institutions culturelles occidentales ont collectionné et présenté les œuvres des cultures autochtones. Commissariée par la conservatrice Anishinaabe Marie-Josée Tremblay, l'exposition ne se contente pas d'exposer des artefacts : elle raconte les histoires de spoliation, de rapatriement manqué et de résilience culturelle.\n\nL'approche est radicalement différente des expositions ethnographiques traditionnelles. Ici, les objets ne sont pas de simples curiosités esthétiques mais des témoins vivants de continuités culturelles millénaires. Des masques cérémoniels Haida côtoient des récits oraux enregistrés, des couvertures de commerce sont présentées aux côtés des lettres de protestation de leurs créateurs contre les prix dérisoires payés par les marchands.\n\nCette exposition interroge notre rapport au patrimoine. Peut-on admirer une œuvre volée ? Jusqu'où les musées doivent-ils aller dans la restitution ? Certaines œuvres exposées sont accompagnées de demandes explicites de retour formulées par les nations concernées, créant une tension productive entre conservation et justice.\n\nLe débat dépasse le cadre montréalais. Des institutions comme le British Museum ou le Louvre observent attentivement cette expérimentation. 'C'est un tournant historique', affirme le directeur du MBAM. 'Nous passons du musée comme temple de l'art au musée comme espace de dialogue.'",
+          "question": "Quelle particularité distingue cette exposition des expositions traditionnelles selon le texte ?",
+          "options": {
+            "A": "Elle présente uniquement des œuvres contemporaines",
+            "B": "Elle contextualise les objets avec leurs histoires de spoliation et de résilience",
+            "C": "Elle interdit la photographie des œuvres",
+            "D": "Elle est gratuite pour tous les visiteurs"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "LE DEVOIR - CULTURE - 18 FÉVRIER 2024\n\nLe Musée des beaux-arts de Montréal ose une provocation salutaire avec son nouvelle exposition 'Décoloniser le regard', qui remet en question la manière dont les institutions culturelles occidentales ont collectionné et présenté les œuvres des cultures autochtones. Commissariée par la conservatrice Anishinaabe Marie-Josée Tremblay, l'exposition ne se contente pas d'exposer des artefacts : elle raconte les histoires de spoliation, de rapatriement manqué et de résilience culturelle.\n\nL'approche est radicalement différente des expositions ethnographiques traditionnelles. Ici, les objets ne sont pas de simples curiosités esthétiques mais des témoins vivants de continuités culturelles millénaires. Des masques cérémoniels Haida côtoient des récits oraux enregistrés, des couvertures de commerce sont présentées aux côtés des lettres de protestation de leurs créateurs contre les prix dérisoires payés par les marchands.\n\nCette exposition interroge notre rapport au patrimoine. Peut-on admirer une œuvre volée ? Jusqu'où les musées doivent-ils aller dans la restitution ? Certaines œuvres exposées sont accompagnées de demandes explicites de retour formulées par les nations concernées, créant une tension productive entre conservation et justice.\n\nLe débat dépasse le cadre montréalais. Des institutions comme le British Museum ou le Louvre observent attentivement cette expérimentation. 'C'est un tournant historique', affirme le directeur du MBAM. 'Nous passons du musée comme temple de l'art au musée comme espace de dialogue.'",
+          "question": "Quelle évolution du rôle du musée le directeur du MBAM annonce-t-il ?",
+          "options": {
+            "A": "Du musée comme temple de l'art au musée comme espace de dialogue",
+            "B": "Du musée privé au musée public",
+            "C": "Du musée local au musée international",
+            "D": "Du musée traditionnel au musée virtuel"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

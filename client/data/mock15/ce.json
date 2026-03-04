@@ -1,0 +1,565 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AVIS IMPORTANT AUX CLIENTS\n\nEn raison de travaux de rénovation, notre bibliothèque municipale sera fermée du 15 au 30 juillet inclus. Les emprunts en cours seront automatiquement prolongés de deux semaines sans frais supplémentaires. Durant cette période, vous pouvez retourner vos documents dans la boîte de dépôt extérieure située à l'entrée principale. Le service de prêt numérique reste accessible 24h/24 via notre site internet. Pour toute urgence, contactez le service client au 01 23 45 67 89. Nous vous remercions de votre compréhension et vous donnons rendez-vous le 31 juillet pour la réouverture avec des espaces entièrement rénovés.",
+          "question": "Quelle information est donnée dans ce document ?",
+          "options": {
+            "A": "La bibliothèque augmente ses tarifs d'inscription",
+            "B": "La bibliothèque sera temporairement fermée pour travaux",
+            "C": "La bibliothèque organise une vente de livres",
+            "D": "La bibliothèque change d'adresse définitivement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "MENU DU JOUR - Restaurant Le Gourmet\nEntrées au choix :\n• Salade niçoise aux légumes frais du jardin (12€)\n• Soupe à l'oignon gratinée (10€)\n• Terrine de campagne maison (11€)\n\nPlats principaux :\n• Filet de saumon sauce hollandaise, riz pilaf (24€)\n• Magret de canard aux figues, purée de céleri (26€)\n• Risotto aux champignons, copeaux de parmesan (22€)\n\nDesserts :\n• Tarte tatin chaude, crème fraîche (9€)\n• Mousse au chocolat noir (8€)\n• Assiette de fromages affinés (10€)\n\nFormule complète entrée + plat + dessert : 38€ (boisson comprise)",
+          "question": "Combien coûte la formule complète ?",
+          "options": {
+            "A": "22 euros",
+            "B": "26 euros",
+            "C": "38 euros",
+            "D": "48 euros"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 3,
+          "text": "HORAIRES DES TRANSPORTS EN COMMUN - Ligne 42\nDu lundi au vendredi :\nPremier départ : 5h30 depuis la Gare Centrale\nDernier départ : 23h45 depuis le Centre Commercial\nFréquence : toutes les 15 minutes aux heures de pointe, toutes les 30 minutes en journée\n\nSamedi :\nPremier départ : 6h00\nDernier départ : 00h30\nFréquence : toutes les 20 minutes\n\nDimanche et jours fériés :\nPremier départ : 7h00\nDernier départ : 23h00\nFréquence : toutes les 30 minutes\n\nAttention : les horaires peuvent varier en cas de manifestations ou de conditions météorologiques difficiles. Consultez notre application mobile pour les mises à jour en temps réel.",
+          "question": "Quelle est la fréquence des bus en semaine aux heures de pointe ?",
+          "options": {
+            "A": "Toutes les 10 minutes",
+            "B": "Toutes les 15 minutes",
+            "C": "Toutes les 20 minutes",
+            "D": "Toutes les 30 minutes"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "PETITE ANNONCE\nÀ vendre : canapé d'angle en cuir véritable, couleur chocolat, acheté il y a deux ans chez Meubles Design. Dimensions : 2,50m x 2m. Très bon état général, quelques rayures superficielles sur l'accoudoir droit. Prix d'achat : 1 200€, prix de vente : 450€ (négociable). Cause déménagement. Disponible immédiatement sur rendez-vous dans le 15ème arrondissement de Paris. Possibilité de livraison dans un rayon de 20km pour un supplément de 50€. Contact : Marie au 06 12 34 56 78 ou par email marie.dupont@email.com. Photos disponibles sur demande. Sérieux uniquement, merci.",
+          "question": "Pourquoi Marie vend-elle son canapé ?",
+          "options": {
+            "A": "Parce qu'il est trop vieux",
+            "B": "Parce qu'elle déménage",
+            "C": "Parce qu'il est défectueux",
+            "D": "Parce qu'elle veut acheter un modèle plus grand"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 5,
+          "text": "AFFICHE - Journées Portes Ouvertes\nL'Association Sportive de la Ville vous invite à découvrir ses activités les samedis 12 et 19 septembre de 10h à 18h au Complexe Sportif Municipal. Au programme : démonstrations de judo, yoga, natation et tennis. Initiations gratuites pour tous les âges. Inscriptions pour la saison 2024-2025 ouvertes sur place avec 20% de réduction pour les inscriptions effectuées pendant ces journées. Snack-bar ouvert toute la journée. Parking gratuit. Renseignements au 04 91 23 45 67 ou sur www.asv-sports.fr. Venez nombreux avec votre famille !",
+          "question": "Quel avantage est proposé lors des journées portes ouvertes ?",
+          "options": {
+            "A": "Un repas gratuit",
+            "B": "Une réduction de 20% sur les inscriptions",
+            "C": "Un équipement sportif offert",
+            "D": "Des cours particuliers gratuits pendant un mois"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "text": "NOTICE D'UTILISATION - Machine à café Expresso Pro\n1. Remplissez le réservoir d'eau (max 1,5L) et placez votre tasse sous la buse.\n2. Insérez une capsule dans le compartiment prévu à cet effet.\n3. Appuyez sur le bouton de votre choix : court (40ml) ou long (110ml).\n4. Attendez que le café coule (environ 25 secondes).\n5. Retirez la capsule usagée en ouvrant le levier et en vidant le bac.\n\nNettoyage : Videz le bac à capsules et le plateau récupérateur quotidiennement. Détartrez la machine tous les 3 mois avec le produit fourni. En cas de problème, consultez la section dépannage page 12 ou contactez le service après-vente au 0 800 123 456 (appel gratuit).",
+          "question": "Que faut-il faire tous les trois mois ?",
+          "options": {
+            "A": "Changer la capsule",
+            "B": "Détartrer la machine",
+            "C": "Remplacer le réservoir",
+            "D": "Nettoyer la buse uniquement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "text": "PROGRAMME CINÉMA LE STAR - Semaine du 15 au 21 mars\nMardi 15 : 'Les Étoiles du Nord' - Drame - 20h30 - VO avec sous-titres\nMercredi 16 : 'Rire en Famille' - Comédie - 14h00 et 18h00 - VF\nJeudi 17 : 'Mystères de la Jungle' - Documentaire - 19h00 - VF\nVendredi 18 : 'Amour à Paris' - Comédie romantique - 20h45 - VO\nSamedi 19 : 'Les Super-Héros' - Action - 15h00, 18h30 et 21h00 - VF\nDimanche 20 : 'Le Petit Prince' - Animation - 10h30 (séance enfant) - VF\nLundi 21 : 'Histoire de la Musique' - Documentaire musical - 18h00 - VO\n\nTarifs : Plein tarif 12€, Étudiants et -18 ans 8€, Carte fidélité 10 séances 90€.\nRéservations recommandées en ligne ou au guichet.",
+          "question": "À quelle heure commence le film 'Amour à Paris' ?",
+          "options": {
+            "A": "18h00",
+            "B": "19h00",
+            "C": "20h30",
+            "D": "20h45"
+          },
+          "correct_answer": "D"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Les livres audio connaissent un succès grandissant auprès des lecteurs modernes. Ils permettent de profiter de la littérature tout en effectuant d'autres activités comme la conduite ou la cuisine. Cette nouvelle forme de lecture est particulièrement appréciée par les personnes qui passent beaucoup de temps dans les ______ (1) en commun. De plus, elle constitue une excellente solution pour ceux qui ont des difficultés de vision ou qui souhaitent simplement reposer leurs yeux après une longue journée de travail devant des écrans.",
+          "options": {
+            "A": "transports",
+            "B": "magasins",
+            "C": "hôpitaux",
+            "D": "restaurants"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 9,
+          "text": "Le télétravail s'est développé considérablement depuis quelques années. Cette organisation offre une grande ______ (2) aux employés qui peuvent mieux concilier vie professionnelle et vie personnelle. Cependant, certains regrettent l'absence de contacts directs avec leurs collègues et l'ambiance de l'entreprise. Il est donc essentiel de trouver un équilibre entre travail à distance et présence occasionnelle au bureau pour maintenir la cohésion d'équipe.",
+          "options": {
+            "A": "fatigue",
+            "B": "liberté",
+            "C": "pression",
+            "D": "stabilité"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 10,
+          "text": "Le marché des produits bio continue de croître chaque année. Les consommateurs sont de plus en plus attentifs à leur alimentation et privilégient les denrées sans pesticides ni additifs chimiques. Cette tendance s'inscrit dans une démarche plus globale de respect de l'environnement et de préservation de la santé. Néanmoins, le prix ______ (3) de ces produits reste souvent un frein pour les familles aux budgets limités.",
+          "options": {
+            "A": "bas",
+            "B": "élevé",
+            "C": "stable",
+            "D": "variable"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 11,
+          "text": "La pratique régulière d'une activité physique est essentielle pour maintenir une bonne santé. Les médecins recommandent de faire au moins 30 minutes d'exercice par jour, que ce soit la marche rapide, la natation ou le vélo. Ces activités permettent de renforcer le système cardiovasculaire et de réduire le stress. Il est important de choisir un sport qui procure du plaisir pour pouvoir le ______ (4) sur la durée sans ressentir d'obligation.",
+          "options": {
+            "A": "abandonner",
+            "B": "pratiquer",
+            "C": "éviter",
+            "D": "critiquer"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 12,
+          "text": "L'apprentissage des langues étrangères offre de nombreux avantages tant sur le plan personnel que professionnel. Maîtriser plusieurs langues permet de communiquer avec des personnes de différentes cultures et d'élargir ses horizons. Sur le marché du travail, les candidats bilingues sont souvent ______ (5) par les recruteurs car ils peuvent traiter avec des clients internationaux. De plus, étudier une langue stimule la mémoire et la capacité de concentration.",
+          "options": {
+            "A": "ignorés",
+            "B": "rejetés",
+            "C": "recherchés",
+            "D": "critiqués"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 13,
+          "text": "Le réchauffement climatique constitue l'un des plus grands défis de notre époque. Les scientifiques du monde entier s'accordent pour dire que les activités humaines, notamment la combustion des énergies fossiles, sont responsables de l'augmentation des températures. Pour ______ (6) cette évolution, il est urgent de développer les énergies renouvelables et de réduire nos émissions de gaz à effet de serre. Chaque geste compte, même les plus petits, pour préserver notre planète.",
+          "options": {
+            "A": "accélérer",
+            "B": "ignorer",
+            "C": "combattre",
+            "D": "cacher"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 14,
+          "text": "La méditation gagne en popularité dans les pays occidentaux. Cette pratique ancestrale originaire d'Asie permet de calmer l'esprit et de réduire l'anxiété. En respirant profondément et en se concentrant sur le moment présent, on parvient à ______ (7) le stress accumulé au quotidien. De nombreuses entreprises proposent désormais des séances de méditation à leurs salariés pour améliorer le bien-être au travail et augmenter la productivité.",
+          "options": {
+            "A": "augmenter",
+            "B": "dissiper",
+            "C": "créer",
+            "D": "stimuler"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 15,
+          "text": "La cuisine française est réputée dans le monde entier pour sa finesse et sa diversité. Chaque région possède ses spécialités gastronomiques qui reflètent l'histoire et les traditions locales. Le vin, le fromage et le pain constituent des éléments ______ (8) des repas traditionnels. Les chefs français accordent une importance particulière à la qualité des produits et à la présentation des assiettes, transformant chaque repas en une véritable expérience sensorielle.",
+          "options": {
+            "A": "étrangers",
+            "B": "inconnus",
+            "C": "essentiels",
+            "D": "interdits"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 16,
+          "text": "Les réseaux sociaux ont transformé notre façon de communiquer et d'accéder à l'information. En quelques clics, il est possible de partager des photos, des opinions ou des articles avec des milliers de personnes. Cependant, cette omniprésence numérique soulève des questions concernant la protection de la vie privée et la diffusion des fausses nouvelles. Il est donc nécessaire d'utiliser ces outils avec ______ (9) et de vérifier toujours les sources des informations partagées.",
+          "options": {
+            "A": "précipitation",
+            "B": "négligence",
+            "C": "prudence",
+            "D": "enthousiasme excessif"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 17,
+          "text": "Le développement des villes intelligentes représente une révolution urbaine. Grâce aux technologies connectées, les municipalités peuvent optimiser la gestion de l'énergie, des déchets et des transports. Les capteurs installés dans les rues permettent de collecter des données en temps réel pour améliorer le confort des citoyens. Cette ______ (10) technologique vise à créer des environnements urbains plus durables et plus adaptés aux besoins de leurs habitants.",
+          "options": {
+            "A": "régression",
+            "B": "transformation",
+            "C": "destruction",
+            "D": "simplification"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "RÉSULTATS D'ENQUÊTE - Habitudes alimentaires des Français\nUne étude récente menée auprès de 2 000 personnes révèle que 65% des Français cuisinent quotidiennement à la maison. Les motivations principales citées sont le goût (45%), la santé (38%) et l'économie (35%). À l'inverse, 20% des personnes interrogées se rendent au restaurant plus de trois fois par semaine. Les jeunes de 18 à 25 ans sont ceux qui commandent le plus souvent des repas à emporter via des applications mobiles. L'étude note également une augmentation de 15% des achats de produits bio par rapport à l'année précédente.",
+          "question": "Selon l'enquête, quelle est la motivation principale de ceux qui cuisinent à la maison ?",
+          "options": {
+            "A": "L'économie",
+            "B": "La santé",
+            "C": "Le goût",
+            "D": "Le gain de temps"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 19,
+          "text": "STATISTIQUES - Transport et environnement\nLes données de 2023 montrent que 58% des déplacements domicile-travail en France se font en voiture individuelle, malgré les efforts pour promouvoir les transports en commun. Le vélo ne représente que 3% des trajets mais connaît une croissance de 20% par an dans les grandes agglomérations. Les transports en commun (bus, métro, train) concernent 22% des actifs. Le covoiturage progresse lentement avec seulement 4% des travailleurs qui l'utilisent régulièrement. Le télétravail, développé pendant la crise sanitaire, concerne désormais 28% des salariés au moins un jour par semaine.",
+          "question": "Quel mode de transport est utilisé par plus de la moitié des actifs pour se rendre au travail ?",
+          "options": {
+            "A": "Les transports en commun",
+            "B": "La voiture individuelle",
+            "C": "Le vélo",
+            "D": "Le covoiturage"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 20,
+          "text": "INFOGRAPHIE - Consommation numérique des adolescents\nTemps moyen quotidien passé sur les écrans : 7h30\nRépartition : Réseaux sociaux (35%), Jeux vidéo (25%), Streaming vidéo (20%), Études en ligne (15%), Autres (5%).\nAppareils préférés : Smartphone (68%), Ordinateur portable (22%), Tablette (8%), Console de jeux (2%).\nRéseaux sociaux les plus utilisés : TikTok (45%), Instagram (28%), Snapchat (18%), Discord (9%).\nLes parents estiment que 65% des jeunes passent trop de temps sur les écrans, mais seulement 30% établissent des règles claires d'utilisation.",
+          "question": "Quelle activité occupe le plus de temps dans la consommation numérique des adolescents ?",
+          "options": {
+            "A": "Les jeux vidéo",
+            "B": "Le streaming vidéo",
+            "C": "Les réseaux sociaux",
+            "D": "Les études en ligne"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 21,
+          "text": "COMMUNIQUÉ - Festival de Musique de Montréal\nLa 25ème édition du Festival de Musique de Montréal se tiendra du 15 au 25 juin 2024 dans divers lieux de la ville. Cette année, le festival met à l'honneur la musique classique contemporaine avec 15 concerts programmés. Les billets sont en vente dès aujourd'hui : tarif plein 45$, tarif réduit (étudiants, seniors) 30$, gratuit pour les moins de 12 ans. Le concert d'ouverture aura lieu à la Place des Arts avec l'Orchestre Symphonique de Montréal. Réservation obligatoire sur festivalmusiquemtl.ca ou au 514-123-4567.",
+          "question": "Qui peut assister gratuitement aux concerts ?",
+          "options": {
+            "A": "Les étudiants",
+            "B": "Les personnes âgées",
+            "C": "Les enfants de moins de 12 ans",
+            "D": "Les résidents de Montréal"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 22,
+          "text": "RAPPORT - Tourisme au Québec 2023\nLe secteur touristique québécois a connu une année record avec 22 millions de visiteurs, soit une augmentation de 12% par rapport à 2022. Les touristes étrangers représentent 35% des visiteurs, principalement des États-Unis, de la France et du Royaume-Uni. Les régions les plus visitées sont Montréal (40%), Québec (25%) et les Laurentides (15%). L'hébergement en hôtel reste privilégié (55%), mais le camping et les locations de type Airbnb gagnent du terrain avec respectivement 20% et 18% des nuitées. La dépense moyenne par visiteur est estimée à 185$ par jour.",
+          "question": "Quelle région reçoit le plus de touristes au Québec ?",
+          "options": {
+            "A": "Les Laurentides",
+            "B": "Québec",
+            "C": "Montréal",
+            "D": "Les États-Unis"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Confirmation de votre inscription - Formation Management\n\nMadame, Monsieur,\n\nNous avons le plaisir de confirmer votre inscription à la formation 'Techniques de Management Moderne' qui se déroulera du 15 au 17 mars 2024 dans nos locaux parisiens. Votre dossier complet a bien été réceptionné et validé. Le paiement de 890€ a été enregistré sous la référence PAY-2024-0315. Vous recevrez prochainement par courrier votre convocation officielle ainsi que le programme détaillé. Nous vous prions de vous présenter à 8h30 le premier jour pour l'accueil et la remise des supports de cours. Pour toute question, contactez notre service formation au 01 44 55 66 77. Dans l'attente de vous accueillir, nous vous prions d'agréer nos salutations distinguées.\n\nLe Service des Formations",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Proposer une nouvelle formation",
+            "B": "Confirmer une inscription",
+            "C": "Demander un remboursement",
+            "D": "Annuler un rendez-vous"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 24,
+          "text": "Objet : Demande de congés annuels - Juillet 2024\n\nMadame la Directrice,\n\nPar la présente, je vous soumets ma demande de congés payés pour la période du 8 au 26 juillet 2024 inclus, soit 15 jours ouvrables. Ce congé me permettra de retrouver ma famille résidant à l'étranger et de célébrer un événement familial important. J'ai veillé à choisir une période où mon absence n'impactera pas les projets en cours, la livraison du projet Alpha étant prévue pour fin juin. Pendant mon absence, Madame Dubois sera en mesure de gérer les urgences relatives à mon service. Je vous remercie de bien vouloir accéder favorablement à ma demande et vous prie d'agréer mes respectueuses salutations.\n\nSophie Martin\nChef de projet Marketing",
+          "question": "Pourquoi Sophie Martin demande-t-elle des congés ?",
+          "options": {
+            "A": "Pour raisons de santé",
+            "B": "Pour un événement familial",
+            "C": "Pour suivre une formation",
+            "D": "Pour déménager"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 25,
+          "text": "Objet : Réclamation concernant la livraison n°45892\n\nMadame, Monsieur,\n\nJe me permets de vous contacter au sujet de la commande passée le 12 février dernier sous la référence 45892. Malgré la confirmation de livraison prévue pour le 20 février, je n'ai à ce jour rien reçu. Le suivi en ligne indique que le colis est bloqué dans votre entrepôt depuis le 18 février sans explication. Cette situation me cause un préjudice considérable car ces articles étaient destinés à un événement professionnel imminent. Je vous demande donc de procéder à une investigation immédiate et de m'expédier ma commande en express dans les 48 heures. À défaut, je me verrai dans l'obligation d'annuler ma commande et de demander un remboursement intégral avec indemnisation. Dans l'attente de votre réponse rapide, je vous prie d'agréer mes salutations.",
+          "question": "Quel est le ton de ce message ?",
+          "options": {
+            "A": "Enthousiaste",
+            "B": "Inquiet et exigeant",
+            "C": "Indifférent",
+            "D": "Triste"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "Objet : Invitation séminaire annuel - Entreprise Innovatech\n\nChers collaborateurs,\n\nC'est avec grand plaisir que nous vous convions au séminaire annuel de notre entreprise qui se tiendra les 14 et 15 septembre prochains au Château de Versailles. Cette édition 2024 sera consacrée à la stratégie de développement durable et aux innovations technologiques. Au programme : conférences, ateliers pratiques et dîner de gala. La participation est obligatoire pour tous les cadres et fortement recommandée pour l'ensemble du personnel. Les frais de déplacement et d'hébergement sont pris en charge par l'entreprise. Merci de confirmer votre présence avant le 31 août auprès du service RH. Nous comptons sur votre participation pour faire de cet événement un succès collectif.\n\nLa Direction des Ressources Humaines",
+          "question": "Qui doit obligatoirement participer à ce séminaire ?",
+          "options": {
+            "A": "Tous les employés sans exception",
+            "B": "Uniquement les stagiaires",
+            "C": "Les cadres de l'entreprise",
+            "D": "Seulement les nouveaux employés"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 27,
+          "text": "Objet : Modification des horaires d'ouverture - Bibliothèque municipale\n\nMadame, Monsieur,\n\nNous vous informons qu'à compter du 1er avril 2024, les horaires d'ouverture de la bibliothèque centrale seront modifiés pour mieux répondre aux attentes de nos usagers. La bibliothèque sera désormais ouverte du mardi au samedi de 10h à 19h, et fermée les dimanches et lundis. Ces nouveaux horaires permettront d'assurer un service de qualité tout en optimisant nos ressources humaines. Le service de prêt numérique reste accessible 24h/24. Nous vous prions de bien vouloir prendre note de ces changements et nous vous remercions de votre compréhension. Pour toute information complémentaire, n'hésitez pas à contacter notre accueil au 04 91 00 00 00 ou par email.",
+          "question": "Quel jour la bibliothèque sera-t-elle fermée selon les nouveaux horaires ?",
+          "options": {
+            "A": "Le samedi",
+            "B": "Le mardi",
+            "C": "Le lundi",
+            "D": "Le jeudi"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 28,
+          "text": "Objet : Offre d'emploi - Développeur Web Senior\n\nNous recherchons pour notre agence digitale un développeur web senior pour un contrat à durée indéterminée. Vous serez responsable de la conception et du développement d'applications web complexes pour nos clients grands comptes. Profil recherché : minimum 5 ans d'expérience, maîtrise de JavaScript, React et Node.js, anglais courant exigé. Rémunération : 45 000€ à 55 000€ brut annuel selon expérience, tickets restaurant, mutuelle d'entreprise et télétravail partiel possible. Envoyez votre CV et lettre de motivation à recrutement@agencedigitale.fr avant le 30 mars 2024. Seuls les candidats présélectionnés seront contactés pour un entretien.",
+          "question": "Quelle compétence linguistique est exigée pour ce poste ?",
+          "options": {
+            "A": "L'espagnol courant",
+            "B": "L'allemand technique",
+            "C": "L'anglais courant",
+            "D": "Le chinois commercial"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 29,
+          "text": "Objet : Avis d'échéance - Contrat d'assurance habitation N°AH-2024-8891\n\nMonsieur Bernard Lefranc,\n\nNous vous informons que votre prime d'assurance habitation pour la période du 1er avril 2024 au 31 mars 2025 s'élève à 684€, payable en une fois ou en trois mensualités de 228€. Le premier prélèvement est prévu le 5 avril 2024 sur votre compte bancaire ending par 4521. Cette prime inclut la garantie responsabilité civile vie privée, les dommages aux biens immobiliers et mobiliers, ainsi que l'assistance 24h/24 en cas de sinistre. En l'absence de paiement dans les 30 jours suivant l'échéance, votre contrat pourrait être résilié. Pour toute modification de vos garanties ou mode de paiement, contactez votre conseiller au 0 800 123 456. Nous vous remercions de votre confiance.",
+          "question": "Quel montant total est dû pour l'année d'assurance ?",
+          "options": {
+            "A": "228 euros",
+            "B": "342 euros",
+            "C": "684 euros",
+            "D": "912 euros"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 30,
+          "text": "Objet : Compte-rendu de réunion - Projet Green Office\n\nParticipants : M. Dubois (Directeur), Mme Leroy (Responsable RH), M. Petit (Responsable Technique)\nDate : 15 février 2024\n\nLa réunion a porté sur la mise en place du projet d'aménagement écologique de nos nouveaux bureaux. M. Petit a présenté les devis pour l'installation de panneaux solaires (budget estimé : 45 000€) et la récupération d'eau de pluie. Mme Leroy a souligné l'importance de communiquer sur cette démarche auprès des salariés et des clients. M. Dubois a validé le principe général mais demandé une étude complémentaire sur le retour sur investissement avant validation définitive. Prochaine réunion fixée au 1er mars pour examen des chiffres. M. Petit est chargé de contacter trois fournisseurs supplémentaires pour comparer les offres.",
+          "question": "Quelle décision a prise le directeur concernant le projet ?",
+          "options": {
+            "A": "Il a refusé le projet immédiatement",
+            "B": "Il a validé définitivement tous les investissements",
+            "C": "Il a demandé une étude complémentaire avant de décider",
+            "D": "Il a reporté le projet à l'année suivante"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 31,
+          "text": "Objet : Rappel important - Politique de confidentialité des données\n\nChers collègues,\n\nConformément au nouveau règlement sur la protection des données personnelles entrant en vigueur le 1er mai 2024, nous vous rappelons quelques règles essentielles. Toute information concernant nos clients (noms, adresses, coordonnées bancaires) doit être traitée avec la plus grande confidentialité. Il est strictement interdit de stocker ces données sur des supports personnels (clés USB, ordinateurs personnels) ou de les transmettre via des messageries non sécurisées. Chaque accès aux fichiers clients doit être justifié et enregistré. Des audits de sécurité seront réalisés mensuellement. Le non-respect de ces règles expose l'entreprise à des sanctions financières lourdes et peut entraîner des mesures disciplinaires. Merci de votre vigilance et de votre rigueur dans l'application de ces consignes.",
+          "question": "Quel risque mentionne le texte en cas de non-respect des règles ?",
+          "options": {
+            "A": "Une augmentation de salaire",
+            "B": "Des sanctions financières",
+            "C": "Une promotion annulée",
+            "D": "Un congé forcé"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "Objet : Félicitations pour votre promotion\n\nChère Madame Martin,\n\nC'est avec une grande satisfaction que nous vous annonçons votre promotion au poste de Directrice Commerciale Europe, effective dès le 1er avril prochain. Cette nomination récompense vos 8 années d'engagement au sein de notre entreprise, ainsi que les résultats exceptionnels que vous avez obtenus avec votre équipe cette année (+35% de croissance sur votre secteur). Vos qualités de leadership, votre vision stratégique et votre capacité à fédérer vos collaborateurs ont convaincu la direction générale de vous confier ces nouvelles responsabilités. Vous encadrerez désormais une équipe de 25 personnes réparties sur 5 pays. Nous sommes convaincus que vous saurez relever les défis de ce poste avec le même succès. Toutes nos félicitations pour cette reconnaissance méritée.\n\nCordialement,\nLe Comité de Direction",
+          "question": "Quel est le but principal de ce message ?",
+          "options": {
+            "A": "Annoncer une promotion",
+            "B": "Demander une augmentation",
+            "C": "Présenter une démission",
+            "D": "Critiquer des résultats"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "LA RÉVOLUTION DES VILLES SANS VOITURE\n\nDe plus en plus de métropoles européennes osent l'expérience de la piétonisation massive. Barcelone a transformé 21 rues en superilles où les voitures sont interdites, créant des espaces de vie apaisés où les enfants peuvent jouer librement. À Paris, la fermeture des berges de Seine aux véhicules a suscité des débats passionnés mais a également révélé une demande citoyenne forte pour plus d'espaces verts. Ces transformations ne se font pas sans heurts : commerçants inquiets pour leur chiffre d'affaires et habitants des banlieues dépendants de l'automobile expriment leur désaccord. Pourtant, les études montrent une amélioration notable de la qualité de l'air et une augmentation du commerce de proximité dans ces zones. L'expert en urbanisme Jean Moreau estime que 'nous assistons à un changement de paradigme irréversible où la voiture n'est plus le maître de l'espace urbain'.",
+          "question": "Quelle est la position de l'auteur concernant la piétonisation ?",
+          "options": {
+            "A": "Il la rejette totalement",
+            "B": "Il la présente comme une tendance positive malgré les controverses",
+            "C": "Il reste neutre et objectif sans prendre position",
+            "D": "Il la considère comme un échec économique"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 34,
+          "text": "LA RÉVOLUTION DES VILLES SANS VOITURE\n\nDe plus en plus de métropoles européennes osent l'expérience de la piétonisation massive. Barcelone a transformé 21 rues en superilles où les voitures sont interdites, créant des espaces de vie apaisés où les enfants peuvent jouer librement. À Paris, la fermeture des berges de Seine aux véhicules a suscité des débats passionnés mais a également révélé une demande citoyenne forte pour plus d'espaces verts. Ces transformations ne se font pas sans heurts : commerçants inquiets pour leur chiffre d'affaires et habitants des banlieues dépendants de l'automobile expriment leur désaccord. Pourtant, les études montrent une amélioration notable de la qualité de l'air et une augmentation du commerce de proximité dans ces zones. L'expert en urbanisme Jean Moreau estime que 'nous assistons à un changement de paradigme irréversible où la voiture n'est plus le maître de l'espace urbain'.",
+          "question": "Selon l'expert cité, quel changement observe-t-on ?",
+          "options": {
+            "A": "Un retour en arrière vers plus de voitures en ville",
+            "B": "Une transformation définitive de la place de l'automobile",
+            "C": "Une augmentation des accidents de la route",
+            "D": "Une diminution des espaces verts urbains"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "LE TÉLÉTRAVAIL : UNE RÉVOLUTION EN MARCHE OU UNE MODE PASSAGÈRE ?\n\nTrois ans après le début de la pandémie, le télétravail s'est installé durablement dans le paysage professionnel français. Selon une récente étude, 28% des salariés travaillent désormais au moins un jour par semaine hors du bureau, contre seulement 5% en 2019. Cette évolution bouleverse les codes établis : les open spaces se vident, les quartiers d'affaires se désertifient aux heures de pointe, et les employés réclament davantage d'autonomie dans l'organisation de leur temps. Cependant, cette flexibilité a un prix. De nombreux managers expriment leur difficulté à maintenir la cohésion d'équipe et à évaluer objectivement la performance. Psychologues et sociologues alertent également sur l'isolement social croissant des télétravailleurs et la difficulté à déconnecter. 'Nous sommes à un tournant', analyse la sociologue Claire Dupont. 'Le modèle hybride semble s'imposer comme compromis, mais il nécessite de repenser complètement l'organisation du travail et la culture managériale.'",
+          "question": "Quel problème soulignent les psychologues concernant le télétravail ?",
+          "options": {
+            "A": "La baisse de productivité",
+            "B": "L'isolement social des travailleurs",
+            "C": "Les coûts élevés de l'informatique",
+            "D": "Les retards constants"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "LE TÉLÉTRAVAIL : UNE RÉVOLUTION EN MARCHE OU UNE MODE PASSAGÈRE ?\n\nTrois ans après le début de la pandémie, le télétravail s'est installé durablement dans le paysage professionnel français. Selon une récente étude, 28% des salariés travaillent désormais au moins un jour par semaine hors du bureau, contre seulement 5% en 2019. Cette évolution bouleverse les codes établis : les open spaces se vident, les quartiers d'affaires se désertifient aux heures de pointe, et les employés réclament davantage d'autonomie dans l'organisation de leur temps. Cependant, cette flexibilité a un prix. De nombreux managers expriment leur difficulté à maintenir la cohésion d'équipe et à évaluer objectivement la performance. Psychologues et sociologues alertent également sur l'isolement social croissant des télétravailleurs et la difficulté à déconnecter. 'Nous sommes à un tournant', analyse la sociologue Claire Dupont. 'Le modèle hybride semble s'imposer comme compromis, mais il nécessite de repenser complètement l'organisation du travail et la culture managériale.'",
+          "question": "Selon l'auteur, quel modèle semble émerger comme solution ?",
+          "options": {
+            "A": "Le retour au travail 100% présentiel",
+            "B": "Le travail entièrement à distance",
+            "C": "Le modèle hybride combinant présentiel et distanciel",
+            "D": "L'externalisation totale des équipes"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 37,
+          "text": "ALIMENTATION : LA GUERRE DES ÉTIQUETTES NUTRITIONNELLES\n\nLe débat fait rage dans les allées des supermarchés et au sein du Parlement européen. Doit-on imposer un étiquetage nutritionnel simplifié pour guider les consommateurs vers des choix plus sains ? Le système Nutri-Score, adopté par la France et plusieurs pays voisins, attribue une note de A à E aux produits alimentaires selon leur qualité nutritionnelle. Ses défenseurs louent sa simplicité et son efficacité pour décrypter les étiquettes complexes. Ses détracteurs, notamment dans l'industrie agroalimentaire, dénoncent une approche trop simpliste qui stigmatiserait certains produits traditionnels comme l'huile d'olive ou le fromage. 'On ne peut pas réduire la qualité d'un aliment à un algorithme', proteste le président d'une fédération d'industriels. Pourtant, les consommateurs semblent séduits : 85% des Français se disent favorables à un étiquetage clair. L'enjeu est de taille alors que les maladies liées à l'alimentation coûtent chaque année des milliards à la sécurité sociale.",
+          "question": "Quel argument avancent les opposants au Nutri-Score ?",
+          "options": {
+            "A": "Il est trop cher à mettre en place",
+            "B": "Il est trop simpliste et injuste pour certains produits",
+            "C": "Il encourage la consommation de sucre",
+            "D": "Il est illisible pour les personnes âgées"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 38,
+          "text": "ALIMENTATION : LA GUERRE DES ÉTIQUETTES NUTRITIONNELLES\n\nLe débat fait rage dans les allées des supermarchés et au sein du Parlement européen. Doit-on imposer un étiquetage nutritionnel simplifié pour guider les consommateurs vers des choix plus sains ? Le système Nutri-Score, adopté par la France et plusieurs pays voisins, attribue une note de A à E aux produits alimentaires selon leur qualité nutritionnelle. Ses défenseurs louent sa simplicité et son efficacité pour décrypter les étiquettes complexes. Ses détracteurs, notamment dans l'industrie agroalimentaire, dénoncent une approche trop simpliste qui stigmatiserait certains produits traditionnels comme l'huile d'olive ou le fromage. 'On ne peut pas réduire la qualité d'un aliment à un algorithme', proteste le président d'une fédération d'industriels. Pourtant, les consommateurs semblent séduits : 85% des Français se disent favorables à un étiquetage clair. L'enjeu est de taille alors que les maladies liées à l'alimentation coûtent chaque année des milliards à la sécurité sociale.",
+          "question": "Quel pourcentage de Français soutient un étiquetage clair ?",
+          "options": {
+            "A": "28%",
+            "B": "50%",
+            "C": "85%",
+            "D": "95%"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 39,
+          "text": "L'ÉDUCATION FACE AU DÉFI DU NUMÉRIQUE\n\nLes tablettes et ordinateurs envahissent les salles de classe, mais le bilan de la digitalisation de l'école reste mitigé. Le plan 'École numérique' lancé il y a cinq ans visait à équiper chaque élève d'un outil connecté et à former les enseignants aux nouvelles technologies. Si l'équipement matériel progresse, l'utilisation pédagogique peine à suivre. 'On a mis des écrans dans les classes sans toujours savoir quoi en faire', reconnaît un inspecteur d'académie. Des études montrent que l'usage excessif des outils numériques peut nuire à la concentration et à la mémorisation des élèves. Pourtant, certains enseignants réussissent des prouesses pédagogiques grâce aux serious games et aux plateformes collaboratives. Le défi est désormais de former les professeurs à une utilisation raisonnée et critique de ces outils, plutôt que de les laisser improviser. 'Le numérique n'est ni bon ni mauvais en soi, c'est l'usage qu'on en fait qui compte', résume la ministre de l'Éducation.",
+          "question": "Quel est l'avis de la ministre de l'Éducation sur le numérique à l'école ?",
+          "options": {
+            "A": "Il faut interdire tous les écrans",
+            "B": "L'important est l'usage qu'on en fait",
+            "C": "Le numérique est toujours bénéfique",
+            "D": "Les enseignants ne devraient pas l'utiliser"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "L'ÉDUCATION FACE AU DÉFI DU NUMÉRIQUE\n\nLes tablettes et ordinateurs envahissent les salles de classe, mais le bilan de la digitalisation de l'école reste mitigé. Le plan 'École numérique' lancé il y a cinq ans visait à équiper chaque élève d'un outil connecté et à former les enseignants aux nouvelles technologies. Si l'équipement matériel progresse, l'utilisation pédagogique peine à suivre. 'On a mis des écrans dans les classes sans toujours savoir quoi en faire', reconnaît un inspecteur d'académie. Des études montrent que l'usage excessif des outils numériques peut nuire à la concentration et à la mémorisation des élèves. Pourtant, certains enseignants réussissent des prouesses pédagogiques grâce aux serious games et aux plateformes collaboratives. Le défi est désormais de former les professeurs à une utilisation raisonnée et critique de ces outils, plutôt que de les laisser improviser. 'Le numérique n'est ni bon ni mauvais en soi, c'est l'usage qu'on en fait qui compte', résume la ministre de l'Éducation.",
+          "question": "Quel problème identifie l'inspecteur d'académie ?",
+          "options": {
+            "A": "Le manque d'équipement informatique",
+            "B": "L'absence de formation des élèves",
+            "C": "L'installation d'écrans sans stratégie pédagogique claire",
+            "D": "La fermeture des bibliothèques scolaires"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

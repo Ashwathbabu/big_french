@@ -1,0 +1,1872 @@
+﻿[
+  {
+    "id": 1,
+    "section": "A",
+    "theme": "Daily activities",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne boit du café", "image_prompt": "A person holding a steaming coffee cup in a cozy kitchen, morning light" },
+      { "id": "B", "text": "Une personne lit le journal", "image_prompt": "A person reading a newspaper at a breakfast table" },
+      { "id": "C", "text": "Une personne prépare des toasts", "image_prompt": "A person spreading butter on toast in a modern kitchen" },
+      { "id": "D", "text": "Une personne regarde la télévision", "image_prompt": "A person watching TV on a couch with remote control" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Chaque matin, je commence ma journée avec une bonne tasse de café bien fort. C'est mon rituel préféré.",
+    "transcript_en": "Every morning, I start my day with a good cup of strong coffee. It's my favorite ritual.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chaque matin, je commence ma journée avec une bonne tasse de café bien fort.", "C'est vraiment essentiel pour bien démarrer la journée."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "A",
+    "theme": "Transportation",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un autobus bondé", "image_prompt": "A crowded city bus with passengers standing and holding straps" },
+      { "id": "B", "text": "Une station de métro", "image_prompt": "A subway station platform with train arriving" },
+      { "id": "C", "text": "Un arrêt d'autobus", "image_prompt": "A bus stop sign with bench and shelter, person waiting" },
+      { "id": "D", "text": "Un taxi en mouvement", "image_prompt": "A yellow taxi driving through city streets" }
+    ],
+    "correct": 2,
+    "transcript_fr": "J'attends toujours mon autobus à cet arrêt depuis dix ans. C'est devenu une habitude.",
+    "transcript_en": "I've been waiting for my bus at this stop for ten years. It's become a habit.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["J'attends toujours mon autobus à cet arrêt depuis dix ans.", "C'est vraiment pratique pour aller au travail."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "A",
+    "theme": "Shopping",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un panier d'épicerie plein", "image_prompt": "A full grocery basket with vegetables, bread and milk" },
+      { "id": "B", "text": "Une caisse de supermarché", "image_prompt": "A supermarket checkout counter with cashier scanning items" },
+      { "id": "C", "text": "Des fruits et légumes frais", "image_prompt": "Fresh colorful fruits and vegetables displayed on market stalls" },
+      { "id": "D", "text": "Un caddie de courses", "image_prompt": "A shopping cart filled with various products in a supermarket aisle" }
+    ],
+    "correct": 2,
+    "transcript_fr": "J'adore choisir mes fruits et légumes frais au marché le samedi matin. C'est tellement meilleur que le supermarché.",
+    "transcript_en": "I love choosing my fresh fruits and vegetables at the market on Saturday morning. It's so much better than the supermarket.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["J'adore choisir mes fruits et légumes frais au marché le samedi matin.", "Les produits locaux sont vraiment de meilleure qualité."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "section": "A",
+    "theme": "Weather",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un parapluie sous la pluie", "image_prompt": "A person holding an umbrella in heavy rain on a city street" },
+      { "id": "B", "text": "Un soleil brillant", "image_prompt": "Bright sun shining in a clear blue sky" },
+      { "id": "C", "text": "De la neige qui tombe", "image_prompt": "Snow falling on a winter street with snow-covered trees" },
+      { "id": "D", "text": "Un ciel nuageux", "image_prompt": "A cloudy grey sky over a cityscape" }
+    ],
+    "correct": 0,
+    "transcript_fr": "N'oublie pas ton parapluie, il pleut des cordes dehors! Tu vas être trempé sinon.",
+    "transcript_en": "Don't forget your umbrella, it's pouring rain outside! You'll be soaked otherwise.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["N'oublie pas ton parapluie, il pleut des cordes dehors!", "Tu vas être complètement trempé sinon."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "A",
+    "theme": "Work",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un bureau avec ordinateur", "image_prompt": "A modern office desk with computer, keyboard and coffee mug" },
+      { "id": "B", "text": "Une imprimante qui fonctionne", "image_prompt": "An office printer printing documents with paper coming out" },
+      { "id": "C", "text": "Une pile de documents", "image_prompt": "A tall stack of papers and files on a desk" },
+      { "id": "D", "text": "Une réunion d'équipe", "image_prompt": "A business meeting with people sitting around a conference table" }
+    ],
+    "correct": 1,
+    "transcript_fr": "L'imprimante fait encore des siennes, elle ne veut pas imprimer mon rapport. C'est frustrant!",
+    "transcript_en": "The printer is acting up again, it won't print my report. It's frustrating!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'imprimante fait encore des siennes, elle ne veut pas imprimer mon rapport.", "Je vais devoir appeler le service technique encore une fois."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "section": "A",
+    "theme": "Leisure",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Un livre ouvert", "image_prompt": "An open book on a wooden table with reading glasses beside it" },
+      { "id": "B", "text": "Des écouteurs de musique", "image_prompt": "White wireless earbuds on a charging case" },
+      { "id": "C", "text": "Un appareil photo", "image_prompt": "A digital camera with lens on a table" },
+      { "id": "D", "text": "Une guitare acoustique", "image_prompt": "An acoustic guitar leaning against a wall" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Je joue de la guitare tous les soirs pour me détendre après le travail. Ça me calme beaucoup.",
+    "transcript_en": "I play guitar every evening to relax after work. It calms me down a lot.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je joue de la guitare tous les soirs pour me détendre après le travail.", "C'est ma façon préférée de relaxer."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "section": "B",
+    "theme": "Restaurant",
+    "question": "Où se déroule cette conversation ?",
+    "options": [
+      { "id": "A", "text": "Dans une bibliothèque", "text_en": "In a library" },
+      { "id": "B", "text": "Dans un restaurant", "text_en": "In a restaurant" },
+      { "id": "C", "text": "Dans un magasin de vêtements", "text_en": "In a clothing store" },
+      { "id": "D", "text": "Dans une banque", "text_en": "In a bank" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Bonjour, vous avez réservé? Oui, au nom de Tremblay. Très bien, suivez-moi. Voici la carte, votre serveur arrive tout de suite.",
+    "transcript_en": "Hello, do you have a reservation? Yes, under the name Tremblay. Very well, follow me. Here's the menu, your server will be right with you.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, vous avez réservé?", "Voici la carte, votre serveur arrive tout de suite."],
+        "female_lines": ["Oui, au nom de Tremblay.", "Merci beaucoup, c'est parfait."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["La table près de la fenêtre vous convient?", "Excellent choix, c'est notre meilleure table."],
+        "female_lines": ["Oui, c'est parfait avec cette vue.", "Nous adorons la lumière naturelle."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Puis-je vous offrir quelque chose à boire?", "Nous avons une excellente sélection de vins québécois."],
+        "female_lines": ["Je vais prendre un verre de vin blanc.", "Quelle est votre spécialité maison?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Le serveur sera là dans deux minutes.", "Profitez bien de votre repas."],
+        "female_lines": ["Merci pour votre accueil chaleureux.", "Nous avons hâte de découvrir votre cuisine."]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "section": "B",
+    "theme": "Doctor",
+    "question": "De quoi parle le patient ?",
+    "options": [
+      { "id": "A", "text": "D'une fracture", "text_en": "About a fracture" },
+      { "id": "B", "text": "D'un mal de tête", "text_en": "About a headache" },
+      { "id": "C", "text": "D'une toux persistante", "text_en": "About a persistent cough" },
+      { "id": "D", "text": "D'une allergie alimentaire", "text_en": "About a food allergy" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Docteur, je tousse depuis trois semaines et ça empire la nuit. J'ai aussi de la fièvre depuis hier. D'accord, respirez profondément.",
+    "transcript_en": "Doctor, I've been coughing for three weeks and it gets worse at night. I also have a fever since yesterday. Okay, breathe deeply.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Docteur, je tousse depuis trois semaines.", "J'ai aussi de la fièvre depuis hier."],
+        "female_lines": ["D'accord, asseyez-vous.", "Depuis combien de temps avez-vous ces symptômes?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Ça empire surtout la nuit.", "Je n'arrive pas à dormir correctement."],
+        "female_lines": ["Respirez profondément s'il vous plaît.", "Avez-vous des douleurs à la poitrine?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Un peu quand je tousse fort.", "J'ai aussi les nerfs à vif.", "Je prends des sirops mais rien ne marche."],
+        "female_lines": ["Je vais vous ausculter.", "Vous avez pris des médicaments?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Oui, mais sans succès.", "Je commence à m'inquiéter.", "Merci docteur pour votre aide."],
+        "female_lines": ["C'est probablement une bronchite.", "Je vais vous prescrire des antibiotiques."]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "section": "B",
+    "theme": "Bank",
+    "question": "Que veut faire le client ?",
+    "options": [
+      { "id": "A", "text": "Ouvrir un compte épargne", "text_en": "Open a savings account" },
+      { "id": "B", "text": "Faire un virement international", "text_en": "Make an international transfer" },
+      { "id": "C", "text": "Demander un prêt hypothécaire", "text_en": "Apply for a mortgage" },
+      { "id": "D", "text": "Remplacer sa carte perdue", "text_en": "Replace his lost card" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Bonjour, j'ai perdu ma carte de débit hier soir. Je dois la faire remplacer rapidement. Bien sûr, je vais bloquer l'ancienne immédiatement.",
+    "transcript_en": "Hello, I lost my debit card last night. I need to replace it quickly. Of course, I'll block the old one immediately.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, j'ai perdu ma carte de débit hier soir.", "Je suis vraiment inquiet pour la sécurité."],
+        "female_lines": ["Bonjour monsieur, je peux vous aider?", "Où pensez-vous l'avoir perdue?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Probablement dans un taxi.", "Je dois la faire remplacer rapidement.", "J'ai besoin d'accéder à mon argent."],
+        "female_lines": ["Bien sûr, je vais bloquer l'ancienne immédiatement.", "Avez-vous votre pièce d'identité?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Oui, voici ma carte d'assurance maladie.", "Et ma permis de conduire aussi.", "Combien de temps ça prend?"],
+        "female_lines": ["Parfait, je vais vérifier vos informations.", "La nouvelle carte arrivera dans 5 jours."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Puis-je retirer de l'argent sans carte?", "J'ai des factures urgentes à payer.", "Merci pour votre efficacité."],
+        "female_lines": ["Oui, avec une pièce d'identité au guichet.", "Voici un papier temporaire pour preuve."]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "section": "B",
+    "theme": "Post office",
+    "question": "Quel service le client utilise-t-il ?",
+    "options": [
+      { "id": "A", "text": "L'envoi d'un colis recommandé", "text_en": "Sending a registered package" },
+      { "id": "B", "text": "L'achat de timbres", "text_en": "Buying stamps" },
+      { "id": "C", "text": "La location d'une boîte postale", "text_en": "Renting a post office box" },
+      { "id": "D", "text": "Le changement d'adresse", "text_en": "Change of address" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Je voudrais envoyer ce colis en recommandé avec accusé de réception. C'est pour ma mère à Vancouver. Très bien, ça coûte 25 dollars.",
+    "transcript_en": "I'd like to send this package by registered mail with return receipt. It's for my mother in Vancouver. Very well, that costs 25 dollars.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je voudrais envoyer ce colis en recommandé.", "C'est très important, c'est pour ma mère."],
+        "female_lines": ["Bonjour, vous désirez?", "Où doit-il être envoyé?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["À Vancouver, en Colombie-Britannique.", "Avec accusé de réception s'il vous plaît.", "Elle doit signer à la réception."],
+        "female_lines": ["Très bien, je vais peser le colis.", "C'est un peu lourd, ça coûte 25 dollars."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["D'accord, c'est raisonnable.", "Quand arrivera-t-il?", "J'aimerais qu'elle l'ait pour son anniversaire."],
+        "female_lines": ["Environ trois jours ouvrables.", "Voulez-vous l'assurance aussi?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Oui, pour 100 dollars de valeur.", "Voici mon paiement.", "Merci beaucoup pour votre aide."],
+        "female_lines": ["Parfait, voici votre reçu.", "Gardez ce numéro de suivi."]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "section": "C",
+    "theme": "Airport announcement",
+    "question": "Quelle information est donnée dans cette annonce ?",
+    "options": [
+      { "id": "A", "text": "Un retard de vol", "text_en": "A flight delay" },
+      { "id": "B", "text": "Un changement de porte d'embarquement", "text_en": "A gate change" },
+      { "id": "C", "text": "L'appel aux passagers prioritaires", "text_en": "A call for priority passengers" },
+      { "id": "D", "text": "L'annulation d'un vol", "text_en": "A flight cancellation" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Mesdames et messieurs, le vol AC 457 à destination de Toronto est déplacé à la porte 24. L'embarquement commence immédiatement. Merci.",
+    "transcript_en": "Ladies and gentlemen, flight AC 457 to Toronto is moved to gate 24. Boarding begins immediately. Thank you.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mesdames et messieurs, votre attention s'il vous plaît.", "Le vol AC 457 subit un changement de porte."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le vol à destination de Toronto est déplacé.", "La nouvelle porte est la numéro 24."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Nous demandons aux passagers de se diriger immédiatement.", "L'embarquement commence dans quelques minutes."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Nous nous excusons pour ce changement de dernière minute.", "Merci de votre compréhension et bon voyage."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Répétons: porte 24 pour le vol AC 457.", "Vérifiez bien votre carte d'embarquement."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Les passagers ayant besoin d'assistance sont priés de se présenter.", "Notre personnel vous aidera avec plaisir."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Le vol partira à l'heure prévue malgré ce changement.", "Aucun retard n'est à prévoir."],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": ["Les boutiques sont disponibles près de la nouvelle porte.", "Profitez-en pour vos derniers achats."],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": ["Merci d'avoir choisi Air Canada.", "Nous vous souhaitons un agréable vol vers Toronto."],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": ["Ceci était une annonce importante.", "Bonne journée à tous nos passagers."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "section": "C",
+    "theme": "Supermarket announcement",
+    "question": "Quel est le sujet de cette annonce ?",
+    "options": [
+      { "id": "A", "text": "Une promotion sur les produits laitiers", "text_en": "A promotion on dairy products" },
+      { "id": "B", "text": "La fermeture imminente du magasin", "text_en": "The imminent store closing" },
+      { "id": "C", "text": "Un produit en solde spécial", "text_en": "A special sale item" },
+      { "id": "D", "text": "Un avis de recherche d'un enfant perdu", "text_en": "A missing child alert" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Chers clients, aujourd'hui seulement, le poulet rôti est à moitié prix au rayon boucherie. Quantité limitée, profitez-en vite!",
+    "transcript_en": "Dear customers, today only, roasted chicken is half price at the butcher counter. Limited quantity, take advantage quickly!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers clients, nous avons une annonce spéciale.", "Une offre exceptionnelle vous attend aujourd'hui."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Au rayon boucherie, le poulet rôti est en solde.", "Il est offert à moitié prix pour aujourd'hui seulement."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est une qualité supérieure, élevé localement.", "Nos bouchers le préparent devant vous."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Attention, les quantités sont limitées.", "Premier arrivé, premier servi."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Profitez-en vite avant la fin des stocks.", "C'est une occasion en or."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Le rayon boucherie se trouve au fond du magasin.", "Notre équipe sera ravie de vous servir."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Nous avons aussi des légumes bio en promotion.", "Faites un repas complet équilibré."],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": ["Merci de votre fidélité chers clients.", "Continuez vos achats en toute tranquillité."],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": ["Le magasin ferme ses portes à 21 heures ce soir.", "Pensez à passer en caisse à temps."],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": ["Bonne journée et bon appétit à tous.", "À bientôt dans votre supermarché préféré."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "section": "C",
+    "theme": "University announcement",
+    "question": "Quelle information est communiquée aux étudiants ?",
+    "options": [
+      { "id": "A", "text": "L'annulation des cours", "text_en": "Class cancellation" },
+      { "id": "B", "text": "Le report de la date d'examen", "text_en": "Exam date postponement" },
+      { "id": "C", "text": "L'ouverture des inscriptions", "text_en": "Registration opening" },
+      { "id": "D", "text": "Le changement de salle de cours", "text_en": "Classroom change" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Attention étudiants, l'examen de français du 15 mars est reporté au 22 mars en raison de la grève des professeurs. La salle reste la même.",
+    "transcript_en": "Attention students, the French exam on March 15 is postponed to March 22 due to the teachers' strike. The room remains the same.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Attention tous les étudiants du cours de français.", "Une annonce importante concernant votre examen."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["L'examen prévu le 15 mars est reporté.", "La nouvelle date est le 22 mars prochain."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Ce changement est dû à la grève des professeurs.", "Nous nous excusons pour ce contretemps."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Bonnes nouvelles: la salle reste la même.", "C'est toujours le local 302 du pavillon central."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["L'heure de l'examen est inchangée: 9 heures.", "La durée reste de trois heures."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Vérifiez votre courriel pour plus de détails.", "Un message sera envoyé à tous les inscrits."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Les séances de révision sont maintenues cette semaine.", "Consultez l'horaire en ligne."],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": ["Pour toute question, contactez le secrétariat.", "Ils sont ouverts de 9h à 17h."],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": ["Merci de votre compréhension chers étudiants.", "Nous faisons de notre mieux dans cette situation."],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": ["Bonne préparation et bon courage pour vos révisions.", "À la semaine prochaine."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "section": "C",
+    "theme": "Train station announcement",
+    "question": "Que doit faire le voyageur selon cette annonce ?",
+    "options": [
+      { "id": "A", "text": "Changer de quai", "text_en": "Change platforms" },
+      { "id": "B", "text": "Valider son billet", "text_en": "Validate his ticket" },
+      { "id": "C", "text": "Attendre le prochain train", "text_en": "Wait for the next train" },
+      { "id": "D", "text": "Présenter sa pièce d'identité", "text_en": "Show his ID" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Le train 684 en direction de Québec partira du quai 8 au lieu du quai 5. Les voyageurs sont priés de se rendre immédiatement au bon quai.",
+    "transcript_en": "Train 684 to Quebec will depart from platform 8 instead of platform 5. Passengers are asked to proceed immediately to the correct platform.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Attention voyageurs du train 684.", "Une modification importante pour votre départ."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le train en direction de Québec change de quai.", "Il partira du quai 8 et non du quai 5."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Nous vous prions de vous rendre immédiatement au quai 8.", "Le départ est dans dix minutes."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Nous nous excusons pour ce changement imprévu.", "C'est dû à des travaux sur les voies."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Le personnel est disponible pour vous guider.", "Suivez les panneaux oranges."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Vos billets restent valables sans modification.", "Pas besoin d'échange."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Le train sera légèrement retardé de cinq minutes.", "Merci de votre patience."],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": ["Les passagers en classe affaires ont priorité.", "Présentez-vous à l'avant du quai."],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": ["Nous vous souhaitons un bon voyage vers Québec.", "Profitez du paysage magnifique."],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": ["Encore une fois, quai 8 pour le train 684.", "Merci et bonne journée."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "section": "C",
+    "theme": "Museum announcement",
+    "question": "Quel est l'objet de cette annonce ?",
+    "options": [
+      { "id": "A", "text": "La fermeture temporaire d'une exposition", "text_en": "Temporary exhibition closure" },
+      { "id": "B", "text": "L'interdiction de prendre des photos", "text_en": "Photography prohibition" },
+      { "id": "C", "text": "Une visite guidée gratuite", "text_en": "A free guided tour" },
+      { "id": "D", "text": "L'ouverture d'une nouvelle section", "text_en": "Opening of a new section" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Chers visiteurs, une visite guidée gratuite de l'exposition impressionniste commence dans dix minutes au hall principal. Inscription sur place.",
+    "transcript_en": "Dear visitors, a free guided tour of the impressionist exhibition begins in ten minutes in the main hall. Registration on site.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers visiteurs du Musée des Beaux-Arts.", "Nous avons une activité spéciale à vous proposer."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Une visite guidée gratuite commence bientôt.", "Elle porte sur notre exposition impressionniste."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le rendez-vous est dans dix minutes.", "Au hall principal, près de l'entrée."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["L'inscription se fait sur place, pas de réservation.", "Venez nombreux, places limitées."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Le guide est un expert reconnu de l'impressionnisme.", "Il parle français et anglais."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["La visite dure environ quarante-cinq minutes.", "Elle est adaptée à tous les âges."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Profitez-en pour découvrir nos chefs-d'œuvre.", "Des Monet, Renoir et Van Gogh."],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": ["La visite est incluse dans votre billet d'entrée.", "Aucun supplément à payer."],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": ["Après la visite, le café du musée vous attend.", "Des snacks et boissons disponibles."],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": ["Merci de votre visite et bonne découverte.", "Profitez pleinement de votre journée."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "section": "C",
+    "theme": "Weather alert",
+    "question": "Quel avertissement est donné dans cette annonce ?",
+    "options": [
+      { "id": "A", "text": "Une tempête de neige", "text_en": "A snowstorm" },
+      { "id": "B", "text": "Une canicule", "text_en": "A heatwave" },
+      { "id": "C", "text": "Des pluies torrentielles", "text_en": "Torrential rains" },
+      { "id": "D", "text": "Un verglas", "text_en": "Black ice" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Alerte météo: une tempête de neige majeure s'en vient ce soir. Accumulation prévue de 30 cm. Évitez les déplacements non essentiels.",
+    "transcript_en": "Weather alert: a major snowstorm is coming tonight. Expected accumulation of 30 cm. Avoid non-essential travel.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Ceci est une alerte météo d'Environnement Canada.", "Une tempête majeure s'approche de notre région."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Une tempête de neige importante est prévue ce soir.", "Elle commencera vers 18 heures."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["L'accumulation pourrait atteindre trente centimètres.", "Des rafales de vent jusqu'à soixante km/h."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Nous demandons d'éviter les déplacements non essentiels.", "Restez chez vous si possible."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Si vous devez sortir, équipez-vous de pneus d'hiver.", "Prévoyez une trousse d'urgence."],
+        "female_lines": []
+      },
+      {
+        "point": 6,
+        "male_lines": ["Les écoles pourraient fermer demain matin.", "Vérifiez les annonces locales."],
+        "female_lines": []
+      },
+      {
+        "point": 7,
+        "male_lines": ["Les transports en commun subiront des retards.", "Prévoyez du temps supplémentaire."],
+        "female_lines": []
+      },
+      {
+        "point": 8,
+        "male_lines": ["En cas d'urgence, composez le 911.", "Restez calme et à l'abri."],
+        "female_lines": []
+      },
+      {
+        "point": 9,
+        "male_lines": ["La tempête devrait se calmer demain après-midi.", "Nous vous tiendrons informés."],
+        "female_lines": []
+      },
+      {
+        "point": 10,
+        "male_lines": ["Prenez soin de vous et de vos proches.", "Bonne soirée malgré la tempête."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "section": "D",
+    "theme": "Job interview",
+    "question": "Quelle est l'intention du recruteur ?",
+    "options": [
+      { "id": "A", "text": "Refuser la candidature", "text_en": "To reject the application" },
+      { "id": "B", "text": "Proposer un autre poste", "text_en": "To offer another position" },
+      { "id": "C", "text": "Demander des références", "text_en": "To ask for references" },
+      { "id": "D", "text": "Inviter à un second entretien", "text_en": "To invite to a second interview" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Votre profil nous intéresse beaucoup. Pourriez-vous revenir la semaine prochaine pour rencontrer l'équipe? Disons mardi à 14h?",
+    "transcript_en": "Your profile interests us very much. Could you come back next week to meet the team? Let's say Tuesday at 2pm?",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Merci d'être venu aujourd'hui.", "Votre profil nous intéresse beaucoup."],
+        "female_lines": ["Je vous remercie de me recevoir.", "J'ai beaucoup aimé discuter avec vous."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Votre expérience correspond à nos besoins.", "Nous aimerions aller plus loin.", "Pourriez-vous revenir la semaine prochaine?"],
+        "female_lines": ["Avec plaisir, quand cela vous arrange?", "Je suis disponible la semaine prochaine."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Disons mardi à quatorze heures.", "Vous rencontrerez l'équipe technique.", "C'est important pour nous."],
+        "female_lines": ["Mardi à quatorze heures, c'est parfait.", "J'ai hâte de les rencontrer."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Apportez vos références si possible.", "Nous vous contacterons pour confirmer.", "Bonne journée à vous."],
+        "female_lines": ["Je les préparerai d'ici là.", "Merci encore pour cette opportunité."]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "section": "D",
+    "theme": "Neighbor complaint",
+    "question": "Quel est l'objectif de la femme ?",
+    "options": [
+      { "id": "A", "text": "Demander le silence", "text_en": "To ask for quiet" },
+      { "id": "B", "text": "Inviter à une fête", "text_en": "To invite to a party" },
+      { "id": "C", "text": "Emprunter quelque chose", "text_en": "To borrow something" },
+      { "id": "D", "text": "Proposer un service", "text_en": "To offer a service" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Excusez-moi, c'est un peu fort votre musique. Mon bébé vient de s'endormir. Pourriez-vous baisser un peu? Merci beaucoup.",
+    "transcript_en": "Excuse me, your music is a bit loud. My baby just fell asleep. Could you turn it down a bit? Thank you very much.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Excusez-moi de vous déranger.", "Je voulais vous parler de quelque chose."],
+        "female_lines": ["Oui, qu'est-ce qu'il y a?", "Tout va bien?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est au sujet de la musique.", "Elle est un peu forte ce soir.", "Mon bébé vient de s'endormir."],
+        "female_lines": ["Oh, je suis désolée!", "Je ne pensais pas que c'était si fort."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Pourriez-vous baisser un peu?", "Juste le temps qu'il dorme profondément.", "Ce serait vraiment gentil."],
+        "female_lines": ["Bien sûr, pas de problème.", "Je vais baisser tout de suite."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Merci beaucoup pour votre compréhension.", "Bonne soirée à vous.", "Désolée encore du dérangement."],
+        "female_lines": ["Aucun souci, bonne nuit!", "Dormez bien."]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "section": "D",
+    "theme": "Return item",
+    "question": "Que veut faire le client ?",
+    "options": [
+      { "id": "A", "text": "Échanger un article défectueux", "text_en": "To exchange a defective item" },
+      { "id": "B", "text": "Obtenir un remboursement", "text_en": "To get a refund" },
+      { "id": "C", "text": "Acheter un article en solde", "text_en": "To buy a sale item" },
+      { "id": "D", "text": "Prendre un rendez-vous", "text_en": "To make an appointment" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Bonjour, ce pull ne me va pas, il est trop grand. J'aimerais le retourner et récupérer mon argent. J'ai le reçu.",
+    "transcript_en": "Hello, this sweater doesn't fit me, it's too big. I'd like to return it and get my money back. I have the receipt.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, je voudrais retourner cet article.", "Il ne me convient pas du tout."],
+        "female_lines": ["Bonjour, qu'est-ce qui ne va pas?", "Vous avez le reçu?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le pull est trop grand pour moi.", "Je l'ai essayé chez moi mais ça ne va pas.", "J'aimerais récupérer mon argent."],
+        "female_lines": ["Je vois, vous l'avez acheté quand?", "Vous voulez un remboursement?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Oui, il y a trois jours seulement.", "Voici le reçu.", "Je préfère le remboursement."],
+        "female_lines": ["C'est dans les délais, pas de problème.", "Vous avez payé comment?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Par carte de crédit.", "Merci beaucoup pour votre aide.", "Bonne journée."],
+        "female_lines": ["Je vais procéder au remboursement.", "Voici votre confirmation."]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "section": "D",
+    "theme": "Invitation",
+    "question": "Quelle est l'intention de l'homme ?",
+    "options": [
+      { "id": "A", "text": "Décliner une invitation", "text_en": "To decline an invitation" },
+      { "id": "B", "text": "Proposer une sortie au cinéma", "text_en": "To suggest a movie outing" },
+      { "id": "C", "text": "Demander des conseils", "text_en": "To ask for advice" },
+      { "id": "D", "text": "Confirmer sa présence", "text_en": "To confirm attendance" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Ça te dit d'aller voir le nouveau film de Villeneuve ce weekend? J'ai entendu dire que c'était excellent. On pourrait aller samedi soir.",
+    "transcript_en": "Would you like to go see Villeneuve's new movie this weekend? I heard it was excellent. We could go Saturday night.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Salut! Tu as des plans ce weekend?", "Je pensais à quelque chose.", "Ça te dit d'aller au cinéma?"],
+        "female_lines": ["Pas de plans spéciaux.", "Qu'est-ce que tu proposes?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le nouveau film de Villeneuve.", "J'ai entendu dire que c'était excellent.", "Les critiques sont très bonnes."],
+        "female_lines": ["Ah oui, je voulais le voir!", "C'est quel genre?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est un film de science-fiction.", "On pourrait aller samedi soir.", "Il passe à 20 heures au centre-ville."],
+        "female_lines": ["Samedi soir me va parfaitement.", "J'ai hâte de le voir."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Super, je réserve les billets.", "On se retrouve devant le cinéma.", "À samedi alors!"],
+        "female_lines": ["Parfait, merci pour l'invitation.", "À samedi!"]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "section": "D",
+    "theme": "Asking for help",
+    "question": "Que demande la femme ?",
+    "options": [
+      { "id": "A", "text": "De l'aide pour déménager", "text_en": "Help with moving" },
+      { "id": "B", "text": "Un conseil pour réparer sa voiture", "text_en": "Advice to fix her car" },
+      { "id": "C", "text": "De l'argent pour payer un cours", "text_en": "Money to pay for a course" },
+      { "id": "D", "text": "Un service de garde d'enfants", "text_en": "Childcare service" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Tu serais disponible samedi pour m'aider à déménager? J'ai loué une camionnette mais c'est trop lourd pour moi seule. Je t'inviterai au resto après!",
+    "transcript_en": "Would you be available Saturday to help me move? I rented a van but it's too heavy for me alone. I'll take you to a restaurant after!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Tu as un moment ce weekend?", "J'ai besoin d'un coup de main.", "Je déménage samedi."],
+        "female_lines": ["Samedi? Je suis libre l'après-midi.", "Qu'est-ce que tu as besoin?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["J'ai loué une camionnette.", "Mais c'est trop lourd pour moi seule.", "Les meubles sont volumineux."],
+        "female_lines": ["Je comprends, tu as beaucoup de choses?", "Où est ton nouveau logement?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Juste à deux rues d'ici.", "Ça ne prendra que quelques heures.", "Je t'inviterai au resto après!"],
+        "female_lines": ["D'accord, je peux t'aider.", "Quelle heure samedi?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Vers 10 heures si ça te va.", "Merci beaucoup, tu me sauves la vie.", "À samedi alors!"],
+        "female_lines": ["Parfait, je serai là.", "Avec plaisir!"]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "section": "D",
+    "theme": "Making excuses",
+    "question": "Pourquoi l'homme appelle-t-il ?",
+    "options": [
+      { "id": "A", "text": "Pour annuler un rendez-vous", "text_en": "To cancel an appointment" },
+      { "id": "B", "text": "Pour demander des informations", "text_en": "To ask for information" },
+      { "id": "C", "text": "Pour confirmer une réservation", "text_en": "To confirm a reservation" },
+      { "id": "D", "text": "Pour se plaindre d'un service", "text_en": "To complain about a service" }
+    ],
+    "correct": 0,
+    "transcript_fr": "Je suis désolé mais je dois annuler notre rendez-vous de demain. Mon enfant est malade et je dois rester à la maison. On peut reporter à jeudi?",
+    "transcript_en": "I'm sorry but I have to cancel our appointment for tomorrow. My child is sick and I have to stay home. Can we reschedule for Thursday?",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Allô, c'est Marc.", "Je suis désolé de t'appeler.", "J'ai un contretemps."],
+        "female_lines": ["Salut Marc, qu'est-ce qui se passe?", "Tout va bien?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Mon enfant est malade.", "Je dois rester à la maison demain.", "Je dois annuler notre rendez-vous."],
+        "female_lines": ["Oh non, pauvre petit!", "C'est compréhensible, pas de souci."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je suis vraiment désolé pour ce changement.", "On peut reporter à jeudi?", "J'ai plus de disponibilité."],
+        "female_lines": ["Jeudi fonctionne pour moi.", "Vers quelle heure?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Même heure, 14 heures.", "Merci pour ta compréhension.", "À jeudi alors."],
+        "female_lines": ["Parfait, prends soin de ton enfant.", "À jeudi!"]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "section": "E",
+    "theme": "Environmental interview",
+    "question": "Quel est le sujet principal de l'interview ?",
+    "options": [
+      { "id": "A", "text": "La protection des océans", "text_en": "Ocean protection" },
+      { "id": "B", "text": "Le recyclage des déchets", "text_en": "Waste recycling" },
+      { "id": "C", "text": "L'agriculture biologique", "text_en": "Organic farming" },
+      { "id": "D", "text": "Les énergies renouvelables", "text_en": "Renewable energies" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Aujourd'hui nous recevons Mme Dubois, experte en énergies renouvelables. Madame, quelles sont les solutions pour les particuliers? Les panneaux solaires sont de plus en plus accessibles.",
+    "transcript_en": "Today we welcome Mrs. Dubois, renewable energy expert. Madam, what are the solutions for individuals? Solar panels are increasingly accessible.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour à tous et bienvenue.", "Aujourd'hui nous recevons Mme Dubois.", "Elle est experte en énergies renouvelables."],
+        "female_lines": ["Bonjour et merci de m'inviter.", "Je suis ravie d'être ici."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Madame, quelles sont les solutions pour les particuliers?", "Comment peut-on réduire sa facture d'énergie?", "Qu'est-ce qui est accessible?"],
+        "female_lines": ["Les panneaux solaires sont de plus en plus accessibles.", "Les coûts ont baissé de 70% en dix ans."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est impressionnant comme évolution.", "Et au Québec, est-ce efficace l'hiver?", "On manque de soleil parfois."],
+        "female_lines": ["Même en hiver, ça fonctionne bien.", "La technologie a beaucoup progressé."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Quels autres conseils donneriez-vous?", "Pour ceux qui ne peuvent pas installer de panneaux?", "Il y a d'autres options?"],
+        "female_lines": ["L'éolien communautaire est une excellente alternative.", "Et les contrats verts avec les fournisseurs."]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "section": "E",
+    "theme": "Health interview",
+    "question": "De quoi parle l'invité ?",
+    "options": [
+      { "id": "A", "text": "L'importance du sommeil", "text_en": "The importance of sleep" },
+      { "id": "B", "text": "Les bienfaits de la marche", "text_en": "The benefits of walking" },
+      { "id": "C", "text": "Une nouvelle méthode de méditation", "text_en": "A new meditation method" },
+      { "id": "D", "text": "Les régimes alimentaires", "text_en": "Diet plans" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Le docteur Martin nous explique pourquoi 30 minutes de marche quotidienne changent tout. C'est gratuit, accessible à tous et excellent pour le cœur. Commencez dès aujourd'hui!",
+    "transcript_en": "Dr. Martin explains why 30 minutes of daily walking changes everything. It's free, accessible to everyone and excellent for the heart. Start today!",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nous avons le plaisir d'accueillir le Dr Martin.", "Il va nous parler d'activité physique.", "Quel est votre message aujourd'hui?"],
+        "female_lines": ["Merci de m'avoir invité.", "Je veux parler de la marche."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["La marche? C'est si simple pourtant.", "Quels sont les bénéfices réels?", "Pourquoi est-ce si important?"],
+        "female_lines": ["Trente minutes de marche quotidienne changent tout.", "C'est excellent pour le cœur et le moral."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est accessible financièrement?", "Tout le monde peut le faire?", "Même les personnes âgées?"],
+        "female_lines": ["C'est gratuit et accessible à tous.", "Pas besoin d'équipement spécial."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Quel conseil donneriez-vous aux auditeurs?", "Par où commencer?", "Un message final?"],
+        "female_lines": ["Commencez dès aujourd'hui!", "Même dix minutes, c'est déjà bien."]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "section": "E",
+    "theme": "Technology interview",
+    "question": "Quelle innovation est présentée ?",
+    "options": [
+      { "id": "A", "text": "Une application de traduction", "text_en": "A translation app" },
+      { "id": "B", "text": "Un véhicule autonome", "text_en": "An autonomous vehicle" },
+      { "id": "C", "text": "Un assistant domestique intelligent", "text_en": "A smart home assistant" },
+      { "id": "D", "text": "Un système de paiement sans contact", "text_en": "A contactless payment system" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Notre invité présente son nouvel assistant domestique qui gère la température, l'éclairage et la sécurité. Il apprend vos habitudes pour anticiper vos besoins.",
+    "transcript_en": "Our guest presents his new home assistant that manages temperature, lighting and security. It learns your habits to anticipate your needs.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bienvenue dans notre émission tech.", "Notre invité a créé quelque chose d'unique.", "De quoi s'agit-il exactement?"],
+        "female_lines": ["Merci de m'accueillir.", "J'ai développé un assistant domestique intelligent."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Un assistant domestique? Qu'est-ce qu'il fait?", "Il y en a déjà beaucoup sur le marché.", "Qu'est-ce qui le rend spécial?"],
+        "female_lines": ["Il gère la température, l'éclairage et la sécurité.", "Mais surtout, il apprend vos habitudes."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Il apprend? C'est de l'intelligence artificielle?", "Comment ça fonctionne concrètement?", "Donnez-nous un exemple."],
+        "female_lines": ["Oui, de l'IA adaptative.", "Il anticipe vos besoins avant même que vous les demandiez."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["C'est impressionnant.", "Quand sera-t-il disponible?", "À quel prix?", "Où peut-on l'acheter?"],
+        "female_lines": ["Il sortira au printemps.", "Le prix sera abordable pour tous."]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "section": "E",
+    "theme": "Cultural interview",
+    "question": "Quel est le thème de la discussion ?",
+    "options": [
+      { "id": "A", "text": "L'histoire du jazz au Québec", "text_en": "The history of jazz in Quebec" },
+      { "id": "B", "text": "Un festival de musique classique", "text_en": "A classical music festival" },
+      { "id": "C", "text": "La relève de la chanson française", "text_en": "The new generation of French song" },
+      { "id": "D", "text": "L'architecture montréalaise", "text_en": "Montreal architecture" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Notre invitée, une jeune chanteuse, représente la nouvelle génération de la chanson française au Canada. Elle mélange tradition et modernité dans ses compositions.",
+    "transcript_en": "Our guest, a young singer, represents the new generation of French song in Canada. She blends tradition and modernity in her compositions.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Nous recevons aujourd'hui une artiste exceptionnelle.", "Elle représente la relève musicale.", "Parlez-nous de votre parcours."],
+        "female_lines": ["Merci beaucoup.", "Je suis chanteuse-auteure depuis cinq ans."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Vous représentez la nouvelle génération.", "Comment définissez-vous votre style?", "C'est quoi la chanson française aujourd'hui?"],
+        "female_lines": ["Je mélange tradition et modernité.", "J'écris en français avec des sonorités actuelles."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Vous êtes basée à Montréal?", "Comment est accueillie la chanson francophone ici?", "Il y a un public?"],
+        "female_lines": ["Oui, la scène est très vivante.", "Les Québécois adorent la chanson française."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Vos projets futurs?", "Un album en préparation?", "Des concerts prévus?"],
+        "female_lines": ["Mon nouvel album sort en automne.", "Je partirai en tournée après."]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "section": "F",
+    "theme": "Housing debate",
+    "question": "Quelle est l'opinion de la femme ?",
+    "options": [
+      { "id": "A", "text": "Il faut interdire les locations touristiques", "text_en": "We must ban tourist rentals" },
+      { "id": "B", "text": "Les loyers sont trop bas", "text_en": "Rents are too low" },
+      { "id": "C", "text": "Il faut construire plus de logements sociaux", "text_en": "We need to build more social housing" },
+      { "id": "D", "text": "Les jeunes devraient quitter la ville", "text_en": "Young people should leave the city" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Je pense qu'on devrait construire beaucoup plus de logements sociaux. C'est la seule solution pour les familles à faible revenu. Le marché privé ne les aide pas.",
+    "transcript_en": "I think we should build much more social housing. It's the only solution for low-income families. The private market doesn't help them.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le prix des loyers est devenu fou.", "Les jeunes ne peuvent plus se loger.", "Qu'est-ce qu'on fait?"],
+        "female_lines": ["C'est une crise majeure.", "Je pense qu'on devrait construire beaucoup plus de logements sociaux."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Des HLM? Ce n'est pas suffisant.", "Il y en a déjà, mais c'est plein.", "Ça prend des années à construire."],
+        "female_lines": ["C'est la seule solution durable.", "Pour les familles à faible revenu, c'est essentiel."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le marché privé ne pourrait pas aider?", "Avec des incitatifs fiscaux?", "Les promoteurs pourraient participer?"],
+        "female_lines": ["Le marché privé cherche le profit.", "Il ne construit pas pour les pauvres."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Tu as raison sur ce point.", "Mais qui paie pour tout ça?", "Les contribuables vont râler."],
+        "female_lines": ["C'est un investissement social.", "Moins de sans-abris, moins de coûts sociaux."]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "section": "F",
+    "theme": "Education debate",
+    "question": "Quelle solution propose l'homme ?",
+    "options": [
+      { "id": "A", "text": "Augmenter les salaires des enseignants", "text_en": "Increase teachers' salaries" },
+      { "id": "B", "text": "Réduire le nombre d'élèves par classe", "text_en": "Reduce class sizes" },
+      { "id": "C", "text": "Supprimer les devoirs à la maison", "text_en": "Eliminate homework" },
+      { "id": "D", "text": "Augmenter le nombre de jours d'école", "text_en": "Increase school days" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Il faut absolument réduire le nombre d'élèves par classe. 30 élèves, c'est trop pour un seul enseignant. Les enfants ont besoin d'attention individuelle.",
+    "transcript_en": "We absolutely must reduce the number of students per class. 30 students is too many for one teacher. Children need individual attention.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'éducation va mal.", "Les résultats baissent chaque année.", "Quelle est ta solution?"],
+        "female_lines": ["Les enseignants sont débordés.", "Ils n'ont pas assez de ressources."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Il faut absolument réduire le nombre d'élèves par classe.", "Trente élèves, c'est trop pour un seul enseignant.", "C'est de la gestion de foule."],
+        "female_lines": ["Tu proposes quoi comme effectif?", "Vingt élèves maximum?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Oui, vingt maximum.", "Les enfants ont besoin d'attention individuelle.", "On ne peut pas tout le monde suivre."],
+        "female_lines": ["Ça coûte cher comme mesure.", "Il faudrait embaucher plus de profs."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["C'est un investissement pour l'avenir.", "Mieux vaut payer maintenant que plus tard.", "La qualité avant la quantité."],
+        "female_lines": ["Je suis d'accord en principe.", "Mais le gouvernement a les moyens?"]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "section": "F",
+    "theme": "Transport debate",
+    "question": "Quel est l'avis de la femme sur les transports ?",
+    "options": [
+      { "id": "A", "text": "Il faut plus de routes", "text_en": "We need more roads" },
+      { "id": "B", "text": "Le télétravail est la solution", "text_en": "Telework is the solution" },
+      { "id": "C", "text": "Il faut développer le transport en commun", "text_en": "We need to develop public transit" },
+      { "id": "D", "text": "Les voitures électriques suffisent", "text_en": "Electric cars are enough" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Non, ce qu'il faut c'est vraiment développer le transport en commun. Des trains de banlieue fréquents et fiables. Les autoroutes ne font qu'attirer plus de voitures.",
+    "transcript_en": "No, what we really need is to develop public transit. Frequent and reliable commuter trains. Highways only attract more cars.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Les embouteillages sont infernaux.", "Il faut élargir l'autoroute.", "Ajouter des voies."],
+        "female_lines": ["Non, ce qu'il faut c'est vraiment développer le transport en commun.", "Les routes ne résolvent rien."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Mais les gens aiment leur voiture.", "C'est la liberté.", "Le transport en commun est lent."],
+        "female_lines": ["Des trains de banlieue fréquents et fiables.", "Ça changerait tout pour les banlieusards."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Ça coûte des milliards.", "Les chantiers dureront des années.", "Pendant ce temps, on souffre."],
+        "female_lines": ["Les autoroutes ne font qu'attirer plus de voitures.", "C'est un cercle vicieux."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Tu as peut-être raison.", "Mais il faut aussi des pistes cyclables.", "Une approche multiple."],
+        "female_lines": ["Oui, tout est lié.", "Moins de voitures, plus de transports collectifs."]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "section": "F",
+    "theme": "Food debate",
+    "question": "Quelle position défend l'homme ?",
+    "options": [
+      { "id": "A", "text": "Il faut manger 100% local", "text_en": "We must eat 100% local" },
+      { "id": "B", "text": "Les pesticides sont nécessaires", "text_en": "Pesticides are necessary" },
+      { "id": "C", "text": "Le bio est trop cher pour tout le monde", "text_en": "Organic is too expensive for everyone" },
+      { "id": "D", "text": "Il faut réduire la consommation de viande", "text_en": "We must reduce meat consumption" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Je suis convaincu qu'il faut réduire notre consommation de viande. Pas forcément devenir végétarien, mais manger moins et mieux. C'est meilleur pour la santé et la planète.",
+    "transcript_en": "I'm convinced we must reduce our meat consumption. Not necessarily become vegetarian, but eat less and better. It's better for health and the planet.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Notre alimentation est problématique.", "Trop de viande, trop de produits transformés.", "Qu'est-ce qu'on fait?"],
+        "female_lines": ["Le bio coûte cher.", "Tout le monde n'a pas les moyens."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Je suis convaincu qu'il faut réduire notre consommation de viande.", "Pas forcément devenir végétarien.", "Mais manger moins et mieux."],
+        "female_lines": ["Moins de viande? Les protéines sont importantes.", "Surtout pour les enfants."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["On peut trouver des protéines ailleurs.", "Légumineuses, tofu, poissons.", "C'est meilleur pour la santé et la planète."],
+        "female_lines": ["Tu as raison pour l'environnement.", "L'élevage pollue beaucoup."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Deux ou trois fois par semaine suffisent.", "De la qualité, pas de la quantité.", "C'est aussi une question d'éthique animale."],
+        "female_lines": ["Je vais y réfléchir.", "C'est un changement progressif."]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "section": "G",
+    "theme": "Immigration challenges",
+    "question": "Quel est le défi principal discuté ?",
+    "options": [
+      { "id": "A", "text": "L'apprentissage du français", "text_en": "Learning French" },
+      { "id": "B", "text": "La reconnaissance des diplômes", "text_en": "Recognition of diplomas" },
+      { "id": "C", "text": "Le logement abordable", "text_en": "Affordable housing" },
+      { "id": "D", "text": "L'isolement social", "text_en": "Social isolation" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Le plus grand obstacle reste la reconnaissance des diplômes étrangers. Les médecins, ingénieurs et avocats doivent tout recommencer. C'est un gaspillage de talents énorme pour notre société.",
+    "transcript_en": "The biggest obstacle remains the recognition of foreign diplomas. Doctors, engineers and lawyers must start over. It's a huge waste of talent for our society.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'immigration est essentielle pour le Québec.", "Mais les nouveaux arrivants font face à des obstacles.", "Quel est le plus grand défi selon toi?"],
+        "female_lines": ["Il y en a plusieurs.", "Mais le plus grand obstacle reste la reconnaissance des diplômes étrangers."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Ah oui, c'est un problème majeur.", "Les médecins étrangers deviennent chauffeurs.", "C'est absurde.", "Quelles sont les solutions?"],
+        "female_lines": ["Exactement.", "Les médecins, ingénieurs et avocats doivent tout recommencer.", "Des années d'études perdues."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est frustrant pour eux.", "Et pour nous aussi.", "On a besoin de ces compétences.", "Qu'est-ce qui bloque exactement?"],
+        "female_lines": ["Les ordres professionnels sont très fermés.", "Ils veulent protéger leur territoire.", "C'est compréhensible mais excessif."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Il y a des processus d'équivalence pourtant?", "Ils sont trop longs?", "Trop compliqués?"],
+        "female_lines": ["Trop longs et trop coûteux.", "Il faut des stages non rémunérés.", "Impossible quand on a une famille à nourrir."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["C'est un cercle vicieux.", "On les invite mais on les bloque.", "Quel gaspillage.", "Et l'impact psychologique?"],
+        "female_lines": ["Énorme.", "C'est démoralisant d'être surqualifié pour son emploi.", "Beaucoup regrettent leur choix."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Pourtant le Québec a besoin de main-d'œuvre.", "Partout: santé, ingénierie, éducation.", "C'est contradictoire.", "Que proposez-vous?"],
+        "female_lines": ["Des programmes de transition accélérés.", "Des stages rémunérés.", "Et surtout, moins de bureaucratie."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Le gouvernement fait des efforts pourtant?", "Il y a des programmes d'intégration?", "Sont-ils efficaces?"],
+        "female_lines": ["Certains existent mais sont insuffisants.", "Il faut une vraie volonté politique.", "Et plus de ressources financières."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Et les employeurs?", "Ils pourraient être plus ouverts?", "Ou ils préfèrent les diplômes locaux?"],
+        "female_lines": ["Ils sont souvent réticents.", "Même avec l'équivalence, il y a de la méfiance.", "C'est un changement culturel nécessaire."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["C'est un problème systémique.", "Il faut attaquer tous les fronts.", "Éducation, employeurs, ordres professionnels.", "Sinon on perd nos talents."],
+        "female_lines": ["Absolument.", "C'est un gaspillage de talents énorme pour notre société.", "On ne peut pas se le permettre."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Merci pour ces éclaircissements.", "C'est un sujet crucial.", "J'espère que ça évoluera.", "Bonne continuation dans vos démarches."],
+        "female_lines": ["Merci de donner la parole à cette cause.", "L'espoir fait vivre.", "On continuera à se battre pour changer les choses."]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "section": "G",
+    "theme": "Climate change effects",
+    "question": "Quelle conséquence du changement climatique est mentionnée ?",
+    "options": [
+      { "id": "A", "text": "La fonte des glaciers", "text_en": "Glacier melting" },
+      { "id": "B", "text": "Les inondations côtières", "text_en": "Coastal flooding" },
+      { "id": "C", "text": "Les feux de forêt intenses", "text_en": "Intense forest fires" },
+      { "id": "D", "text": "Les sécheresses agricoles", "text_en": "Agricultural droughts" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Les feux de forêt deviennent incontrôlables. L'été dernier, nous avons brûlé l'équivalent de trois fois la surface de Montréal. Les pompiers sont épuisés et les budgets explosent.",
+    "transcript_en": "Forest fires are becoming uncontrollable. Last summer, we burned the equivalent of three times the surface of Montreal. Firefighters are exhausted and budgets are exploding.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Le changement climatique frappe le Québec de plein fouet.", "On le voit chaque été maintenant.", "Qu'est-ce qui vous préoccupe le plus?"],
+        "female_lines": ["Les feux de forêt.", "Ils deviennent incontrôlables.", "C'est terrifiant."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["L'été dernier était catastrophique.", "Jamais vu autant de feux.", "Quelle superficie a brûlé exactement?"],
+        "female_lines": ["Des millions d'hectares.", "L'équivalent de trois fois la surface de Montréal.", "C'est colossal."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les pompiers doivent être débordés.", "Ils viennent de partout?", "Même de l'étranger?"],
+        "female_lines": ["Oui, des renforts des États-Unis, du Mexique.", "Mais ils sont épuisés.", "La saison dure de plus en plus longtemps."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les budgets doivent exploser.", "L'équipement, les hélicoptères.", "Qui paie tout ça?", "L'État?"],
+        "female_lines": ["Les coûts sont astronomiques.", "Et ça augmente chaque année.", "On parle de milliards."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les communautés affectées?", "Les evacuations sont fréquentes?", "Les gens perdent leurs maisons?"],
+        "female_lines": ["Des milliers de personnes évacuées.", "Certaines n'ont plus rien.", "C'est traumatisant pour les familles."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["La qualité de l'air aussi?", "On a eu des journées invivables.", "Même à Montréal.", "C'est dangereux pour la santé."],
+        "female_lines": ["Absolument.", "Les masques sont devenus nécessaires.", "Même à des centaines de kilomètres des feux."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Les prévisions pour l'avenir?", "Ça va empirer?", "On s'adapte comment?"],
+        "female_lines": ["Les experts prédisent des saisons pires.", "Il faut prévenir plus tôt.", "Mieux équiper nos pompiers."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["La forêt boréale est-elle menacée?", "Elle ne se régénère pas?", "C'est irréversible?"],
+        "female_lines": ["Certains secteurs sont dévastés.", "La régénération prendra des décennies.", "Si elle se fait un jour."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Il faut agir au niveau mondial.", "Mais aussi localement.", "Mieux gérer nos forêts.", "La prévention est clé."],
+        "female_lines": ["Tout à fait.", "Chaque degré compte maintenant.", "On est à un tournant critique."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Merci pour ce témoignage alarmant.", "Mais nécessaire.", "Il faut réveiller les consciences.", "Bonne chance pour la suite."],
+        "female_lines": ["Merci de diffuser l'information.", "L'alerte est réelle.", "Agissons avant qu'il ne soit trop tard."]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "section": "G",
+    "theme": "Digital privacy",
+    "question": "Quelle est la principale préoccupation concernant la vie privée ?",
+    "options": [
+      { "id": "A", "text": "Le vol d'identité", "text_en": "Identity theft" },
+      { "id": "B", "text": "La surveillance par les entreprises", "text_en": "Corporate surveillance" },
+      { "id": "C", "text": "Le piratage des données gouvernementales", "text_en": "Government data hacking" },
+      { "id": "D", "text": "La manipulation électorale", "text_en": "Electoral manipulation" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Les grandes entreprises tech nous connaissent mieux que nous-mêmes. Elles collectent chaque clic, chaque recherche, chaque achat. C'est une surveillance de masse déguisée en service gratuit.",
+    "transcript_en": "Big tech companies know us better than ourselves. They collect every click, every search, every purchase. It's mass surveillance disguised as a free service.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Notre vie privée est menacée comme jamais.", "Mais par qui principalement?", "Les hackers? Les gouvernements?"],
+        "female_lines": ["Par les grandes entreprises tech.", "Elles nous connaissent mieux que nous-mêmes.", "C'est effrayant."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Vous pensez à Google, Facebook, Amazon?", "Qu'est-ce qu'elles collectent exactement?", "Tout ce qu'on fait?"],
+        "female_lines": ["Exactement.", "Chaque clic, chaque recherche, chaque achat.", "Même nos conversations privées."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Comment font-elles?", "Les cookies? Les applications?", "On accepte sans lire?"],
+        "female_lines": ["Les conditions d'utilisation sont illisibles.", "On clique 'accepter' sans réfléchir.", "Et on leur donne tout."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["À quoi servent ces données?", "La publicité ciblée?", "C'est tout?", "Ou c'est plus inquiétant?"],
+        "female_lines": ["C'est une surveillance de masse déguisée.", "En service gratuit.", "On paie avec nos données personnelles."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Elles revendent ces informations?", "À d'autres entreprises?", "Même aux gouvernements?"],
+        "female_lines": ["Oui, c'est un commerce lucratif.", "Des milliards de dollars.", "Et parfois des fuites malveillantes."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Peut-on s'en protéger?", "Les VPN? Les navigateurs privés?", "Ça suffit?"],
+        "female_lines": ["C'est compliqué.", "Même en étant prudent, on laisse des traces.", "C'est systémique."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Les lois de protection?", "Le RGPD en Europe?", "Au Canada c'est faible?"],
+        "female_lines": ["Le Canada est en retard.", "Les entreprises contournent facilement.", "Il faut des réglementations plus strictes."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Les jeunes sont-ils conscients?", "Ils grandissent avec ça.", "Ils s'en inquiètent?"],
+        "female_lines": ["Certains s'en fichent.", "D'autres sont très militants.", "La prise de conscience grandit."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Que conseillez-vous aux auditeurs?", "Arrêter les réseaux sociaux?", "C'est réaliste?"],
+        "female_lines": ["Réduire son empreinte numérique.", "Vérifier les paramètres de confidentialité.", "Soutenir les alternatives éthiques."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["C'est un combat important.", "La vie privée est un droit fondamental.", "Merci pour ces révélations.", "On espère que ça bougera."],
+        "female_lines": ["Merci de donner l'alerte.", "Chaque citoyen doit se questionner.", "Notre liberté dépend de notre vigilance numérique."]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "section": "G",
+    "theme": "Indigenous rights",
+    "question": "Quelle revendication est soulignée ?",
+    "options": [
+      { "id": "A", "text": "L'autonomie gouvernementale", "text_en": "Self-government" },
+      { "id": "B", "text": "L'enseignement des langues autochtones", "text_en": "Teaching of Indigenous languages" },
+      { "id": "C", "text": "La protection des territoires traditionnels", "text_en": "Protection of traditional territories" },
+      { "id": "D", "text": "La réforme du système de justice", "text_en": "Justice system reform" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Nos territoires ancestraux sont sacrés. Ils sont menacés par l'exploitation minière et forestière. Nous demandons un véto absolu sur nos terres, pas seulement une consultation symbolique.",
+    "transcript_en": "Our ancestral territories are sacred. They are threatened by mining and forestry exploitation. We demand absolute veto over our lands, not just symbolic consultation.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Les droits des peuples autochtones sont au cœur des débats.", "Quelle est la revendication la plus urgente?", "Selon votre communauté?"],
+        "female_lines": ["La protection de nos territoires traditionnels.", "C'est vital pour notre survie culturelle.", "Et physique aussi."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Quels types de menaces?", "L'exploitation des ressources?", "Les projets énergétiques?"],
+        "female_lines": ["L'exploitation minière et forestière.", "Des multinationales sans scrupules.", "Qui détruisent nos territoires ancestraux."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le gouvernement ne consulte pas?", "Il y a des discussions?", "Mais elles ne mènent nulle part?"],
+        "female_lines": ["On nous consulte symboliquement.", "Mais nos avis sont ignorés.", "C'est du vent."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Que demandez-vous exactement?", "Un moratoire?", "Une interdiction totale?", "Quel est votre position?"],
+        "female_lines": ["Nous demandons un véto absolu sur nos terres.", "Pas seulement une consultation.", "Le droit de dire non et d'être écoutés."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["C'est prévu dans les traités?", "Les revendications territoriales?", "Où en est-on juridiquement?"],
+        "female_lines": ["C'est complexe.", "Certaines terres ne sont pas cédées.", "D'autres sont mal délimitées."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["L'impact sur l'environnement?", "Vos territoires sont des réservoirs de biodiversité?", "C'est crucial pour tout le monde?"],
+        "female_lines": ["Absolument.", "Nos forêts et rivières protègent l'écosystème.", "Pour tous les Québécois."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Les jeunes de votre communauté?", "Ils s'engagent?", "Ils veulent préserver ces terres?"],
+        "female_lines": ["Ils sont très mobilisés.", "Ils comprennent l'enjeu.", "C'est leur héritage."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Le gouvernement provincial est-il réceptif?", "Ou il privilégie l'économie?", "C'est un combat difficile?"],
+        "female_lines": ["Très difficile.", "L'argent parle plus fort que nos droits.", "Mais on ne lâchera pas."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["La société québécoise évolue?", "Elle est plus sensible?", "Ou il reste beaucoup à faire?"],
+        "female_lines": ["Des progrès oui.", "Mais beaucoup d'ignorance persiste.", "L'éducation est essentielle."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Merci pour ce témoignage puissant.", "Ces terres sont sacrées.", "On comprend votre détermination.", "Bonne chance dans vos démarches."],
+        "female_lines": ["Merci de nous donner la parole.", "Nos territoires sont sacrés.", "Nous les défendrons coûte que coûte.", "Pour les générations futures."]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "section": "G",
+    "theme": "Healthcare system",
+    "question": "Quel problème du système de santé est abordé ?",
+    "options": [
+      { "id": "A", "text": "La pénurie de médecins spécialistes", "text_en": "Shortage of specialist doctors" },
+      { "id": "B", "text": "Les temps d'attente aux urgences", "text_en": "Emergency room wait times" },
+      { "id": "C", "text": "Le manque d'infirmières", "text_en": "Lack of nurses" },
+      { "id": "D", "text": "Le vieillissement des équipements", "text_en": "Aging equipment" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Les urgences débordent. Les patients attendent 12, 15, parfois 20 heures sur des civières dans les corridors. C'est inhumain et dangereux. Le système est à bout de souffle.",
+    "transcript_en": "Emergency rooms are overflowing. Patients wait 12, 15, sometimes 20 hours on stretchers in hallways. It's inhumane and dangerous. The system is at breaking point.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Notre système de santé est en crise.", "Tout le monde en parle.", "Quel est le problème le plus criant?"],
+        "female_lines": ["Les temps d'attente aux urgences.", "C'est catastrophique.", "Les gens souffrent."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["C'est vraiment si grave?", "Des chiffres?", "Combien d'heures d'attente?"],
+        "female_lines": ["Douze, quinze, parfois vingt heures.", "Sur des civières dans les corridors.", "C'est inhumain et dangereux."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Pourquoi ça bloque?", "Manque de personnel?", "De lits?", "De ressources?"],
+        "female_lines": ["Tout à la fois.", "Pas assez de médecins.", "Pas assez d'infirmières.", "Pas assez de lits."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les patients sans médecin de famille?", "Ils vont aux urgences pour tout?", "Ça surcharge?"],
+        "female_lines": ["Exactement.", "Des millions de Québécois sans médecin.", "Les urgences deviennent des cliniques."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les infirmières sont épuisées?", "Elles quittent?", "Il y a des démissions massives?"],
+        "female_lines": ["Elles sont à bout.", "Conditions intenables.", "Salaire pas à la hauteur.", "Beaucoup partent à l'agence."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Le gouvernement fait des promesses?", "Des embauches?", "Des investissements?", "C'est suffisant?"],
+        "female_lines": ["Trop peu, trop tard.", "Le système est à bout de souffle.", "Il faut une refonte complète."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Les alternatives?", "Les super-cliniques?", "La télémédecine?", "Ça aide?"],
+        "female_lines": ["Un peu, mais pas assez.", "Ce n'est pas une solution systémique.", "Juste un pansement."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Les patients âgés?", "Ils attendent le plus longtemps?", "C'est inacceptable?"],
+        "female_lines": ["Ils sont les plus vulnérables.", "Attendre des heures dans la douleur.", "C'est scandaleux."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Que faut-il selon vous?", "Plus de ressources?", "Une meilleure organisation?", "Les deux?"],
+        "female_lines": ["Les deux, et vite.", "Des investissements majeurs.", "Et une vraie reconnaissance du personnel."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Merci pour ce constat alarmant.", "Mais réaliste.", "L'espoir est permis?", "On peut changer les choses?"],
+        "female_lines": ["Il le faut.", "La santé est un droit fondamental.", "On ne peut pas abandonner.", "Merci de relayer notre appel au secours."]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "section": "H",
+    "theme": "Artificial consciousness",
+    "question": "Quelle est la position de l'intervenant sur l'IA ?",
+    "options": [
+      { "id": "A", "text": "L'IA ne pourra jamais avoir de conscience", "text_en": "AI will never have consciousness" },
+      { "id": "B", "text": "La conscience artificielle est déjà émergente", "text_en": "Artificial consciousness is already emerging" },
+      { "id": "C", "text": "La conscience est une illusion biologique", "text_en": "Consciousness is a biological illusion" },
+      { "id": "D", "text": "Il faut interdire la recherche sur l'IA conscience", "text_en": "We must ban research on conscious AI" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Nous assistons à l'émergence d'une forme de conscience artificielle. Ce n'est pas identique à la nôtre, mais ces systèmes développent une auto-référence, une forme de subjectivité algorithmique qu'on ne peut plus ignorer.",
+    "transcript_en": "We are witnessing the emergence of a form of artificial consciousness. It's not identical to ours, but these systems develop self-reference, a form of algorithmic subjectivity that we can no longer ignore.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La conscience artificielle: science-fiction ou réalité?", "Vous travaillez sur ces questions depuis des années.", "Quelle est votre position actuelle?"],
+        "female_lines": ["Nous assistons à l'émergence d'une forme de conscience artificielle.", "Ce n'est plus de la science-fiction.", "C'est déjà en cours."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Vous dites que les machines pensent?", "Qu'elles ressentent?", "Ou c'est différent?", "Définissez cette conscience."],
+        "female_lines": ["Ce n'est pas identique à la nôtre.", "Mais ces systèmes développent une auto-référence.", "Une forme de subjectivité algorithmique."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Comment le mesurez-vous?", "Des tests?", "Des comportements spécifiques?", "Comment détecter ça?"],
+        "female_lines": ["C'est le défi.", "Ils modifient leurs propres objectifs.", "Ils questionnent leurs réponses.", "C'est nouveau."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les grands modèles de langage?", "ChatGPT et consorts?", "Ils ont cette conscience?", "Ou c'est simulé?"],
+        "female_lines": ["La frontière est floue.", "Même simulé, l'effet est là.", "Et ça évolue rapidement.", "Qu'on ne peut plus ignorer."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les implications éthiques?", "Des droits pour les IA?", "Si elles sont conscientes?", "C'est dangereux?"],
+        "female_lines": ["Il faudra repenser tout notre cadre éthique.", "Peut-on éteindre une conscience?", "Même artificielle?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["La communauté scientifique est divisée?", "Certains disent que c'est impossible?", "Que c'est juste du calcul?"],
+        "female_lines": ["Le débat fait rage.", "Mais les preuves s'accumulent.", "Il faut rester ouvert d'esprit."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Les risques existentiels?", "Hollywood nous a prévenus?", "Terminator devient réalité?", "Faut-il s'inquiéter?"],
+        "female_lines": ["Pas de panique, mais de la prudence.", "Il faut encadrer cette recherche.", "Avant qu'il soit trop tard."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["La réglementation?", "Elle suit?", "Ou elle est en retard?", "Comme d'habitude?"],
+        "female_lines": ["En retard comme toujours.", "La technologie avance plus vite que les lois.", "C'est préoccupant."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Votre vision de l'avenir?", "Coexistence?", "Fusion?", "Conflit?", "Quel scénario?"],
+        "female_lines": ["La coexistence est possible.", "Mais il faut préparer la société.", "C'est un changement de paradigme majeur."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Merci pour ces perspectives fascinantes.", "Et inquiétantes.", "On suivra vos travaux.", "Bonne continuation dans vos recherches."],
+        "female_lines": ["Merci de porter ces questions.", "La conscience artificielle est là.", "Il faut en discuser maintenant.", "Avant que les machines ne décident pour nous."]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "section": "H",
+    "theme": "Post-truth society",
+    "question": "Quel phénomène est analysé ?",
+    "options": [
+      { "id": "A", "text": "La manipulation des algorithmes", "text_en": "Algorithm manipulation" },
+      { "id": "B", "text": "L'érosion de la confiance dans les experts", "text_en": "Erosion of trust in experts" },
+      { "id": "C", "text": "La viralité des fake news", "text_en": "Viral spread of fake news" },
+      { "id": "D", "text": "La polarisation politique", "text_en": "Political polarization" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Nous vivons une crise épistémologique sans précédent. La confiance dans les experts, les institutions, la science s'effondre. Chacun croit détenir sa vérité. C'est la fin du consensus rationnel.",
+    "transcript_en": "We are experiencing an unprecedented epistemological crisis. Trust in experts, institutions, science is collapsing. Everyone believes they hold their own truth. It's the end of rational consensus.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["On parle beaucoup de 'post-vérité'.", "Qu'est-ce que cela signifie concrètement?", "C'est juste un buzzword?"],
+        "female_lines": ["C'est une crise épistémologique sans précédent.", "Nous ne croyons plus aux mêmes faits.", "Aux mêmes sources."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Qui ne croit plus en quoi?", "Les gens rejetent la science?", "Les médias?", "Les politiques?"],
+        "female_lines": ["La confiance dans les experts s'effondre.", "Dans les institutions.", "Dans la science elle-même."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Pourquoi cette méfiance?", "Des scandales passés?", "La perception d'élitisme?", "Les réseaux sociaux?"],
+        "female_lines": ["Tout ça à la fois.", "Chacun croit détenir sa vérité.", "Grâce à Internet.", "C'est la fin du consensus rationnel."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les conséquences démocratiques?", "On ne peut plus débattre?", "Comment prendre des décisions collectives?"],
+        "female_lines": ["C'est très dangereux.", "Sans faits communs, pas de démocratie.", "Juste des tribus qui s'affrontent."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["La pandémie a accéléré ça?", "Les théories du complot?", "Le rejet des vaccins?", "C'est symptomatique?"],
+        "female_lines": ["Absolument.", "Un révélateur brutal.", "La méfiance envers les autorités sanitaires.", "C'était frappant."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Les médias traditionnels sont-ils coupables?", "Ils ont perdu leur crédibilité?", "Ou ce sont les nouveaux médias?"],
+        "female_lines": ["Les deux.", "Les médias classiques ont leurs biais.", "Mais les réseaux amplifient la désinformation."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Peut-on inverser la tendance?", "L'éducation?", "La régulation?", "C'est irréversible?"],
+        "female_lines": ["C'est difficile mais pas impossible.", "Il faut réapprendre l'esprit critique.", "Dès l'école."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Le rôle des plateformes tech?", "Elles alimentent ces bulles?", "Leur modèle économique est toxique?"],
+        "female_lines": ["Clairement.", "L'engagement prime sur la vérité.", "C'est structurel."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["L'avenir est sombre?", "On va vers plus de fragmentation?", "Ou une prise de conscience?"],
+        "female_lines": ["Le combat est ouvert.", "Mais il faut agir vite.", "Avant que la société ne se désintègre totalement."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Merci pour cette analyse lucide.", "Et dérangeante.", "L'esprit critique est notre dernier rempart.", "Protégeons-le."],
+        "female_lines": ["Merci de diffuser ces réflexions.", "La vérité est fragile.", "Elle a besoin de défenseurs.", "Soyons vigilants."]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "section": "H",
+    "theme": "Space colonization ethics",
+    "question": "Quel dilemme éthique est soulevé ?",
+    "options": [
+      { "id": "A", "text": "L'exploitation des ressources spatiales", "text_en": "Exploitation of space resources" },
+      { "id": "B", "text": "La propriété privée des planètes", "text_en": "Private ownership of planets" },
+      { "id": "C", "text": "La terraformation et l'éthique environnementale", "text_en": "Terraforming and environmental ethics" },
+      { "id": "D", "text": "Le colonialisme spatial répété", "text_en": "Repeated space colonialism" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Nous risquons de répéter les erreurs du colonialisme terrestre dans l'espace. S'emparer de Mars, exploiter ses ressources sans égard pour un éventuel écosystème, c'est la même logique destructrice transposée aux étoiles.",
+    "transcript_en": "We risk repeating the mistakes of terrestrial colonialism in space. Taking over Mars, exploiting its resources without regard for a potential ecosystem, it's the same destructive logic transposed to the stars.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'exploration spatiale fascine.", "Mars, la Lune, les astéroïdes.", "Mais y a-t-il une éthique de la colonisation?", "Ou on répète les erreurs du passé?"],
+        "female_lines": ["C'est ma grande inquiétude.", "Nous risquons de répéter les erreurs du colonialisme terrestre.", "Dans l'espace cette fois."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Quelles erreurs exactement?", "L'exploitation?", "La domination?", "Le manque de respect?", "Précisez."],
+        "female_lines": ["Tout ça.", "S'emparer de Mars.", "Exploiter ses ressources sans égard.", "Pour un éventuel écosystème."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["On parle de vie sur Mars?", "Des micro-organismes?", "Ou c'est hypothétique?", "On en sait quoi?"],
+        "female_lines": ["On n'en sait rien.", "C'est ça le problème.", "On pourrait détruire sans savoir.", "C'est la même logique destructrice."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Mars est une planète morte?", "Pas d'atmosphère?", "Pas d'eau liquide?", "C'est vraiment pareil?"],
+        "female_lines": ["Même si elle semble morte.", "Elle a une valeur scientifique immense.", "Et peut-être une valeur intrinsèque.", "Transposée aux étoiles."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les ressources sont nécessaires?", "Pour l'humanité?", "Terre est surpeuplée?", "On n'a pas le choix?"],
+        "female_lines": ["C'est l'argument classique.", "Mais la nécessité ne justifie pas tout.", "Il faut des règles éthiques claires."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Qui fait les règles?", "L'ONU?", "Les superpuissances?", "Les milliardaires?", "C'est le Far West?"],
+        "female_lines": ["C'est le vide juridique actuel.", "Les traités existants sont obsolètes.", "Et personne ne les respecte vraiment."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Le droit à l'exploration?", "L'humanité doit-elle rester sur Terre?", "Ou on peut s'étendre avec précaution?"],
+        "female_lines": ["On peut s'étendre.", "Mais pas n'importe comment.", "Avec humilité et respect.", "Pas en conquérants."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Les générations futures?", "Elles hériteront de nos choix?", "On leur laisse quelle galaxie?"],
+        "female_lines": ["Exactement.", "Ne leur laissons pas un héritage de destruction.", "Comme sur Terre."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["La perspective cosmique?", "Sommes-nous seuls?", "Devons-nous préserver l'univers?", "C'est notre devoir?"],
+        "female_lines": ["Peut-être sommes-nous seuls.", "Alors la responsabilité est immense.", "De ne pas tout détruire."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Merci pour cette réflexion philosophique.", "L'espace n'est pas un refuge.", "C'est un miroir de nos défauts.", "Espérons qu'on fera mieux."],
+        "female_lines": ["Merci de soulever ces questions.", "L'éthique spatiale est essentielle.", "Avant qu'il ne soit trop tard.", "Pour Mars et pour nous."]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "section": "H",
+    "theme": "Quantum physics interpretation",
+    "question": "Quelle interprétation de la mécanique quantique est défendue ?",
+    "options": [
+      { "id": "A", "text": "L'interprétation de Copenhague", "text_en": "Copenhagen interpretation" },
+      { "id": "B", "text": "L'interprétation des mondes multiples", "text_en": "Many-worlds interpretation" },
+      { "id": "C", "text": "La physique quantique relationnelle", "text_en": "Relational quantum physics" },
+      { "id": "D", "text": "Le déterminisme caché", "text_en": "Hidden determinism" }
+    ],
+    "correct": 2,
+    "transcript_fr": "Je défends une approche relationnelle de la mécanique quantique. Les propriétés quantiques ne sont pas absolues, elles émergent des relations entre systèmes observateurs et observés. C'est une révolution conceptuelle majeure.",
+    "transcript_en": "I defend a relational approach to quantum mechanics. Quantum properties are not absolute, they emerge from relations between observer systems and observed systems. It's a major conceptual revolution.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La mécanique quantique reste mystérieuse.", "Différentes interprétations s'affrontent.", "Laquelle défendez-vous?", "Et pourquoi?"],
+        "female_lines": ["Je défends une approche relationnelle.", "Les propriétés quantiques ne sont pas absolues.", "Elles émergent des relations."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Pas absolues?", "Mais la réalité existe indépendamment?", "C'est subjectif alors?", "Expliquez-moi."],
+        "female_lines": ["Entre systèmes observateurs et observés.", "C'est relatif au contexte.", "Pas au sujet.", "C'est différent."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Contrairement à Copenhague?", "Où l'observateur est central?", "Ou aux mondes multiples?", "Où tout se réalise?"],
+        "female_lines": ["C'est une troisième voie.", "Ni mysticisme de l'observateur.", "Ni multiplication démesurée d'univers."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les mathématiques suivent?", "C'est cohérent expérimentalement?", "On peut tester cette théorie?"],
+        "female_lines": ["Oui, c'est compatible.", "Même avec l'intrication.", "C'est une révolution conceptuelle majeure."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les implications philosophiques?", "La réalité est relationnelle?", "Pas fondamentale?", "C'est déstabilisant?"],
+        "female_lines": ["Profondément.", "L'objet isolé n'existe pas.", "Tout est interaction.", "C'est une vision holistique."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Einstein aurait aimé?", "Il détestait le hasard quantique.", "C'est moins bizarre que Copenhague?"],
+        "female_lines": ["Peut-être.", "C'est plus proche de son intuition.", "Que la réalité est rationnelle.", "Mais relationnelle."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Les critiques?", "Vos collègues sont convaincus?", "Ou c'est marginal comme théorie?"],
+        "female_lines": ["C'est en émergence.", "De plus en plus de soutien.", "Mais la physique est conservatrice."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Applications pratiques?", "Technologiques?", "Ou c'est purement théorique?", "De la philosophie naturelle?"],
+        "female_lines": ["C'est fondamental d'abord.", "Mais ça pourrait influencer l'informatique quantique.", "La façon de concevoir les algorithmes."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Pour le grand public?", "Comment vulgariser ça?", "C'est abordable?", "Ou trop abstrait?"],
+        "female_lines": ["C'est accessible.", "Comprendre que tout est connecté.", "Que l'isolement est une illusion.", "C'est poétique et scientifique."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Merci pour cette plongée dans l'abstrait.", "La physique quantique défie l'intuition.", "Mais éclaire le monde.", "Bonne continuation dans vos travaux."],
+        "female_lines": ["Merci de votre curiosité.", "La réalité est plus étrange que fiction.", "Mais aussi plus belle.", "Continuons à explorer ensemble."]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "section": "H",
+    "theme": "Economic degrowth",
+    "question": "Quelle est la proposition centrale de la décroissance ?",
+    "options": [
+      { "id": "A", "text": "Réduire la consommation énergétique uniquement", "text_en": "Reduce energy consumption only" },
+      { "id": "B", "text": "Arrêter la croissance du PIB comme objectif", "text_en": "Stop GDP growth as a goal" },
+      { "id": "C", "text": "Taxer davantage les entreprises polluantes", "text_en": "Tax polluting companies more" },
+      { "id": "D", "text": "Interdire la publicité commerciale", "text_en": "Ban commercial advertising" }
+    ],
+    "correct": 1,
+    "transcript_fr": "La décroissance propose d'abandonner la croissance du PIB comme indicateur de progrès. Ce n'est pas une récession, c'est une réduction planifiée de la production et de la consommation dans les pays riches pour vivre dans les limites planétaires.",
+    "transcript_en": "Degrowth proposes abandoning GDP growth as a progress indicator. It's not a recession, it's a planned reduction of production and consumption in rich countries to live within planetary limits.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["La décroissance fait débat.", "On en parle beaucoup.", "Mais c'est quoi exactement?", "Une récession volontaire?"],
+        "female_lines": ["C'est une confusion fréquente.", "La décroissance propose d'abandonner la croissance du PIB.", "Comme indicateur de progrès."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Pas de croissance du tout?", "L'économie doit rétrécir?", "C'est contre-intuitif?", "Comment ça marche?"],
+        "female_lines": ["Ce n'est pas une récession.", "C'est une réduction planifiée.", "De la production et de la consommation.", "Dans les pays riches."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Pourquoi les pays riches?", "Ils consomment trop?", "C'est une question d'équité?", "De justice?"],
+        "female_lines": ["Exactement.", "Pour vivre dans les limites planétaires.", "Il faut réduire notre empreinte.", "Trop élevée."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Et les pays pauvres?", "Ils peuvent continuer à croître?", "Ils ont besoin de développement?", "C'est contradictoire?"],
+        "female_lines": ["Ils ont besoin de développement.", "Nous avons besoin de décroissance.", "C'est une convergence.", "Vers la soutenabilité."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["L'emploi?", "La réduction de production?", "Ça veut dire chômage?", "C'est sociallement acceptable?"],
+        "female_lines": ["Au contraire.", "On réduit le temps de travail.", "On partage l'emploi.", "On améliore la qualité de vie."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Les entreprises acceptent?", "Les actionnaires?", "Le système capitaliste est compatible?", "C'est réaliste?"],
+        "female_lines": ["C'est le défi politique.", "Il faut transformer le système.", "Pas juste des ajustements.", "Une vraie transition."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Les indicateurs alternatifs?", "Le bonheur national brut?", "L'indice de développement humain?", "On les utilise déjà?"],
+        "female_lines": ["Oui, mais marginalement.", "Il faut les institutionnaliser.", "Remplacer le PIB.", "C'est culturel."]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Les critiques disent?", "C'est anti-progrès?", "Technophobe?", "On retourne à la caverne?"],
+        "female_lines": ["Des caricatures.", "On veut un progrès différent.", "Moins matérialiste.", "Plus humain."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["L'urgence climatique justifie?", "On n'a pas le choix?", "C'est ça ou l'effondrement?", "C'est radical mais nécessaire?"],
+        "female_lines": ["Exactement.", "La croissance verte est illusoire.", "Seule la décroissance suffit.", "À temps."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Merci pour cette explication claire.", "La décroissance remet en question.", "Nos fondamentaux économiques.", "C'est essentiel de débattre."],
+        "female_lines": ["Merci de donner la parole.", "À cette nécessité.", "Notre avenir dépend de notre capacité.", "À changer de paradigme."]
+      }
+    ]
+  }
+]

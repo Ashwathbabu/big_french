@@ -1,0 +1,1722 @@
+﻿[
+  {
+    "id": 1,
+    "section": "A",
+    "theme": "Daily activities",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne court dans le parc", "image_prompt": "A person running in a green park, sunny day" },
+      { "id": "B", "text": "Une personne fait du vélo", "image_prompt": "A person riding a bicycle on a city path" },
+      { "id": "C", "text": "Une personne nage", "image_prompt": "A person swimming in a blue pool" },
+      { "id": "D", "text": "Une personne marche avec un chien", "image_prompt": "A person walking a golden retriever in a park" }
+    ],
+    "correct": 0,
+    "transcript_fr": "J'adore commencer ma journée par un petit footing au parc quand il fait beau.",
+    "transcript_en": "I love starting my day with a quick jog in the park when the weather is nice.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["J'adore commencer ma journée par un petit footing au parc quand il fait beau.", "C'est vraiment agréable de respirer l'air frais le matin."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "A",
+    "theme": "Food and drink",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne boit un café", "image_prompt": "A person drinking coffee at a café terrace" },
+      { "id": "B", "text": "Une personne mange une sandwich", "image_prompt": "A person eating a sandwich at a desk" },
+      { "id": "C", "text": "Une personne cuisine au four", "image_prompt": "A person baking in a kitchen with oven mitts" },
+      { "id": "D", "text": "Une personne achète des légumes", "image_prompt": "A person buying vegetables at a farmers market" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Je prends toujours mon sandwich à midi devant l'ordinateur au bureau.",
+    "transcript_en": "I always have my sandwich at noon in front of the computer at the office.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je prends toujours mon sandwich à midi devant l'ordinateur au bureau.", "C'est rapide et pratique quand on a beaucoup de travail."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "A",
+    "theme": "Transportation",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne conduit une voiture", "image_prompt": "A person driving a car in traffic" },
+      { "id": "B", "text": "Une personne prend le métro", "image_prompt": "A person standing in a crowded subway train" },
+      { "id": "C", "text": "Une personne attend le bus", "image_prompt": "A person waiting at a bus stop in the rain" },
+      { "id": "D", "text": "Une personne monte à vélo", "image_prompt": "A person unlocking a bike at a bike-sharing station" }
+    ],
+    "correct": 2,
+    "transcript_fr": "L'autobus passe seulement aux vingt minutes alors je dois toujours vérifier l'horaire.",
+    "transcript_en": "The bus only comes every twenty minutes so I always have to check the schedule.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'autobus passe seulement aux vingt minutes alors je dois toujours vérifier l'horaire.", "Il arrive souvent en retard quand il pleut dehors."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "section": "A",
+    "theme": "Shopping",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne essaie des chaussures", "image_prompt": "A person trying on shoes in a shoe store" },
+      { "id": "B", "text": "Une personne paie à la caisse", "image_prompt": "A person paying with credit card at a checkout counter" },
+      { "id": "C", "text": "Une personne retourne un article", "image_prompt": "A person returning a package at customer service desk" },
+      { "id": "D", "text": "Une personne compare les prix", "image_prompt": "A person comparing prices on a smartphone in a store" }
+    ],
+    "correct": 3,
+    "transcript_fr": "Avant d'acheter quoi que ce soit, je scanne toujours le code-barres pour voir si c'est moins cher ailleurs.",
+    "transcript_en": "Before buying anything, I always scan the barcode to see if it's cheaper elsewhere.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Avant d'acheter quoi que ce soit, je scanne toujours le code-barres pour voir si c'est moins cher ailleurs.", "Ça m'a déjà fait économiser beaucoup d'argent."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "A",
+    "theme": "Weather",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Il neige beaucoup dehors", "image_prompt": "Heavy snowfall covering a city street" },
+      { "id": "B", "text": "Il fait très chaud et ensoleillé", "image_prompt": "Bright sunny day with people wearing sunglasses" },
+      { "id": "C", "text": "Il pleut fort avec du vent", "image_prompt": "Heavy rain and wind with umbrellas turning inside out" },
+      { "id": "D", "text": "Il fait nuageux mais sec", "image_prompt": "Overcast cloudy sky with no rain" }
+    ],
+    "correct": 2,
+    "transcript_fr": "N'oubliez pas votre parapluie, les rafales de vent atteignent soixante kilomètres à l'heure aujourd'hui.",
+    "transcript_en": "Don't forget your umbrella, wind gusts are reaching sixty kilometers per hour today.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["N'oubliez pas votre parapluie, les rafales de vent atteignent soixante kilomètres à l'heure aujourd'hui.", "Les routes seront probablement glissantes ce soir."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "section": "A",
+    "theme": "Work",
+    "question": "Quelle image correspond le mieux à l'enregistrement ?",
+    "options": [
+      { "id": "A", "text": "Une personne écrit au tableau", "image_prompt": "A teacher writing on a whiteboard in a classroom" },
+      { "id": "B", "text": "Une personne répond au téléphone", "image_prompt": "A receptionist answering phone calls at a front desk" },
+      { "id": "C", "text": "Une personne travaille sur ordinateur", "image_prompt": "An office worker typing on a laptop with multiple screens" },
+      { "id": "D", "text": "Une personne participe à une réunion", "image_prompt": "People sitting around a conference table with documents" }
+    ],
+    "correct": 1,
+    "transcript_fr": "Allô, Bureau des permis, Marie à l'appareil, comment puis-je vous aider?",
+    "transcript_en": "Hello, Permit Office, Marie speaking, how may I help you?",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Allô, Bureau des permis, Marie à l'appareil, comment puis-je vous aider?", "Je vais vérifier ça dans notre système immédiatement."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "section": "B",
+    "theme": "Restaurant",
+    "question": "Où se déroule cette conversation ?",
+    "options": [
+      { "id": "A", "text": "Dans une bibliothèque", "image_prompt": null },
+      { "id": "B", "text": "Dans un restaurant", "image_prompt": null },
+      { "id": "C", "text": "Dans un hôpital", "image_prompt": null },
+      { "id": "D", "text": "Dans une banque", "image_prompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: Bonjour, j'ai réservé une table pour deux personnes au nom de Tremblay. Femme: Bienvenue monsieur, suivez-moi vers la terrasse. Vous préférez l'intérieur ou l'extérieur? Homme: L'extérieur serait parfait s'il ne fait pas trop froid. Femme: Non non, nous avons des chauffeurs de patio, vous serez confortable.",
+    "transcript_en": "Man: Hello, I reserved a table for two under the name Tremblay. Woman: Welcome sir, follow me to the terrace. Do you prefer inside or outside? Man: Outside would be perfect if it's not too cold. Woman: No no, we have patio heaters, you'll be comfortable.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, j'ai réservé une table pour deux personnes au nom de Tremblay.", "L'extérieur serait parfait s'il ne fait pas trop froid."],
+        "female_lines": ["Bienvenue monsieur, suivez-moi vers la terrasse. Vous préférez l'intérieur ou l'extérieur?", "Non non, nous avons des chauffeurs de patio, vous serez confortable."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Merci beaucoup, la carte des vins est très impressionnante.", "Nous allons célébrer notre anniversaire de mariage ce soir."],
+        "female_lines": ["Félicitations! Je vais vous offrir un apéritif maison alors.", "Notre sommelier peut vous recommander un excellent champagne québécois."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Excellente idée, ma femme adore les bulles.", "Pouvez-vous nous donner quelques minutes pour décider?"],
+        "female_lines": ["Bien sûr, je reviens dans cinq minutes.", "N'hésitez pas à me poser des questions sur les plats du jour."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Le canard confit a l'air délicieux sur votre menu.", "Nous prendrons aussi une bouteille d'eau plate s'il vous plaît."],
+        "female_lines": ["Excellent choix, c'est notre spécialité depuis vingt ans.", "Tout de suite monsieur, je prépare votre commande."]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "section": "B",
+    "theme": "Bank",
+    "question": "Quel est le sujet principal de cette conversation ?",
+    "options": [
+      { "id": "A", "text": "Ouvrir un compte épargne", "image_prompt": null },
+      { "id": "B", "text": "Demander un prêt hypothécaire", "image_prompt": null },
+      { "id": "C", "text": "Remplacer une carte perdue", "image_prompt": null },
+      { "id": "D", "text": "Changer de banque", "image_prompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme: Bonjour monsieur, je suis désolée mais j'ai perdu ma carte de débit ce matin. Homme: Pas de panique madame, nous allons bloquer votre carte immédiatement. Femme: Heureusement que j'ai remarqué rapidement, j'espère que personne ne l'a utilisée. Homme: Vérifions vos transactions ensemble pour être certain.",
+    "transcript_en": "Woman: Hello sir, I'm sorry but I lost my debit card this morning. Man: Don't panic madam, we will block your card immediately. Woman: Fortunately I noticed quickly, I hope no one used it. Man: Let's check your transactions together to be sure.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Pas de panique madame, nous allons bloquer votre carte immédiatement.", "Vérifions vos transactions ensemble pour être certain."],
+        "female_lines": ["Bonjour monsieur, je suis désolée mais j'ai perdu ma carte de débit ce matin.", "Heureusement que j'ai remarqué rapidement, j'espère que personne ne l'a utilisée."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Je vois seulement vos achats d'hier soir au supermarché.", "Vous avez de la chance, aucune transaction frauduleuse n'est apparue."],
+        "female_lines": ["Quel soulagement! J'étais vraiment inquiète toute la journée.", "Combien de temps faut-il pour recevoir une nouvelle carte?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Normalement cinq jours ouvrables par la poste.", "Je peux aussi vous donner une carte temporaire aujourd'hui si vous voulez."],
+        "female_lines": ["C'est parfait, j'en ai vraiment besoin pour faire mes courses.", "Y a-t-il des frais pour la carte de remplacement?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Non madame, c'est gratuit la première fois par année.", "Signez ici pour confirmer la demande de remplacement."],
+        "female_lines": ["Merci beaucoup pour votre aide rapide monsieur.", "Je vais faire plus attention à l'avenir avec ma carte."]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "section": "B",
+    "theme": "Doctor",
+    "question": "Quel problème de santé est mentionné ?",
+    "options": [
+      { "id": "A", "text": "Une allergie alimentaire", "image_prompt": null },
+      { "id": "B", "text": "Une douleur au dos", "image_prompt": null },
+      { "id": "C", "text": "Un mal de gorge", "image_prompt": null },
+      { "id": "D", "text": "Une entorse à la cheville", "image_prompt": null }
+    ],
+    "correct": 3,
+    "transcript_fr": "Homme: Docteur, je ne peux presque plus marcher depuis mon accident de ski. Femme: Montrez-moi votre cheville, est-ce que vous pouvez bouger vos orteils? Homme: Oui mais ça fait très mal quand je mets le pied par terre. Femme: C'est probablement une entorse de deuxième degré, il faut faire une radio.",
+    "transcript_en": "Man: Doctor, I can barely walk since my skiing accident. Woman: Show me your ankle, can you move your toes? Man: Yes but it hurts very much when I put my foot on the ground. Woman: It's probably a second-degree sprain, we need to do an x-ray.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Docteur, je ne peux presque plus marcher depuis mon accident de ski.", "Oui mais ça fait très mal quand je mets le pied par terre."],
+        "female_lines": ["Montrez-moi votre cheville, est-ce que vous pouvez bouger vos orteils?", "C'est probablement une entorse de deuxième degré, il faut faire une radio."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Combien de temps dois-je rester immobilisé docteur?", "Je travaille comme livreur alors c'est problématique pour moi."],
+        "female_lines": ["Au moins deux semaines avec une attelle selon les résultats.", "Il faudra trouver une solution temporaire avec votre employeur."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Mon patron est compréhensif, il va m'assigner des taches administratives.", "Dois-je prendre des anti-inflammatoires?"],
+        "female_lines": ["Oui, je vais vous prescrire du ibuprofène trois fois par jour.", "Et surtout gardez votre cheville surélevée le plus possible."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Merci docteur, j'espère récupérer vite pour retourner skier.", "Je vais suivre vos conseils à la lettre."],
+        "female_lines": ["Pas de ski pendant six semaines monsieur, soyez patient.", "Revenez me voir dans une semaine pour contrôler la guérison."]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "section": "B",
+    "theme": "Post office",
+    "question": "Que veut faire le client ?",
+    "options": [
+      { "id": "A", "text": "Envoyer un colis international", "image_prompt": null },
+      { "id": "B", "text": "Acheter des timbres", "image_prompt": null },
+      { "id": "C", "text": "Récupérer un recommandé", "image_prompt": null },
+      { "id": "D", "text": "Changer son adresse", "image_prompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme: Bonjour, j'aimerais envoyer ce colis à ma sœur en France s'il vous plaît. Homme: Bien sûr madame, quel est le contenu et la valeur déclarée? Femme: Ce sont des produits du terroir québécois, environ cent cinquante dollars canadiens. Homme: Parfait, avec suivi ou en lettre prioritaire internationale?",
+    "transcript_en": "Woman: Hello, I would like to send this package to my sister in France please. Man: Certainly madam, what is the content and declared value? Woman: These are Quebec terroir products, about one hundred fifty Canadian dollars. Man: Perfect, with tracking or by international priority mail?",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bien sûr madame, quel est le contenu et la valeur déclarée?", "Parfait, avec suivi ou en lettre prioritaire internationale?"],
+        "female_lines": ["Bonjour, j'aimerais envoyer ce colis à ma sœur en France s'il vous plaît.", "Ce sont des produits du terroir québécois, environ cent cinquante dollars canadiens."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le suivi coûte huit dollars de plus mais c'est plus sécuritaire.", "La livraison prend environ cinq à sept jours ouvrables."],
+        "female_lines": ["Je préfère avec suivi pour être sûre qu'il arrive bien.", "Ma sœur attend ces produits depuis longtemps."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Remplissez cette dédouanement pour la douane française.", "Indiquez bien que ce sont des denrées alimentaires non périssables."],
+        "female_lines": ["D'accord, dois-je écrire en français ou en anglais?", "J'ai mis du sirop d'érable et des bleuets séchés dedans."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["En français c'est mieux pour les douaniers français.", "Voilà votre reçu avec le numéro de suivi, gardez-le précieusement."],
+        "female_lines": ["Merci beaucoup monsieur, vous êtes très aimable.", "Je vais suivre l'expédition en ligne avec ce numéro."]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "section": "C",
+    "theme": "Airport announcement",
+    "question": "Quelle information est donnée dans ce message ?",
+    "options": [
+      { "id": "A", "text": "Un vol est retardé à cause de la météo", "image_prompt": null },
+      { "id": "B", "text": "Un vol est annulé pour raisons techniques", "image_prompt": null },
+      { "id": "C", "text": "L'embarquement commence pour un vol", "image_prompt": null },
+      { "id": "D", "text": "Un changement de porte d'embarquement", "image_prompt": null }
+    ],
+    "correct": 3,
+    "transcript_fr": "Mesdames et messieurs, nous avons le regret de vous informer que le vol Air Canada trois-cinq-sept à destination de Vancouver subit un changement de porte. L'embarquement ne se fera plus à la porte vingt-deux mais à la porte quarante-cinq située dans l'aile internationale. Nous vous prions de bien vouloir vous diriger immédiatement vers cette nouvelle porte car le décollage est maintenu à quatorze heures trente. Nous vous remercions de votre compréhension et vous prions d'accepter nos excuses pour ce désagrément.",
+    "transcript_en": "Ladies and gentlemen, we regret to inform you that Air Canada flight three-five-seven to Vancouver is undergoing a gate change. Boarding will no longer be at gate twenty-two but at gate forty-five located in the international wing. We kindly ask you to proceed immediately to this new gate as the departure is maintained at two thirty PM. We thank you for your understanding and ask you to accept our apologies for this inconvenience.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mesdames et messieurs, nous avons le regret de vous informer que le vol Air Canada trois-cinq-sept à destination de Vancouver subit un changement de porte.", "L'embarquement ne se fera plus à la porte vingt-deux mais à la porte quarante-cinq située dans l'aile internationale."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nous vous prions de bien vouloir vous diriger immédiatement vers cette nouvelle porte car le décollage est maintenu à quatorze heures trente.", "Nous vous remercions de votre compréhension et vous prions d'accepter nos excuses pour ce désagrément."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les passagers ayant des besoins spéciaux sont priés de se présenter au comptoir d'assistance.", "Un service de navette est disponible pour les personnes à mobilité réduite."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Nous rappelons que l'embarquement prioritaire commence dans dix minutes.", "Veuillez avoir vos cartes d'embarquement et pièces d'identité en main."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Merci de votre patience et bon voyage avec Air Canada.", "Pour toute information complémentaire, consultez les écrans d'affichage."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "section": "C",
+    "theme": "Supermarket announcement",
+    "question": "Quelle promotion est annoncée ?",
+    "options": [
+      { "id": "A", "text": "Une réduction de cinquante pourcent sur les fruits", "image_prompt": null },
+      { "id": "B", "text": "Un deuxième article gratuit sur les produits laitiers", "image_prompt": null },
+      { "id": "C", "text": "Une vente flash de trois heures sur la viande", "image_prompt": null },
+      { "id": "D", "text": "Un rabais de vingt pourcent pour les membres", "image_prompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Chers clients, profitez dès maintenant et jusqu'à la fermeture de notre promotion exceptionnelle sur tous les produits laitiers de la marque maison. Achetez un fromage cheddar vieilli de cinq cents grammes et recevez le deuxième gratuitement. Cette offre est également valable sur le yogourt nature et la crème à café biologique. Quantités limitées à douze articles par client. Rendez-vous rapidement au rayon produits frais avant épuisement des stocks. Merci de votre fidélité et bonne journée dans votre supermarché Métro.",
+    "transcript_en": "Dear customers, take advantage right now and until closing of our exceptional promotion on all dairy products of the house brand. Buy one aged cheddar cheese of five hundred grams and receive the second one free. This offer is also valid on natural yogurt and organic coffee cream. Limited quantities to twelve items per customer. Hurry to the fresh products section before stocks run out. Thank you for your loyalty and have a nice day at your Métro supermarket.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers clients, profitez dès maintenant et jusqu'à la fermeture de notre promotion exceptionnelle sur tous les produits laitiers de la marque maison.", "Achetez un fromage cheddar vieilli de cinq cents grammes et recevez le deuxième gratuitement."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Cette offre est également valable sur le yogourt nature et la crème à café biologique.", "Quantités limitées à douze articles par client."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Rendez-vous rapidement au rayon produits frais avant épuisement des stocks.", "Merci de votre fidélité et bonne journée dans votre supermarché Métro."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Nous rappelons que notre boulangerie propose des baguettes chaudes toute la journée.", "Le rayon poissonnerie reçoit des livraisons fraîches chaque matin à six heures."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Profitez également de notre programme de fidélité pour cumuler des points.", "Les caisses automatiques sont disponibles pour un paiement rapide sans attente."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "section": "C",
+    "theme": "University announcement",
+    "question": "Quel changement est annoncé aux étudiants ?",
+    "options": [
+      { "id": "A", "text": "L'annulation des cours de l'après-midi", "image_prompt": null },
+      { "id": "B", "text": "Le report d'un examen final", "image_prompt": null },
+      { "id": "C", "text": "La fermeture temporaire de la bibliothèque", "image_prompt": null },
+      { "id": "D", "text": "Un changement de local pour un cours", "image_prompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Attention étudiants du cours de biologie moléculaire trois-zéro-un, veuillez noter que la bibliothèque des sciences sera exceptionnellement fermée ce jeudi et vendredi pour cause de rénovation électrique. Tous les ouvrages de référence ont été temporairement déplacés à la bibliothèque centrale du campus. Les ordinateurs et les salles de travail en groupe ne seront pas accessibles pendant ces deux jours. Nous vous recommandons d'emprunter vos documents avant mercredi soin. La réouverture est prévue lundi matin à huit heures. Merci de votre compréhension.",
+    "transcript_en": "Attention students of molecular biology three-zero-one course, please note that the science library will be exceptionally closed this Thursday and Friday due to electrical renovation. All reference books have been temporarily moved to the central campus library. Computers and group study rooms will not be accessible during these two days. We recommend borrowing your documents before Wednesday evening. Reopening is scheduled for Monday morning at eight o'clock. Thank you for your understanding.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Attention étudiants du cours de biologie moléculaire trois-zéro-un, veuillez noter que la bibliothèque des sciences sera exceptionnellement fermée ce jeudi et vendredi pour cause de rénovation électrique.", "Tous les ouvrages de référence ont été temporairement déplacés à la bibliothèque centrale du campus."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les ordinateurs et les salles de travail en groupe ne seront pas accessibles pendant ces deux jours.", "Nous vous recommandons d'emprunter vos documents avant mercredi soir."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["La réouverture est prévue lundi matin à huit heures.", "Merci de votre compréhension."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Pour toute urgence, contactez le service de la documentation par courriel.", "Les heures de consultation des professeurs restent inchangées cette semaine."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Nous vous souhaitons une bonne fin de session malgré ces contraintes temporaires.", "Pensez à renouveler vos prêts en ligne pour éviter les retardataires."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "section": "C",
+    "theme": "Public transport announcement",
+    "question": "Quel problème est mentionné dans cette annonce ?",
+    "options": [
+      { "id": "A", "text": "Une grève des conducteurs de bus", "image_prompt": null },
+      { "id": "B", "text": "Des travaux sur la ligne de métro", "image_prompt": null },
+      { "id": "C", "text": "Une panne de signalisation", "image_prompt": null },
+      { "id": "D", "text": "Une manifestation sur le parcours", "image_prompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Usagers de la ligne orange du métro de Montréal, veuillez prendre note que des travaux d'entretien majeurs auront lieu ce week-end de samedi vingt-deux heures à dimanche seize heures. Entre les stations Montmorency et Henri-Bourassa, le service sera remplacé par des autobus navettes gratuits. Prévoyez un temps de trajet supplémentaire d'environ vingt minutes. Les stations intermédiaires resteront ouvertes mais accessibles uniquement par les navettes. Nous vous remercions de votre patience pendant ces améliorations nécessaires à la sécurité de notre réseau.",
+    "transcript_en": "Users of the orange line of the Montreal metro, please note that major maintenance work will take place this weekend from Saturday ten PM to Sunday four PM. Between Montmorency and Henri-Bourassa stations, service will be replaced by free shuttle buses. Plan for an additional travel time of about twenty minutes. Intermediate stations will remain open but accessible only by shuttles. We thank you for your patience during these necessary improvements to our network safety.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Usagers de la ligne orange du métro de Montréal, veuillez prendre note que des travaux d'entretien majeurs auront lieu ce week-end de samedi vingt-deux heures à dimanche seize heures.", "Entre les stations Montmorency et Henri-Bourassa, le service sera remplacé par des autobus navettes gratuits."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Prévoyez un temps de trajet supplémentaire d'environ vingt minutes.", "Les stations intermédiaires resteront ouvertes mais accessibles uniquement par les navettes."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Nous vous remercions de votre patience pendant ces améliorations nécessaires à la sécurité de notre réseau.", "Des agents seront présents sur le quai pour vous orienter vers les navettes."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Le service régulier reprendra dimanche à seize heures précises.", "Nous vous recommandons de consulter notre site web pour les horaires détaillés."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Merci de votre compréhension et bonne journée avec la STM.", "Pensez à télécharger notre application mobile pour les alertes en temps réel."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "section": "C",
+    "theme": "Weather alert",
+    "question": "Quel type d'alerte météo est émis ?",
+    "options": [
+      { "id": "A", "text": "Une alerte de tornade", "image_prompt": null },
+      { "id": "B", "text": "Un avertissement de pluie verglaçante", "image_prompt": null },
+      { "id": "C", "text": "Une veille d'ouragan", "image_prompt": null },
+      { "id": "D", "text": "Un bulletin de canicule", "image_prompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Environnement Canada émet un avertissement de pluie verglaçante pour la région de Montréal et ses environs valable jusqu'à demain six heures du matin. Des accumulations de glace de cinq à dix millimètres sont attendues sur les surfaces exposées. Les routes et trottoirs deviendront extrêmement glissants et dangereux. Évitez tout déplacement non essentiel et si vous devez conduire, réduisez votre vitesse et augmentez la distance de freinage. Les écoles pourraient être fermées demain matin selon l'évolution de la situation. Restez à l'écoute des médias pour les mises à jour.",
+    "transcript_en": "Environment Canada is issuing a freezing rain warning for the Montreal region and surrounding areas valid until tomorrow six AM. Ice accumulations of five to ten millimeters are expected on exposed surfaces. Roads and sidewalks will become extremely slippery and dangerous. Avoid any non-essential travel and if you must drive, reduce your speed and increase braking distance. Schools may be closed tomorrow morning depending on how the situation evolves. Stay tuned to media for updates.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Environnement Canada émet un avertissement de pluie verglaçante pour la région de Montréal et ses environs valable jusqu'à demain six heures du matin.", "Des accumulations de glace de cinq à dix millimètres sont attendues sur les surfaces exposées."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les routes et trottoirs deviendront extrêmement glissants et dangereux.", "Évitez tout déplacement non essentiel et si vous devez conduire, réduisez votre vitesse et augmentez la distance de freinage."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les écoles pourraient être fermées demain matin selon l'évolution de la situation.", "Restez à l'écoute des médias pour les mises à jour."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les services d'urgence sont en état d'alerte maximale.", "En cas de panne de courant, évitez d'utiliser les chandelles près des matières inflammables."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les aéroports signalent déjà des retards de vols importants.", "Nous vous recommandons de vérifier l'état de votre vol avant de partir."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "section": "C",
+    "theme": "Museum announcement",
+    "question": "Quelle nouveauté est présentée au public ?",
+    "options": [
+      { "id": "A", "text": "Une exposition temporaire gratuite", "image_prompt": null },
+      { "id": "B", "text": "Un nouveau guide audio multilingue", "image_prompt": null },
+      { "id": "C", "text": "Une extension du musée inaugurée", "image_prompt": null },
+      { "id": "D", "text": "Une collection permanente rénovée", "image_prompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Chers visiteurs du Musée des Beaux-Arts de Montréal, nous avons le plaisir de vous annoncer l'ouverture exceptionnelle et gratuite de notre nouvelle exposition temporaire Les Impressionnistes Canadiens. Jusqu'au premier mars, accédez sans frais à plus de soixante-dix œuvres majeures du dix-neuvième siècle. Les visites guidées commencent à dix heures, quatorze heures et seize heures chaque jour. Les enfants de moins de douze ans bénéficient d'ateliers de peinture gratuits les samedis matin. Ne manquez pas cette occasion unique de découvrir notre patrimoine artistique national. Bonne visite à tous.",
+    "transcript_en": "Dear visitors of the Montreal Museum of Fine Arts, we are pleased to announce the exceptional and free opening of our new temporary exhibition The Canadian Impressionists. Until March first, access free of charge more than seventy major works from the nineteenth century. Guided tours start at ten AM, two PM and four PM each day. Children under twelve benefit from free painting workshops Saturday mornings. Don't miss this unique opportunity to discover our national artistic heritage. Enjoy your visit everyone.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers visiteurs du Musée des Beaux-Arts de Montréal, nous avons le plaisir de vous annoncer l'ouverture exceptionnelle et gratuite de notre nouvelle exposition temporaire Les Impressionnistes Canadiens.", "Jusqu'au premier mars, accédez sans frais à plus de soixante-dix œuvres majeures du dix-neuvième siècle."],
+        "female_lines": []
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les visites guidées commencent à dix heures, quatorze heures et seize heures chaque jour.", "Les enfants de moins de douze ans bénéficient d'ateliers de peinture gratuits les samedis matin."],
+        "female_lines": []
+      },
+      {
+        "point": 3,
+        "male_lines": ["Ne manquez pas cette occasion unique de découvrir notre patrimoine artistique national.", "Bonne visite à tous."],
+        "female_lines": []
+      },
+      {
+        "point": 4,
+        "male_lines": ["Le café du musée propose un menu spécial inspiré des œuvres exposées.", "La boutique offre vingt pourcent de réduction sur les catalogues cette semaine."],
+        "female_lines": []
+      },
+      {
+        "point": 5,
+        "male_lines": ["Les photographes amateurs sont invités à partager leurs clichés sur les réseaux sociaux.", "N'oubliez pas de désactiver le flash pour préserver les tableaux."],
+        "female_lines": []
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "section": "D",
+    "theme": "Job interview",
+    "question": "Quelle est l'intention du candidat dans ce dialogue ?",
+    "options": [
+      { "id": "A", "text": "Négocier son salaire", "image_prompt": null },
+      { "id": "B", "text": "Demander une formation complémentaire", "image_prompt": null },
+      { "id": "C", "text": "Obtenir des informations sur le poste", "image_prompt": null },
+      { "id": "D", "text": "Proposer une date de début ultérieure", "image_prompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme: Bonjour monsieur Dubois, merci de venir pour cet entretien. Pouvez-vous me parler de votre expérience en gestion de projet? Homme: Bonjour madame, avec plaisir. Avant de commencer, pourriez-vous me préciser quelle serait la taille de l'équipe que je superviserais? Femme: Actuellement nous sommes huit personnes dans le département mais nous prévoyons de recruter trois nouveaux employés. Homme: Intéressant, et quels seraient les principaux défis du poste selon vous?",
+    "transcript_en": "Woman: Hello Mr. Dubois, thank you for coming for this interview. Can you tell me about your experience in project management? Man: Hello madam, with pleasure. Before we start, could you clarify what size team I would be supervising? Woman: Currently we are eight people in the department but we plan to recruit three new employees. Man: Interesting, and what would be the main challenges of the position according to you?",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour madame, avec plaisir. Avant de commencer, pourriez-vous me préciser quelle serait la taille de l'équipe que je superviserais?", "Intéressant, et quels seraient les principaux défis du poste selon vous?"],
+        "female_lines": ["Bonjour monsieur Dubois, merci de venir pour cet entretien. Pouvez-vous me parler de votre expérience en gestion de projet?", "Actuellement nous sommes huit personnes dans le département mais nous prévoyons de recruter trois nouveaux employés."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le délai de livraison semble ambitieux, comment gérez-vous la pression?", "J'aimerais aussi connaître les outils de gestion utilisés par votre entreprise."],
+        "female_lines": ["Nous utilisons principalement Asana et Slack pour la communication.", "Le rythme est soutenu mais nous valorisons l'équilibre travail-vie personnelle."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["C'est rassurant, la flexibilité horaire est importante pour moi.", "Quelles sont les perspectives d'évolution au sein de votre société?"],
+        "female_lines": ["Les performances sont récompensées par des promotions annuelles.", "Nous investissons beaucoup dans la formation continue de nos cadres."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Parfait, je suis très motivé par ce poste.", "Quand puis-je espérer avoir une réponse de votre part?"],
+        "female_lines": ["Nous vous contacterons d'ici la fin de la semaine prochaine.", "Merci beaucoup pour votre intérêt monsieur Dubois."]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "section": "D",
+    "theme": "Neighbor dispute",
+    "question": "Que cherche à obtenir la femme ?",
+    "options": [
+      { "id": "A", "text": "Des excuses pour un dommage causé", "image_prompt": null },
+      { "id": "B", "text": "La fin d'une nuisance sonore", "image_prompt": null },
+      { "id": "C", "text": "Une autorisation de stationnement", "image_prompt": null },
+      { "id": "D", "text": "Un remboursement pour des travaux", "image_prompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Femme: Excusez-moi monsieur, je suis votre voisine du dessous. Pourriez-vous baisser un peu la musique? Homme: Oh désolé madame, je ne pensais pas que c'était si fort. Nous fêtons l'anniversaire de ma fille. Femme: Je comprends mais c'est vraiment insupportable depuis trois heures et j'ai un bébé qui dort. Homme: Vous avez raison, je vais demander à mes invités de parler moins fort et je ferme la fenêtre.",
+    "transcript_en": "Woman: Excuse me sir, I am your downstairs neighbor. Could you turn down the music a bit? Man: Oh sorry madam, I didn't think it was that loud. We are celebrating my daughter's birthday. Woman: I understand but it has really been unbearable for three hours and I have a sleeping baby. Man: You are right, I will ask my guests to speak more quietly and I will close the window.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Oh désolé madame, je ne pensais pas que c'était si fort. Nous fêtons l'anniversaire de ma fille.", "Vous avez raison, je vais demander à mes invités de parler moins fort et je ferme la fenêtre."],
+        "female_lines": ["Excusez-moi monsieur, je suis votre voisine du dessous. Pourriez-vous baisser un peu la musique?", "Je comprends mais c'est vraiment insupportable depuis trois heures et j'ai un bébé qui dort."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Je suis vraiment désolé pour le dérangement madame.", "Nous allons terminer la fête d'ici une heure maximum."],
+        "female_lines": ["Merci de votre compréhension, je ne voulais pas gâcher votre célébration.", "C'est juste que mon fils a eu du mal à s'endormir ce soir."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Pas de souci, c'est normal de réclamer le calme à cette heure.", "Je vais aussi couper la musique complètement dans vingt minutes."],
+        "female_lines": ["C'est très gentil de votre part monsieur.", "Nous sommes voisins depuis deux ans sans aucun problème."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Effectivement, essayons de rester en bons termes.", "Bonne nuit madame et encore mes excuses.", "Je ferai plus attention à l'avenir."],
+        "female_lines": ["Bonne nuit à vous aussi et joyeux anniversaire à votre fille.", "N'hésitez pas à me prévenir la prochaine fois."]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "section": "D",
+    "theme": "Car rental",
+    "question": "Quelle est l'attitude du client ?",
+    "options": [
+      { "id": "A", "text": "Il est mécontent du prix proposé", "image_prompt": null },
+      { "id": "B", "text": "Il hésite entre plusieurs modèles", "image_prompt": null },
+      { "id": "C", "text": "Il demande une garantie supplémentaire", "image_prompt": null },
+      { "id": "D", "text": "Il veut annuler sa réservation", "image_prompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Homme: J'ai réservé une voiture compacte pour cent dollars par jour mais votre site mentionnait quatre-vingts dollars. Femme: Monsieur, le prix affiché est hors taxes et assurances obligatoires. Homme: C'est trompeur comme publicité, personne ne mentionne ces frais cachés au départ. Femme: Je comprends votre mécontentement, je peux vous offrir une réduction de quinze pourcent sur le total.",
+    "transcript_en": "Man: I reserved a compact car for one hundred dollars per day but your website mentioned eighty dollars. Woman: Sir, the displayed price is before taxes and mandatory insurance. Man: This is misleading advertising, nobody mentions these hidden fees at the start. Woman: I understand your dissatisfaction, I can offer you a fifteen percent discount on the total.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["J'ai réservé une voiture compacte pour cent dollars par jour mais votre site mentionnait quatre-vingts dollars.", "C'est trompeur comme publicité, personne ne mentionne ces frais cachés au départ."],
+        "female_lines": ["Monsieur, le prix affiché est hors taxes et assurances obligatoires.", "Je comprends votre mécontentement, je peux vous offrir une réduction de quinze pourcent sur le total."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Quinze pourcent c'est insuffisant, je veux le prix initial affiché.", "C'est une pratique commerciale déloyale selon moi."],
+        "female_lines": ["Je suis désolée monsieur mais je ne peux pas descendre plus bas.", "Cependant je peux inclure le plein d'essence gratuitement."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le plein d'essence ne vaut pas vingt dollars de différence.", "Je vais devoir contester cette facture auprès de mon service client."],
+        "female_lines": ["Permettez-moi de parler à mon superviseur un instant.", "Nous pourrions peut-être trouver une solution alternative."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["J'attends votre proposition dans les cinq minutes.", "Sinon j'annule ma réservation immédiatement.", "Je ne tolère pas les arnaques."],
+        "female_lines": ["Mon superviseur autorise vingt-cinq pourcent de rabais exceptionnel.", "C'est notre meilleure offre possible monsieur."]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "section": "D",
+    "theme": "Restaurant complaint",
+    "question": "Que reproche la cliente au serveur ?",
+    "options": [
+      { "id": "A", "text": "Une erreur dans l'addition", "image_prompt": null },
+      { "id": "B", "text": "Un plat servi froid", "image_prompt": null },
+      { "id": "C", "text": "Un temps d'attente trop long", "image_prompt": null },
+      { "id": "D", "text": "Une réservation non honorée", "image_prompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Femme: Monsieur, nous attendons notre plat principal depuis quarante-cinq minutes. Homme: Je suis désolé madame, la cuisine est débordée ce soir. Femme: Ce n'est pas acceptable, nous avions réservé pour vingt heures et il est maintenant vingt et une heure trente. Homme: Je vais immédiatement vérifier en cuisine et vous offrir le dessert en compensation.",
+    "transcript_en": "Woman: Sir, we have been waiting for our main course for forty-five minutes. Man: I am sorry madam, the kitchen is overwhelmed tonight. Woman: This is not acceptable, we had a reservation for eight PM and it is now nine thirty PM. Man: I will immediately check with the kitchen and offer you dessert as compensation.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je suis désolé madame, la cuisine est débordée ce soir.", "Je vais immédiatement vérifier en cuisine et vous offrir le dessert en compensation."],
+        "female_lines": ["Monsieur, nous attendons notre plat principal depuis quarante-cinq minutes.", "Ce n'est pas acceptable, nous avions réservé pour vingt heures et il est maintenant vingt et une heure trente."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Votre commande est prioritaire maintenant madame.", "Le chef prépare vos plats personnellement."],
+        "female_lines": ["J'espère qu'ils seront bons après tout ce temps d'attente.", "Nous avions prévu d'aller au cinéma après le repas."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je peux appeler le cinéma pour vérifier les horaires si vous voulez.", "Nous avons un service de taxi partenaire qui peut vous conduire rapidement."],
+        "female_lines": ["C'est gentil mais nous avons déjà manqué la séance.", "Au moins le repas sera gratuit grâce à votre offre."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Je vais aussi offrir l'apéritif que vous avez pris.", "Toutes mes excuses pour ce désagrément madame.", "Nous espérons vous revoir malgré cet incident."],
+        "female_lines": ["Merci pour votre compréhension monsieur.", "Nous reviendrons peut-être en semaine quand c'est moins chargé."]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "section": "D",
+    "theme": "Phone service",
+    "question": "Pourquoi le client appelle-t-il ?",
+    "options": [
+      { "id": "A", "text": "Pour résilier son contrat", "image_prompt": null },
+      { "id": "B", "text": "Pour signaler une panne technique", "image_prompt": null },
+      { "id": "C", "text": "Pour changer de forfait", "image_prompt": null },
+      { "id": "D", "text": "Pour contester une facture", "image_prompt": null }
+    ],
+    "correct": 3,
+    "transcript_fr": "Homme: Allô, je voudrais parler au service clientèle concernant ma facture de ce mois. Femme: Oui monsieur, quel est le problème avec votre facture? Homme: J'ai été facturé deux fois pour le même forfait internet et il y a des frais que je ne reconnais pas. Femme: Je vois effectivement une erreur de double facturation, je vais corriger cela immédiatement.",
+    "transcript_en": "Man: Hello, I would like to speak to customer service regarding my bill for this month. Woman: Yes sir, what is the problem with your bill? Man: I was billed twice for the same internet package and there are charges I don't recognize. Woman: I do see a double billing error, I will correct that immediately.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Allô, je voudrais parler au service clientèle concernant ma facture de ce mois.", "J'ai été facturé deux fois pour le même forfait internet et il y a des frais que je ne reconnais pas."],
+        "female_lines": ["Oui monsieur, quel est le problème avec votre facture?", "Je vois effectivement une erreur de double facturation, je vais corriger cela immédiatement."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Il y a aussi des frais de dépassement de data que je conteste.", "Je suis chez moi avec le wifi tout le temps."],
+        "female_lines": ["Vérifions votre consommation data ensemble monsieur.", "Il semble que votre wifi s'est déconnecté pendant trois jours."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Je n'ai remarqué aucune déconnexion chez moi.", "Ces frais sont donc contestables selon moi."],
+        "female_lines": ["Je vais créditer votre compte de quarante dollars.", "Et je vais envoyer un technicien gratuitement vérifier votre installation."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["C'est une solution acceptable merci.", "Quand le technicien peut-il passer?", "Je suis disponible jeudi matin."],
+        "female_lines": ["Je note jeudi entre neuf heures et midi.", "Vous recevrez une confirmation par sms.", "Merci de votre appel monsieur."]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "section": "D",
+    "theme": "Hotel check-in",
+    "question": "Quelle est la réaction de l'hôtesse face à la demande ?",
+    "options": [
+      { "id": "A", "text": "Elle refuse catégoriquement", "image_prompt": null },
+      { "id": "B", "text": "Elle accepte avec un supplément", "image_prompt": null },
+      { "id": "C", "text": "Elle propose une alternative", "image_prompt": null },
+      { "id": "D", "text": "Elle demande un délai de vérification", "image_prompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Homme: Bonjour, j'ai réservé une chambre simple mais serait-il possible d'avoir une chambre avec vue sur le fleuve? Femme: Je suis désolé monsieur, les chambres avec vue sont toutes occupées ce soir. Homme: C'est dommage, c'était pour une occasion spéciale. Femme: Je peux cependant vous proposer une suite junior au même prix avec balcon et vue partielle sur la ville.",
+    "transcript_en": "Man: Hello, I reserved a single room but would it be possible to have a room with a river view? Woman: I am sorry sir, the rooms with views are all occupied tonight. Man: That's too bad, it was for a special occasion. Woman: However I can offer you a junior suite at the same price with balcony and partial city view.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, j'ai réservé une chambre simple mais serait-il possible d'avoir une chambre avec vue sur le fleuve?", "C'est dommage, c'était pour une occasion spéciale."],
+        "female_lines": ["Je suis désolé monsieur, les chambres avec vue sont toutes occupées ce soir.", "Je peux cependant vous proposer une suite junior au même prix avec balcon et vue partielle sur la ville."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Une suite junior au prix d'une simple? C'est généreux.", "La vue partielle inclut quoi exactement?"],
+        "female_lines": ["Vous verrez le Vieux-Port et le dôme du Marché Bonsecours.", "C'est une offre spéciale pour les clients fidèles ce soir."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Parfait, j'accepte avec plaisir.", "Y a-t-il un restaurant dans l'hôtel pour dîner?"],
+        "female_lines": ["Oui, notre restaurant est ouvert jusqu'à vingt-deux heures.", "Je peux réserver une table pour vous si vous le souhaitez."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Ce serait parfait pour vingt-et-une heures.", "Merci beaucoup pour votre excellent service.", "Voici mes papiers d'identité."],
+        "female_lines": ["C'est noté monsieur, voici votre clé de chambre trois-cinq-sept.", "Le petit déjeuner est inclus et servi jusqu'à dix heures.", "Bonne soirée à vous."]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "section": "E",
+    "theme": "Environmental radio interview",
+    "question": "Quel est le sujet principal de l'entrevue ?",
+    "options": [
+      { "id": "A", "text": "L'impact du réchauffement climatique sur l'agriculture québécoise", "image_prompt": null },
+      { "id": "B", "text": "Les nouvelles technologies de recyclage au Québec", "image_prompt": null },
+      { "id": "C", "text": "La protection des espèces menacées dans le Nord", "image_prompt": null },
+      { "id": "D", "text": "Les énergies renouvelables dans les communautés autochtones", "image_prompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Journaliste: Bonjour et bienvenue à notre émission Environnement Hebdo. Aujourd'hui nous recevons le Dr. Martin Tremblay, agronome à l'Université Laval. Dr. Tremblay, comment le réchauffement climatique affecte-t-il nos agriculteurs québécois? Expert: Bonjour, c'est un plaisir d'être ici. Les changements sont déjà visibles avec des saisons de croissance plus courtes et des événements météorologiques extrêmes plus fréquents. Journaliste: Pouvez-vous nous donner des exemples concrets? Expert: Certainement, les agriculteurs de la Montérégie ont subi trois inondations majeures en cinq ans, ce qui a détruit quarante pourcent de leurs récoltes de maïs.",
+    "transcript_en": "Journalist: Hello and welcome to our show Environment Weekly. Today we receive Dr. Martin Tremblay, agronomist at Laval University. Dr. Tremblay, how is global warming affecting our Quebec farmers? Expert: Hello, it's a pleasure to be here. The changes are already visible with shorter growing seasons and more frequent extreme weather events. Journalist: Can you give us concrete examples? Expert: Certainly, farmers in the Montérégie region have suffered three major floods in five years, which destroyed forty percent of their corn crops.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour, c'est un plaisir d'être ici. Les changements sont déjà visibles avec des saisons de croissance plus courtes et des événements météorologiques extrêmes plus fréquents.", "Certainement, les agriculteurs de la Montérégie ont subi trois inondations majeures en cinq ans, ce qui a détruit quarante pourcent de leurs récoltes de maïs."],
+        "female_lines": ["Bonjour et bienvenue à notre émission Environnement Hebdo. Aujourd'hui nous recevons le Dr. Martin Tremblay, agronome à l'Université Laval. Dr. Tremblay, comment le réchauffement climatique affecte-t-il nos agriculteurs québécois?", "Pouvez-vous nous donner des exemples concrets?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les températures hivernales moins froides permettent aussi aux parasites de survivre.", "Cela augmente considérablement les coûts en pesticides pour les fermiers."],
+        "female_lines": ["Quelles solutions proposez-vous pour adapter l'agriculture québécoise?", "Le gouvernement provincial a-t-il un plan d'action?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Nous recommandons la diversification des cultures et l'irrigation intelligente.", "Le ministère a annoncé un fonds de cinquante millions pour la recherche agricole."],
+        "female_lines": ["C'est encourageant mais est-ce suffisant face à l'urgence climatique?", "Les jeunes agriculteurs s'adaptent-ils mieux que les générations précédentes?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les nouvelles générations sont plus ouvertes aux technologies durables.", "Mais ils héritent aussi d'une dette financière considérable qui limite l'innovation."],
+        "female_lines": ["Merci Dr. Tremblay pour ces informations précieuses.", "Nous vous invitons à revenir nous parler des résultats de vos recherches."]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "section": "E",
+    "theme": "Cultural radio interview",
+    "question": "Quel aspect de la culture québécoise est discuté ?",
+    "options": [
+      { "id": "A", "text": "L'évolution de la musique traditionnelle", "image_prompt": null },
+      { "id": "B", "text": "Le renouveau du théâtre d'été", "image_prompt": null },
+      { "id": "C", "text": "La littérature contemporaine", "image_prompt": null },
+      { "id": "D", "text": "L'artisanat des Premières Nations", "image_prompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Journaliste: Nous avons le plaisir d'accueillir Sophie Bernard, directrice du Festival de Théâtre de Saint-Jean. Madame Bernard, le théâtre d'été connaît un regain d'intérêt spectaculaire. Invitée: Absolument, nous avons vendu quatre-vingt mille billets cette année, un record historique. Journaliste: À quoi attribuez-vous ce succès? Invitée: Les Québécois redécouvrent le plaisir des spectacles en plein air après les années de confinement, et notre programmation met en avant des auteurs locaux.",
+    "transcript_en": "Journalist: We have the pleasure of welcoming Sophie Bernard, director of the Saint-Jean Theater Festival. Ms. Bernard, summer theater is experiencing a spectacular revival of interest. Guest: Absolutely, we sold eighty thousand tickets this year, a historic record. Journalist: To what do you attribute this success? Guest: Quebecers are rediscovering the pleasure of outdoor performances after the years of confinement, and our programming highlights local authors.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Nous avons le plaisir d'accueillir Sophie Bernard, directrice du Festival de Théâtre de Saint-Jean. Madame Bernard, le théâtre d'été connaît un regain d'intérêt spectaculaire.", "À quoi attribuez-vous ce succès?", "Absolument, nous avons vendu quatre-vingt mille billets cette année, un record historique.", "Les Québécois redécouvrent le plaisir des spectacles en plein air après les années de confinement, et notre programmation met en avant des auteurs locaux."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Quelles sont les pièces qui ont le plus de succès cette année?", "Les classiques québécois attirent-ils encore le public?", "Notre adaptation des Belles-Sœurs de Michel Tremblay fait salle comble chaque soir.", "Mais les nouvelles créations d'auteurs émergents attirent aussi les foules."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Comment financez-vous ces productions ambitieuses?", "Le gouvernement soutient-il suffisamment le théâtre régional?", "Nous avons diversifié nos sources de revenus avec des partenariats privés.", "Mais les subventions publiques restent essentielles pour l'accessibilité culturelle."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Quels sont vos projets pour l'année prochaine?", "Pensez-vous élargir le festival à d'autres régions?", "Nous envisageons des tournées dans les régions rurales de l'Estrie.", "L'objectif est de démocratiser l'accès à la culture partout au Québec."]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "section": "E",
+    "theme": "Economic radio interview",
+    "question": "Quel enjeu économique est abordé ?",
+    "options": [
+      { "id": "A", "text": "La pénurie de main-d'œuvre qualifiée", "image_prompt": null },
+      { "id": "B", "text": "La hausse du coût de l'immobilier", "image_prompt": null },
+      { "id": "C", "text": "La fermeture d'entreprises historiques", "image_prompt": null },
+      { "id": "D", "text": "L'impact du télétravail sur les centres-villes", "image_prompt": null }
+    ],
+    "correct": 3,
+    "transcript_fr": "Journaliste: Notre invité ce matin est Jean-François Lavoie, économiste à la Chambre de Commerce de Montréal. Monsieur Lavoie, le télétravail transforme nos centres-villes. Expert: C'est une révolution silencieuse mais massive. Le taux d'occupation des bureaux au centre-ville est passé de quatre-vingt-dix à soixante-cinq pourcent. Journaliste: Quelles sont les conséquences pour les commerçants? Expert: Les restaurants et boutiques du centre souffrent énormément car leurs clients restent dans les banlieues. Nous estimons une perte de trois cent millions de revenus commerciaux.",
+    "transcript_en": "Journalist: Our guest this morning is Jean-François Lavoie, economist at the Montreal Chamber of Commerce. Mr. Lavoie, telework is transforming our downtown areas. Expert: It's a silent but massive revolution. The occupancy rate of downtown offices has dropped from ninety to sixty-five percent. Journalist: What are the consequences for merchants? Expert: Downtown restaurants and shops are suffering enormously because their customers stay in the suburbs. We estimate a loss of three hundred million in commercial revenues.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["C'est une révolution silencieuse mais massive. Le taux d'occupation des bureaux au centre-ville est passé de quatre-vingt-dix à soixante-cinq pourcent.", "Les restaurants et boutiques du centre souffrent énormément car leurs clients restent dans les banlieues. Nous estimons une perte de trois cent millions de revenus commerciaux."],
+        "female_lines": ["Notre invité ce matin est Jean-François Lavoie, économiste à la Chambre de Commerce de Montréal. Monsieur Lavoie, le télétravail transforme nos centres-villes.", "Quelles sont les conséquences pour les commerçants?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les municipalités doivent repenser leur modèle économique.", "Certaines convertissent les bureaux vacants en logements résidentiels."],
+        "female_lines": ["Est-ce que les employés veulent vraiment revenir au bureau?", "Les entreprises imposent-elles le retour présentiel?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les sondages montrent que soixante-dix pourcent veulent garder le hybride.", "Les entreprises qui imposent le retour perdent des talents vers la concurrence."],
+        "female_lines": ["Quelles solutions proposez-vous aux décideurs municipaux?", "Faut-il subventionner les commerces en difficulté?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Nous recommandons des incitatifs fiscaux pour les entreprises qui maintiennent des bureaux.", "Et des programmes d'animation pour attirer les gens le week-end."],
+        "female_lines": ["Merci monsieur Lavoie pour cette analyse éclairante.", "Nous suivrons de près l'évolution de cette situation."]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "section": "E",
+    "theme": "Health radio interview",
+    "question": "Quel sujet de santé est traité ?",
+    "options": [
+      { "id": "A", "text": "La santé mentale des adolescents", "image_prompt": null },
+      { "id": "B", "text": "La prévention des maladies cardiaques", "image_prompt": null },
+      { "id": "C", "text": "Les bienfaits du régime méditerranéen", "image_prompt": null },
+      { "id": "D", "text": "Les nouveaux traitements contre le diabète", "image_prompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Journaliste: Le Dr. Catherine Roy nous rejoint pour parler de la crise de santé mentale chez les jeunes. Docteur, les statistiques sont alarmantes. Experte: En effet, les consultations pour dépression et anxiété ont augmenté de cent vingt pourcent chez les douze à dix-huit ans depuis deux mille vingt. Journaliste: Quelles sont les causes principales? Experte: L'isolement social forcé pendant la pandémie a accéléré des problèmes existants, mais les réseaux sociaux jouent aussi un rôle majeur dans l'estime de soi des adolescents.",
+    "transcript_en": "Journalist: Dr. Catherine Roy joins us to talk about the mental health crisis among youth. Doctor, the statistics are alarming. Expert: Indeed, consultations for depression and anxiety have increased by one hundred twenty percent among twelve to eighteen year olds since two thousand twenty. Journalist: What are the main causes? Expert: Forced social isolation during the pandemic accelerated existing problems, but social media also plays a major role in teenagers' self-esteem.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Le Dr. Catherine Roy nous rejoint pour parler de la crise de santé mentale chez les jeunes. Docteur, les statistiques sont alarmantes.", "Quelles sont les causes principales?", "En effet, les consultations pour dépression et anxiété ont augmenté de cent vingt pourcent chez les douze à dix-huit ans depuis deux mille vingt.", "L'isolement social forcé pendant la pandémie a accéléré des problèmes existants, mais les réseaux sociaux jouent aussi un rôle majeur dans l'estime de soi des adolescents."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Les parents peuvent-ils repérer les signes avant-coureurs?", "Quand faut-il consulter un professionnel?", "Les changements d'humeur brutaux et le retrait social sont des indicateurs importants.", "Il faut consulter dès que ces symptômes durent plus de deux semaines."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Les écoles sont-elles équipées pour accompagner ces jeunes?", "Y a-t-il suffisamment de psychologues scolaires?", "Malheureusement il manque trois cents psychologues dans les écoles québécoises.", "Le gouvernement a annoncé vingt nouvelles embauches pour septembre prochain."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Quel message souhaitez-vous adresser aux familles?", "Il faut briser le tabou de la santé mentale et parler ouvertement.", "La guérison est possible avec un soutien approprié.", "Merci docteur Roy pour ces conseils essentiels."]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "section": "F",
+    "theme": "Urban planning debate",
+    "question": "Quelle opinion défend l'homme dans ce débat ?",
+    "options": [
+      { "id": "A", "text": "Il faut construire plus d'autoroutes", "image_prompt": null },
+      { "id": "B", "text": "Il faut privilégier les transports en commun", "image_prompt": null },
+      { "id": "C", "text": "Il faut interdire les voitures en centre-ville", "image_prompt": null },
+      { "id": "D", "text": "Il faut augmenter le prix du stationnement", "image_prompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: Je suis convaincu que notre avenir passe par une réduction drastique de la voiture individuelle. Femme: Je comprends votre position mais les familles de banlieue n'ont pas le choix. Homme: Justement, si on investissait dans des trains de banlieue fréquents et fiables, ces familles auraient une alternative réelle. Femme: Cela coûte des milliards et prend des décennies à construire. Homme: Oui mais chaque dollar investi dans le transport collectif en rapporte quatre en bénéfices économiques et environnementaux.",
+    "transcript_en": "Man: I am convinced that our future depends on a drastic reduction of individual cars. Woman: I understand your position but suburban families have no choice. Man: Exactly, if we invested in frequent and reliable commuter trains, these families would have a real alternative. Woman: That costs billions and takes decades to build. Man: Yes but every dollar invested in public transit returns four in economic and environmental benefits.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je suis convaincu que notre avenir passe par une réduction drastique de la voiture individuelle.", "Justement, si on investissait dans des trains de banlieue fréquents et fiables, ces familles auraient une alternative réelle."],
+        "female_lines": ["Je comprends votre position mais les familles de banlieue n'ont pas le choix.", "Cela coûte des milliards et prend des décennies à construire."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Oui mais chaque dollar investi dans le transport collectif en rapporte quatre en bénéfices économiques et environnementaux.", "Les villes qui ont fait ce choix ont vu leur qualité de vie s'améliorer considérablement."],
+        "female_lines": ["Mais qui paiera pour ces infrastructures massives?", "Les contribuables sont déjà surchargés fiscalement."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["On pourrait financer cela par une taxe sur les véhicules polluants.", "Et les économies réalisées sur la santé publique compenseraient les coûts."],
+        "female_lines": ["Vous êtes idéaliste, les gens aiment leur liberté de conduire.", "Le transport collectif ne convient pas à tout le monde."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["La liberté de conduire devient un fardeau quand on passe deux heures par jour dans les embouteillages.", "Il faut oser penser différemment pour les générations futures."],
+        "female_lines": ["Je reconnais que le statu quo est insoutenable.", "Mais la transition doit être progressive et accompagnée."]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "section": "F",
+    "theme": "Education debate",
+    "question": "Sur quel point les deux intervenants sont-ils en désaccord ?",
+    "options": [
+      { "id": "A", "text": "L'utilité des devoirs à la maison", "image_prompt": null },
+      { "id": "B", "text": "L'âge idéal pour commencer l'école", "image_prompt": null },
+      { "id": "C", "text": "L'importance des examens standardisés", "image_prompt": null },
+      { "id": "D", "text": "Le nombre d'élèves par classe", "image_prompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme: Je pense sincèrement que les devoirs sont néfastes pour l'équilibre familial. Homme: Je ne suis pas d'accord, ils permettent de consolider les apprentissages de la journée. Femme: Mais les enfants passent déjà six heures à l'école, ils ont besoin de temps libre. Homme: Sans travail à la maison, comment vérifier que les concepts sont bien compris? Femme: À travers des projets créatifs et l'engagement parental, pas avec des fiches répétitives.",
+    "transcript_en": "Woman: I sincerely think homework is harmful to family balance. Man: I don't agree, they allow consolidation of the day's learning. Woman: But children already spend six hours at school, they need free time. Man: Without work at home, how do we verify that concepts are well understood? Woman: Through creative projects and parental engagement, not with repetitive worksheets.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Je ne suis pas d'accord, ils permettent de consolider les apprentissages de la journée.", "Sans travail à la maison, comment vérifier que les concepts sont bien compris?"],
+        "female_lines": ["Je pense sincèrement que les devoirs sont néfastes pour l'équilibre familial.", "Mais les enfants passent déjà six heures à l'école, ils ont besoin de temps libre."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les pays asiatiques qui excellent ont des heures de devoirs importantes.", "On ne peut pas sacrifier l'excellence académique."],
+        "female_lines": ["Ces pays ont aussi des taux de suicide chez les jeunes alarmants.", "L'éducation c'est aussi développer la créativité et le bien-être."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Il faut un juste milieu, pas l'abolition totale.", "Vingt minutes par jour suffisent pour réviser sans stresser les familles."],
+        "female_lines": ["Même vingt minutes créent des tensions inutiles le soir.", "Les parents ne sont pas des enseignants qualifiés pour aider."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Alors il faut mieux former les parents, pas supprimer les devoirs.", "L'école et la famille doivent travailler ensemble."],
+        "female_lines": ["Je propose de remplacer les devoirs par du lecture plaisir.", "Cela développe autant les compétences sans la pression."]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "section": "F",
+    "theme": "Technology debate",
+    "question": "Quelle est la position de la femme sur l'intelligence artificielle ?",
+    "options": [
+      { "id": "A", "text": "Elle veut interdire son utilisation", "image_prompt": null },
+      { "id": "B", "text": "Elle prône une régulation stricte", "image_prompt": null },
+      { "id": "C", "text": "Elle encourage son développement libre", "image_prompt": null },
+      { "id": "D", "text": "Elle est indifférente à ce sujet", "image_prompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Homme: L'intelligence artificielle va révolutionner positivement tous les secteurs de notre économie. Femme: Je suis plus prudente, sans cadre légal strict nous risquons le chaos social. Homme: Mais trop de régulation tue l'innovation et nous laisse derrière les autres pays. Femme: Il ne s'agit pas d'interdire mais d'encadrer, comme nous l'avons fait avec les médicaments. Homme: Le problème est que la technologie évolue plus vite que les lois.",
+    "transcript_en": "Man: Artificial intelligence will positively revolutionize all sectors of our economy. Woman: I am more cautious, without a strict legal framework we risk social chaos. Man: But too much regulation kills innovation and leaves us behind other countries. Woman: It's not about forbidding but framing, as we did with medications. Man: The problem is that technology evolves faster than laws.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["L'intelligence artificielle va révolutionner positivement tous les secteurs de notre économie.", "Mais trop de régulation tue l'innovation et nous laisse derrière les autres pays."],
+        "female_lines": ["Je suis plus prudente, sans cadre légal strict nous risquons le chaos social.", "Il ne s'agit pas d'interdire mais d'encadrer, comme nous l'avons fait avec les médicaments."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le problème est que la technologie évolue plus vite que les lois.", "On ne peut pas freiner le progrès à cause de peurs irrationnelles."],
+        "female_lines": ["C'est précisément pourquoi il faut des instances de surveillance indépendantes.", "Les algorithmes discriminent déjà dans l'embauche et les prêts bancaires."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Ces biais peuvent être corrigés avec plus de données diversifiées.", "L'IA peut aussi détecter ces discriminations mieux que les humains."],
+        "female_lines": ["Théoriquement oui, mais les entreprises privées privilégient le profit.", "Il faut des sanctions financières dissuasives pour les abus."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Je suis d'accord sur la nécessité de transparence.", "Mais ne bloquons pas les bénéfices pour des risques hypothétiques."],
+        "female_lines": ["Les risques sont réels, pas hypothétiques.", "Agissons avant qu'il ne soit trop tard pour revenir en arrière."]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "section": "F",
+    "theme": "Immigration debate",
+    "question": "Quel argument utilise l'homme pour défendre sa position ?",
+    "options": [
+      { "id": "A", "text": "Les aspects économiques", "image_prompt": null },
+      { "id": "B", "text": "Les valeurs humanitaires", "image_prompt": null },
+      { "id": "C", "text": "La sécurité nationale", "image_prompt": null },
+      { "id": "D", "text": "L'équilibre démographique", "image_prompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Femme: Nous devons réduire drastiquement l'immigration, nos services publics sont saturés. Homme: C'est une vision à court terme, nos entreprises manquent cruellement de main-d'œuvre. Femme: Mais les nouveaux arrivants coûtent cher en santé et en éducation avant de contribuer. Homme: Études à l'appui, les immigrants génèrent plus de richesse fiscale à long terme qu'ils n'en consomment. Femme: Peut-être, mais l'intégration échoue trop souvent dans les communautés.",
+    "transcript_en": "Woman: We must drastically reduce immigration, our public services are saturated. Man: That's a short-term vision, our companies desperately lack workforce. Woman: But newcomers cost dearly in health and education before contributing. Man: Studies support that immigrants generate more fiscal wealth in the long term than they consume. Woman: Perhaps, but integration fails too often in communities.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["C'est une vision à court terme, nos entreprises manquent cruellement de main-d'œuvre.", "Études à l'appui, les immigrants génèrent plus de richesse fiscale à long terme qu'ils n'en consomment."],
+        "female_lines": ["Nous devons réduire drastiquement l'immigration, nos services publics sont saturés.", "Mais les nouveaux arrivants coûtent cher en santé et en éducation avant de contribuer."]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Le vieillissement de la population nous oblige à accueillir plus de jeunes.", "Sinon notre système de retraite s'effondrera dans vingt ans."],
+        "female_lines": ["Je reconnais le défi démographique mais la qualité prime sur la quantité.", "Il faut mieux sélectionner les profils dont nous avons besoin."]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le modèle canadien à points fait déjà ce travail de sélection.", "Nous attirons les meilleurs talents du monde entier."],
+        "female_lines": ["Les réfugiés ne passent pas par ce système à points.", "Et ils représentent une part croissante des arrivées."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Notre devoir humanitaire est aussi une richesse, pas seulement un coût.", "Le Canada a été bâti par l'immigration et continuera de l'être."],
+        "female_lines": ["Je ne nie pas notre histoire mais l'adaptation est nécessaire.", "Trouvons un équilibre entre générosité et capacités réelles."]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "section": "G",
+    "theme": "Historical lecture",
+    "question": "Quel est le thème principal de cette conférence ?",
+    "options": [
+      { "id": "A", "text": "La Révolution tranquille et ses conséquences", "image_prompt": null },
+      { "id": "B", "text": "La fondation de la ville de Québec", "image_prompt": null },
+      { "id": "C", "text": "L'histoire des Premières Nations", "image_prompt": null },
+      { "id": "D", "text": "L'industrialisation du Québec", "image_prompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Conférencier: Bonjour à tous, aujourd'hui nous allons explorer ensemble un tournant fondamental de notre histoire québécoise: la Révolution tranquille des années soixante. Étudiante: Monsieur, pourquoi appelle-t-on cette période tranquille alors que tant de changements radicaux ont eu lieu? Conférencier: Excellente question. On parle de tranquille car contrairement aux révolutions sanglantes de l'histoire, cette transformation s'est faite de manière pacifique et démocratique, principalement à travers des réformes législatives et l'action syndicale. Étudiante: Quels étaient les principaux combats de cette époque? Conférencier: Il y avait d'abord la nationalisation de l'électricité avec la création d'Hydro-Québec en mille-neuf-cent-soixante-trois, qui a permis de sortir le Québec de l'ère de la grande noirceur économique.",
+    "transcript_en": "Speaker: Hello everyone, today we will explore together a fundamental turning point in our Quebec history: the Quiet Revolution of the nineteen sixties. Student: Sir, why is this period called quiet when so many radical changes took place? Speaker: Excellent question. We call it quiet because unlike the bloody revolutions of history, this transformation happened peacefully and democratically, mainly through legislative reforms and union action. Student: What were the main struggles of this era? Speaker: First there was the nationalization of electricity with the creation of Hydro-Quebec in nineteen sixty-three, which allowed Quebec to emerge from the era of great economic darkness.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bonjour à tous, aujourd'hui nous allons explorer ensemble un tournant fondamental de notre histoire québécoise: la Révolution tranquille des années soixante.", "On parle de tranquille car contrairement aux révolutions sanglantes de l'histoire, cette transformation s'est faite de manière pacifique et démocratique, principalement à travers des réformes législatives et l'action syndicale."],
+        "female_lines": ["Monsieur, pourquoi appelle-t-on cette période tranquille alors que tant de changements radicaux ont eu lieu?", "Quels étaient les principaux combats de cette époque?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Il y avait d'abord la nationalisation de l'électricité avec la création d'Hydro-Québec en mille-neuf-cent-soixante-trois, qui a permis de sortir le Québec de l'ère de la grande noirceur économique.", "Ensuite vint la réforme du système d'éducation avec la création du ministère de l'Éducation et des universités du Québec."],
+        "female_lines": ["Cette nationalisation était vraiment nécessaire?", "Comment les Québécois vivaient-ils avant ces changements?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Avant, l'Église catholique contrôlait presque tous les aspects de la vie sociale et éducative.", "Les Québécois étaient parmi les populations les moins scolarisées du continent nord-américain."],
+        "female_lines": ["C'est difficile d'imaginer cette réalité aujourd'hui.", "Quel rôle ont joué les femmes dans cette révolution?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Les femmes ont été aux avant-postes, notamment dans les mouvements syndicaux et la lutte pour l'accès à l'éducation supérieure.", "C'est aussi à cette époque que le mouvement féministe québécois a pris son essor."],
+        "female_lines": ["Et sur le plan linguistique, qu'est-ce qui a changé?", "Le statut du français a-t-il été amélioré?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Absolument, la loi cent-un sur la langue officielle en mille-neuf-cent-soixante-dix-sept a fait du français la langue du travail et du commerce.", "C'était une affirmation identitaire majeure pour la nation québécoise."],
+        "female_lines": ["Ces changements ont-ils eu des conséquences négatives?", "Certains parlent de perte de traditions."]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Il y a eu des tensions entre modernité et tradition, c'est inévitable.", "Mais globalement, le Québec est devenu une société plus juste et prospère."],
+        "female_lines": ["Merci monsieur pour cette présentation éclairante.", "Cela donne une nouvelle perspective sur notre identité québécoise."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["N'oubliez pas que cette révolution continue encore aujourd'hui.", "Chaque génération doit réinterpréter ces acquis fondamentaux."],
+        "female_lines": ["Je vais certainement approfondir ce sujet dans mon mémoire.", "Y a-t-il des archives accessibles pour les étudiants?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Le Centre d'archives de Montréal possède des documents exceptionnels.", "Je peux vous donner une liste de lectures complémentaires après le cours."],
+        "female_lines": ["Ce serait très utile merci.", "La prochaine conférence portera-t-elle sur la souveraineté?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Oui, nous aborderons les référendums de quatre-vingt et quatre-vingt-quinze.", "C'est la suite logique de notre réflexion sur l'affirmation identitaire."],
+        "female_lines": ["J'ai hâte d'en apprendre plus sur cette période.", "Merci encore pour votre temps."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Je vous remercie de votre participation active.", "N'oubliez pas le devoir à remettre vendredi prochain.", "Bonne journée à tous."],
+        "female_lines": ["Au revoir monsieur.", "À la semaine prochaine."]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "section": "G",
+    "theme": "Scientific presentation",
+    "question": "Quelle découverte scientifique est présentée ?",
+    "options": [
+      { "id": "A", "text": "Une nouvelle espèce marine dans l'Arctique", "image_prompt": null },
+      { "id": "B", "text": "Un traitement contre la maladie d'Alzheimer", "image_prompt": null },
+      { "id": "C", "text": "Une méthode de dépollution des océans", "image_prompt": null },
+      { "id": "D", "text": "Une avancée dans l'énergie solaire", "image_prompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Chercheur: Mesdames et messieurs, je suis honoré de présenter nos dernières avancées sur la maladie d'Alzheimer. Collègue: Docteur Lefebvre, pouvez-vous expliquer en termes simples votre découverte? Chercheur: Bien sûr. Nous avons identifié une protéine appelée tau qui forme des enchevêtrements dans le cerveau des patients. Notre équipe a développé un anticorps capable de dissoudre ces enchevêtrements sans toucher aux cellules saines. Collègue: C'est révolutionnaire! Quelle est la prochaine étape? Chercheur: Nous entamons les essais cliniques de phase trois sur cinq mille patients volontaires à travers le Canada.",
+    "transcript_en": "Researcher: Ladies and gentlemen, I am honored to present our latest advances on Alzheimer's disease. Colleague: Dr. Lefebvre, can you explain in simple terms your discovery? Researcher: Of course. We have identified a protein called tau that forms tangles in patients' brains. Our team has developed an antibody capable of dissolving these tangles without touching healthy cells. Colleague: This is revolutionary! What is the next step? Researcher: We are beginning phase three clinical trials on five thousand volunteer patients across Canada.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mesdames et messieurs, je suis honoré de présenter nos dernières avancées sur la maladie d'Alzheimer.", "Bien sûr. Nous avons identifié une protéine appelée tau qui forme des enchevêtrements dans le cerveau des patients. Notre équipe a développé un anticorps capable de dissoudre ces enchevêtrements sans toucher aux cellules saines."],
+        "female_lines": ["Docteur Lefebvre, pouvez-vous expliquer en termes simples votre découverte?", "C'est révolutionnaire! Quelle est la prochaine étape?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nous entamons les essais cliniques de phase trois sur cinq mille patients volontaires à travers le Canada.", "Les résultats préliminaires montrent une amélioration de trente pourcent des fonctions cognitives."],
+        "female_lines": ["Quand ce traitement sera-t-il disponible pour le grand public?", "Combien de temps faut-il pour approuver un nouveau médicament?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Si les essais sont concluants, nous espérons une approbation dans trois ans.", "Le processus réglementaire canadien est rigoureux mais efficace."],
+        "female_lines": ["Ce traitement fonctionne-t-il à tous les stades de la maladie?", "Quels sont les effets secondaires observés?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Il est plus efficace chez les patients aux stades légers à modérés.", "Quelques effets secondaires mineurs comme des maux de tête ont été signalés."],
+        "female_lines": ["Le coût de ce traitement sera-t-il accessible?", "Les assurances maladie le couvriront-elles?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Nous travaillons avec le gouvernement fédéral pour un prix abordable.", "Notre priorité est de sauver des vies, pas de faire des profits exorbitants."],
+        "female_lines": ["Comment vos recherches ont-elles été financées?", "Le public canadien a-t-il contribué?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Les Instituts de recherche en santé du Canada ont été nos principaux bailleurs de fonds.", "Mais nous avons aussi reçu des dons privés de familles touchées par la maladie."],
+        "female_lines": ["C'est encourageant de voir cette collaboration entre secteurs.", "Y a-t-il d'autres équipes qui travaillent sur des approches similaires?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Oui, c'est une course internationale mais nous partageons nos données.", "La science progresse plus vite quand nous collaborons plutôt que rivalisons."],
+        "female_lines": ["Quel message souhaitez-vous adresser aux familles concernées?", "Y a-t-il de l'espoir réel?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Il y a toujours de l'espoir et la science avance à pas de géant.", "Je recommande aux familles de contacter notre centre pour les essais cliniques."],
+        "female_lines": ["Merci docteur pour cette présentation inspirante.", "Pouvons-nous visiter vos laboratoires?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Les visites sont organisées chaque mois, je vous donnerai les coordonnées.", "Nous avons besoin de soutien public pour continuer nos recherches."],
+        "female_lines": ["Je ferai certainement un don à votre fondation.", "Comment peut-on sensibiliser le grand public?"]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Participez à la Marche pour la mémoire chaque automne.", "Ensemble nous vaincrons cette maladie dévastatrice.", "Merci de votre attention."],
+        "female_lines": ["Merci pour votre engagement.", "Nous vous soutiendrons dans cette cause."]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "section": "G",
+    "theme": "Literary analysis",
+    "question": "Quelle œuvre littéraire est analysée ?",
+    "options": [
+      { "id": "A", "text": "Maria Chapdelaine", "image_prompt": null },
+      { "id": "B", "text": "Bonheur d'occasion", "image_prompt": null },
+      { "id": "C", "text": "Les Belles-Sœurs", "image_prompt": null },
+      { "id": "D", "text": "L'avalée des avalés", "image_prompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Professeur: Aujourd'hui nous allons étudier en profondeur Bonheur d'occasion de Gabrielle Roy, ce roman qui a marqué la littérature québécoise. Étudiant: Pourquoi ce livre est-il considéré comme si important dans notre canon littéraire? Professeur: Publié en mille-neuf-cent-quarante-cinq, il a été le premier roman canadien-français à remporter le prix Femina à Paris. Il a brisé l'image idyllique du Québec rural pour montrer la réalité brutale de la misère urbaine à Saint-Henri. Étudiant: Comment l'auteure dépeint-elle la condition ouvrière? Professeur: À travers la famille Lacasse, elle montre l'écrasement quotidien, la lutte pour la dignité et les rêves brisés par la pauvreté.",
+    "transcript_en": "Professor: Today we will study in depth The Tin Flute by Gabrielle Roy, this novel that marked Quebec literature. Student: Why is this book considered so important in our literary canon? Professor: Published in nineteen forty-five, it was the first French-Canadian novel to win the Femina Prize in Paris. It broke the idyllic image of rural Quebec to show the brutal reality of urban poverty in Saint-Henri. Student: How does the author depict the working-class condition? Professor: Through the Lacasse family, she shows the daily crushing, the struggle for dignity and dreams broken by poverty.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Aujourd'hui nous allons étudier en profondeur Bonheur d'occasion de Gabrielle Roy, ce roman qui a marqué la littérature québécoise.", "Publié en mille-neuf-cent-quarante-cinq, il a été le premier roman canadien-français à remporter le prix Femina à Paris. Il a brisé l'image idyllique du Québec rural pour montrer la réalité brutale de la misère urbaine à Saint-Henri."],
+        "female_lines": ["Pourquoi ce livre est-il considéré comme si important dans notre canon littéraire?", "Comment l'auteure dépeint-elle la condition ouvrière?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["À travers la famille Lacasse, elle montre l'écrasement quotidien, la lutte pour la dignité et les rêves brisés par la pauvreté.", "Le personnage de Florentine Lacasse incarne particulièrement cette quête de bonheur impossible."],
+        "female_lines": ["Pourquoi le titre fait-il référence à un bonheur d'occasion?", "Est-ce que les personnages trouvent finalement le bonheur?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le titre suggère que le bonheur accessible à ces gens est de seconde main, imparfait et fragile.", "La fin reste ambiguë, entre espoir et résignation."],
+        "female_lines": ["Quel est le rôle de la ville de Montréal dans le récit?", "L'urbanisation est-elle présentée positivement?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Montréal est presque un personnage à part entière, oppressant et fascinant.", "L'urbanisation est montrée comme destructrice des liens communautaires traditionnels."],
+        "female_lines": ["Comment le style d'écriture de Gabrielle Roy se distingue-t-il?", "Utilise-t-elle des techniques particulières?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Elle emploie un réalisme poétique qui juxtapose la laideur matérielle et la beauté intérieure.", "Ses descriptions sensorielles sont particulièrement puissantes."],
+        "female_lines": ["Ce roman est-il toujours pertinent aujourd'hui?", "Les jeunes lecteurs peuvent-ils s'y identifier?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Malheureusement, les inégalités sociales décrites existent toujours dans nos sociétés.", "L'actualité du texte réside dans son humanité universelle."],
+        "female_lines": ["Y a-t-il eu une adaptation cinématographique de l'œuvre?", "Le film est-il fidèle au livre?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Denys Arcand a réalisé une adaptation en mille-neuf-cent-quatre-vingt-trois.", "Elle capture bien l'atmosphère mais simplifie certains aspects psychologiques."],
+        "female_lines": ["Quels autres livres de Gabrielle Roy recommandez-vous?", "A-t-elle écrit d'autres chefs-d'œuvre?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["La Petite Poule d'eau et Rue Deschambault sont également excellents.", "Son œuvre est vaste et mérite d'être découverte en profondeur."],
+        "female_lines": ["Merci professeur pour cette analyse passionnante.", "Je vais relire le roman avec ce nouveau regard."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Je vous encourage à comparer avec les romans de Roger Lemelin.", "Cela enrichira votre compréhension de la littérature ouvrière québécoise."],
+        "female_lines": ["C'est une excellente idée.", "Y a-t-il des archives de Gabrielle Roy accessibles au public?"]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Ses papiers sont conservés à Bibliothèque et Archives Canada.", "Vous pouvez aussi visiter sa maison natale à Saint-Boniface au Manitoba.", "Je vous souhaite une bonne lecture."],
+        "female_lines": ["Je note ces références.", "Au revoir professeur."]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "section": "G",
+    "theme": "Legal proceedings",
+    "question": "Quel type de procès est décrit ?",
+    "options": [
+      { "id": "A", "text": "Un procès civil pour dommages", "image_prompt": null },
+      { "id": "B", "text": "Un procès criminel pour vol", "image_prompt": null },
+      { "id": "C", "text": "Une audience sur la garde d'enfants", "image_prompt": null },
+      { "id": "D", "text": "Un litige commercial entre entreprises", "image_prompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Avocat: Votre Honneur, mon client réclame deux cent mille dollars pour préjudice moral et perte de revenus. Juge: Monsieur l'avocat, pouvez-vous résumer les faits de cette affaire? Avocat: Ma cliente, Madame Bergeron, a subi une chirurgie esthétique ratée qui lui a laissé des cicatrices permanentes au visage. Le chirurgien a nié toute négligence pendant deux ans avant de reconnaître son erreur. Juge: Quelles preuves médicales présentez-vous? Avocat: Nous avons des rapports de trois spécialistes indépendants confirmant que les techniques utilisées étaient inadéquates pour ce type d'intervention.",
+    "transcript_en": "Lawyer: Your Honor, my client is claiming two hundred thousand dollars for moral damages and loss of income. Judge: Mr. Lawyer, can you summarize the facts of this case? Lawyer: My client, Mrs. Bergeron, underwent failed cosmetic surgery that left her with permanent facial scars. The surgeon denied any negligence for two years before acknowledging his error. Judge: What medical evidence do you present? Lawyer: We have reports from three independent specialists confirming that the techniques used were inadequate for this type of intervention.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Votre Honneur, mon client réclame deux cent mille dollars pour préjudice moral et perte de revenus.", "Ma cliente, Madame Bergeron, a subi une chirurgie esthétique ratée qui lui a laissé des cicatrices permanentes au visage. Le chirurgien a nié toute négligence pendant deux ans avant de reconnaître son erreur."],
+        "female_lines": ["Monsieur l'avocat, pouvez-vous résumer les faits de cette affaire?", "Quelles preuves médicales présentez-vous?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nous avons des rapports de trois spécialistes indépendants confirmant que les techniques utilisées étaient inadéquates pour ce type d'intervention.", "De plus, ma cliente a dû consulter un psychologue pendant dix-huit mois pour dépression."],
+        "female_lines": ["Quel est le montant des frais médicaux déjà engagés?", "Le chirurgien a-t-il proposé une compensation amiable?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Les frais médicaux s'élèvent à quarante-cinq mille dollars jusqu'à présent.", "Le chirurgien a offert quinze mille dollars, ce qui est insultant compte tenu des séquelles."],
+        "female_lines": ["Passons la parole à l'avocat de la défense.", "Monsieur, quelle est votre réponse à ces accusations?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Votre Honneur, mon client reconnaît une complication rare mais pas une négligence.", "Les risques étaient clairement expliqués dans le consentement signé."],
+        "female_lines": ["Les complications étaient-elles mentionnées spécifiquement dans le document?", "Le patient a-t-il été informé des alternatives?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Le consentement général couvrait les risques inhérents à toute chirurgie.", "Mon client est un chirurgien réputé avec vingt ans d'expérience sans plainte."],
+        "female_lines": ["L'expérience ne garantit pas l'absence d'erreur.", "Qu'en dit l'expert mandaté par le tribunal?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["L'expert du tribunal confirme partiellement la négligence technique.", "Mais il minimise l'impact psychologique selon nous."],
+        "female_lines": ["Je vais entendre le témoignage de la victime maintenant.", "Madame Bergeron, pouvez-vous décrire votre quotidien depuis l'intervention?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Je ne sors plus de chez moi sans porter un masque.", "J'ai perdu mon emploi de vendeuse car je ne peux plus approcher les clients."],
+        "female_lines": ["C'est une situation très difficile.", "Avez-vous tenté des traitements réparateurs?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["J'ai subi trois opérations correctives sans succès.", "Mon moral est au plus bas et je prends des antidépresseurs depuis deux ans."],
+        "female_lines": ["Je comprends votre souffrance.", "Le tribunal prendra sa décision dans quinze jours."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Merci Votre Honneur d'avoir entendu cette cause.", "Nous espérons que justice sera rendue pour ma cliente."],
+        "female_lines": ["L'audience est levée.", "Les parties seront informées du jugement par écrit."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Nous avons fait tout notre possible pour démontrer la vérité.", "Le verdict réconfortera d'autres victimes d'erreurs médicales."],
+        "female_lines": ["Bonne journée à tous.", "Que le greffier consigne les dernières déclarations."]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "section": "G",
+    "theme": "Architectural project presentation",
+    "question": "Quel est l'objectif principal du projet présenté ?",
+    "options": [
+      { "id": "A", "text": "Créer un espace culturel multifonctionnel", "image_prompt": null },
+      { "id": "B", "text": "Rénover un patrimoine historique", "image_prompt": null },
+      { "id": "C", "text": "Construire un quartier écologique", "image_prompt": null },
+      { "id": "D", "text": "Développer un centre commercial moderne", "image_prompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Architecte: Mesdames et messieurs, je vous présente le projet Éco-Quartier Saint-Michel, une initiative révolutionnaire en urbanisme durable. Cliente: Pouvez-vous nous expliquer la philosophie derrière ce concept? Architecte: Nous visons la neutralité carbone totale d'ici deux mille trente-cinq. Le quartier produira son énergie via des panneaux solaires intégrés aux façades, récupérera les eaux de pluie pour l'irrigation, et utilisera uniquement des matériaux de construction recyclés ou biosourcés. Cliente: Comment gérez-vous la mobilité des résidents? Architecte: Aucune voiture privée ne sera autorisée à l'intérieur du périmètre. Des navettes électriques autonomes, des pistes cyclables sécurisées et des trottoirs chauffés l'hiver faciliteront les déplacements.",
+    "transcript_en": "Architect: Ladies and gentlemen, I present to you the Eco-District Saint-Michel project, a revolutionary initiative in sustainable urban planning. Client: Can you explain the philosophy behind this concept? Architect: We aim for total carbon neutrality by two thousand thirty-five. The district will produce its energy via solar panels integrated into facades, recover rainwater for irrigation, and use only recycled or bio-sourced construction materials. Client: How do you manage residents' mobility? Architect: No private cars will be allowed inside the perimeter. Autonomous electric shuttles, secure bike paths and heated sidewalks in winter will facilitate travel.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mesdames et messieurs, je vous présente le projet Éco-Quartier Saint-Michel, une initiative révolutionnaire en urbanisme durable.", "Nous visons la neutralité carbone totale d'ici deux mille trente-cinq. Le quartier produira son énergie via des panneaux solaires intégrés aux façades, récupérera les eaux de pluie pour l'irrigation, et utilisera uniquement des matériaux de construction recyclés ou biosourcés."],
+        "female_lines": ["Pouvez-vous nous expliquer la philosophie derrière ce concept?", "Comment gérez-vous la mobilité des résidents?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Aucune voiture privée ne sera autorisée à l'intérieur du périmètre. Des navettes électriques autonomes, des pistes cyclables sécurisées et des trottoirs chauffés l'hiver faciliteront les déplacements.", "Chaque logement disposera d'un jardin potager collectif sur le toit."],
+        "female_lines": ["Quel est le coût estimé par unité d'habitation?", "Ce projet reste-t-il accessible financièrement?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le coût initial est de quinze pourcent supérieur à la construction traditionnelle.", "Mais les économies d'énergie permettent un retour sur investissement en sept ans."],
+        "female_lines": ["Comment assurez-vous la mixité sociale dans ce quartier?", "Y aura-t-il des logements abordables?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Trente pourcent des logements sont réservés aux coopératives d'habitation.", "Nous travaillons avec la Société d'habitation du Québec pour les subventions."],
+        "female_lines": ["Quelle surface occupera ce quartier?", "Combien de personnes pourront y vivre?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Le site fait vingt hectares sur l'ancienne carrière Miron.", "Nous accueillerons environ cinq mille résidents dans mille-huit-cents unités."],
+        "female_lines": ["Le chantier commence quand?", "Quelle est la durée totale des travaux?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Les travaux débutent au printemps prochain pour une livraison en deux mille trente.", "Nous avons déjà soixante pourcent des unités en prévente."],
+        "female_lines": ["Quels commerces et services seront disponibles sur place?", "Les résidents devront-ils sortir du quartier pour leurs besoins quotidiens?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Un marché d'alimentation locale, une clinique médicale et une école primaire seront intégrés.", "L'objectif est d'avoir quatre-vingt pourcent des besoins accessibles à pied."],
+        "female_lines": ["Comment gérez-vous les déchets dans un tel projet?", "Y a-t-il un compostage collectif?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Chaque immeuble possède un système de tri sélectif automatisé.", "Les déchets organiques sont transformés en biogaz pour chauffer les espaces communs."],
+        "female_lines": ["C'est impressionnant.", "Avez-vous des certifications environnementales?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Nous visons la certification LEED platine et le label Bâtiment durable du Québec.", "Notre ambition est de devenir un modèle pour l'Amérique du Nord."],
+        "female_lines": ["Je suis convaincue par votre vision.", "Quand pouvons-nous signer pour une unité?"]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Je vais vous présenter à notre directeur commercial immédiatement.", "Merci de votre confiance dans ce projet novateur.", "Nous construisons ensemble l'avenir de Montréal."],
+        "female_lines": ["Merci pour cette présentation détaillée.", "J'ai hâte d'emménager dans ce quartier du futur."]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "section": "H",
+    "theme": "Philosophical debate",
+    "question": "Quelle question philosophique est abordée ?",
+    "options": [
+      { "id": "A", "text": "Le libre arbitre existe-t-il?", "image_prompt": null },
+      { "id": "B", "text": "Qu'est-ce que le bonheur véritable?", "image_prompt": null },
+      { "id": "C", "text": "La technologie rend-elle plus libre?", "image_prompt": null },
+      { "id": "D", "text": "Peut-on vivre éthiquement dans une société injuste?", "image_prompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Philosophe: Chers auditeurs, abordons aujourd'hui une question millénaire: sommes-nous réellement libres de nos choix ou sommes-nous déterminés par nos gènes et notre environnement? Interlocuteur: C'est un débat complexe. Les neurosciences suggèrent que notre cerveau décide avant que nous en ayons conscience. Philosophe: Exactement, l'expérience de Libet dans les années quatre-vingt a montré que l'activité cérébrale précède la décision consciente de sept cent cinquante millisecondes. Interlocuteur: Donc le libre arbitre serait une illusion? Philosophe: Pas nécessairement. Même si nos choix sont encadrés par des facteurs biologiques et sociaux, nous avons la capacité de réfléchir, de peser les conséquences morales, ce qui constitue une forme de liberté compatibiliste.",
+    "transcript_en": "Philosopher: Dear listeners, let us address today a millennial question: are we truly free in our choices or are we determined by our genes and environment? Interlocutor: This is a complex debate. Neuroscience suggests that our brain decides before we are conscious of it. Philosopher: Exactly, Libet's experiment in the nineteen eighties showed that brain activity precedes conscious decision by seven hundred fifty milliseconds. Interlocutor: So free will would be an illusion? Philosopher: Not necessarily. Even if our choices are framed by biological and social factors, we have the capacity to reflect, to weigh moral consequences, which constitutes a form of compatibilist freedom.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Chers auditeurs, abordons aujourd'hui une question millénaire: sommes-nous réellement libres de nos choix ou sommes-nous déterminés par nos gènes et notre environnement?", "Exactement, l'expérience de Libet dans les années quatre-vingt a montré que l'activité cérébrale précède la décision consciente de sept cent cinquante millisecondes.", "Pas nécessairement. Même si nos choix sont encadrés par des facteurs biologiques et sociaux, nous avons la capacité de réfléchir, de peser les conséquences morales, ce qui constitue une forme de liberté compatibiliste."],
+        "female_lines": ["C'est un débat complexe. Les neurosciences suggèrent que notre cerveau décide avant que nous en ayons conscience.", "Donc le libre arbitre serait une illusion?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["La question est de savoir si cette forme de liberté suffit pour établir une responsabilité morale.", "Peut-on blâmer quelqu'un pour des actes déterminés par son cerveau?"],
+        "female_lines": ["Cela remet en cause tout notre système juridique basé sur la responsabilité.", "Comment condamner un criminel s'il n'est pas libre de ses actes?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le système juridique pourrait évoluer vers une approche plus réhabilitative.", "Mais la rétribution reste nécessaire pour la cohésion sociale, même sans libre arbitre absolu."],
+        "female_lines": ["Qu'en dit la tradition philosophique existentialiste?", "Sartre défendait pourtant une liberté radicale."]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Sartre exagérait la liberté pour des raisons éthiques, pas métaphysiques.", "Il voulait que nous assumions nos choix même dans la contrainte."],
+        "female_lines": ["Et la psychologie cognitive moderne?", "Elle confirme ou infirme ces théories?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["Elle montre que nous sommes plus prévisibles que nous ne le pensons.", "Mais elle révèle aussi notre capacité à changer nos schémas de pensée."],
+        "female_lines": ["Donc une liberté par l'éducation et la réflexion?", "Plutôt qu'une liberté absolue?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Exactement, une liberté cultivée et consciente de ses limites.", "C'est peut-être la seule liberté réaliste et souhaitable."],
+        "female_lines": ["Cela change notre rapport à la culpabilité et au regret.", "On pourrait se pardonner plus facilement."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Le stoïcisme antique proposait déjà cette sagesse.", "Accepter ce qui dépend de nous et ce qui ne dépend pas de nous."],
+        "female_lines": ["C'est une perspective apaisante.", "Mais est-elle compatible avec l'ambition personnelle?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["L'ambition peut s'exercer dans le cadre de nos possibilités réelles.", "Ce n'est pas une limitation mais une orientation plus sage."],
+        "female_lines": ["Merci pour ces éclaircissements.", "Je vais relire les stoïciens avec ce nouveau regard."]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Je vous recommande particulièrement Marc Aurèle et Épictète.", "Leurs enseignements restent étonnamment modernes."],
+        "female_lines": ["Je note ces références.", "Y a-t-il des applications concrètes dans la vie quotidienne?"]
+      },
+      {
+        "point": 10,
+        "male_lines": ["La méditation de pleine conscience en est une application directe.", "Elle nous apprend à observer nos pensées sans les suivre aveuglément.", "Merci de votre écoute attentive."],
+        "female_lines": ["Je vais m'y mettre sérieusement.", "Au revoir et merci pour cette discussion enrichissante."]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "section": "H",
+    "theme": "Economic theory discussion",
+    "question": "Quelle théorie économique est discutée ?",
+    "options": [
+      { "id": "A", "text": "Le keynésianisme moderne", "image_prompt": null },
+      { "id": "B", "text": "L'économie comportementale", "image_prompt": null },
+      { "id": "C", "text": "La théorie des jeux appliquée", "image_prompt": null },
+      { "id": "D", "text": "Le décroissance économique", "image_prompt": null }
+    ],
+    "correct": 1,
+    "transcript_fr": "Économiste: Bienvenue dans ce séminaire sur les nouvelles approches économiques. Aujourd'hui nous explorons l'économie comportementale, qui remet en question le modèle de l'homo economicus. Étudiante: En quoi cette théorie diffère-t-elle de l'économie néoclassique traditionnelle? Économiste: L'économie traditionnelle suppose que nous sommes des calculateurs rationnels maximisant toujours notre utilité. Kahneman et Tversky ont démontré que nous sommes en réalité sujets à de nombreux biais cognitifs. Étudiante: Pouvez-vous donner des exemples concrets? Économiste: Prenons l'aversion aux pertes: une personne ressent plus de douleur à perdre cent dollars que de plaisir à en gagner cent. Cela viole la rationalité pure mais explique pourquoi les gens conservent des actions en baisse trop longtemps.",
+    "transcript_en": "Economist: Welcome to this seminar on new economic approaches. Today we explore behavioral economics, which challenges the homo economicus model. Student: How does this theory differ from traditional neoclassical economics? Economist: Traditional economics assumes we are rational calculators always maximizing our utility. Kahneman and Tversky demonstrated that we are actually subject to numerous cognitive biases. Student: Can you give concrete examples? Economist: Take loss aversion: a person feels more pain losing one hundred dollars than pleasure gaining one hundred. This violates pure rationality but explains why people hold falling stocks too long.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Bienvenue dans ce séminaire sur les nouvelles approches économiques. Aujourd'hui nous explorons l'économie comportementale, qui remet en question le modèle de l'homo economicus.", "L'économie traditionnelle suppose que nous sommes des calculateurs rationnels maximisant toujours notre utilité. Kahneman et Tversky ont démontré que nous sommes en réalité sujets à de nombreux biais cognitifs.", "Prenons l'aversion aux pertes: une personne ressent plus de douleur à perdre cent dollars que de plaisir à en gagner cent. Cela viole la rationalité pure mais explique pourquoi les gens conservent des actions en baisse trop longtemps."],
+        "female_lines": ["En quoi cette théorie diffère-t-elle de l'économie néoclassique traditionnelle?", "Pouvez-vous donner des exemples concrets?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Un autre exemple est l'effet de cadrage: présenter une option comme quatre-vingt-dix pourcent de chances de survie ou dix pourcent de chances de décès change complètement le choix.", "Pourtant mathématiquement c'est identique."],
+        "female_lines": ["Comment ces découvertes sont-elles appliquées en politique publique?", "Les gouvernements utilisent-ils ces connaissances?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Le nudge ou coup de pouce libéral paternaliste en est une application directe.", "Par exemple, placer les aliments sains au niveau des yeux dans les cantines augmente leur consommation."],
+        "female_lines": ["N'est-ce pas manipulatoire de façonner les choix des gens?", "Où tracer la ligne entre aide et manipulation?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["C'est une question éthique légitime. La transparence est essentielle.", "Les citoyens doivent savoir que l'architecture du choix est consciemment conçue."],
+        "female_lines": ["Quels autres domaines sont concernés par ces biais?", "La santé publique?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["La vaccination est un excellent exemple. L'optimisme biaisé fait croire que les autres tomberont malades mais pas nous.", "D'où la nécessité de rappels et d'incentives."],
+        "female_lines": ["Et dans le domaine financier?", "Les banques utilisent-elles ces connaissances?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Malheureusement oui, parfois contre l'intérêt des consommateurs.", "C'est pourquoi la régulation encadre désormais les pratiques de crédit."],
+        "female_lines": ["Comment peut-on éduquer les gens à reconnaître leurs biais?", "L'éducation financière est-elle efficace?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["L'éducation aide mais ne supprime pas les biais, ils sont automatiques.", "Le meilleur remède est de créer des structures qui protègent contre nos propres erreurs."],
+        "female_lines": ["Comme l'épargne automatique?", "Où l'argent est déduit avant qu'on ne puisse le dépenser?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Exactement, c'est un exemple parfait d'architecture du choix bienveillante.", "Les régimes de retraite automatiques ont augmenté l'épargne de trente pourcent."],
+        "female_lines": ["C'est encourageant.", "Quelles sont les limites de cette approche?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Elle ne remplace pas une politique économique globale cohérente.", "Ce sont des outils complémentaires, pas des solutions miracles."],
+        "female_lines": ["Merci pour cette présentation nuancée.", "Quels livres recommandez-vous pour approfondir?"]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Thinking Fast and Slow de Kahneman est incontournable.", "Et Nudge de Thaler et Sunstein pour les applications pratiques.", "Je vous remercie de votre participation active."],
+        "female_lines": ["Je vais les lire attentivement.", "Ce séminaire a été très éclairant."]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "section": "H",
+    "theme": "Art history lecture",
+    "question": "Quel mouvement artistique est analysé ?",
+    "options": [
+      { "id": "A", "text": "L'impressionnisme", "image_prompt": null },
+      { "id": "B", "text": "Le surréalisme", "image_prompt": null },
+      { "id": "C", "text": "L'art abstrait expressionniste", "image_prompt": null },
+      { "id": "D", "text": "La renaissance italienne", "image_prompt": null }
+    ],
+    "correct": 2,
+    "transcript_fr": "Historienne: Aujourd'hui nous étudions l'expressionnisme abstrait américain, ce mouvement qui a déplacé le centre artistique du monde de Paris à New York dans les années quarante. Étudiant: Quelles sont les caractéristiques principales de ce courant? Historienne: Rejet de la figuration, emphase sur l'acte de peindre lui-même, gestualité spontanée et exploration de l'inconscient. Jackson Pollock est l'archétype avec sa technique du dripping où il marchait sur ses toiles posées au sol. Étudiant: Pourquoi cet intérêt pour le processus plutôt que le résultat? Historienne: C'est une réaction à l'horreur de la Seconde Guerre mondiale et au rationalisme européen qui avait conduit à ces atrocités. Les artistes cherchaient une vérité plus authentique, plus primitive.",
+    "transcript_en": "Historian: Today we study American Abstract Expressionism, this movement that shifted the artistic center of the world from Paris to New York in the nineteen forties. Student: What are the main characteristics of this movement? Historian: Rejection of figuration, emphasis on the act of painting itself, spontaneous gesture and exploration of the unconscious. Jackson Pollock is the archetype with his dripping technique where he walked on his canvases laid on the floor. Student: Why this interest in process rather than result? Historian: It's a reaction to the horror of World War Two and European rationalism that led to these atrocities. Artists sought a more authentic, more primitive truth.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": [],
+        "female_lines": ["Aujourd'hui nous étudions l'expressionnisme abstrait américain, ce mouvement qui a déplacé le centre artistique du monde de Paris à New York dans les années quarante.", "Quelles sont les caractéristiques principales de ce courant?", "Rejet de la figuration, emphase sur l'acte de peindre lui-même, gestualité spontanée et exploration de l'inconscient. Jackson Pollock est l'archétype avec sa technique du dripping où il marchait sur ses toiles posées au sol.", "Pourquoi cet intérêt pour le processus plutôt que le résultat?", "C'est une réaction à l'horreur de la Seconde Guerre mondiale et au rationalisme européen qui avait conduit à ces atrocités. Les artistes cherchaient une vérité plus authentique, plus primitive."]
+      },
+      {
+        "point": 2,
+        "male_lines": [],
+        "female_lines": ["Mark Rothko fait-il partie de ce mouvement?", "Ses tableaux semblent très différents de ceux de Pollock.", "Rothko représente la tendance colorfield, plus méditative et contemplative.", "Même référence à l'inconscient, mais par la couleur plutôt que le geste."]
+      },
+      {
+        "point": 3,
+        "male_lines": [],
+        "female_lines": ["Comment le marché de l'art a-t-il réagi à ce mouvement?", "Était-ce immédiatement reconnu?", "Au début c'était controversé, mais Peggy Guggenheim les a soutenus à New York.", "Aujourd'hui ce sont les œuvres les plus chères du monde."]
+      },
+      {
+        "point": 4,
+        "male_lines": [],
+        "female_lines": ["Y avait-il des femmes dans ce mouvement?", "Elles sont souvent effacées de l'histoire de l'art.", "Lee Krasner, épouse de Pollock, était une artiste majeure méconnue.", "Joan Mitchell aussi, mais elles étaient marginalisées par le milieu."]
+      },
+      {
+        "point": 5,
+        "male_lines": [],
+        "female_lines": ["Quelle est la place de l'artiste dans la société selon ce mouvement?", "Est-ce qu'il devient une sorte de shaman?", "Exactement, l'artiste est vu comme un médium accédant à des vérités universelles.", "C'est une vision romantique mais très influente."]
+      },
+      {
+        "point": 6,
+        "male_lines": [],
+        "female_lines": ["Comment ces œuvres doivent-elles être regardées?", "Faut-il comprendre la théorie derrière?", "L'approche intuitive est préférable, laisser les émotions résonner.", "L'intellectualisation vient après, pas avant."]
+      },
+      {
+        "point": 7,
+        "male_lines": [],
+        "female_lines": ["Ce mouvement a-t-il influencé d'autres formes d'art?", "La musique ou la danse par exemple?", "Oui, la danse moderne de Merce Cunningham et la musique de John Cage.", "Tout l'art des années cinquante à soixante est marqué par cette libération."]
+      },
+      {
+        "point": 8,
+        "male_lines": [],
+        "female_lines": ["Pourquoi ce mouvement a-t-il décliné?", "Est-ce qu'il existe encore aujourd'hui?", "Il a été absorbé par le mainstream puis critiqué par le pop art.", "Mais son influence persiste dans l'art contemporain."]
+      },
+      {
+        "point": 9,
+        "male_lines": [],
+        "female_lines": ["Quels musées possèdent les meilleures collections?", "Où peut-on voir ces œuvres?", "Le MoMA et le Whitney à New York, la Tate Modern à Londres.", "Le Musée des beaux-arts de Montréal a aussi quelques pièces intéressantes."]
+      },
+      {
+        "point": 10,
+        "male_lines": [],
+        "female_lines": ["Merci pour cette analyse approfondie.", "Je vais visiter ces expositions avec un nouveau regard.", "Je vous en prie.", "N'oubliez pas votre devoir pour la semaine prochaine.", "Au revoir."]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "section": "H",
+    "theme": "Neuroscience presentation",
+    "question": "Quel aspect du cerveau est exploré ?",
+    "options": [
+      { "id": "A", "text": "La plasticité cérébrale", "image_prompt": null },
+      { "id": "B", "text": "La mémoire à long terme", "image_prompt": null },
+      { "id": "C", "text": "Les émotions et le système limbique", "image_prompt": null },
+      { "id": "D", "text": "La perception visuelle", "image_prompt": null }
+    ],
+    "correct": 0,
+    "transcript_fr": "Neuroscientifique: Mes collègues, je vous présente nos recherches sur la plasticité cérébrale, cette capacité extraordinaire du cerveau à se réorganiser tout au long de la vie. Assistante: La plasticité n'est-elle présente que chez les enfants? Neuroscientifique: C'était la croyance dominante jusqu'aux années nonante, mais nous savons maintenant que le cerveau adulte reste plasticique. Après une lésion, d'autres régions peuvent reprendre les fonctions perdues. Nous avons observé des patients qui réapprenaient à marcher après un AVC grave grâce à des thérapies intensives qui forçaient le cerveau à créer de nouvelles connexions. Assistante: Quels mécanismes biologiques permettent cette récupération? Neuroscientifique: La synaptogenèse, création de nouvelles connexions entre neurones, et la neurogenèse, naissance de nouveaux neurones dans l'hippocampe.",
+    "transcript_en": "Neuroscientist: My colleagues, I present to you our research on brain plasticity, this extraordinary capacity of the brain to reorganize itself throughout life. Assistant: Isn't plasticity only present in children? Neuroscientist: That was the dominant belief until the nineties, but we now know that the adult brain remains plastic. After an injury, other regions can take over lost functions. We observed patients who relearned to walk after a severe stroke thanks to intensive therapies that forced the brain to create new connections. Assistant: What biological mechanisms allow this recovery? Neuroscientist: Synaptogenesis, creation of new connections between neurons, and neurogenesis, birth of new neurons in the hippocampus.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Mes collègues, je vous présente nos recherches sur la plasticité cérébrale, cette capacité extraordinaire du cerveau à se réorganiser tout au long de la vie.", "C'était la croyance dominante jusqu'aux années nonante, mais nous savons maintenant que le cerveau adulte reste plasticique. Après une lésion, d'autres régions peuvent reprendre les fonctions perdues. Nous avons observé des patients qui réapprenaient à marcher après un AVC grave grâce à des thérapies intensives qui forçaient le cerveau à créer de nouvelles connexions.", "La synaptogenèse, création de nouvelles connexions entre neurones, et la neurogenèse, naissance de nouveaux neurones dans l'hippocampe."],
+        "female_lines": ["La plasticité n'est-elle présente que chez les enfants?", "Quels mécanismes biologiques permettent cette récupération?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Nous utilisons l'imagerie par résonance magnétique fonctionnelle pour visualiser ces changements en temps réel.", "On voit littéralement le cerveau se réorganiser pendant l'apprentissage."],
+        "female_lines": ["Peut-on stimuler artificiellement cette plasticité?", "Y a-t-il des médicaments ou des techniques?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["La stimulation magnétique transcrânienne montre des résultats prometteurs.", "Mais l'entraînement cognitif intensif reste la méthode la plus sûre."],
+        "female_lines": ["Quel rôle joue l'environnement dans cette plasticité?", "L'enrichissement environnemental est-il important?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["Absolument, les environnements stimulants augmentent la complexité dendritique.", "Les interactions sociales sont particulièrement bénéfiques."],
+        "female_lines": ["Cela a des implications pour la prise en charge des personnes âgées?", "La démence pourrait-elle être prévenue?"]
+      },
+      {
+        "point": 5,
+        "male_lines": ["L'entraînement cognitif et physique régulier retarde l'apparition des symptômes.", "Mais une fois la maladie installée, la plasticité est compromise."],
+        "female_lines": ["Et pour l'apprentissage des langues?", "Est-il vrai qu'il faut commencer jeune?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["L'accent natif est plus difficile après la puberté, mais la vocabulaire non.", "Le cerveau adulte compense par d'autres stratégies d'apprentissage."],
+        "female_lines": ["Comment expliquer les récupérations miraculeuses?", "Certains patients surprennent leurs médecins."]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Ce ne sont pas des miracles mais de la plasticité exceptionnelle.", "Certains individus ont des réserves cérébrales plus importantes."],
+        "female_lines": ["Peut-on développer ces réserves?", "Comment entretenir son cerveau?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["L'activité physique aérobie est le meilleur stimulateur.", "Elle augmente le facteur neurotrophique dérivé du cerveau."],
+        "female_lines": ["Quelle fréquence d'exercice recommandez-vous?", "Trente minutes par jour suffisent-elles?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Cent cinquante minutes par semaine d'activité modérée est l'idéal.", "Associé à une alimentation méditerranéenne et un sommeil de qualité."],
+        "female_lines": ["Merci pour ces informations précieuses.", "Vos recherches ouvrent des perspectives incroyables."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["Nous n'en sommes qu'aux débuts de la compréhension du cerveau.", "L'avenir de la neurologie est passionnant.", "Merci de votre attention."],
+        "female_lines": ["Félicitations pour vos travaux.", "J'attends vos prochaines publications avec impatience."]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "section": "H",
+    "theme": "Sociological analysis",
+    "question": "Quel phénomène sociologique est étudié ?",
+    "options": [
+      { "id": "A", "text": "La gentrification urbaine", "image_prompt": null },
+      { "id": "B", "text": "La désinformation numérique", "image_prompt": null },
+      { "id": "C", "text": "Les nouvelles formes de travail", "image_prompt": null },
+      { "id": "D", "text": "L'individualisme contemporain", "image_prompt": null }
+    ],
+    "correct": 3,
+    "transcript_fr": "Sociologue: Notre recherche porte sur l'individualisme contemporain et sa tension avec la cohésion sociale dans les sociétés occidentales. Doctorante: Comment définissez-vous l'individualisme dans votre étude? Sociologue: Ce n'est pas simplement l'égoïsme, mais une structuration sociale où l'individu devient le centre de sa propre biographie. Les institutions traditionnelles famille, église, classe ouvrière perdent leur pouvoir de socialisation. Les individus doivent constamment choisir leur identité, leur carrière, leurs valeurs, ce qui crée une anxiété existentielle massive. Doctorante: Quelles sont les conséquences sur les liens sociaux? Sociologue: Nous observons une atomisation: des individus connectés numériquement mais isolés socialement, des communautés de substitution éphémères, et une montée des troubles psychiques liés à l'insécurité ontologique.",
+    "transcript_en": "Sociologist: Our research focuses on contemporary individualism and its tension with social cohesion in Western societies. PhD student: How do you define individualism in your study? Sociologist: It's not simply selfishness, but a social structuring where the individual becomes the center of their own biography. Traditional institutions family, church, working class lose their socialization power. Individuals must constantly choose their identity, career, values, which creates massive existential anxiety. PhD student: What are the consequences on social bonds? Sociologist: We observe atomization: individuals connected digitally but isolated socially, ephemeral substitution communities, and a rise in psychological disorders linked to ontological insecurity.",
+    "points": [
+      {
+        "point": 1,
+        "male_lines": ["Notre recherche porte sur l'individualisme contemporain et sa tension avec la cohésion sociale dans les sociétés occidentales.", "Ce n'est pas simplement l'égoïsme, mais une structuration sociale où l'individu devient le centre de sa propre biographie. Les institutions traditionnelles famille, église, classe ouvrière perdent leur pouvoir de socialisation. Les individus doivent constamment choisir leur identité, leur carrière, leurs valeurs, ce qui crée une anxiété existentielle massive.", "Nous observons une atomisation: des individus connectés numériquement mais isolés socialement, des communautés de substitution éphémères, et une montée des troubles psychiques liés à l'insécurité ontologique."],
+        "female_lines": ["Comment définissez-vous l'individualisme dans votre étude?", "Quelles sont les conséquences sur les liens sociaux?"]
+      },
+      {
+        "point": 2,
+        "male_lines": ["Les réseaux sociaux exacerbent ce phénomène en créant une comparaison permanente.", "Chacun doit performer sa propre vie comme une marque."],
+        "female_lines": ["Est-ce un phénomène propre aux sociétés occidentales?", "Les cultures collectivistes y échappent-elles?"]
+      },
+      {
+        "point": 3,
+        "male_lines": ["Elles y échappent partiellement mais la mondialisation diffuse ce modèle.", "Même en Asie, on observe une montée de l'individualisme chez les jeunes urbains."],
+        "female_lines": ["Quelles solutions proposez-vous pour renouer la cohésion sociale?", "L'État peut-il intervenir?"]
+      },
+      {
+        "point": 4,
+        "male_lines": ["L'État peut créer des espaces de rencontre physiques, des tiers-lieux.", "Mais il ne peut pas imposer du sens, cela doit émerger des communautés."],
+        "female_lines": ["Le retour aux valeurs traditionnelles est-il souhaitable?", "Certains prônent un retour en arrière."]
+      },
+      {
+        "point": 5,
+        "male_lines": ["C'est une réponse réactionnaire qui nie les acquis de l'émancipation individuelle.", "Il faut inventer de nouvelles formes de solidarité compatibles avec l'autonomie."],
+        "female_lines": ["Comment vos recherches se traduisent-elles concrètement?", "Travaillez-vous avec des décideurs politiques?"]
+      },
+      {
+        "point": 6,
+        "male_lines": ["Nous conseillons plusieurs municipalités sur leurs politiques de vivre-ensemble.", "Mais la science sociale a ses limites face aux transformations structurelles."],
+        "female_lines": ["Quelles méthodologies utilisez-vous pour étudier ces phénomènes?", "Les entretiens ethnographiques?"]
+      },
+      {
+        "point": 7,
+        "male_lines": ["Nous combinons enquêtes quantitatives à grande échelle et observations participantes.", "Nous suivons des cohortes de jeunes sur dix ans pour voir l'évolution."],
+        "female_lines": ["Quels sont vos résultats les plus surprenants?", "Avez-vous découvert des contre-tendances?"]
+      },
+      {
+        "point": 8,
+        "male_lines": ["Une contre-tendance émergente: le retour aux pratiques collectives comme les jardins partagés.", "Mais souvent ces initiatives restent parmi les classes moyennes éduquées."],
+        "female_lines": ["La solidarité de classe a-t-elle complètement disparu?", "Les syndicats jouent-ils encore un rôle?"]
+      },
+      {
+        "point": 9,
+        "male_lines": ["Le syndicalisme est en crise mais de nouvelles formes de mobilisation apparaissent.", "Les mouvements écologistes recréent du lien social tout en défendant des causes collectives."],
+        "female_lines": ["C'est une piste prometteuse.", "Merci pour cette analyse approfondie."]
+      },
+      {
+        "point": 10,
+        "male_lines": ["La sociologie nous aide à comprendre nos maux contemporains.", "Mais seule l'action collective peut les guérir.", "Je vous remercie de votre écoute attentive."],
+        "female_lines": ["Votre travail est essentiel pour notre compréhension du monde.", "Au revoir et bonne continuation."]
+      }
+    ]
+  }
+]

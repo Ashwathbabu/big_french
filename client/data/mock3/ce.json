@@ -1,0 +1,565 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "FESTIVAL DES LUMIÈRES D'HIVER\nDu 15 décembre au 15 janvier\nParc Jean-Drapeau, Montréal\n\nHoraires d'ouverture :\nLundi au vendredi : 17h00 - 22h00\nSamedi et dimanche : 16h00 - 23h00\n\nTarifs :\nAdultes (18-64 ans) : 25 $\nEnfants (6-17 ans) : 15 $\nAînés (65 ans et +) : 18 $\nGratuit pour les enfants de moins de 6 ans\n\nActivités : Spectacle de lumières, patinoire, marché de Noël, concerts en plein air.\nBilletterie disponible sur place ou en ligne.",
+          "question": "À quel prix un couple avec deux enfants de 8 et 10 ans paiera-t-il pour assister au festival ?",
+          "options": {
+            "A": "40 $",
+            "B": "50 $",
+            "C": "80 $",
+            "D": "90 $"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 2,
+          "text": "AVIS DE FERMETURE EXCEPTIONNELLE\n\nBibliothèque municipale de Saint-Lambert\n\nEn raison de travaux de rénovation majeurs concernant le système électrique, la bibliothèque sera fermée au public pendant trois semaines complètes.\n\nPériode de fermeture : du lundi 3 mars au dimanche 23 mars 2025 inclus.\n\nPendant cette période :\n• Les emprunts en cours seront automatiquement prolongés sans frais\n• Les retours de documents se feront à la boîte de dépôt extérieure (24h/24)\n• Les réservations peuvent toujours être effectuées en ligne\n• Le service de prêt numérique reste accessible\n\nRéouverture prévue : lundi 24 mars à 9h00\nMerci de votre compréhension.",
+          "question": "Quel service reste accessible pendant la fermeture de la bibliothèque ?",
+          "options": {
+            "A": "La consultation sur place des ouvrages",
+            "B": "Le prêt numérique",
+            "C": "Les ateliers pour enfants",
+            "D": "L'accès à la salle d'étude"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 3,
+          "text": "RESTAURANT LE PETIT BISTROT\nMenu du midi - Semaine du 10 au 14 février\n\nEntrées au choix :\nSoupe du jour ou salade verte maison\n\nPlats principaux (served with bread and butter) :\n• Steak frites avec sauce au poivre\n• Filet de saumon grillé, légumes de saison\n• Risotto aux champignons, copeaux de parmesan\n• Poulet rôti à la provençale, pommes de terre rissolées\n\nDesserts :\nCrème brûlée, mousse au chocolat ou sorbet du jour\n\nFormule complète : 22,95 $ (entrée + plat + dessert + café)\nPlat seul : 16,50 $\nRéservations conseillées : (514) 555-0123\nService continu de 11h30 à 14h30",
+          "question": "Quel est le prix de la formule complète incluant toutes les options ?",
+          "options": {
+            "A": "16,50 $",
+            "B": "19,95 $",
+            "C": "22,95 $",
+            "D": "25,50 $"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 4,
+          "text": "AVIS IMPORTANT AUX RÉSIDENTS\nCondominium Les Jardins de Rosemont\n\nChers copropriétaires,\n\nNous vous informons que l'entreprise Éco-Verdissement interviendra sur l'ensemble de la propriété la semaine prochaine pour effectuer la taille des arbres et arbustes.\n\nDates d'intervention : du 20 au 24 mai 2025\nHeures de travail : entre 8h00 et 17h00\n\nDurant cette période, veuillez :\n• Ne pas stationner vos véhicules sous les arbres concernés\n• Éviter les zones de travail pour des raisons de sécurité\n• Ramener les meubles de terrasse et objets personnels fragiles\n\nL'ascenseur de service sera réservé aux employés le 22 mai.\n\nPour toute question : contact@jardinsrosemont.ca\nLe conseil d'administration",
+          "question": "Quelle précaution doit prendre un résident concernant son véhicule ?",
+          "options": {
+            "A": "Le laver avant le 20 mai",
+            "B": "Ne pas le garer sous les arbres",
+            "C": "Le déplacer dans un garage payant",
+            "D": "Le signaler à la réception"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 5,
+          "text": "PROGRAMME D'ACTIVITÉS ESTIVALES\nCentre communautaire de Verdun\nJuillet - Août 2025\n\nInscriptions dès maintenant !\n\nCours de natation (tous niveaux) :\nDu 7 juillet au 16 août, lundi au vendredi\nGroupe du matin (9h-11h) ou groupe de l'après-midi (14h-16h)\nTarif : 120 $ par session de 6 semaines\n\nClub de lecture adolescents (12-16 ans) :\nTous les mercredis de 14h à 16h\nAteliers d'écriture créative inclus\nParticipation gratuite avec carte de bibliothèque\n\nYoga en plein air :\nSamedis et dimanches, 8h00-9h30, parc Arthur-Therrien\nContribution volontaire suggérée : 10 $\n\nAtelier de jardinage urbain :\nDeux samedis par mois, matériel fourni\nInscription obligatoire, places limitées à 15 participants",
+          "question": "Quelle activité est accessible gratuitement ?",
+          "options": {
+            "A": "Le yoga en plein air",
+            "B": "Les cours de natation",
+            "C": "Le club de lecture adolescents",
+            "D": "L'atelier de jardinage urbain"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 6,
+          "text": "INSTRUCTIONS DE LAVAGE\nNouveau pull en laine mérinos\n\nPour préserver la qualité de votre vêtement et éviter le rétrécissement :\n\nTempérature : Laver à l'eau froide (max 30°C). Ne jamais utiliser d'eau chaude qui fragilise les fibres naturelles.\n\nProgramme : Sélectionner le cycle délicat ou laine de votre machine. Éviter les essoreuses à grande vitesse.\n\nProduits : Utiliser uniquement une lessive spéciale laine ou un shampooing neutre. Prohibé : adoucissants, javellisants et produits agressifs.\n\nSéchage : Ne pas mettre au sèche-linge. Étendre à plat sur une serviette propre, à l'abri du soleil direct et des sources de chaleur.\n\nRepassage : Autorisé à basse température avec un linge humide interposé ou utiliser un défroisseur vapeur.\n\nConseil : Le lavage à la main reste la méthode la plus sûre pour ce type de fibre.",
+          "question": "Quelle est la température maximale recommandée pour laver ce vêtement ?",
+          "options": {
+            "A": "20°C",
+            "B": "30°C",
+            "C": "40°C",
+            "D": "60°C"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "text": "HORAIRE SPÉCIAL TRANSPORT EN COMMUN\nFête nationale du Québec - 24 juin 2025\n\nLa Société de transport de Montréal (STM) adapte ses services pour la journée de célébration.\n\nMétro :\nService continu toute la journée avec fréquence accrue sur les lignes vertes et oranges.\nDernières départs des terminus : 1h30 du matin (au lieu de minuit habituellement).\n\nBus :\nService réduit sur les lignes locales avant 12h00.\nLignes express et de nuit fonctionnent selon horaire de fin de semaine.\n\nTarifs spéciaux :\nAccès gratuit au métro et bus à partir de 14h00 pour tous les usagers portant un accessoire bleu ou blanc (foulard, casquette, badge).\n\nStations bondées attendues : Berri-UQAM, Jean-Drapeau et Place-des-Arts dès 19h00.\n\nInfo trafic en temps réel : stm.info ou application mobile STM.",
+          "question": "À partir de quelle heure le transport devient-il gratuit pour les usagers éligibles ?",
+          "options": {
+            "A": "12h00",
+            "B": "14h00",
+            "C": "19h00",
+            "D": "1h30"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Cher Michel,\n\nJ'espère que tu ______ bien passé ces derniers jours. Je t'écris pour te donner des nouvelles de notre projet commun.\n\nLa réunion avec les investisseurs s'est ______ déroulée hier après-midi. Ils ont semblé très intéressés par notre proposition et ont posé plusieurs questions pertinentes. Nous avons réussi à ______ convaincre de la viabilité de notre concept.\n\nCependant, ils nous ont demandé de ______ un document complémentaire détaillant les prévisions financières sur trois ans. Je pense que nous devrions nous réunir cette semaine pour préparer ce dossier ensemble.\n\nEs-tu disponible jeudi après-midi ? Fais-moi signe dès que tu ______ ce message.\n\nAmicalement,\nSophie",
+          "options": {
+            "A": "as / bien / les / rédiger / recevras",
+            "B": "es / mal / leur / rédige / recevrais",
+            "C": "as / bien / les / rédiger / recevras",
+            "D": "es / bien / leur / rédiger / recevras"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 9,
+          "text": "L'entreprise TechnoPlus annonce le ______ de son nouveau centre de recherche à Québec. Ce bâtiment ultra-moderne ______ sur une superficie de 5 000 mètres carrés et emploiera plus de 200 chercheurs dès la fin de l'année ______.\n\nLes dirigeants ont souligné que cette implantation ______ dans la continuité de leur stratégie d'innovation. Ils comptent ______ des partenariats avec les universités locales pour stimuler la créativité et le transfert de connaissances.\n\nCe projet représente un investissement de 50 millions de dollars et devrait ______ l'économie régionale de manière significative.",
+          "options": {
+            "A": "lancement / s'étend / prochaine / s'inscrit / développer / stimuler",
+            "B": "fermeture / s'étend / passée / s'inscrit / développer / stimuler",
+            "C": "lancement / s'étend / prochaine / s'inscrivait / développer / stimuler",
+            "D": "lancement / s'étend / prochaine / s'inscrit / développant / stimuler"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 10,
+          "text": "Chers clients,\n\nNous vous informons que notre magasin sera ______ pour cause d'inventaire annuel ce samedi 15 mars. La boutique rouvrira ses portes ______ normalement le lendemain à 9h00.\n\nPendant cette journée de fermeture, notre site internet reste ______ accessible et vous permet de passer commande en ligne avec livraison gratuite ______ 48 heures.\n\nNous vous prions de bien vouloir ______ pour ce désagrément temporaire et vous remercions de votre fidélité ______.\n\nL'équipe de la Maison du Livre",
+          "options": {
+            "A": "ouvert / ses / pleinement / sous / nous excuser / renouvelée",
+            "B": "fermé / ses / pleinement / dans / nous excuser / renouvelée",
+            "C": "fermé / sa / pleinement / dans / vous excuser / constante",
+            "D": "fermé / ses / partiellement / sous / nous excuser / renouvelée"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 11,
+          "text": "Le réchauffement climatique constitue aujourd'hui l'un des plus grands ______ auxquels l'humanité doit faire face. Les scientifiques s'accordent ______ dire que les activités humaines, notamment la combustion des énergies fossiles, en sont la cause ______.\n\nFace à cette urgence, de nombreux pays se sont ______ à réduire leurs émissions de gaz à effet de serre. Cependant, les efforts ______ restent insuffisants pour atteindre les objectifs fixés par les accords internationaux.\n\nIl est donc ______ que chaque citoyen adopte des comportements plus responsables au quotidien.",
+          "options": {
+            "A": "défis / pour / première / engagés / collectifs / essentiel",
+            "B": "défis / à / principale / engagés / collectifs / essentiel",
+            "C": "défis / à / principale / engagé / collectifs / essentiels",
+            "D": "défis / à / principale / engagés / collectifs / essentiel"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 12,
+          "text": "Madame la Directrice,\n\nJe me permets de vous contacter au sujet de l'offre d'emploi publiée sur votre site ______ concernant le poste de chef de projet marketing. Titulaire d'un master en communication et ______ de cinq ans d'expérience dans le domaine, je suis particulièrement intéressé par cette opportunité.\n\nAu cours de mon parcours, j'ai eu l'occasion de ______ plusieurs campagnes publicitaires d'envergure nationale. Ces expériences m'ont permis de développer une ______ sensibilité aux enjeux stratégiques et une capacité à ______ des équipes multidisciplinaires.\n\nJe serais honoré de pouvoir vous exposer ma motivation lors d'un entretien.",
+          "options": {
+            "A": "internet / doté / coordonner / forte / manager",
+            "B": "internet / doté / coordonner / forte / animer",
+            "C": "web / doté / coordonner / forte / manager",
+            "D": "internet / dotée / coordonner / forte / animer"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 13,
+          "text": "La ville de Sherbrooke a dévoilé hier son plan de développement ______ pour les cinq prochaines années. Ce programme ambitieux vise à transformer le centre-ville en un espace plus ______ et accessible aux piétons.\n\nParmi les projets phares, on note la création d'une nouvelle ligne de tramway qui ______ le campus universitaire au centre commercial du nord. Les travaux devraient ______ au printemps prochain et durer environ trois ans.\n\nLe maire a également annoncé la plantation de 10 000 arbres ______ d'ici 2030, soulignant l'engagement de la municipalité en faveur de la ______ urbaine.",
+          "options": {
+            "A": "stratégique / vivant / reliera / débuter / supplémentaires / biodiversité",
+            "B": "stratégique / vivant / reliera / débuter / supplémentaires / verdure",
+            "C": "stratégique / vivant / reliera / débuter / supplémentaires / durabilité",
+            "D": "stratégique / vivante / reliera / débuter / supplémentaires / verdure"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 14,
+          "text": "Dans son dernier livre, l'auteure québécoise Marie-Claire Blais explore les relations ______ entre mères et filles avec une sensibilité ______. Son écriture, à la fois poétique et ______, touche le lecteur par son authenticité.\n\nLes critiques ont salué cette œuvre comme l'une des plus ______ de sa carrière. Le roman a d'ailleurs été ______ pour le prestigieux prix littéraire du Gouverneur général.\n\nLes lecteurs pourront rencontrer l'auteure lors d'une séance de dédicace ______ à la librairie Le Port de tête le 12 avril prochain.",
+          "options": {
+            "A": "familiales / exceptionnelle / crue / abouties / nominé / organisée",
+            "B": "familiales / exceptionnelle / crue / aboutie / nominé / organisée",
+            "C": "familiales / exceptionnelles / crue / abouties / nominée / organisée",
+            "D": "familiales / exceptionnelle / crue / abouties / nominée / organisée"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 15,
+          "text": "Le musée des beaux-arts de Montréal présente à partir du mois ______ une exposition rétrospective consacrée à l'artiste contemporain Jean-Paul Riopelle. Cette manifestation culturelle ______ plus de 80 œuvres majeures du peintre, ______ des toiles de sa période parisienne aux sculptures de ses dernières années.\n\nLes visiteurs pourront ______ l'évolution créative de cet artiste québécois mondialement reconnu. Des conférences et ateliers pédagogiques ______ également proposés aux scolaires et au grand public tout au long de la durée de l'exposition.\n\nLes billets sont en vente dès maintenant sur le site du musée.",
+          "options": {
+            "A": "prochain / regroupe / allant / suivre / seront",
+            "B": "prochain / regroupe / allant / suivre / seront",
+            "C": "prochain / regroupera / allant / suivre / seront",
+            "D": "prochain / regroupera / allant / suivre / seront"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 16,
+          "text": "L'Organisation mondiale de la santé a publié un rapport ______ sur l'impact du sommeil sur la santé mentale. Selon cette étude, près de 40% de la population adulte ne ______ pas suffisamment de repos nocturne, ce qui ______ des conséquences sérieuses sur le bien-être psychologique.\n\nLes experts recommandent vivement d'adopter une ______ de sommeil régulière en se couchant et en se levant à des heures ______ chaque jour, y compris le week-end. Ils conseillent également de ______ les écrans au moins une heure avant le coucher.",
+          "options": {
+            "A": "alarmant / obtient / entraîne / routine / fixes / éviter",
+            "B": "alarmant / obtient / entraînent / routine / fixes / éviter",
+            "C": "alarmant / obtient / entraîne / routine / fixes / éviter",
+            "D": "alarmant / obtient / entraîne / routine / fixe / éviter"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 17,
+          "text": "Chers collègues,\n\nSuite à la réunion de direction de ce matin, je vous communique les nouvelles modalités de travail qui ______ en vigueur dès le premier juin prochain.\n\nLe télétravail hybride sera désormais la ______ pour tous les employés des services administratifs. Chacun pourra ______ travailler jusqu'à trois jours par semaine depuis son domicile, sous réserve de ______ préalable de son responsable hiérarchique.\n\nLes jours de présence obligatoire au bureau seront fixés les mardis et jeudis pour ______ les échanges d'équipe et maintenir la ______ collective.\n\nVotre compréhension et votre coopération sont essentielles pour assurer cette transition en douceur.\n\nCordialement,\nLa Direction des ressources humaines",
+          "options": {
+            "A": "entreront / norme / ainsi / validation / favoriser / cohésion",
+            "B": "entreront / norme / ainsi / l'autorisation / favoriser / cohésion",
+            "C": "entreront / norme / ainsi / l'autorisation / favoriser / cohésions",
+            "D": "entreront / normes / ainsi / l'autorisation / favoriser / cohésion"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "AVIS DE RECRUTEMENT URGENT\nClinique médicale Saint-Jean\n\nPoste : Réceptionniste médicale à temps plein\nDisponibilité : Immédiate\n\nHoraire : 35 heures/semaine, du lundi au vendredi, 8h00-16h00\n\nProfil recherché :\n• DEP en secrétariat médical ou équivalent\n• Maîtrise du français oral et écrit (essentiel)\n• Connaissance de base de l'anglais (atout)\n• Expérience avec système Omnimed (préférence)\n\nAvantages : Salaire compétitif (22-26$/h selon expérience), assurances collectives après 3 mois, 4 semaines de vacances annuelles.\n\nEnvoyer CV et lettre de motivation avant le 10 mars à : rh@cliniquesaintjean.ca",
+          "question": "Quelle compétence linguistique est décrite comme essentielle pour ce poste ?",
+          "options": {
+            "A": "La maîtrise de l'anglais",
+            "B": "La maîtrise du français",
+            "C": "La connaissance de l'espagnol",
+            "D": "Le bilinguisme parfait"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "RÈGLEMENT INTÉRIEUR - PISCINE MUNICIPALE\n\n1. L'accès à la piscine est réservé aux membres en règle de cotisation.\n\n2. La profondeur maximale du bassin principal est de 3 mètres ; le bassin d'apprentissage ne dépasse pas 1,20 mètre.\n\n3. Les plongeons sont interdits dans le bassin d'apprentissage et autorisés uniquement du tremplin officiel dans le grand bassin.\n\n4. La capacité maximale est fixée à 150 personnes simultanément. Au-delà, l'accès est régulé par rotation.\n\n5. Les enfants de moins de 8 ans doivent être accompagnés d'un adulte responsable.\n\n6. La consommation de nourriture et de boissons (hormis eau en bouteille) est prohibée sur le bord du bassin.\n\n7. Les casiers sont mis à disposition gratuitement mais nécessitent un cadenas personnel.",
+          "question": "Où les plongeons sont-ils autorisés ?",
+          "options": {
+            "A": "Dans le bassin d'apprentissage",
+            "B": "Partout dans le grand bassin",
+            "C": "Uniquement du tremplin officiel dans le grand bassin",
+            "D": "Ils sont totalement interdits"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 20,
+          "text": "FACTURE D'ÉLECTRICITÉ\nHydro-Québec\n\nPériode de facturation : 1er janvier au 31 janvier 2025\nNuméro de client : 458-987-321\nAdresse : 1234 rue Ontario Est, Montréal H2L 1P5\n\nDétails de consommation :\n• Consommation totale : 1 250 kWh\n• Jours de facturation : 31 jours\n• Consommation moyenne quotidienne : 40,3 kWh\n\nMontants :\n• Premier 40 kWh/jour × 31 jours × 0,0596 $ : 73,90 $\n• Reste de la consommation (1 010 kWh) × 0,0922 $ : 93,12 $\n• Frais d'accès au réseau : 12,00 $\n• Total avant taxes : 179,02 $\n• Taxes (TPS/TVQ) : 26,71 $\n• MONTANT TOTAL DÛ : 205,73 $\n\nDate d'échéance : 15 février 2025",
+          "question": "Quel est le montant total à payer incluant les taxes ?",
+          "options": {
+            "A": "179,02 $",
+            "B": "193,12 $",
+            "C": "205,73 $",
+            "D": "232,44 $"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 21,
+          "text": "PROGRAMME DE FIDÉLITÉ\nLibrairie Page après Page\n\nCarte Classique (gratuite) :\n• 1 point par tranche de 10 $ d'achat\n• Bon de réduction de 10 $ après accumulation de 100 points\n• Accès aux ventes privées saisonnières\n\nCarte Or (adhésion 25 $/an) :\n• 1,5 point par tranche de 10 $ d'achat\n• Bon de réduction de 15 $ après 100 points\n• 10 % de réduction permanente sur tous les achats\n• Accès prioritaire aux événements littéraires\n• Réservation gratuite des nouveautés\n\nCarte Platine (invitation uniquement) :\n• 2 points par tranche de 10 $ d'achat\n• Avantages Carte Or + invitations aux lancements exclusifs\n• Livraison gratuite sans minimum d'achat\n\nDemandez votre carte dès aujourd'hui en magasin ou en ligne.",
+          "question": "Quel avantage est exclusif à la Carte Platine ?",
+          "options": {
+            "A": "La réduction permanente de 10 %",
+            "B": "L'accès aux ventes privées",
+            "C": "Les invitations aux lancements exclusifs",
+            "D": "L'accumulation de points"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 22,
+          "text": "AVIS D'ARRIVÉE DE COLIS\nPostes Canada\n\nDestinataire : M. Robert Tremblay\nAdresse : 456 avenue Laurier, appartement 3, Québec G1R 2C7\n\nVotre colis provenant de l'expéditeur \"Boutique Électronique Plus\" est arrivé au bureau de poste du centre-ville de Québec.\n\nNuméro de suivi : LC123456789CA\nPoids : 2,3 kg\nDimensions : 30 cm × 25 cm × 15 cm\n\nEn raison de la taille du colis, celui-ci n'a pas pu être déposé dans votre boîte aux lettres. Vous disposez de 15 jours ouvrables pour venir le récupérer sur présentation :\n• De cette notification\n• D'une pièce d'identité avec photo\n• D'un justificatif de domicile récent\n\nHeures d'ouverture du bureau : lundi-vendredi 9h-17h, samedi 9h-12h\nPassé ce délai, le colis sera retourné à l'expéditeur.",
+          "question": "Quel document n'est PAS requis pour récupérer le colis ?",
+          "options": {
+            "A": "La notification d'arrivée",
+            "B": "Une pièce d'identité avec photo",
+            "C": "Le reçu d'achat original",
+            "D": "Un justificatif de domicile"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congé sans solde - Projet personnel de formation\n\nMadame la Directrice des ressources humaines,\n\nPar la présente, je souhaite solliciter un congé sans solde d'une durée de six mois, à compter du 1er septembre 2025, afin de poursuivre un projet personnel de formation professionnelle.\n\nEn effet, j'ai été admis au programme de maîtrise en gestion de projet de l'Université de Montréal, formation qui s'étale sur deux ans à temps partiel. Cette démarche s'inscrit dans ma volonté d'approfondir mes compétences managériales et de mieux contribuer aux objectifs de notre département à mon retour.\n\nJe m'engage à assurer une transition optimale de mes dossiers actuels avant mon départ et reste ouvert à un éventuel travail à distance ponctuel si des besoins spécifiques devaient survenir durant mon absence.\n\nDans l'attente d'une réponse favorable, je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nThomas Bergeron\nAnalyste financier",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Démissionner de son poste actuel",
+            "B": "Demander une promotion",
+            "C": "Solliciter un congé pour formation",
+            "D": "Proposer un changement de service"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 24,
+          "text": "Objet : Réponse à votre courrier du 15 avril - Réclamation concernant votre séjour\n\nMonsieur Dubois,\n\nNous avons bien pris connaissance de votre courrier exprimant votre mécontentement suite à votre séjour dans notre établissement les 10 et 11 avril derniers.\n\nNous tenons tout d'abord à vous présenter nos plus sincères excuses pour la gêne occasionnée. Les désagréments que vous avez subis, notamment concernant le dysfonctionnement du système de climatisation et le retard de livraison du room-service, ne reflètent pas les standards de qualité que nous nous efforçons de maintenir quotidiennement.\n\nÀ titre de dédommagement, nous vous proposons un bon d'hébergement d'une valeur de 300 dollars valable pour un prochain séjour dans l'une de nos chambres supérieures, accompagné d'un surclassement gratuit et d'un accès illimité à notre spa.\n\nNous espérons que cette mesure témoignera de notre volonté de rétablir votre confiance et de vous accueillir à nouveau dans des conditions exemplaires.\n\nCordialement,\nIsabelle Mercier\nDirectrice de la clientèle",
+          "question": "Quel est le ton général de ce courriel ?",
+          "options": {
+            "A": "Distant et professionnel",
+            "B": "Excusé et conciliant",
+            "C": "Défensif et justificatif",
+            "D": "Neutre et informatif"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 25,
+          "text": "CIRCULAIRE INTERNE\nDirection des achats et de la logistique\nDate : 3 février 2025\n\nÀ l'attention de tous les chefs de service,\n\nConformément à la nouvelle politique de durabilité adoptée par le conseil d'administration, nous vous informons que les fournitures de bureau suivantes ne seront désormais plus commandées :\n• Gobelets en plastique à usage unique\n• Stylos non rechargeables\n• Papier non recyclé ou non certifié FSC\n• Classeurs en PVC\n\nÀ compter du 1er mars 2025, tous les services devront privilégier les produits écoresponsables disponibles sur le nouveau catalogue interne. Les demandes de produits non conformes à cette politique seront systématiquement refusées sauf dérogation motivée auprès de la Direction environnement.\n\nPar ailleurs, nous mettons en place un système de récupération des cartouches d'encre vides et des appareils électroniques obsolètes. Des consignes détaillées seront communiquées prochainement.\n\nVotre collaboration active est essentielle à la réussite de cette démarche collective.\n\nJean-François Lavoie\nDirecteur des achats",
+          "question": "Quelle est la conséquence pour les services qui commandent des produits non conformes ?",
+          "options": {
+            "A": "Une amende financière",
+            "B": "Un refus systématique de la commande",
+            "C": "Une mise à pied disciplinaire",
+            "D": "Une réduction de leur budget"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "Objet : Convocation à entretien préalable au licenciement\n\nMademoiselle Sarah Chen,\n\nNous vous informons par ce courrier que vous êtes convoquée à un entretien préalable au licenciement qui se tiendra le jeudi 20 mars 2025 à 14h00 dans le bureau de la Direction des ressources humaines, situé au 3e étage du bâtiment principal.\n\nCet entretien porte sur la situation créée par votre refus répété d'appliquer les nouvelles procédures de sécurité informatique mises en place le 1er janvier dernier, malgré nos multiples rappels écrits des 15 janvier et 3 février.\n\nVous avez la possibilité de vous faire assister par un représentant du personnel ou un conseiller externe de votre choix. Nous vous prions de nous communiquer l'identité de la personne qui vous accompagnera avant le 18 mars à 12h00.\n\nUn procès-verbal de cet entretien sera établi. Vous recevrez une copie dans les deux jours ouvrables suivant la réunion.\n\nVeuillez signer et retourner l'accusé de réception ci-joint.\n\nMarie-Pierre Gagnon\nDirectrice des ressources humaines",
+          "question": "Quelle infraction est reprochée à l'employée ?",
+          "options": {
+            "A": "Des retards répétés",
+            "B": "Un refus d'appliquer des procédures de sécurité",
+            "C": "Des erreurs comptables",
+            "D": "Des conflits avec des collègues"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "LETTRE DE RECOMMANDATION\n\nÀ qui de droit,\n\nJ'ai eu le plaisir de superviser M. Antoine Lefebvre dans le cadre de son stage de fin d'études au sein de notre cabinet d'architecture, du 15 janvier au 30 juin 2024.\n\nDurant ces six mois, M. Lefebvre a démontré des qualités professionnelles remarquables. Son sérieux, sa créativité et sa capacité à travailler en équipe ont été particulièrement appréciés par l'ensemble de nos collaborateurs. Il a su s'intégrer rapidement et contribuer activement à plusieurs projets résidentiels d'envergure.\n\nSon maîtrise des logiciels de conception assistée par ordinateur (AutoCAD, SketchUp, Revit) ainsi que sa rigueur dans le respect des délais et des normes techniques font de lui un candidat de choix pour tout employeur exigeant.\n\nJe recommande M. Lefebvre avec enthousiasme et conviction pour tout poste relevant de ses compétences. Je suis convaincu qu'il saura apporter une contribution significative à votre organisation.\n\nN'hésitez pas à me contacter pour tout renseignement complémentaire.\n\nSophie Tremblay, architecte\nPartenaire associée, Cabinet ST Architecture",
+          "question": "Quelle qualité est particulièrement soulignée par la recommandande ?",
+          "options": {
+            "A": "L'expérience en gestion d'équipe",
+            "B": "La créativité et le travail d'équipe",
+            "C": "La connaissance des matériaux de construction",
+            "D": "L'expertise en comptabilité"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Objet : Modification des conditions de votre contrat d'assurance habitation\n\nMonsieur et Madame Gagnon,\n\nNous vous informons que votre contrat d'assurance habitation numéro AH-2023-78456 fera l'objet d'un avenant à compter de votre prochaine échéance annuelle, le 1er mai 2025.\n\nSuite à l'évaluation récente de votre propriété située au 789 rue des Érables, notre service souscription a constaté une sous-estimation de la valeur de reconstruction de votre résidence. La valeur assurable doit être révisée à la hausse, passant de 450 000 $ à 520 000 $.\n\nPar conséquent, votre prime annuelle sera ajustée de 1 200 $ à 1 450 $, soit une augmentation de 250 $ annuels, payable en mensualités de 120,83 $ au lieu des 100 $ actuels.\n\nCette modification garantit une couverture adéquate en cas de sinistre majeur. Si vous contestez cette réévaluation, vous pouvez nous transmettre un rapport d'évaluation contradictoire d'un évaluateur agréé avant le 15 avril 2025.\n\nNous restons à votre disposition pour tout éclaircissement.\n\nAssurances Générales du Québec",
+          "question": "Quelle est la raison invoquée pour l'augmentation de la prime ?",
+          "options": {
+            "A": "Une augmentation générale des taux d'assurance",
+            "B": "Une réévaluation à la hausse de la valeur de reconstruction",
+            "C": "Des sinistres récents sur la propriété",
+            "D": "Une modification de la réglementation gouvernementale"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Objet : Proposition de collaboration - Festival des arts numériques\n\nBonjour Monsieur Caron,\n\nJe me permets de vous contacter au nom du comité organisateur du Festival des arts numériques de Québec, qui se tiendra du 15 au 20 octobre 2025.\n\nSuite à la consultation de votre portfolio en ligne, nous serions très intéressés par la présentation de votre installation immersive \"Fragments de mémoire\" dans le cadre de notre exposition principale. Votre démarche artistique, alliant réalité virtuelle et narration poétique, correspond parfaitement à la thématique de cette édition : \"Frontières et hybridations\".\n\nNous pourrions vous offrir une bourse de production de 8 000 $, la prise en charge du transport et de l'installation, ainsi qu'une allocation de 2 000 $ pour vos déplacements et hébergement. L'espace d'exposition mis à votre disposition mesure 200 m² avec hauteur sous plafond de 5 mètres.\n\nSeriez-vous disponible pour une visioconférence la semaine prochaine afin de discuter des modalités techniques ?\n\nDans l'attente de votre retour, je vous prie d'agréer l'expression de mes salutations distinguées.\n\nÉmilie Roche\nCommissaire de l'exposition",
+          "question": "Quel est le but principal de ce courriel ?",
+          "options": {
+            "A": "Commander une œuvre d'art",
+            "B": "Proposer une collaboration artistique",
+            "C": "Inviter à une conférence de presse",
+            "D": "Demander un don financier"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 30,
+          "text": "AVIS DE RÉUNION DU COMITÉ DE SANTÉ ET SÉCURITÉ\n\nDate : Mardi 25 mars 2025\nHeure : 9h00 à 11h00\nLieu : Salle de conférence B, 2e étage\n\nOrdre du jour :\n\n1. Approbation du procès-verbal de la réunion du 18 février 2025\n2. Bilan des inspections de sécurité réalisées en février\n3. Analyse des incidents déclarés (glissade dans l'entrepôt, cas d'épuisement chez un opérateur de nuit)\n4. Présentation du nouveau plan de prévention des risques psychosociaux\n5. Examen des suggestions d'amélioration soumises par les délégués du personnel\n6. Fixation des dates des prochaines sessions de formation aux premiers secours\n7. Questions diverses\n\nDocuments à l'appui : Rapport d'inspection n°45-2025, Statistiques des accidents du travail T1 2025, Projet de plan prévention RPS.\n\nPrésence obligatoire pour les membres du comité. Les représentants syndicaux sont invités à participer aux points 3, 4 et 5.\n\nVeuillez confirmer votre présence avant le 20 mars.\n\nJean-Pierre Martin\nPrésident du CHSCT",
+          "question": "Quel incident n'est PAS mentionné dans l'ordre du jour ?",
+          "options": {
+            "A": "Une glissade dans l'entrepôt",
+            "B": "Un cas d'épuisement",
+            "C": "Une chute d'échelle",
+            "D": "Un épuisement chez un opérateur de nuit"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 31,
+          "text": "Objet : Confirmation de réservation - Séminaire d'entreprise\n\nMadame Lachance,\n\nNous vous confirmons par ce courriel la réservation de nos services pour votre séminaire d'équipe prévu les 12 et 13 juin 2025.\n\nDétails de la réservation :\nNom du client : Entreprise Solutions Innovantes\nNombre de participants : 35 personnes\nFormule retenue : Séminaire résidentiel avec hébergement\n\nPrestations incluses :\n• Salle de conférence équipée (vidéoprojecteur, paperboard, WiFi)\n• Pause-café matin et après-midi (boissons chaudes, viennoiseries, fruits frais)\n• Déjeuner buffet le samedi et dimanche\n• Dîner gastronomique du samedi soir (menu dégustation 5 services)\n• 18 chambres doubles pour la nuit du 12 au 13 juin\n• Accès au centre de remise en forme et piscine intérieure\n\nAcompte versé : 2 500 $ (par virement du 15 février)\nSolde à régler : 4 750 $ (avant le 15 mai 2025)\n\nNous restons à votre entière disposition pour adapter ce programme selon vos besoins spécifiques.\n\nBien cordialement,\nCaroline Dubé\nDirectrice des événements\nHôtel Le Montagnard",
+          "question": "Quel service n'est PAS inclus dans la formule résidentielle ?",
+          "options": {
+            "A": "L'hébergement pour 18 chambres",
+            "B": "Le transport aéroport-hôtel",
+            "C": "L'accès au centre de remise en forme",
+            "D": "Les pauses-café"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "Objet : Réponse négative à votre candidature - Poste de chef de projet\n\nMonsieur Nguyen,\n\nNous tenons à vous remercier sincèrement pour l'intérêt que vous avez porté à notre entreprise en postulant au poste de chef de projet digital.\n\nAprès un examen attentif de votre dossier et des entretiens menés avec l'ensemble des candidats présélectionnés, nous avons décidé de donner suite à la candidature d'un autre profil dont l'expérience spécifique en gestion de projets e-commerce correspondait davantage aux besoins immédiats de notre équipe.\n\nCette décision ne remet absolument pas en cause vos compétences reconnues en marketing digital et votre parcours professionnel solide. Nous avons été particulièrement impressionnés par votre maîtrise des outils d'analyse de données et votre approche stratégique.\n\nNous conservons votre curriculum vitae dans notre base de données et vous contacterons volontiers si une opportunité correspondant davantage à votre profil venait à se présenter dans les mois à venir.\n\nNous vous souhaitons plein succès dans vos recherches futures.\n\nCordialement,\nPhilippe Anderson\nDirecteur des ressources humaines\nAgence Digitale Nova",
+          "question": "Quelle information implicite peut-on déduire de ce courriel ?",
+          "options": {
+            "A": "Le candidat n'a pas été retenu faute de compétences",
+            "B": "Un autre candidat avait une meilleure adéquation avec le poste",
+            "C": "Le candidat est blacklisté pour futurs postes",
+            "D": "L'entreprise ne recrute plus du tout"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "MONTRÉAL S'ATTELLE À RÉDUIRE SON EMPREINTE CARBONE AVEC DES QUARTIERS «15 MINUTES»\n\nLa métropole québécoise vient d'adopter un plan urbanistique ambitieux visant à transformer plusieurs arrondissements en quartiers «dits de proximité», où les résidents pourraient accéder à l'essentiel de leurs besoins quotidiens à pied ou à vélo en moins de quinze minutes.\n\nCe concept, popularisé à Paris par la maire Anne Hidalgo, trouve désormais un terrain d'application nord-américain à Montréal. Le Plateau-Mont-Royal et Rosemont–La Petite-Patrie constituent les premiers terrains d'expérimentation, avec l'objectif d'y densifier les services de proximité, les espaces verts et les commerces de première nécessité.\n\n«Il ne s'agit pas d'interdire la voiture, mais de rendre le choix du piéton ou du cycliste tellement évident qu'il devient la solution naturelle», explique la responsable du projet, Élaine Vallières. Les travaux d'aménagement débuteront au printemps 2026, avec une inauguration prévue en 2028.\n\nCritiques et défenseurs s'affrontent déjà sur les impacts économiques potentiels pour les commerçants établis en périphérie.",
+          "question": "Quelle est la position de l'auteur concernant ce projet ?",
+          "options": {
+            "A": "Il s'oppose fermement à l'initiative",
+            "B": "Il adopte une posture neutre et informative",
+            "C": "Il défend ardemment le concept",
+            "D": "Il exprime des doutes sur sa faisabilité"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 34,
+          "text": "LA PÉNURIE DE MAIN-D'ŒUVRE DANS LE SECTEUR DE LA SANTÉ ATTEINT DES SOMMETS INQUIÉTANTS\n\nLes hôpitaux québécois font face à une crise sans précédent alors que près de 15 % des postes infirmiers demeurent vacants à travers la province. Cette situation, exacerbée par les départs à la retraite massifs des baby-boomers et l'épuisement professionnel post-pandémie, contraint plusieurs établissements à réduire leurs services.\n\nÀ l'Hôpital Maisonneuve-Rosemont, deux unités de soins ont dû fermer temporairement faute de personnel suffisant. «Nous arrivons au bout du rouleau», confie avec lassitude Marie-Claude Fortin, syndicaliste représentant le personnel infirmier depuis vingt ans. Elle dénonce des conditions de travail dégradées et des ratios patients-soignants devenus «dangereux pour la sécurité».\n\nLe gouvernement provincial a annoncé un plan de rétention incluant des bourses d'études et des primes de fin de semaine, jugées toutefois insuffisantes par les représentants syndicaux. «On soigne avec des rustines une hémorragie structurelle», résigne-t-elle.\n\nL'attrait des salaires américains et ontariens continue de drainer les effectifs vers le privé et l'étranger.",
+          "question": "Quelle inference peut-on tirer de l'attitude de Marie-Claude Fortin ?",
+          "options": {
+            "A": "Elle est optimiste quant aux solutions gouvernementales",
+            "B": "Elle considère que les mesures actuelles sont inadéquates",
+            "C": "Elle soutient la fermeture des unités de soins",
+            "D": "Elle préconise l'embauche de personnel étranger"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "LE BOOM DES MICROBRASSERIES RÉINVENTE LE PAYSAGE BIERDARD QUÉBÉCOIS\n\nCe n'est plus une mode passagère, mais bien une révolution culturelle qui s'opère dans les verres des Québécois. Avec plus de 300 microbrasseries recensées sur le territoire provincial, le secteur artisanal de la bière connaît une croissance exponentielle qui redessine les habitudes de consommation.\n\nLongtemps dominé par les géants industriels, le marché québécois voit désormais les producteurs artisanaux capter près de 25 % des parts de marché, un bond spectaculaire en une décennie. Ces établissements, souvent nichés dans d'anciennes usines réhabilitées ou des quartiers émergents, sont devenus des pôles de dynamisme économique et social.\n\n«Les consommateurs recherchent l'authenticité, l'histoire derrière le produit», analyse Jean-François Gravel, fondateur de la Brasserie du Bas-Canada, pionnière du mouvement à Québec. Les bières locales aux saveurs audacieuses — érable, sureau, sapin — séduisent particulièrement la clientèle touristique internationale.\n\nCependant, la saturation du marché inquiète certains observateurs qui prédisent un consolidation imminente. La concurrence féroce et les coûts de production croissants pourraient sonner le glas des moins structurés.",
+          "question": "Quel est l'argument principal des sceptiques mentionnés dans l'article ?",
+          "options": {
+            "A": "La qualité des bières artisanales est inférieure",
+            "B": "Le marché devient saturé et compétitif",
+            "C": "Les consommateurs préfèrent les bières importées",
+            "D": "Les microbrasseries polluent l'environnement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "CONTROVERSE AUTOUR DU PROJET DE LIEN ÉLECTRIQUE AVEC LES ÉTATS-UNIS\n\nLe projet Great Northern Transmission Line, cette ligne à haute tension devant relier le réseau hydroélectrique québécois au nord-est américain, divise l'opinion publique et les experts économiques. D'un côté, les promoteurs soulignent les retombées financières substantielles : des contrats d'exportation estimés à 20 milliards de dollars sur vingt ans et la stabilisation des tarifs résidentiels grâce aux débouchés externes.\n\nDe l'autre, les groupes environnementaux et certains économistes contestent la pertinence de vendre «l'or bleu québécois» à des prix avantageux pour des consommateurs étrangers alors que la province peine à décarboner son propre parc de chauffage résidentiel. «On exporte notre énergie propre pour compenser des choix énergétiques désastreux ailleurs, sans résoudre nos propres contradictions», dénonce Pierre-Olivier Pineau, spécialiste en économie de l'énergie à HEC Montréal.\n\nLes communautés autochtones traversées par la ligne expriment des préoccupations quant aux impacts sur les territoires de chasse et à la consultation insuffisante. Le Bureau d'audiences publiques sur l'environnement doit rendre son verdict final cet automne, susceptible de conditionner l'avenir du projet.",
+          "question": "Quelle est la position de Pierre-Olivier Pineau ?",
+          "options": {
+            "A": "Il soutient inconditionnellement le projet",
+            "B": "Il critique l'exportation prioritaire sur les besoins locaux",
+            "C": "Il propose une augmentation des tarifs américains",
+            "D": "Il reste neutre sur la question"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "LES BIBLIOTHÈQUES MUNICIPALES SE MÉTAMORPHOSENT EN MAISONS DE QUARTIER\n\nLe modèle traditionnel de la bibliothèque comme simple entrepôt de livres connaît une mutation profonde au Québec. De plus en plus d'établissements réaménagent leurs espaces pour devenir des «maisons de quartier» polyvalentes où la lecture cohabite avec l'entrepreneuriat, la formation numérique et la création artistique.\n\nÀ la Bibliothèque Marc-Favreau à Montréal, anciennement consacrée exclusivement au prêt de documents, un tiers de la superficie accueille désormais des ateliers de fabrication numérique (fab labs), des studios d'enregistrement accessibles aux musiciens amateurs et des espaces de coworking gratuits pour les travailleurs autonomes. La fréquentation y a augmenté de 40 % en trois ans.\n\n«Nous ne désertifions pas le livre, nous élargissons notre mission de démocratisation du savoir», justifie la directrice, Louise Bélanger. Les collections papier demeurent, mais s'intègrent dans des parcours multimodaux où le numérique et l'physique se complètent.\n\nCette évolution suscite des débats sur le financement public : faut-il investir dans des équipements technologiques coûteux au détriment des fonds documentaires ? Les usagers semblent avoir tranché avec leurs pieds.",
+          "question": "Quelle est l'idée principale de cet article ?",
+          "options": {
+            "A": "Les bibliothèques ferment faute de financements",
+            "B": "Les bibliothèques se transforment en espaces multifonctionnels",
+            "C": "Les livres papier disparaissent des bibliothèques",
+            "D": "Les bibliothèques deviennent des entreprises privées"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 38,
+          "text": "LE TÉLÉTRAVAIL HYBRIDE S'INSTALLE DURABLEMENT DANS LES MŒURS QUÉBÉCOISES\n\nTrois années après la fin des mesures sanitaires obligatoires, le télétravail s'est ancré dans le paysage professionnel québécois bien au-delà des prévisions initiales. Selon l'Institut de la statistique du Québec, près de 38 % des travailleurs du secteur des services conservent un régime hybride, alternant présence au bureau et travail à domicile.\n\nCette réalité redessine les centres-villes. Les restaurants d'affaires déplorent une clientèle désormais sporadique, tandis que les quartiers résidentiels périphériques voient leur attractivité commerciale s'accroître. «Le midi, mon café du village est bondé de professionnels en appel vidéo», observe une commerçante de Saint-Lambert.\n\nLes employeurs peinent à imposer un retour complet au bureau. «La guerre des talents se joue désormais sur la flexibilité», note Stéphane Morin, consultant en gestion des ressources humaines. Les entreprises inflexibles perdent leurs meilleurs éléments au profit d'organisations plus adaptables.\n\nDes questions persistent néanmoins sur la cohésion d'équipe, la transmission informelle des savoirs et l'équité entre les postes télétravaillables et ceux nécessitant une présence physique.",
+          "question": "Quel phénomène est décrit comme une conséquence du télétravail hybride ?",
+          "options": {
+            "A": "La fermeture des commerces en périphérie",
+            "B": "L'augmentation de la fréquentation des cafés en banlieue",
+            "C": "La diminution des salaires des télétravailleurs",
+            "D": "L'interdiction du travail à domicile"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "CRITIQUE : LA NOUVELLE EXPOSITION DU MAC DÉÇOIT PAR SON MANQUE D'AMBITION\n\nLe Musée d'art contemporain de Montréal inaugure ce vendredi sa grande exposition de saison, consacrée à l'artiste multidisciplinaire Émilie Lalonde. Force est de constater, après visite presse, que l'institution culturelle manque une nouvelle fois l'occasion de proposer une rétrospective véritablement structurante.\n\nDispersée dans les salles du deuxième étage, la présentation souffre d'un scénographie confus qui ne parvient pas à établir de fil narratif clair entre les périodes successives de l'artiste. Les œuvres des années 1990, pourtant fondatrices, sont reléguées dans un cul-de-sac obscur, tandis que les productions récentes, plus commerciales, occupent les espaces les plus généreux.\n\nLe commissariat semble privilégier l'effet spectaculaire à l'analyse critique. Des installations immersives technologiquement sophistiquées impressionnent certes la rétine, mais masquent la profondeur conceptuelle d'une œuvre qui interroge pourtant avec acuité les rapports entre corporéité et virtualité.\n\nÀ l'heure où les institutions culturelles peinent à attirer les jeunes publics, cette approche consensuelle et dépolitisée apparaît comme une occasion manquée. Bilan : trois étoiles sur cinq pour une artiste méritant mieux.",
+          "question": "Quel est le jugement global du critique sur l'exposition ?",
+          "options": {
+            "A": "Il la considère comme une réussite totale",
+            "B": "Il juge qu'elle manque de cohérence et d'ambition",
+            "C": "Il critique uniquement la technologie utilisée",
+            "D": "Il suggère de fermer le musée"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "L'AGRICULTURE URBAINE GAGNE DU TERRAIN DANS LES GRANDES VILLES QUÉBÉCOISES\n\nSur les toits d'immeubles industriels de Montréal et dans les arrière-cours de Québec, une révolution verte silencieuse s'opère. L'agriculture urbaine, longtemps considérée comme une activité marginale de passionnés, acquiert désormais une légitimité économique et environnementale qui attire investisseurs et municipalités.\n\nL'entreprise Lufa Farms, pionnière des serres sur toits, vient d'annoncer l'ouverture de sa cinquième installation alimentant près de 15 000 abonnés en légumes biologiques de proximité. «Nous démontrons qu'on peut produire de la nourriture de qualité en milieu dense tout en réduisant l'empreinte carbone liée au transport», affirme son fondateur Mohamed Hage.\n\nLes avantages vont au-delà de la simple production alimentaire. Ces projets créent des îlots de fraîcheur dans des îlots de chaleur urbains, absorbent les eaux pluviales et contribuent à la biodiversité locale. Plusieurs villes ont intégré l'agriculture urbaine dans leurs plans de développement durable, allouant des fonds pour la réhabilitation de friches industrielles.\n\nDes défis subsistent : la rentabilité reste précaire sans subventions, et la contamination des sols en milieu urbain impose des précautions coûteuses. Pourtant, la tendance s'accélère, transformant la relation entre citadins et alimentation.",
+          "question": "Quelle nuance l'auteur apporte-t-il à son propos sur l'agriculture urbaine ?",
+          "options": {
+            "A": "Il remet en question son existence même",
+            "B": "Il mentionne des défis économiques et techniques persistants",
+            "C": "Il affirme qu'elle est totalement rentable sans aide",
+            "D": "Il critique l'absence de soutien gouvernemental"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

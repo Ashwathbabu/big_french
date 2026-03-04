@@ -1,0 +1,575 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AVIS IMPORTANT AUX CLIENTS\n\nEn raison de travaux de rénovation majeurs, notre bibliothèque municipale sera exceptionnellement fermée du 15 au 30 juillet prochain. Durant cette période, les emprunts et retours de livres seront suspendus. Nous invitons nos usagers à anticiper leurs besoins en empruntant des documents supplémentaires avant la fermeture. Une bibliothèque temporaire sera installée au centre culturel Marie-Curie, ouverte de 10h à 17h du mardi au samedi. Les ateliers de lecture pour enfants prévus en juillet sont reportés au mois d'août. Pour toute question, contactez notre service clientèle au 01 23 45 67 89 ou consultez notre site internet. Nous vous remercions de votre compréhension et vous donnons rendez-vous à la réouverture avec un espace entièrement rénové.",
+          "question": "Quelle solution alternative est proposée pendant la fermeture ?",
+          "options": {
+            "A": "La livraison des livres à domicile",
+            "B": "Une bibliothèque temporaire au centre culturel",
+            "C": "L'extension des horaires d'ouverture actuels",
+            "D": "Le report des emprunts au mois de septembre"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "MENU DU JOUR - RESTAURANT LE GOURMET\n\nEntrées au choix : Salade de chèvre chaud aux noix (12€) ou Velouté de potimarron et ses croûtons (9€). Plats principaux : Filet de saumon sauce hollandaise, accompagné de riz basmati et légumes de saison (24€) ; ou Parmentier de canard confit avec salade verte (22€). Nos desserts maison : Tarte tatin vanille (8€) ou Mousse au chocolat noir (7€). Formule complète entrée + plat + dessert : 38€ au lieu de 44€. Service continu de 12h à 14h30 et de 19h à 22h. Réservation recommandée le week-end. Menu enfant disponible à 15€ (jusqu'à 12 ans). Nous privilégions les produits locaux et de saison. Notre carte des vins propose une sélection de crus régionaux à partir de 25€ la bouteille.",
+          "question": "Quel est le prix de la formule complète si on choisit les plats les plus chers séparément ?",
+          "options": {
+            "A": "38€",
+            "B": "42€",
+            "C": "44€",
+            "D": "46€"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 3,
+          "text": "HORAIRES D'OUVERTURE - PISCINE MUNICIPALE LES ONDINES\n\nDu 1er juin au 31 août (période estivale) : Ouvert tous les jours de 10h à 19h sans interruption. Du 1er septembre au 31 mai : Mardi, mercredi, vendredi de 12h à 19h ; Jeudi de 10h à 21h ; Samedi et dimanche de 10h à 18h. Fermeture le lundi hors vacances scolaires. Durant les vacances de la Toussaint et de février : ouverture quotidienne de 14h à 18h. Tarifs 2024 : Adulte 4€, Enfant (-16 ans) 2,50€, Abonnement mensuel illimité 35€. Cours de natation : inscription obligatoire auprès de l'accueil ou en ligne. Le port du bonnet de bain est obligatoire. Dernier entrée 45 minutes avant la fermeture. Attention : maintenance technique tous les premiers lundis du mois de septembre à mai.",
+          "question": "À quelle heure doit-on arriver au plus tard pour nager un mardi en hiver ?",
+          "options": {
+            "A": "18h00",
+            "B": "18h15",
+            "C": "18h45",
+            "D": "19h00"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "PETITE ANNONCE - LOCATION SAISONNIÈRE\n\nLoue charmant studio meublé de 35m² en plein centre historique de Lyon, à deux pas de la place Bellecour. Idéal pour couple ou étudiant en déplacement professionnel. Comprend : kitchenette équipée (plaques, micro-ondes, réfrigérateur), salle de bain avec douche, lit double avec literie fournie, télévision et connexion Wi-Fi haut débit. Linge de maison inclus, changement hebdomadaire. Charges comprises (eau, électricité, chauffage). Non-fumeur, animaux non admis. Disponible à la semaine minimum (450€) ou au mois (1500€). Caution demandée : 500€. Contact : Mme Dubois au 06 12 34 56 78 ou location.lyon@email.com. Photos disponibles sur demande. Disponibilités : à partir du 1er septembre 2024.",
+          "question": "Quel équipement mentionné n'est PAS inclus dans la location ?",
+          "options": {
+            "A": "La connexion internet",
+            "B": "La literie",
+            "C": "Le lave-vaisselle",
+            "D": "Le chauffage"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 5,
+          "text": "AVIS DE DÉCÈS\n\nLa famille Martin a la profonde tristesse de vous faire part du décès de Monsieur Jean-Pierre MARTIN, survenu paisiblement le 12 octobre 2024, entouré de ses proches, à l'âge de 78 ans. Retraité de la fonction publique, passionné par le jardinage et les échecs, il laisse dans le deuil son épouse Marie, ses enfants Sophie et Thomas, ainsi que ses petits-enfants Lucie et Maxime. Les obsèques auront lieu le vendredi 18 octobre à 14h30 en l'église Saint-Pierre de Versailles, suivies de l'inhumation au cimetière municipal. La famille recevra les condoléances à la sortie de l'église. En lieu de fleurs, une collecte sera organisée au profit de l'association France Alzheimer. La cérémonie sera retransmise en ligne pour les proches ne pouvant se déplacer. Condoléances : www.memoire.com/jean-pierre-martin.",
+          "question": "Quel souhait exprime la famille concernant les hommages ?",
+          "options": {
+            "A": "Des fleurs blanches uniquement",
+            "B": "Un don à une association plutôt que des fleurs",
+            "C": "Des messages électroniques uniquement",
+            "D": "Une participation financière aux funérailles"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "text": "INSTRUCTIONS DE MONTAGE - ÉTAGÈRE BIBLIOTHÈQUE MODÈLE \"STOCKHOLM\"\n\nAvant de commencer, vérifiez que vous disposez de tous les éléments : 5 planches en bois, 10 équerres métalliques, 20 vis à bois (Ø4mm), 4 pieds réglables et la notice illustrée. Étape 1 : Fixez les équerres sur le côté intérieur des montants verticaux aux emplacements indiqués (A, B, C, D, E). Étape 2 : Vissez les planches horizontales sur les équerres en commençant par la plus basse. Étape 3 : Installez les pieds réglables sous les montants verticaux pour stabiliser l'ensemble. Étape 4 : Vérifiez l'horizontalité avec un niveau et ajustez les pieds si nécessaire. Charge maximale par étagère : 15 kg. Fixation murale recommandée pour plus de sécurité (sangle fournie). En cas de difficulté, contactez notre service technique au 0 800 123 456.",
+          "question": "Quelle étape permet d'assurer la stabilité de l'étagère une fois montée ?",
+          "options": {
+            "A": "La fixation des équerres métalliques",
+            "B": "L'installation des pieds réglables",
+            "C": "La vérification de l'horizontalité",
+            "D": "La fixation murale recommandée"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "text": "PROGRAMME CINÉMA LE LUXOR - SEMAINE DU 20 AU 26 NOVEMBRE\n\nMardi 20 : Projection spéciale \"Cinéma muet\" avec accompagnement pianistique - Les Temps modernes de Chaplin (19h). Mercredi 21 : Avant-première exclusive \"Les Herbes folles\" de Alain Resnais (20h30), débat avec la critique cinématographique suivant la séance. Jeudi 22 : Soirée \"Cinéma européen\" - double programme : La Dolce Vita (Fellini, 18h) et Le Fabuleux Destin d'Amélie Poulain (Jeunet, 21h). Vendredi 23 à dimanche 25 : Blockbuster américain \"Dune : Partie 2\" en version originale sous-titrée (séances à 14h, 17h et 20h). Lundi 26 : Retrospective \"Nouvelle Vague\" - À bout de souffle de Godard (18h), tarif réduit étudiants 5€. Billetterie ouverte 30 minutes avant chaque séance. Réservations en ligne sur www.cinema-luxor.fr. Parking gratuit pour les spectateurs.",
+          "question": "Quelle séance propose une interaction avec le public après le film ?",
+          "options": {
+            "A": "La projection des Temps modernes",
+            "B": "L'avant-première des Herbes folles",
+            "C": "La soirée Cinéma européen",
+            "D": "La rétrospective Nouvelle Vague"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "LE TÉLÉTRAVAIL : UNE RÉVOLUTION SILENCIEUSE\n\nLe télétravail s'est imposé comme une réalité incontournable du monde professionnel moderne. Cette pratique, qui consiste à exercer son activité professionnelle _____ (1) de son domicile, présente de nombreux avantages tant pour les employés que pour les entreprises. Les travailleurs apprécient particulièrement la _____ (2) des horaires qui leur permet de mieux concilier vie professionnelle et vie familiale. Cependant, cette organisation nécessite une grande _____ (3) personnelle pour éviter les distractions domestiques. De nombreux salariés soulignent également le sentiment d'_____ (4) qui peut s'installer au fil des semaines, faute de contacts informels avec les collègues. Les entreprises, quant à elles, réalisent des _____ (5) significatives sur les frais de bureaux et de déplacements. Pourtant, certaines regrettent la perte de la _____ (6) d'équipe qui se développe naturellement dans les espaces partagés.",
+          "gap_number": 1,
+          "options": {
+            "A": "depuis",
+            "B": "à partir",
+            "C": "loin",
+            "D": "hors"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 9,
+          "text": "LE TÉLÉTRAVAIL : UNE RÉVOLUTION SILENCIEUSE\n\nLe télétravail s'est imposé comme une réalité incontournable du monde professionnel moderne. Cette pratique, qui consiste à exercer son activité professionnelle _____ (1) de son domicile, présente de nombreux avantages tant pour les employés que pour les entreprises. Les travailleurs apprécient particulièrement la _____ (2) des horaires qui leur permet de mieux concilier vie professionnelle et vie familiale. Cependant, cette organisation nécessite une grande _____ (3) personnelle pour éviter les distractions domestiques. De nombreux salariés soulignent également le sentiment d'_____ (4) qui peut s'installer au fil des semaines, faute de contacts informels avec les collègues. Les entreprises, quant à elles, réalisent des _____ (5) significatives sur les frais de bureaux et de déplacements. Pourtant, certaines regrettent la perte de la _____ (6) d'équipe qui se développe naturellement dans les espaces partagés.",
+          "gap_number": 2,
+          "options": {
+            "A": "rigidité",
+            "B": "flexibilité",
+            "C": "difficulté",
+            "D": "rapidité"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 10,
+          "text": "LE TÉLÉTRAVAIL : UNE RÉVOLUTION SILENCIEUSE\n\nLe télétravail s'est imposé comme une réalité incontournable du monde professionnel moderne. Cette pratique, qui consiste à exercer son activité professionnelle _____ (1) de son domicile, présente de nombreux avantages tant pour les employés que pour les entreprises. Les travailleurs apprécient particulièrement la _____ (2) des horaires qui leur permet de mieux concilier vie professionnelle et vie familiale. Cependant, cette organisation nécessite une grande _____ (3) personnelle pour éviter les distractions domestiques. De nombreux salariés soulignent également le sentiment d'_____ (4) qui peut s'installer au fil des semaines, faute de contacts informels avec les collègues. Les entreprises, quant à elles, réalisent des _____ (5) significatives sur les frais de bureaux et de déplacements. Pourtant, certaines regrettent la perte de la _____ (6) d'équipe qui se développe naturellement dans les espaces partagés.",
+          "gap_number": 3,
+          "options": {
+            "A": "discipline",
+            "B": "créativité",
+            "C": "sensibilité",
+            "D": "curiosité"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 11,
+          "text": "LE TÉLÉTRAVAIL : UNE RÉVOLUTION SILENCIEUSE\n\nLe télétravail s'est imposé comme une réalité incontournable du monde professionnel moderne. Cette pratique, qui consiste à exercer son activité professionnelle _____ (1) de son domicile, présente de nombreux avantages tant pour les employés que pour les entreprises. Les travailleurs apprécient particulièrement la _____ (2) des horaires qui leur permet de mieux concilier vie professionnelle et vie familiale. Cependant, cette organisation nécessite une grande _____ (3) personnelle pour éviter les distractions domestiques. De nombreux salariés soulignent également le sentiment d'_____ (4) qui peut s'installer au fil des semaines, faute de contacts informels avec les collègues. Les entreprises, quant à elles, réalisent des _____ (5) significatives sur les frais de bureaux et de déplacements. Pourtant, certaines regrettent la perte de la _____ (6) d'équipe qui se développe naturellement dans les espaces partagés.",
+          "gap_number": 4,
+          "options": {
+            "A": "enthousiasme",
+            "B": "isolement",
+            "C": "optimisme",
+            "D": "excitation"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 12,
+          "text": "LE TÉLÉTRAVAIL : UNE RÉVOLUTION SILENCIEUSE\n\nLe télétravail s'est imposé comme une réalité incontournable du monde professionnel moderne. Cette pratique, qui consiste à exercer son activité professionnelle _____ (1) de son domicile, présente de nombreux avantages tant pour les employés que pour les entreprises. Les travailleurs apprécient particulièrement la _____ (2) des horaires qui leur permet de mieux concilier vie professionnelle et vie familiale. Cependant, cette organisation nécessite une grande _____ (3) personnelle pour éviter les distractions domestiques. De nombreux salariés soulignent également le sentiment d'_____ (4) qui peut s'installer au fil des semaines, faute de contacts informels avec les collègues. Les entreprises, quant à elles, réalisent des _____ (5) significatives sur les frais de bureaux et de déplacements. Pourtant, certaines regrettent la perte de la _____ (6) d'équipe qui se développe naturellement dans les espaces partagés.",
+          "gap_number": 5,
+          "options": {
+            "A": "dépenses",
+            "B": "pertes",
+            "C": "économies",
+            "D": "investissements"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 13,
+          "text": "LE TÉLÉTRAVAIL : UNE RÉVOLUTION SILENCIEUSE\n\nLe télétravail s'est imposé comme une réalité incontournable du monde professionnel moderne. Cette pratique, qui consiste à exercer son activité professionnelle _____ (1) de son domicile, présente de nombreux avantages tant pour les employés que pour les entreprises. Les travailleurs apprécient particulièrement la _____ (2) des horaires qui leur permet de mieux concilier vie professionnelle et vie familiale. Cependant, cette organisation nécessite une grande _____ (3) personnelle pour éviter les distractions domestiques. De nombreux salariés soulignent également le sentiment d'_____ (4) qui peut s'installer au fil des semaines, faute de contacts informels avec les collègues. Les entreprises, quant à elles, réalisent des _____ (5) significatives sur les frais de bureaux et de déplacements. Pourtant, certaines regrettent la perte de la _____ (6) d'équipe qui se développe naturellement dans les espaces partagés.",
+          "gap_number": 6,
+          "options": {
+            "A": "cohesion",
+            "B": "compétition",
+            "C": "hiérarchie",
+            "D": "rivalité"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 14,
+          "text": "LES BIENFAITS DE LA MARCHE À PIED\n\nLa marche constitue l'une des activités physiques les plus accessibles et bénéfiques pour la santé. Contrairement à la course à pied, elle ne nécessite aucun _____ (1) particulier et s'adresse à tous, quel que soit l'âge ou la condition physique. Une marche régulière de trente minutes par jour permet de renforcer le système _____ (2) et d'améliorer la circulation sanguine. Sur le plan mental, cette activité favorise la _____ (3) et aide à réduire l'anxiété grâce à la libération d'endorphines. De plus, marcher en plein air expose l'organisme à la lumière naturelle, ce qui régule le cycle du _____ (4) et améliore la qualité du sommeil. Les études scientifiques démontrent également que les personnes qui marchent quotidiennement présentent un risque réduit de maladies _____ (5). Pour optimiser les bienfaits, les experts recommandent de maintenir une allure _____ (6) permettant de converser sans essoufflement.",
+          "gap_number": 1,
+          "options": {
+            "A": "équipement",
+            "B": "billet",
+            "C": "diplôme",
+            "D": "permis"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 15,
+          "text": "LES BIENFAITS DE LA MARCHE À PIED\n\nLa marche constitue l'une des activités physiques les plus accessibles et bénéfiques pour la santé. Contrairement à la course à pied, elle ne nécessite aucun _____ (1) particulier et s'adresse à tous, quel que soit l'âge ou la condition physique. Une marche régulière de trente minutes par jour permet de renforcer le système _____ (2) et d'améliorer la circulation sanguine. Sur le plan mental, cette activité favorise la _____ (3) et aide à réduire l'anxiété grâce à la libération d'endorphines. De plus, marcher en plein air expose l'organisme à la lumière naturelle, ce qui régule le cycle du _____ (4) et améliore la qualité du sommeil. Les études scientifiques démontrent également que les personnes qui marchent quotidiennement présentent un risque réduit de maladies _____ (5). Pour optimiser les bienfaits, les experts recommandent de maintenir une allure _____ (6) permettant de converser sans essoufflement.",
+          "gap_number": 2,
+          "options": {
+            "A": "nerveux",
+            "B": "respiratoire",
+            "C": "cardiovasculaire",
+            "D": "digestif"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 16,
+          "text": "LES BIENFAITS DE LA MARCHE À PIED\n\nLa marche constitue l'une des activités physiques les plus accessibles et bénéfiques pour la santé. Contrairement à la course à pied, elle ne nécessite aucun _____ (1) particulier et s'adresse à tous, quel que soit l'âge ou la condition physique. Une marche régulière de trente minutes par jour permet de renforcer le système _____ (2) et d'améliorer la circulation sanguine. Sur le plan mental, cette activité favorise la _____ (3) et aide à réduire l'anxiété grâce à la libération d'endorphines. De plus, marcher en plein air expose l'organisme à la lumière naturelle, ce qui régule le cycle du _____ (4) et améliore la qualité du sommeil. Les études scientifiques démontrent également que les personnes qui marchent quotidiennement présentent un risque réduit de maladies _____ (5). Pour optimiser les bienfaits, les experts recommandent de maintenir une allure _____ (6) permettant de converser sans essoufflement.",
+          "gap_number": 3,
+          "options": {
+            "A": "concentration",
+            "B": "relaxation",
+            "C": "agitation",
+            "D": "fatigue"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 17,
+          "text": "LES BIENFAITS DE LA MARCHE À PIED\n\nLa marche constitue l'une des activités physiques les plus accessibles et bénéfiques pour la santé. Contrairement à la course à pied, elle ne nécessite aucun _____ (1) particulier et s'adresse à tous, quel que soit l'âge ou la condition physique. Une marche régulière de trente minutes par jour permet de renforcer le système _____ (2) et d'améliorer la circulation sanguine. Sur le plan mental, cette activité favorise la _____ (3) et aide à réduire l'anxiété grâce à la libération d'endorphines. De plus, marcher en plein air expose l'organisme à la lumière naturelle, ce qui régule le cycle du _____ (4) et améliore la qualité du sommeil. Les études scientifiques démontrent également que les personnes qui marchent quotidiennement présentent un risque réduit de maladies _____ (5). Pour optimiser les bienfaits, les experts recommandent de maintenir une allure _____ (6) permettant de converser sans essoufflement.",
+          "gap_number": 4,
+          "options": {
+            "A": "sommeil-éveil",
+            "B": "repas",
+            "C": "travail",
+            "D": "saison"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "INFOGRAPHIE : CONSOMMATION MÉDIA DES 18-35 ANS\n\nTemps quotidien moyen : Réseaux sociaux 2h15, Streaming vidéo 1h30, Musique en ligne 1h, Jeux vidéo 45 min, Presse écrite 10 min. Supports préférés : Smartphone 78%, Ordinateur 45%, Télévision 32%, Tablette 15%, Radio 8%. Contenus les plus consultés : Vidéos courtes (TikTok, Reels) 85%, Actualités 52%, Tutoriels éducatifs 48%, Podcasts 23%, Articles longs 12%. Fréquence d'achat influencée par les réseaux sociaux : Plusieurs fois par semaine 35%, Une fois par mois 28%, Rarement 22%, Jamais 15%. Attention : 62% déclarent vérifier l'information avant de la partager, 38% admettent partager sans vérification.",
+          "question": "Quel support est utilisé par moins d'un jeune sur dix ?",
+          "options": {
+            "A": "La tablette",
+            "B": "L'ordinateur",
+            "C": "La radio",
+            "D": "Le smartphone"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 19,
+          "text": "COURRIER ÉLECTRONIQUE - OBJET : Confirmation de votre inscription au séminaire\n\nDe : service.formation@entreprise.fr\nÀ : martin.durand@email.com\nDate : 15 novembre 2024\n\nMonsieur Durand,\n\nNous avons le plaisir de confirmer votre inscription au séminaire \"Gestion du stress au travail\" qui se tiendra le 28 novembre 2024 de 9h à 17h dans la salle de conférence A (étage 3). Votre participation est prise en charge par le service des ressources humaines. Un petit-déjeuner d'accueil sera servi dès 8h30. Merci de vous munir d'une pièce d'identité pour l'accès au bâtiment. En cas d'empêchement, veuillez nous prévenir 48h à l'avance. Le programme détaillé et les documents préparatoires sont joints à ce message. Nous vous remercions de votre intérêt et vous souhaitons une bonne formation.\n\nCordialement,\nLe Service Formation",
+          "question": "Quelle consigne pratique est donnée pour le jour J ?",
+          "options": {
+            "A": "Apporter son propre ordinateur",
+            "B": "Prévoir un repas de midi",
+            "C": "Présenter une pièce d'identité",
+            "D": "Confirmer sa présence par téléphone"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 20,
+          "text": "RECETTE RAPIDE : TARTE FINE AUX POMMES (4 personnes)\n\nPréparation : 15 min - Cuisson : 25 min\n\nIngrédients : 1 pâte feuilletée, 4 pommes Golden, 30g de beurre, 2 cuillères à soupe de sucre, 1 sachet de sucre vanillé, cannelle en poudre.\n\nÉtapes : Préchauffer le four à 200°C. Étaler la pâte sur une plaque de cuisson. Éplucher et couper les pommes en lamelles fines. Les disposer en rosace sur la pâte. Faire fondre le beurre et l'appliquer sur les pommes à l'aide d'un pinceau. Saupoudrer de sucre, de sucre vanillé et de cannelle. Enfourner pour 20 à 25 minutes jusqu'à ce que la pâte soit dorée. Servir tiède avec une boule de glace vanille ou de la crème fraîche.\n\nAstuce : Pour une version plus légère, remplacer le beurre par de la compote de pommes.",
+          "question": "Quel ingrédient permet de réduire la teneur en matières grasses de la recette ?",
+          "options": {
+            "A": "Le sucre vanillé",
+            "B": "La cannelle",
+            "C": "La compote de pommes",
+            "D": "Les pommes Golden"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 21,
+          "text": "AVIS D'ARRÊT DE TRAVAIL - CERTIFICAT MÉDICAL\n\nMédecin : Dr Sophie Bernard\nPatient : Mme Claire Lefebvre (n° sécurité sociale : 2 85 12 34 567 890 12)\nDate de l'arrêt : 18 décembre 2024\nDurée prévue : 7 jours (du 18/12 au 24/12 inclus)\nMotif : Lumbago aigu avec impossibilité de station debout prolongée et de port de charges.\n\nRecommandations : Repos relatif, éviter les efforts physiques, application de chaleur locale, antalgiques prescrits. Rééducation fonctionnelle à envisager si persistance des symptômes au-delà de 10 jours. Consultation de contrôle obligatoire le 26 décembre 2024 à 10h00 au cabinet médical. En cas d'aggravation, contacter le 15 ou les urgences. L'autorisation de reprise du travail sera délivrée lors de la consultation de contrôle. Ce certificat doit être transmis à l'employeur et à la caisse d'assurance maladie sous 48 heures.",
+          "question": "Quelle est la date de reprise prévue du travail selon ce document ?",
+          "options": {
+            "A": "Le 24 décembre 2024",
+            "B": "Le 25 décembre 2024",
+            "C": "Le 26 décembre 2024",
+            "D": "Le 27 décembre 2024"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 22,
+          "text": "CONDITIONS GÉNÉRALES DE VENTE - SITE E-COMMERCE\n\nArticle 4 : Droit de rétractation\n\nLe client dispose d'un délai de 14 jours calendaires à compter de la réception de sa commande pour exercer son droit de rétractation sans avoir à justifier de motifs ni à payer de pénalités. Pour les produits livrés en plusieurs lots, le délai court à compter de la réception du dernier lot. Le retour des articles doit être effectué dans leur emballage d'origine, complets et en parfait état de revente. Les frais de retour sont à la charge du client, sauf en cas de produit défectueux ou erreur de livraison de notre part. Le remboursement sera effectué dans un délai de 14 jours suivant la réception des articles retournés, par le même moyen de paiement que celui utilisé lors de la commande. Exception : les produits personnalisés ou hygiéniques (cosmétiques ouverts, sous-vêtements) ne sont pas éligibles au droit de rétractation.",
+          "question": "Dans quel cas les frais de retour sont-ils pris en charge par le vendeur ?",
+          "options": {
+            "A": "Si le client change d'avis sous 7 jours",
+            "B": "Si le produit est défectueux",
+            "C": "Si l'emballage est endommagé",
+            "D": "Si le remboursement demandé est partiel"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Madame, Monsieur,\n\nPar courrier en date du 5 octobre dernier, nous vous avons informé d'une erreur de facturation concernant votre compte client n°45892. Malheureusement, nous n'avons reçu aucune réponse de votre part à ce jour.\n\nNous constatons que la somme de 245,80€, correspondant à des frais de livraison indûment appliqués, reste créditée sur votre compte. Nous vous prions de bien vouloir nous contacter dans les plus brefs délais afin de procéder au remboursement ou d'en reporter le montant sur votre prochaine commande.\n\nÀ défaut de réponse sous 15 jours, nous serons contraints d'annuler cet avoir et de clôturer votre dossier. Nous restons à votre disposition pour tout renseignement complémentaire et vous prions d'agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nLe Service Client\nEntreprise Logistique Plus",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Informer d'une dette impayée",
+            "B": "Demander une décision concernant un remboursement",
+            "C": "Annoncer la fermeture définitive du compte",
+            "D": "Proposer une promotion commerciale"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 24,
+          "text": "Madame, Monsieur,\n\nPar courrier en date du 5 octobre dernier, nous vous avons informé d'une erreur de facturation concernant votre compte client n°45892. Malheureusement, nous n'avons reçu aucune réponse de votre part à ce jour.\n\nNous constatons que la somme de 245,80€, correspondant à des frais de livraison indûment appliqués, reste créditée sur votre compte. Nous vous prions de bien vouloir nous contacter dans les plus brefs délais afin de procéder au remboursement ou d'en reporter le montant sur votre prochaine commande.\n\nÀ défaut de réponse sous 15 jours, nous serons contraints d'annuler cet avoir et de clôturer votre dossier. Nous restons à votre disposition pour tout renseignement complémentaire et vous prions d'agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nLe Service Client\nEntreprise Logistique Plus",
+          "question": "Quel ton caractérise ce courrier ?",
+          "options": {
+            "A": "Agressif et menaçant",
+            "B": "Cordial et décontracté",
+            "C": "Formel mais courtois",
+            "D": "Urgent et paniqué"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 25,
+          "text": "Objet : Invitation à participer au projet \"Innovation 2025\"\n\nChers collègues,\n\nDans le cadre de notre politique de développement durable, la direction lance le projet \"Innovation 2025\" visant à réduire notre empreinte carbone de 30% d'ici deux ans. Nous recherchons activement des volontaires pour former le groupe de travail chargé de proposer des solutions concrètes.\n\nVotre participation représenterait un engagement de 4 heures mensuelles et vous offrirait l'opportunité de développer de nouvelles compétences en gestion environnementale. Les réunions auront lieu les premiers vendredis du mois de 14h à 18h.\n\nSi vous souhaitez contribuer à cette démarche collective, merci de confirmer votre intérêt avant le 30 novembre à Mme Petit (ressources humaines). Nous comptons sur votre enthousiasme pour mener à bien cette initiative ambitieuse.\n\nBien cordialement,\n\nLa Direction des Ressources Humaines",
+          "question": "Quel bénéfice implicite est mentionné pour les participants ?",
+          "options": {
+            "A": "Une augmentation de salaire",
+            "B": "Une prime de fin d'année",
+            "C": "L'acquisition de nouvelles compétences",
+            "D": "Une promotion interne garantie"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 26,
+          "text": "Objet : Invitation à participer au projet \"Innovation 2025\"\n\nChers collègues,\n\nDans le cadre de notre politique de développement durable, la direction lance le projet \"Innovation 2025\" visant à réduire notre empreinte carbone de 30% d'ici deux ans. Nous recherchons activement des volontaires pour former le groupe de travail chargé de proposer des solutions concrètes.\n\nVotre participation représenterait un engagement de 4 heures mensuelles et vous offrirait l'opportunité de développer de nouvelles compétences en gestion environnementale. Les réunions auront lieu les premiers vendredis du mois de 14h à 18h.\n\nSi vous souhaitez contribuer à cette démarche collective, merci de confirmer votre intérêt avant le 30 novembre à Mme Petit (ressources humaines). Nous comptons sur votre enthousiasme pour mener à bien cette initiative ambitieuse.\n\nBien cordialement,\n\nLa Direction des Ressources Humaines",
+          "question": "Quelle est la nature exacte de l'engagement demandé ?",
+          "options": {
+            "A": "4 heures par semaine",
+            "B": "4 heures par mois",
+            "C": "4 heures par trimestre",
+            "D": "4 heures par an"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "Madame Lacroix,\n\nSuite à notre entretien téléphonique de ce matin, je vous confirme par écrit ma décision de résilier mon contrat d'assurance habitation (police n°AH-2022-45678) souscrit auprès de votre compagnie le 15 mars 2022.\n\nLe motif de cette résiliation est mon déménagement définitif à l'étranger (Canada) à compter du 1er février prochain. Conformément aux conditions générales, je respecte le préavis de deux mois et demande donc la cessation de la garantie au 31 janvier 2025.\n\nJe vous prie de bien vouloir m'adresser un courrier de confirmation de résiliation ainsi que le calcul des éventuels remboursements au prorata temporis. Mon nouvel adresse complète est indiquée en en-tête de ce courrier pour l'envoi du solde de tout compte.\n\nJe vous remercie de traiter cette demande dans les meilleurs délais et vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nPierre Moreau",
+          "question": "Quelle est la raison invoquée pour la résiliation ?",
+          "options": {
+            "A": "L'insatisfaction des services",
+            "B": "Un déménagement à l'étranger",
+            "C": "La hausse des primes",
+            "D": "La vente du logement assuré"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Madame Lacroix,\n\nSuite à notre entretien téléphonique de ce matin, je vous confirme par écrit ma décision de résilier mon contrat d'assurance habitation (police n°AH-2022-45678) souscrit auprès de votre compagnie le 15 mars 2022.\n\nLe motif de cette résiliation est mon déménagement définitif à l'étranger (Canada) à compter du 1er février prochain. Conformément aux conditions générales, je respecte le préavis de deux mois et demande donc la cessation de la garantie au 31 janvier 2025.\n\nJe vous prie de bien vouloir m'adresser un courrier de confirmation de résiliation ainsi que le calcul des éventuels remboursements au prorata temporis. Mon nouvel adresse complète est indiquée en en-tête de ce courrier pour l'envoi du solde de tout compte.\n\nJe vous remercie de traiter cette demande dans les meilleurs délais et vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nPierre Moreau",
+          "question": "Quelle information pratique l'auteur demande-t-il explicitement ?",
+          "options": {
+            "A": "Une attestation d'assurance pour son nouveau logement",
+            "B": "Le remboursement des cotisations non utilisées",
+            "C": "Une réduction pour son prochain contrat",
+            "D": "Les coordonnées d'un courtier au Canada"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "PROCÈS-VERBAL DE RÉUNION - COMITÉ DE PILOTAGE\n\nDate : 12 septembre 2024\nPrésents : M. Dubois (Directeur), Mme Leroy (RH), M. Petit (Finances), Mme Garcia (Marketing)\nExcusé : M. Martin (Technique - maladie)\n\nOrdre du jour :\n1. Bilan du premier semestre 2024\n2. Présentation du budget prévisionnel 2025\n3. Organisation du séminaire d'entreprise\n\nDélibérations :\nConcernant le point 3, Mme Leroy a présenté trois options de séminaire (Normandie, Alpes, Bretagne). Après discussion, le comité a voté à l'unanimité pour la destination Alpes, préférant un cadre propice aux activités de cohésion d'équipe. Le budget alloué est de 350€ par personne pour deux jours. Mme Garcia est chargée de contacter les hôtels d'ici le 1er octobre pour obtenir des devis détaillés. La période envisagée est le mois de juin 2025, hors saison touristique pour optimiser les tarifs.\n\nProchaine réunion fixée au 15 octobre 2024.\n\nLe Secrétaire,\nM. Petit",
+          "question": "Quel critère a déterminé le choix de la destination ?",
+          "options": {
+            "A": "Le coût le plus bas",
+            "B": "La proximité géographique",
+            "C": "L'adaptation aux objectifs de l'événement",
+            "D": "La disponibilité des salles de conférence"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 30,
+          "text": "PROCÈS-VERBAL DE RÉUNION - COMITÉ DE PILOTAGE\n\nDate : 12 septembre 2024\nPrésents : M. Dubois (Directeur), Mme Leroy (RH), M. Petit (Finances), Mme Garcia (Marketing)\nExcusé : M. Martin (Technique - maladie)\n\nOrdre du jour :\n1. Bilan du premier semestre 2024\n2. Présentation du budget prévisionnel 2025\n3. Organisation du séminaire d'entreprise\n\nDélibérations :\nConcernant le point 3, Mme Leroy a présenté trois options de séminaire (Normandie, Alpes, Bretagne). Après discussion, le comité a voté à l'unanimité pour la destination Alpes, préférant un cadre propice aux activités de cohésion d'équipe. Le budget alloué est de 350€ par personne pour deux jours. Mme Garcia est chargée de contacter les hôtels d'ici le 1er octobre pour obtenir des devis détaillés. La période envisagée est le mois de juin 2025, hors saison touristique pour optimiser les tarifs.\n\nProchaine réunion fixée au 15 octobre 2024.\n\nLe Secrétaire,\nM. Petit",
+          "question": "Quelle tâche est assignée à Mme Garcia ?",
+          "options": {
+            "A": "Présenter le budget prévisionnel",
+            "B": "Contacter les hébergements",
+            "C": "Organiser les activités de cohésion",
+            "D": "Rédiger le prochain ordre du jour"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 31,
+          "text": "À l'attention de l'équipe commerciale,\n\nCompte tenu des retards récurrents constatés ces derniers mois dans le traitement des commandes clients, nous vous informons de la mise en place immédiate de nouvelles procédures obligatoires.\n\nDès réception d'une commande, vous devez désormais : 1) Accuser réception par email dans un délai de 2 heures ouvrées, 2) Vérifier la disponibilité des produits dans notre entrepôt sous 24h, 3) Contacter le client par téléphone en cas d'indisponibilité partielle pour proposer des alternatives. Ces étapes doivent être documentées dans notre système CRM avec horodatage.\n\nLe non-respect de ces délais entraînera systématiquement une entrevue individuelle avec votre responsable hiérarchique. Nous comptons sur votre professionnalisme pour améliorer significativement la satisfaction client, qui a chuté de 15% au dernier trimestre.\n\nPour toute question d'application, contactez le service qualité.\n\nLa Direction Commerciale",
+          "question": "Quelle est l'intention principale de ce message ?",
+          "options": {
+            "A": "Féliciter l'équipe pour ses performances",
+            "B": "Instaurer de nouvelles règles strictes",
+            "C": "Annoncer des recrutements",
+            "D": "Informer d'une réorganisation"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "À l'attention de l'équipe commerciale,\n\nCompte tenu des retards récurrents constatés ces derniers mois dans le traitement des commandes clients, nous vous informons de la mise en place immédiate de nouvelles procédures obligatoires.\n\nDès réception d'une commande, vous devez désormais : 1) Accuser réception par email dans un délai de 2 heures ouvrées, 2) Vérifier la disponibilité des produits dans notre entrepôt sous 24h, 3) Contacter le client par téléphone en cas d'indisponibilité partielle pour proposer des alternatives. Ces étapes doivent être documentées dans notre système CRM avec horodatage.\n\nLe non-respect de ces délais entraînera systématiquement une entrevue individuelle avec votre responsable hiérarchique. Nous comptons sur votre professionnalisme pour améliorer significativement la satisfaction client, qui a chuté de 15% au dernier trimestre.\n\nPour toute question d'application, contactez le service qualité.\n\nLa Direction Commerciale",
+          "question": "Quelle conséquence est mentionnée en cas de non-respect des procédures ?",
+          "options": {
+            "A": "Une amende financière",
+            "B": "Un entretien avec le supérieur",
+            "C": "Une suspension temporaire",
+            "D": "Une rétrogradation immédiate"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "LA POLÉMIQUE DES TRANSPORTS EN COMMUN GRATUITS : UTOPIE OU RÉALITÉ ?\n\nDepuis l'annonce de la gratuité totale des transports en commun à Dunkerque en 2018, de nombreuses métropoles françaises étudient cette option avec intérêt. Pourtant, le débat reste vif entre partisans d'une accessibilité universelle et défenseurs d'une tarification sélective. Les études menées sur trois ans révèlent une augmentation de 85% de la fréquentation des bus dunkerquois, mais aussi une baisse de 15% des recettes publicitaires faute d'affichage tarifaire. Les opposants soulignent que cette mesure profite davantage aux automobilistes occasionnels qu'aux populations défavorisées, qui utilisaient déjà les transports. Par ailleurs, le coût estimé pour Paris s'élèverait à 4 milliards d'euros annuels, nécessitant soit une hausse massive de la fiscalité locale, soit des coupes budgétaires drastiques dans d'autres services publics. Les écologistes rétorquent que les externalités positives (moins de pollution, moins d'embouteillages) compensent largement ces investissements à long terme.",
+          "question": "Quelle est la position de l'auteur concernant cette mesure ?",
+          "options": {
+            "A": "Entièrement favorable",
+            "B": "Catégoriquement opposé",
+            "C": "Nuancée et objective",
+            "D": "Indifférente"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 34,
+          "text": "LA POLÉMIQUE DES TRANSPORTS EN COMMUN GRATUITS : UTOPIE OU RÉALITÉ ?\n\nDepuis l'annonce de la gratuité totale des transports en commun à Dunkerque en 2018, de nombreuses métropoles françaises étudient cette option avec intérêt. Pourtant, le débat reste vif entre partisans d'une accessibilité universelle et défenseurs d'une tarification sélective. Les études menées sur trois ans révèlent une augmentation de 85% de la fréquentation des bus dunkerquois, mais aussi une baisse de 15% des recettes publicitaires faute d'affichage tarifaire. Les opposants soulignent que cette mesure profite davantage aux automobilistes occasionnels qu'aux populations défavorisées, qui utilisaient déjà les transports. Par ailleurs, le coût estimé pour Paris s'élèverait à 4 milliards d'euros annuels, nécessitant soit une hausse massive de la fiscalité locale, soit des coupes budgétaires drastiques dans d'autres services publics. Les écologistes rétorquent que les externalités positives (moins de pollution, moins d'embouteillages) compensent largement ces investissements à long terme.",
+          "question": "Quel argument des opposants est implicitement remis en question par le texte ?",
+          "options": {
+            "A": "L'augmentation de la fréquentation",
+            "B": "Le coût financier pour les collectivités",
+            "C": "L'effet réel sur les plus démunis",
+            "D": "La baisse des recettes publicitaires"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 35,
+          "text": "INTELLIGENCE ARTIFICIELLE : LA RÉVOLUTION SILENCIEUSE DES TRIBUNAUX\n\nL'intégration de l'intelligence artificielle dans le système judiciaire français suscite à la fois espoirs et inquiétudes. Depuis janvier dernier, plusieurs cours d'appel expérimentent un logiciel capable d'analyser la jurisprudence et de suggérer des décisions types pour les litiges routiers mineurs. Les magistrats rapportent un gain de temps considérable, leur permettant de se consacrer aux affaires complexes nécessitant une réelle expertise humaine. Cependant, la Cour de cassation a récemment émis des réserves concernant la transparence algorithmique : comment garantir que le programme ne reproduit pas les biais historiques présents dans les données d'entraînement ? Les avocats craignent également une uniformisation des décisions, menaçant le principe d'individualisation des peines. Le garde des Sceaux a annoncé la création d'une commission d'éthique dédiée, tout en maintenant le déploiement progressif de ces outils, arguant que l'IA ne décide pas mais assiste seulement le juge dans sa réflexion.",
+          "question": "Quelle est l'idée principale de cet article ?",
+          "options": {
+            "A": "L'IA va remplacer les juges français d'ici 2030",
+            "B": "L'IA judiciaire présente des avantages pratiques mais soulève des questions éthiques",
+            "C": "Les magistrats français refusent d'utiliser les nouvelles technologies",
+            "D": "La justice française est en crise de compétences"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "INTELLIGENCE ARTIFICIELLE : LA RÉVOLUTION SILENCIEUSE DES TRIBUNAUX\n\nL'intégration de l'intelligence artificielle dans le système judiciaire français suscite à la fois espoirs et inquiétudes. Depuis janvier dernier, plusieurs cours d'appel expérimentent un logiciel capable d'analyser la jurisprudence et de suggérer des décisions types pour les litiges routiers mineurs. Les magistrats rapportent un gain de temps considérable, leur permettant de se consacrer aux affaires complexes nécessitant une réelle expertise humaine. Cependant, la Cour de cassation a récemment émis des réserves concernant la transparence algorithmique : comment garantir que le programme ne reproduit pas les biais historiques présents dans les données d'entraînement ? Les avocats craignent également une uniformisation des décisions, menaçant le principe d'individualisation des peines. Le garde des Sceaux a annoncé la création d'une commission d'éthique dédiée, tout en maintenant le déploiement progressif de ces outils, arguant que l'IA ne décide pas mais assiste seulement le juge dans sa réflexion.",
+          "question": "Quelle précaution le garde des Sceaux prend-il face à ces critiques ?",
+          "options": {
+            "A": "Il suspend l'utilisation de l'IA dans les tribunaux",
+            "B": "Il crée une structure de supervision éthique",
+            "C": "Il impose une formation obligatoire aux avocats",
+            "D": "Il interdit l'accès aux données historiques"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "L'AGRICULTURE URBAINE : SOLUTION ÉCOLOGIQUE OU MIRAGE VERT ?\n\nLes toits végétalisés et potagers collectifs envahissent les centres-villes européens, présentés comme la réponse aux défis alimentaires et climatiques. Pourtant, une étude de l'Université de Manchester publiée ce mois-ci tempère cet enthousiasme. Les chercheurs ont calculé que même en convertissant intégralement les espaces urbains disponibles, l'agriculture citadine ne pourrait subvenir qu'à 10% des besoins alimentaires des métropoles. De plus, la production de légumes en serre chauffée consomme davantage d'énergie que l'agriculture traditionnelle importée de régions ensoleillées. Les défenseurs du mouvement répliquent que ces calculs négligent les bénéfices sociaux indiscutables : création de liens communautaires, éducation alimentaire des jeunes générations et réduction des îlots de chaleur urbains. Ils insistent sur le fait que l'agriculture urbaine ne vise pas l'autosuffisance totale mais une résilience accrue face aux perturbations d'approvisionnement mondiales.",
+          "question": "Quelle distinction les défenseurs font-ils concernant l'objectif réel de l'agriculture urbaine ?",
+          "options": {
+            "A": "Elle vise la rentabilité économique plutôt que l'écologie",
+            "B": "Elle cherche la résilience plutôt que l'autosuffisance complète",
+            "C": "Elle privilégie l'esthétique à la production alimentaire",
+            "D": "Elle se concentre sur les céréales plutôt que les légumes"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 38,
+          "text": "L'AGRICULTURE URBAINE : SOLUTION ÉCOLOGIQUE OU MIRAGE VERT ?\n\nLes toits végétalisés et potagers collectifs envahissent les centres-villes européens, présentés comme la réponse aux défis alimentaires et climatiques. Pourtant, une étude de l'Université de Manchester publiée ce mois-ci tempère cet enthousiasme. Les chercheurs ont calculé que même en convertissant intégralement les espaces urbains disponibles, l'agriculture citadine ne pourrait subvenir qu'à 10% des besoins alimentaires des métropoles. De plus, la production de légumes en serre chauffée consomme davantage d'énergie que l'agriculture traditionnelle importée de régions ensoleillées. Les défenseurs du mouvement répliquent que ces calculs négligent les bénéfices sociaux indiscutables : création de liens communautaires, éducation alimentaire des jeunes générations et réduction des îlots de chaleur urbains. Ils insistent sur le fait que l'agriculture urbaine ne vise pas l'autosuffisance totale mais une résilience accrue face aux perturbations d'approvisionnement mondiales.",
+          "question": "Quel contrepoids l'étude de Manchester oppose-t-elle aux arguments écologiques ?",
+          "options": {
+            "A": "L'inefficacité énergétique des productions en serre",
+            "B": "Le coût prohibitif des installations urbaines",
+            "C": "Le manque de main-d'œuvre qualifiée en ville",
+            "D": "La pollution générée par les transports de compost"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 39,
+          "text": "LE DÉCLIN DES LANGUES RÉGIONALES : URGENCE CULTURELLE OU ÉVOLUTION NATURELLE ?\n\nLa récente inscription du breton et de l'occitan sur la liste du patrimoine immatériel de l'UNESCO a ravivé le débat sur l'avenir des langues minoritaires en France. Selon l'Insee, moins de 5% des moins de 30 ans maîtrisent une langue régionale, contre 25% des plus de 65 ans. Les associations culturelles dénoncent une assimilation linguistique accélérée par la mondialisation et appellent à des mesures coercitives obligatoires dans l'enseignement public. À l'inverse, certains linguistes considèrent cette évolution comme inéluctable et non nécessairement négative. Ils arguent que la vitalité d'une langue se mesure à son usage spontané, non à sa préservation artificielle par la loi. Le rapport remis au ministère de la Culture préconise une voie médiane : renforcer l'offre éducative sans contrainte obligatoire, tout en soutenant les médias locaux qui produisent du contenu dans ces langues. La question reste de savoir si ces mesures suffiront à inverser la tendance démographique.",
+          "question": "Quelle attitude les linguistes mentionnés adoptent-ils face à la disparition des langues régionales ?",
+          "options": {
+            "A": "Ils demandent des lois de protection immédiates",
+            "B": "Ils considèrent ce phénomène comme une évolution normale",
+            "C": "Ils proposent de les remplacer par l'anglais",
+            "D": "Ils critiquent l'intervention de l'UNESCO"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "LE DÉCLIN DES LANGUES RÉGIONALES : URGENCE CULTURELLE OU ÉVOLUTION NATURELLE ?\n\nLa récente inscription du breton et de l'occitan sur la liste du patrimoine immatériel de l'UNESCO a ravivé le débat sur l'avenir des langues minoritaires en France. Selon l'Insee, moins de 5% des moins de 30 ans maîtrisent une langue régionale, contre 25% des plus de 65 ans. Les associations culturelles dénoncent une assimilation linguistique accélérée par la mondialisation et appellent à des mesures coercitives obligatoires dans l'enseignement public. À l'inverse, certains linguistes considèrent cette évolution comme inéluctable et non nécessairement négative. Ils arguent que la vitalité d'une langue se mesure à son usage spontané, non à sa préservation artificielle par la loi. Le rapport remis au ministère de la Culture préconise une voie médiane : renforcer l'offre éducative sans contrainte obligatoire, tout en soutenant les médias locaux qui produisent du contenu dans ces langues. La question reste de savoir si ces mesures suffiront à inverser la tendance démographique.",
+          "question": "Quelle recommandation le rapport officiel fait-il ?",
+          "options": {
+            "A": "Rendre l'enseignement des langues régionales obligatoire",
+            "B": "Créer des chaînes de télévision nationales dédiées",
+            "C": "Augmenter l'offre éducative sans la rendre obligatoire",
+            "D": "Interdire l'usage exclusif du français dans les administrations"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

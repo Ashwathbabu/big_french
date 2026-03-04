@@ -1,0 +1,565 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AVIS IMPORTANT À TOUS LES RÉSIDENTS\n\nLe syndicat de copropriété informe les habitants de l'immeuble que des travaux de rénovation auront lieu dans le hall d'entrée à partir du lundi 15 mai. Ces travaux, qui concernent le remplacement du revêtement de sol et l'éclairage, devraient durer environ deux semaines. L'accès principal sera temporairement dévié par l'entrée de service située au 45, rue des Lilas. Nous vous prions de bien vouloir excuser la gêne occasionnée. Pour toute question, merci de contacter la concierge au 01 23 45 67 89 ou par courriel à syndic@residence-les-lilas.fr.",
+          "question": "Quelle est la durée prévue des travaux mentionnés dans cet avis ?",
+          "options": {
+            "A": "Une semaine",
+            "B": "Deux semaines",
+            "C": "Un mois",
+            "D": "Trois semaines"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "RESTAURANT LE BISTROT GOURMAND\n\nMenu du Midi - Semaine du 20 au 26 mars\n\nEntrées au choix :\n• Soupe de légumes du jour ou salade verte\n• Terrine de campagne maison\n\nPlats principaux :\n• Poulet rôti aux herbes, purée maison\n• Filet de saumon sauce citron, riz basmati\n• Gratin de légumes (option végétarienne)\n\nDesserts :\n• Crème caramel ou salade de fruits\n\nBoisson comprise : 1/4 de vin ou soft drink\nPrix : 18,50 € (service et taxes inclus)\nRéservation recommandée : 04 91 22 33 44\nHoraires : 12h-14h30 du lundi au vendredi",
+          "question": "Quel est le prix du menu du midi ?",
+          "options": {
+            "A": "15,00 €",
+            "B": "16,50 €",
+            "C": "18,50 €",
+            "D": "20,00 €"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 3,
+          "text": "BIBLIOTHÈQUE MUNICIPALE JEAN-JACQUES ROUSSEAU\n\nHORAIRES D'OUVERTURE\n\nLundi : 14h - 19h\nMardi : 10h - 19h\nMercredi : 10h - 19h\nJeudi : 14h - 19h\nVendredi : 10h - 18h\nSamedi : 10h - 17h\nDimanche : Fermé\n\nFERMETURES EXCEPTIONNELLES :\n• Jours fériés\n• Congés annuels du 15 juillet au 15 août\n\nSERVICES DISPONIBLES :\nPrêt de livres, DVD, magazines\nAccès Internet gratuit (1 heure par jour)\nEspace lecture pour enfants\nAteliers d'écriture créative (sur inscription)\n\nAdresse : 12, avenue de la République\nTél. : 03 44 55 66 77",
+          "question": "À quelle heure la bibliothèque ouvre-t-elle le mardi ?",
+          "options": {
+            "A": "9h",
+            "B": "10h",
+            "C": "12h",
+            "D": "14h"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "CLUB DE GYM FORME ET SANTÉ\n\nOFFRE SPÉCIALE NOUVEAUX MEMBRES\n\nRejoignez notre club dès maintenant et profitez d'avantages exclusifs !\n\nFORFAIT BIEN-ÊTRE (3 mois) :\n• Accès illimité à toutes les salles de sport\n• Cours collectifs inclus : yoga, pilates, zumba\n• 2 séances avec coach personnel offertes\n• Prix : 89 € au lieu de 120 €\n\nCONDITIONS :\nOffre valable uniquement pour les nouveaux adhérents. Inscription avant le 30 avril. Présentation d'une pièce d'identité obligatoire. Règlement possible en 3 fois sans frais. Cette promotion ne peut être combinée avec d'autres offres en cours.\n\nN'hésitez pas à visiter nos installations sur rendez-vous !\nContact : 05 56 78 90 12",
+          "question": "Quelle est la date limite pour bénéficier de cette offre ?",
+          "options": {
+            "A": "15 mars",
+            "B": "30 avril",
+            "C": "31 mai",
+            "D": "15 juin"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 5,
+          "text": "COMMUNIQUÉ DE LA MAIRIE DE SAINT-PIERRE\n\nChers habitants,\n\nLa collecte sélective des déchets sera modifiée à compter du 1er juin prochain. Dorénavant, les bacs jaunes (emballages recyclables) seront ramassés tous les mardis et vendredis, tandis que les bacs verts (déchets organiques) le seront les lundis et jeudis. Les encombrants pourront être déposés gratuitement à la déchetterie municipale du lundi au samedi, de 9h à 17h. Des nouvelles poubelles de tri seront distribuées gratuitement à la mairie du 15 au 30 mai. Pensez à apporter votre carte d'identité et un justificatif de domicile. Ensemble, agissons pour un environnement plus propre !",
+          "question": "Quels jours seront ramassés les bacs jaunes ?",
+          "options": {
+            "A": "Lundis et jeudis",
+            "B": "Mardis et vendredis",
+            "C": "Mercredis et samedis",
+            "D": "Tous les jours"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "text": "PHARMACIE DU CENTRE - ORLEANS\n\nHORAIRES ET SERVICES\n\nOuvert du lundi au samedi de 8h30 à 19h30 sans interruption. Fermé le dimanche et jours fériés.\n\nPHARMACIEN DE GARDE CE WEEK-END :\nSamedi 8 et dimanche 9 juin : Pharmacie du Parc, 45 rue du Faubourg Bannier, tél. 02 38 54 32 10.\n\nSERVICES PROPOSÉS :\n• Vente de médicaments avec ou sans ordonnance\n• Conseils personnalisés sur les traitements\n• Prise de tension artérielle gratuite\n• Vaccination contre la grippe (sur rendez-vous)\n• Location de matériel médical (béquilles, fauteuils roulants)\n• Commande de produits non stockés sous 24h\n\nUrgence médicale : composez le 15 (SAMU) ou le 112.",
+          "question": "Quel service est proposé gratuitement par cette pharmacie ?",
+          "options": {
+            "A": "La vaccination",
+            "B": "La location de matériel",
+            "C": "La prise de tension artérielle",
+            "D": "Les commandes spéciales"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 7,
+          "text": "ÉCOLE DE MUSIQUE HARMONIE\n\nINSCRIPTIONS ANNÉE 2024-2025\n\nL'école municipale de musique ouvre ses portes aux nouveaux élèves ! Cours particuliers et collectifs disponibles pour tous les âves (à partir de 5 ans) et tous les niveaux.\n\nINSTRUMENTS ENSEIGNÉS :\nPiano, violon, guitare, flûte traversière, saxophone, batterie, chant lyrique et moderne.\n\nTARIFS ANNUELS :\n• Cours collectifs (8-10 élèves) : 180 €\n• Cours individuels 30 min : 320 €\n• Cours individuels 45 min : 450 €\n• Cours individuels 60 min : 580 €\n\nINSCRIPTIONS :\nDu 1er au 30 septembre à la mairie, service culturel. Dossier à fournir : formulaire d'inscription, certificat médical, règlement ou attestation de bourse.\n\nAuditions de fin d'année en juin pour tous les élèves !\nRenseignements : 04 42 15 78 90",
+          "question": "Où doit-on s'inscrire pour les cours de musique ?",
+          "options": {
+            "A": "À l'école de musique directement",
+            "B": "À la mairie, service culturel",
+            "C": "Par courriel uniquement",
+            "D": "En ligne sur le site Internet"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Chers collègues,\n\nSuite à la réunion de direction __1__ hier, nous avons décidé de modifier l'organisation du travail. Désormais, les réunions hebdomadaires __2__ lieu le mercredi matin __3__ de jeudi après-midi. Cette décision vise à améliorer la communication __4__ les différents départements. Nous espérons que ce changement vous permettra d'être plus __5__ dans vos projets.\n\nCordialement,\nLa Direction",
+          "options": {
+            "A": "tenue / auront / au lieu / entre / efficaces",
+            "B": "tenu / auront / à la place / parmi / efficace",
+            "C": "tenue / prendront / au lieu / entre / efficaces",
+            "D": "tenu / prendront / à la place / parmi / efficace"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 9,
+          "text": "Le développement durable est devenu une __1__ majeure pour les entreprises modernes. Face aux __2__ climatiques, il est essentiel d'adopter des pratiques respectueuses de l'environnement. De nombreuses sociétés ont déjà __3__ des mesures concrètes, comme la réduction des déchets ou l'utilisation d'énergies __4__. Ces initiatives montrent qu'il est possible de concilier performance économique et responsabilité __5__.",
+          "options": {
+            "A": "priorité / enjeux / mis en place / renouvelables / sociale",
+            "B": "préférence / défis / mis en œuvre / alternatives / sociétale",
+            "C": "priorité / défis / mis en place / renouvelables / sociétale",
+            "D": "préférence / enjeux / mis en œuvre / alternatives / sociale"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 10,
+          "text": "L'apprentissage des langues étrangères __1__ de nombreux avantages pour le cerveau. Des études scientifiques ont __2__ que parler plusieurs langues stimule la mémoire et __3__ les capacités cognitives. De plus, les personnes bilingues __4__ mieux à résoudre des problèmes complexes. Il n'est jamais trop tard pour __5__ une nouvelle langue, même à l'âge adulte.",
+          "options": {
+            "A": "présente / prouvé / améliore / arrivent / apprendre",
+            "B": "offre / démontré / développe / parviennent / commencer",
+            "C": "présente / démontré / améliore / parviennent / apprendre",
+            "D": "offre / prouvé / développe / arrivent / commencer"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 11,
+          "text": "Madame Dupont,\n\nNous avons bien __1__ votre demande de congés pour le mois d'août. Après __2__, nous sommes au regret de vous informer que nous ne pouvons pas __3__ votre absence du 15 au 22 août, __4__ à un manque d'effectifs pendant cette période. Nous vous proposons __5__ de décaler vos vacances à la semaine du 22 au 29 août.\n\nCordialement,\nRessources Humaines",
+          "options": {
+            "A": "reçu / vérification / approuver / dû / donc",
+            "B": "reçue / étude / valider / en raison / plutôt",
+            "C": "reçu / étude / approuver / dû / plutôt",
+            "D": "reçue / vérification / valider / en raison / donc"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 12,
+          "text": "Le télétravail s'est __1__ considérablement depuis la crise sanitaire. De nombreux salariés __2__ cette nouvelle organisation qui leur permet d'économiser du temps de transport. Cependant, certains regrettent le __3__ social du bureau et la séparation __4__ vie professionnelle et vie privée devient parfois __5__ à respecter.",
+          "options": {
+            "A": "développé / apprécient / contact / entre / difficile",
+            "B": "répandu / préfèrent / lien / avec / compliquée",
+            "C": "développé / préfèrent / contact / entre / difficile",
+            "D": "répandu / apprécient / lien / avec / compliquée"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 13,
+          "text": "L'alimentation joue un rôle __1__ dans la santé globale de l'être humain. Une alimentation __2__ et variée permet de prévenir de nombreuses maladies. Les nutritionnistes recommandent de __3__ au moins cinq fruits et légumes par jour. Il est également conseillé de __4__ la consommation de sucre et de sel. De petits changements dans nos habitudes peuvent avoir des __5__ positifs sur notre bien-être.",
+          "options": {
+            "A": "essentiel / équilibrée / consommer / réduire / effets",
+            "B": "capital / saine / manger / limiter / impacts",
+            "C": "essentiel / saine / consommer / limiter / effets",
+            "D": "capital / équilibrée / manger / réduire / impacts"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 14,
+          "text": "Le musée du Louvre __1__ l'une des collections d'art les plus importantes au monde. Chaque année, des __2__ de visiteurs viennent admirer des œuvres célèbres comme la Joconde ou la Vénus de Milo. Pour éviter les __3__ aux guichets, il est conseillé de réserver ses billets __4__. Le musée propose également des visites __5__ pour les personnes malvoyantes.",
+          "options": {
+            "A": "possède / millions / files d'attente / en avance / guidées",
+            "B": "détient / milliers / attentes / en ligne / commentées",
+            "C": "possède / millions / attentes / en ligne / guidées",
+            "D": "détient / milliers / files d'attente / en avance / commentées"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 15,
+          "text": "Cher client,\n\nNous vous remercions de votre __1__ passée sur notre site. Nous avons le plaisir de vous informer que votre commande n°45892 a été __2__ avec succès. Votre colis sera __3__ sous 48 heures par notre transporteur partenaire. Vous pourrez __4__ sa livraison en temps réel grâce au numéro de suivi __5__ dans le mail de confirmation.\n\nBien cordialement,\nLe Service Clients",
+          "options": {
+            "A": "visite / enregistrée / expédié / suivre / indiqué",
+            "B": "commande / traitée / envoyé / contrôler / mentionné",
+            "C": "visite / traitée / expédié / suivre / mentionné",
+            "D": "commande / enregistrée / envoyé / contrôler / indiqué"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 16,
+          "text": "La lecture est une activité __1__ pour le développement personnel. Outre le plaisir qu'elle procure, elle permet d'enrichir son __2__ et d'améliorer ses compétences en expression __3__. Les bibliothèques municipales offrent un accès __4__ à des milliers d'ouvrages. Les lecteurs peuvent également __5__ des livres numériques sur leur tablette ou leur liseuse.",
+          "options": {
+            "A": "enrichissante / vocabulaire / écrite / gratuit / emprunter",
+            "B": "bénéfique / culture / orale / libre / télécharger",
+            "C": "enrichissante / culture / écrite / gratuit / télécharger",
+            "D": "bénéfique / vocabulaire / orale / libre / emprunter"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 17,
+          "text": "Les transports en commun constituent une __1__ écologique à la voiture individuelle. En choisissant le bus ou le métro, chaque citoyen __2__ à réduire la pollution atmosphérique. Les villes investissent de plus en plus dans des réseaux de tramway __3__ et confortables. Certaines municipalités ont même __4__ la gratuité totale des transports pour __5__ l'utilisation de ceux-ci.",
+          "options": {
+            "A": "alternative / participe / modernes / instauré / encourager",
+            "B": "solution / contribue / récents / mis en place / favoriser",
+            "C": "alternative / contribue / modernes / instauré / encourager",
+            "D": "solution / participe / récents / mis en place / favoriser"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "AVIS DE CONVOQUATION\n\nMonsieur Pierre Lefebvre est convoqué devant le tribunal de police le 15 mars 2024 à 9h00, salle 3, pour une infraction au code de la route commise le 20 février dernier. Il doit se présenter obligatoirement avec une pièce d'identité en cours de validité et son permis de conduire. En cas d'empêchement, il doit contacter le greffe au 03 44 55 66 77 au moins 48 heures avant la date fixée. Le non-respect de cette convocation pourra entraîner une amende majorée et une suspension du permis de conduire.",
+          "question": "Quelle est la date de la convocation ?",
+          "options": {
+            "A": "20 février 2024",
+            "B": "15 mars 2024",
+            "C": "13 mars 2024",
+            "D": "17 mars 2024"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "PROGRAMME FESTIVAL DE JAZZ DE MONTRÉAL\n\nVendredi 28 juin - Grande Scène\n20h00 : Trio Canadien (jazz moderne)\n21h30 : Sarah Vaughan Tribute Band (vocal jazz)\n23h00 : Jam Session ouverte\n\nSamedi 29 juin - Parc Jean-Drapeau\n18h00 : Atelier de découverte pour enfants\n19h30 : Big Band du Conservatoire\n21h00 : Herbie Hancock (légende du jazz)\n\nDimanche 30 juin - Petite Scène\n16h00 : Concert pique-nique familial\n18h00 : Quartet de jeunes talents locaux\n\nTarif journalier : 35 $ | Pass 3 jours : 85 $",
+          "question": "À quelle heure commence le concert de Herbie Hancock ?",
+          "options": {
+            "A": "18h00",
+            "B": "19h30",
+            "C": "20h00",
+            "D": "21h00"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 20,
+          "text": "INSTRUCTIONS DE MONTAGE - ÉTAGÈRE BILLY\n\nMatériel fourni : 1 étagère, 4 pieds, 8 vis, 1 clé Allen, notice de montage.\n\nÉtape 1 : Déballer tous les éléments et vérifier la présence de chaque pièce.\nÉtape 2 : Positionner l'étagère à l'envers sur une surface plane et propre.\nÉtape 3 : Insérer les 4 pieds dans les trous prévus aux angles.\nÉtape 4 : Serrer les vis à l'aide de la clé Allen fournie (ne pas trop serrer).\nÉtape 5 : Retourner délicatement l'étagère et la positionner à l'endroit désiré.\n\nCharge maximale recommandée : 20 kg par étagère.\nNettoyage : chiffon humide uniquement, ne pas utiliser de produits abrasifs.",
+          "question": "Quel outil est nécessaire pour le montage ?",
+          "options": {
+            "A": "Un tournevis plat",
+            "B": "Une clé Allen",
+            "C": "Un marteau",
+            "D": "Une perceuse"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 21,
+          "text": "FACTURE N° FR-2024-0892\n\nPrestataire : Société Informatique Omega\nClient : Cabinet d'Architecture Dupont\nDate d'émission : 15 mars 2024\nDate d'échéance : 15 avril 2024\n\nDésignation | Quantité | Prix unitaire | Total\nMaintenance serveurs | 1 | 450,00 € | 450,00 €\nLicences logicielles | 5 | 120,00 € | 600,00 €\nFormation utilisateurs | 2 jours | 350,00 € | 700,00 €\n\nSous-total HT : 1 750,00 €\nTVA 20% : 350,00 €\nTOTAL TTC : 2 100,00 €\n\nMode de règlement : virement bancaire sous 30 jours",
+          "question": "Quel est le montant total TTC de la facture ?",
+          "options": {
+            "A": "1 750,00 €",
+            "B": "2 100,00 €",
+            "C": "2 450,00 €",
+            "D": "1 050,00 €"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 22,
+          "text": "RÈGLEMENT INTÉRIEUR - PISCINE MUNICIPALE\n\n1. L'accès à la piscine est réservé aux personnes munies d'un badge valide.\n2. La profondeur maximale est de 3,50 mètres, la minimale de 0,80 mètre.\n3. Le port du bonnet de bain est obligatoire pour tous les nageurs.\n4. Les poussettes et les sacs volumineux doivent être déposés aux vestiaires.\n5. La consommation de nourriture et de boissons est interdite sur le bord du bassin.\n6. Les enfants de moins de 8 ans doivent être accompagnés d'un adulte.\n7. Les plongeons sont autorisés uniquement du plongeoir officiel.\n8. La piscine se réserve le droit d'évacuer le bassin en cas d'alerte météo.\n\nHoraires : 7h-21h en semaine, 9h-19h le week-end",
+          "question": "Quelle est la profondeur minimale de la piscine ?",
+          "options": {
+            "A": "0,50 mètre",
+            "B": "0,80 mètre",
+            "C": "1,00 mètre",
+            "D": "3,50 mètres"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congé sans solde\n\nMadame la Directrice,\n\nPar la présente, je vous informe de ma volonté de prendre un congé sans solde d'une durée de trois mois, du 1er septembre au 30 novembre 2024. Cette décision fait suite à un projet familial qui requiert ma présence à l'étranger. Je souhaite préciser que j'ai déjà anticipé mes dossiers en cours et formé mon collègue Martin Dubois pour qu'il puisse assurer la continuité de mes missions durant mon absence. Je reste bien entendu disponible pour une passation de complète avant mon départ. Dans l'attente de votre réponse favorable, je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Informer",
+            "B": "Se plaindre",
+            "C": "Inviter",
+            "D": "Féliciter"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 24,
+          "text": "Chers partenaires,\n\nSuite à l'assemblée générale extraordinaire du 15 mars dernier, nous avons le regret de vous annoncer la fermeture définitive de notre entreprise à compter du 30 juin 2024. Cette décision difficile résulte de la conjoncture économique défavorable et de l'augmentation des coûts de production. Nous tenons à vous remercier sincèrement pour la confiance que vous nous avez accordée durant ces douze années de collaboration. Toutes les commandes en cours seront honorées jusqu'à la date de fermeture. Un service après-vente sera maintenu pendant six mois supplémentaires. Nous restons à votre disposition pour toute question relative à cette transition.",
+          "question": "Quel est le ton général de ce message ?",
+          "options": {
+            "A": "Enthousiaste",
+            "B": "Neutre",
+            "C": "Regretté mais professionnel",
+            "D": "Colérique"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 25,
+          "text": "Objet : Réclamation concernant la livraison n°45821\n\nMadame,\n\nJe me permets de vous contacter suite à la réception de ma commande effectuée le 10 février dernier. Malheureusement, l'état des articles livrés ne correspond pas du tout à mes attentes : trois des six articles commandés présentent des défauts visibles (éraflures et décoloration), et un article est carrément manquant dans le colis. J'ai tenté de joindre votre service client par téléphone à plusieurs reprises sans succès. Je vous demande donc par ce courrier le remboursement intégral de ma commande ainsi que le retour gratuit des articles défectueux. Sans réponse de votre part sous huit jours, je me verrai dans l'obligation de saisir les services compétents. Cordialement.",
+          "question": "Que souhaite obtenir l'expéditeur ?",
+          "options": {
+            "A": "Un échange de produits",
+            "B": "Un remboursement intégral",
+            "C": "Une réduction sur sa prochaine commande",
+            "D": "Des excuses uniquement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "Note de service N°45/2024\n\nÀ l'attention de tous les employés du département Marketing,\n\nCompte tenu de l'augmentation significative de notre activité au premier trimestre, la direction a décidé de recruter deux nouveaux collaborateurs pour renforcer l'équipe. Nous lançons donc un appel à candidatures interne avant toute publication externe. Les postes à pourvoir sont : un chef de projet digital (CDI, expérience 3 ans minimum) et un assistant marketing (CDD 12 mois, premier emploi accepté). Les candidatures (CV + lettre de motivation) sont à adresser à Madame Leroi avant le 15 avril. Les entretiens se dérouleront la semaine du 22 avril. Nous encourageons vivement les membres de l'équipe actuelle à postuler.",
+          "question": "Quelle est l'intention principale de cette note ?",
+          "options": {
+            "A": "Annoncer des licenciements",
+            "B": "Proposer des promotions internes",
+            "C": "Recruter de nouveaux employés",
+            "D": "Réduire les effectifs"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 27,
+          "text": "Objet : Invitation à la cérémonie des vœux\n\nMonsieur Bernard,\n\nEn ma qualité de maire de notre commune, j'ai l'honneur de vous convier à la cérémonie des vœux qui se tiendra le samedi 11 janvier 2025 à 11h00 à la salle des fêtes municipale. Cette traditionnelle rencontre sera l'occasion de présenter les grands projets de l'année à venir et de récompenser les bénévoles qui se sont distingués en 2024. Un cocktail servira à clôturer cette cérémonie. Votre présence serait pour nous un grand honneur, compte tenu de votre engagement constant aux côtés des associations locales. Merci de bien vouloir confirmer votre participation avant le 3 janvier auprès de mon cabinet. Dans l'attente de vous y rencontrer, je vous prie d'agréer, Monsieur, l'expression de ma considération distinguée.",
+          "question": "Quel est le but de cette invitation ?",
+          "options": {
+            "A": "Demander un don financier",
+            "B": "Inviter à une cérémonie officielle",
+            "C": "Organiser une réunion de travail",
+            "D": "Présenter des excuses"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Rapport d'incident - Service Informatique\nDate : 15 mars 2024 | Heure : 14h30\n\nUn dysfonctionnement majeur a été détecté sur le serveur principal de la base de données clients. L'incident a entraîné une interruption de service de 45 minutes, affectant l'accès aux dossiers pour l'ensemble des commerciaux. Les causes identifiées sont une surcharge du système suite à une mise à jour mal paramétrée. Les données n'ont pas été perdues grâce à la sauvegarde automatique. Des mesures correctives ont été immédiatement mises en place : redémarrage des serveurs et correction du paramétrage. Pour éviter tout nouvel incident, nous recommandons la mise à niveau urgente de notre infrastructure serveur, estimée à 15 000 €. Un rapport détaillé sera présenté à la direction la semaine prochaine.",
+          "question": "Quelle est la recommandation principale du rapport ?",
+          "options": {
+            "A": "Licencier un employé",
+            "B": "Mettre à niveau l'infrastructure serveur",
+            "C": "Changer de fournisseur Internet",
+            "D": "Former les commerciaux"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Madame Dubois,\n\nSuite à notre entretien du 10 mars dernier, nous avons le plaisir de vous informer que votre candidature au poste d'assistante de direction a été retenue. Vos compétences en gestion administrative et votre maîtrise parfaite de l'anglais correspondent exactement au profil recherché. Nous vous proposons donc un contrat à durée indéterminée à compter du 1er mai 2024, avec une période d'essai de deux mois. Le salaire annuel brut proposé est de 32 000 €, avec des avantages en nature (tickets restaurant, mutuelle d'entreprise). Merci de nous confirmer votre acceptation par retour de mail avant le 25 mars. Nous nous réjouissons de vous accueillir au sein de notre équipe et de pouvoir collaborer ensemble. Bien cordialement.",
+          "question": "Quel type de contrat est proposé ?",
+          "options": {
+            "A": "Un CDD de 6 mois",
+            "B": "Un CDI avec période d'essai",
+            "C": "Un contrat de stage",
+            "D": "Un travail temporaire"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 30,
+          "text": "Objet : Modification des horaires d'ouverture\n\nChers clients,\n\nAfin de mieux répondre à vos attentes et après analyse de la fréquentation de notre magasin, nous avons décidé d'ajuster nos horaires d'ouverture à compter du 1er avril prochain. Le magasin sera désormais ouvert du mardi au samedi de 9h30 à 19h00 sans interruption (fermeture le dimanche et lundi). Ces nouveaux horaires nous permettront d'offrir un meilleur service avec l'arrivée d'un nouveau vendeur spécialisé en électronique. Nous profitons de cette occasion pour vous rappeler que notre service de livraison à domicile reste disponible gratuitement pour toute commande supérieure à 50 €. Nous vous remercions de votre fidélité et restons à votre écoute pour toute suggestion.",
+          "question": "Pourquoi les horaires sont-ils modifiés ?",
+          "options": {
+            "A": "Pour réduire les coûts",
+            "B": "Pour améliorer le service client",
+            "C": "Pour fermer definitivement",
+            "D": "Pour changer de propriétaire"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 31,
+          "text": "Attestation d'assurance\n\nJe soussigné, Pierre Martin, agent d'assurance chez Mutuelle Pro, certifie que Madame Claire Fontaine, demeurant 15 rue des Acacias, 75012 Paris, est bien assurée auprès de notre compagnie pour les risques suivants : responsabilité civile vie privée, multirisque habitation (appartement situé à l'adresse ci-dessus), et assurance scolaire pour ses deux enfants. La police d'assurance n°MP-2023-4456 est en cours de validité du 1er janvier 2024 au 31 décembre 2024. Tous les primes ont été régulièrement payées à ce jour. Le présent document est délivré à la demande de l'intéressée pour servir et valoir ce que de droit. Fait à Paris, le 20 mars 2024.",
+          "question": "Quelle est la fonction de l'auteur de ce document ?",
+          "options": {
+            "A": "Notaire",
+            "B": "Agent d'assurance",
+            "C": "Avocat",
+            "D": "Banquier"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "Compte-rendu de réunion - Projet Nova\nDate : 18 mars 2024 | Participants : Équipe projet complète\n\nPoints abordés :\n1. Retard constaté sur la phase de développement (2 semaines de décalage)\n2. Budget : dépassement de 8 000 € par rapport aux prévisions initiales\n3. Solution proposée : externalisation du module de test à une société spécialisée\n4. Date butoir maintenue : 15 juin 2024\n\nDécisions prises :\n- Mme Leroy contacte trois prestataires externes avant le 25 mars\n- Réunion de crise hebdomadaire instaurée les mercredis 9h\n- M. Dupont révise le planning et propose des heures supplémentaires motivées\n\nProchaine réunion : 25 mars 2024, salle B\n\nCe compte-rendu doit être validé par tous les participants sous 48 heures.",
+          "question": "Quel problème principal est mentionné dans ce compte-rendu ?",
+          "options": {
+            "A": "Un excédent budgétaire",
+            "B": "Un retard et un dépassement budgétaire",
+            "C": "Un licenciement",
+            "D": "Une fusion d'entreprises"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "La France face au défi de la transition énergétique\n\nAlors que le réchauffement climatique s'accélère, la France peine à réduire sa dépendance aux énergies fossiles malgré les engagements pris lors de la COP21. Le gouvernement annonce pourtant de nouvelles mesures : fermeture des dernières centrales à charbon d'ici 2027 et investissement massif dans l'éolien offshore. Pourtant, ces annonces masquent une réalité plus complexe. Les associations écologistes dénoncent le manque d'ambition, pointant du doigt les subventions encore accordées aux industries polluantes. Parallèlement, le nucléaire, décrié par certains, est présenté par le gouvernement comme une solution d'appoint indispensable. Cette approche technocratique, bien que pragmatique sur le papier, néglige l'urgence sociale : des milliers d'emplois dans les secteurs traditionnels sont menacés sans plan de reconversion crédible. La transition énergétique ne peut réussir sans accompagnement des territoires et des travailleurs.",
+          "question": "Quelle est la position de l'auteur ?",
+          "options": {
+            "A": "Positive",
+            "B": "Négative",
+            "C": "Neutre",
+            "D": "Critique"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 34,
+          "text": "Le télétravail révolutionne l'organisation du travail en France\n\nDepuis la crise sanitaire, le télétravail s'est imposé comme une norme dans de nombreuses entreprises françaises, transformant radicalement nos habitudes professionnelles. Selon une récente étude de l'INSEE, près de 30% des salariés travaillent désormais au moins un jour par semaine hors des locaux de l'entreprise. Cette évolution, loin d'être une simple mode, traduit une demande sociale forte : les employés recherchent avant tout un meilleur équilibre entre vie professionnelle et vie privée. Les entreprises, de leur côté, constatent des bénéfices inattendus, notamment une baisse des coûts immobiliers et une augmentation de la productivité constatée dans certains secteurs. Toutefois, cette révolution silencieuse soulève des questions cruciales : comment maintenir la cohésion d'équipe à distance ? Quel devenir pour les centres-villes désertés par les travailleurs ? Le modèle hybride, combinant présence et distance, semble émerger comme le compromis le plus viable pour l'avenir.",
+          "question": "Quelle est l'idée principale de cet article ?",
+          "options": {
+            "A": "Le télétravail est une mauvaise solution",
+            "B": "Le télétravail transforme durablement le monde du travail",
+            "C": "Les entreprises refusent le télétravail",
+            "D": "Le télétravail est interdit en France"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "L'essor des métiers verts : une opportunité pour la jeunesse québécoise\n\nLe marché du travail québécois connaît une mutation profonde avec l'émergence des emplois liés à la transition écologique. Formations en énergies renouvelables, techniciens en recyclage, conseillers en efficacité énergétique : ces métiers d'avenir recrutent massivement et offrent des perspectives salariales attractives. Le gouvernement du Québec a d'ailleurs investi 500 millions de dollars dans des programmes de formation ciblés pour répondre à cette demande croissante. Les jeunes diplômés, soucieux de donner du sens à leur carrière, se tournent en nombre vers ces secteurs porteurs. Cette tendance s'inscrit dans une dynamique globale où l'économie verte devient un levier de croissance économique et sociale. Contrairement aux craintes initiales, la transition écologique ne détruit pas l'emploi, elle le transforme et le enrichit, créant des vocations là où on ne les attendait pas.",
+          "question": "Quel est le ton de l'auteur concernant ces nouveaux métiers ?",
+          "options": {
+            "A": "Dubitatif et inquiet",
+            "B": "Optimiste et encourageant",
+            "C": "Indifférent et neutre",
+            "D": "Critique et méfiant"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "La crise du logement s'aggrave dans les grandes villes canadiennes\n\nVancouver, Toronto, Montréal : les trois métropoles canadiennes font face à une crise du logement sans précédent. Les prix de l'immobilier ont flambé de plus de 40% en cinq ans, rendant l'accession à la propriété impossible pour une majorité de jeunes ménages. La situation locative n'est guère plus réjouissante, avec des taux d'inoccupation inférieurs à 2% et des loyers qui grignotent une part croissante des revenus. Les causes sont multiples : spéculation immobilière, pression démographique, normes urbanistiques restrictives et manque de volonté politique pour construire des logements sociaux. Les gouvernements successifs ont préféré des mesures cosmétiques à des réformes structurelles. Résultat : une génération entière voit son avenir résidentiel compromis, contrainte à l'exode vers des régions périphériques mal desservies. Le rêve canadien de la maison individuelle s'éloigne pour devenir un privilège de l'élite.",
+          "question": "Quelle conclusion peut-on tirer de cet article ?",
+          "options": {
+            "A": "La crise du logement est résolue",
+            "B": "Les jeunes Canadiens ont du mal à se loger",
+            "C": "L'immobilier est bon marché au Canada",
+            "D": "Tout le monde peut acheter une maison"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "L'intelligence artificielle : entre promesses et inquiétudes\n\nL'intelligence artificielle (IA) fascine autant qu'elle inquiète. Capable de diagnostiquer des maladies avec une précision surpassant les médecins, de rédiger des textes cohérents ou de piloter des véhicules, cette technologie promet de transformer tous les secteurs d'activité. Les entreprises investissent massivement, convaincues que l'IA sera le moteur de la productivité du XXIe siècle. Pourtant, derrière l'enthousiasme médiatique se cachent des interrogations légitimes. Quel sera le sort des millions d'emplois menacés par l'automatisation ? Comment garantir que ces algorithmes, souvent opaques, ne reproduisent pas les biais humains ? Les législateurs peinent à encadrer une innovation qui évolue plus vite que le droit. L'IA n'est ni un salut ni une menace en soi : son impact dépendra des choix sociétaux que nous ferons collectivement pour orienter son développement.",
+          "question": "Quelle est l'attitude de l'auteur face à l'IA ?",
+          "options": {
+            "A": "Uniquement positive",
+            "B": "Uniquement négative",
+            "C": "Nuancée et réfléchie",
+            "D": "Indifférente"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 38,
+          "text": "Le retour en grâce du train de nuit en France\n\nAprès des années d'abandon, le train de nuit connaît un regain d'intérêt spectaculaire en France. La SNCF réouvre progressivement ses lignes mythiques, répondant à une demande croissante de mobilité durable et économique. Le dernier né, la liaison Paris-Vienne, affiche complet depuis son lancement. Cette renaissance s'inscrit dans une prise de conscience écologique : voyager de nuit permet de réduire son empreinte carbone tout en gagnant du temps. Les voyageurs apprécient également l'aspect convivial et décontracté de ces trajets, loin du stress des aéroports. Cependant, des défis demeurent : les infrastructures nécessitent d'importants investissements de rénovation, et la concurrence avec le low-cost aérien reste rude sur les prix. Malgré ces obstacles, le train de nuit semble avoir retrouvé sa place dans le paysage ferroviaire français, symbole d'une mobilité plus douce et contemplative.",
+          "question": "Pourquoi le train de nuit connaît-il un succès ?",
+          "options": {
+            "A": "Il est plus rapide que l'avion",
+            "B": "Il correspond à une demande de mobilité durable",
+            "C": "Il est gratuit",
+            "D": "Il est obligatoire"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "La gastronomie française face à la mondialisation\n\nLe label « excellence française » en cuisine traverse une crise identitaire profonde. D'un côté, la haute gastronomie continue de rayonner internationalement, avec des chefs français primés dans tous les guides prestigieux. De l'autre, la restauration quotidienne subit la concurrence acharnée des chaînes internationales et de la restauration rapide. Le « fast-food » a conquis les centres-villes, poussant les bistrots traditionnels à la fermeture. Cette évolution traduit des changements de modes de vie : les repas se raccourcissent, la cuisine maison décline face à la préparation industrielle. Pourtant, une résistance s'organise. Des jeunes chefs revendiquent une cuisine locale, de saison et anti-gaspi. Des associations luttent pour préserver les savoir-faire artisanaux. La gastronomie française n'est pas morte, elle se transforme, tiraillée entre la préservation d'un patrimoine immatériel et l'adaptation aux contraintes économiques modernes.",
+          "question": "Quel est le problème principal évoqué ?",
+          "options": {
+            "A": "La cuisine française disparaît complètement",
+            "B": "La restauration traditionnelle est menacée par la mondialisation",
+            "C": "Il n'y a plus de chefs en France",
+            "D": "La nourriture française est de mauvaise qualité"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "L'éducation à l'ère numérique : défis et opportunités\n\nL'irruption des technologies numériques dans les salles de classe bouleverse les méthodes pédagogiques traditionnelles. Tablettes, logiciels interactifs et classes virtuelles deviennent la norme, promettant une personnalisation de l'apprentissage jamais atteinte auparavant. Les partisans de cette révolution éducative vantent les bénéfices : accès instantané à l'information, collaboration à distance, suivi individualisé des élèves. Néanmoins, cette digitalisation massive soulève des préoccupations sérieuses. La fracture numérique risque d'aggraver les inégalités scolaires entre élèves équipés et autres. L'attention des jeunes, sollicitée par mille stimuli écrans, peine à se concentrer sur des tâches profondes. De plus, la place du professeur évolue difficilement, entre facilitateur technologique et transmetteur de savoirs fondamentaux. L'enjeu n'est pas technologique mais pédagogique : comment utiliser ces outils pour servir l'excellence éducative sans sacrifier l'humain au profit de la machine ?",
+          "question": "Quelle est la préoccupation principale de l'auteur ?",
+          "options": {
+            "A": "Les technologies sont parfaites pour l'éducation",
+            "B": "Le défi est d'utiliser le numérique sans perdre l'humain",
+            "C": "Il faut interdire les écrans à l'école",
+            "D": "Les professeurs sont inutiles"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

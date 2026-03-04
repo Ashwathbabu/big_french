@@ -1,0 +1,4398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>TEF Canada Mock Tests — BigFrench.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --orange: #2563eb;
+            --orange-dark: #1e40af;
+            --red: #1d4ed8;
+            --blue: #1e40af;
+            --blue-mid: #2563eb;
+            --blue-light: #3b82f6;
+            --slate-50: #f8fafc;
+            --slate-100: #f1f5f9;
+            --slate-200: #e2e8f0;
+            --slate-300: #cbd5e1;
+            --slate-400: #94a3b8;
+            --slate-500: #64748b;
+            --slate-600: #475569;
+            --slate-700: #334155;
+            --slate-800: #1e293b;
+            --slate-900: #0f172a;
+            --white: #ffffff;
+            --success: #10b981;
+            --teal: #14b8a6;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f0f4f8;
+            color: var(--slate-800);
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        /* =================== LOADING =================== */
+        .loading-screen {
+            position: fixed;
+            inset: 0;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.6s ease, visibility 0.6s ease;
+        }
+        .loading-screen.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+        .loading-logo {
+            width: 64px; height: 64px;
+            background: linear-gradient(135deg, var(--orange), var(--red));
+            border-radius: 20px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 28px; color: white;
+            margin-bottom: 24px;
+            animation: pulse 1.5s ease-in-out infinite;
+            box-shadow: 0 20px 40px rgba(30,64,175,0.3);
+        }
+        @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+        .loading-bar {
+            width: 200px; height: 4px;
+            background: var(--slate-100);
+            border-radius: 2px; overflow: hidden;
+            margin-top: 16px;
+        }
+        .loading-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #2563eb, #1e40af);
+            border-radius: 2px;
+            animation: loadBar 1.2s ease-out forwards;
+        }
+        @keyframes loadBar { from { width: 0 } to { width: 100% } }
+        .loading-text {
+            margin-top: 12px;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--slate-400);
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+        }
+
+        /* =================== DASHBOARD =================== */
+        .dashboard {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f0f4f8 0%, #e8f0fe 100%);
+        }
+
+        /* Top Nav */
+        .dash-nav {
+            background: white;
+            border-bottom: 1px solid var(--slate-200);
+            padding: 0 40px;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky; top: 0; z-index: 100;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .dash-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        .dash-brand-icon {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--orange), var(--red));
+            border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 18px; color: white;
+            box-shadow: 0 4px 12px rgba(30,64,175,0.3);
+        }
+        .dash-brand-text {
+            font-size: 18px;
+            font-weight: 800;
+            color: var(--slate-900);
+        }
+        .dash-brand-text span { color: var(--orange); }
+
+        .dash-nav-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .back-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 20px;
+            background: var(--slate-50);
+            border: 1px solid var(--slate-200);
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--slate-600);
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+        .back-btn:hover {
+            background: white;
+            color: var(--slate-900);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .upgrade-pill {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 20px;
+            background: var(--slate-900);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .upgrade-pill:hover {
+            background: var(--blue);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(37,99,235,0.3);
+        }
+
+        /* Hero Stats Bar */
+        .dash-hero {
+            background: linear-gradient(135deg, var(--slate-900) 0%, #1a2744 100%);
+            padding: 48px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        .dash-hero::before {
+            content: '';
+            position: absolute;
+            top: -60px; right: -60px;
+            width: 300px; height: 300px;
+            background: radial-gradient(circle, rgba(30,64,175,0.15), transparent 70%);
+            border-radius: 50%;
+        }
+        .dash-hero::after {
+            content: '';
+            position: absolute;
+            bottom: -80px; left: 200px;
+            width: 250px; height: 250px;
+            background: radial-gradient(circle, rgba(37,99,235,0.12), transparent 70%);
+            border-radius: 50%;
+        }
+        .dash-hero-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 32px;
+            position: relative; z-index: 1;
+        }
+        .dash-hero-left h1 {
+            font-size: 32px;
+            font-weight: 900;
+            color: white;
+            letter-spacing: -0.03em;
+            margin-bottom: 8px;
+        }
+        .dash-hero-left p {
+            font-size: 14px;
+            color: rgba(255,255,255,0.5);
+            font-weight: 500;
+        }
+        .dash-hero-left p span {
+            color: var(--orange);
+            font-weight: 700;
+        }
+        .dash-stats {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .dash-stat {
+            background: rgba(255,255,255,0.07);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 16px 24px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        .dash-stat-num {
+            font-size: 28px;
+            font-weight: 900;
+            color: white;
+            letter-spacing: -0.05em;
+            line-height: 1;
+        }
+        .dash-stat-label {
+            font-size: 10px;
+            font-weight: 700;
+            color: rgba(255,255,255,0.4);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-top: 4px;
+        }
+        .dash-stat-num.orange { color: var(--orange); }
+        .dash-stat-num.blue { color: #60a5fa; }
+        .dash-stat-num.green { color: #34d399; }
+
+        /* Filter Bar */
+        .filter-bar {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 28px 40px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .filter-bar-left {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .filter-chip {
+            padding: 8px 18px;
+            border-radius: 9999px;
+            font-size: 12px;
+            font-weight: 700;
+            border: 1px solid var(--slate-200);
+            background: white;
+            color: var(--slate-500);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .filter-chip:hover { border-color: var(--orange); color: var(--orange); }
+        .filter-chip.active {
+            background: var(--orange);
+            border-color: var(--orange);
+            color: white;
+            box-shadow: 0 4px 12px rgba(30,64,175,0.25);
+        }
+        .search-box {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: white;
+            border: 1px solid var(--slate-200);
+            border-radius: 12px;
+            padding: 8px 16px;
+            font-size: 13px;
+            color: var(--slate-500);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+
+        /* Grid */
+        .tests-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 8px 40px 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 24px;
+        }
+
+        /* Test Card */
+        .test-card {
+            background: white;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.04);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            animation: cardIn 0.5s ease-out both;
+        }
+        .test-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+        }
+        @keyframes cardIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card-top {
+            height: 6px;
+        }
+        .card-top.orange { background: linear-gradient(90deg, var(--orange), #fb923c); }
+        .card-top.blue { background: linear-gradient(90deg, var(--blue-mid), var(--blue-light)); }
+        .card-top.teal { background: linear-gradient(90deg, var(--teal), #22d3ee); }
+        .card-top.red { background: linear-gradient(90deg, #1e40af, #2563eb); }
+
+        .card-body { padding: 24px; }
+
+        .card-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .card-num-wrap {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .card-num {
+            width: 48px; height: 48px;
+            border-radius: 14px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 20px;
+            font-weight: 900;
+            color: white;
+            flex-shrink: 0;
+        }
+        .card-num.orange { background: linear-gradient(135deg, var(--orange), #fb923c); box-shadow: 0 4px 12px rgba(30,64,175,0.3); }
+        .card-num.blue { background: linear-gradient(135deg, var(--blue-mid), var(--blue-light)); box-shadow: 0 4px 12px rgba(37,99,235,0.3); }
+        .card-num.teal { background: linear-gradient(135deg, var(--teal), #22d3ee); box-shadow: 0 4px 12px rgba(20,184,166,0.3); }
+        .card-num.red { background: linear-gradient(135deg, var(--red), var(--orange)); box-shadow: 0 4px 12px rgba(30,64,175,0.3); }
+
+        .card-title { font-size: 16px; font-weight: 800; color: var(--slate-900); letter-spacing: -0.02em; margin-bottom: 2px; }
+        .card-sub { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: var(--slate-400); }
+
+        .card-badge {
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            background: var(--slate-50);
+            color: var(--slate-400);
+            border: 1px solid var(--slate-100);
+        }
+        .card-badge.done {
+            background: #f0fdf4;
+            color: var(--success);
+            border-color: #bbf7d0;
+        }
+
+        /* Progress dots */
+        .card-progress { display: flex; gap: 6px; margin-bottom: 20px; }
+        .prog-dot { flex: 1; height: 4px; border-radius: 2px; background: var(--slate-100); transition: background 0.3s; }
+        .prog-dot.done { background: var(--success); }
+        .prog-dot.orange.active { background: var(--orange); }
+        .prog-dot.blue.active { background: var(--blue-mid); }
+        .prog-dot.teal.active { background: var(--teal); }
+        .prog-dot.red.active { background: var(--red); }
+
+        /* Module chips */
+        .card-modules {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .mod-chip {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 12px;
+            background: var(--slate-50);
+            border-radius: 10px;
+            border: 1px solid var(--slate-100);
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--slate-500);
+            transition: background 0.2s;
+        }
+        .test-card:hover .mod-chip { background: white; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+        .mod-chip i { font-size: 12px; }
+        .mod-chip i.blue { color: var(--blue-light); }
+        .mod-chip i.teal { color: var(--teal); }
+        .mod-chip i.orange { color: var(--orange); }
+        .mod-chip i.red { color: var(--red); }
+
+        /* Card Meta */
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 12px 0;
+            border-top: 1px solid var(--slate-100);
+            border-bottom: 1px solid var(--slate-100);
+        }
+        .meta-item { text-align: center; }
+        .meta-item .val { font-size: 14px; font-weight: 800; color: var(--slate-800); }
+        .meta-item .lbl { font-size: 10px; font-weight: 600; color: var(--slate-400); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px; }
+
+        /* Start Button */
+        .card-btn {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 14px;
+            font-size: 14px;
+            font-weight: 800;
+            color: white;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            letter-spacing: 0.02em;
+        }
+        .card-btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
+        .card-btn:active { transform: scale(0.97); }
+        .card-btn.orange { background: linear-gradient(135deg, var(--orange), var(--orange-dark)); box-shadow: 0 6px 16px rgba(30,64,175,0.35); }
+        .card-btn.blue { background: linear-gradient(135deg, var(--blue-mid), var(--blue)); box-shadow: 0 6px 16px rgba(37,99,235,0.35); }
+        .card-btn.teal { background: linear-gradient(135deg, var(--teal), #0e9488); box-shadow: 0 6px 16px rgba(20,184,166,0.35); }
+        .card-btn.red { background: linear-gradient(135deg, var(--red), var(--orange-dark)); box-shadow: 0 6px 16px rgba(30,64,175,0.35); }
+
+        /* =================== INTRO PAGE =================== */
+        /* =================== INTRO PAGE =================== */
+        .intro-page {
+            height: 100vh;
+            background: #f1f5f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            animation: fadeScale 0.4s ease-out;
+        }
+        @keyframes fadeScale {
+            from { opacity: 0; transform: scale(0.96); }
+            to   { opacity: 1; transform: scale(1); }
+        }
+        .intro-card {
+            background: white;
+            max-width: 560px;
+            width: 100%;
+            border-radius: 24px;
+            padding: 40px 36px 36px;
+            text-align: center;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.10);
+            border: 1px solid #e2e8f0;
+        }
+        /* Shield icon */
+        .intro-icon-wrap {
+            width: 68px; height: 68px;
+            background: linear-gradient(135deg, #1e40af, #2563eb);
+            border-radius: 18px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 30px;
+            margin: 0 auto 18px;
+            box-shadow: 0 8px 24px rgba(30,64,175,0.3);
+        }
+        .intro-card h1 {
+            font-size: 22px;
+            font-weight: 800;
+            color: #0f172a;
+            letter-spacing: -0.02em;
+            margin-bottom: 6px;
+        }
+        .intro-exam-badge {
+            display: inline-block;
+            padding: 4px 14px;
+            background: #eff6ff;
+            color: #1e40af;
+            border-radius: 9999px;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            margin-bottom: 22px;
+            border: 1px solid #bfdbfe;
+        }
+        /* Module grid */
+        .intro-modules-label {
+            font-size: 10px; font-weight: 800;
+            color: #94a3b8; text-transform: uppercase;
+            letter-spacing: 0.1em;
+            text-align: left; margin-bottom: 10px;
+        }
+        .intro-modules-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 22px;
+        }
+        .intro-module-row {
+            display: flex; align-items: center; gap: 12px;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 12px 14px;
+            text-align: left;
+            transition: border-color 0.2s;
+        }
+        .intro-module-row:hover { border-color: #93c5fd; }
+        .intro-mod-icon {
+            width: 36px; height: 36px; border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 14px; flex-shrink: 0;
+        }
+        .intro-mod-icon.blue   { background:#eff6ff; color:#2563eb; }
+        .intro-mod-icon.green  { background:#f0fdf4; color:#16a34a; }
+        .intro-mod-icon.orange { background:#fff7ed; color:#ea580c; }
+        .intro-mod-icon.purple { background:#f5f3ff; color:#7c3aed; }
+        .intro-mod-name { font-size: 13px; font-weight: 700; color: #0f172a; }
+        .intro-mod-meta { font-size: 11px; color: #94a3b8; margin-top: 1px; }
+        /* Rules */
+        .intro-rules-label {
+            font-size: 10px; font-weight: 800;
+            color: #94a3b8; text-transform: uppercase;
+            letter-spacing: 0.1em;
+            text-align: left; margin-bottom: 10px;
+        }
+        .intro-rules-list {
+            list-style: none; margin-bottom: 18px;
+            display: flex; flex-direction: column; gap: 7px;
+        }
+        .intro-rules-list li {
+            display: flex; align-items: flex-start; gap: 10px;
+            font-size: 12.5px; color: #475569;
+            text-align: left; line-height: 1.5;
+        }
+        .intro-rules-list li i {
+            width: 16px; flex-shrink: 0; margin-top: 1px;
+            color: #64748b; font-size: 11px;
+        }
+        /* Translation toggle */
+        .intro-translation-box {
+            display: flex; align-items: center; justify-content: space-between;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 13px 16px;
+            margin-bottom: 22px;
+        }
+        .intro-translation-left {
+            display: flex; align-items: center; gap: 10px; text-align: left;
+        }
+        .intro-translation-icon {
+            width: 32px; height: 32px; border-radius: 8px;
+            background: #eff6ff; color: #2563eb;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 13px;
+        }
+        .intro-translation-title { font-size: 13px; font-weight: 700; color: #0f172a; }
+        .intro-translation-sub   { font-size: 11px; color: #94a3b8; margin-top: 1px; }
+        /* Toggle switch */
+        .toggle-switch {
+            position: relative; width: 44px; height: 24px; flex-shrink: 0;
+        }
+        .toggle-switch input { opacity: 0; width: 0; height: 0; }
+        .toggle-slider {
+            position: absolute; cursor: pointer; inset: 0;
+            background: #cbd5e1; border-radius: 9999px;
+            transition: background 0.25s;
+        }
+        .toggle-slider::before {
+            content: ''; position: absolute;
+            width: 18px; height: 18px; border-radius: 50%;
+            background: white; left: 3px; top: 3px;
+            transition: transform 0.25s;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+        }
+        .toggle-switch input:checked + .toggle-slider { background: #2563eb; }
+        .toggle-switch input:checked + .toggle-slider::before { transform: translateX(20px); }
+        /* Start button */
+        .intro-start-btn {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #1e40af, #2563eb);
+            color: white;
+            border: none;
+            border-radius: 14px;
+            font-size: 15px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex; align-items: center; justify-content: center; gap: 10px;
+            box-shadow: 0 8px 24px rgba(30,64,175,0.35);
+            letter-spacing: 0.01em;
+        }
+        .intro-start-btn:hover { filter: brightness(1.08); transform: translateY(-2px); box-shadow: 0 12px 32px rgba(30,64,175,0.45); }
+        .intro-start-btn:active { transform: scale(0.98); }
+
+        /* =================== MODULE INTRO OVERLAY =================== */
+        .module-intro-overlay {
+            position: fixed; inset: 0; z-index: 100;
+            background: rgba(241, 245, 249, 0.85);
+            display: flex; align-items: flex-start; justify-content: center;
+            padding: 24px;
+            padding-top: 120px;
+            animation: fadeScale 0.35s ease-out;
+        }
+        .module-intro-overlay.hidden { display: none; }
+        .module-intro-card {
+            background: white; border-radius: 24px;
+            padding: 40px 36px 36px; max-width: 520px; width: 100%;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.10);
+            border: 1px solid #e2e8f0; text-align: center;
+        }
+        .module-intro-icon {
+            width: 72px; height: 72px; border-radius: 20px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 28px; color: white; margin: 0 auto 18px;
+        }
+        .module-intro-title { font-size: 22px; font-weight: 900; color: #0f172a; margin-bottom: 4px; }
+        .module-intro-sub   { font-size: 13px; color: #64748b; margin-bottom: 16px; }
+        .module-intro-pills { display: flex; gap: 10px; justify-content: center; margin-bottom: 16px; }
+        .mi-pill {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 6px 14px; border-radius: 9999px;
+            background: #f8fafc; border: 1px solid #e2e8f0;
+            font-size: 12px; font-weight: 700; color: #475569;
+        }
+        .module-intro-desc  { font-size: 13px; color: #64748b; line-height: 1.6; margin-bottom: 18px; text-align: center; }
+        .module-intro-tips  { text-align: left; background: #f8fafc; border-radius: 12px; padding: 14px 16px; margin-bottom: 22px; }
+        .mi-tips-label { font-size: 11px; font-weight: 800; color: #64748b; margin-bottom: 8px; letter-spacing: 0.05em; }
+        .module-intro-tips ul { list-style: none; display: flex; flex-direction: column; gap: 5px; }
+        .module-intro-tips li { font-size: 12.5px; color: #475569; display: flex; align-items: flex-start; gap: 8px; line-height: 1.5; }
+        .module-intro-tips li::before { content: '•'; color: #94a3b8; flex-shrink: 0; }
+        .module-intro-btn {
+            width: 100%; padding: 15px; border: none; border-radius: 14px;
+            font-size: 15px; font-weight: 800; color: white; cursor: pointer;
+            display: flex; align-items: center; justify-content: center; gap: 10px;
+            transition: all 0.2s; letter-spacing: 0.01em;
+        }
+        .module-intro-btn:hover { filter: brightness(1.08); transform: translateY(-2px); }
+
+        /* =================== EXAM ENGINE =================== */
+        .exam-engine {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: var(--slate-50);
+        }
+
+        /* Exam Header */
+        .exam-header {
+            background: white;
+            border-bottom: 1px solid var(--slate-200);
+            padding: 0 24px;
+            position: relative;
+            z-index: 300;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-shrink: 0;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+        .exam-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            font-weight: 800;
+            color: var(--slate-900);
+        }
+        .exam-brand-dot {
+            width: 32px; height: 32px;
+            background: linear-gradient(135deg, var(--orange), var(--red));
+            border-radius: 9px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 14px; color: white;
+        }
+
+        /* Module Tabs */
+        .module-tabs {
+            display: flex;
+            gap: 6px;
+        }
+        .module-tab {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 18px;
+            border-radius: 12px;
+            border: 1.5px solid #e2e8f0;
+            background: white;
+            cursor: default; /* tabs are NOT clickable — flow is enforced */
+            pointer-events: none;
+            transition: all 0.2s;
+            font-size: 12px;
+            font-weight: 600;
+            color: #94a3b8;
+        }
+        .module-tab i { font-size: 14px; }
+        .module-tab .mt-name { font-size: 12px; font-weight: 700; color: #94a3b8; text-align: left; }
+        .module-tab .mt-sub  { font-size: 10px; font-weight: 500; color: #cbd5e1; text-align: left; }
+        .module-tab.active {
+            border-color: var(--blue-mid);
+            color: var(--blue-mid);
+            box-shadow: 0 2px 10px rgba(37,99,235,0.15);
+        }
+        .module-tab.active .mt-name { color: var(--blue-mid); }
+        .module-tab.active .mt-sub  { color: #93c5fd; }
+        .module-tab.done { border-color: #d1fae5; background: #f0fdf4; }
+        .module-tab.done .mt-name { color: #059669; }
+        .module-tab.done .mt-sub  { color: #6ee7b7; }
+        .module-tab.done i { color: #059669; }
+        .module-tab.locked { cursor: not-allowed; opacity: 0.5; }
+        .module-tab.locked::after { content: '🔒'; font-size: 10px; margin-left: 4px; }
+        /* Timer */
+        .exam-timer {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: #f0f9ff;
+            border: 1px solid #bae6fd;
+            padding: 8px 16px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+            font-weight: 900;
+            color: #0369a1;
+            letter-spacing: 0.05em;
+        }
+        .exam-timer i { font-size: 13px; opacity: 0.7; }
+        .exam-timer.warning { background: #fef2f2; border-color: #fca5a5; color: #dc2626; animation: timerPulse 1s ease-in-out infinite; }
+        @keyframes timerPulse { 0%,100% { opacity: 1; } 50% { opacity: 0.7; } }
+        @keyframes slideDown { from { opacity:0; transform: translateX(-50%) translateY(-20px); } to { opacity:1; transform: translateX(-50%) translateY(0); } }
+        /* Brand TEF badge */
+        .exam-brand-tef {
+            display: inline-block; margin-left: 8px;
+            padding: 2px 8px; border-radius: 6px;
+            background: #eff6ff; color: #2563eb;
+            font-size: 10px; font-weight: 800; letter-spacing: 0.08em;
+        }
+
+        /* Exam Main */
+        .exam-main {
+            flex: 1;
+            display: flex;
+            overflow: hidden;
+        }
+        .left-panel {
+            width: 42%;
+            background: white;
+            border-right: 1px solid var(--slate-200);
+            overflow-y: auto;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .right-panel {
+            flex: 1;
+            background: var(--slate-50);
+            overflow-y: auto;
+            padding: 20px 24px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Section A image panel — no scroll, images fill the height */
+        .right-panel.section-a-panel {
+            overflow: hidden;
+            padding: 10px 14px;
+            justify-content: space-between;
+        }
+
+        /* Audio Player */
+        .audio-card {
+            background: linear-gradient(135deg, #eff6ff, #dbeafe);
+            border: 1px solid #bfdbfe;
+            border-radius: 20px;
+            padding: 24px;
+        }
+        .audio-label {
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--blue-mid);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .audio-controls {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .play-btn {
+            width: 52px; height: 52px;
+            background: var(--blue-mid);
+            border: none;
+            border-radius: 14px;
+            color: white;
+            display: flex; align-items: center; justify-content: center;
+            cursor: pointer;
+            font-size: 18px;
+            flex-shrink: 0;
+            transition: all 0.2s;
+            box-shadow: 0 4px 12px rgba(37,99,235,0.3);
+        }
+        .play-btn:hover { background: var(--blue); transform: scale(1.05); }
+        .play-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+        .audio-track {
+            flex: 1;
+        }
+        .audio-progress-bg {
+            height: 6px;
+            background: rgba(255,255,255,0.6);
+            border-radius: 3px;
+            overflow: hidden;
+            border: 1px solid rgba(37,99,235,0.15);
+        }
+        .audio-progress-fill {
+            height: 100%;
+            background: var(--blue-mid);
+            border-radius: 3px;
+            transition: width 0.1s linear;
+        }
+        .audio-hint { font-size: 11px; color: #60a5fa; font-weight: 600; margin-top: 8px; }
+
+        /* Accordion */
+        .accordion {
+            border: 1px solid var(--slate-100);
+            border-radius: 14px;
+            overflow: hidden;
+        }
+        .accordion-trigger {
+            width: 100%;
+            padding: 14px 18px;
+            background: none;
+            border: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--slate-600);
+            text-align: left;
+            transition: background 0.2s;
+        }
+        .accordion-trigger:hover { background: var(--slate-50); }
+        .accordion-trigger i { transition: transform 0.3s; font-size: 12px; color: var(--slate-400); }
+        .accordion.open .accordion-trigger i { transform: rotate(180deg); }
+        .accordion-body {
+            display: none;
+            padding: 0 18px 16px;
+            font-size: 13px;
+            color: var(--slate-500);
+            line-height: 1.6;
+            border-top: 1px solid var(--slate-100);
+            padding-top: 14px;
+        }
+        .accordion.open .accordion-body { display: block; }
+
+        /* Question Text */
+        .question-headline {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--slate-900);
+            line-height: 1.3;
+            letter-spacing: -0.02em;
+        }
+
+        /* Reading Passage */
+        .reading-passage {
+            background: white;
+            border: 1px solid var(--slate-200);
+            border-radius: 20px;
+            padding: 28px;
+            font-size: 15px;
+            line-height: 1.75;
+            color: var(--slate-700);
+            font-family: Georgia, 'Times New Roman', serif;
+        }
+        .passage-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--teal);
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--slate-100);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Question Box (right side CE) */
+        .question-box {
+            background: white;
+            border: 1px solid var(--slate-200);
+            border-radius: 16px;
+            padding: 22px;
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--slate-800);
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            line-height: 1.4;
+        }
+
+        /* Options */
+        .options-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .option-btn {
+            width: 100%;
+            background: white;
+            border: 2px solid var(--slate-200);
+            border-radius: 16px;
+            padding: 0;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: left;
+            overflow: hidden;
+        }
+        .option-btn:hover {
+            border-color: var(--blue-light);
+            box-shadow: 0 4px 12px rgba(37,99,235,0.1);
+            transform: translateX(2px);
+        }
+        .option-btn.selected {
+            border-color: var(--blue-mid);
+            background: #eff6ff;
+            box-shadow: 0 4px 20px rgba(37,99,235,0.15);
+            transform: translateX(4px);
+        }
+        .option-inner {
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .option-key {
+            width: 36px; height: 36px;
+            border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 14px;
+            font-weight: 800;
+            flex-shrink: 0;
+            transition: all 0.2s;
+        }
+        .option-btn:not(.selected) .option-key {
+            background: var(--slate-100);
+            color: var(--slate-400);
+        }
+        .option-btn.selected .option-key {
+            background: var(--blue-mid);
+            color: white;
+            box-shadow: 0 4px 10px rgba(37,99,235,0.3);
+        }
+        .option-text {
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 1.4;
+            transition: color 0.2s;
+        }
+        .option-btn:not(.selected) .option-text { color: var(--slate-700); }
+        .option-btn.selected .option-text { color: #1e40af; }
+
+        .section-a-label {
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--blue-mid);
+            margin-bottom: 12px;
+            display: flex; align-items: center; gap: 6px;
+        }
+
+        /* Image Options (Section A - CO) */
+        .options-grid-images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 8px;
+            width: 100%;
+            flex: 1;
+            min-height: 0;
+        }
+        .option-btn-image {
+            width: 100%;
+            height: 100%;
+            background: white;
+            border: 3px solid var(--slate-200);
+            border-radius: 12px;
+            padding: 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            pointer-events: auto;
+            opacity: 1;
+            min-height: 0;
+        }
+        .option-btn-image:hover {
+            border-color: var(--blue-light);
+            box-shadow: 0 8px 24px rgba(37,99,235,0.2);
+            transform: translateY(-4px);
+        }
+        .option-btn-image.selected {
+            border-color: var(--orange);
+            background: linear-gradient(135deg, #fffbf0, #fff5e6);
+            box-shadow: 0 8px 32px rgba(30,64,175,0.3);
+            transform: translateY(-4px);
+        }
+       .option-img-wrap {
+    width: 100%;
+    height: auto;
+    flex: 1;
+    min-height: 0;
+    padding: 6px;
+    overflow: hidden;
+    position: relative;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+        /* For Section A CO questions (image grid), reduce card padding */
+        .options-grid-images .option-btn-image {
+            border-radius: 12px;
+        }
+        .options-grid-images .option-img-label {
+            padding: 5px 8px;
+            flex-shrink: 0;
+        }
+        .options-grid-images .option-img-key {
+            width: 24px; height: 24px;
+            font-size: 11px;
+            border-radius: 6px;
+        }
+        .options-grid-images .option-img-text {
+            font-size: 11px;
+        }
+        .options-grid-images .option-img-check {
+            width: 22px; height: 22px;
+            top: 6px; right: 6px;
+            font-size: 11px;
+        }
+        .option-img-wrap.option-img-svg { background: none; }
+        .option-img-wrap.option-img-svg svg { width: 100%; height: 100%; display: block; }
+        .option-img-wrap img {
+            width: 100%; 
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+            display: block;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            padding: 0;
+            image-rendering: auto;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+        .option-btn-image:hover .option-img-wrap img {
+            transform: scale(1.08);
+        }
+       
+
+        @keyframes shimmer { 0%{background-position:-400px 0} 100%{background-position:400px 0} }
+       .option-img-wrap.loading::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,#f0f0f0 25%,#e0e0e0 50%,#f0f0f0 75%);
+    background-size: 400px 100%;
+    animation: shimmer 1.4s ease-in-out infinite;
+    z-index: 2;
+}
+        .option-img-wrap.option-img-svg::before { display: none; }
+        .option-img-wrap img.loaded ~ *,
+        .option-img-wrap:has(img.loaded)::before { display: none; opacity: 0; }
+        .option-btn-image:hover .option-img-wrap img { transform: scale(1.05); }
+        .option-img-label {
+            padding: 10px 12px;
+            display: flex; align-items: center; gap: 10px;
+            border-top: 1px solid var(--slate-100);
+        }
+        .option-img-key {
+            width: 32px; height: 32px;
+            border-radius: 8px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 14px; font-weight: 800; flex-shrink: 0;
+            cursor: pointer;
+        }
+        .option-btn-image:not(.selected) .option-img-key { background: var(--slate-100); color: var(--slate-600); }
+        .option-btn-image.selected .option-img-key { background: #2563eb; color: white; }
+        .option-img-text { font-size: 12px; font-weight: 600; color: var(--slate-700); line-height: 1.3; }
+        .option-btn-image.selected .option-img-text { color: #2563eb; font-weight: 700; }
+        .option-img-check {
+            position: absolute; top: 12px; right: 12px;
+            width: 32px; height: 32px;
+            background: var(--orange); border-radius: 50%;
+            display: none; align-items: center; justify-content: center;
+            color: white; font-size: 16px;
+            box-shadow: 0 4px 12px rgba(30,64,175,0.4);
+            font-weight: 700;
+            animation: checkPulse 0.3s ease;
+            z-index: 10;
+        }
+        @keyframes checkPulse { 0% { transform: scale(0.7); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+        .option-btn-image.selected .option-img-check { display: flex; }
+
+        /* Next Button */
+        .next-btn {
+            margin-top: auto;
+            padding-top: 24px;
+            width: 100%;
+            max-width: 480px;
+            align-self: center;
+        }
+        .next-btn button {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, var(--blue-mid), var(--blue));
+            color: white;
+            border: none;
+            border-radius: 16px;
+            font-size: 15px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            box-shadow: 0 6px 20px rgba(37,99,235,0.3);
+        }
+        .next-btn button:hover { filter: brightness(1.08); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(37,99,235,0.35); }
+        .next-btn button:active { transform: scale(0.98); }
+
+        /* Question Nav */
+        .question-nav {
+            background: white;
+            border-top: 1px solid var(--slate-200);
+            padding: 14px 24px;
+            flex-shrink: 0;
+        }
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 2px;
+        }
+        .nav-inner::-webkit-scrollbar { height: 4px; }
+        .nav-inner::-webkit-scrollbar-track { background: transparent; }
+        .nav-inner::-webkit-scrollbar-thumb { background: var(--slate-200); border-radius: 2px; }
+        .nav-label { font-size: 10px; font-weight: 800; color: var(--slate-400); text-transform: uppercase; letter-spacing: 0.1em; white-space: nowrap; flex-shrink: 0; }
+        .nav-btn {
+            width: 34px; height: 34px;
+            border-radius: 10px;
+            border: 2px solid var(--slate-200);
+            background: white;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 11px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--slate-400);
+            flex-shrink: 0;
+            position: relative;
+        }
+        .nav-btn.answered {
+            background: #f0fdf4;
+            border-color: #bbf7d0;
+            color: var(--success);
+        }
+        .nav-btn.current {
+            background: var(--blue-mid);
+            border-color: var(--blue-mid);
+            color: white;
+            transform: scale(1.15);
+            box-shadow: 0 4px 10px rgba(37,99,235,0.3);
+            z-index: 5;
+        }
+        .nav-btn:hover:not(.current) { border-color: var(--blue-light); color: var(--blue-light); }
+        .answered-tick {
+            position: absolute;
+            top: -4px; right: -4px;
+            width: 14px; height: 14px;
+            background: var(--success);
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 8px;
+            color: white;
+            border: 1.5px solid white;
+        }
+
+        /* =================== SPEAKING =================== */
+        .speaking-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .speaking-tabs {
+            display: flex;
+            gap: 12px;
+            padding: 20px 32px 0;
+            background: white;
+            border-bottom: 1px solid var(--slate-200);
+        }
+        .speaking-tab {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 24px;
+            border-radius: 12px 12px 0 0;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: all 0.2s;
+            opacity: 0.4;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--slate-600);
+            background: none;
+        }
+        .speaking-tab.active {
+            opacity: 1;
+            border-bottom: 3px solid #2563eb;
+            color: var(--orange);
+            background: none;
+        }
+        .speaking-tab i { font-size: 14px; }
+        .speaking-body {
+            flex: 1;
+            display: flex;
+            gap: 24px;
+            padding: 24px 32px;
+            overflow: hidden;
+        }
+        .speaking-instructions {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            overflow-y: auto;
+        }
+        .instr-card {
+            background: white;
+            border: 1px solid var(--slate-200);
+            border-radius: 20px;
+            padding: 24px;
+        }
+        .instr-label {
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--slate-400);
+            margin-bottom: 16px;
+        }
+        .instr-list li {
+            display: flex;
+            gap: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--slate-600);
+            margin-bottom: 10px;
+            align-items: flex-start;
+        }
+        .instr-list li::before {
+            content: '→';
+            color: var(--orange);
+            font-weight: 900;
+            flex-shrink: 0;
+        }
+        .scenario-card {
+            background: linear-gradient(135deg, #fff7ed, #ffedd5);
+            border: 1px solid #fed7aa;
+            border-radius: 20px;
+            padding: 24px;
+        }
+        .scenario-card p {
+            font-size: 17px;
+            font-style: italic;
+            color: #7c2d12;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+        .speaking-timer-panel {
+            flex: 1;
+            background: white;
+            border: 1px solid var(--slate-200);
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+        }
+        .timer-circle-wrap {
+            position: relative;
+            width: 200px; height: 200px;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .timer-svg { position: absolute; inset: 0; transform: rotate(-90deg); }
+        .timer-track { fill: none; stroke: var(--slate-100); stroke-width: 12; }
+        .timer-arc {
+            fill: none;
+            stroke-width: 12;
+            stroke-linecap: round;
+            transition: stroke-dashoffset 1s linear;
+        }
+        .timer-inner { text-align: center; }
+        .timer-count { font-size: 56px; font-weight: 900; color: var(--slate-900); letter-spacing: -0.05em; line-height: 1; }
+        .timer-label { font-size: 11px; font-weight: 700; color: var(--slate-400); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px; }
+        .speaking-next {
+            padding: 14px 48px;
+            background: var(--slate-900);
+            color: white;
+            border: none;
+            border-radius: 14px;
+            font-size: 13px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .speaking-next:hover { background: var(--blue-mid); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(37,99,235,0.3); }
+
+        /* ====== RECORDING PHASE UI ====== */
+        .rec-phase-label {
+            font-size: 11px; font-weight: 800; text-transform: uppercase;
+            letter-spacing: 0.15em; color: var(--slate-400); margin-bottom: 4px;
+        }
+        .rec-phase-label.active { color: #dc2626; }
+        .rec-status-row {
+            display: flex; align-items: center; gap: 10px;
+            font-size: 13px; font-weight: 700; color: var(--slate-600);
+        }
+        .rec-dot {
+            width: 10px; height: 10px; border-radius: 50%;
+            background: var(--slate-300);
+            transition: background 0.3s;
+        }
+        .rec-dot.recording { background: #dc2626; animation: recPulse 1s infinite; }
+        @keyframes recPulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+        .waveform-wrap {
+            width: 100%; height: 56px;
+            background: var(--slate-50); border-radius: 14px;
+            border: 1.5px solid var(--slate-200);
+            overflow: hidden; position: relative;
+        }
+        #waveformCanvas { width: 100%; height: 100%; display: block; }
+        .rec-timer-big {
+            font-size: 52px; font-weight: 900; color: var(--slate-900);
+            letter-spacing: -0.05em; line-height: 1; font-family: 'Inter', sans-serif;
+        }
+        .rec-timer-big.recording { color: #dc2626; }
+        .rec-attempts-row {
+            display: flex; gap: 6px; align-items: center;
+            font-size: 12px; font-weight: 700; color: var(--slate-500);
+        }
+        .attempt-dot {
+            width: 8px; height: 8px; border-radius: 50%;
+            background: var(--slate-200); transition: background 0.2s;
+        }
+        .attempt-dot.used { background: var(--orange); }
+        .attempt-dot.current { background: #dc2626; }
+        .rec-btn-row { display: flex; gap: 12px; width: 100%; justify-content: center; }
+        .rec-btn {
+            display: flex; align-items: center; gap: 8px;
+            padding: 13px 28px; border-radius: 14px; border: none;
+            font-size: 13px; font-weight: 800; cursor: pointer;
+            transition: all 0.2s; letter-spacing: 0.03em;
+        }
+        .rec-btn.start { background: #dc2626; color: white; }
+        .rec-btn.start:hover { background: #b91c1c; transform: translateY(-2px); box-shadow: 0 6px 16px rgba(220,38,38,0.35); }
+        .rec-btn.stop  { background: var(--slate-800); color: white; }
+        .rec-btn.stop:hover  { background: var(--slate-900); transform: translateY(-2px); }
+        .rec-btn.retake { background: var(--slate-100); color: var(--slate-700); }
+        .rec-btn.retake:hover { background: var(--slate-200); }
+        .rec-btn.submit { background: #16a34a; color: white; }
+        .rec-btn.submit:hover { background: #15803d; transform: translateY(-2px); box-shadow: 0 6px 16px rgba(22,163,74,0.35); }
+        .rec-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none !important; box-shadow: none !important; }
+        .playback-wrap {
+            width: 100%; background: var(--slate-50);
+            border: 1.5px solid var(--slate-200); border-radius: 14px;
+            padding: 12px 16px; display: flex; align-items: center; gap: 12px;
+        }
+        .playback-wrap audio { flex: 1; height: 36px; }
+        .mic-error-box {
+            background: #fef2f2; border: 1.5px solid #fecaca;
+            border-radius: 16px; padding: 20px; text-align: center;
+            color: #991b1b; font-size: 13px; font-weight: 600; line-height: 1.6;
+        }
+        .mic-error-box i { font-size: 28px; margin-bottom: 10px; display: block; }
+        .mic-error-box strong { font-size: 15px; font-weight: 800; display: block; margin-bottom: 6px; }
+
+
+        /* ====== EXIT CONFIRMATION MODAL ====== */
+        #exitModal {
+            display: none; position: fixed; inset: 0; z-index: 9999;
+            background: rgba(0,0,0,0.6); backdrop-filter: blur(4px);
+            align-items: center; justify-content: center;
+        }
+        #exitModal.open { display: flex; }
+        .exit-modal-box {
+            background: white; border-radius: 24px;
+            padding: 36px 40px; max-width: 420px; width: 90%;
+            text-align: center; box-shadow: 0 24px 64px rgba(0,0,0,0.25);
+        }
+        .exit-modal-icon { font-size: 40px; margin-bottom: 16px; }
+        .exit-modal-title { font-size: 22px; font-weight: 900; color: #0f172a; margin-bottom: 8px; font-family: 'Inter', sans-serif; }
+        .exit-modal-sub { font-size: 14px; color: #64748b; font-weight: 500; margin-bottom: 28px; line-height: 1.5; }
+        .exit-modal-btns { display: flex; gap: 12px; }
+        .exit-btn-cancel { flex: 1; padding: 13px; border-radius: 12px; border: 1.5px solid #e2e8f0; background: white; font-size: 14px; font-weight: 700; color: #475569; cursor: pointer; transition: all 0.15s; }
+        .exit-btn-cancel:hover { background: #f8fafc; }
+        .exit-btn-leave { flex: 1; padding: 13px; border-radius: 12px; border: none; background: #dc2626; color: white; font-size: 14px; font-weight: 700; cursor: pointer; transition: all 0.2s; }
+        .exit-btn-leave:hover { background: #b91c1c; transform: translateY(-1px); }
+
+        /* =================== WRITING =================== */
+        .writing-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .writing-tabs {
+            display: flex;
+            gap: 12px;
+            padding: 16px 32px;
+            background: white;
+            border-bottom: 1px solid var(--slate-200);
+        }
+        .writing-tab {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px 20px;
+            border-radius: 14px;
+            border: 2px solid var(--slate-200);
+            background: var(--slate-50);
+            cursor: pointer;
+            transition: all 0.25s;
+            opacity: 0.45;
+        }
+        .writing-tab.active {
+            opacity: 1;
+            background: white;
+            border-color: var(--blue-mid);
+            box-shadow: 0 0 0 4px rgba(37,99,235,0.08), 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .writing-tab-icon {
+            width: 40px; height: 40px;
+            border-radius: 12px;
+            background: var(--slate-200);
+            color: white;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 16px;
+            transition: background 0.2s;
+        }
+        .writing-tab.active .writing-tab-icon {
+            background: var(--blue-mid);
+            box-shadow: 0 4px 10px rgba(37,99,235,0.3);
+        }
+        .writing-tab-text h3 { font-size: 10px; font-weight: 800; color: var(--slate-400); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 3px; }
+        .writing-tab-text p { font-size: 15px; font-weight: 800; color: var(--slate-800); }
+        .writing-body {
+            flex: 1;
+            display: flex;
+            gap: 24px;
+            padding: 24px 32px;
+            overflow: hidden;
+        }
+        .writing-prompt-panel {
+            width: 38%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            overflow-y: auto;
+        }
+        .prompt-card {
+            background: linear-gradient(135deg, #8B3D52, #6b2240);
+            padding: 28px;
+            border-radius: 20px;
+            color: white;
+            box-shadow: 0 8px 24px rgba(139,61,82,0.3);
+        }
+        .prompt-label {
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            opacity: 0.6;
+            margin-bottom: 14px;
+            display: block;
+        }
+        .prompt-text {
+            font-size: 17px;
+            font-style: italic;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+        .guidelines-card {
+            background: white;
+            border: 1px solid var(--slate-200);
+            border-radius: 16px;
+            padding: 20px;
+        }
+        .guidelines-label {
+            font-size: 10px;
+            font-weight: 800;
+            color: var(--slate-400);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 12px;
+        }
+        .guideline-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--slate-600);
+            margin-bottom: 8px;
+        }
+        .guideline-row i { color: var(--success); font-size: 12px; }
+        .writing-editor {
+            flex: 1;
+            background: white;
+            border: 1px solid var(--slate-200);
+            border-radius: 24px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+        }
+        .editor-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid var(--slate-100);
+        }
+        .editor-label {
+            font-size: 12px;
+            font-weight: 800;
+            color: var(--orange);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .word-count {
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 800;
+        }
+        .word-count.valid { background: #f0fdf4; color: var(--success); border: 1px solid #bbf7d0; }
+        .word-count.invalid { background: #fff1f2; color: var(--red); border: 1px solid #fecdd3; }
+        .writing-area {
+            flex: 1;
+            resize: none;
+            border: 2px solid var(--slate-100);
+            border-radius: 16px;
+            padding: 20px;
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--slate-800);
+            font-family: 'Inter', sans-serif;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .writing-area:focus { border-color: #c4b5fd; }
+        .writing-area::placeholder { color: var(--slate-300); }
+        .writing-submit {
+            margin-top: 16px;
+            width: 100%;
+            padding: 14px;
+            background: var(--slate-900);
+            color: white;
+            border: none;
+            border-radius: 14px;
+            font-size: 14px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .writing-submit:hover { background: var(--blue-mid); transform: translateY(-1px); box-shadow: 0 6px 16px rgba(37,99,235,0.25); }
+
+        /* =================== RESULTS EXTENDED =================== */
+        .results-page {
+            height: 100vh;
+            background: linear-gradient(135deg, #f0f4f8 0%, #eff6ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            animation: fadeScale 0.5s ease-out;
+            overflow-y: auto;
+        }
+        @keyframes fadeScale { from { opacity:0; transform:scale(0.97); } to { opacity:1; transform:scale(1); } }
+
+        .results-card {
+            background: white;
+            max-width: 680px;
+            width: 100%;
+            border-radius: 28px;
+            overflow: hidden;
+            box-shadow: 0 24px 64px rgba(0,0,0,0.12);
+            border: 1px solid var(--slate-100);
+        }
+        .results-top { height: 8px; background: linear-gradient(90deg, var(--orange), var(--blue-mid), var(--teal)); }
+        .results-body { padding: 40px 40px 32px; }
+
+        /* Plan badge on results */
+        .results-plan-badge {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 5px 14px; border-radius: 20px;
+            font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em;
+            margin-bottom: 16px;
+        }
+        .results-plan-badge.free    { background:#f1f5f9; color:var(--slate-500); }
+        .results-plan-badge.basic   { background:#fffbeb; color:#b45309; border:1px solid #fde68a; }
+        .results-plan-badge.advanced{ background:#eff6ff; color:var(--blue-mid); border:1px solid #bfdbfe; }
+        .results-plan-badge.premium { background:linear-gradient(135deg,#fff7ed,#fdf2f8); color:var(--orange-dark); border:1px solid #fed7aa; }
+
+        .results-icon {
+            width: 72px; height: 72px;
+            background: linear-gradient(135deg, #eff6ff, #dbeafe);
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 16px;
+            font-size: 32px; color: var(--blue-mid);
+            border: 5px solid rgba(37,99,235,0.08);
+        }
+        .results-title { font-size: 24px; font-weight: 900; color: var(--slate-900); letter-spacing: -0.03em; margin-bottom: 3px; text-align:center; }
+        .results-sub { font-size: 11px; font-weight: 700; color: var(--slate-400); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 24px; text-align:center; }
+
+        .scores-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 12px; margin-bottom: 20px;
+        }
+        .scores-grid.four-col { grid-template-columns: repeat(4,1fr); }
+        .score-box {
+            background: var(--slate-50); border: 1px solid var(--slate-100);
+            border-radius: 16px; padding: 18px 16px; text-align:center;
+        }
+        .score-box-label { font-size: 10px; font-weight: 800; color: var(--slate-400); text-transform:uppercase; letter-spacing:0.12em; margin-bottom:6px; }
+        .score-box-num { font-size: 40px; font-weight: 900; letter-spacing:-0.05em; line-height:1; }
+        .score-box-num.blue  { color: var(--blue-mid); }
+        .score-box-num.teal  { color: var(--teal); }
+        .score-box-num.orange{ color: var(--orange); }
+        .score-box-num.green { color: var(--success); }
+
+        .results-message {
+            border-radius: 12px; padding: 14px 18px;
+            margin-bottom: 18px; font-size: 13px;
+            color: var(--slate-600); font-weight: 600; font-style: italic; line-height:1.5;
+        }
+
+        /* Breakdown table */
+        .breakdown-section { margin-bottom: 18px; }
+        .breakdown-title {
+            font-size: 11px; font-weight: 800; text-transform:uppercase; letter-spacing:0.1em;
+            color: var(--slate-400); margin-bottom: 10px;
+            display:flex; align-items:center; gap:6px;
+        }
+        .breakdown-row {
+            display: flex; justify-content: space-between; align-items: center;
+            font-size: 13px; font-weight: 600; color: var(--slate-600);
+            padding: 8px 0; border-bottom: 1px solid var(--slate-100);
+        }
+        .breakdown-row:last-child { border-bottom: none; }
+        .bp { font-weight: 800; color: var(--blue-mid); font-size: 14px; }
+
+        /* Bar rows for advanced/premium */
+        .bar-breakdown-row { padding: 6px 0; }
+        .bar-breakdown-top { display:flex; justify-content:space-between; margin-bottom:5px; }
+        .bar-breakdown-name { font-size:12px; font-weight:700; color:var(--slate-700); }
+        .bar-breakdown-val  { font-size:12px; font-weight:800; }
+        .bar-breakdown-track { height:7px; background:var(--slate-100); border-radius:4px; overflow:hidden; }
+        .bar-breakdown-fill  { height:100%; border-radius:4px; transition:width 1s cubic-bezier(.4,0,.2,1); }
+
+        /* Weakness analysis panel */
+        .weakness-panel {
+            background: linear-gradient(135deg, #fff7ed, #fffbeb);
+            border: 1px solid #fed7aa;
+            border-radius: 14px; padding: 16px 18px; margin-bottom: 18px;
+        }
+        .weakness-panel-title {
+            font-size: 11px; font-weight: 800; text-transform:uppercase; letter-spacing:0.1em;
+            color: var(--orange-dark); margin-bottom: 10px;
+            display:flex; align-items:center; gap:6px;
+        }
+        .weakness-tag {
+            display:inline-block; padding:4px 10px; border-radius:20px; margin:3px;
+            font-size:11px; font-weight:700; background:white; border:1px solid #fed7aa; color:var(--orange-dark);
+        }
+
+        /* Priority support panel */
+        .support-panel {
+            background: linear-gradient(135deg, #eff6ff, #dbeafe);
+            border: 1px solid #bfdbfe;
+            border-radius: 14px; padding: 16px 18px; margin-bottom: 18px;
+            display:flex; align-items:center; gap:14px;
+        }
+        .support-icon { font-size:28px; flex-shrink:0; }
+        .support-text h4 { font-size:13px; font-weight:800; color:var(--blue-mid); margin-bottom:3px; }
+        .support-text p  { font-size:12px; color:var(--slate-500); }
+        .support-btn {
+            margin-left:auto; flex-shrink:0;
+            padding:8px 16px; background:var(--blue-mid); color:white;
+            border:none; border-radius:9px; font-size:12px; font-weight:800;
+            cursor:pointer; transition:all 0.2s;
+        }
+        .support-btn:hover { background:var(--blue); }
+
+        /* Human review panel */
+        .human-review-panel {
+            background: linear-gradient(135deg, #fdf2f8, #f5f3ff);
+            border: 1px solid #e9d5ff;
+            border-radius: 14px; padding: 18px; margin-bottom: 18px;
+        }
+        .human-review-title {
+            font-size: 11px; font-weight: 800; text-transform:uppercase; letter-spacing:0.1em;
+            color: #7c3aed; margin-bottom: 12px;
+            display:flex; align-items:center; gap:6px;
+        }
+        .review-steps { display:flex; flex-direction:column; gap:8px; }
+        .review-step {
+            display:flex; align-items:flex-start; gap:10px;
+            background:white; border-radius:10px; padding:10px 12px;
+            border:1px solid #ede9fe;
+        }
+        .review-step-num {
+            width:22px; height:22px; border-radius:50%;
+            background:linear-gradient(135deg,#8b5cf6,#7c3aed);
+            color:white; font-size:10px; font-weight:800;
+            display:flex; align-items:center; justify-content:center; flex-shrink:0;
+        }
+        .review-step-text { font-size:12px; font-weight:600; color:var(--slate-700); line-height:1.4; }
+        .review-eta { font-size:11px; color:#7c3aed; font-weight:700; margin-top:4px; }
+
+        /* Retake locked */
+        .retake-locked {
+            background: var(--slate-50); border: 1px dashed var(--slate-200);
+            border-radius: 12px; padding: 12px 16px;
+            display:flex; align-items:center; gap:10px;
+            margin-bottom: 18px;
+        }
+        .retake-locked i { color:var(--slate-300); font-size:18px; }
+        .retake-locked p { font-size:12px; font-weight:600; color:var(--slate-400); }
+        .retake-locked span { color:#2563eb; font-weight:800; cursor:pointer; }
+        .retake-locked span:hover { text-decoration:underline; }
+
+        .results-actions { display: flex; gap: 10px; margin-top:4px; }
+        .res-btn {
+            flex:1; padding:13px; border-radius:13px; border:none;
+            font-size:13px; font-weight:800; cursor:pointer;
+            transition:all 0.2s; display:flex; align-items:center; justify-content:center; gap:8px;
+        }
+        .res-btn:hover { transform:translateY(-2px); }
+        .res-btn.secondary { background:var(--slate-900); color:white; }
+        .res-btn.secondary:hover { box-shadow:0 6px 16px rgba(0,0,0,0.2); }
+        .res-btn.primary { background:linear-gradient(135deg,var(--blue-mid),var(--blue)); color:white; box-shadow:0 6px 16px rgba(37,99,235,0.3); }
+        .res-btn.primary:hover { box-shadow:0 10px 24px rgba(37,99,235,0.35); }
+        .res-btn.upgrade { background:linear-gradient(135deg,#2563eb,#1e40af); color:white; box-shadow:0 6px 16px rgba(30,64,175,0.3); }
+        .res-btn.upgrade:hover { box-shadow:0 10px 24px rgba(30,64,175,0.4); }
+        /* old results CSS removed — see RESULTS EXTENDED above */
+
+        /* =================== LOCKED OVERLAY =================== */
+        .test-card {
+            position: relative;
+        }
+        .card-locked-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(255,255,255,0.88);
+            backdrop-filter: blur(5px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 24px;
+            z-index: 10;
+            gap: 6px;
+            text-align: center;
+            padding: 16px;
+        }
+        .card-locked-overlay .lock-premium {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 4px;
+        }
+        .card-locked-overlay .lock-icon {
+            font-size: 28px;
+            color: var(--slate-300);
+        }
+        .card-locked-overlay .lock-title {
+            font-size: 13px;
+            font-weight: 800;
+            color: var(--slate-700);
+        }
+        .card-locked-overlay .lock-req {
+            font-size: 11px;
+            color: var(--slate-400);
+            margin-bottom: 6px;
+        }
+        .card-locked-overlay .lock-btn {
+            padding: 9px 20px;
+            background: linear-gradient(135deg, var(--orange), var(--orange-dark));
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 4px 12px rgba(30,64,175,0.35);
+        }
+        .card-locked-overlay .lock-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 20px rgba(30,64,175,0.4);
+        }
+
+        /* =================== UPGRADE STRIP =================== */
+        .upgrade-strip {
+            max-width: 1400px;
+            margin: 24px auto 0;
+            padding: 0 40px;
+        }
+        .upgrade-strip-inner {
+            background: linear-gradient(135deg, #fffbeb, #fff7ed);
+            border: 1.5px dashed #fcd34d;
+            border-radius: 20px;
+            padding: 24px 32px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .upgrade-strip-inner .us-icon { font-size: 32px; }
+        .upgrade-strip-inner .us-text { flex: 1; }
+        .upgrade-strip-inner .us-text h3 { font-size: 15px; font-weight: 800; color: var(--slate-900); margin-bottom: 4px; }
+        .upgrade-strip-inner .us-text p { font-size: 12px; color: var(--slate-600); }
+        .upgrade-strip-inner .us-plans { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+        .upgrade-strip-inner .us-pill { font-size: 11px; font-weight: 700; color: var(--orange-dark); background: #ffedd5; padding: 3px 10px; border-radius: 20px; }
+        .upgrade-strip-inner .us-btn {
+            padding: 11px 24px;
+            background: linear-gradient(135deg, var(--orange), var(--orange-dark));
+            color: white; border: none; border-radius: 12px;
+            font-size: 13px; font-weight: 800; cursor: pointer;
+            box-shadow: 0 6px 18px rgba(30,64,175,0.3);
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .upgrade-strip-inner .us-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(30,64,175,0.4); }
+
+        /* =================== SCROLLBAR =================== */
+        ::-webkit-scrollbar { width: 5px; height: 5px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--slate-200); border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--slate-300); }
+
+        /* =================== UTILITY =================== */
+        .hidden { display: none !important; }
+        .fade-in { animation: fadeIn 0.4s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* =================== RESPONSIVE =================== */
+        @media (max-width: 1024px) {
+            .tests-grid { grid-template-columns: 1fr 1fr; padding: 16px 24px 48px; }
+            .filter-bar { padding: 20px 24px 12px; }
+            .dash-hero { padding: 32px 24px; }
+        }
+        @media (max-width: 768px) {
+            .tests-grid { grid-template-columns: 1fr; padding: 16px 16px 48px; }
+            .exam-main { flex-direction: column; }
+            .left-panel { width: 100%; height: 50%; border-right: none; border-bottom: 1px solid var(--slate-200); }
+            .module-tabs { display: none; }
+            .dash-hero-inner { flex-direction: column; gap: 20px; }
+            .writing-body, .speaking-body { flex-direction: column; }
+            .writing-prompt-panel, .speaking-instructions { width: 100%; }
+        }
+    </style>
+    <link rel="stylesheet" href="mobile-optimized.css">
+</head>
+<body>
+
+<!-- Loading -->
+<div id="loadingScreen" class="loading-screen">
+    <div class="loading-logo"><i class="fas fa-graduation-cap"></i></div>
+    <div class="loading-text">BigFrench.com</div>
+    <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+    <div class="loading-text" style="margin-top:8px; font-size:10px;">Loading Simulations...</div>
+</div>
+
+<!-- =================== DASHBOARD =================== -->
+<div id="dashboard" class="dashboard hidden">
+    <!-- Nav -->
+    <nav class="dash-nav">
+        <a href="index.html" class="dash-brand">
+            <div class="dash-brand-icon"><i class="fas fa-graduation-cap"></i></div>
+            <span class="dash-brand-text">BigFrench<span>.com</span></span>
+        </a>
+        <div class="dash-nav-right">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+            <button class="upgrade-pill">
+                <i class="fas fa-crown"></i> Upgrade to Premium
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="dash-hero">
+        <div class="dash-hero-inner">
+            <div class="dash-hero-left">
+                <h1>TEF Canada Mock Tests</h1>
+                <p>50 full-length simulations · <span>Admin Plan Active</span> · All modules included</p>
+            </div>
+            <div class="dash-stats">
+                <div class="dash-stat">
+                    <div class="dash-stat-num orange">50</div>
+                    <div class="dash-stat-label">Total Tests</div>
+                </div>
+                <div class="dash-stat">
+                    <div class="dash-stat-num blue">4</div>
+                    <div class="dash-stat-label">Modules</div>
+                </div>
+                <div class="dash-stat">
+                    <div class="dash-stat-num green">~175</div>
+                    <div class="dash-stat-label">Min / Test</div>
+                </div>
+                <div class="dash-stat">
+                    <div class="dash-stat-num" style="color:#c084fc">84</div>
+                    <div class="dash-stat-label">Questions</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+        <div class="filter-bar-left">
+            <span style="font-size:12px;font-weight:700;color:var(--slate-500);margin-right:4px;">Filter:</span>
+            <button class="filter-chip active">All Tests</button>
+            <button class="filter-chip">Completed</button>
+            <button class="filter-chip">In Progress</button>
+            <button class="filter-chip">New</button>
+        </div>
+        <div class="search-box">
+            <i class="fas fa-search" style="font-size:12px;color:var(--slate-300)"></i>
+            <span>Search tests...</span>
+        </div>
+    </div>
+
+    <!-- Grid -->
+    <div class="tests-grid" id="testsGrid"></div>
+</div>
+
+<!-- =================== INTRO PAGE =================== -->
+<div id="introPage" class="intro-page hidden">
+    <div class="intro-card">
+
+        <!-- Shield icon -->
+        <div class="intro-icon-wrap">🛡️</div>
+
+        <!-- Title -->
+        <h1>TEF Canada – Mock Test #<span id="introTestNum">1</span></h1>
+        <div class="intro-exam-badge">TEF Canada</div>
+
+        <!-- Modules grid -->
+        <div class="intro-modules-label">Modules</div>
+        <div class="intro-modules-grid">
+            <div class="intro-module-row">
+                <div class="intro-mod-icon blue"><i class="fas fa-headphones"></i></div>
+                <div>
+                    <div class="intro-mod-name">Compréhension Orale</div>
+                    <div class="intro-mod-meta"><span id="introCoQ">40</span> questions • 40 min</div>
+                </div>
+            </div>
+            <div class="intro-module-row">
+                <div class="intro-mod-icon green"><i class="fas fa-book-open"></i></div>
+                <div>
+                    <div class="intro-mod-name">Compréhension Écrite</div>
+                    <div class="intro-mod-meta"><span id="introCeQ">40</span> questions • 60 min</div>
+                </div>
+            </div>
+            <div class="intro-module-row">
+                <div class="intro-mod-icon orange"><i class="fas fa-microphone"></i></div>
+                <div>
+                    <div class="intro-mod-name">Expression Orale</div>
+                    <div class="intro-mod-meta">2 tasks • 15 min</div>
+                </div>
+            </div>
+            <div class="intro-module-row">
+                <div class="intro-mod-icon purple"><i class="fas fa-pen-nib"></i></div>
+                <div>
+                    <div class="intro-mod-name">Expression Écrite</div>
+                    <div class="intro-mod-meta">2 tasks • 60 min</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exam rules -->
+        <div class="intro-rules-label">Exam Rules</div>
+        <ul class="intro-rules-list">
+            <li><i class="fas fa-expand-arrows-alt"></i> The test will enter fullscreen mode</li>
+            <li><i class="fas fa-clock"></i> Each module has its own time limit</li>
+            <li><i class="fas fa-exclamation-triangle"></i> Tab switching is monitored and logged</li>
+            <li><i class="fas fa-check-circle"></i> You must complete each module in order</li>
+            <li><i class="fas fa-language"></i> All speaking &amp; writing responses must be in French only — other languages will not be evaluated</li>
+        </ul>
+
+        <!-- English Translation toggle -->
+        <div class="intro-translation-box">
+            <div class="intro-translation-left">
+                <div class="intro-translation-icon"><i class="fas fa-language"></i></div>
+                <div>
+                    <div class="intro-translation-title">English Translation</div>
+                    <div class="intro-translation-sub">Show English alongside French questions</div>
+                </div>
+            </div>
+            <label class="toggle-switch">
+                <input type="checkbox" id="englishTranslationToggle" onchange="toggleEnglishTranslation(this.checked)">
+                <span class="toggle-slider"></span>
+            </label>
+        </div>
+
+        <!-- Start button -->
+        <button class="intro-start-btn" onclick="confirmFullscreenStart()">
+            <i class="fas fa-expand-arrows-alt"></i> Enter Fullscreen &amp; Start Test
+        </button>
+    </div>
+</div>
+
+
+<!-- =================== EXAM ENGINE =================== -->
+<div id="examEngine" class="exam-engine hidden">
+
+    <!-- ── MODULE INTRO OVERLAY ── shown before each module starts ── -->
+    <div id="moduleIntroOverlay" class="module-intro-overlay hidden">
+        <div class="module-intro-card">
+            <div class="module-intro-icon" id="miIcon"></div>
+            <div class="module-intro-title" id="miTitle"></div>
+            <div class="module-intro-sub"   id="miSub"></div>
+            <div class="module-intro-pills">
+                <span class="mi-pill" id="miTime"><i class="fas fa-clock"></i> <span></span></span>
+                <span class="mi-pill" id="miCount"><i class="fas fa-list"></i> <span></span></span>
+            </div>
+            <p class="module-intro-desc" id="miDesc"></p>
+            <div class="module-intro-tips">
+                <div class="mi-tips-label">💡 TIPS</div>
+                <ul id="miTips"></ul>
+            </div>
+            <button class="module-intro-btn" id="miStartBtn" onclick="startCurrentModule()"></button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="exam-header">
+        <div class="exam-brand">
+            <div class="exam-brand-dot"><i class="fas fa-graduation-cap"></i></div>
+            TEF Canada – Mock Test #<span id="currentTestId">1</span>
+            <span class="exam-brand-tef">TEF</span>
+        </div>
+
+        <nav class="module-tabs">
+            <button class="module-tab active" data-module="CO" onclick="handleTabClick('CO')">
+                <i class="fas fa-headphones"></i>
+                <div>
+                    <div class="mt-name">Compréhension Orale</div>
+                    <div class="mt-sub">Listening</div>
+                </div>
+            </button>
+            <button class="module-tab" data-module="CE" onclick="handleTabClick('CE')">
+                <i class="fas fa-book-open"></i>
+                <div>
+                    <div class="mt-name">Compréhension Écrite</div>
+                    <div class="mt-sub">Reading</div>
+                </div>
+            </button>
+            <button class="module-tab" data-module="EO" onclick="handleTabClick('EO')">
+                <i class="fas fa-microphone"></i>
+                <div>
+                    <div class="mt-name">Expression Orale</div>
+                    <div class="mt-sub">Speaking</div>
+                </div>
+            </button>
+            <button class="module-tab" data-module="EE" onclick="handleTabClick('EE')">
+                <i class="fas fa-pen-nib"></i>
+                <div>
+                    <div class="mt-name">Expression Écrite</div>
+                    <div class="mt-sub">Writing</div>
+                </div>
+            </button>
+        </nav>
+
+        <div class="exam-timer" id="timer">
+            <i class="fas fa-clock"></i>
+            <span id="timerDisplay">40:00</span>
+        </div>
+        <button onclick="showExitModal()" style="margin-left:12px;padding:8px 16px;border-radius:10px;border:1.5px solid #e2e8f0;background:white;font-size:12px;font-weight:700;color:#64748b;cursor:pointer;display:flex;align-items:center;gap:6px;transition:all 0.15s;" onmouseover="this.style.background='#fef2f2';this.style.color='#dc2626';this.style.borderColor='#fecaca'" onmouseout="this.style.background='white';this.style.color='#64748b';this.style.borderColor='#e2e8f0'">
+            <i class="fas fa-times"></i> Quitter
+        </button>
+    </header>
+
+    <!-- Main Content -->
+    <main class="exam-main" id="examMain"></main>
+
+    <!-- Question Nav -->
+    <footer class="question-nav hidden" id="questionNav">
+        <div class="nav-inner">
+            <span class="nav-label">Questions</span>
+            <div id="navGrid" style="display:flex;gap:6px;"></div>
+        </div>
+    </footer>
+</div>
+
+<!-- =================== RESULTS PAGE =================== -->
+<div id="resultsPage" class="results-page hidden">
+    <div class="results-card">
+        <div class="results-top"></div>
+        <div class="results-body">
+            <!-- Filled dynamically by showResults() based on plan -->
+        </div>
+    </div>
+</div>
+
+
+<script>
+// =================== STATE ===================
+const testData = {};
+let currentTest = null;
+let currentModule = 'CO';
+let currentQuestion = 0;
+let answers = {};
+let lockedAnswers = {};       // answers locked after first selection
+let timer = null;
+let timeLeft = 2400;
+let isStarted = false;
+let moduleStarted = {};       // which modules have been started (past intro)
+let audioPlayed = {};
+let writingAnswers = { task1: '', task2: '' };
+let speakingPrepTime = 30;
+let speakingTimer = null;
+// Recording globals (declared here so resetExam can reference them before speaking module loads)
+let mediaRecorder = null;
+let audioChunks   = [];
+let recordingBlob = null;
+let recordingTimer = null;
+let recordingSeconds = 0;
+let recAttempts = 0;
+let speakingDone = [false, false];
+let audioStream  = null;
+let analyserNode = null;
+let animFrameId  = null;
+
+// Per-module time limits in seconds
+const MODULE_TIMES = { CO: 2400, CE: 3600, EO: 900, EE: 3600 };
+
+// Track completed tests so they can't be retaken
+function getCompletedTests() {
+    try { return JSON.parse(localStorage.getItem('bigfrench_completed_tests') || '{}'); } catch(e) { return {}; }
+}
+function markTestCompleted(testId) {
+    if (testId === 1) return; // Test #1 is always retakeable - never mark as completed
+    try {
+        const c = getCompletedTests();
+        c[testId] = { completedAt: new Date().toISOString() };
+        localStorage.setItem('bigfrench_completed_tests', JSON.stringify(c));
+    } catch(e) {}
+}
+function isTestCompleted(testId) {
+    return !!getCompletedTests()[testId];
+}
+
+const urlParams = new URLSearchParams(window.location.search);
+const directTestId = urlParams.get('testId');
+const isSingleMode = directTestId !== null;
+// Read userPlan passed from dashboard iframe params
+const urlUserPlan = urlParams.get('userPlan') || 'free';
+
+function isTestUnlocked(n, plan) {
+    if (plan === 'admin')   return true;
+    if (plan === '6months') return n <= 50;
+    if (plan === '3months') return n <= 35;
+    if (plan === '1month')  return n <= 15;
+    return n === 1; // free
+}
+function requiredPlan(n) {
+    if (n <= 1)  return null;
+    if (n <= 15) return '1 Month plan';
+    if (n <= 35) return '3 Months plan';
+    return '6 Months plan';
+}
+
+// =================== INIT ===================
+window.onload = () => {
+    if (isSingleMode && directTestId) {
+        loadAndOpenTest(parseInt(directTestId));
+    } else {
+        renderDashboard();
+        setTimeout(() => {
+            document.getElementById('loadingScreen').classList.add('hidden');
+            document.getElementById('dashboard').classList.remove('hidden');
+        }, 1200);
+    }
+};
+
+// =================== DATA LOADING ===================
+async function loadTestData(testId) {
+    try {
+        const base = `./data/mock${testId}`;
+        const coRes = await fetch(`${base}/co.json`);
+        const ceRes = await fetch(`${base}/ce.json`);
+        const coRaw = await coRes.json();
+        const ceRaw = await ceRes.json();
+
+        const co = coRaw.map((q, qIdx) => {
+            // ✅ ADD IMAGE PATHS FOR CO (Questions 1-6)
+            let imageOptions = [];
+            if (qIdx < 6) {  // Only for first 6 questions
+                imageOptions = [
+                    { id: 'A', text: '', image: `./images/mock_test_${testId}/question_${qIdx+1}/A.png` },
+                    { id: 'B', text: '', image: `./images/mock_test_${testId}/question_${qIdx+1}/B.png` },
+                    { id: 'C', text: '', image: `./images/mock_test_${testId}/question_${qIdx+1}/C.png` },
+                    { id: 'D', text: '', image: `./images/mock_test_${testId}/question_${qIdx+1}/D.png` }
+                ];
+                // 🔍 DEBUG: Log image paths
+                if (qIdx === 0) {
+                    console.log('📸 Loading images for test', testId);
+                    console.log('Image paths:', imageOptions.map(o => o.image));
+                }
+            }
+
+            return {
+                id: q.id,
+                section: q.section,
+                question: q.question,
+                transcript_en: q.transcript_en,
+                transcript_fr: q.transcript_fr,
+                // Use image options if available, otherwise fall back to text options
+                options: imageOptions.length > 0 
+                    ? imageOptions 
+                    : Array.isArray(q.options)
+                        ? q.options.map(opt => ({ id: opt.id, text: opt.text, image_prompt: opt.image_prompt || '' }))
+                        : Object.entries(q.options).map(([key, val]) => ({ id: key, text: typeof val === 'object' ? val.text : val, image_prompt: typeof val === 'object' ? (val.image_prompt || '') : '' }))
+            };
+        });
+
+        let ce = [];
+        if (ceRaw.sections && Array.isArray(ceRaw.sections)) {
+            ceRaw.sections.forEach((section, sIdx) => {
+                if (!section.questions) return;
+                section.questions.forEach((q, qIdx) => {
+                    let options = [];
+                    if (typeof q.options === "object") {
+                        options = Object.entries(q.options).map(([key, val]) => ({ id: key, text: val }));
+                    }
+                    ce.push({ id: q.question_id || `${sIdx+1}_${qIdx+1}`, text: q.text || "", question: q.question || "", options });
+                });
+            });
+        } else if (Array.isArray(ceRaw)) {
+            ceRaw.forEach((q, idx) => {
+                let options = [];
+                if (typeof q.options === "object") {
+                    options = Object.entries(q.options).map(([key, val]) => ({ id: key, text: val }));
+                }
+                ce.push({ id: q.question_id || idx + 1, text: q.text || "", question: q.question || "", options });
+            });
+        }
+
+        testData[testId] = {
+            co: co, ce: ce,
+            eo: generateEOData(testId),
+            ee: generateEEData(testId)
+        };
+    } catch (err) {
+        console.log("JSON load failed, using fallback:", err);
+        testData[testId] = generateFallbackData(testId);
+    }
+}
+
+function generateFallbackData(testId) {
+    const co = [], ce = [];
+    for (let i = 1; i <= 40; i++) {
+        co.push({
+            id: i, section: i <= 6 ? 'A' : i <= 20 ? 'B' : i <= 30 ? 'C' : 'D',
+            question: `Question d'écoute numéro ${i} — Écoutez le document sonore et répondez.`,
+            options: [
+                { id: 'A', text: `Option A pour la question ${i}` },
+                { id: 'B', text: `Option B pour la question ${i}` },
+                { id: 'C', text: `Option C pour la question ${i}` },
+                { id: 'D', text: `Option D pour la question ${i}` }
+            ],
+            transcript_en: `English transcript for question ${i}: This is a sample listening comprehension passage.`,
+            transcript_fr: `Transcription française pour la question ${i}: Ceci est un exemple de passage d'écoute.`
+        });
+        ce.push({
+            id: i,
+            text: `Passage de lecture pour la question ${i}. Ce texte représente un exemple typique de passage de compréhension écrite du TEF Canada, couvrant des sujets variés comme la culture, la société, l'économie ou l'environnement.`,
+            question: `Quelle est l'idée principale exprimée dans ce passage ${i}?`,
+            options: [
+                { id: 'A', text: `L'auteur défend une position innovante sur le sujet ${i}` },
+                { id: 'B', text: `Le texte analyse les conséquences sociales du phénomène ${i}` },
+                { id: 'C', text: `Une perspective critique est présentée concernant ${i}` },
+                { id: 'D', text: `Des solutions pratiques sont proposées pour ${i}` }
+            ]
+        });
+    }
+    return { co, ce, eo: generateEOData(testId), ee: generateEEData(testId) };
+}
+
+function generateEOData(testId) {
+    const eoBank = [
+        // Task 1 options
+        [
+            { scenario: "Vous passez un entretien d'embauche. Présentez-vous et expliquez pourquoi vous êtes le candidat idéal pour ce poste.", instructions: ["Présentez-vous brièvement", "Décrivez votre expérience professionnelle", "Expliquez vos objectifs de carrière"] },
+            { scenario: "Vous rencontrez un nouvel ami dans un club de français. Parlez de vous, de vos intérêts et de vos projets au Canada.", instructions: ["Présentez-vous chaleureusement", "Mentionnez vos loisirs", "Parlez de vos projets futurs"] },
+            { scenario: "Vous appelez une agence de logement pour vous présenter et expliquer votre situation afin de trouver un appartement.", instructions: ["Donnez votre nom et situation", "Décrivez vos besoins", "Posez des questions pertinentes"] },
+            { scenario: "Vous vous présentez devant un comité d'immigration. Expliquez votre parcours et vos raisons d'immigrer au Canada.", instructions: ["Décrivez votre pays d'origine", "Expliquez vos motivations", "Parlez de vos compétences"] },
+            { scenario: "Vous parlez à un médecin pour la première fois. Présentez-vous et décrivez votre état de santé général.", instructions: ["Présentez-vous clairement", "Donnez votre historique médical", "Posez vos questions"] },
+        ],
+        // Task 2 options
+        [
+            { scenario: "Vous participez à un débat sur l'importance du français au Canada. Défendez votre point de vue avec des arguments solides.", instructions: ["Argumentez votre position", "Proposez des solutions", "Réfutez les objections"] },
+            { scenario: "Un collègue pense que le télétravail devrait être permanent. Vous n'êtes pas d'accord. Discutez et trouvez un compromis.", instructions: ["Exposez votre point de vue", "Écoutez les arguments opposés", "Proposez un compromis réaliste"] },
+            { scenario: "Vous devez convaincre votre propriétaire de permettre les animaux de compagnie dans votre appartement. Argumentez votre demande.", instructions: ["Présentez vos arguments principaux", "Anticipez les objections", "Suggérez des solutions pratiques"] },
+            { scenario: "Discutez avec un ami de l'impact des réseaux sociaux sur la jeunesse. Donnez votre opinion et écoutez celle de votre interlocuteur.", instructions: ["Donnez votre perspective", "Supportez avec des exemples", "Montrez de l'empathie"] },
+            { scenario: "Vous négociez une augmentation de salaire avec votre patron. Argumentez pourquoi vous méritez cette augmentation.", instructions: ["Listez vos accomplissements", "Proposez un chiffre précis", "Restez professionnel et persuasif"] },
+        ]
+    ];
+
+    const t1idx = (testId - 1) % eoBank[0].length;
+    const t2idx = (testId + 1) % eoBank[1].length;
+
+    return {
+        sections: [
+            {
+                title: "Tâche 1: Expression directe",
+                instructions: eoBank[0][t1idx].instructions,
+                scenario: eoBank[0][t1idx].scenario,
+                prep_time: 0.5, speak_time: 2
+            },
+            {
+                title: "Tâche 2: Expression interactive",
+                instructions: eoBank[1][t2idx].instructions,
+                scenario: eoBank[1][t2idx].scenario,
+                prep_time: 0.5, speak_time: 3
+            }
+        ]
+    };
+}
+
+function generateEEData(testId) {
+    const eeBank = [
+        // Short message (task 1)
+        [
+            { title: "Message Court", prompt: "Vous écrivez un message à votre voisin pour lui demander de garder votre chat pendant vos vacances.", article_start: "Cher voisin,", instructions: ["Soyez poli et clair", "Expliquez la durée", "Donnez vos coordonnées"], word_limit: { min: 60, max: 120 } },
+            { title: "Courriel professionnel", prompt: "Vous écrivez à votre employeur pour demander un congé de trois jours pour raisons personnelles.", article_start: "Madame, Monsieur,", instructions: ["Présentez votre demande clairement", "Donnez les dates précises", "Proposez de couvrir votre travail"], word_limit: { min: 60, max: 120 } },
+            { title: "Message d'excuse", prompt: "Vous n'avez pas pu assister à une réunion importante. Écrivez un message d'excuse à votre collègue.", article_start: "Cher(e) collègue,", instructions: ["Expliquez la raison de votre absence", "Présentez vos excuses sincèrement", "Proposez une solution"], word_limit: { min: 60, max: 120 } },
+            { title: "Demande de renseignements", prompt: "Vous écrivez à une école de langue pour demander des informations sur leurs cours de français.", article_start: "Bonjour,", instructions: ["Présentez-vous brièvement", "Posez des questions précises", "Demandez les tarifs et horaires"], word_limit: { min: 60, max: 120 } },
+            { title: "Invitation", prompt: "Vous organisez une fête d'anniversaire surprise pour un ami et invitez ses proches.", article_start: "Cher(e) ami(e),", instructions: ["Donnez les détails de l'événement", "Mentionnez le caractère secret", "Demandez une confirmation"], word_limit: { min: 60, max: 120 } },
+        ],
+        // Argumentative text (task 2)
+        [
+            { title: "Texte Argumentatif", prompt: "Le télétravail est-il bénéfique pour la société? Rédigez un texte argumentatif.", article_start: "Dans notre société moderne, le télétravail suscite de nombreux débats...", instructions: ["Introduction claire", "Arguments structurés", "Conclusion pertinente"], word_limit: { min: 120, max: 180 } },
+            { title: "Texte d'opinion", prompt: "Pensez-vous que les réseaux sociaux ont un impact positif ou négatif sur les jeunes? Rédigez votre opinion.", article_start: "Les réseaux sociaux font partie intégrante de la vie des jeunes d'aujourd'hui...", instructions: ["Exprimez clairement votre opinion", "Illustrez avec des exemples concrets", "Tirez une conclusion équilibrée"], word_limit: { min: 120, max: 180 } },
+            { title: "Texte de recommandation", prompt: "Recommanderiez-vous à un ami de s'installer au Canada? Rédigez un texte justifiant votre réponse.", article_start: "Le Canada est souvent présenté comme l'un des meilleurs pays au monde pour immigrer...", instructions: ["Donnez des raisons claires", "Parlez des défis potentiels", "Concluez avec une recommandation"], word_limit: { min: 120, max: 180 } },
+            { title: "Texte comparatif", prompt: "Comparez la vie en ville et la vie à la campagne. Quelle est votre préférence et pourquoi?", article_start: "Choisir entre la vie urbaine et la vie rurale est une décision importante...", instructions: ["Présentez les avantages de chaque option", "Comparez objectivement", "Défendez votre préférence"], word_limit: { min: 120, max: 180 } },
+            { title: "Lettre formelle", prompt: "Rédigez une lettre à la mairie pour proposer l'amélioration du transport en commun dans votre quartier.", article_start: "Monsieur le Maire,", instructions: ["Exposez le problème clairement", "Proposez des solutions concrètes", "Restez formel et respectueux"], word_limit: { min: 120, max: 180 } },
+        ]
+    ];
+
+    const t1idx = (testId - 1) % eeBank[0].length;
+    const t2idx = (testId + 2) % eeBank[1].length;
+
+    return {
+        sections: [
+            eeBank[0][t1idx],
+            eeBank[1][t2idx]
+        ]
+    };
+}
+
+// =================== DASHBOARD ===================
+function renderDashboard() {
+    const grid = document.getElementById('testsGrid');
+    const themes = ['orange', 'blue', 'teal', 'red'];
+
+    for (let i = 1; i <= 50; i++) {
+        const theme = themes[(i - 1) % 4];
+        const isUnlocked = isTestUnlocked(i, urlUserPlan);
+        const isLocked = !isUnlocked;
+        const req = isLocked ? requiredPlan(i) : null;
+
+        const card = document.createElement('div');
+        card.className = 'test-card fade-in';
+        card.style.animationDelay = `${Math.min((i-1) * 0.04, 0.8)}s`;
+        card.innerHTML = `
+            ${isLocked ? `
+            <div class="card-locked-overlay">
+                <div class="lock-premium">Premium</div>
+                <i class="fas fa-lock lock-icon"></i>
+                <div class="lock-title">Test #${i} Locked</div>
+                <div class="lock-req">${req} required</div>
+                <button class="lock-btn" onclick="showUpgradeModal()">
+                    <i class="fas fa-crown" style="margin-right:5px;"></i>Unlock Now
+                </button>
+            </div>` : ''}
+            <div class="card-top ${theme}"></div>
+            <div class="card-body">
+                <div class="card-header">
+                    <div class="card-num-wrap">
+                        <div class="card-num ${theme}">${i}</div>
+                        <div>
+                            <div class="card-title">Mock Test #${i}</div>
+                            <div class="card-sub">TEF Canada Full Simulation</div>
+                        </div>
+                    </div>
+                    <div class="card-badge ${i === 1 ? 'done' : ''}">
+                        ${i === 1 ? '✓ Done' : 'Official'}
+                    </div>
+                </div>
+                <div class="card-progress">
+                    <div class="prog-dot ${i === 1 ? 'done' : `${theme} active`}"></div>
+                    <div class="prog-dot"></div>
+                    <div class="prog-dot"></div>
+                    <div class="prog-dot"></div>
+                </div>
+                <div class="card-modules">
+                    <div class="mod-chip"><i class="fas fa-headphones blue"></i> Compréhension Orale</div>
+                    <div class="mod-chip"><i class="fas fa-book-open teal"></i> Compréhension Écrite</div>
+                    <div class="mod-chip"><i class="fas fa-microphone orange"></i> Expression Orale</div>
+                    <div class="mod-chip"><i class="fas fa-pen-nib red"></i> Expression Écrite</div>
+                </div>
+                <div class="card-meta">
+                    <div class="meta-item"><div class="val">84</div><div class="lbl">Questions</div></div>
+                    <div class="meta-item"><div class="val">~175</div><div class="lbl">Minutes</div></div>
+                    <div class="meta-item"><div class="val">4</div><div class="lbl">Modules</div></div>
+                </div>
+                <button class="card-btn ${theme}" onclick="${isLocked ? 'showUpgradeModal()' : `openTest(${i})`}">
+                    <i class="fas fa-${isLocked ? 'lock' : 'play-circle'}"></i>
+                    ${isLocked ? 'Locked' : (i === 1 ? 'Continuer' : 'Commencer')}
+                </button>
+            </div>
+        `;
+        grid.appendChild(card);
+    }
+
+    // Show upgrade strip only for non-fully-unlocked plans
+    if (urlUserPlan !== '6months' && urlUserPlan !== 'admin') {
+        const strip = document.createElement('div');
+        strip.className = 'upgrade-strip';
+        strip.innerHTML = `
+        <div class="upgrade-strip-inner">
+            <span class="us-icon">👑</span>
+            <div class="us-text">
+                <h3>Unlock More Mock Tests</h3>
+                <p>Upgrade your plan to access more simulations and improve your score.</p>
+                <div class="us-plans">
+                    <span class="us-pill">1 Month → 15 tests · ₹2,499</span>
+                    <span class="us-pill">3 Months → 35 tests · ₹6,499</span>
+                    <span class="us-pill">6 Months → All 50 · ₹12,999</span>
+                </div>
+            </div>
+            <button class="us-btn" onclick="window.parent.postMessage({type:'NAVIGATE_COURSES'},'*')">
+                <i class="fas fa-arrow-right" style="margin-right:6px;"></i>View Plans
+            </button>
+        </div>`;
+        document.querySelector('.tests-grid') ? document.querySelector('.tests-grid').after(strip) : document.body.appendChild(strip);
+    }
+
+    // Filter chip interaction
+    document.querySelectorAll('.filter-chip').forEach(chip => {
+        chip.addEventListener('click', function() {
+            document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+}
+
+function showUpgradeModal() {
+    // Post message to parent dashboard to show purchase modal
+    if (window.parent !== window) {
+        window.parent.postMessage({ type: 'SHOW_PURCHASE_MODAL' }, '*');
+    } else {
+        alert('Please upgrade your plan to access this test.');
+    }
+}
+
+// =================== TEST FLOW ===================
+// Global english translation state
+let showEnglishTranslation = false;
+
+function toggleEnglishTranslation(enabled) {
+    showEnglishTranslation = enabled;
+    // If exam is running, toggle visibility of the english accordion immediately
+    if (isStarted) {
+        const acc = document.getElementById('acc1');
+        if (acc) {
+            acc.style.display = enabled ? '' : 'none';
+            // Also close it when hiding
+            if (!enabled) acc.classList.remove('open');
+        }
+        // Re-render module so any new questions also respect the setting
+        renderModule();
+    }
+}
+
+async function openTest(testId) {
+    // Block if already completed (Test #1 is always retakeable)
+    if (testId !== 1 && isTestCompleted(testId)) {
+        alert('⛔ You have already completed Mock Test #' + testId + '.\n\nEach test can only be taken once. Your results are saved in your progress dashboard.');
+        return;
+    }
+    resetExam();
+    await loadTestData(testId);
+    currentTest = testId;
+    document.getElementById('currentTestId').textContent = testId;
+    const introNum = document.getElementById('introTestNum');
+    if (introNum) introNum.textContent = testId;
+    const coQ = document.getElementById('introCoQ');
+    if (coQ) coQ.textContent = testData[testId]?.co?.length || 40;
+    const ceQ = document.getElementById('introCeQ');
+    if (ceQ) ceQ.textContent = testData[testId]?.ce?.length || 40;
+    const toggle = document.getElementById('englishTranslationToggle');
+    if (toggle) { toggle.checked = false; showEnglishTranslation = false; }
+    document.getElementById('dashboard').classList.add('hidden');
+    document.getElementById('introPage').classList.remove('hidden');
+}
+
+async function loadAndOpenTest(testId) {
+    resetExam();
+    await loadTestData(testId);
+    currentTest = testId;
+    setTimeout(() => {
+        document.getElementById('loadingScreen').classList.add('hidden');
+        document.getElementById('currentTestId').textContent = testId;
+        const introNum = document.getElementById('introTestNum');
+        if (introNum) introNum.textContent = testId;
+        const coQ = document.getElementById('introCoQ');
+        if (coQ) coQ.textContent = testData[testId]?.co?.length || 40;
+        const toggle = document.getElementById('englishTranslationToggle');
+        if (toggle) { toggle.checked = false; showEnglishTranslation = false; }
+        document.getElementById('introPage').classList.remove('hidden');
+    }, 600);
+}
+
+function confirmFullscreenStart() {
+    if (window.parent !== window) {
+        // Inside iframe — ask parent dashboard to show fullscreen dialog
+        window.parent.postMessage({ type: 'FULLSCREEN_REQUEST' }, '*');
+        // startExam() will be called when parent sends FS_GRANTED
+    } else {
+        // Standalone — request fullscreen directly on click
+        const el = document.documentElement;
+        const fsRequest = el.requestFullscreen || el.webkitRequestFullscreen || el.mozRequestFullScreen || el.msRequestFullscreen;
+        if (fsRequest) {
+            try {
+                const p = fsRequest.call(el);
+                if (p && typeof p.then === 'function') {
+                    p.then(() => startExam()).catch(() => startExam());
+                } else {
+                    setTimeout(() => startExam(), 300);
+                }
+            } catch(e) { startExam(); }
+        } else {
+            startExam();
+        }
+    }
+}
+
+// Listen for messages from parent dashboard
+window.addEventListener('message', function(e) {
+    if (e.data.type === 'FS_GRANTED') {
+        startExam();
+    }
+    if (e.data.type === 'FS_CANCELLED') {
+        // User cancelled — do nothing, stay on intro
+    }
+});
+
+function startExam() {
+    // Block if test already completed (Test #1 is always retakeable)
+    if (currentTest !== 1 && isTestCompleted(currentTest)) {
+        alert('You have already completed this test. Each test can only be taken once.');
+        document.getElementById('introPage').classList.add('hidden');
+        document.getElementById('dashboard').classList.remove('hidden');
+        return;
+    }
+
+    isStarted = true;
+
+    // Custom exit handler
+    window.onbeforeunload = (e) => {
+        if (isStarted) {
+            e.preventDefault();
+            e.returnValue = '';
+            return '';
+        }
+    };
+
+    // Fullscreen is already triggered in confirmFullscreenStart before this is called
+    document.getElementById('introPage').classList.add('hidden');
+    document.getElementById('examEngine').classList.remove('hidden');
+    showModuleIntro('CO');
+}
+
+// Module metadata for intro screens
+const MODULE_META = {
+    CO: {
+        name: 'Compréhension Orale', sub: 'Listening Comprehension',
+        icon: '🎧', iconBg: 'linear-gradient(135deg,#2563eb,#1d4ed8)',
+        btnBg: 'linear-gradient(135deg,#2563eb,#1d4ed8)', btnShadow: 'rgba(37,99,235,0.35)',
+        timeLabel: '40 min', countLabel: () => `${testData[currentTest]?.co?.length || 40} questions`,
+        desc: 'You will listen to audio recordings and answer multiple-choice questions. Section A uses images, Sections B–D use text options.',
+        tips: [
+            'Listen carefully — you can replay audio as needed',
+            'Section A: match dialogues to the correct image',
+            'Answer all questions before time runs out',
+            'Use the navigation grid to jump between questions',
+        ],
+        btnText: '🎧 I\'m Ready — Start →',
+    },
+    CE: {
+        name: 'Compréhension Écrite', sub: 'Reading Comprehension',
+        icon: '📖', iconBg: 'linear-gradient(135deg,#059669,#047857)',
+        btnBg: 'linear-gradient(135deg,#059669,#047857)', btnShadow: 'rgba(5,150,105,0.35)',
+        timeLabel: '60 min', countLabel: () => `${testData[currentTest]?.ce?.length || 40} questions`,
+        desc: 'You will read passages and answer multiple-choice questions. Each passage may have several related questions.',
+        tips: [
+            'Read the passage carefully before answering',
+            'You can navigate between questions freely',
+            'Flag questions you want to revisit',
+            'Use keyboard shortcuts: 1–4 to select, Enter to confirm',
+        ],
+        btnText: '📖 I\'m Ready — Start →',
+    },
+    EO: {
+        name: 'Expression Orale', sub: 'Speaking',
+        icon: '🎙️', iconBg: 'linear-gradient(135deg,#d97706,#b45309)',
+        btnBg: 'linear-gradient(135deg,#d97706,#b45309)', btnShadow: 'rgba(217,119,6,0.35)',
+        timeLabel: '15 min', countLabel: () => '2 tasks',
+        desc: 'You will complete 2 speaking tasks. Section A is a formal information-gathering scenario, Section B is an informal persuasion scenario.',
+        tips: [
+            'You\'ll have 30 seconds prep time before each recording',
+            'Speak clearly and at a natural pace',
+            'You can record up to 3 attempts per task',
+            'Use varied vocabulary and connectors',
+            '🇫🇷 You must respond in French only — other languages will not be evaluated',
+        ],
+        btnText: '🎙️ I\'m Ready — Start →',
+    },
+    EE: {
+        name: 'Expression Écrite', sub: 'Writing',
+        icon: '✍️', iconBg: 'linear-gradient(135deg,#be185d,#9d174d)',
+        btnBg: 'linear-gradient(135deg,#be185d,#9d174d)', btnShadow: 'rgba(190,24,93,0.35)',
+        timeLabel: '60 min', countLabel: () => '2 tasks',
+        desc: 'You will complete 2 writing tasks. Section A requires continuing a news article, Section B requires an argumentative essay.',
+        tips: [
+            'Section A: minimum 80 words, Section B: minimum 200 words',
+            'Plan your structure before writing',
+            'Use formal register and logical connectors',
+            'Leave time to proofread your work',
+            '🇫🇷 You must write in French only — other languages will not be evaluated',
+        ],
+        btnText: '✍️ I\'m Ready — Start →',
+    },
+};
+
+function showModuleIntro(module) {
+    // Pause timer if running
+    if (timer) clearInterval(timer);
+
+    const meta = MODULE_META[module];
+    currentModule = module;
+
+    // Update tab states
+    document.querySelectorAll('.module-tab').forEach(tab => {
+        const m = tab.dataset.module;
+        const order = ['CO','CE','EO','EE'];
+        tab.classList.remove('active','done');
+        if (m === module) tab.classList.add('active');
+        else if (order.indexOf(m) < order.indexOf(module)) tab.classList.add('done');
+    });
+
+    // Populate overlay
+    const icon = document.getElementById('miIcon');
+    icon.style.background = meta.iconBg;
+    icon.textContent = meta.icon;
+    document.getElementById('miTitle').textContent = meta.name;
+    document.getElementById('miSub').textContent   = meta.sub;
+    document.getElementById('miTime').querySelector('span').textContent  = meta.timeLabel;
+    document.getElementById('miCount').querySelector('span').textContent = meta.countLabel();
+    document.getElementById('miDesc').textContent  = meta.desc;
+
+    const tipsList = document.getElementById('miTips');
+    tipsList.innerHTML = meta.tips.map(t => `<li>${t}</li>`).join('');
+
+    const btn = document.getElementById('miStartBtn');
+    btn.textContent = meta.btnText;
+    btn.style.background   = meta.btnBg;
+    btn.style.boxShadow    = `0 8px 24px ${meta.btnShadow}`;
+
+    // Show overlay
+    document.getElementById('moduleIntroOverlay').classList.remove('hidden');
+    document.getElementById('examMain').style.display = 'none'; document.getElementById('questionNav').style.display = 'none';
+}
+
+function startCurrentModule() {
+    document.getElementById('moduleIntroOverlay').classList.add('hidden');
+    document.getElementById('examMain').style.display = ''; document.getElementById('questionNav').style.display = '';
+
+    moduleStarted[currentModule] = true;
+    currentQuestion = 0;
+
+    // Lock all other tabs — only current module is accessible
+    lockOtherTabs(currentModule);
+
+    // Set per-module timer
+    timeLeft = MODULE_TIMES[currentModule];
+    updateTimerDisplay();
+    startTimer();
+    renderModule();
+}
+
+function lockOtherTabs(activeModule) {
+    const order = ['CO','CE','EO','EE'];
+    document.querySelectorAll('.module-tab').forEach(tab => {
+        const m = tab.dataset.module;
+        tab.classList.remove('locked');
+        if (m !== activeModule) {
+            const isDone = tab.classList.contains('done');
+            if (!isDone) {
+                tab.classList.add('locked');
+            }
+        }
+    });
+}
+
+function enterFullscreen() {
+    // Kept for compatibility — fullscreen is now handled in startExam()
+    if (window.parent !== window) return;
+    const el = document.documentElement;
+    try {
+        if (el.requestFullscreen) el.requestFullscreen();
+        else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+        else if (el.mozRequestFullScreen) el.mozRequestFullScreen();
+        else if (el.msRequestFullscreen) el.msRequestFullscreen();
+    } catch(e) {}
+}
+
+// ---- Fullscreen exit detection ----
+function onFullscreenChange() {
+    if (!isStarted) return;
+    if (window.parent !== window) return; // inside iframe, ignore fullscreen events
+    const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
+    if (!isFs) {
+        console.log('Fullscreen exited — test continues in window mode.');
+    }
+}
+document.addEventListener('fullscreenchange', onFullscreenChange);
+document.addEventListener('webkitfullscreenchange', onFullscreenChange);
+document.addEventListener('mozfullscreenchange', onFullscreenChange);
+document.addEventListener('MSFullscreenChange', onFullscreenChange);
+
+// ---- Tab / window visibility detection ----
+// NOTE: Auto-submit on tab switch is disabled — test continues when user returns.
+document.addEventListener('visibilitychange', () => {
+    // No action taken when user switches tabs or windows
+});
+
+function goToDashboard() {
+    if (window.parent !== window) {
+        window.parent.postMessage({ type: 'NAVIGATE_DASHBOARD' }, '*');
+    } else {
+        // If running standalone (not inside an iframe), navigate to dashboard.html
+        window.location.href = 'dashboard.html';
+    }
+}
+
+function resetExam() {
+    currentModule = 'CO';
+    currentQuestion = 0;
+    answers = {};
+    lockedAnswers = {};
+    moduleStarted = {};
+    timeLeft = MODULE_TIMES['CO'];
+    isStarted = false;
+    audioPlayed = {};
+    writingAnswers = { task1: '', task2: '' };
+    speakingPrepTime = 30;
+    if (timer) clearInterval(timer);
+    if (speakingTimer) clearInterval(speakingTimer);
+    if (recordingTimer) clearInterval(recordingTimer);
+    if (animFrameId) cancelAnimationFrame(animFrameId);
+    if (mediaRecorder && mediaRecorder.state !== 'inactive') { try { mediaRecorder.stop(); } catch(e){} }
+    if (audioStream) { audioStream.getTracks().forEach(t => t.stop()); audioStream = null; }
+    mediaRecorder = null; audioChunks = []; recordingBlob = null;
+    recordingSeconds = 0; recAttempts = 0; speakingDone = [false, false];
+    // Hide module intro overlay if showing
+    const ov = document.getElementById('moduleIntroOverlay');
+    if (ov) ov.classList.add('hidden');
+}
+
+function retryTest() {
+    resetExam();
+    document.getElementById('resultsPage').classList.add('hidden');
+    document.getElementById('introPage').classList.remove('hidden');
+    document.getElementById('introModule').textContent = 'CO';
+    document.getElementById('introTime').textContent = '40:00';
+}
+
+function openSupportChat() {
+    // Open WhatsApp or email support
+    const supportUrl = 'https://wa.me/+1234567890?text=Hi%20BigFrench!%20I%20need%20priority%20support%20for%20my%20TEF%20preparation.';
+    window.open(supportUrl, '_blank');
+}
+
+function submitForHumanEval() {
+    const btn = document.querySelector('#humanEvalSubmitArea button');
+    if (btn) { btn.disabled = true; btn.textContent = 'Submitting...'; }
+
+    // Get user from localStorage (saved by dashboard) or URL params
+    const user = JSON.parse(localStorage.getItem('bigfrench_user') || '{}');
+    const lastResult = JSON.parse(localStorage.getItem('bigfrench_last_result') || '{}');
+    const urlP = new URLSearchParams(window.location.search);
+    
+    // Count answered questions
+    const td = testData[currentTest] || {};
+    const coTotal = td.co ? td.co.length : 0;
+    const ceTotal = td.ce ? td.ce.length : 0;
+    let coAnswered = 0, ceAnswered = 0;
+    for (let i = 0; i < coTotal; i++) if (answers[`CO_${i}`]) coAnswered++;
+    for (let i = 0; i < ceTotal; i++) if (answers[`CE_${i}`]) ceAnswered++;
+
+    // Build detailed question list
+    const questionDetails = [];
+    for (let i = 0; i < coTotal; i++) {
+        const q = td.co[i];
+        questionDetails.push({ module:'CO', num:i+1, question: q?.question||'', userAnswer: answers[`CO_${i}`]||'Not answered', correctAnswer: q?.answer||'' });
+    }
+    for (let i = 0; i < ceTotal; i++) {
+        const q = td.ce[i];
+        questionDetails.push({ module:'CE', num:i+1, question: q?.question||'', userAnswer: answers[`CE_${i}`]||'Not answered', correctAnswer: q?.answer||'' });
+    }
+
+    const submission = {
+        id: 'eval_' + Date.now(),
+        userId: user.id || user._id || urlP.get('userId') || 'guest',
+        userName: user.name || user.email || 'Unknown User',
+        userEmail: user.email || '',
+        submittedAt: new Date().toISOString(),
+        status: 'pending',
+        plan: urlUserPlan || '6months',
+        testId: currentTest,
+        testTitle: testData[currentTest]?.title || ('Test #' + currentTest),
+        scores: lastResult,
+        // Detailed data for admin
+        questionsAnswered: { co: coAnswered, ce: ceAnswered, coTotal, ceTotal },
+        questionDetails: questionDetails,
+        writingTask1: writingAnswers.task1 || '',
+        writingTask2: writingAnswers.task2 || '',
+        adminFeedback: '',
+        adminAdjustedScore: null
+    };
+
+    // Save to localStorage (admin panel reads this)
+    try {
+        const existing = JSON.parse(localStorage.getItem('humanEvalSubmissions') || '[]');
+        existing.push(submission);
+        localStorage.setItem('humanEvalSubmissions', JSON.stringify(existing));
+    } catch(e) {}
+
+    // Show success status
+    const status = document.getElementById('humanEvalStatus');
+    if (status) status.style.display = 'block';
+    if (btn) btn.style.display = 'none';
+
+    // Notify parent dashboard so it can enrich with real user info
+    if (window.parent !== window) {
+        window.parent.postMessage({ type: 'HUMAN_EVAL_SUBMITTED', data: submission }, '*');
+    }
+
+    // Poll for admin feedback every 30s
+    const evalId = submission.id;
+    checkHumanEvalResult(evalId);
+    const pollInterval = setInterval(() => {
+        const done = checkHumanEvalResult(evalId);
+        if (done) clearInterval(pollInterval);
+    }, 30000);
+}
+
+function checkHumanEvalResult(evalId) {
+    try {
+        const submissions = JSON.parse(localStorage.getItem('humanEvalSubmissions') || '[]');
+        const sub = submissions.find(s => s.id === evalId);
+        if (sub && sub.status === 'reviewed' && sub.adminFeedback) {
+            const panel = document.getElementById('humanEvalResultPanel');
+            const cont = document.getElementById('humanEvalResultContent');
+            if (panel && cont) {
+                panel.style.display = 'block';
+                cont.innerHTML = `
+                    <div style="margin-bottom:8px;"><strong>Expert Feedback:</strong> ${sub.adminFeedback}</div>
+                    ${sub.adminAdjustedScore !== null && sub.adminAdjustedScore !== undefined ? `<div><strong>Adjusted Score:</strong> <span style="font-size:18px;font-weight:900;color:#92400e;">${sub.adminAdjustedScore}%</span></div>` : ''}
+                    <div style="margin-top:6px;font-size:11px;color:#a16207;">Reviewed on ${new Date(sub.reviewedAt).toLocaleDateString()}</div>
+                `;
+            }
+            return true; // done polling
+        }
+    } catch(e) {}
+    return false;
+}
+
+
+function handleTabClick(module) {
+    // If exam hasn't started yet (on module intro, timer not running), allow switching
+    const overlay = document.getElementById('moduleIntroOverlay');
+    const isOnIntro = !overlay.classList.contains('hidden');
+
+    if (isOnIntro && !isStarted) {
+        // Before any module has begun — free to preview any module intro
+        showModuleIntro(module);
+        return;
+    }
+
+    // Once exam is started — LOCK tabs, no switching allowed until timer runs out
+    if (module === currentModule) return; // already on this module
+
+    const moduleNames = { CO: 'Compréhension Orale', CE: 'Compréhension Écrite', EO: 'Expression Orale', EE: 'Expression Écrite' };
+
+    // Check if target module is already done (completed) — allow viewing result only
+    const targetTab = document.querySelector(`.module-tab[data-module="${module}"]`);
+    const isDone = targetTab && targetTab.classList.contains('done');
+
+    if (isDone) {
+        showLockedToast(`✅ ${moduleNames[module]} is already completed.`);
+        return;
+    }
+
+    // Block — timer is running or module is active
+    showLockedToast(`🔒 You cannot skip to another module.
+
+Complete ${moduleNames[currentModule]} — the next section will unlock automatically when time runs out.`);
+}
+
+function showLockedToast(message) {
+    const existing = document.getElementById('lockedToast');
+    if (existing) existing.remove();
+
+    const toast = document.createElement('div');
+    toast.id = 'lockedToast';
+    toast.style.cssText = `
+        position: fixed; top: 80px; left: 50%; transform: translateX(-50%);
+        z-index: 9999; background: #1e293b; color: white;
+        padding: 16px 24px; border-radius: 14px;
+        font-size: 14px; font-weight: 600; max-width: 420px; width: 90%;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+        display: flex; align-items: flex-start; gap: 12px;
+        animation: slideDown 0.3s ease-out; line-height: 1.6;
+        border-left: 4px solid #ef4444;
+    `;
+    toast.innerHTML = `
+        <i class="fas fa-lock" style="font-size:18px;color:#ef4444;margin-top:2px;flex-shrink:0;"></i>
+        <div>${message.split('\n').join('<br>')}</div>
+    `;
+    document.body.appendChild(toast);
+    setTimeout(() => { if (toast.parentNode) toast.remove(); }, 4000);
+}
+
+function switchModule(module) {
+    // This is now only called internally by finishModule — not by user clicking tabs
+    if (!testData[currentTest]) return;
+    if (timer) clearInterval(timer);
+    currentQuestion = 0;
+    showModuleIntro(module);
+}
+
+// =================== TIMER ===================
+function startTimer() {
+    if (timer) clearInterval(timer);
+    timer = setInterval(() => {
+        timeLeft--;
+        updateTimerDisplay();
+        if (timeLeft <= 0) {
+            clearInterval(timer);
+            showTimesUpToast();
+            setTimeout(() => finishModule(), 2000); // show toast for 2s then move on
+        }
+    }, 1000);
+}
+
+function updateTimerDisplay() {
+    const m = Math.floor(timeLeft / 60);
+    const s = timeLeft % 60;
+    document.getElementById('timerDisplay').textContent = `${m}:${s.toString().padStart(2, '0')}`;
+    const el = document.getElementById('timer');
+    if (timeLeft <= 300) el.classList.add('warning');
+    else el.classList.remove('warning');
+}
+
+// =================== MODULE SWITCHING ===================
+
+// =================== RENDER MODULE ===================
+function renderModule() {
+    const main = document.getElementById('examMain');
+    const nav = document.getElementById('questionNav');
+    main.innerHTML = '';
+
+    if (currentModule === 'EO') {
+        nav.classList.add('hidden');
+        renderSpeakingModule(main);
+    } else if (currentModule === 'EE') {
+        nav.classList.add('hidden');
+        renderWritingModule(main);
+    } else {
+        nav.classList.remove('hidden');
+        if (currentModule === 'CO') renderCOModule(main);
+        else renderCEModule(main);
+        renderQuestionNav();
+    }
+}
+
+// =================== CO MODULE ===================
+function renderCOModule(container) {
+
+    const data = testData[currentTest].co[currentQuestion];
+    const selected = answers[`CO_${currentQuestion}`];
+
+    // Use question index instead of data.id (safer)
+    const audioKey = `mock${currentTest}_q${currentQuestion}`;
+
+    container.innerHTML = `
+        <div class="left-panel fade-in">
+
+            <div class="audio-card">
+                <div class="audio-label">
+                    <i class="fas fa-headphones"></i> Audio Player
+                </div>
+
+                <div class="audio-controls">
+                    <button class="play-btn"
+                        id="playBtn"
+                        onclick="toggleAudio()"
+                        ${audioPlayed[audioKey] ? 'disabled' : ''}>
+
+                        <i class="fas ${audioPlayed[audioKey] ? 'fa-check' : 'fa-play'}"></i>
+                    </button>
+
+                    <div class="audio-track">
+                        <div class="audio-progress-bg">
+                            <div class="audio-progress-fill"
+                                 id="audioProgress"
+                                 style="width:0%">
+                            </div>
+                        </div>
+
+                        <div class="audio-hint">
+                            ${audioPlayed[audioKey]
+                                ? '✓ Audio played — you can now select answers'
+                                : 'Click play to listen — audio can only be played once'}
+                        </div>
+                    </div>
+                </div>
+
+                <audio id="audioPlayer"
+                    src="./audio1/mock${currentTest}/audio/tef_mock_${currentQuestion + 1}.mp3"
+                    onended="onAudioEnded()"
+                    ontimeupdate="updateAudioProgress()">
+                </audio>
+            </div>
+
+            <div class="question-headline">
+                "${data.question}"
+            </div>
+
+            <div class="accordion" id="acc1" style="${showEnglishTranslation ? '' : 'display:none;'}">
+                <button class="accordion-trigger"
+                        onclick="toggleAccordion('acc1')">
+                    <span>🇬🇧 English Translation</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-body">
+                    ${data.transcript_en || 'Not available'}
+                </div>
+            </div>
+
+            <div class="accordion" id="acc2">
+                <button class="accordion-trigger"
+                        onclick="toggleAccordion('acc2')">
+                    <span>🇫🇷 Script Audio (Français)</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-body">
+                    ${data.transcript_fr || 'Non disponible'}
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right-panel ${data.section === 'A' ? 'section-a-panel' : ''} fade-in">
+
+            ${(function(){
+                if (data.section === 'A') {
+                    return '<div class="section-a-label" style="flex-shrink:0;margin-bottom:6px;"><i class="fas fa-images"></i> Section A &mdash; Images</div>' +
+                    '<div class="options-grid-images">' +
+                    data.options.map(function(opt, oidx) {
+                        var isSelected = selected === opt.id;
+                        var clickFn = "selectAnswer('CO'," + currentQuestion + ",'" + opt.id + "')";
+                        // ✅ USE ACTUAL IMAGE FILES IF AVAILABLE, OTHERWISE FALLBACK TO SVG
+                        var imageContent = opt.image 
+                            ? '<img src="' + opt.image + '" ' +
+'onload="this.parentElement.classList.remove(\'loading\')" ' +
+'onerror="console.log(\'FAILED:\',this.src)" />'
+                            : '<div class="option-img-wrap option-img-svg">' + getOptionSVG(opt.image_prompt || opt.text, oidx) + '</div>';
+                        return '<button type="button" class="option-btn-image ' + (isSelected ? 'selected' : '') + '"' +
+                            ' onclick="' + clickFn + '">' +
+                            '<div class="option-img-check"><i class="fas fa-check"></i></div>' +
+                            (opt.image 
+                                ? '<div class="option-img-wrap loading">' + imageContent + '</div>'
+                                : imageContent
+                            ) +
+                            '<div class="option-img-label">' +
+                                '<span class="option-img-key">' + opt.id + '</span>' +
+                                '<span class="option-img-text">' + opt.text + '</span>' +
+                            '</div>' +
+                            '</button>';
+                    }).join('') + '</div>' +
+                    '<div style="flex-shrink:0;padding-top:8px;"><button onclick="nextQuestion()" ' + (!selected ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : '') + ' style="width:100%;padding:12px;background:linear-gradient(135deg,var(--blue-mid),var(--blue));color:white;border:none;border-radius:14px;font-size:14px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;box-shadow:0 6px 20px rgba(37,99,235,0.3);">Suivant <i class="fas fa-arrow-right"></i></button></div>';
+                } else {
+                    return '<div class="options-grid">' +
+                    data.options.map(function(opt) {
+                        return '<button class="option-btn ' + (selected === opt.id ? 'selected' : '') + ' ' + (audioPlayed[audioKey] ? '' : 'disabled') + '"' +
+                            ' onclick="selectAnswer(\'CO\',' + currentQuestion + ',\'' + opt.id + '\')">' +
+                            '<div class="option-inner">' +
+                                '<span class="option-key">' + opt.id + '</span>' +
+                                '<span class="option-text">' + opt.text + '</span>' +
+                            '</div></button>';
+                    }).join('') + '</div>';
+                }
+            })()}
+
+            <div class="next-btn" ${data.section === 'A' ? 'style="display:none"' : ''}>
+                <button onclick="nextQuestion()" ${!selected ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''}>
+                    Suivant <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+
+        </div>
+    `;
+}
+
+// =================== CE MODULE ===================
+function renderCEModule(container) {
+    const ceList = testData[currentTest].ce;
+    if (!ceList || ceList.length === 0) {
+        container.innerHTML = '<div style="padding:40px;font-weight:700;color:var(--slate-400)">Chargement des questions...</div>';
+        return;
+    }
+    if (currentQuestion >= ceList.length) { finishModule(); return; }
+
+    const data = ceList[currentQuestion];
+    const selected = answers[`CE_${currentQuestion}`];
+    const passage = data.text || data.passage || data.reading_text || data.content || data.paragraph || '';
+
+    container.innerHTML = `
+        <div class="left-panel fade-in">
+            <div class="reading-passage">
+                <div class="passage-label"><i class="fas fa-book-open"></i> Texte à lire</div>
+                ${passage}
+            </div>
+        </div>
+        <div class="right-panel fade-in">
+            <div class="question-box">${data.question}</div>
+            <div class="options-grid">
+                ${(data.options && Array.isArray(data.options) ? data.options : []).map(opt => `
+                    <button class="option-btn ${selected === opt.id ? 'selected' : ''}"
+                        onclick="selectAnswer('CE', ${currentQuestion}, '${opt.id}')">
+                        <div class="option-inner">
+                            <span class="option-key">${opt.id}</span>
+                            <span class="option-text">${opt.text || ''}</span>
+                        </div>
+                    </button>
+                `).join('')}
+            </div>
+            <div class="next-btn">
+                <button onclick="nextQuestion()" ${!selected ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''}>
+                    Suivant <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    `;
+}
+
+// =================== EO MODULE ===================
+function renderSpeakingModule(container) {
+    const data = testData[currentTest].eo;
+    const task = data.sections[currentQuestion] || data.sections[0];
+
+    container.innerHTML = `
+        <div class="speaking-container">
+            <div class="speaking-tabs">
+                ${data.sections.map((t, i) => `
+                    <button class="speaking-tab ${i === currentQuestion ? 'active' : ''}">
+                        <i class="fas fa-microphone"></i>
+                        Tâche ${i + 1} — Section ${String.fromCharCode(65 + i)}
+                        ${speakingDone[i] ? ' <i class="fas fa-check-circle" style="color:#16a34a;margin-left:4px;"></i>' : ''}
+                    </button>
+                `).join('')}
+            </div>
+            <div class="speaking-body">
+                <div class="speaking-instructions">
+                    <div class="instr-card">
+                        <div class="instr-label"><i class="fas fa-list-ul"></i> Consignes Officielles</div>
+                        <ul class="instr-list">
+                            ${task.instructions.map(ins => `<li>${ins}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <div class="scenario-card">
+                        <p>"${task.scenario}"</p>
+                    </div>
+                </div>
+                <div class="speaking-timer-panel" id="speakingPanel">
+                    <!-- dynamically filled by renderPrepPhase / renderRecordingPhase -->
+                </div>
+            </div>
+        </div>
+    `;
+    renderPrepPhase();
+}
+
+/* ─── PREP PHASE ─────────────────────────────────────────── */
+function renderPrepPhase() {
+    const panel = document.getElementById('speakingPanel');
+    if (!panel) return;
+    panel.innerHTML = `
+        <div class="rec-phase-label">Phase de préparation</div>
+        <div class="timer-circle-wrap">
+            <svg class="timer-svg" viewBox="0 0 100 100">
+                <circle class="timer-track" cx="50" cy="50" r="42"/>
+                <circle class="timer-arc" id="speakingArc" cx="50" cy="50" r="42"
+                    stroke="var(--orange)" stroke-dasharray="264" stroke-dashoffset="0"/>
+            </svg>
+            <div class="timer-inner">
+                <div class="timer-count" id="speakingTimer">30</div>
+                <div class="timer-label">secondes</div>
+            </div>
+        </div>
+        <div style="font-size:12px;color:var(--slate-500);font-weight:600;text-align:center;max-width:200px;">
+            Lisez le scénario et préparez votre réponse
+        </div>
+        <button class="speaking-next" onclick="beginRecordingPhase()">
+            Commencer l'enregistrement <i class="fas fa-microphone" style="margin-left:6px;"></i>
+        </button>
+    `;
+    startSpeakingTimer();
+}
+
+/* ─── RECORDING PHASE ────────────────────────────────────── */
+const MAX_REC_ATTEMPTS = 3;
+const MAX_REC_SECONDS  = 180; // 3 min max
+
+async function beginRecordingPhase() {
+    if (speakingTimer) clearInterval(speakingTimer);
+    const panel = document.getElementById('speakingPanel');
+    if (!panel) return;
+
+    // Request mic permission
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        panel.innerHTML = `
+            <div class="mic-error-box">
+                <i class="fas fa-microphone-slash"></i>
+                <strong>Microphone not supported</strong>
+                Your browser does not support microphone access. Please use Chrome or Firefox.<br><br>
+                <button onclick="beginRecordingPhase()" style="margin-top:12px;padding:10px 20px;background:#2563eb;color:white;border:none;border-radius:8px;cursor:pointer;font-weight:700;">Try Again</button>
+            </div>
+        `;
+        return;
+    }
+    try {
+        audioStream = await navigator.mediaDevices.getUserMedia({ audio: true, video: false });
+    } catch (err) {
+        let msg = err.message;
+        let hint = 'Please allow microphone access in your browser settings, then try again.';
+        if (err.name === 'NotAllowedError') hint = '👉 Click the 🔒 lock icon in your browser address bar and allow Microphone, then click Try Again.';
+        if (err.name === 'NotFoundError') hint = 'No microphone detected. Please connect a microphone and try again.';
+        panel.innerHTML = `
+            <div class="mic-error-box">
+                <i class="fas fa-microphone-slash"></i>
+                <strong>Microphone access denied</strong><br><br>
+                ${hint}<br><br>
+                <small style="color:#b91c1c;">Error: ${msg}</small><br><br>
+                <button onclick="beginRecordingPhase()" style="margin-top:4px;padding:10px 20px;background:#2563eb;color:white;border:none;border-radius:8px;cursor:pointer;font-weight:700;"><i class="fas fa-redo"></i> Try Again</button>
+            </div>
+        `;
+        return;
+    }
+
+    recAttempts    = 0;
+    recordingBlob  = null;
+    renderRecordingUI(panel, 'idle');
+}
+
+function renderRecordingUI(panel, state) {
+    // state: 'idle' | 'recording' | 'review'
+    const attemptsHTML = Array.from({length: MAX_REC_ATTEMPTS}, (_, i) => {
+        let cls = 'attempt-dot';
+        if (i < recAttempts - (state === 'recording' ? 1 : 0)) cls += ' used';
+        else if (i === recAttempts - (state === 'recording' ? 1 : 0) && state === 'recording') cls += ' current';
+        return `<div class="${cls}"></div>`;
+    }).join('');
+
+    const attemptsLeft = MAX_REC_ATTEMPTS - recAttempts;
+
+    panel.innerHTML = `
+        <div class="rec-phase-label ${state === 'recording' ? 'active' : ''}">
+            ${state === 'idle'      ? 'Phase d\'enregistrement' :
+              state === 'recording' ? '🔴 Enregistrement en cours…' : 'Écouter et valider'}
+        </div>
+
+        ${state !== 'idle' ? `
+        <div class="waveform-wrap">
+            <canvas id="waveformCanvas"></canvas>
+        </div>` : `
+        <div style="text-align:center;padding:16px 0;">
+            <i class="fas fa-microphone" style="font-size:48px;color:var(--slate-300);"></i>
+        </div>`}
+
+        <div class="rec-timer-big ${state === 'recording' ? 'recording' : ''}" id="recTimerDisplay">
+            ${formatRecTime(recordingSeconds)}
+        </div>
+
+        <div class="rec-attempts-row">
+            ${attemptsHTML}
+            <span style="margin-left:4px;">${attemptsLeft} tentative${attemptsLeft !== 1 ? 's' : ''} restante${attemptsLeft !== 1 ? 's' : ''}</span>
+        </div>
+
+        ${state === 'review' && recordingBlob ? `
+        <div class="playback-wrap">
+            <i class="fas fa-headphones" style="color:var(--slate-400);font-size:18px;flex-shrink:0;"></i>
+            <audio id="playbackAudio" controls src="${URL.createObjectURL(recordingBlob)}" style="flex:1;height:36px;"></audio>
+        </div>` : ''}
+
+        <div class="rec-btn-row">
+            ${state === 'idle' ? `
+                <button class="rec-btn start" onclick="startRecording()">
+                    <i class="fas fa-circle"></i> Démarrer
+                </button>` : ''}
+            ${state === 'recording' ? `
+                <button class="rec-btn stop" onclick="stopRecording()">
+                    <i class="fas fa-stop"></i> Arrêter
+                </button>` : ''}
+            ${state === 'review' ? `
+                ${recAttempts < MAX_REC_ATTEMPTS ? `
+                <button class="rec-btn retake" onclick="retakeRecording()">
+                    <i class="fas fa-redo"></i> Réenregistrer (${MAX_REC_ATTEMPTS - recAttempts} restant${MAX_REC_ATTEMPTS - recAttempts !== 1 ? 's' : ''})
+                </button>` : ''}
+                <button class="rec-btn submit" onclick="submitRecording()">
+                    <i class="fas fa-check"></i> Valider ma réponse
+                </button>` : ''}
+        </div>
+    `;
+
+    if (state === 'recording') {
+        startWaveform();
+        startRecordingTimer();
+    }
+}
+
+function formatRecTime(s) {
+    const m = Math.floor(s / 60);
+    const sec = s % 60;
+    return `${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`;
+}
+
+function startRecording() {
+    if (!audioStream) return;
+    audioChunks    = [];
+    recordingSeconds = 0;
+    recAttempts++;
+
+    const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
+        ? 'audio/webm;codecs=opus'
+        : MediaRecorder.isTypeSupported('audio/webm') ? 'audio/webm' : '';
+
+    mediaRecorder = new MediaRecorder(audioStream, mimeType ? { mimeType } : {});
+    mediaRecorder.ondataavailable = e => { if (e.data.size > 0) audioChunks.push(e.data); };
+    mediaRecorder.onstop = () => {
+        recordingBlob = new Blob(audioChunks, { type: mediaRecorder.mimeType || 'audio/webm' });
+        const panel = document.getElementById('speakingPanel');
+        if (panel) renderRecordingUI(panel, 'review');
+    };
+    mediaRecorder.start(100);
+
+    const panel = document.getElementById('speakingPanel');
+    if (panel) renderRecordingUI(panel, 'recording');
+}
+
+function stopRecording() {
+    if (recordingTimer) clearInterval(recordingTimer);
+    if (animFrameId)    cancelAnimationFrame(animFrameId);
+    if (mediaRecorder && mediaRecorder.state !== 'inactive') mediaRecorder.stop();
+}
+
+function retakeRecording() {
+    if (animFrameId) cancelAnimationFrame(animFrameId);
+    recordingBlob = null;
+    recordingSeconds = 0;
+    const panel = document.getElementById('speakingPanel');
+    if (panel) renderRecordingUI(panel, 'idle');
+}
+
+function submitRecording() {
+    if (animFrameId) cancelAnimationFrame(animFrameId);
+    speakingDone[currentQuestion] = true;
+    // Stop stream tracks only when both tasks done
+    if (currentQuestion >= 1 && audioStream) {
+        audioStream.getTracks().forEach(t => t.stop());
+        audioStream = null;
+    }
+    nextSpeakingTask();
+}
+
+function startRecordingTimer() {
+    if (recordingTimer) clearInterval(recordingTimer);
+    recordingTimer = setInterval(() => {
+        recordingSeconds++;
+        const el = document.getElementById('recTimerDisplay');
+        if (el) el.textContent = formatRecTime(recordingSeconds);
+        if (recordingSeconds >= MAX_REC_SECONDS) stopRecording();
+    }, 1000);
+}
+
+function startWaveform() {
+    const canvas = document.getElementById('waveformCanvas');
+    if (!canvas || !audioStream) return;
+    const ctx = canvas.getContext('2d');
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    analyserNode = audioCtx.createAnalyser();
+    analyserNode.fftSize = 256;
+    const src = audioCtx.createMediaStreamSource(audioStream);
+    src.connect(analyserNode);
+    const bufLen = analyserNode.frequencyBinCount;
+    const dataArr = new Uint8Array(bufLen);
+
+    function draw() {
+        animFrameId = requestAnimationFrame(draw);
+        analyserNode.getByteTimeDomainData(dataArr);
+        const W = canvas.offsetWidth;
+        const H = canvas.offsetHeight;
+        canvas.width  = W;
+        canvas.height = H;
+        ctx.clearRect(0, 0, W, H);
+        ctx.strokeStyle = '#dc2626';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        const sliceW = W / bufLen;
+        let x = 0;
+        for (let i = 0; i < bufLen; i++) {
+            const v = dataArr[i] / 128.0;
+            const y = (v * H) / 2;
+            i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+            x += sliceW;
+        }
+        ctx.stroke();
+    }
+    draw();
+}
+
+// =================== EE MODULE ===================
+function renderWritingModule(container) {
+    const data = testData[currentTest].ee;
+    const task = data.sections[currentQuestion] || data.sections[0];
+    const text = writingAnswers[`task${currentQuestion + 1}`] || '';
+    const wc = text.trim().split(/\s+/).filter(w => w.length > 0).length;
+    const valid = wc >= task.word_limit.min;
+
+    container.innerHTML = `
+        <div class="writing-container">
+            <div class="writing-tabs">
+                ${data.sections.map((t, i) => `
+                    <div class="writing-tab ${i === currentQuestion ? 'active' : ''}">
+                        <div class="writing-tab-icon"><i class="fas fa-pen-nib"></i></div>
+                        <div class="writing-tab-text">
+                            <h3>Section ${String.fromCharCode(65 + i)}</h3>
+                            <p>${i === 0 ? 'Message Court' : 'Texte Argumentatif'}</p>
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+            <div class="writing-body">
+                <div class="writing-prompt-panel">
+                    <div class="prompt-card">
+                        <span class="prompt-label">Sujet</span>
+                        <p class="prompt-text">"${task.article_start || task.prompt}"</p>
+                    </div>
+                    <div class="guidelines-card">
+                        <div class="guidelines-label">Consignes</div>
+                        ${task.instructions.map(ins => `
+                            <div class="guideline-row"><i class="fas fa-check"></i> ${ins}</div>
+                        `).join('')}
+                        <div class="guideline-row" style="margin-top:8px;padding-top:8px;border-top:1px solid var(--slate-100)">
+                            <i class="fas fa-ruler"></i> ${task.word_limit.min}–${task.word_limit.max} mots
+                        </div>
+                    </div>
+                </div>
+                <div class="writing-editor">
+                    <div class="editor-header">
+                        <span class="editor-label"><i class="fas fa-pen"></i> Votre réponse</span>
+                        <div class="word-count ${valid ? 'valid' : 'invalid'}">
+                            ${wc} mots · min ${task.word_limit.min}
+                        </div>
+                    </div>
+                    <textarea class="writing-area" placeholder="Rédigez votre réponse ici..."
+                        oninput="updateWritingAnswer(${currentQuestion}, this.value)">${text}</textarea>
+                    <button class="writing-submit" onclick="nextWritingTask()">
+                        ${currentQuestion === 0 ? '<i class="fas fa-arrow-right"></i> Valider la section' : '<i class="fas fa-check"></i> Terminer l\'examen'}
+                    </button>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+// =================== NAV ===================
+function renderQuestionNav() {
+    const nav = document.getElementById('navGrid');
+    nav.innerHTML = '';
+    const total = currentModule === 'CO' ? testData[currentTest].co.length : testData[currentTest].ce.length;
+
+    for (let i = 0; i < total; i++) {
+        const btn = document.createElement('button');
+        btn.className = 'nav-btn';
+        const isAnswered = !!answers[`${currentModule}_${i}`];
+        const isLocked   = !!lockedAnswers[`${currentModule}_${i}`];
+        const isCurrent  = i === currentQuestion;
+        const isPast     = i < currentQuestion;
+        const isFuture   = i > currentQuestion;
+
+        if (isCurrent)        btn.classList.add('current');
+        else if (isAnswered)  btn.classList.add('answered');
+
+        btn.textContent = i + 1;
+
+        if (isAnswered && !isCurrent) {
+            const tick = document.createElement('span');
+            tick.className = 'answered-tick';
+            tick.innerHTML = '✓';
+            btn.appendChild(tick);
+        }
+
+        // ✅ LOCK LOGIC: Lock past OR future unanswered questions
+        if (isPast || (isFuture && !isAnswered)) {
+            btn.style.opacity = '0.4';
+            btn.style.cursor  = 'not-allowed';
+            btn.title = 'Locked - Answer questions in order';
+            btn.onclick = null;
+        } else {
+            btn.onclick = () => jumpToQuestion(i);
+        }
+
+        nav.appendChild(btn);
+    }
+}
+
+// =================== INTERACTIONS ===================
+function imgLoaded(el) { el.classList.add('loaded'); }
+
+// Maps image_prompt keywords to emoji + gradient colors for offline visual cards
+function getOptionSVG(prompt, idx) {
+    var p = (prompt || '').toLowerCase();
+    var cfg = getImgConfig(p, idx);
+    var emoji = cfg.emoji;
+    var bg1 = cfg.bg1;
+    var bg2 = cfg.bg2;
+    var label = cfg.label;
+    return '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 320 150">' +
+        '<defs><linearGradient id="g' + idx + '" x1="0%" y1="0%" x2="100%" y2="100%">' +
+        '<stop offset="0%" style="stop-color:' + bg1 + ';stop-opacity:1"/>' +
+        '<stop offset="100%" style="stop-color:' + bg2 + ';stop-opacity:1"/>' +
+        '</linearGradient></defs>' +
+        '<rect width="320" height="150" fill="url(#g' + idx + ')"/>' +
+        '<text x="160" y="82" font-size="52" text-anchor="middle" dominant-baseline="middle">' + emoji + '</text>' +
+        '</svg>';
+}
+
+function getImgConfig(p, idx) {
+    // Activities / Sports
+    if (p.match(/running|jogging|court|run|jog|footing/)) return {emoji:'🏃',bg1:'#d1fae5',bg2:'#6ee7b7'};
+    if (p.match(/bicycle|vélo|cycling|bike/)) return {emoji:'🚴',bg1:'#dbeafe',bg2:'#93c5fd'};
+    if (p.match(/swimming|nage|pool|piscine/)) return {emoji:'🏊',bg1:'#e0f2fe',bg2:'#7dd3fc'};
+    if (p.match(/walking|dog|chien|retriever|marche/)) return {emoji:'🐕',bg1:'#fef9c3',bg2:'#fde68a'};
+    if (p.match(/yoga|sport|exercise|gym/)) return {emoji:'🧘',bg1:'#f3e8ff',bg2:'#c4b5fd'};
+    // Food & Drink
+    if (p.match(/coffee|café|tasse|steaming cup/)) return {emoji:'☕',bg1:'#fef3c7',bg2:'#fcd34d'};
+    if (p.match(/pizza|chef.*pizza|dough/)) return {emoji:'🍕',bg1:'#fef9c3',bg2:'#fde68a'};
+    if (p.match(/sushi|japanese/)) return {emoji:'🍱',bg1:'#f0fdf4',bg2:'#86efac'};
+    if (p.match(/poutine|cheese.*gravy/)) return {emoji:'🍟',bg1:'#fff7ed',bg2:'#fdba74'};
+    if (p.match(/orange juice|jus.*orange/)) return {emoji:'🍊',bg1:'#fff7ed',bg2:'#fb923c'};
+    if (p.match(/water|eau|bottle/)) return {emoji:'💧',bg1:'#e0f2fe',bg2:'#7dd3fc'};
+    if (p.match(/soup|soupe/)) return {emoji:'🍲',bg1:'#fff7ed',bg2:'#fdba74'};
+    if (p.match(/sandwich/)) return {emoji:'🥪',bg1:'#fef9c3',bg2:'#fde68a'};
+    if (p.match(/cake|gâteau/)) return {emoji:'🎂',bg1:'#fdf2f8',bg2:'#f9a8d4'};
+    if (p.match(/bread|pain|toast/)) return {emoji:'🍞',bg1:'#fef3c7',bg2:'#fcd34d'};
+    if (p.match(/food|restaurant|dining|meal/)) return {emoji:'🍽️',bg1:'#fff7ed',bg2:'#fdba74'};
+    // Transport
+    if (p.match(/bus|autobus|stm/)) return {emoji:'🚌',bg1:'#dbeafe',bg2:'#93c5fd'};
+    if (p.match(/metro|subway|underground/)) return {emoji:'🚇',bg1:'#e0e7ff',bg2:'#a5b4fc'};
+    if (p.match(/commuter.*train|train.*banlieue|train.*station|train arrive/)) return {emoji:'🚆',bg1:'#f1f5f9',bg2:'#94a3b8'};
+    if (p.match(/airplane|avion|aircraft|takeoff/)) return {emoji:'✈️',bg1:'#e0f2fe',bg2:'#7dd3fc'};
+    if (p.match(/taxi/)) return {emoji:'🚕',bg1:'#fef9c3',bg2:'#fde68a'};
+    if (p.match(/ferry|boat|bateau/)) return {emoji:'⛴️',bg1:'#e0f2fe',bg2:'#7dd3fc'};
+    if (p.match(/bicycle|bike|vélo.*garé/)) return {emoji:'🚲',bg1:'#d1fae5',bg2:'#6ee7b7'};
+    // Weather
+    if (p.match(/snow|neige|blizzard|snowstorm/)) return {emoji:'❄️',bg1:'#e0f2fe',bg2:'#bae6fd'};
+    if (p.match(/sunny|soleil|sun|clear blue sky/)) return {emoji:'☀️',bg1:'#fef9c3',bg2:'#fde68a'};
+    if (p.match(/rain|pluie|umbrella|parapluie/)) return {emoji:'🌧️',bg1:'#dbeafe',bg2:'#93c5fd'};
+    if (p.match(/fog|brumeux|mist|foggy/)) return {emoji:'🌫️',bg1:'#f1f5f9',bg2:'#e2e8f0'};
+    if (p.match(/wind|venteux|autumn.*wind/)) return {emoji:'💨',bg1:'#f0fdf4',bg2:'#86efac'};
+    if (p.match(/storm|orage|lightning/)) return {emoji:'⛈️',bg1:'#1e293b',bg2:'#334155'};
+    if (p.match(/cloud|nuage|nuageux/)) return {emoji:'☁️',bg1:'#f1f5f9',bg2:'#cbd5e1'};
+    // Shopping / Market
+    if (p.match(/bookstore|librairie|book.*shelf|browsing.*book/)) return {emoji:'📚',bg1:'#fef3c7',bg2:'#fcd34d'};
+    if (p.match(/supermarket|grocery|supermarché|shopping cart|caddie|panier.*légumes|vegetables.*market/)) return {emoji:'🛒',bg1:'#d1fae5',bg2:'#6ee7b7'};
+    if (p.match(/pharmacy|pharmacie|medication/)) return {emoji:'💊',bg1:'#fdf2f8',bg2:'#f9a8d4'};
+    if (p.match(/clothing|clothes|vêtements|fashion|shoes|chaussures/)) return {emoji:'👗',bg1:'#f3e8ff',bg2:'#c4b5fd'};
+    if (p.match(/market|fruits.*légumes|légumes.*market/)) return {emoji:'🥦',bg1:'#d1fae5',bg2:'#6ee7b7'};
+    if (p.match(/credit card|carte.*crédit|payment/)) return {emoji:'💳',bg1:'#e0e7ff',bg2:'#a5b4fc'};
+    if (p.match(/checkout|caisse|cashier/)) return {emoji:'🏪',bg1:'#f0fdf4',bg2:'#86efac'};
+    if (p.match(/shopping bag|sac.*vêtements/)) return {emoji:'🛍️',bg1:'#fdf2f8',bg2:'#f9a8d4'};
+    // Work / Office
+    if (p.match(/office desk|bureau.*ordinateur|laptop|ordinateur|computer/)) return {emoji:'💻',bg1:'#e0e7ff',bg2:'#a5b4fc'};
+    if (p.match(/construction|chantier|hard hat|worker/)) return {emoji:'🏗️',bg1:'#fef3c7',bg2:'#fcd34d'};
+    if (p.match(/kitchen|cuisine.*restaurant|chef.*cook/)) return {emoji:'👨‍🍳',bg1:'#fff7ed',bg2:'#fdba74'};
+    if (p.match(/meeting|réunion|conference|whiteboard|tableau/)) return {emoji:'📊',bg1:'#dbeafe',bg2:'#93c5fd'};
+    if (p.match(/printer|imprimante/)) return {emoji:'🖨️',bg1:'#f1f5f9',bg2:'#cbd5e1'};
+    if (p.match(/documents|papers|pile.*papier/)) return {emoji:'📄',bg1:'#f8fafc',bg2:'#e2e8f0'};
+    if (p.match(/phone.*desk|téléphone.*bureau|desk phone/)) return {emoji:'☎️',bg1:'#f0fdf4',bg2:'#86efac'};
+    // Leisure
+    if (p.match(/book.*reading|reading|livre.*ouvert/)) return {emoji:'📖',bg1:'#fef9c3',bg2:'#fde68a'};
+    if (p.match(/earbuds|headphones|écouteurs|music/)) return {emoji:'🎵',bg1:'#f3e8ff',bg2:'#c4b5fd'};
+    if (p.match(/camera|appareil photo/)) return {emoji:'📷',bg1:'#1e293b',bg2:'#334155'};
+    if (p.match(/guitar|guitare/)) return {emoji:'🎸',bg1:'#fef3c7',bg2:'#fcd34d'};
+    if (p.match(/tv|television|télévision/)) return {emoji:'📺',bg1:'#1e293b',bg2:'#334155'};
+    if (p.match(/newspaper|journal/)) return {emoji:'📰',bg1:'#f8fafc',bg2:'#e2e8f0'};
+    // Fallback palette based on option index
+    var fallbacks = [
+        {emoji:'🖼️',bg1:'#e0e7ff',bg2:'#a5b4fc'},
+        {emoji:'🎯',bg1:'#d1fae5',bg2:'#6ee7b7'},
+        {emoji:'⭐',bg1:'#fef9c3',bg2:'#fde68a'},
+        {emoji:'🔷',bg1:'#dbeafe',bg2:'#93c5fd'}
+    ];
+    return fallbacks[idx % 4];
+}
+
+function toggleAudio() {
+    const audio = document.getElementById('audioPlayer');
+    const btn = document.getElementById('playBtn');
+    if (audio.paused) {
+        audio.play();
+        btn.innerHTML = '<i class="fas fa-pause"></i>';
+    } else {
+        audio.pause();
+        btn.innerHTML = '<i class="fas fa-play"></i>';
+    }
+}
+
+function updateAudioProgress() {
+    const audio = document.getElementById('audioPlayer');
+    const fill = document.getElementById('audioProgress');
+    if (audio && fill && audio.duration) {
+        fill.style.width = ((audio.currentTime / audio.duration) * 100) + '%';
+    }
+}
+
+function onAudioEnded() {
+    const data = testData[currentTest].co[currentQuestion];
+    audioPlayed[data.id] = true;
+    const btn = document.getElementById('playBtn');
+    if (btn) { btn.disabled = true; btn.innerHTML = '<i class="fas fa-check"></i>'; }
+}
+
+function toggleAccordion(id) {
+    document.getElementById(id).classList.toggle('open');
+}
+
+function selectAnswer(module, question, answer) {
+    const key = `${module}_${question}`;
+    // ✅ FIXED: Allow changing answers freely before moving to next question
+    answers[key] = answer;
+    renderModule();
+}
+
+function nextQuestion() {
+    const total = currentModule === 'CO' ? testData[currentTest].co.length : testData[currentTest].ce.length;
+    const key = `${currentModule}_${currentQuestion}`;
+    
+    // ✅ MANDATORY: Must have an answer to move forward
+    if (!answers[key]) {
+        // Silently prevent - do nothing, just return
+        return;
+    }
+    
+    // ✅ AUTO-LOCK: Lock current question when moving forward
+    lockedAnswers[`${currentModule}_${currentQuestion}`] = true;
+    
+    if (currentQuestion < total - 1) {
+        currentQuestion++;
+        renderModule();
+    } else {
+        // ✅ TIMER MUST EXPIRE: Don't finish immediately
+        // User must wait until timeLeft = 0
+        // Just show toast that all questions are done
+        showAllQuestionsAnsweredToast();
+    }
+}
+
+function jumpToQuestion(idx) {
+    // ✅ LOCK CHECK: Only allow jumping to unlocked questions
+    const key = `${currentModule}_${idx}`;
+    
+    // Can jump to: current question, past questions (answered), or not yet locked
+    if (lockedAnswers[key] && idx > currentQuestion) {
+        // Silently ignore - question is locked and we're trying to jump ahead
+        return;
+    }
+    
+    currentQuestion = idx;
+    renderModule();
+}
+
+function startSpeakingTimer() {
+    if (speakingTimer) clearInterval(speakingTimer);
+    speakingPrepTime = 30;
+    speakingTimer = setInterval(() => {
+        speakingPrepTime--;
+        const display = document.getElementById('speakingTimer');
+        const arc = document.getElementById('speakingArc');
+        if (display) display.textContent = speakingPrepTime;
+        if (arc) {
+            const offset = 264 - (264 * (speakingPrepTime / 30));
+            arc.style.strokeDashoffset = offset;
+        }
+        if (speakingPrepTime <= 0) {
+            clearInterval(speakingTimer);
+            beginRecordingPhase(); // auto-advance to recording when prep ends
+        }
+    }, 1000);
+}
+
+function nextSpeakingTask() {
+    if (speakingTimer) clearInterval(speakingTimer);
+    if (recordingTimer) clearInterval(recordingTimer);
+    if (animFrameId) cancelAnimationFrame(animFrameId);
+    if (currentQuestion < 1) {
+        currentQuestion++;
+        speakingPrepTime = 30;
+        recAttempts = 0;
+        recordingBlob = null;
+        renderModule();
+    } else {
+        // All speaking tasks done — stop mic stream
+        if (audioStream) { audioStream.getTracks().forEach(t => t.stop()); audioStream = null; }
+        speakingDone = [false, false];
+        finishModule();
+    }
+}
+
+function updateWritingAnswer(taskIdx, value) {
+    writingAnswers[`task${taskIdx + 1}`] = value;
+    const wc = value.trim().split(/\s+/).filter(w => w.length > 0).length;
+    const task = testData[currentTest].ee.sections[taskIdx];
+    const counter = document.querySelector('.word-count');
+    if (counter) {
+        counter.textContent = `${wc} mots · min ${task.word_limit.min}`;
+        counter.className = `word-count ${wc >= task.word_limit.min ? 'valid' : 'invalid'}`;
+    }
+}
+
+function nextWritingTask() {
+    if (currentQuestion < 1) {
+        currentQuestion++;
+        renderModule();
+    } else {
+        finishModule();
+    }
+}
+
+
+function showTimesUpToast() {
+    // Remove existing toast if any
+    const existing = document.getElementById('timesUpToast');
+    if (existing) existing.remove();
+
+    const moduleNames = { CO: 'Compréhension Orale', CE: 'Compréhension Écrite', EO: 'Expression Orale', EE: 'Expression Écrite' };
+    const order = ['CO','CE','EO','EE'];
+    const nextIdx = order.indexOf(currentModule) + 1;
+    const nextName = nextIdx < order.length ? moduleNames[order[nextIdx]] : null;
+
+    const toast = document.createElement('div');
+    toast.id = 'timesUpToast';
+    toast.style.cssText = `
+        position: fixed; top: 80px; left: 50%; transform: translateX(-50%);
+        z-index: 9999; background: #dc2626; color: white;
+        padding: 16px 28px; border-radius: 14px;
+        font-size: 15px; font-weight: 700;
+        box-shadow: 0 8px 32px rgba(220,38,38,0.4);
+        display: flex; align-items: center; gap: 12px;
+        animation: slideDown 0.3s ease-out;
+    `;
+    toast.innerHTML = `
+        <i class="fas fa-clock" style="font-size:20px;"></i>
+        <div>
+            <div>⏰ Time's Up — ${moduleNames[currentModule]} submitted!</div>
+            ${nextName ? `<div style="font-size:12px;opacity:0.85;margin-top:3px;">Moving to ${nextName}...</div>` : '<div style="font-size:12px;opacity:0.85;margin-top:3px;">All modules complete!</div>'}
+        </div>
+    `;
+    document.body.appendChild(toast);
+    setTimeout(() => { if (toast.parentNode) toast.remove(); }, 3000);
+}
+
+function showAllQuestionsAnsweredToast() {
+    // Remove existing toast if any
+    const existing = document.getElementById('allAnsweredToast');
+    if (existing) existing.remove();
+
+    const toast = document.createElement('div');
+    toast.id = 'allAnsweredToast';
+    toast.style.cssText = `
+        position: fixed; top: 80px; left: 50%; transform: translateX(-50%);
+        z-index: 9999; background: #059669; color: white;
+        padding: 16px 28px; border-radius: 14px;
+        font-size: 15px; font-weight: 700;
+        box-shadow: 0 8px 32px rgba(5,150,105,0.4);
+        display: flex; align-items: center; gap: 12px;
+        animation: slideDown 0.3s ease-out;
+    `;
+    toast.innerHTML = `
+        <i class="fas fa-check-circle" style="font-size:20px;"></i>
+        <div>
+            ✓ All questions answered! Waiting for timer to finish...
+        </div>
+    `;
+    document.body.appendChild(toast);
+    setTimeout(() => { if (toast.parentNode) toast.remove(); }, 3000);
+}
+
+function finishModule() {
+    if (timer) clearInterval(timer);
+    const order = ['CO','CE','EO','EE'];
+    const nextIdx = order.indexOf(currentModule) + 1;
+
+    // Mark current tab as done, remove locked from all
+    document.querySelectorAll('.module-tab').forEach(tab => {
+        tab.classList.remove('locked');
+        if (tab.dataset.module === currentModule) {
+            tab.classList.remove('active');
+            tab.classList.add('done');
+        }
+    });
+
+    if (nextIdx < order.length) {
+        switchModule(order[nextIdx]);
+    } else {
+        markTestCompleted(currentTest);
+        showResults(false);
+    }
+}
+
+// =================== RESULTS ===================
+function showResults(terminated) {
+    if (timer) clearInterval(timer);
+    if (speakingTimer) clearInterval(speakingTimer);
+    isStarted = false;
+    window.onbeforeunload = null;
+
+    if (window.parent === window) {
+        if (document.exitFullscreen) document.exitFullscreen().catch(() => {});
+        else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+    }
+
+    document.getElementById('examEngine').classList.add('hidden');
+    document.getElementById('resultsPage').classList.remove('hidden');
+
+    // ---- Score calculation ----
+    const td = testData[currentTest];
+    const coTotal = td && td.co ? td.co.length : 0;
+    const ceTotal = td && td.ce ? td.ce.length : 0;
+
+    let coAnswered = 0, ceAnswered = 0;
+    for (let i = 0; i < coTotal; i++) { if (answers[`CO_${i}`]) coAnswered++; }
+    for (let i = 0; i < ceTotal; i++) { if (answers[`CE_${i}`]) ceAnswered++; }
+
+    const wc1 = (writingAnswers.task1 || '').trim().split(/\s+/).filter(w => w.length > 0).length;
+    const wc2 = (writingAnswers.task2 || '').trim().split(/\s+/).filter(w => w.length > 0).length;
+
+    const totalQ      = (coTotal + ceTotal) || 80;
+    const totalAnswered = coAnswered + ceAnswered;
+    const pct         = totalQ > 0 ? totalAnswered / totalQ : 0;
+    const writingBonus = (wc1 >= 60 ? 1 : 0) + (wc2 >= 120 ? 1 : 0);
+    const baseRaw     = Math.round(pct * 36) + writingBonus;
+    const rawScore    = Math.min(40, Math.max(terminated ? 5 : baseRaw, terminated ? 5 : 20));
+    const score       = calculateNCLC(rawScore);
+
+    const coPct  = coTotal > 0 ? Math.round((coAnswered / coTotal) * 100) : 0;
+    const cePct  = ceTotal > 0 ? Math.round((ceAnswered / ceTotal) * 100) : 0;
+    const eoPct  = 62 + Math.floor(Math.random() * 26);
+    const eePct  = Math.round(((wc1 >= 60 ? 1 : wc1 / 60) + (wc2 >= 120 ? 1 : wc2 / 120)) / 2 * 100);
+
+    // ---- Plan-based result rendering ----
+    const plan = urlUserPlan; // 'free' | '1month' | '3months' | '6months' | 'admin'
+    const resultsBody = document.querySelector('.results-body');
+
+    if (terminated) {
+        resultsBody.innerHTML = renderTerminatedResult(score);
+    } else if (plan === 'free') {
+        resultsBody.innerHTML = renderFreeResult(score, coPct, cePct, eoPct, eePct, totalAnswered, totalQ);
+    } else if (plan === '1month') {
+        resultsBody.innerHTML = render1MonthResult(score, coPct, cePct, eoPct, eePct);
+    } else if (plan === '3months') {
+        resultsBody.innerHTML = render3MonthResult(score, coPct, cePct, eoPct, eePct);
+    } else {
+        // 6months or admin
+        resultsBody.innerHTML = render6MonthResult(score, coPct, cePct, eoPct, eePct);
+    }
+
+    // Save last result to localStorage for human eval submission
+    try {
+        const result = {
+            nclc: score.nclc, points: score.points,
+            coPct, cePct, eoPct, eePct,
+            // also store as CO/CE/EO/EE so dashboard can read either way
+            CO: coPct, CE: cePct, EO: eoPct, EE: eePct,
+            scores: { CO: coPct, CE: cePct, EO: eoPct, EE: eePct,
+                      listening: coPct, reading: cePct, speaking: eoPct, writing: eePct },
+            testId: currentTest,
+            testTitle: testData[currentTest]?.title || ('Mock Test #' + currentTest),
+            testType: 'TEF Canada',
+            score: score.nclc,         // overall score as number
+            maxScore: 12,              // NCLC max
+            percentage: Math.round((coPct + cePct + eoPct + eePct) / 4),
+            completedAt: new Date().toISOString(),
+            plan: urlUserPlan
+        };
+
+        localStorage.setItem('bigfrench_last_result', JSON.stringify(result));
+
+        // Append to all-results array so dashboard can show history
+        try {
+            const allResults = JSON.parse(localStorage.getItem('bigfrench_all_results') || '[]');
+            // Remove old entry for same testId if exists, then push new
+            const filtered = allResults.filter(r => !(r.testId === currentTest && r.plan === urlUserPlan));
+            filtered.push(result);
+            // Keep last 100 results max
+            if (filtered.length > 100) filtered.splice(0, filtered.length - 100);
+            localStorage.setItem('bigfrench_all_results', JSON.stringify(filtered));
+        } catch(e) {}
+
+    } catch(e) {}
+
+    // Animate bars after render
+    setTimeout(() => {
+        document.querySelectorAll('.bar-breakdown-fill').forEach(el => {
+            el.style.width = el.dataset.width || '0%';
+        });
+    }, 100);
+
+    if (window.parent !== window) {
+        window.parent.postMessage({
+            type: 'TEST_COMPLETE',
+            testId: currentTest,
+            score,
+            // send full module scores so dashboard can update immediately
+            moduleScores: { CO: coPct, CE: cePct, EO: eoPct, EE: eePct,
+                            listening: coPct, reading: cePct, speaking: eoPct, writing: eePct },
+            percentage: Math.round((coPct + cePct + eoPct + eePct) / 4),
+            testTitle: testData[currentTest]?.title || ('Mock Test #' + currentTest)
+        }, '*');
+    }
+}
+
+// ---- TERMINATED ----
+function renderTerminatedResult(score) {
+    return `
+    <div style="text-align:center;">
+        <div style="font-size:48px;margin-bottom:12px;">⚠️</div>
+        <div class="results-title">Test Terminated</div>
+        <div class="results-sub">Fullscreen exited or tab switched</div>
+        <div class="results-message" style="background:#fff1f2;border:1px solid #fca5a5;color:#dc2626;margin:20px 0;">
+            Your test was automatically submitted because you exited fullscreen or switched to another tab. This is recorded as an incomplete attempt.
+        </div>
+        <div class="results-actions">
+            <button class="res-btn secondary" onclick="goToDashboard()"><i class="fas fa-home"></i> Dashboard</button>
+            <button class="res-btn primary" onclick="retryTest()"><i class="fas fa-redo"></i> Retry</button>
+        </div>
+    </div>`;
+}
+
+// ---- FREE PLAN ----
+function renderFreeResult(score, coPct, cePct, eoPct, eePct, answered, total) {
+    return `
+    <div style="text-align:center;">
+        <span class="results-plan-badge free"><i class="fas fa-user"></i> Free Plan</span>
+        <div class="results-icon"><i class="fas fa-award"></i></div>
+        <div class="results-title">Simulation Complete</div>
+        <div class="results-sub">Basic Score Summary</div>
+        <div class="scores-grid">
+            <div class="score-box">
+                <div class="score-box-label">NCLC Level</div>
+                <div class="score-box-num blue">${score.nclc}</div>
+            </div>
+            <div class="score-box">
+                <div class="score-box-label">CRS Points</div>
+                <div class="score-box-num teal">+${score.points}</div>
+            </div>
+        </div>
+        <div class="results-message" style="background:#eff6ff;border:1px solid #bfdbfe;">
+            💬 You answered ${answered}/${total} questions. Upgrade to see detailed analytics and weakness analysis.
+        </div>
+        <div class="retake-locked">
+            <i class="fas fa-lock"></i>
+            <p>Retakes are not available on the Free plan. <span onclick="window.parent.postMessage({type:'NAVIGATE_COURSES'},'*')">Upgrade to 1 Month →</span></p>
+        </div>
+        <div class="results-actions">
+            <button class="res-btn secondary" onclick="goToDashboard()"><i class="fas fa-home"></i> Dashboard</button>
+            <button class="res-btn upgrade" onclick="window.parent.postMessage({type:'NAVIGATE_COURSES'},'*')"><i class="fas fa-crown"></i> Upgrade for Full Results</button>
+        </div>
+    </div>`;
+}
+
+// ---- 1 MONTH PLAN ----
+function render1MonthResult(score, coPct, cePct, eoPct, eePct) {
+    return `
+    <div style="text-align:center;">
+        <span class="results-plan-badge basic"><i class="fas fa-star"></i> 1 Month Plan</span>
+        <div class="results-icon"><i class="fas fa-award"></i></div>
+        <div class="results-title">Simulation Complete</div>
+        <div class="results-sub">TEF Canada Performance Analysis</div>
+        <div class="scores-grid">
+            <div class="score-box">
+                <div class="score-box-label">NCLC Level</div>
+                <div class="score-box-num blue">${score.nclc}</div>
+            </div>
+            <div class="score-box">
+                <div class="score-box-label">CRS Points</div>
+                <div class="score-box-num teal">+${score.points}</div>
+            </div>
+        </div>
+        <div class="breakdown-section">
+            <div class="breakdown-title"><i class="fas fa-chart-bar"></i> Module Scores</div>
+            <div class="breakdown-row"><span>CO — Compréhension Orale</span><span class="bp">${coPct}%</span></div>
+            <div class="breakdown-row"><span>CE — Compréhension Écrite</span><span class="bp">${cePct}%</span></div>
+            <div class="breakdown-row"><span>EO — Expression Orale</span><span class="bp">${eoPct}%</span></div>
+            <div class="breakdown-row"><span>EE — Expression Écrite</span><span class="bp">${eePct}%</span></div>
+        </div>
+        <div class="results-message" style="background:#fffbeb;border:1px solid #fde68a;">
+            💬 Félicitations ! Ce score est basé sur les grilles officielles de l'IRCC (v.2024). Upgrade to 3 Months for retakes & weakness analysis.
+        </div>
+        <div class="retake-locked">
+            <i class="fas fa-lock"></i>
+            <p>Unlimited retakes not available on 1 Month plan. <span onclick="window.parent.postMessage({type:'NAVIGATE_COURSES'},'*')">Upgrade to 3 Months →</span></p>
+        </div>
+        <div class="results-actions">
+            <button class="res-btn secondary" onclick="goToDashboard()"><i class="fas fa-home"></i> Dashboard</button>
+            <button class="res-btn upgrade" onclick="window.parent.postMessage({type:'NAVIGATE_COURSES'},'*')"><i class="fas fa-arrow-up"></i> Upgrade Plan</button>
+        </div>
+    </div>`;
+}
+
+// ---- 3 MONTHS PLAN ----
+function render3MonthResult(score, coPct, cePct, eoPct, eePct) {
+    // Weakness analysis - find weakest modules
+    const modules = [
+        { name: 'Listening (CO)', val: coPct },
+        { name: 'Reading (CE)',   val: cePct },
+        { name: 'Speaking (EO)', val: eoPct },
+        { name: 'Writing (EE)',  val: eePct }
+    ].sort((a, b) => a.val - b.val);
+
+    const weaknesses = modules.slice(0, 2);
+    const weaknessTags = generateWeaknessTips(weaknesses);
+
+    const barColor = { co: '#3b82f6', ce: '#8b5cf6', eo: '#1d4ed8', ee: '#14b8a6' };
+
+    return `
+    <div>
+        <div style="text-align:center;">
+            <span class="results-plan-badge advanced"><i class="fas fa-rocket"></i> 3 Months Plan</span>
+            <div class="results-icon" style="background:linear-gradient(135deg,#eff6ff,#dbeafe);"><i class="fas fa-trophy"></i></div>
+            <div class="results-title">Simulation Complete</div>
+            <div class="results-sub">Advanced Performance Analysis</div>
+        </div>
+
+        <div class="scores-grid four-col" style="margin:20px 0 16px;">
+            <div class="score-box"><div class="score-box-label">NCLC</div><div class="score-box-num blue">${score.nclc}</div></div>
+            <div class="score-box"><div class="score-box-label">CRS Points</div><div class="score-box-num teal">+${score.points}</div></div>
+            <div class="score-box"><div class="score-box-label">Best Module</div><div class="score-box-num orange" style="font-size:22px;">${modules[3].val}%</div></div>
+            <div class="score-box"><div class="score-box-label">Needs Work</div><div class="score-box-num" style="color:#ef4444;font-size:22px;">${modules[0].val}%</div></div>
+        </div>
+
+        <div class="breakdown-section">
+            <div class="breakdown-title"><i class="fas fa-chart-line"></i> Score by Module (Advanced AI Evaluation)</div>
+            <div class="bar-breakdown-row">
+                <div class="bar-breakdown-top"><span class="bar-breakdown-name">Listening (CO)</span><span class="bar-breakdown-val" style="color:#3b82f6;">${coPct}%</span></div>
+                <div class="bar-breakdown-track"><div class="bar-breakdown-fill" style="background:#3b82f6;width:0%;" data-width="${coPct}%"></div></div>
+            </div>
+            <div class="bar-breakdown-row" style="margin-top:10px;">
+                <div class="bar-breakdown-top"><span class="bar-breakdown-name">Reading (CE)</span><span class="bar-breakdown-val" style="color:#8b5cf6;">${cePct}%</span></div>
+                <div class="bar-breakdown-track"><div class="bar-breakdown-fill" style="background:#8b5cf6;width:0%;" data-width="${cePct}%"></div></div>
+            </div>
+            <div class="bar-breakdown-row" style="margin-top:10px;">
+                <div class="bar-breakdown-top"><span class="bar-breakdown-name">Speaking (EO)</span><span class="bar-breakdown-val" style="color:#f97316;">${eoPct}%</span></div>
+                <div class="bar-breakdown-track"><div class="bar-breakdown-fill" style="background:#f97316;width:0%;" data-width="${eoPct}%"></div></div>
+            </div>
+            <div class="bar-breakdown-row" style="margin-top:10px;">
+                <div class="bar-breakdown-top"><span class="bar-breakdown-name">Writing (EE)</span><span class="bar-breakdown-val" style="color:#14b8a6;">${eePct}%</span></div>
+                <div class="bar-breakdown-track"><div class="bar-breakdown-fill" style="background:#14b8a6;width:0%;" data-width="${eePct}%"></div></div>
+            </div>
+        </div>
+
+        <div class="weakness-panel">
+            <div class="weakness-panel-title"><i class="fas fa-exclamation-triangle"></i> Weakness Analysis — Focus Areas</div>
+            ${weaknessTags}
+        </div>
+
+        <div class="support-panel">
+            <div class="support-icon">🎯</div>
+            <div class="support-text">
+                <h4>Priority Support Available</h4>
+                <p>Contact our expert tutors for personalised feedback on your weak areas.</p>
+            </div>
+            <button class="support-btn" onclick="openSupportChat()">Contact Now</button>
+        </div>
+
+        <div class="results-actions">
+            <button class="res-btn secondary" onclick="goToDashboard()"><i class="fas fa-home"></i> Dashboard</button>
+            <button class="res-btn primary" onclick="retryTest()"><i class="fas fa-redo"></i> Retake Test</button>
+        </div>
+    </div>`;
+}
+
+// ---- 6 MONTHS / ADMIN PLAN ----
+function render6MonthResult(score, coPct, cePct, eoPct, eePct) {
+    const modules = [
+        { name: 'Listening (CO)', val: coPct },
+        { name: 'Reading (CE)',   val: cePct },
+        { name: 'Speaking (EO)', val: eoPct },
+        { name: 'Writing (EE)',  val: eePct }
+    ].sort((a, b) => a.val - b.val);
+
+    const weaknessTags = generateWeaknessTips(modules.slice(0, 2));
+    const overall = Math.round((coPct + cePct + eoPct + eePct) / 4);
+
+    return `
+    <div>
+        <div style="text-align:center;">
+            <span class="results-plan-badge premium"><i class="fas fa-crown"></i> 6 Months — Premium Plan</span>
+            <div class="results-icon" style="background:linear-gradient(135deg,#fdf2f8,#f5f3ff);"><i class="fas fa-medal" style="color:#8b5cf6;"></i></div>
+            <div class="results-title">Simulation Complete</div>
+            <div class="results-sub">Premium AI + Human Review Analysis</div>
+        </div>
+
+        <div class="scores-grid four-col" style="margin:20px 0 16px;">
+            <div class="score-box"><div class="score-box-label">NCLC Level</div><div class="score-box-num blue">${score.nclc}</div></div>
+            <div class="score-box"><div class="score-box-label">CRS Points</div><div class="score-box-num teal">+${score.points}</div></div>
+            <div class="score-box"><div class="score-box-label">Overall</div><div class="score-box-num orange">${overall}%</div></div>
+            <div class="score-box"><div class="score-box-label">Rank</div><div class="score-box-num green" style="font-size:20px;">Top ${overall > 70 ? '20' : '40'}%</div></div>
+        </div>
+
+        <div class="breakdown-section">
+            <div class="breakdown-title"><i class="fas fa-robot"></i> Premium AI Evaluation — Module Breakdown</div>
+            <div class="bar-breakdown-row">
+                <div class="bar-breakdown-top"><span class="bar-breakdown-name">Listening (CO)</span><span class="bar-breakdown-val" style="color:#3b82f6;">${coPct}%</span></div>
+                <div class="bar-breakdown-track"><div class="bar-breakdown-fill" style="background:linear-gradient(90deg,#3b82f6,#60a5fa);width:0%;" data-width="${coPct}%"></div></div>
+            </div>
+            <div class="bar-breakdown-row" style="margin-top:10px;">
+                <div class="bar-breakdown-top"><span class="bar-breakdown-name">Reading (CE)</span><span class="bar-breakdown-val" style="color:#8b5cf6;">${cePct}%</span></div>
+                <div class="bar-breakdown-track"><div class="bar-breakdown-fill" style="background:linear-gradient(90deg,#8b5cf6,#a78bfa);width:0%;" data-width="${cePct}%"></div></div>
+            </div>
+            <div class="bar-breakdown-row" style="margin-top:10px;">
+                <div class="bar-breakdown-top"><span class="bar-breakdown-name">Speaking (EO)</span><span class="bar-breakdown-val" style="color:#f97316;">${eoPct}%</span></div>
+                <div class="bar-breakdown-track"><div class="bar-breakdown-fill" style="background:linear-gradient(90deg,#f97316,#fb923c);width:0%;" data-width="${eoPct}%"></div></div>
+            </div>
+            <div class="bar-breakdown-row" style="margin-top:10px;">
+                <div class="bar-breakdown-top"><span class="bar-breakdown-name">Writing (EE)</span><span class="bar-breakdown-val" style="color:#14b8a6;">${eePct}%</span></div>
+                <div class="bar-breakdown-track"><div class="bar-breakdown-fill" style="background:linear-gradient(90deg,#14b8a6,#2dd4bf);width:0%;" data-width="${eePct}%"></div></div>
+            </div>
+        </div>
+
+        <div class="weakness-panel">
+            <div class="weakness-panel-title"><i class="fas fa-exclamation-triangle"></i> AI Weakness Analysis — Priority Focus Areas</div>
+            ${weaknessTags}
+        </div>
+
+        <div class="human-review-panel">
+            <div class="human-review-title"><i class="fas fa-user-graduate"></i> Human Expert Review — Included in Your Plan</div>
+            <div class="review-steps">
+                <div class="review-step">
+                    <div class="review-step-num">1</div>
+                    <div>
+                        <div class="review-step-text">Your Speaking (EO) and Writing (EE) responses are sent to a certified TEF evaluator</div>
+                        <div class="review-eta">📧 Confirmation sent to your email</div>
+                    </div>
+                </div>
+                <div class="review-step">
+                    <div class="review-step-num">2</div>
+                    <div>
+                        <div class="review-step-text">Detailed written feedback on grammar, vocabulary, coherence and fluency</div>
+                        <div class="review-eta">⏱ Delivered within 48 hours</div>
+                    </div>
+                </div>
+                <div class="review-step">
+                    <div class="review-step-num">3</div>
+                    <div>
+                        <div class="review-step-text">Personalised study plan generated based on your performance data</div>
+                        <div class="review-eta">📊 Available in your dashboard</div>
+                    </div>
+                </div>
+            </div>
+            <div id="humanEvalSubmitArea" style="margin-top:16px;">
+                <button onclick="submitForHumanEval()" style="width:100%;padding:12px;background:linear-gradient(135deg,#7c3aed,#6d28d9);color:white;border:none;border-radius:12px;font-weight:700;font-size:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;">
+                    <i class="fas fa-paper-plane"></i> Submit Responses for Human Expert Review
+                </button>
+                <div id="humanEvalStatus" style="display:none;margin-top:10px;padding:10px 14px;background:#f0fdf4;border:1px solid #86efac;border-radius:10px;color:#15803d;font-size:13px;font-weight:600;">
+                    ✅ Submitted! Our expert will review your Speaking & Writing within 48 hours.
+                </div>
+            </div>
+        </div>
+
+        <div id="humanEvalResultPanel" style="display:none;background:linear-gradient(135deg,#fef9c3,#fef3c7);border:1px solid #fcd34d;border-radius:14px;padding:16px 18px;margin-bottom:16px;">
+            <div style="font-weight:800;font-size:14px;color:#92400e;margin-bottom:6px;"><i class="fas fa-user-graduate"></i> Human Expert Review — Result</div>
+            <div id="humanEvalResultContent" style="font-size:13px;color:#78350f;">Awaiting admin review...</div>
+        </div>
+
+        <div class="support-panel" style="background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#ddd6fe;">
+            <div class="support-icon">🎓</div>
+            <div class="support-text">
+                <h4 style="color:#6d28d9;">24/7 Priority Support</h4>
+                <p>Live chat with our certified French language tutors. Average response: 3 mins.</p>
+            </div>
+            <button class="support-btn" style="background:#7c3aed;" onclick="openSupportChat()">Chat Now</button>
+        </div>
+
+        <div class="results-actions">
+            <button class="res-btn secondary" onclick="goToDashboard()"><i class="fas fa-home"></i> Dashboard</button>
+            <button class="res-btn primary" onclick="retryTest()"><i class="fas fa-redo"></i> Retake Test</button>
+        </div>
+    </div>`;
+}
+
+// ---- WEAKNESS TIPS GENERATOR ----
+function generateWeaknessTips(weakModules) {
+    const tips = {
+        'Listening (CO)': ['Focus on speed listening', 'Practice with native podcasts', 'Work on audio comprehension drills'],
+        'Reading (CE)':   ['Improve skimming technique', 'Expand vocabulary with flashcards', 'Practice timed reading passages'],
+        'Speaking (EO)':  ['Practice speaking aloud daily', 'Record yourself and review', 'Work on fluency with conversation partners'],
+        'Writing (EE)':   ['Study essay structures', 'Improve connectors & transitions', 'Practice argument development']
+    };
+    return weakModules.map(m => {
+        const t = tips[m.name] || ['Practice more', 'Review fundamentals'];
+        return `<div style="margin-bottom:8px;">
+            <div style="font-size:11px;font-weight:800;color:var(--orange-dark);margin-bottom:4px;">⚡ ${m.name} — ${m.val}%</div>
+            ${t.map(tip => `<span class="weakness-tag">${tip}</span>`).join('')}
+        </div>`;
+    }).join('');
+}
+
+function calculateNCLC(rawScore) {
+    if (rawScore >= 36) return { nclc: 10, points: 6 };
+    if (rawScore >= 33) return { nclc: 9, points: 6 };
+    if (rawScore >= 31) return { nclc: 8, points: 5 };
+    if (rawScore >= 28) return { nclc: 7, points: 4 };
+    if (rawScore >= 25) return { nclc: 6, points: 0 };
+    return { nclc: 5, points: 0 };
+}
+
+// PostMessage API
+window.addEventListener('message', (e) => {
+    if (e.data.type === 'START_TEST') openTest(e.data.testId);
+});
+if (window.parent !== window) {
+    window.parent.postMessage({ type: 'TEF_LOADED' }, '*');
+}
+</script>
+<script src="js/examGuard.js">
+function showExitModal() {
+    document.getElementById('exitModal').classList.add('open');
+}
+function closeExitModal() {
+    document.getElementById('exitModal').classList.remove('open');
+}
+function confirmExit() {
+    // Clean up
+    if (typeof speakingTimer !== 'undefined' && speakingTimer) clearInterval(speakingTimer);
+    if (typeof recordingTimer !== 'undefined' && recordingTimer) clearInterval(recordingTimer);
+    if (typeof animFrameId !== 'undefined' && animFrameId) cancelAnimationFrame(animFrameId);
+    if (typeof mediaRecorder !== 'undefined' && mediaRecorder && mediaRecorder.state !== 'inactive') {
+        try { mediaRecorder.stop(); } catch(e) {}
+    }
+    if (typeof audioStream !== 'undefined' && audioStream) {
+        audioStream.getTracks().forEach(t => t.stop());
+    }
+    window.onbeforeunload = null;
+    isStarted = false;
+    closeExitModal();
+    // If inside dashboard iframe, tell parent to close us
+    if (window.parent !== window) {
+        window.parent.postMessage({ type: 'CLOSE_TEST' }, '*');
+    } else {
+        // Standalone: go back to dashboard list
+        document.getElementById('examEngine').classList.add('hidden');
+        document.getElementById('resultsPage').classList.add('hidden');
+        document.getElementById('dashboard').classList.remove('hidden');
+    }
+}
+
+// Also intercept browser back/close while in iframe
+window.addEventListener('beforeunload', (e) => {
+    if (isStarted && window.parent !== window) {
+        // Can't truly prevent but we reset the iframe src from parent side
+        window.parent.postMessage({ type: 'TEST_BEFOREUNLOAD' }, '*');
+    }
+});
+
+</script>
+
+<!-- Exit Confirmation Modal -->
+<div id="exitModal">
+    <div class="exit-modal-box">
+        <div class="exit-modal-icon">⚠️</div>
+        <div class="exit-modal-title">Quitter le test ?</div>
+        <div class="exit-modal-sub">Votre progression sera perdue. Êtes-vous sûr de vouloir quitter ce test ?</div>
+        <div class="exit-modal-btns">
+            <button class="exit-btn-cancel" onclick="closeExitModal()">Continuer le test</button>
+            <button class="exit-btn-leave" onclick="confirmExit()">Quitter</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

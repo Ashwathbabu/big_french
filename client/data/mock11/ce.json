@@ -1,0 +1,565 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AVIS AUX RÉSIDENTS\n\nLa Ville de Montréal informe les citoyens que des travaux de réfection seront effectués sur l'avenue Laurier du 15 au 30 mars prochain. Durant cette période, le stationnement sera interdit des deux côtés de la rue entre 7h et 17h. Les automobilistes sont priés d'utiliser les stationnements publics situés au parc Lafontaine. Les commerces resteront ouverts et accessibles aux piétons. Pour toute question, veuillez contacter le service des travaux publics au 514-555-0123. Merci de votre compréhension.",
+          "question": "Quelle est la principale information communiquée dans cet avis ?",
+          "options": {
+            "A": "L'ouverture d'un nouveau parc",
+            "B": "Des travaux sur l'avenue Laurier",
+            "C": "La fermeture des commerces",
+            "D": "Un changement d'horaires de bus"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "RESTAURANT LE BISTROT GOURMAND\n\nMenu du Midi - 22,90 $\nEntrée au choix : Salade verte ou Soupe du jour\nPlat principal : Poulet rôti aux herbes / Saumon grillé / Steak frites\nDessert : Crème brûlée ou Tarte du jour\nBoisson comprise : Café, thé ou soda\nService rapide garanti. Réservation recommandée pour les groupes de plus de 6 personnes. Ouvert du lundi au vendredi, de 11h30 à 14h30. Fermé les week-ends et jours fériés. Parking gratuit pour les clients.",
+          "question": "Quel plat n'est PAS proposé dans ce menu ?",
+          "options": {
+            "A": "Le poulet rôti",
+            "B": "Le saumon grillé",
+            "C": "Les pâtes carbonara",
+            "D": "Le steak frites"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 3,
+          "text": "CENTRE SPORTIF MUNICIPAL\n\nNouveaux horaires à compter du 1er avril\nPiscine : Lundi-vendredi 6h-22h, Samedi-dimanche 8h-20h\nSalle de musculation : Tous les jours 6h-23h\nCours collectifs : Voir planning affiché à l'accueil\nTarifs réduits pour les étudiants et les seniors (sur présentation d'un justificatif). Abonnement mensuel : 45 $. Forfait 10 entrées : 60 $. Fermeture exceptionnelle le 25 décembre et le 1er janvier. Renseignements au 450-555-0456.",
+          "question": "À quelle heure ferme la piscine le samedi ?",
+          "options": {
+            "A": "18h",
+            "B": "20h",
+            "C": "22h",
+            "D": "23h"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "ANNONCE IMMOBILIÈRE\n\nÀ louer : Beau studio meublé situé au cœur du quartier Plateau-Mont-Royal. Surface de 35 m² avec balcon exposé sud. Cuisine équipée (réfrigérateur, plaques de cuisson, micro-ondes). Salle de bain avec douche et lave-linge. Internet haut débit inclus. Proximité immédiate des commerces, restaurants et transports en commun (métro Laurier à 5 min). Loyer mensuel : 950 $ charges comprises (chauffage, eau, électricité). Caution : un mois de loyer. Disponible immédiatement.",
+          "question": "Quel équipement est mentionné dans l'annonce ?",
+          "options": {
+            "A": "Un lave-vaisselle",
+            "B": "Un lave-linge",
+            "C": "Un sèche-linge",
+            "D": "Un congélateur"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 5,
+          "text": "NOTICE D'UTILISATION - MACHINE À CAFÉ\n\n1. Remplir le réservoir d'eau fraîche jusqu'au niveau maximum indiqué.\n2. Insérer une dosette dans le porte-dosette en alignant les repères.\n3. Placer une tasse sous la buse de distribution.\n4. Appuyer sur le bouton de votre choix : court (40 ml) ou long (110 ml).\n5. Attendre la fin de l'écoulement avant de retirer la tasse.\n6. Éteindre l'appareil après utilisation.\nDétartrage recommandé tous les 3 mois. Utiliser uniquement des dosettes compatibles. En cas de problème, contacter le service après-vente.",
+          "question": "Quelle est la première étape décrite dans cette notice ?",
+          "options": {
+            "A": "Insérer une dosette",
+            "B": "Remplir le réservoir d'eau",
+            "C": "Placer une tasse",
+            "D": "Appuyer sur le bouton"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "text": "AFFICHE - JOURNÉE PORTES OUVERTES\n\nL'école secondaire Jean-de-Brébeuf vous invite à sa journée portes ouvertes le samedi 12 mars, de 9h à 16h. Venez découvrir nos installations modernes, nos laboratoires scientifiques et notre bibliothèque récemment rénovée. Rencontrez nos enseignants et nos élèves lors de visites guidées toutes les heures. Ateliers pratiques : robotique, arts plastiques, cuisine. Informations sur les programmes d'études et les activités parascolaires. Buffet léger offert à midi. Entrée libre et gratuite. Stationnement disponible sur place.",
+          "question": "Quel événement est organisé par l'école ?",
+          "options": {
+            "A": "Une compétition sportive",
+            "B": "Une journée portes ouvertes",
+            "C": "Une cérémonie de remise de diplômes",
+            "D": "Une vente de livres"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "text": "HORAIRES DE BUS - LIGNE 24\n\nDu lundi au vendredi :\nPremier départ : 5h30 de la gare centrale\nDernier départ : 23h45 de la gare centrale\nFréquence : toutes les 15 minutes aux heures de pointe (7h-9h et 16h-19h), toutes les 30 minutes le reste de la journée.\nSamedi et dimanche :\nPremier départ : 7h00\nDernier départ : 22h00\nFréquence : toutes les 30 minutes toute la journée.\nArrêts principaux : Gare centrale, Centre commercial, Hôpital général, Université, Parc des expositions. Tarif : 3,50 $ par trajet. Abonnement mensuel : 85 $.",
+          "question": "Quelle est la fréquence des bus aux heures de pointe en semaine ?",
+          "options": {
+            "A": "Toutes les 10 minutes",
+            "B": "Toutes les 15 minutes",
+            "C": "Toutes les 20 minutes",
+            "D": "Toutes les 30 minutes"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle y ______ (2) des romans policiers et des essais littéraires. La semaine dernière, elle ______ (3) un livre particulièrement captivant sur l'histoire du Québec. Elle l'a ______ (4) en seulement deux jours tant l'intrigue était passionnante. Maintenant, elle ______ (5) le même auteur et espère trouver d'autres ouvrages similaires. La bibliothécaire lui a ______ (6) plusieurs titres intéressants. Marie ______ (7) de les emprunter dès sa prochaine visite.",
+          "options": {
+            "A": "1. va 2. emprunte 3. a trouvé 4. lu 5. recherche 6. suggéré 7. compte",
+            "B": "1. allait 2. empruntait 3. trouvait 4. liseait 5. cherchait 6. suggérait 7. comptait",
+            "C": "1. est allée 2. a emprunté 3. trouve 4. lire 5. a recherché 6. suggère 7. comptait",
+            "D": "1. ira 2. empruntera 3. trouvera 4. lira 5. recherchera 6. suggérera 7. comptera"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 9,
+          "text": "Le changement climatique ______ (1) de plus en plus préoccupant pour les scientifiques. Les températures ______ (2) de manière alarmante depuis plusieurs décennies. Les glaciers ______ (3) rapidement, ce qui fait monter le niveau des océans. De nombreuses espèces animales ______ (4) menacées d'extinction. Les gouvernements ______ (5) des accords internationaux pour tenter de ______ (6) cette évolution. Chacun de nous peut ______ (7) en adoptant des gestes écologiques quotidiens.",
+          "options": {
+            "A": "1. devient 2. augmentent 3. fondent 4. sont 5. signent 6. enrayer 7. agir",
+            "B": "1. devenait 2. augmentaient 3. fondaient 4. étaient 5. signaient 6. enrayaient 7. agissaient",
+            "C": "1. est devenu 2. ont augmenté 3. ont fondu 4. ont été 5. ont signé 6. enrayé 7. agi",
+            "D": "1. deviendra 2. augmenteront 3. fondront 4. seront 5. signeront 6. enrayeront 7. agiront"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 10,
+          "text": "Pour préparer une bonne tarte aux pommes, il faut d'abord ______ (1) la pâte avec de la farine, du beurre et de l'eau. Ensuite, on ______ (2) les pommes en fines lamelles. On ______ (3) le fond de tarte avec ces pommes saupoudrées de sucre et de cannelle. La tarte ______ (4) au four pendant environ 40 minutes à 180 degrés. Il est conseillé de ______ (5) la pâte avant de la garnir pour éviter qu'elle ne ______ (6) humide. Le résultat ______ (7) délicieux si l'on suit bien ces étapes.",
+          "options": {
+            "A": "1. préparer 2. coupe 3. recouvre 4. cuit 5. préchauffer 6. devienne 7. sera",
+            "B": "1. préparait 2. coupait 3. recouvrait 4. cuisait 5. préchauffait 6. devenait 7. était",
+            "C": "1. a préparé 2. a coupé 3. a recouvert 4. a cuit 5. a préchauffé 6. est devenu 7. a été",
+            "D": "1. préparera 2. coupera 3. recouvrira 4. cuira 5. préchauffera 6. deviendra 7. sera"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 11,
+          "text": "L'entreprise ______ (1) une nouvelle politique de télétravail depuis le début de l'année. Les employés ______ (2) désormais travailler trois jours par semaine à domicile. Cette mesure ______ (3) très bien accueillie par le personnel. La productivité ______ (4) même augmenté selon les derniers rapports. Les réunions ______ (5) principalement par visioconférence. Le directeur ______ (6) que cette flexibilité améliore l'équilibre vie professionnelle-vie privée. De nouveaux équipements ______ (7) fournis aux collaborateurs pour faciliter leur travail à distance.",
+          "options": {
+            "A": "1. a mis en place 2. peuvent 3. a été 4. a 5. se font 6. estime 7. ont été",
+            "B": "1. mettait en place 2. pouvaient 3. était 4. avait 5. faisaient 6. estimait 7. étaient",
+            "C": "1. mettra en place 2. pourront 3. sera 4. aura 5. se feront 6. estimera 7. seront",
+            "D": "1. avait mis en place 2. avaient pu 3. avait été 4. avait eu 5. s'étaient faites 6. avait estimé 7. avaient été"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 12,
+          "text": "Le musée du Louvre ______ (1) plus de 10 millions de visiteurs chaque année. Les touristes ______ (2) particulièrement attirés par la Joconde et la Vénus de Milo. Pour éviter les longues files d'attente, il est recommandé de ______ (3) ses billets en ligne à l'avance. La visite guidée ______ (4) une excellente manière de découvrir les œuvres majeures. Les enfants de moins de 18 ans ______ (5) gratuitement lorsqu'ils ______ (6) accompagnés d'un adulte. Le musée ______ (7) fermé les mardis et certains jours fériés.",
+          "options": {
+            "A": "1. accueille 2. sont 3. réserver 4. constitue 5. entrent 6. sont 7. reste",
+            "B": "1. accueillait 2. étaient 3. réservaient 4. constituait 5. entraient 6. étaient 7. restait",
+            "C": "1. a accueilli 2. ont été 3. ont réservé 4. a constitué 5. sont entrés 6. ont été 7. est resté",
+            "D": "1. accueillera 2. seront 3. réserveront 4. constituera 5. entreront 6. seront 7. restera"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 13,
+          "text": "Les études ______ (1) que le sommeil joue un rôle essentiel dans la consolidation de la mémoire. Une personne qui ______ (2) suffisamment aura de meilleures capacités d'apprentissage. Les adolescents ______ (3) particulièrement besoin de 8 à 10 heures de sommeil par nuit. Malheureusement, nombreux sont ceux qui ______ (4) cette recommandation à cause des écrans. La lumière bleue des smartphones ______ (5) la production de mélatonine, l'hormone du sommeil. Les experts ______ (6) d'éviter les appareils électroniques une heure avant le coucher. De bonnes habitudes de sommeil ______ (7) instaurées dès le plus jeune âge.",
+          "options": {
+            "A": "1. montrent 2. dort 3. ont 4. négligent 5. inhibe 6. conseillent 7. doivent être",
+            "B": "1. montraient 2. dormait 3. avaient 4. négligeaient 5. inhibait 6. conseillaient 7. devaient être",
+            "C": "1. ont montré 2. a dormi 3. ont eu 4. ont négligé 5. a inhibé 6. ont conseillé 7. ont dû être",
+            "D": "1. montreront 2. dormira 3. auront 4. négligeront 5. inhibera 6. conseilleront 7. devront être"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 14,
+          "text": "Le festival de jazz de Montréal ______ (1) l'un des événements musicaux les plus importants au monde. Chaque été, des artistes ______ (2) de tous les continents pour se produire sur scène. Les concerts ______ (3) dans différents quartiers de la ville, créant une ambiance festive unique. Les mélomanes ______ (4) entre des spectacles payants et des concerts gratuits en plein air. L'organisation ______ (5) des bénévoles passionnés par la musique. Cette manifestation culturelle ______ (6) l'image internationale de la métropole québécoise. Des milliers de touristes ______ (7) spécialement pour l'occasion.",
+          "options": {
+            "A": "1. constitue 2. viennent 3. ont lieu 4. choisissent 5. repose sur 6. renforce 7. se déplacent",
+            "B": "1. constituait 2. venaient 3. avaient lieu 4. choisissaient 5. reposait sur 6. renforçait 7. se déplaçaient",
+            "C": "1. a constitué 2. sont venus 3. ont eu lieu 4. ont choisi 5. a reposé sur 6. a renforcé 7. se sont déplacés",
+            "D": "1. constituera 2. viendront 3. auront lieu 4. choisiront 5. reposera sur 6. renforcera 7. se déplaceront"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 15,
+          "text": "La médecine moderne ______ (1) d'énormes progrès grâce aux avancées technologiques. Les chirurgiens ______ (2) désormais opérer avec une précision millimétrique grâce à la robotique. Les diagnostics ______ (3) plus rapidement et avec plus de fiabilité qu'auparavant. L'intelligence artificielle ______ (4) à détecter certaines maladies sur des images médicales. Cependant, le relationnel entre le médecin et le patient ______ (5) toujours primordial. La confiance ______ (6) au cœur de la relation thérapeutique. Les professionnels de santé ______ (7) de plus en plus sur l'accompagnement psychologique.",
+          "options": {
+            "A": "1. réalise 2. peuvent 3. sont établis 4. aide 5. reste 6. demeure 7. misent",
+            "B": "1. réalisait 2. pouvaient 3. étaient établis 4. aidait 5. restait 6. demeurait 7. misaient",
+            "C": "1. a réalisé 2. ont pu 3. ont été établis 4. a aidé 5. est resté 6. a demeuré 7. ont misé",
+            "D": "1. réalisera 2. pourront 3. seront établis 4. aidera 5. restera 6. demeurera 7. miseront"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 16,
+          "text": "L'apprentissage des langues étrangères ______ (1) de nombreux avantages cognitifs et professionnels. Les personnes bilingues ______ (2) souvent une meilleure capacité de concentration. Parler plusieurs langues ______ (3) également à prévenir le déclin cognitif lié à l'âge. Dans le monde du travail, la maîtrise de l'anglais ______ (4) souvent indispensable. Les employeurs ______ (5) de plus en plus les candidats multilingues. Les échanges internationaux ______ (6) facilités lorsqu'on ______ (7) communiquer dans la langue de ses interlocuteurs.",
+          "options": {
+            "A": "1. offre 2. développent 3. contribue 4. s'avère 5. apprécient 6. sont 7. sait",
+            "B": "1. offrait 2. développaient 3. contribuait 4. s'avérait 5. appréciaient 6. étaient 7. savait",
+            "C": "1. a offert 2. ont développé 3. a contribué 4. s'est avéré 5. ont apprécié 6. ont été 7. a su",
+            "D": "1. offrira 2. développeront 3. contribuera 4. s'avérera 5. apprécieront 6. seront 7. saura"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 17,
+          "text": "La protection de l'environnement ______ (1) une responsabilité collective. Chaque geste compte, même les plus ______ (2) comme éteindre les lumières inutiles. Le recyclage des déchets ______ (3) réduire significativement notre empreinte écologique. Les emballages plastiques ______ (4) de plus en plus remplacés par des alternatives durables. Les supermarchés ______ (5) proposer des produits en vrac pour limiter le gaspillage. Les consommateurs ______ (6) également privilégier les articles locaux et de saison. L'avenir de notre planète ______ (7) entre nos mains.",
+          "options": {
+            "A": "1. constitue 2. modestes 3. permet de 4. sont 5. commencent à 6. peuvent 7. se trouve",
+            "B": "1. constituait 2. modestes 3. permettait de 4. étaient 5. commençaient à 6. pouvaient 7. se trouvait",
+            "C": "1. a constitué 2. modestes 3. a permis de 4. ont été 5. ont commencé à 6. ont pu 7. s'est trouvé",
+            "D": "1. constituera 2. modestes 3. permettra de 4. seront 5. commenceront à 6. pourront 7. se trouvera"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "URGENCE DENTAIRE\n\nClinique dentaire du Quartier Latin\nOuvert 7 jours sur 7 pour les urgences\nHoraires : Lundi-vendredi 8h-20h, Samedi-dimanche 10h-18h\nTél : 514-555-0789\nAdresse : 1250 rue Saint-Denis, Montréal\n\nServices disponibles : soins d'urgence, dévitalisation, extraction dentaire, réparation de prothèses, traitement des abcès. Accepte les nouveaux patients sans rendez-vous pour les cas urgents. Paiement par carte de crédit, débit ou espèces. Assurances dentaires acceptées. Stationnement municipal à proximité.",
+          "question": "Quel service N'EST PAS mentionné dans ce texte ?",
+          "options": {
+            "A": "La dévitalisation",
+            "B": "Le blanchiment dentaire",
+            "C": "L'extraction dentaire",
+            "D": "La réparation de prothèses"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "AVIS DE CONVOCATION\n\nMonsieur Pierre Lefebvre est convoqué devant le tribunal de petite instance le 15 mars 2024 à 9h00, salle 302, palais de justice de Québec. Motif : litige concernant une réclamation de dommages matériels suite à un accident de la route survenu le 20 octobre 2023. Monsieur Lefebvre doit se présenter avec tous les documents relatifs à l'incident (constat amiable, factures de réparation, certificat médical si applicable). En cas d'empêchement, contacter le greffe au moins 48 heures à l'avance. Absence non justifiée : jugement par défaut.",
+          "question": "Quelle est la date de la convocation ?",
+          "options": {
+            "A": "20 octobre 2023",
+            "B": "15 mars 2024",
+            "C": "15 mars 2023",
+            "D": "20 octobre 2024"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 20,
+          "text": "PROGRAMME DE FIDÉLITÉ - LIBRAIRIE LE SAVOIR\n\nCarte Adhérent Gratuite\n- 5% de remise sur tous les achats\n- Accès aux ventes exclusives\n- Invitation aux dédicaces d'auteurs\n\nCarte Or (achats > 200 $/an)\n- 10% de remise permanente\n- Livraison gratuite en magasin\n- 1 café offert par mois à la librairie-café\n\nCarte Platine (achats > 500 $/an)\n- 15% de remise permanente\n- Livraison gratuite à domicile\n- Accès anticipé aux nouveautés\n- Abonnement gratuit à la revue littéraire mensuelle",
+          "question": "Quel avantage est spécifique à la carte Platine ?",
+          "options": {
+            "A": "5% de remise sur tous les achats",
+            "B": "Un café offert par mois",
+            "C": "Livraison gratuite à domicile",
+            "D": "Accès aux ventes exclusives"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 21,
+          "text": "INFORMATIONS MÉTÉOROLOGIQUES\n\nEnvironnement Canada - Prévisions pour la région de Toronto\n\nAujourd'hui : Ensoleillé, température maximale 22°C, vent du nord-ouest 20 km/h. Indice UV élevé.\nCette nuit : Clair, minimale 12°C.\nDemain : Nuageux avec éclaircies, maximale 20°C, probabilité d'averses 30% en après-midi.\nMercredi : Pluie intermittente, maximale 18°C.\nJeudi : Variable, maximale 21°C.\nVendredi : Orages possibles, maximale 19°C.\n\nRecommandations : Utiliser de la crème solaire aujourd'hui. Parapluie recommandé à partir de mercredi.",
+          "question": "Quel jour la température maximale sera-t-elle de 22°C ?",
+          "options": {
+            "A": "Demain",
+            "B": "Mercredi",
+            "C": "Aujourd'hui",
+            "D": "Jeudi"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 22,
+          "text": "RÈGLEMENT INTÉRIEUR - PISCINE MUNICIPALE\n\n1. Obligation de prendre une douche avant d'entrer dans le bassin.\n2. Port obligatoire du bonnet de bain pour les cheveux longs.\n3. Maillots de bain propres et adaptés exigés (shorts de sport interdits).\n4. Aliments et boissons interdits à proximité du bassin.\n5. Course et jeux bruyants prohibés sur les plages.\n6. Les enfants de moins de 8 ans doivent être accompagnés d'un adulte.\n7. Plongeoir réservé aux nageurs confirmés uniquement.\n8. Respecter les consignes des maîtres-nageurs.\n\nSanctions : Rappel à l'ordre, exclusion temporaire ou définitive en cas de récidive.",
+          "question": "Quelle règle concerne spécifiquement les enfants ?",
+          "options": {
+            "A": "Le port du bonnet de bain",
+            "B": "L'interdiction de plonger",
+            "C": "L'obligation d'être accompagnés",
+            "D": "L'interdiction de manger"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Réunion de service du 25 mars\n\nChers collègues,\n\nJe vous informe que notre réunion mensuelle de service aura lieu le lundi 25 mars à 14h00 dans la salle de conférence du 3ème étage. Nous y examinerons les résultats du premier trimestre et nous discuterons des objectifs pour les mois à venir. Veuillez préparer un bref rapport de vos activités récentes. La présence de tous est obligatoire. En cas d'indisponibilité, merci de m'en faire part avant le 22 mars. Un compte-rendu sera distribué aux absents.\n\nCordialement,\nSophie Martin, Cheffe de service",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Féliciter l'équipe",
+            "B": "Se plaindre d'un retard",
+            "C": "Inviter",
+            "D": "Informer"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 24,
+          "text": "Madame,\nMonsieur,\n\nNous avons le regret de vous informer que votre candidature au poste d'assistant marketing n'a pas été retenue pour la suite du processus de recrutement. Nous tenons à vous remercier pour l'intérêt que vous avez porté à notre entreprise et pour le temps consacré à votre dossier. Votre profil ne correspond pas exactement aux critères recherchés pour ce poste spécifique. Nous vous souhaitons plein succès dans vos recherches futures et restons à votre disposition pour toute question.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nService des Ressources Humaines\nEntreprise Innovatech",
+          "question": "Quel est le ton de cette lettre ?",
+          "options": {
+            "A": "Enthousiaste",
+            "B": "Formel et poli",
+            "C": "Colérique",
+            "D": "Familier"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 25,
+          "text": "À l'attention de tous les employés,\n\nSuite aux récentes plaintes concernant le bruit excessif dans les open spaces, la direction met en place de nouvelles règles dès le 1er avril. Les conversations téléphoniques personnelles devront désormais se faire dans les salles dédiées ou à l'extérieur. L'utilisation du mode vibreur est obligatoire pour les téléphones portables. Les réunions informelles de plus de trois personnes devront se tenir dans les salles de réunion. Le respect de ces consignes est essentiel pour maintenir un environnement de travail serein. Des sanctions disciplinaires seront appliquées en cas de non-respect répété.\n\nLa Direction",
+          "question": "Quelle est l'intention implicite de ce message ?",
+          "options": {
+            "A": "Féliciter les employés",
+            "B": "Menacer de licenciement",
+            "C": "Améliorer les conditions de travail",
+            "D": "Annoncer une augmentation"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 26,
+          "text": "Objet : Demande de congés sans solde\n\nMadame la Directrice,\n\nPar la présente, je vous demande l'autorisation de prendre un congé sans solde d'une durée de deux mois, du 1er juin au 31 juillet prochains. Ce congé me permettrait d'accompagner ma famille durant une période importante. Je m'engage à terminer tous mes projets en cours avant mon départ et à former mon collègue Martin pour qu'il assure ma remplacement. Je reste disponible pour discuter des modalités de ce congé à votre convenance. Dans l'attente de votre réponse, je vous prie d'agréer, Madame, l'expression de mes salutations respectueuses.\n\nThomas Dubois\nDépartement Finance",
+          "question": "Quel est le but de ce courriel ?",
+          "options": {
+            "A": "Démissionner",
+            "B": "Demander une autorisation",
+            "C": "Se plaindre",
+            "D": "Faire une réclamation"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "Cher client,\n\nNous avons bien reçu votre demande de remboursement concernant l'article commandé sous la référence #45892. Après examen de votre dossier, nous constatons que le délai de retour de 30 jours a été dépassé (votre commande date du 15 janvier et nous avons reçu votre retour le 22 février). Conformément à nos conditions générales de vente, nous ne pouvons donc pas procéder au remboursement sollicité. Nous vous proposons néanmoins un avoir de 50 euros valable 6 mois sur notre site. Nous restons à votre disposition pour toute information complémentaire.\n\nCordialement,\nService Client\nBoutique EnLigne",
+          "question": "Pourquoi le remboursement est-il refusé ?",
+          "options": {
+            "A": "L'article est endommagé",
+            "B": "Le délai de retour est dépassé",
+            "C": "La référence est incorrecte",
+            "D": "Le client n'a pas payé"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Objet : Invitation à la cérémonie de remise des prix\n\nMonsieur Bernard,\n\nL'Association des Entrepreneurs de la région a l'honneur de vous convier à la cérémonie de remise des Prix de l'Innovation 2024, qui se tiendra le vendredi 14 juin à 19h00 au Palais des Congrès. Votre entreprise ayant été sélectionnée parmi les trois finalistes de la catégorie 'Start-up de l'année', votre présence est vivement souhaitée. Un cocktail dinatoire suivra la cérémonie. Nous vous prions de confirmer votre participation avant le 1er juin par retour de ce mail. Nous espérons avoir le plaisir de vous compter parmi nous.\n\nBien cordialement,\nLe Comité d'Organisation",
+          "question": "Quelle information est implicite dans ce message ?",
+          "options": {
+            "A": "L'entreprise a déjà gagné le prix",
+            "B": "L'entreprise est finaliste",
+            "C": "La cérémonie est annulée",
+            "D": "Le prix est décerné par le gouvernement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Chers parents,\n\nNous tenons à vous informer que suite à plusieurs cas de gastroentérite signalés dans l'école, des mesures de prévention ont été renforcées cette semaine. Le personnel enseignant rappelle régulièrement aux élèves l'importance du lavage des mains. Les surfaces sont désinfectées plus fréquemment. Nous vous recommandons vivement de garder votre enfant à la maison en cas de symptômes (fièvre, vomissements, diarrhée) et de consulter un médecin. Un certificat médical de non-contagiosité sera exigé pour le retour en classe. Merci de votre compréhension et de votre coopération.\n\nLa Direction de l'école Primaire Les Lilas",
+          "question": "Quel est le ton de ce message ?",
+          "options": {
+            "A": "Inquiet et préventif",
+            "B": "Joyeux",
+            "C": "Colérique",
+            "D": "Indifférent"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 30,
+          "text": "Objet : Confirmation de réservation #789456\n\nMadame Tremblay,\n\nNous vous confirmons votre réservation pour un séjour de 3 nuits à l'Hôtel des Montagnes, du 15 au 18 août prochains. Chambre double avec vue sur le lac, petit-déjeuner inclus. Tarif : 145 $ par nuit, total 435 $ (taxes comprises). Un acompte de 130 $ (30%) a été prélevé sur votre carte bancaire. Le solde sera réglé à l'arrivée. Annulation gratuite possible jusqu'au 1er août. Passé cette date, l'acompte sera conservé. Nous vous attendons avec impatience. Pour toute modification, contactez-nous au 819-555-0234.\n\nCordialement,\nLa Réception",
+          "question": "Quelle est la date limite d'annulation gratuite ?",
+          "options": {
+            "A": "15 août",
+            "B": "18 août",
+            "C": "1er août",
+            "D": "31 juillet"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 31,
+          "text": "À tous les usagers du parking souterrain,\n\nNous vous informons que des travaux d'entretien seront réalisés dans le parking souterrain du 10 au 20 mai. Durant cette période, l'accès sera interdit aux niveaux -2 et -3. Les places des niveaux 0 et -1 resteront disponibles mais seront limitées. Nous vous conseillons vivement d'utiliser les transports en commun ou le parking public situé à 200 mètres (tarif préférentiel avec le code RESIDENT2024). Les abonnements mensuels seront proratisés en fonction des jours d'indisponibilité. Nous vous prions de nous excuser pour la gêne occasionnée.\n\nLe Syndic de l'immeuble",
+          "question": "Quelle solution alternative est proposée ?",
+          "options": {
+            "A": "Stationner sur le trottoir",
+            "B": "Utiliser le parking public à proximité",
+            "C": "Annuler l'abonnement",
+            "D": "Garer sa voiture chez un voisin"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "Objet : Réponse à votre offre d'emploi - Poste de chef de projet\n\nMadame,\n\nC'est avec un vif intérêt que je vous adresse ma candidature pour le poste de chef de projet au sein de votre agence de communication, tel que décrit sur votre site internet. Fort de mes cinq années d'expérience dans la gestion de projets digitaux et de ma maîtrise des outils de gestion de projet, je suis convaincu de pouvoir apporter une valeur ajoutée significative à votre équipe. Je serais ravi de pouvoir vous exposer de vive voix ma motivation et mes compétences lors d'un entretien. Je vous prie de trouver ci-joint mon curriculum vitae et ma lettre de motivation détaillée.\n\nDans l'attente de votre retour, je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nLucas Moreau",
+          "question": "Quel est l'objectif de ce courriel ?",
+          "options": {
+            "A": "Accepter une offre",
+            "B": "Postuler à un emploi",
+            "C": "Décliner une invitation",
+            "D": "Demander une promotion"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "Le télétravail généralisé, une fausse bonne idée ?\n\nDepuis la pandémie, le télétravail s'est imposé comme la nouvelle norme dans de nombreuses entreprises. Pourtant, une étude récente de l'Université de Stanford remet en cause les bénéfices supposés de cette organisation. Les chercheurs ont suivi pendant deux ans des employés travaillant à distance et constaté une baisse significative de la créativité collective. Les échanges informels, pourtant essentiels à l'innovation, ont quasi disparu. De plus, la promotion interne concerne désormais principalement les employés présents physiquement, créant une inégalité croissante. Les managers rapportent également des difficultés à maintenir la cohésion d'équipe. Si le télétravail offre indéniablement une meilleure conciliation vie professionnelle-vie privée, son impact à long terme sur la productivité réelle et l'innovation mérite réflexion. Certaines entreprises, comme Tesla ou Amazon, ont déjà rappelé leurs employés au bureau cinq jours par semaine.",
+          "question": "Quelle est la position de l'auteur concernant le télétravail ?",
+          "options": {
+            "A": "Il en fait l'apologie sans réserve",
+            "B": "Il suggère un bilan mitigé avec des inquiétudes",
+            "C": "Il demande son interdiction totale",
+            "D": "Il est totalement indifférent"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 34,
+          "text": "L'essor des micro-fermes urbaines transforme nos villes\n\nDans les toits d'immeubles parisiens ou les friches industrielles de Detroit, une révolution agricole silencieuse s'opère. Les micro-fermes urbaines, exploitant l'agriculture verticale et les technologies hydroponiques, prolifèrent aux quatre coins du monde. Ces initiatives promettent de réduire l'empreinte carbone liée au transport alimentaire tout en offrant des produits frais aux consommateurs citadins. Cependant, les défis demeurent : la consommation énergétique des LED de croissance et la rentabilité économique freinent encore le développement à grande échelle. Les promoteurs assurent que l'optimisation technologique résoudra ces problèmes d'ici cinq ans. Entre utopie écologique et réalité économique, ces fermes du futur interrogent notre modèle alimentaire. Pourront-elles véritablement nourrir les masses urbaines ou resteront-elles un luxe bio pour bobos écolos ?",
+          "question": "Quel est le défi principal mentionné concernant ces micro-fermes ?",
+          "options": {
+            "A": "Le manque de main-d'œuvre qualifiée",
+            "B": "La consommation énergétique et la rentabilité",
+            "C": "L'opposition des agriculteurs traditionnels",
+            "D": "L'absence de demande des consommateurs"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "La fin du cash, une menace pour les plus démunis\n\nL'annonce de la fermeture progressive des guichets automatiques dans les zones rurales par plusieurs grandes banques canadiennes suscite l'inquiétude. Alors que le paiement sans contact et les applications mobiles deviennent la norme, une partie de la population reste exclue de cette révolution numérique. Les personnes âgées, les sans-abri, les nouveaux immigrants sans historique bancaire et les travailleurs informels dépendent encore massivement des espèces. Les associations de défense des consommateurs dénoncent une fracture sociale croissante. Le gouvernement fédéral étudie actuellement des solutions pour garantir l'accès universel aux services bancaires de base. Certains économistes suggèrent même l'instauration d'une banque centrale numérique accessible à tous. La transition vers la société sans cash doit impérativement s'accompagner de mesures d'accompagnement si nous ne voulons pas laisser des millions de citoyens sur le bord de la route économique.",
+          "question": "Quel groupe de population est particulièrement concerné par cette évolution ?",
+          "options": {
+            "A": "Les jeunes diplômés",
+            "B": "Les personnes exclues du système numérique",
+            "C": "Les cadres supérieurs",
+            "D": "Les retraités aisés"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "L'intelligence artificielle au service de la médecine prédictive\n\nLes algorithmes d'apprentissage profond révolutionnent désormais le diagnostic médical. Une équipe de chercheurs torontois vient de développer un système capable de détecter le diabète de type 2 cinq ans avant l'apparition des premiers symptômes, simplement en analysant des images rétiniennes. Cette prouesse technologique ouvre la voie à une médecine véritablement prédictive, où les maladies chroniques pourraient être prévenues plutôt que simplement traitées. Les implications éthiques sont toutefois considérables : qui accédera à ces données de santé anticipées ? Les assurances pourraient-elles discriminer les individus à haut risque ? Les médecins craignent également une déshumanisation de la pratique médicale. Le défi consiste désormais à encadrer ces innovations pour qu'elles servent l'intérêt général sans sacrifier la vie privée ni la relation de soin. La frontière entre progrès médical et surveillance sanitaire n'a jamais été aussi ténue.",
+          "question": "Quelle préoccupation éthique est soulevée dans l'article ?",
+          "options": {
+            "A": "Le coût des médicaments",
+            "B": "L'utilisation des données de santé et la discrimination",
+            "C": "La pénurie de médecins",
+            "D": "L'inefficacité des traitements"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "La génération Z réinvente le rapport au travail\n\nEntre le « quiet quitting » et la quête obsessionnelle de sens professionnel, la génération Z bouscule les hiérarchies établies. Nés avec internet, ces jeunes travailleurs refusent la culture du présentéisme et privilégient l'équilibre de vie. Une étude de Deloitte révèle que 40% d'entre eux envisagent de quitter leur emploi dans les deux ans si leurs valeurs ne correspondent pas à celles de l'entreprise. Cette exigence éthique inédite force les employeurs à repenser leurs pratiques. Les salaires compétitifs ne suffisent plus : flexibilité, formation continue et engagement sociétal sont désormais des critères de choix déterminants. Les managers doivent apprendre à diriger autrement, avec plus d'empathie et de transparence. Cette évolution, parfois perçue comme une menace par les anciennes générations, pourrait finalement contribuer à humaniser le monde du travail pour tous.",
+          "question": "Quelle inférence peut-on tirer de cet article ?",
+          "options": {
+            "A": "La génération Z refuse catégoriquement de travailler",
+            "B": "Les attentes des jeunes poussent les entreprises à évoluer",
+            "C": "Les salaires n'ont plus aucune importance",
+            "D": "Les managers sont tous démissionnaires"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 38,
+          "text": "L'obsolescence programmée, fléau de l'économie circulaire\n\nLe Parlement européen vient d'adopter une directive révolutionnaire obligeant les fabricants à garantir la réparabilité de leurs produits pendant dix ans. Cette mesure vise à enrayer l'obsolescence programmée, cette pratique délibérée qui réduit la durée de vie des appareils pour stimuler la consommation. Les lobbys industriels ont combattu bec et ongles ce texte, arguant des coûts de production accrus. Pourtant, l'impact environnemental de l'électronique jetable est colossal : 50 millions de tonnes de déchets électroniques générées annuellement. Les associations de consommateurs saluent une avancée majeure, tout en déplorant l'absence de sanctions financières dissuasives. La France, pionnière avec son indice de réparabilité, espère que cette directive européenne accélérera la transition vers une économie plus durable. La question reste : les consommateurs sont-ils prêts à payer plus cher pour des produits durables ?",
+          "question": "Quel est l'objectif principal de la directive européenne mentionnée ?",
+          "options": {
+            "A": "Augmenter les profits des fabricants",
+            "B": "Lutter contre l'obsolescence programmée",
+            "C": "Interdire l'importation de produits étrangers",
+            "D": "Réduire les salaires des ouvriers"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "La désinformation climatique inonde les réseaux sociaux\n\nUne enquête du Centre d'analyse des médias révèle l'ampleur alarmante de la désinformation sur le changement climatique en ligne. Les algorithmes de recommandation des grandes plateformes amplifieraient artificiellement le contenu niant la réalité du réchauffement ou minimisant son caractère anthropique. Ces fausses informations, souvent financées par des lobbies fossiles, atteignent désormais des audiences comparables aux sources scientifiques légitimes. Les jeunes adultes, consommateurs assidus de réseaux sociaux, seraient particulièrement vulnérables. Face à ce constat, plusieurs gouvernements européens réclament une régulation plus stricte des contenus et la transparence sur le financement des publications sponsorisées. Les plateformes se défendent en invoquant la liberté d'expression, tandis que les scientifiques appellent à une vérification systématique des faits. La bataille de la vérité climatique se joue désormais dans les fils d'actualité numériques, avec des conséquences planétaires en jeu.",
+          "question": "Quel constat fait l'auteur concernant les réseaux sociaux ?",
+          "options": {
+            "A": "Ils favorisent la diffusion de fausses informations climatiques",
+            "B": "Ils n'ont aucun impact sur l'opinion publique",
+            "C": "Ils sont uniquement utilisés par les scientifiques",
+            "D": "Ils ont résolu le problème de la désinformation"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 40,
+          "text": "Le retour en grâce du train de nuit en Europe\n\nConsidérés comme obsolètes il y a dix ans, les trains de nuit connaissent un renaissance spectaculaire sur le continent européen. La prise de conscience écologique, couplée à la saturation des aéroports et la hausse des prix du carburant, redore le blason de ce mode de transport doux. L'Autriche et la France ont relancé plusieurs lignes mythiques, reliant désormais Paris à Vienne ou Berlin à Rome. Les voyageurs apprécient de nouveau l'élégance temporelle de ces trajets : dîner convivial en wagon-restaurant, nuit bercée par le rythme des rails, réveil dans une ville différente. Les compagnies investissent dans des cabines modernisées avec sanitaires privés et connexion Wi-Fi. Pourtant, les défis infrastructurels demeurent : les voies sont souvent saturées par les trains de marchandises. L'Europe des vingt-sept vient d'allouer 200 millions d'euros pour débloquer ces goulots d'étranglement. Le train de nuit, symbole d'une mobilité apaisée, semble avoir de beaux jours devant lui.",
+          "question": "Quel facteur contribue principalement au renouveau des trains de nuit ?",
+          "options": {
+            "A": "La baisse des prix des billets d'avion",
+            "B": "La prise de conscience écologique et la saturation des transports",
+            "C": "L'interdiction des voitures en ville",
+            "D": "La fermeture des aéroports"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

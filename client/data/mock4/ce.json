@@ -1,0 +1,565 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "BIBLIOTHÈQUE MUNICIPALE DE SAINT-LAMBERT\n\nHORAIRES D'OUVERTURE\n\nLundi : 10h00 - 18h00\nMardi : 10h00 - 20h00\nMercredi : 10h00 - 18h00\nJeudi : 12h00 - 20h00\nVendredi : 10h00 - 17h00\nSamedi : 10h00 - 16h00\nDimanche : Fermé\n\nAttention : La bibliothèque sera exceptionnellement fermée le 24 juin pour la fête nationale du Québec. Les emprunts peuvent être renouvelés en ligne ou par téléphone au 450-555-0123.",
+          "question": "À quelle heure ferme la bibliothèque le jeudi ?",
+          "options": {
+            "A": "À 17h00",
+            "B": "À 18h00",
+            "C": "À 20h00",
+            "D": "À 16h00"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 2,
+          "text": "RESTAURANT LE PETIT BISTROT\nMENU DU MIDI - 18,95 $\n\nEntrée au choix :\n• Soupe du jour\n• Salade verte maison\n\nPlat principal au choix :\n• Poulet rôti aux herbes\n• Saumon grillé sauce citron\n• Risotto aux champignons\n\nDessert au choix :\n• Crème brûlée\n• Tarte du jour\n• Café ou thé inclus\n\nOffre valable du lundi au vendredi, de 11h30 à 14h30. Réservation recommandée.",
+          "question": "Quel élément n'est PAS inclus dans le menu du midi ?",
+          "options": {
+            "A": "Une entrée",
+            "B": "Une boisson chaude",
+            "C": "Un plat principal",
+            "D": "Un apéritif"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 3,
+          "text": "AVIS DE CONVOQUATION\n\nMonsieur Pierre Dubois\n1234, rue Principale\nMontréal (Québec) H2X 1Y2\n\nObjet : Jury d'évaluation - Entretien d'embauche\n\nNous avons le plaisir de vous convoquer pour un entretien d'embauche pour le poste de coordinateur de projet.\n\nDate : Mardi 15 mars 2024\nHeure : 14h00\nLieu : Bureau 305, 500 boulevard René-Lévesque Ouest\n\nVeuillez apporter :\n- Votre curriculum vitae actualisé\n- Une pièce d'identité avec photo\n- Vos références professionnelles\n\nEn cas d'empêchement, merci de nous contacter au 514-555-0198.",
+          "question": "Que doit apporter le candidat à l'entretien ?",
+          "options": {
+            "A": "Un chèque de garantie",
+            "B": "Son curriculum vitae et une pièce d'identité",
+            "C": "Une lettre de recommandation de son employeur actuel",
+            "D": "Un relevé de notes universitaire"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "CENTRE SPORTIF OLYMPIQUE\n\nCOURS DE NATATION - SESSION PRINTEMPS 2024\n\nNiveau débutant : Samedi 9h00 - 10h00\nNiveau intermédiaire : Samedi 10h30 - 11h30\nNiveau avancé : Dimanche 9h00 - 10h30\n\nTarifs :\nAdultes : 120 $ pour 10 cours\nEnfants (6-12 ans) : 90 $ pour 10 cours\nRéduction familiale : 10 % dès le 2e membre\n\nInscriptions : Du 1er au 15 mars 2024\nSur place ou en ligne : www.centresportifolympique.ca\nPlaces limitées : 8 participants maximum par cours.",
+          "question": "Combien coûte l'inscription pour un enfant de 10 ans ?",
+          "options": {
+            "A": "120 $",
+            "B": "90 $",
+            "C": "108 $",
+            "D": "80 $"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 5,
+          "text": "MARCHÉ PUBLIC DE QUÉBEC\n\nPRODUITS FRAIS DU TERROIR\n\nTous les samedis de 8h00 à 13h00\nParc de la Pointe-aux-Lièvres\n\nProducteurs locaux vous proposent :\n• Fruits et légumes de saison\n• Fromages artisanaux\n• Viandes et charcuteries\n• Pains et pâtisseries maison\n• Miels et confitures\n• Plantes et fleurs\n\nPaiement accepté : Argent comptant, carte de débit et crédit\nStationnement gratuit disponible\nChiens admis en laisse\n\nPremier samedi du mois : Animation musicale de 10h00 à 12h00",
+          "question": "Quand y a-t-il une animation musicale au marché ?",
+          "options": {
+            "A": "Tous les samedis matin",
+            "B": "Le premier samedi de chaque mois",
+            "C": "Le dernier samedi du mois",
+            "D": "Chaque dimanche"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "text": "NOTICE D'UTILISATION\nLAVE-LINGE ÉCO-2000\n\n1. Triez votre linge par couleur et par type de tissu.\n2. Ne surchargez pas le tambour : remplissez aux 3/4 maximum.\n3. Utilisez la quantité de détergent recommandée sur l'emballage.\n4. Choisissez le programme adapté à votre linge.\n5. Pour un lavage écologique, privilégiez les cycles à basse température (30°C).\n6. Nettoyez le filtre après chaque lavage.\n7. Laissez la porte entrouverte après utilisation pour éviter les odeurs.\n8. En cas de dysfonctionnement, débranchez l'appareil et contactez le service client.\n\nGarantie : 2 ans pièces et main-d'œuvre",
+          "question": "Quelle recommandation est faite pour un lavage respectueux de l'environnement ?",
+          "options": {
+            "A": "Utiliser plus de détergent",
+            "B": "Laver à haute température",
+            "C": "Choisir les cycles à 30°C",
+            "D": "Remplir le tambour complètement"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 7,
+          "text": "CLINIQUE MÉDICALE DU PARC\n\nDr. Marie Lefebvre, médecin de famille\nDr. Jean Tremblay, médecin de famille\n\nHORAIRES DE CONSULTATION\nLundi au vendredi : 8h00 - 18h00\nSamedi : 9h00 - 12h00 (urgences uniquement)\n\nPRISE DE RENDEZ-VOUS\nTéléphone : 450-555-0234\nEn ligne : www.cliniqueduparc.ca\n\nIMPORTANT : Annulation gratuite jusqu'à 24 heures avant le rendez-vous. En cas d'absence non signalée, des frais de 25 $ seront facturés.\n\nNouveaux patients : Bienvenue ! Veuillez arriver 15 minutes avant votre premier rendez-vous pour compléter le dossier médical.",
+          "question": "Que se passe-t-il si un patient ne vient pas à son rendez-vous sans prévenir ?",
+          "options": {
+            "A": "Il est radié de la clinique",
+            "B": "Il doit payer 25 $",
+            "C": "Il reçoit un avertissement écrit",
+            "D": "Il ne peut plus prendre de rendez-vous en ligne"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Le télétravail est devenu une réalité pour de nombreux employés depuis la pandémie. Cette nouvelle façon de travailler présente ______ avantages, mais aussi quelques inconvénients. Parmi les bénéfices, on note la flexibilité des horaires et l'économie de temps de transport. Cependant, certains salariés éprouvent des difficultés à ______ la vie professionnelle et la vie personnelle. Il est donc essentiel d'établir des règles claires pour ______ cette organisation du travail efficacement.",
+          "options": {
+            "A": "peu / mélanger / gérer",
+            "B": "plusieurs / séparer / gérer",
+            "C": "aucun / confondre / diriger",
+            "D": "certains / unir / contrôler"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 9,
+          "text": "L'alimentation joue un rôle ______ dans la santé globale de l'être humain. Une diète équilibrée, riche en fruits et légumes, permet de ______ le risque de nombreuses maladies chroniques. Les nutritionnistes recommandent de ______ la consommation de sucres ajoutés et de privilégier les céréales complètes. De plus, l'hydratation est tout aussi importante : il est conseillé de boire au moins 1,5 litre d'eau ______ jour.",
+          "options": {
+            "A": "mineur / augmenter / limiter / chaque",
+            "B": "essentiel / réduire / limiter / par",
+            "C": "secondaire / éviter / interdire / tous les",
+            "D": "négligeable / maintenir / augmenter / le"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 10,
+          "text": "Le changement climatique constitue l'un des plus grands défis du XXIe siècle. Les scientifiques du monde entier s'accordent ______ dire que les activités humaines sont responsables du réchauffement de la planète. Pour ______ cette tendance inquiétante, il est nécessaire de ______ les émissions de gaz à effet de serre. Chaque citoyen peut ______ sa part en adoptant des gestes simples au quotidien.",
+          "options": {
+            "A": "à / inverser / augmenter / faire",
+            "B": "pour / continuer / réduire / jouer",
+            "C": "sur / encourager / maintenir / prendre",
+            "D": "à / inverser / réduire / faire"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 11,
+          "text": "L'apprentissage des langues étrangères offre de nombreux ______ cognitifs et professionnels. Les personnes bilingues développent une plus grande capacité de ______ et une meilleure mémoire. Sur le plan professionnel, maîtriser plusieurs langues permet d'______ de nouvelles opportunités d'emploi à l'international. Il est donc recommandé de ______ l'apprentissage précoce des langues secondes.",
+          "options": {
+            "A": "inconvénients / concentration / perdre / éviter",
+            "B": "avantages / concentration / accéder / encourager",
+            "C": "problèmes / distraction / refuser / interdire",
+            "D": "risques / relaxation / manquer / déconseiller"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 12,
+          "text": "La lecture régulière contribue significativement au ______ personnel et intellectuel. En lisant, on enrichit son vocabulaire et on améliore ses capacités d'______. De plus, la lecture permet de se ______ dans d'autres univers et de développer son imagination. Les bibliothèques publiques offrent un ______ d'ouvrages variés, accessibles gratuitement à tous les citoyens.",
+          "options": {
+            "A": "déclin / écriture / enfermer / manque",
+            "B": "développement / expression / plonger / fonds",
+            "C": "appauvrissement / calcul / isoler / surplus",
+            "D": "retard / mémorisation / perdre / déficit"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 13,
+          "text": "Le sport est bénéfique pour la santé physique et mentale. Une activité régulière permet de ______ le système cardiovasculaire et de maintenir un poids ______. Psychologiquement, l'exercice aide à ______ le stress et à améliorer l'humeur grâce à la libération d'endorphines. Les experts recommandent de pratiquer au moins 150 minutes d'activité ______ par semaine.",
+          "options": {
+            "A": "affaiblir / instable / augmenter / intense",
+            "B": "renforcer / stable / réduire / modérée",
+            "C": "endommager / élevé / créer / extrême",
+            "D": "négliger / variable / maintenir / nulle"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 14,
+          "text": "L'économie circulaire vise à ______ le gaspillage des ressources naturelles. Contrairement au modèle linéaire traditionnel, ce concept encourage la réutilisation, la réparation et le ______ des produits. Les entreprises adoptant cette approche peuvent ______ leurs coûts de production tout en réduisant leur impact environnemental. Les consommateurs, de leur côté, doivent ______ leurs habitudes d'achat.",
+          "options": {
+            "A": "augmenter / gaspillage / élever / conserver",
+            "B": "réduire / recyclage / diminuer / modifier",
+            "C": "ignorer / destruction / maintenir / complexifier",
+            "D": "favoriser / stockage / augmenter / garder"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 15,
+          "text": "L'intelligence artificielle transforme ______ nombreux secteurs d'activité. Dans la santé, elle permet d'______ le diagnostic de certaines maladies avec une précision remarquable. Toutefois, son développement soulève des questions ______ à la protection des données personnelles. Il est donc crucial d'______ un cadre réglementaire adapté à ces nouvelles technologies.",
+          "options": {
+            "A": "peu de / compliquer / accessibles / supprimer",
+            "B": "de / améliorer / relatives / établir",
+            "C": "aucun / ralentir / étrangères / ignorer",
+            "D": "tous les / empêcher / opposées / abolir"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 16,
+          "text": "La diversité culturelle enrichit nos sociétés et favorise la ______ entre les individus. Vivre dans un environnement multiculturel permet de ______ ses horizons et de développer l'ouverture d'esprit. Cependant, cette cohabitation nécessite un effort d'______ et de respect mutuel. L'éducation joue un rôle ______ dans la promotion de ces valeurs essentielles.",
+          "options": {
+            "A": "compréhension / restreindre / adaptation / mineur",
+            "B": "méfiance / fermer / isolement / négligeable",
+            "C": "compréhension / élargir / adaptation / majeur",
+            "D": "ignorance / limiter / opposition / secondaire"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 17,
+          "text": "Le sommeil est un ______ fondamental pour la santé et le bien-être. Une nuit de repos ______ permet au corps de se régénérer et au cerveau de ______ les informations accumulées durant la journée. Le manque de sommeil chronique peut ______ à des problèmes de concentration, d'humeur et même à des maladies cardiovasculaires.",
+          "options": {
+            "A": "besoin / insuffisant / oublier / conduire",
+            "B": "luxue / court / mémoriser / prévenir",
+            "C": "besoin / suffisant / consolider / conduire",
+            "D": "option / long / effacer / éviter"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "RÉSULTATS ÉLECTIONS MUNICIPALES 2023\nVille de Sherbrooke\n\nParticipation : 42,3 % des électeurs inscrits\n\nMAIRE\n• Évelyne Beaudoin : 38,5 %\n• Marc Dubois : 35,2 %\n• Louise Gagnon : 26,3 %\n\nÉvelyne Beaudoin élue mairesse\n\nCONSEIL MUNICIPAL (sièges)\n• Équipe Beaudoin : 8 sièges\n• Équipe Dubois : 5 sièges\n• Indépendants : 2 sièges\n\nBudget total de campagne : 1,2 million $\nCoût moyen par vote exprimé : 8,50 $",
+          "question": "Quel est le taux de participation à cette élection ?",
+          "options": {
+            "A": "38,5 %",
+            "B": "42,3 %",
+            "C": "26,3 %",
+            "D": "35,2 %"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "AVIS DE RÉUNION DE CONDOMINIUM\n\nDate : 15 avril 2024\nHeure : 19h00\nLieu : Salle communautaire, 1230 rue Ontario\n\nORDRE DU JOUR\n1. Approbation du procès-verbal de la dernière assemblée\n2. Rapport financier du trimestre (janvier-mars 2024)\n3. Rénovation de l'ascenseur - Devis et planification\n4. Nouveau règlement sur les animaux domestiques\n5. Questions diverses\n\nDocuments disponibles à la concierge du 8 au 12 avril.\nTous les copropriétaires sont invités à participer.\nProxy accepté si vous ne pouvez pas assister.",
+          "question": "Quel sujet concerne des travaux dans l'immeuble ?",
+          "options": {
+            "A": "Le rapport financier",
+            "B": "Le nouveau règlement",
+            "C": "La rénovation de l'ascenseur",
+            "D": "Les questions diverses"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 20,
+          "text": "FACTURE D'ÉLECTRICITÉ\nHydro-Québec\n\nPériode de facturation : 1er janvier - 31 janvier 2024\n\nConsommation totale : 1 250 kWh\n\nDétail des frais :\n• Abonnement : 12,33 $\n• Premier 40 kWh/jour : 0,00659 $/kWh\n• Consommation excédentaire : 0,01007 $/kWh\n\nMontant avant taxes : 98,45 $\nTPS (5 %) : 4,92 $\nTVQ (9,975 %) : 9,82 $\n\nMONTANT TOTAL : 113,19 $\n\nDate limite de paiement : 20 février 2024",
+          "question": "Quel est le montant total à payer ?",
+          "options": {
+            "A": "98,45 $",
+            "B": "113,19 $",
+            "C": "108,37 $",
+            "D": "12,33 $"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 21,
+          "text": "PROGRAMME DE FIDÉLITÉ VOYAGE PLUS+\n\nCarte Argent : 0-9 999 miles accumulés\n• Priorité d'embarquage\n• 1 bagage enregistré gratuit\n\nCarte Or : 10 000-24 999 miles accumulés\n• Tous les avantages Argent\n• Accès salon d'aéroport (2 fois/an)\n• Surclassement possible\n\nCarte Platine : 25 000+ miles accumulés\n• Tous les avantages Or\n• Accès illimité aux salons\n• Surclassement garanti sur demande\n• Annulation gratuite des billets\n\nInscription gratuite sur voyagesplus.ca",
+          "question": "Quel avantage est exclusif à la carte Platine ?",
+          "options": {
+            "A": "La priorité d'embarquage",
+            "B": "L'accès aux salons d'aéroport",
+            "C": "L'annulation gratuite des billets",
+            "D": "Un bagage enregistré gratuit"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 22,
+          "text": "RAPPORT MÉTÉO CANADA\nPrévisions pour Montréal - Semaine du 10 au 16 juin 2024\n\nLundi : Ensoleillé, 22°C\nMardi : Partiellement nuageux, 24°C\nMercredi : Pluie intermittente, 19°C\nJeudi : Orages possibles, 21°C\nVendredi : Variable, 23°C\nSamedi : Ensoleillé, 25°C\nDimanche : Ensoleillé, 26°C\n\nIndice UV élevé mercredi et jeudi.\nProbabilité de précipitations : 60 % mercredi, 40 % jeudi.\n\nRecommandation : Parapluie nécessaire mi-semaine.",
+          "question": "Quel jour sera le plus chaud selon les prévisions ?",
+          "options": {
+            "A": "Mardi",
+            "B": "Samedi",
+            "C": "Dimanche",
+            "D": "Vendredi"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congé sans solde\n\nMadame, Monsieur,\n\nPar la présente, je vous informe de ma volonté de prendre un congé sans solde d'une durée de trois mois, du 1er septembre au 30 novembre 2024.\n\nCe temps me permettra de accompagner un projet humanitaire à l'étranger, une démarche qui me tient particulièrement à cœur et qui, je l'espère, m'apportera de nouvelles compétences transférables à mon poste actuel.\n\nJe reste évidemment à votre entière disposition pour organiser la transition de mes dossiers avant mon départ et assurer une reprise optimale à mon retour.\n\nDans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n\nSophie Martin\nChargée de projet",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Informer",
+            "B": "Se plaindre",
+            "C": "Inviter",
+            "D": "Féliciter"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 24,
+          "text": "Chers collègues,\n\nSuite à la réunion de direction de ce matin, je tenais à vous communiquer quelques décisions importantes concernant l'organisation de notre service.\n\nComme vous le savez, nous connaissons actuellement des difficultés budgétaires qui nous obligent à revoir nos priorités. Après mûre réflexion, il a été décidé de geler les recrutements pour les six prochains mois et de limiter les déplacements professionnels aux seuls rendez-vous clients essentiels.\n\nJe comprends que ces mesures puissent être décevantes, voire inquiétantes pour certains d'entre vous. Sachez que la direction fait tout son possible pour préserver l'emploi et maintenir la viabilité de notre entreprise. Je reste disponible pour échanger individuellement avec ceux qui le souhaitent.\n\nCordialement,\nDirecteur des Ressources Humaines",
+          "question": "Quel est le ton général de ce message ?",
+          "options": {
+            "A": "Optimiste et enthousiaste",
+            "B": "Informatif mais rassurant malgré les mauvaises nouvelles",
+            "C": "Agressif et menaçant",
+            "D": "Indifférent et froid"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 25,
+          "text": "Objet : Réclamation concernant la livraison n°45892\n\nMadame, Monsieur,\n\nJ'ai le regret de vous informer que la commande passée le 15 mars auprès de votre entreprise n'a pas été livrée dans les délais convenus. Non seulement la livraison a été retardée de dix jours, mais deux articles sur les cinq commandés présentent des défauts visibles.\n\nCette situation est particulièrement préoccupante car nous avions précisé lors de la commande l'urgence de cette livraison pour notre événement annuel. Le retard et la qualité insuffisante des produits ont considérablement perturbé notre organisation.\n\nJe vous demande donc le remboursement intégral de la commande ainsi qu'une indemnisation pour les préjudices subis. À défaut de réponse satisfactoire sous quinze jours, je me verrai dans l'obligation de saisir les tribunaux compétents.\n\nDans l'attente de votre réponse,\nPierre Lachance\nDirecteur des Achats",
+          "question": "Que souhaite obtenir l'expéditeur ?",
+          "options": {
+            "A": "Une réduction sur sa prochaine commande",
+            "B": "Un remboursement et une indemnisation",
+            "C": "Une excuse verbale",
+            "D": "Un échange simple des articles défectueux"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "À l'attention de tous les employés,\n\nDans le cadre de notre politique de développement durable, nous vous invitons à participer activement à la Semaine de l'environnement qui se tiendra du 22 au 26 avril prochain.\n\nAu programme : ateliers de sensibilisation au tri sélectif, conférence sur l'économie d'énergie au bureau, et surtout, notre grand défi \"Zéro déchet\" où chaque service tentera de réduire au maximum ses déchets sur la semaine. Le service gagnant se verra offrir un panier bio et une demi-journée de congé pour toute l'équipe !\n\nLes inscriptions sont obligatoires avant le 15 avril auprès du comité développement durable. N'hésitez pas à proposer vos idées pour faire de cette semaine un succès collectif.\n\nEnsemble, agissons pour la planète !\n\nLe Comité RSE",
+          "question": "Quelle est l'intention principale de ce message ?",
+          "options": {
+            "A": "Imposer de nouvelles règles strictes",
+            "B": "Inviter à participer à une initiative environnementale",
+            "C": "Annoncer des sanctions écologiques",
+            "D": "Informer d'une fermeture temporaire"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "Objet : Confirmation d'entretien d'évaluation annuel\n\nBonjour Monsieur Tremblay,\n\nConformément à notre conversation téléphonique, je confirme notre rendez-vous pour votre entretien d'évaluation annuel prévu le jeudi 28 mars 2024 à 14h00 dans mon bureau (étage 3, salle 305).\n\nCet entretien sera l'occasion de faire le bilan de votre année écoulée, de discuter de vos réalisations et des axes d'amélioration, mais également d'évoquer vos perspectives d'évolution au sein de l'entreprise. Je vous invite à préparer quelques éléments concrets illustrant vos contributions au service.\n\nVous trouverez ci-joint le formulaire d'auto-évaluation à compléter et à me remettre lors de notre rencontre. Veuillez également penser à mettre à jour votre dossier de formation.\n\nAu plaisir de vous retrouver,\nIsabelle Gagnon\nResponsable des Ressources Humaines",
+          "question": "Que doit préparer l'employé avant l'entretien ?",
+          "options": {
+            "A": "Un rapport financier détaillé",
+            "B": "Un formulaire d'auto-évaluation complété",
+            "C": "Une lettre de démission",
+            "D": "Un projet de déménagement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Chers partenaires,\n\nC'est avec une immense fierté que nous vous annoncons le lancement officiel de notre nouvelle gamme de produits écologiques, fruit de deux années de recherche et développement. Cette innovation majeure positionne notre entreprise comme leader du secteur en matière de responsabilité environnementale.\n\nNous souhaitons vous convier à la soirée de lancement qui aura lieu le 15 mai prochain à 18h00 au Centre des congrès de Montréal. Cet événement sera l'occasion de découvrir en exclusivité notre nouvelle ligne, d'échanger avec nos équipes techniques et de profiter d'un cocktail dinatoire dans une ambiance conviviale.\n\nVotre présence serait pour nous un honneur et une reconnaissance de la collaboration fructueuse qui nous lie depuis tant d'années.\n\nMerci de confirmer votre participation avant le 30 avril.\n\nCordialement,\nMarie-Claire Dubois\nDirectrice Marketing",
+          "question": "Quel est le ton de ce message ?",
+          "options": {
+            "A": "Froid et professionnel uniquement",
+            "B": "Enthousiaste et valorisant",
+            "C": "Inquiet et défensif",
+            "D": "Critique et accusateur"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Objet : Urgent - Problème technique système informatique\n\nMadame, Monsieur,\n\nNous vous informons qu'une panne majeure affecte actuellement notre système informatique central. Depuis ce matin 8h00, l'accès aux bases de données clients et aux outils de gestion est impossible pour l'ensemble du personnel.\n\nNotre équipe technique travaille d'arrache-pied pour résoudre ce dysfonctionnement dans les plus brefs délais. Nous espérons un rétablissement du service d'ici 16h00 aujourd'hui.\n\nEn attendant, nous vous prions de bien vouloir :\n- Reporter les rendez-vous clients nécessitant l'accès aux dossiers\n- Noter manuellement les demandes urgentes\n- Ne pas surcharger le serveur de messagerie\n\nNous vous présentons nos excuses pour la gêne occasionnée et vous remercions de votre compréhension.\n\nService Informatique",
+          "question": "Quelle consigne est donnée aux employés ?",
+          "options": {
+            "A": "Arrêter immédiatement tout travail",
+            "B": "Reporter certains rendez-vous et noter manuellement les demandes",
+            "C": "Contacter tous les clients pour annuler les contrats",
+            "D": "Installer un nouveau logiciel immédiatement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 30,
+          "text": "Madame Lefebvre,\n\nSuite à votre candidature au poste d'assistante de direction, nous avons le plaisir de vous convier à un entretien de sélection.\n\nVotre profil a retenu toute notre attention, notamment votre expérience significative dans la gestion administrative et votre maîtrise parfaite des outils bureautiques. Nous sommes particulièrement intéressés par votre capacité à gérer simultanément plusieurs projets, qualité essentielle pour ce poste.\n\nL'entretien se déroulera le mardi 9 avril à 10h00 dans nos locaux situés au 400 avenue McGill College, bureau 800. Il sera conduit par Madame Sarah Johnson, directrice des opérations, et durera environ une heure.\n\nNous vous prions de bien vouloir confirmer votre présence par retour de courriel avant le 5 avril.\n\nDans l'attente de vous rencontrer,\nPaul Gagnon\nResponsable Recrutement",
+          "question": "Pourquoi le profil de Madame Lefebvre a-t-il été retenu ?",
+          "options": {
+            "A": "Pour ses compétences en comptabilité avancée",
+            "B": "Pour son expérience en gestion administrative et sa maîtrise des outils bureautiques",
+            "C": "Pour ses relations personnelles avec la directrice",
+            "D": "Pour sa disponibilité immédiate uniquement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 31,
+          "text": "Objet : Modification des conditions de travail - Télétravail\n\nChers collègues,\n\nÀ compter du 1er juin prochain, notre politique de télétravail évolue pour mieux répondre aux attentes de tous. Après consultation des représentants du personnel et analyse des retours d'expérience, nous mettons en place un nouveau cadre hybride.\n\nDésormais, chaque employé pourra télétravailler jusqu'à trois jours par semaine, sous réserve de validation par son responsable hiérarchique et selon les contraintes opérationnelles du service. Les jours de présence obligatoire restent le mardi et le jeudi pour favoriser les échanges collectifs.\n\nNous mettons également à votre disposition une allocation de 500 $ pour l'aménagement de votre espace de travail à domicile. Les modalités de remboursement sont détaillées dans la note de service jointe.\n\nCes évolutions visent à concilier efficacité professionnelle et qualité de vie au travail.\n\nBien cordialement,\nDirection des Ressources Humaines",
+          "question": "Quelle information est implicite dans ce message ?",
+          "options": {
+            "A": "Le télétravail sera interdit",
+            "B": "L'entreprise cherche à améliorer l'équilibre vie professionnelle/vie personnelle",
+            "C": "Les salaires seront réduits",
+            "D": "Tout le monde doit démissionner"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "Madame, Monsieur,\n\nNous accusons réception de votre courrier du 12 mars concernant la résiliation anticipée de votre contrat d'assurance habitation souscrit auprès de notre compagnie.\n\nNous vous informons que votre demande a été traitée conformément aux conditions générales de votre contrat. Un chèque de remboursement au montant de 245,80 $, correspondant aux primes payées d'avance pour la période du 1er avril au 31 décembre 2024, vous sera adressé sous dix jours ouvrés.\n\nNous vous prions de noter que cette résiliation prendra effet à la date de réception de votre courrier, soit le 12 mars 2024. Vous êtes donc couvert jusqu'à cette date inclusivement.\n\nNous restons à votre disposition pour toute information complémentaire et vous remercions de la confiance que vous nous avez accordée.\n\nVeuillez agréer, Madame, Monsieur, nos salutations distinguées.\n\nService Clientèle\nAssurances Générales du Canada",
+          "question": "Quel est le but de ce document ?",
+          "options": {
+            "A": "Vendre une nouvelle assurance",
+            "B": "Confirmer une résiliation et informer du remboursement",
+            "C": "Augmenter les primes d'assurance",
+            "D": "Refuser une demande de sinistre"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "Le télétravail généralisé, une fausse bonne idée ?\n\nDepuis la pandémie, le télétravail est devenu la norme pour des millions de travailleurs. Pourtant, une étude récente de l'Université de Stanford remet en question les bénéfices supposés de cette révolution. Selon les chercheurs, la productivité des employés à distance aurait chuté de 18 % en moyenne sur trois ans. Plus inquiétant : l'innovation collaborative souffre considérablement des échanges virtuels qui ne remplacent pas les interactions spontanées du bureau.\n\nLes auteurs dénoncent également l'isolement social croissant et l'érosion des liens professionnels. \"Nous créons des générations d'employés qui ne se connaissent pas\", alerte le professeur Mark Roberts. Certaines entreprises, comme Tesla ou Amazon, ont déjà rappelé leurs équipes sur site cinq jours par semaine, provoquant des démissions massives mais une hausse significative de la créativité selon leurs dirigeants.\n\nCette tendance soulève une question fondamentale : sacrifions-nous l'innovation et la cohésion sociale au nom d'une flexibilité mal comprise ?",
+          "question": "Quelle est la position de l'auteur ?",
+          "options": {
+            "A": "Positive",
+            "B": "Négative",
+            "C": "Neutre",
+            "D": "Critique"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 34,
+          "text": "L'intelligence artificielle bouleverse le marché du travail\n\nL'automatisation par l'IA menace-t-elle vraiment l'emploi ? Les experts sont divisés. D'un côté, l'OCDE prédit que 27 % des emplois dans les pays industrialisés pourraient être automatisés d'ici 2030. De l'autre, l'histoire nous montre que chaque révolution technologique a fini par créer plus d'emplois qu'elle n'en détruisait.\n\nCe qui change aujourd'hui, c'est la vitesse de transformation. L'IA générative évolue si rapidement que le temps d'adaptation des travailleurs risque d'être insuffisant. Les métiers intermédiaires - comptables, traducteurs, analystes financiers - semblent particulièrement exposés. Pourtant, l'IA pourrait aussi soulager les professions en pénurie, comme la santé ou l'enseignement, en automatisant les tâches administratives.\n\nLe défi n'est pas tant technologique que politique : comment former massivement la population aux nouvelles compétences requises ? Les gouvernements qui répondront à cette urgence éducative sécuriseront leur avantage compétitif.",
+          "question": "Quelle est l'idée principale de l'article ?",
+          "options": {
+            "A": "L'IA va détruire tous les emplois",
+            "B": "L'IA transforme le travail et nécessite une adaptation éducative majeure",
+            "C": "L'IA est sans danger pour l'emploi",
+            "D": "Les gouvernements doivent interdire l'IA"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "La fin des voitures thermiques en 2035 : une décision risquée\n\nLe Conseil européen a confirmé l'interdiction de vente des véhicules neufs à essence et diesel à partir de 2035. Cette mesure, saluée par les associations écologistes, inquiète pourtant nombre d'observateurs. L'industrie automobile européenne, qui emploie 6 millions de personnes, voit son modèle économique menacé alors que les constructeurs chinois dominent déjà le marché de l'électrique.\n\nLes infrastructures de recharge restent insuffisantes, particulièrement en zones rurales. Un rapport récent indique qu'il faudrait installer 3 millions de bornes supplémentaires rien qu'en France pour répondre à la demande. Quant aux matières premières nécessaires aux batteries - lithium, cobalt - leur extraction soulève des questions éthiques et environnementales majeures.\n\nLes détracteurs dénoncent une décision idéologique prise sans évaluation réaliste des conséquences sociales et économiques. Les partisans y voient une nécessité climatique incontournable. Le débat ne fait que commencer.",
+          "question": "Quel argument des opposants à la mesure est mentionné ?",
+          "options": {
+            "A": "Les voitures électriques sont trop rapides",
+            "B": "Les infrastructures sont insuffisantes et l'industrie automobile est menacée",
+            "C": "Les carburants fossiles sont inépuisables",
+            "D": "Les constructeurs chinois sont trop lents"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "La semaine de quatre jours : utopie ou réalité d'avenir ?\n\nL'expérience menée au Royaume-Uni sur la semaine de travail de quatre jours a livré ses résultats spectaculaires : 92 % des entreprises participantes ont décidé de pérenniser le dispositif. Productivité maintenue, baisse du turnover, amélioration de la santé mentale des salariés - les bénéfices semblent indéniables.\n\nPourtant, cette réduction du temps de travail soulève des questions complexes. Comment adapter ce modèle aux hôpitaux, aux usines en continu, aux commerces ? La réponse \"universelle\" n'existe pas. Certains économistes craignent également une perte de compétitivité à long terme si les pays voisins maintiennent le rythme de cinq jours.\n\nAu Canada, le débat peine à émerger officiellement, bien que plusieurs entreprises québécoises expérimentent déjà des formules hybrides. Le ministre du Travail fédéral a récemment indiqué qu'aucune réforme législative n'était à l'ordre du jour, préférant laisser les partenaires sociaux négocier au cas par cas.\n\nCette prudence politique cache-t-elle un manque d'ambition ou une sagesse face aux inconnues économiques ?",
+          "question": "Quelle conclusion peut-on tirer de cet article ?",
+          "options": {
+            "A": "La semaine de quatre jours est applicable partout immédiatement",
+            "B": "Le modèle présente des avantages mais soulève des défis d'adaptation sectorielle",
+            "C": "Les entreprises canadiennes refusent toute évolution",
+            "D": "La productivité baisse forcément avec moins de jours travaillés"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "L'essor des fermes urbaines verticales\n\nDans les entrailles des métropoles mondiales, une révolution agricole silencieuse s'opère. Des fermes verticales, empilant les cultures sur plusieurs niveaux dans des entrepôts réaménagés, prolifèrent de Singapour à New York. Ces installations high-tech promettent de produire localement, sans pesticides, avec 95 % moins d'eau que l'agriculture traditionnelle.\n\nLes chiffres sont impressionnants : une tour de dix étages peut produire l'équivalent de 300 hectares de terres agricoles. Les légumes feuilles, herbes aromatiques et fraises y poussent sous LED, contrôlés par intelligence artificielle optimisant chaque paramètre de croissance.\n\nMais le scepticisme persiste. Les coûts énergétiques restent élevés, malgré les progrès des panneaux solaires. Le goût des produits fait débat : certains chefs étoilés louent la fraîcheur, d'autres déplorent un manque de \"complexité\" comparé aux légumes de terroir. Et surtout, ces fermes ne peuvent produire que 20 % de notre alimentation actuelle - céréales et élevage leur échappent encore.\n\nSont-elles le futur de l'agriculture ou une solution de luxe pour bobos urbains ?",
+          "question": "Quel est le ton de l'auteur ?",
+          "options": {
+            "A": "Uniquement enthousiaste",
+            "B": "Uniquement critique",
+            "C": "Nuancé, présentant avantages et limites",
+            "D": "Indifférent"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 38,
+          "text": "La crise du logement s'aggrave dans les grandes villes canadiennes\n\nLes prix de l'immobilier ont atteint des sommets historiques à Toronto et Vancouver, rendant l'accession à la propriété impossible pour la classe moyenne. Le prix médian d'une maison unifamiliale dépasse désormais 1,2 million de dollars dans ces deux métropoles, soit dix fois le revenu médian des ménages.\n\nLes causes sont multiples : pénurie chronique de logements neufs, spéculation immobilière, immigration record et taux d'intérêt historiquement bas qui ont alimenté la demande. Les politiques gouvernementales successives - taxe sur les acheteurs étrangers, stress test hypothécaire - ont eu un impact limité.\n\nLa génération millénariale, qui représente le gros des acheteurs potentiels, se retrouve coincée : trop de revenus pour les logements sociaux, pas assez pour le marché privé. Beaucoup reportent l'achat indéfiniment ou quittent ces villes pour des régions plus abordables, créant une fuite des cerveaux qui affaiblit l'économie locale.\n\nLes experts préconisent une accélération massive de la construction et une réforme du zonage urbain. Mais les résidents s'opposent souvent aux projets de densification dans leur quartier, paralysant les décisions politiques.",
+          "question": "Quel problème spécifique la génération millénariale rencontre-t-elle ?",
+          "options": {
+            "A": "Elle gagne trop d'argent pour acheter",
+            "B": "Elle est prise entre l'incapacité d'acheter et l'inadmissibilité aux logements sociaux",
+            "C": "Elle refuse de quitter les grandes villes",
+            "D": "Elle bénéficie de taux d'intérêt trop élevés"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "La fin des notes scolaires traditionnelles ?\n\nPlusieurs commissions scolaires québécoises expérimentent l'évaluation descriptive, sans notes chiffrées, jusqu'en secondaire 3. Cette approche, inspirée des pays scandinaves, vise à valoriser la progression plutôt que la performance instantanée. Les bulletins détaillent les compétences acquises et celles en développement, sans moyenne générale.\n\nLes défenseurs arguent que les notes créent une compétition néfaste et masquent les vrais apprentissages. \"Un élève qui passe de 40 % à 70 % montre une progression remarquable, mais sa note reste insuffisante\", illustre une enseignante de Sherbrooke. Les retours des parents sont mitigés : certains apprécient la précision, d'autres craignent que leurs enfants ne soient désavantagés pour l'admission au cégep.\n\nLes établissements postsecondaires s'adaptent progressivement, développant des dossiers de candidature holistiques. Mais le scepticisme persiste : dans une société méritocratique, comment évaluer objectivement sans chiffres ?\n\nCette réforme touche au cœur de notre rapport à la réussite et à l'échec.",
+          "question": "Quelle préoccupation des parents est mentionnée ?",
+          "options": {
+            "A": "Que leurs enfants travaillent trop",
+            "B": "Que leurs enfants soient désavantagés pour l'admission au cégep",
+            "C": "Que les professeurs ne soient pas assez sévères",
+            "D": "Que les notes soient trop élevées"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "La culture de l'annulation : quand la société juge ses célébrités\n\nLe phénomène des \"cancel culture\" divise l'opinion publique depuis plusieurs années. Récemment, le cas d'un humoriste canadien dont les vieilles blagues ont resurgi sur les réseaux sociaux relance le débat. Perdre son contrat avec une plateforme de streaming, voir ses spectacles annulés, recevoir des menaces - la sentence est rapide et souvent définitive.\n\nLes partisans y voient une forme de justice sociale, permettant aux minorités de dénoncer des propos discriminatoires autrefois banalisés. \"C'est simplement la conséquence de vos actes\", argumentent-ils. Les opposants dénoncent une justice expéditive, sans droit de réponse, où le contexte importe peu et où la repentance est impossible.\n\nLes tribunaux commencent à s'emparer de la question : plusieurs personnalités \"annulées\" ont gagné des procès en diffamation contre leurs détracteurs. Le droit à l'oubli numérique, inexistant au Canada, est réclamé par certains.\n\nAu-delà des polémiques médiatiques, cette tendance révèle une transformation profonde de notre rapport à la responsabilité, au pardon et à la rédemption dans l'espace public numérique.",
+          "question": "Quelle perspective est présentée par les opposants à la culture de l'annulation ?",
+          "options": {
+            "A": "Que c'est une forme nécessaire de justice sociale",
+            "B": "Que c'est une justice expéditive sans droit de réponse",
+            "C": "Que les célébrités méritent toujours le pardon",
+            "D": "Que les réseaux sociaux devraient être interdits"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

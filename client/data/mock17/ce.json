@@ -1,0 +1,656 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300",
+    "clb_mapping": {
+      "CLB_10": "263-300",
+      "CLB_9": "248-262",
+      "CLB_8": "233-247",
+      "CLB_7": "207-232",
+      "CLB_6": "181-206",
+      "CLB_5": "151-180",
+      "CLB_4": "121-150"
+    }
+  },
+  "instructions": "Cette épreuve évalue votre capacité à comprendre des documents écrits en français dans des contextes quotidiens, professionnels et journalistiques. Vous avez 60 minutes pour répondre aux 40 questions. Vous pouvez naviguer librement entre les questions.",
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AFFICHE - CENTRE SPORTIF MUNICIPAL\n\nHoraires d'ouverture :\nLundi au vendredi : 7h00 - 22h00\nSamedi : 9h00 - 20h00\nDimanche : 9h00 - 12h00\n\nTarifs mensuels :\n- Adulte : 45€\n- Étudiant : 30€ (sur présentation de la carte)\n- Senior (+65 ans) : 35€\n\nActivités incluses : musculation, natation, cours collectifs.\nLocation de serviettes : 2€ (apporter un casier personnel).\nRenseignements : 01 23 45 67 89",
+          "question": "Quel document est-ce ?",
+          "options": {
+            "A": "Une offre d'emploi",
+            "B": "Un menu de restaurant",
+            "C": "Une affiche d'information publique",
+            "D": "Un billet d'avion"
+          },
+          "correct_answer": "C",
+          "skill_tested": "Identification du type de document"
+        },
+        {
+          "question_id": 2,
+          "text": "Madame Ritas - Voyance et Guidance\n\nVous traversez une période difficile ? Vous cherchez des réponses sur votre avenir professionnel ou sentimental ?\n\nMadame Ritas, médium reconnue depuis 20 ans, vous propose des consultations personnalisées :\n- Tarot divinatoire\n- Lecture des lignes de la main\n- Boule de cristal\n\nPremière consultation : 30€ (30 minutes)\nSur rendez uniquement au 06 12 34 56 78",
+          "question": "Madame Ritas propose principalement de :",
+          "options": {
+            "A": "Raconter sa vie",
+            "B": "Lire l'avenir",
+            "C": "Donner des cours de français",
+            "D": "Vendre des bijoux"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Compréhension de l'offre de service"
+        },
+        {
+          "question_id": 3,
+          "text": "AVIS IMPORTANT AUX VOYAGEURS\n\nEn raison de travaux sur la ligne RER B, des perturbations sont prévues ce week-end :\n\nSamedi 15 et dimanche 16 juin :\n- Aucun train entre les gares de Denfert-Rochereau et Robinson\n- Service de bus de remplacement toutes les 20 minutes\n- Durée du trajet allongée de 25 minutes\n\nNous vous recommandons d'anticiper vos déplacements et de consulter l'application RATP pour les mises à jour en temps réel.",
+          "question": "Quelle est la conséquence principale de ces travaux ?",
+          "options": {
+            "A": "La fermeture définitive de la ligne",
+            "B": "La suppression des bus de remplacement",
+            "C": "L'allongement du temps de trajet",
+            "D": "La gratuité des transports"
+          },
+          "correct_answer": "C",
+          "skill_tested": "Identification de l'information essentielle"
+        },
+        {
+          "question_id": 4,
+          "text": "MENU DU JOUR - Restaurant Le Gourmet\n\nEntrées au choix :\n- Salade niçoise aux légumes frais\n- Soupe à l'oignon gratinée\n- Terrine de campagne maison\n\nPlats au choix :\n- Steak frites avec sauce au poivre\n- Filet de saumon grillé, légumes de saison\n- Risotto aux champignons (végétarien)\n\nDesserts au choix :\n- Crème brûlée\n- Tarte aux pommes chaude\n- Café gourmand\n\nMenu complet : 24€ - Service continu de 12h à 15h",
+          "question": "Quel plat est adapté aux végétariens ?",
+          "options": {
+            "A": "Le steak frites",
+            "B": "Le filet de saumon",
+            "C": "Le risotto aux champignons",
+            "D": "La salade niçoise"
+          },
+          "correct_answer": "C",
+          "skill_tested": "Repérage d'information spécifique"
+        },
+        {
+          "question_id": 5,
+          "text": "CONSIGNES DE SÉCURITÉ - Hôtel Bellevue\n\nEn cas d'incendie :\n1. Ne paniquez pas et ne prenez pas l'ascenseur\n2. Dirigez-vous vers la sortie de secours la plus proche (indiquée par un pictogramme lumineux vert)\n3. Rassemblez-vous sur le parking devant l'hôtel\n4. Attendez les consignes des pompiers ou du personnel\n\nPour toute urgence médicale, composez le 15 (SAMU) depuis votre téléphone ou contactez la réception au 9.\n\nMerci de votre vigilance.",
+          "question": "Que faut-il faire en cas d'incendie selon ce document ?",
+          "options": {
+            "A": "Prendre l'ascenseur pour sortir plus vite",
+            "B": "Attendre dans sa chambre les secours",
+            "C": "Utiliser les escaliers et rejoindre le parking",
+            "D": "Appeler immédiatement la police"
+          },
+          "correct_answer": "C",
+          "skill_tested": "Compréhension de consignes"
+        },
+        {
+          "question_id": 6,
+          "text": "PETITE ANNONCE\n\nDonne chaton européen, 3 mois, tigré gris.\nTrès joueur et sociable, habitué aux enfants.\nDéjà sevré et déparasité.\nDonne contre bon soin uniquement.\n\nContacter Marie au 06 98 76 54 32 après 18h.\nDépartement : Loire-Atlantique (44)",
+          "question": "Quelle condition est exigée pour adopter ce chaton ?",
+          "options": {
+            "A": "Payer 100€",
+            "B": "Habiter à Paris",
+            "C": "S'engager à bien s'en occuper",
+            "D": "Avoir un jardin obligatoirement"
+          },
+          "correct_answer": "C",
+          "skill_tested": "Compréhension des conditions"
+        },
+        {
+          "question_id": 7,
+          "text": "OFFRE SPÉCIALE - Librairie Page Blanche\n\nJusqu'au 30 juin, profitez de notre opération 'été littéraire' :\n- 20% de réduction sur tous les romans\n- 1 livre acheté = 1 marque-page offert\n- Adhésion gratuite au club de lecture\n\nHoraires d'ouverture prolongés en juin :\nDu lundi au samedi : 9h00 - 19h30\nDimanche : 14h00 - 18h00",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Annoncer la fermeture de la librairie",
+            "B": "Promouvoir une offre commerciale",
+            "C": "Recruter des employés",
+            "D": "Organiser une manifestation littéraire"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Identification de l'intention communicative"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous (Lexique/Structure)",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot ou la structure appropriée.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Pour préparer son exposé, il a emprunté quelques livres à la ________.",
+          "question": "Choisissez le mot qui convient :",
+          "options": {
+            "A": "banque",
+            "B": "bibliothèque",
+            "C": "librairie",
+            "D": "littérature"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Vocabulaire contextuel"
+        },
+        {
+          "question_id": 9,
+          "text": "Les personnes qui habitent une maison sont, en moyenne, plus âgées que celles qui habitent ________.",
+          "question": "Choisissez le mot qui convient :",
+          "options": {
+            "A": "un appartement",
+            "B": "une demeure",
+            "C": "un domicile",
+            "D": "un logement"
+          },
+          "correct_answer": "A",
+          "skill_tested": "Vocabulaire et cohérence textuelle"
+        },
+        {
+          "question_id": 10,
+          "text": "________ est son adresse ?",
+          "question": "Choisissez le mot interrogatif qui convient :",
+          "options": {
+            "A": "Comment",
+            "B": "Qui",
+            "C": "Quelle",
+            "D": "Que"
+          },
+          "correct_answer": "C",
+          "skill_tested": "Structures interrogatives"
+        },
+        {
+          "question_id": 11,
+          "text": "De plus en plus populaires, les livres audio permettent de 'lire' tout en vaquant à ses occupations quotidiennes. Ils sont particulièrement utiles pour les personnes ayant des difficultés de lecture ou celles qui passent beaucoup de temps dans les ________ (1). Leur format est adapté à notre époque, où le manque de temps rend la lecture traditionnelle moins ________ (2).",
+          "question": "Question 11 : (1)",
+          "options": {
+            "A": "magasins",
+            "B": "transports",
+            "C": "hôpitaux",
+            "D": "restaurants"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Inférence contextuelle"
+        },
+        {
+          "question_id": 12,
+          "text": "De plus en plus populaires, les livres audio permettent de 'lire' tout en vaquant à ses occupations quotidiennes. Ils sont particulièrement utiles pour les personnes ayant des difficultés de lecture ou celles qui passent beaucoup de temps dans les ________ (1). Leur format est adapté à notre époque, où le manque de temps rend la lecture traditionnelle moins ________ (2).",
+          "question": "Question 12 : (2)",
+          "options": {
+            "A": "attractive",
+            "B": "chère",
+            "C": "difficile",
+            "D": "rare"
+          },
+          "correct_answer": "A",
+          "skill_tested": "Compréhension lexicale"
+        },
+        {
+          "question_id": 13,
+          "text": "Le télétravail a connu un essor considérable ces dernières années. Bien qu'il offre une grande ________ (1), il peut aussi isoler les employés et réduire les échanges informels entre collègues. Pour certains, l'absence de ________ (2) physique avec l'équipe est un inconvénient majeur.",
+          "question": "Question 13 : (1)",
+          "options": {
+            "A": "fatigue",
+            "B": "liberté",
+            "C": "pression",
+            "D": "stabilité"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Compréhension contextuelle"
+        },
+        {
+          "question_id": 14,
+          "text": "Le télétravail a connu un essor considérable ces dernières années. Bien qu'il offre une grande ________ (1), il peut aussi isoler les employés et réduire les échanges informels entre collègues. Pour certains, l'absence de ________ (2) physique avec l'équipe est un inconvénient majeur.",
+          "question": "Question 14 : (2)",
+          "options": {
+            "A": "contact",
+            "B": "conflit",
+            "C": "travail",
+            "D": "bureau"
+          },
+          "correct_answer": "A",
+          "skill_tested": "Collocations lexicales"
+        },
+        {
+          "question_id": 15,
+          "text": "Au retour des vacances, nous sommes passés par la Suisse.",
+          "question": "Choisissez la reformulation qui a le sens le plus proche :",
+          "options": {
+            "A": "Nous avons passé nos vacances en Suisse.",
+            "B": "Nous sommes retournés en Suisse en vacances.",
+            "C": "Nous sommes revenus de vacances en passant par la Suisse.",
+            "D": "Nous sommes partis en vacances en passant par la Suisse."
+          },
+          "correct_answer": "C",
+          "skill_tested": "Reformulation sémantique"
+        },
+        {
+          "question_id": 16,
+          "text": "Il ________ beaucoup hier après-midi.",
+          "question": "Choisissez la forme verbale qui convient :",
+          "options": {
+            "A": "a plu",
+            "B": "est plu",
+            "C": "avait plu",
+            "D": "pleuvait"
+          },
+          "correct_answer": "A",
+          "skill_tested": "Accord du verbe impersonnel"
+        },
+        {
+          "question_id": 17,
+          "text": "Si j'________ plus tôt, je n'aurais pas raté le train.",
+          "question": "Choisissez la forme verbale qui convient :",
+          "options": {
+            "A": "partais",
+            "B": "étais parti",
+            "C": "partirai",
+            "D": "parte"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Conditionnel passé (3e forme)"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques nécessitant une lecture rapide et ciblée.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "Une enquête indique que 80% des jeunes de 18 à 25 ans utilisent les réseaux sociaux quotidiennement. Les principales utilisations sont : rester en contact avec des amis, suivre l'actualité, et partager des photos. 5% seulement s'en servent pour le travail.",
+          "question": "La majorité des jeunes interrogés utilisent les réseaux sociaux surtout pour :",
+          "options": {
+            "A": "trouver un emploi",
+            "B": "communiquer avec leur entourage",
+            "C": "éviter la télévision",
+            "D": "apprendre des langues étrangères"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Repérage d'information statistique"
+        },
+        {
+          "question_id": 19,
+          "text": "RÉSULTATS DU SONDAGE - Transport quotidien\n\nMoyen de transport utilisé pour se rendre au travail :\n- Voiture personnelle : 52%\n- Transports en commun : 28%\n- Vélo : 12%\n- À pied : 6%\n- Autres : 2%\n\nDistance moyenne domicile-travail : 14 km",
+          "question": "Quel est le moyen de transport le plus utilisé ?",
+          "options": {
+            "A": "Les transports en commun",
+            "B": "Le vélo",
+            "C": "La voiture personnelle",
+            "D": "La marche à pied"
+          },
+          "correct_answer": "C",
+          "skill_tested": "Interprétation de données chiffrées"
+        },
+        {
+          "question_id": 20,
+          "text": "AVIS DE DÉCÈS\n\nLa famille Dupont a la tristesse de vous faire part du décès de Madame Jeanne Dupont, survenu le 10 juin 2024, à l'âge de 87 ans.\n\nLa cérémonie religieuse aura lieu le vendredi 14 juin à 14h30 en l'église Saint-Pierre, 12 rue de la Paix, Lyon.\n\nAucune fleur ni plaque. Les dons pour l'association 'Les Petits Frères des Pauvres' seront les bienvenus.",
+          "question": "Que souhaite la famille concernant les hommages ?",
+          "options": {
+            "A": "Recevoir beaucoup de fleurs",
+            "B": "Des dons à une association plutôt que des fleurs",
+            "C": "Une plaque commémorative",
+            "D": "Une cérémonie civique uniquement"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Compréhension de texte administratif"
+        },
+        {
+          "question_id": 21,
+          "text": "INFORMATIONS MÉTÉO - Bulletin du 15 juin\n\nAujourd'hui : Ensoleillé, 25°C, vent faible.\nDemain : Nuageux avec éclaircies, 22°C, risque d'averses l'après-midi.\nWeek-end : Instable, orages possibles samedi après-midi, 20°C. Soleil dimanche.\n\nConseil : Profitez de la matinée de samedi pour vos activités extérieures.",
+          "question": "Quand faut-il prévoir des activités extérieures selon ce bulletin ?",
+          "options": {
+            "A": "Samedi après-midi",
+            "B": "Dimanche matin uniquement",
+            "C": "Samedi matin",
+            "D": "Lundi prochain"
+          },
+          "correct_answer": "C",
+          "skill_tested": "Repérage d'information implicite"
+        },
+        {
+          "question_id": 22,
+          "text": "PROGRAMME DU FESTIVAL DE MUSIQUE\n\nVendredi 20h : Orchestre symphonique - Œuvres de Mozart\nSamedi 18h : Quatuor à cordes - Musique contemporaine\nSamedi 21h : Jazz quartet - Standards du bebop\nDimanche 16h : Chorale enfants - Chants traditionnels\n\nTarifs : 15€ la soirée, 35€ l'abonnement 3 soirées, gratuit moins de 12 ans.",
+          "question": "Quelle information est indiquée dans ce programme ?",
+          "options": {
+            "A": "Le festival dure trois jours",
+            "B": "Tous les concerts sont gratuits",
+            "C": "Il n'y a que de la musique classique",
+            "D": "Les concerts ont lieu en plein air"
+          },
+          "correct_answer": "A",
+          "skill_tested": "Synthèse d'informations multiples"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles, documents de travail.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Madame, Monsieur,\n\nNous accusons réception de votre réservation pour un vol aller-retour Paris-Rome (réf. 4582AZ) du 15 au 22 juin. Le montant total de 289€ a été prélevé sur votre carte Visa se terminant par 1245. Un siège côté hublot vous a été attribué. Pour toute modification, veuillez contacter notre service client au moins 48h avant le départ.\n\nVos billets électroniques sont joints à ce message.\n\nCordialement,\nLe Service Réservations",
+          "question": "D'après ce document :",
+          "options": {
+            "A": "Le vol est annulé",
+            "B": "Le paiement a déjà été effectué",
+            "C": "Le siège n'est pas encore attribué",
+            "D": "Les billets seront envoyés par courrier"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Compréhension de document commercial"
+        },
+        {
+          "question_id": 24,
+          "text": "Madame, Monsieur,\n\nNous accusons réception de votre réservation pour un vol aller-retour Paris-Rome (réf. 4582AZ) du 15 au 22 juin. Le montant total de 289€ a été prélevé sur votre carte Visa se terminant par 1245. Un siège côté hublot vous a été attribué. Pour toute modification, veuillez contacter notre service client au moins 48h avant le départ.\n\nVos billets électroniques sont joints à ce message.\n\nCordialement,\nLe Service Réservations",
+          "question": "L'objectif principal de ce message est de :",
+          "options": {
+            "A": "Proposer une promotion",
+            "B": "Confirmer un achat",
+            "C": "Demander des informations",
+            "D": "Signaler un problème technique"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Identification de l'intention communicative"
+        },
+        {
+          "question_id": 25,
+          "text": "Objet : Invitation séminaire annuel - 15 septembre 2024\n\nMadame Martin,\n\nDans le cadre de notre politique de formation continue, nous avons le plaisir de vous inviter au séminaire annuel de l'entreprise qui se tiendra le 15 septembre prochain au Centre de Congrès de Lyon.\n\nCette journée sera consacrée aux nouvelles stratégies de développement durable et comprendra des ateliers pratiques ainsi qu'une table ronde avec des experts du secteur.\n\nVotre participation étant essentielle pour la mise en œuvre de ces projets, nous vous remercions de confirmer votre présence avant le 1er septembre.\n\nCordialement,\n\nDirection des Ressources Humaines",
+          "question": "Quel est le ton de ce message ?",
+          "options": {
+            "A": "Familier et humoristique",
+            "B": "Formel et professionnel",
+            "C": "Urgent et alarmant",
+            "D": "Critique et réprobatrice"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Analyse du registre de langue"
+        },
+        {
+          "question_id": 26,
+          "text": "Objet : Invitation séminaire annuel - 15 septembre 2024\n\nMadame Martin,\n\nDans le cadre de notre politique de formation continue, nous avons le plaisir de vous inviter au séminaire annuel de l'entreprise qui se tiendra le 15 septembre prochain au Centre de Congrès de Lyon.\n\nCette journée sera consacrée aux nouvelles stratégies de développement durable et comprendra des ateliers pratiques ainsi qu'une table ronde avec des experts du secteur.\n\nVotre participation étant essentielle pour la mise en œuvre de ces projets, nous vous remercions de confirmer votre présence avant le 1er septembre.\n\nCordialement,\n\nDirection des Ressources Humaines",
+          "question": "Que doit faire Madame Martin selon ce message ?",
+          "options": {
+            "A": "Organiser le séminaire elle-même",
+            "B": "Confirmer sa participation avant une date précise",
+            "C": "Présenter un exposé sur le développement durable",
+            "D": "Recruter de nouveaux employés"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Identification des obligations"
+        },
+        {
+          "question_id": 27,
+          "text": "CHOCOCHIC - Communiqué interne\n\nChocoChic vient d'être victime d'une erreur coûteuse, qui a provoqué la démission d'un directeur de branche, d'un directeur marketing et de plusieurs collaborateurs.\n\nL'entreprise avait confié à l'agence Armor un jeu-concours pour doper les ventes de ses produits chocolatés. Or les lots réclamés (tours en hélicoptère, lecteurs MP3, DVD...) ont largement dépassé le nombre prévu par les responsables. Un ticket sur deux serait gagnant, contre un sur dix en moyenne dans ce type de concours. Le règlement aurait omis de limiter, comme c'est l'usage, le nombre de gagnants à un par foyer. Pour mettre fin à l'hémorragie, l'entreprise a pris le parti de modifier, en plein jeu, les règles d'attribution des lots.",
+          "question": "Pour éviter de perdre davantage d'argent, il a été décidé :",
+          "options": {
+            "A": "D'arrêter la vente de certains produits",
+            "B": "De changer les règles en cours de route",
+            "C": "D'annuler définitivement le concours",
+            "D": "De récompenser un gagnant sur deux"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Compréhension de texte professionnel"
+        },
+        {
+          "question_id": 28,
+          "text": "CHOCOCHIC - Communiqué interne\n\nChocoChic vient d'être victime d'une erreur coûteuse, qui a provoqué la démission d'un directeur de branche, d'un directeur marketing et de plusieurs collaborateurs.\n\nL'entreprise avait confié à l'agence Armor un jeu-concours pour doper les ventes de ses produits chocolatés. Or les lots réclamés (tours en hélicoptère, lecteurs MP3, DVD...) ont largement dépassé le nombre prévu par les responsables. Un ticket sur deux serait gagnant, contre un sur dix en moyenne dans ce type de concours. Le règlement aurait omis de limiter, comme c'est l'usage, le nombre de gagnants à un par foyer. Pour mettre fin à l'hémorragie, l'entreprise a pris le parti de modifier, en plein jeu, les règles d'attribution des lots.",
+          "question": "Quelle est la conséquence principale de cette erreur ?",
+          "options": {
+            "A": "Une augmentation des ventes",
+            "B": "Des départs au sein de l'entreprise",
+            "C": "Le lancement d'un nouveau produit",
+            "D": "L'ouverture de nouveaux magasins"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Identification des conséquences"
+        },
+        {
+          "question_id": 29,
+          "text": "L'autopartage connaît un essor remarquable dans les grandes villes françaises. Longtemps perçu comme une solution marginale, il séduit désormais une population urbaine soucieuse de réduire son empreinte écologique tout en maîtrisant son budget transport. Les municipalités y voient un moyen de désengorger les centres-villes et de limiter la pollution. Pourtant, certains experts soulignent que ce système ne résout pas le problème fondamental : la dépendance à la voiture individuelle. Ils pointent aussi le risque de voir les opérateurs privés, attirés par la rentabilité, négliger les quartiers périphériques moins lucratifs.",
+          "question": "Quel avantage de l'autopartage est mentionné pour les municipalités ?",
+          "options": {
+            "A": "Augmenter les recettes fiscales",
+            "B": "Réduire la circulation en centre-ville",
+            "C": "Créer des emplois permanents",
+            "D": "Moderniser les transports en commun"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Repérage d'argument"
+        },
+        {
+          "question_id": 30,
+          "text": "L'autopartage connaît un essor remarquable dans les grandes villes françaises. Longtemps perçu comme une solution marginale, il séduit désormais une population urbaine soucieuse de réduire son empreinte écologique tout en maîtrisant son budget transport. Les municipalités y voient un moyen de désengorger les centres-villes et de limiter la pollution. Pourtant, certains experts soulignent que ce système ne résout pas le problème fondamental : la dépendance à la voiture individuelle. Ils pointent aussi le risque de voir les opérateurs privés, attirés par la rentabilité, négliger les quartiers périphériques moins lucratifs.",
+          "question": "Quelle est la position des experts mentionnés dans le texte ?",
+          "options": {
+            "A": "Ils sont totalement favorables à l'autopartage",
+            "B": "Ils expriment des réserves sur l'efficacité du système",
+            "C": "Ils proposent d'interdire les voitures en ville",
+            "D": "Ils demandent la gratuité totale du service"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Analyse de point de vue"
+        },
+        {
+          "question_id": 31,
+          "text": "Objet : Réunion de service - Compte-rendu\n\nLe 10 juin 2024, s'est tenue la réunion mensuelle du service commercial. Étaient présents : M. Bernard (directeur), Mme Petit (responsable clientèle), et l'ensemble des conseillers commerciaux.\n\nPoints abordés :\n1. Bilan du mois de mai : objectifs dépassés de 12%\n2. Lancement de la nouvelle gamme de produits prévu le 1er juillet\n3. Recrutement d'un nouveau commercial (entretiens la semaine prochaine)\n4. Organisation du séminaire d'été (date à confirmer)\n\nProchaine réunion : 8 juillet 2024 à 14h.\n\nLe Secrétariat",
+          "question": "Quel est le but de ce document ?",
+          "options": {
+            "A": "Annoncer une promotion",
+            "B": "Faire le compte-rendu d'une réunion",
+            "C": "Demander des congés",
+            "D": "Présenter la démission d'un employé"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Identification du genre documentaire"
+        },
+        {
+          "question_id": 32,
+          "text": "Objet : Réunion de service - Compte-rendu\n\nLe 10 juin 2024, s'est tenue la réunion mensuelle du service commercial. Étaient présents : M. Bernard (directeur), Mme Petit (responsable clientèle), et l'ensemble des conseillers commerciaux.\n\nPoints abordés :\n1. Bilan du mois de mai : objectifs dépassés de 12%\n2. Lancement de la nouvelle gamme de produits prévu le 1er juillet\n3. Recrutement d'un nouveau commercial (entretiens la semaine prochaine)\n4. Organisation du séminaire d'été (date à confirmer)\n\nProchaine réunion : 8 juillet 2024 à 14h.\n\nLe Secrétariat",
+          "question": "Quelle information peut-on inférer sur les résultats commerciaux ?",
+          "options": {
+            "A": "Les ventes ont baissé par rapport au mois précédent",
+            "B": "Les objectifs ont été meilleurs que prévu",
+            "C": "Il n'y a eu aucune vente ce mois-ci",
+            "D": "Le service va être supprimé"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Inférence à partir de données chiffrées"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Articles de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques avancés nécessitant une compréhension nuancée et analytique.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "La semaine dernière, le gouvernement a annoncé une réforme majeure du système de retraite, suscitant immédiatement des réactions passionnées de part et d'autre du spectre politique. Si l'exécutif défend ce texte comme une nécessité économique face au vieillissement démographique, les syndicats dénoncent une remise en cause des acquis sociaux. Les oppositions, quant à elles, accusent le gouvernement de précipitation et de manque de concertation. Pourtant, au-delà des postures partisanes, tous s'accordent sur un constat : l'absence de dialogue constructif fragilise notre démocratie.",
+          "question": "Quelle est la position de l'auteur de cet article ?",
+          "options": {
+            "A": "Il soutient totalement la réforme gouvernementale",
+            "B": "Il est neutre mais déplore l'absence de dialogue",
+            "C": "Il critique uniquement l'attitude des syndicats",
+            "D": "Il propose une solution alternative"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Analyse de la position de l'auteur"
+        },
+        {
+          "question_id": 34,
+          "text": "La semaine dernière, le gouvernement a annoncé une réforme majeure du système de retraite, suscitant immédiatement des réactions passionnées de part et d'autre du spectre politique. Si l'exécutif défend ce texte comme une nécessité économique face au vieillissement démographique, les syndicats dénoncent une remise en cause des acquis sociaux. Les oppositions, quant à elles, accusent le gouvernement de précipitation et de manque de concertation. Pourtant, au-delà des postures partisanes, tous s'accordent sur un constat : l'absence de dialogue constructif fragilise notre démocratie.",
+          "question": "Quel est le sujet principal de cet article ?",
+          "options": {
+            "A": "Les élections municipales",
+            "B": "Une réforme des retraites et les réactions qu'elle suscite",
+            "C": "Le vieillissement de la population française",
+            "D": "Les négociations commerciales internationales"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Identification du thème central"
+        },
+        {
+          "question_id": 35,
+          "text": "L'intelligence artificielle transforme notre quotidien à une vitesse vertigineuse, promettant des avancées médicales spectaculaires et une efficacité économique accrue. Pourtant, cette révolution technologique soulève des questions éthiques fondamentales. Qui contrôle ces algorithmes ? Comment garantir la protection de la vie privée face à la collecte massive de données ? Les experts appellent à une régulation internationale urgente, arguant que l'absence de cadre légal laisse le champ libre aux dérives. Entre euphorie technophile et angoisse dystopique, la société doit trouver un équilibre délicat.",
+          "question": "Quel ton l'auteur emploie-t-il pour parler de l'intelligence artificielle ?",
+          "options": {
+            "A": "Uniquement enthousiaste",
+            "B": "Uniquement critique",
+            "C": "Nuancé, présentant avantages et risques",
+            "D": "Indifférent"
+          },
+          "correct_answer": "C",
+          "skill_tested": "Analyse du ton et du registre"
+        },
+        {
+          "question_id": 36,
+          "text": "L'intelligence artificielle transforme notre quotidien à une vitesse vertigineuse, promettant des avancées médicales spectaculaires et une efficacité économique accrue. Pourtant, cette révolution technologique soulève des questions éthiques fondamentales. Qui contrôle ces algorithmes ? Comment garantir la protection de la vie privée face à la collecte massive de données ? Les experts appellent à une régulation internationale urgente, arguant que l'absence de cadre légal laisse le champ libre aux dérives. Entre euphorie technophile et angoisse dystopique, la société doit trouver un équilibre délicat.",
+          "question": "Que recommandent les experts selon l'article ?",
+          "options": {
+            "A": "Arrêter immédiatement tout développement de l'IA",
+            "B": "Créer des lois internationales pour encadrer l'IA",
+            "C": "Augmenter la collecte de données personnelles",
+            "D": "Interdire l'usage médical de l'IA"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Repérage de recommandation"
+        },
+        {
+          "question_id": 37,
+          "text": "Le tourisme de masse, autrefois symbole de progrès et d'ouverture sur le monde, est aujourd'hui vilipendé par les écologistes et les habitants des zones concernées. Venise, Barcelone, Dubrovnik : ces villes étouffent sous les flux incessants de visiteurs, dégradant le cadre de vie local et l'environnement. Pourtant, interdire les touristes serait économiquement suicidaire pour ces territoires dépendants de cette manne financière. La solution réside peut-être dans un tourisme plus responsable, mieux réparti dans le temps et l'espace, où qualité primerait sur quantité.",
+          "question": "Quel problème le texte met-il en avant ?",
+          "options": {
+            "A": "La baisse du tourisme mondial",
+            "B": "Les effets négatifs du tourisme de masse sur certaines villes",
+            "C": "L'interdiction totale du tourisme international",
+            "D": "L'augmentation des prix des transports"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Identification du problème évoqué"
+        },
+        {
+          "question_id": 38,
+          "text": "Le tourisme de masse, autrefois symbole de progrès et d'ouverture sur le monde, est aujourd'hui vilipendé par les écologistes et les habitants des zones concernées. Venise, Barcelone, Dubrovnik : ces villes étouffent sous les flux incessants de visiteurs, dégradant le cadre de vie local et l'environnement. Pourtant, interdire les touristes serait économiquement suicidaire pour ces territoires dépendants de cette manne financière. La solution réside peut-être dans un tourisme plus responsable, mieux réparti dans le temps et l'espace, où qualité primerait sur quantité.",
+          "question": "Quelle solution l'auteur suggère-t-il ?",
+          "options": {
+            "A": "Interdire complètement les touristes étrangers",
+            "B": "Développer un tourisme plus respectueux et mieux distribué",
+            "C": "Augmenter le nombre de visiteurs pour plus de profits",
+            "D": "Fermer les monuments historiques au public"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Identification de la solution proposée"
+        },
+        {
+          "question_id": 39,
+          "text": "Alors que l'obésité touche désormais près d'un adulte sur six dans les pays développés, les politiques de santé publique peinent à trouver des solutions efficaces. Taxer les produits sucrés, interdire la publicité aux enfants, imposer des labels nutritionnels clairs : ces mesures, pourtant recommandées par l'OMS, se heurtent aux lobbies agroalimentaires puissants. Le débat oppose ainsi impératif sanitaire et liberté commerciale, laissant les consommateurs souvent démunis face à une alimentation industrielle conçue pour créer la dépendance. L'éducation nutritionnelle dès l'école apparaît comme une piste essentielle mais insuffisante sans un environnement alimentaire favorable.",
+          "question": "Quel obstacle aux politiques de santé est mentionné ?",
+          "options": {
+            "A": "Le manque d'intérêt des médecins",
+            "B": "L'opposition des lobbies industriels",
+            "C": "La préférence des consommateurs pour les légumes",
+            "D": "L'absence de problème d'obésité"
+          },
+          "correct_answer": "B",
+          "skill_tested": "Repérage d'obstacle/conflit"
+        },
+        {
+          "question_id": 40,
+          "text": "Alors que l'obésité touche désormais près d'un adulte sur six dans les pays développés, les politiques de santé publique peinent à trouver des solutions efficaces. Taxer les produits sucrés, interdire la publicité aux enfants, imposer des labels nutritionnels clairs : ces mesures, pourtant recommandées par l'OMS, se heurtent aux lobbies agroalimentaires puissants. Le débat oppose ainsi impératif sanitaire et liberté commerciale, laissant les consommateurs souvent démunis face à une alimentation industrielle conçue pour créer la dépendance. L'éducation nutritionnelle dès l'école apparaît comme une piste essentielle mais insuffisante sans un environnement alimentaire favorable.",
+          "question": "Quelle est la conclusion implicite de l'auteur ?",
+          "options": {
+            "A": "L'éducation seule ne suffit pas sans changement de l'environnement alimentaire",
+            "B": "Il faut interdire toute publicité alimentaire",
+            "C": "Les consommateurs sont entièrement responsables de leur santé",
+            "D": "L'OMS n'a aucune crédibilité sur ces questions"
+          },
+          "correct_answer": "A",
+          "skill_tested": "Inférence et compréhension implicite"
+        }
+      ]
+    }
+  ],
+  "answer_key": {
+    "Q1": "C",
+    "Q2": "B",
+    "Q3": "C",
+    "Q4": "C",
+    "Q5": "C",
+    "Q6": "C",
+    "Q7": "B",
+    "Q8": "B",
+    "Q9": "A",
+    "Q10": "C",
+    "Q11": "B",
+    "Q12": "A",
+    "Q13": "B",
+    "Q14": "A",
+    "Q15": "C",
+    "Q16": "A",
+    "Q17": "B",
+    "Q18": "B",
+    "Q19": "C",
+    "Q20": "B",
+    "Q21": "C",
+    "Q22": "A",
+    "Q23": "B",
+    "Q24": "B",
+    "Q25": "B",
+    "Q26": "B",
+    "Q27": "B",
+    "Q28": "B",
+    "Q29": "B",
+    "Q30": "B",
+    "Q31": "B",
+    "Q32": "B",
+    "Q33": "B",
+    "Q34": "B",
+    "Q35": "C",
+    "Q36": "B",
+    "Q37": "B",
+    "Q38": "B",
+    "Q39": "B",
+    "Q40": "A"
+  },
+  "scoring_grid": {
+    "raw_score_0": "CLB 4 (0-121 points)",
+    "raw_score_10": "CLB 5 (151-180 points)",
+    "raw_score_20": "CLB 6 (181-206 points)",
+    "raw_score_25": "CLB 7 (207-232 points)",
+    "raw_score_30": "CLB 8 (233-247 points)",
+    "raw_score_35": "CLB 9 (248-262 points)",
+    "raw_score_38": "CLB 10 (263-300 points)"
+  }
+}

@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>TCF Canada Preparation - Coming Soon - BigFrench.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        
+        .gradient-text {
+            background: linear-gradient(90deg, #059669 0%, #10b981 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .blob {
+            position: absolute;
+            filter: blur(80px);
+            z-index: -1;
+            opacity: 0.6;
+            animation: float 10s infinite ease-in-out;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(20px, -20px) scale(1.1); }
+        }
+        
+        .countdown-box {
+            background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+        }
+        
+        /* =================== FOOTER =================== */
+        .footer-root { background: #2a3040; color: #9aa3b2; font-family: 'Inter', sans-serif; }
+        .footer-rainbow { height: 4px; background: linear-gradient(90deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #8b5cf6, #ec4899); }
+        .footer-main { width: 100%; margin: 0 auto; padding: 18px 120px 12px; display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 80px; max-width: 100%; }
+        @media (max-width: 768px) { .footer-main { grid-template-columns: 1fr; gap: 20px; padding: 12px 60px 8px; } }
+        .footer-brand-name { font-size: 13px; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 7px; margin-bottom: 8px; }
+        .footer-brand-icon { width: 24px; height: 24px; background: linear-gradient(135deg, #f97316, #ef4444); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; flex-shrink: 0; }
+        .footer-contact-item { display: flex; align-items: center; gap: 7px; color: #9aa3b2; font-size: 11px; margin-bottom: 6px; text-decoration: none; transition: color 0.2s; }
+        .footer-contact-item:hover { color: #f97316; }
+        .footer-contact-icon { width: 14px; text-align: center; color: #f97316; font-size: 11px; flex-shrink: 0; }
+        .footer-col-title { font-size: 11px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px; }
+        .footer-links { list-style: none; padding: 0; margin: 0; }
+        .footer-links li { margin-bottom: 6px; }
+        .footer-links a { font-size: 12px; color: #f0c040; text-decoration: none; font-weight: 500; transition: color 0.2s, padding-left 0.2s; display: inline-block; }
+        .footer-links a:hover { color: #fff; padding-left: 4px; }
+        .footer-courses a { color: #4ade80 !important; }
+        .footer-courses a:hover { color: #86efac !important; }
+        .footer-bottom { width: 100%; margin: 0; padding: 8px 120px 8px; display: flex; align-items: center; justify-content: center; border-top: 1px solid rgba(255,255,255,0.08); font-size: 11px; color: #6b7280; flex-wrap: wrap; gap: 10px; }
+        @media (max-width: 640px) { .footer-bottom { padding: 8px 60px 8px; } }
+        .footer-legal { display: flex; gap: 20px; flex-wrap: wrap; }
+        .footer-legal a { color: #8b5cf6; font-size: 12.5px; text-decoration: none; transition: color 0.2s; }
+        .footer-legal a:hover { color: #c4b5fd; }
+        .footer-social { display: flex; gap: 12px; margin-top: 12px; }
+        .footer-social a { width: 32px; height: 32px; border-radius: 8px; background: #3f4654; color: #9aa3b2; display: flex; align-items: center; justify-content: center; font-size: 12px; transition: all 0.2s; }
+        .footer-social a:hover { background: #f97316; color: white; }
+    /* ── FOOTER ── */
+        .footer-root { background: #1a2035; color: #9aa3b2; font-family: 'Inter', sans-serif; }
+        .footer-rainbow { height: 4px; background: linear-gradient(90deg, #3b82f6, #6366f1, #8b5cf6, #3b82f6); }
+        .footer-main { width: 100%; margin: 0 auto; padding: 32px 120px 20px; display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 60px; max-width: 100%; }
+        @media (max-width: 768px) { .footer-main { grid-template-columns: 1fr; gap: 28px; padding: 24px 28px 16px; } }
+        .footer-brand-name { font-size: 20px; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 8px; margin-bottom: 6px; letter-spacing: 0; }
+        .footer-brand-icon { width: 36px; height: 36px; background: linear-gradient(135deg, #2563eb, #1d4ed8); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; flex-shrink: 0; box-shadow: 0 4px 12px rgba(37,99,235,0.4); }
+        .footer-dot-com { color: #3b82f6; }
+        .footer-tagline { font-size: 12px; color: #64748b; margin-bottom: 16px; margin-top: 2px; }
+        .footer-contact-item { display: flex; align-items: center; gap: 9px; color: #94a3b8; font-size: 12.5px; margin-bottom: 9px; text-decoration: none; transition: color 0.2s; }
+        .footer-contact-item:hover { color: #3b82f6; }
+        .footer-contact-icon { width: 16px; text-align: center; color: #3b82f6; font-size: 12px; flex-shrink: 0; }
+        .footer-col-title { font-size: 10px; font-weight: 800; color: #fff; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 14px; }
+        .footer-links { list-style: none; padding: 0; margin: 0; }
+        .footer-links li { margin-bottom: 8px; }
+        .footer-links a { font-size: 13px; color: #94a3b8; text-decoration: none; font-weight: 500; transition: color 0.2s, padding-left 0.2s; display: inline-block; }
+        .footer-links a:hover { color: #3b82f6; padding-left: 4px; }
+        .footer-courses a { color: #4ade80 !important; }
+        .footer-courses a:hover { color: #86efac !important; }
+        .footer-bottom { width: 100%; padding: 14px 120px; display: flex; align-items: center; justify-content: center; border-top: 1px solid rgba(255,255,255,0.06); font-size: 11.5px; color: #4b5563; flex-wrap: wrap; gap: 10px; }
+        @media (max-width: 640px) { .footer-bottom { padding: 16px 24px; flex-direction: column; text-align: center; } }
+        .footer-legal { display: flex; gap: 16px; flex-wrap: wrap; }
+        .footer-legal-link { color: #6366f1 !important; font-size: 12.5px; text-decoration: none; transition: color 0.2s; }
+        .footer-legal-link:hover { color: #a5b4fc !important; }
+        .footer-social { display: flex; gap: 8px; margin-top: 20px; }
+        .footer-social a { width: 34px; height: 34px; border-radius: 9px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 13px; text-decoration: none; transition: background 0.2s, color 0.2s, transform 0.2s; }
+        .footer-social a:hover { background: #2563eb; color: white; transform: translateY(-2px); border-color: #2563eb; }
+        /* Floating buttons */
+        .float-whatsapp { position: fixed; bottom: 72px; right: 20px; width: 48px; height: 48px; background: #25d366; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 22px; box-shadow: 0 4px 16px rgba(37,211,102,0.4); text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; z-index: 999; }
+        .float-whatsapp:hover { transform: scale(1.1); box-shadow: 0 8px 24px rgba(37,211,102,0.5); }
+        .float-scroll-top { position: fixed; bottom: 20px; right: 20px; width: 40px; height: 40px; background: #2563eb; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; box-shadow: 0 4px 12px rgba(37,99,235,0.4); cursor: pointer; border: none; transition: transform 0.2s, opacity 0.3s; z-index: 999; opacity: 0; }
+        .float-scroll-top.visible { opacity: 1; }
+        .float-scroll-top:hover { transform: scale(1.1); }
+        </style>
+    <link rel="stylesheet" href="mobile-optimized.css">
+</head>
+<body class="font-sans text-slate-800 bg-white overflow-x-hidden">
+
+    <!-- Navigation -->
+<nav class="fixed w-full z-50 bg-white/90 backdrop-blur-xl border-b border-slate-200/50 shadow-sm transition-all duration-300" id="navbar">
+  <div class="w-full mx-auto px-6 sm:px-8 lg:px-12">
+    <div class="flex items-center justify-between h-20">
+
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-600/30 group-hover:shadow-blue-600/50 transition-all duration-300 group-hover:scale-105">
+          <i class="fas fa-graduation-cap text-lg"></i>
+        </div>
+        <span class="text-xl font-bold text-slate-800 tracking-tight">
+          BigFrench<span class="text-blue-600">.com</span>
+        </span>
+      </a>
+
+      <!-- Center Links -->
+      <div class="hidden lg:flex items-center gap-1">
+
+        <!-- Courses Dropdown -->
+        <div class="relative group">
+          <button class="flex items-center gap-2 px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">
+            Courses
+            <i class="fas fa-chevron-down text-xs transition-transform duration-300 group-hover:rotate-180"></i>
+          </button>
+          <div class="absolute top-full left-0 mt-2 w-80 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+            <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 p-2 overflow-hidden">
+              <a href="tef-canada.html" class="flex items-start gap-4 p-4 rounded-xl hover:bg-gradient-to-r hover:from-blue-50 hover:to-blue-100/50 transition-all duration-300 group/item">
+                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 group-hover/item:bg-blue-600 group-hover/item:text-white transition-all duration-300 shadow-sm">
+                  <i class="fas fa-book text-lg"></i>
+                </div>
+                <div class="flex-1">
+                  <div class="flex items-center gap-2">
+                    <strong class="text-slate-900 font-semibold">TEF Canada</strong>
+                    <span class="px-2 py-0.5 bg-blue-100 text-blue-700 text-[10px] font-bold rounded-full">POPULAR</span>
+                  </div>
+                  <p class="text-xs text-slate-500 mt-1 leading-relaxed">Complete preparation for Test d'Évaluation de Français</p>
+                </div>
+              </a>
+              <div class="h-px bg-slate-100 my-2"></div>
+              <a href="tcf-canada.html" class="flex items-start gap-4 p-4 rounded-xl bg-gradient-to-r from-emerald-50 to-emerald-100/50 transition-all duration-300 group/item relative overflow-hidden">
+                <div class="absolute top-2 right-2 px-2 py-0.5 bg-emerald-100 text-emerald-700 text-[9px] font-bold rounded-full">SOON</div>
+                <div class="w-12 h-12 bg-emerald-600 rounded-xl flex items-center justify-center text-white transition-all duration-300 shadow-sm">
+                  <i class="fas fa-file-alt text-lg"></i>
+                </div>
+                <div class="flex-1">
+                  <strong class="text-slate-900 font-semibold">TCF Canada</strong>
+                  <p class="text-xs text-slate-500 mt-1 leading-relaxed">Test de Connaissance du Français preparation</p>
+                </div>
+              </a>
+              <div class="mt-2 p-3 bg-slate-50 rounded-lg border border-slate-100">
+                <div class="flex items-center justify-between text-xs text-slate-500">
+                  <span class="flex items-center gap-1.5"><i class="fas fa-users text-blue-600"></i> 2,500+ students enrolled</span>
+                  <span class="flex items-center gap-1 text-blue-600 font-medium">View all <i class="fas fa-chevron-right text-[10px]"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#notify" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">Get Notified</a>
+        <a href="#compare" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">TEF vs TCF</a>
+        <a href="tef-canada.html" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">TEF Canada</a>
+        <a href="index.html" class="px-5 py-2.5 text-slate-600 hover:text-blue-700 rounded-full hover:bg-blue-50/80 transition-all duration-300 font-medium text-sm">Home</a>
+      </div>
+
+      <!-- Right Side -->
+      <div class="flex items-center gap-3">
+
+        <!-- LOGIN BUTTON -->
+        <div id="loginBtn">
+          <a href="login.html" class="px-5 py-2.5 text-slate-600 hover:text-blue-600 font-medium text-sm transition-colors duration-300">
+            Sign In
+          </a>
+        </div>
+
+        <!-- USER DROPDOWN -->
+        <div id="userArea" class="relative hidden">
+          <button id="userMenuBtn" type="button" class="flex items-center gap-2 px-3 py-2 bg-white border border-slate-200 rounded-full shadow-sm hover:shadow-md transition-all duration-300">
+            <div id="adminBadge" class="hidden w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white text-xs font-bold shadow-sm">
+              <i class="fas fa-shield-alt text-xs"></i>
+            </div>
+            <div id="userAvatar" class="w-8 h-8 bg-slate-200 rounded-full flex items-center justify-center text-slate-600 text-sm font-semibold">U</div>
+            <span id="userName" class="text-sm font-medium text-slate-700 max-w-[100px] truncate"></span>
+            <i id="userChevron" class="fas fa-chevron-down text-xs text-slate-400 transition-transform duration-300"></i>
+          </button>
+
+          <div id="userMenu" class="hidden absolute right-0 mt-2 w-64 bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden z-50">
+            <div class="p-4 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <div class="font-semibold text-slate-900 text-sm" id="userEmailFull"></div>
+                <span id="adminLabel" class="hidden px-2 py-0.5 bg-purple-100 text-purple-700 text-[10px] font-bold rounded-full">ADMIN</span>
+              </div>
+              <div class="text-xs text-slate-400 mt-0.5" id="userEmailSub"></div>
+            </div>
+            <div class="p-2">
+              <a href="profile.html" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-50 transition-colors duration-200 group">
+                <div class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-500 group-hover:border-blue-400 group-hover:text-blue-600 transition-all duration-200"><i class="far fa-user text-sm"></i></div>
+                <span class="text-sm font-medium text-slate-700">My Profile</span>
+              </a>
+              <a href="dashboard.html" class="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-slate-50 transition-colors duration-200 group">
+                <div class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-500 group-hover:border-blue-400 group-hover:text-blue-600 transition-all duration-200"><i class="fas fa-chart-bar text-sm"></i></div>
+                <span class="text-sm font-medium text-slate-700">Progress Dashboard</span>
+              </a>
+              <a href="admin.html" id="adminDashboardLink" class="hidden flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-purple-50 transition-colors duration-200 group">
+                <div class="w-8 h-8 rounded-full border border-purple-200 flex items-center justify-center text-purple-500 group-hover:border-purple-500 group-hover:bg-purple-500 group-hover:text-white transition-all duration-200"><i class="fas fa-shield-alt text-sm"></i></div>
+                <div class="flex flex-col">
+                  <span class="text-sm font-medium text-purple-700">Admin Dashboard</span>
+                  <span class="text-[10px] text-purple-400">Management Panel</span>
+                </div>
+              </a>
+              <div class="h-px bg-slate-100 my-2"></div>
+              <button onclick="logout()" class="w-full flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-red-50 transition-colors duration-200 group text-left">
+                <div class="w-8 h-8 rounded-full border border-red-200 flex items-center justify-center text-red-500 group-hover:bg-red-500 group-hover:text-white transition-all duration-200"><i class="fas fa-sign-out-alt text-sm"></i></div>
+                <span class="text-sm font-medium text-red-600">Sign Out</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- GET STARTED -->
+        <a href="signup.html" id="signupBtn"
+          class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2.5 rounded-full font-semibold text-sm shadow-lg shadow-blue-600/30 hover:shadow-blue-600/50 hover:scale-105 transition-all duration-300 flex items-center gap-2 group">
+          Get Started
+          <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-300"></i>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="lg:hidden flex items-center">
+        <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="text-slate-600 p-2 hover:text-blue-600 transition"><i class="fas fa-bars text-xl"></i></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Drawer -->
+<div id="mobileDrawer" class="fixed inset-0 z-40 hidden">
+  <div onclick="toggleMobileMenu()" class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+  <div class="absolute top-0 right-0 h-full w-72 bg-white shadow-2xl flex flex-col overflow-y-auto">
+    <div class="flex items-center justify-between p-5 border-b border-slate-100">
+      <span class="font-bold text-slate-800">BigFrench<span class="text-blue-600">.com</span></span>
+      <button onclick="toggleMobileMenu()" class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-500 hover:bg-slate-200 transition">
+        <i class="fas fa-times text-sm"></i>
+      </button>
+    </div>
+    <nav class="flex flex-col p-4 gap-1">
+      <a href="#notify" onclick="toggleMobileMenu()" class="px-4 py-3 rounded-xl text-slate-700 hover:bg-blue-50 hover:text-blue-600 font-medium transition flex items-center gap-3">
+        <i class="fas fa-bell text-orange-400 w-4"></i> Get Notified
+      </a>
+      <div class="h-px bg-slate-100 my-2"></div>
+      <a href="#compare" onclick="toggleMobileMenu()" class="px-4 py-3 rounded-xl text-slate-700 hover:bg-blue-50 hover:text-blue-600 font-medium transition flex items-center gap-3">
+        <i class="fas fa-balance-scale text-orange-400 w-4"></i> TEF vs TCF
+      </a>
+      <a href="tef-canada.html" class="px-4 py-3 rounded-xl text-slate-700 hover:bg-blue-50 hover:text-blue-600 font-medium transition flex items-center gap-3">
+        <i class="fas fa-book text-blue-400 w-4"></i> TEF Canada
+      </a>
+      <a href="index.html" class="px-4 py-3 rounded-xl text-slate-700 hover:bg-blue-50 hover:text-blue-600 font-medium transition flex items-center gap-3">
+        <i class="fas fa-home text-orange-400 w-4"></i> Home
+      </a>
+    </nav>
+    <div class="mt-auto p-4 border-t border-slate-100 space-y-2">
+      <div id="mobileAuthArea"></div>
+      <a href="signup.html" id="mobileSignupBtn" class="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full font-semibold text-sm shadow-lg w-full">
+        Get Started <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<script>
+function toggleMobileMenu() {
+  const drawer = document.getElementById('mobileDrawer');
+  const isOpen = !drawer.classList.contains('hidden');
+  if (isOpen) {
+    drawer.classList.add('hidden');
+    document.body.style.overflow = '';
+  } else {
+    drawer.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    const token = localStorage.getItem('token');
+    const user = JSON.parse(localStorage.getItem('user') || 'null');
+    const mobileAuthArea = document.getElementById('mobileAuthArea');
+    const mobileSignupBtn = document.getElementById('mobileSignupBtn');
+    if (token && user) {
+      const name = user.firstName || user.name || (user.email || '').split('@')[0];
+      const email = user.email || '';
+      mobileAuthArea.innerHTML = `
+        <div class="flex items-center gap-3 px-2 py-2 mb-1">
+          <div class="w-9 h-9 rounded-full bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center text-white font-bold text-sm">${name.charAt(0).toUpperCase()}</div>
+          <div><div class="font-semibold text-slate-800 text-sm">${name}</div><div class="text-slate-400 text-xs truncate max-w-[150px]">${email}</div></div>
+        </div>
+        <a href="dashboard.html" class="flex items-center gap-2 px-4 py-2.5 rounded-xl text-slate-700 hover:bg-slate-50 transition text-sm font-medium"><i class="fas fa-chart-bar text-slate-400 w-4"></i> My Dashboard</a>
+        <button onclick="logout()" class="w-full flex items-center gap-2 px-4 py-2.5 rounded-xl text-red-600 hover:bg-red-50 transition text-sm font-medium text-left"><i class="fas fa-sign-out-alt w-4"></i> Sign Out</button>
+      `;
+      if (mobileSignupBtn) mobileSignupBtn.style.display = 'none';
+    } else {
+      mobileAuthArea.innerHTML = `<a href="login.html" class="flex items-center justify-center gap-2 border-2 border-slate-200 text-slate-600 px-6 py-2.5 rounded-full font-semibold text-sm w-full hover:border-blue-300 hover:text-blue-600 transition">Sign In</a>`;
+      if (mobileSignupBtn) mobileSignupBtn.style.display = 'flex';
+    }
+  }
+}
+</script>
+
+<script>
+(function() {
+  'use strict';
+  const userArea = document.getElementById('userArea');
+  const userMenuBtn = document.getElementById('userMenuBtn');
+  const userMenu = document.getElementById('userMenu');
+  const userChevron = document.getElementById('userChevron');
+  const loginBtn = document.getElementById('loginBtn');
+  const signupBtn = document.getElementById('signupBtn');
+  const adminDashboardLink = document.getElementById('adminDashboardLink');
+  const adminBadge = document.getElementById('adminBadge');
+  const adminLabel = document.getElementById('adminLabel');
+  const userAvatar = document.getElementById('userAvatar');
+  let menuOpen = false;
+  let isAdminUser = false;
+
+  function toggleMenu(e) {
+    if (e) e.stopPropagation();
+    menuOpen = !menuOpen;
+    if (menuOpen) {
+      userMenu.classList.remove('hidden');
+      userChevron.classList.add('rotate-180');
+    } else {
+      userMenu.classList.add('hidden');
+      userChevron.classList.remove('rotate-180');
+    }
+  }
+
+  async function verifyAdminStatus(token) {
+    try {
+      const cachedAdmin = localStorage.getItem('isAdmin');
+      const cacheTime = localStorage.getItem('adminCheckTime');
+      const now = Date.now();
+      if (cachedAdmin && cacheTime && (now - parseInt(cacheTime)) < 3600000) {
+        return cachedAdmin === 'true';
+      }
+      const response = await fetch('http://localhost:5000/api/auth/verify-admin', {
+        method: 'GET',
+        headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }
+      });
+      if (response.ok) {
+        const data = await response.json();
+        isAdminUser = data.isAdmin || false;
+        localStorage.setItem('isAdmin', isAdminUser.toString());
+        localStorage.setItem('adminCheckTime', now.toString());
+        return isAdminUser;
+      }
+    } catch (error) {
+      return checkLocalAdmin();
+    }
+    return false;
+  }
+
+  function checkLocalAdmin() {
+    const user = JSON.parse(localStorage.getItem('user') || '{}');
+    const storedAdmin = localStorage.getItem('isAdmin') === 'true';
+    const adminEmails = ['admin@bigfrench.com', 'superadmin@bigfrench.com'];
+    return storedAdmin || adminEmails.includes((user.email || '').toLowerCase().trim());
+  }
+
+  function updateAdminUI(isAdmin) {
+    if (isAdmin) {
+      if (adminBadge) adminBadge.classList.remove('hidden');
+      if (userAvatar) userAvatar.classList.add('hidden');
+      if (adminLabel) adminLabel.classList.remove('hidden');
+      if (adminDashboardLink) adminDashboardLink.classList.remove('hidden');
+    } else {
+      if (adminBadge) adminBadge.classList.add('hidden');
+      if (userAvatar) userAvatar.classList.remove('hidden');
+      if (adminLabel) adminLabel.classList.add('hidden');
+      if (adminDashboardLink) adminDashboardLink.classList.add('hidden');
+    }
+  }
+
+  async function initAuth() {
+    const token = localStorage.getItem('token');
+    const user = JSON.parse(localStorage.getItem('user') || 'null');
+    if (token && user) {
+      if (loginBtn) loginBtn.style.display = 'none';
+      if (signupBtn) signupBtn.style.display = 'none';
+      if (userArea) {
+        userArea.classList.remove('hidden');
+        const email = user.email || 'user@example.com';
+        const name = user.firstName || user.name || email.split('@')[0];
+        const initials = name.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2);
+        const userEmailFull = document.getElementById('userEmailFull');
+        const userEmailSub = document.getElementById('userEmailSub');
+        const userNameEl = document.getElementById('userName');
+        const userAvatarEl = document.getElementById('userAvatar');
+        if (userEmailFull) userEmailFull.textContent = email;
+        if (userEmailSub) userEmailSub.textContent = email;
+        if (userNameEl) userNameEl.textContent = name;
+        if (userAvatarEl) userAvatarEl.textContent = initials;
+        const isAdmin = await verifyAdminStatus(token);
+        updateAdminUI(isAdmin);
+      }
+    } else {
+      if (loginBtn) loginBtn.style.display = 'block';
+      if (signupBtn) signupBtn.style.display = 'inline-flex';
+      if (userArea) userArea.classList.add('hidden');
+      localStorage.removeItem('isAdmin');
+      localStorage.removeItem('adminCheckTime');
+    }
+  }
+
+  if (userMenuBtn) userMenuBtn.addEventListener('click', toggleMenu);
+  if (userMenu) userMenu.addEventListener('click', function(e) { e.stopPropagation(); });
+  document.addEventListener('click', function(e) {
+    if (menuOpen && userArea && !userArea.contains(e.target)) toggleMenu();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && menuOpen) toggleMenu();
+  });
+
+  initAuth();
+})();
+
+function logout() {
+  localStorage.removeItem('token');
+  localStorage.removeItem('user');
+  localStorage.removeItem('isAdmin');
+  localStorage.removeItem('adminCheckTime');
+  window.location.href = 'index.html';
+}
+</script>
+
+    <!-- Back to Home -->
+    <div class="pt-24 pb-4 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <a href="index.html" class="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 transition text-sm">
+                <i class="fas fa-arrow-left"></i>
+                Back to Home
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero Section - Coming Soon -->
+    <section class="relative py-20 bg-slate-50 overflow-hidden">
+        <div class="blob bg-emerald-200 w-96 h-96 rounded-full top-0 right-0 translate-x-1/2 -translate-y-1/2"></div>
+        <div class="blob bg-orange-200 w-96 h-96 rounded-full bottom-0 left-0 -translate-x-1/2 translate-y-1/2"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 text-emerald-700 text-sm font-semibold mb-6">
+                        <i class="fas fa-file-alt"></i>
+                        📗 TCF Canada Preparation
+                    </div>
+                    
+                    <h1 class="text-5xl lg:text-6xl font-bold text-slate-900 mb-4">
+                        TCF <span class="text-emerald-600">Canada</span>
+                    </h1>
+                    <p class="text-xl text-slate-500 mb-2">Test de Connaissance du Français</p>
+                    
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                        Comprehensive TCF Canada preparation designed for Canadian immigration programs. Achieve your target NCLC score with realistic exam simulations.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-4 mb-8">
+                        <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
+                            <i class="fas fa-clock text-emerald-500"></i>
+                            <span class="font-semibold text-sm">6 Months Access</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
+                            <i class="fas fa-users text-emerald-500"></i>
+                            <span class="font-semibold text-sm">2,500+ Enrolled</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <span class="font-semibold text-sm">4.6/5 Rating</span>
+                        </div>
+                    </div>
+                    
+                    <button onclick="document.getElementById('notify').scrollIntoView({behavior: 'smooth'})" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition flex items-center gap-2">
+                        <i class="fas fa-bell"></i>
+                        Notify Me When Available
+                    </button>
+                </div>
+                
+                <div class="relative" id="csBox" style="cursor:default;">
+                    <div class="bg-white rounded-3xl shadow-2xl p-8 text-center" style="position:relative;overflow:hidden;">
+                        <div class="w-24 h-24 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center text-white text-4xl shadow-lg mx-auto mb-6">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        
+                        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-100 text-orange-700 text-sm font-bold mb-4">
+                            <i class="fas fa-clock"></i>
+                            Coming Soon
+                        </div>
+                        
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">TCF Canada Courses</h3>
+                        <p class="text-slate-600 mb-6">We're working hard to bring you comprehensive TCF Canada preparation courses. Stay tuned for updates!</p>
+                        
+                        <div class="grid grid-cols-3 gap-4 mb-6">
+                            <div class="countdown-box p-4 rounded-xl">
+                                <div class="text-2xl font-bold text-emerald-600" id="days">00</div>
+                                <div class="text-xs text-slate-600">Days</div>
+                            </div>
+                            <div class="countdown-box p-4 rounded-xl">
+                                <div class="text-2xl font-bold text-emerald-600" id="hours">00</div>
+                                <div class="text-xs text-slate-600">Hours</div>
+                            </div>
+                            <div class="countdown-box p-4 rounded-xl">
+                                <div class="text-2xl font-bold text-emerald-600" id="minutes">00</div>
+                                <div class="text-xs text-slate-600">Mins</div>
+                            </div>
+                        </div>
+
+                        <!-- Hover Overlay Popup -->
+                        <div id="csOverlay" style="position:absolute;inset:0;border-radius:24px;background:linear-gradient(135deg,rgba(5,150,105,0.97) 0%,rgba(15,118,110,0.98) 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px;opacity:0;pointer-events:none;transition:opacity 0.3s ease;z-index:10;">
+                            <div style="width:64px;height:64px;background:rgba(255,255,255,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+                                <i class="fab fa-whatsapp" style="font-size:32px;color:white;"></i>
+                            </div>
+                            <div style="font-size:20px;font-weight:800;color:white;margin-bottom:8px;line-height:1.2;">Get Notified on WhatsApp</div>
+                            <p style="font-size:13px;color:rgba(255,255,255,0.85);text-align:center;line-height:1.6;margin-bottom:24px;">Be the first to know when TCF Canada courses launch. We'll send you a message as soon as enrollment opens!</p>
+                            <a href="https://wa.me/19029941800?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TCF%20Canada%20enrollment%20opens!" target="_blank"
+                               style="display:inline-flex;align-items:center;gap:8px;background:white;color:#059669;font-weight:700;font-size:14px;padding:12px 28px;border-radius:50px;text-decoration:none;margin-bottom:12px;box-shadow:0 4px 16px rgba(0,0,0,0.15);">
+                                <i class="fab fa-whatsapp" style="font-size:16px;"></i> Notify Me
+                            </a>
+                            <a href="https://wa.me/19029941800" target="_blank"
+                               style="display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,0.85);font-size:13px;font-weight:600;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.4);padding-bottom:2px;">
+                                <i class="fas fa-comment-dots" style="font-size:11px;"></i> Or chat with us now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    #csBox:hover #csOverlay { opacity: 1 !important; pointer-events: auto !important; }
+                </style>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notify Section -->
+    <section id="notify" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+
+            <style>
+                #notifyCard { position: relative; overflow: hidden; transition: border-color 0.3s, box-shadow 0.3s; }
+                #notifyCard:hover { border-color: #10b981 !important; box-shadow: 0 0 0 4px rgba(16,185,129,0.12), 0 20px 60px rgba(16,185,129,0.15); }
+                #notifyOverlay {
+                    position: absolute; inset: 0; border-radius: 22px;
+                    background: linear-gradient(135deg, rgba(5,150,105,0.97) 0%, rgba(15,118,110,0.98) 100%);
+                    display: flex; flex-direction: column; align-items: center; justify-content: center;
+                    padding: 48px 40px; opacity: 0; pointer-events: none;
+                    transition: opacity 0.35s ease; z-index: 10;
+                }
+                #notifyCard:hover #notifyOverlay { opacity: 1; pointer-events: auto; }
+                @keyframes notifyPing {
+                    0%   { transform: scale(1);   opacity: 0.6; }
+                    100% { transform: scale(1.9); opacity: 0; }
+                }
+            </style>
+
+            <div id="notifyCard" class="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-3xl p-12 border-2 border-emerald-100">
+
+                <!-- Default content -->
+                <div class="w-20 h-20 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center text-white text-3xl shadow-lg mx-auto mb-6">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Get Notified on WhatsApp</h2>
+                <p class="text-slate-600 mb-8 text-lg">Be the first to know when TCF Canada courses launch. We'll send you a message as soon as enrollment opens!</p>
+                <form class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto mb-6" onsubmit="event.preventDefault(); alert('Thank you! We will notify you when TCF Canada is available.');">
+                    <input type="tel" placeholder="Enter your WhatsApp number" class="flex-1 px-6 py-4 rounded-full border border-slate-200 focus:border-emerald-500 focus:outline-none transition" required>
+                    <button type="submit" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-8 py-4 rounded-full font-bold hover:shadow-lg hover:scale-105 transition flex items-center justify-center gap-2">
+                        <i class="fas fa-paper-plane"></i> Notify Me
+                    </button>
+                </form>
+                <a href="https://wa.me/19029941800" class="inline-flex items-center gap-2 text-emerald-600 font-semibold hover:text-emerald-700 transition">
+                    <i class="fab fa-whatsapp"></i> Or chat with us now
+                </a>
+
+                <!-- Hover Overlay -->
+                <div id="notifyOverlay">
+                    <div style="position:relative;margin-bottom:20px;">
+                        <div style="width:72px;height:72px;background:rgba(255,255,255,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;">
+                            <i class="fab fa-whatsapp" style="font-size:36px;color:white;"></i>
+                        </div>
+                        <div style="position:absolute;inset:0;border-radius:50%;background:rgba(255,255,255,0.2);animation:notifyPing 1.5s ease-out infinite;"></div>
+                    </div>
+                    <div style="font-size:24px;font-weight:800;color:white;margin-bottom:10px;">Get Notified on WhatsApp</div>
+                    <p style="font-size:14px;color:rgba(255,255,255,0.88);text-align:center;line-height:1.7;margin-bottom:28px;max-width:380px;">
+                        Be the first to know when TCF Canada courses launch.<br>We'll send you a message as soon as enrollment opens!
+                    </p>
+                    <a href="https://wa.me/19029941800?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TCF%20Canada%20enrollment%20opens!" target="_blank"
+                       style="display:inline-flex;align-items:center;gap:10px;background:white;color:#059669;font-weight:800;font-size:15px;padding:14px 36px;border-radius:50px;text-decoration:none;margin-bottom:14px;box-shadow:0 6px 24px rgba(0,0,0,0.18);transition:transform 0.15s;"
+                       onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <i class="fab fa-whatsapp" style="font-size:18px;color:#22c55e;"></i> Notify Me
+                    </a>
+                    <a href="https://wa.me/19029941800" target="_blank"
+                       style="display:inline-flex;align-items:center;gap:7px;color:rgba(255,255,255,0.85);font-size:13px;font-weight:600;text-decoration:none;padding-bottom:2px;border-bottom:1.5px solid rgba(255,255,255,0.35);transition:color 0.2s;"
+                       onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.85)'">
+                        <i class="fas fa-comment-dots" style="font-size:12px;"></i> Or chat with us now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alternative Course -->
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <p class="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">Start Today</p>
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">Need to Prepare Now?</h2>
+            <p class="text-slate-600 mb-10 text-lg">TEF Canada is fully available and equally recognized by IRCC for Canadian immigration.</p>
+
+            <div class="bg-white border-2 border-blue-200 rounded-3xl p-8 shadow-xl hover:shadow-2xl hover:border-blue-500 transition-all duration-300 group max-w-xl mx-auto">
+                <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center text-white text-2xl shadow-lg mx-auto mb-5 group-hover:scale-110 transition-transform duration-300">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="text-2xl font-bold text-slate-900 mb-2">📘 TEF Canada Course</div>
+                <p class="text-slate-500 mb-6">Same NCLC scoring. Same IRCC recognition. Available right now with 50 mock tests, AI feedback, and expert guidance.</p>
+                <div class="flex flex-wrap justify-center gap-3 mb-6">
+                    <span class="flex items-center gap-1.5 bg-emerald-50 text-emerald-700 px-3 py-1.5 rounded-full text-sm font-semibold border border-emerald-200"><i class="fas fa-check text-xs"></i> IRCC Accepted</span>
+                    <span class="flex items-center gap-1.5 bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-sm font-semibold border border-blue-200"><i class="fas fa-check text-xs"></i> Same NCLC Scoring</span>
+                    <span class="flex items-center gap-1.5 bg-orange-50 text-orange-700 px-3 py-1.5 rounded-full text-sm font-semibold border border-orange-200"><i class="fas fa-check text-xs"></i> Available Now</span>
+                </div>
+                <a href="tef-canada.html" class="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition">
+                    View TEF Canada Plans <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TCF vs TEF Quick Comparison -->
+    <section class="py-20 bg-white" id="compare">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <p class="text-emerald-600 font-bold tracking-widest uppercase text-sm mb-3">Side by Side</p>
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">TCF vs TEF: Quick Comparison</h2>
+                <p class="text-slate-500 text-lg">Both exams are accepted by IRCC. Hover each row to learn more.</p>
+            </div>
+
+            <style>
+                .cmp-table { width: 100%; border-collapse: separate; border-spacing: 0; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 32px rgba(0,0,0,0.08); }
+                .cmp-table thead th { padding: 20px 24px; font-size: 15px; font-weight: 800; }
+                .cmp-table tbody tr { position: relative; cursor: default; }
+                .cmp-table tbody tr td { padding: 16px 24px; font-size: 14px; border-bottom: 1px solid #f1f5f9; transition: background 0.2s; }
+                .cmp-table tbody tr:last-child td { border-bottom: none; }
+                .cmp-table tbody tr:hover td { background: #f8fafc !important; }
+                .cmp-table tbody tr:hover td.tcf-cell { background: #ecfdf5 !important; }
+                .cmp-table tbody tr:hover td.tef-cell { background: #eff6ff !important; }
+
+                /* tooltip */
+                .cmp-tooltip {
+                    display: none;
+                    position: absolute;
+                    bottom: calc(100% + 10px);
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 320px;
+                    background: #0f172a;
+                    color: white;
+                    border-radius: 14px;
+                    padding: 14px 16px;
+                    font-size: 13px;
+                    line-height: 1.6;
+                    z-index: 100;
+                    box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+                    pointer-events: none;
+                    white-space: normal;
+                }
+                .cmp-tooltip::after {
+                    content: '';
+                    position: absolute;
+                    top: 100%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    border: 7px solid transparent;
+                    border-top-color: #0f172a;
+                }
+                .cmp-table tbody tr:hover .cmp-tooltip { display: block; }
+                .cmp-tooltip-title { font-weight: 700; margin-bottom: 5px; display: flex; align-items: center; gap: 6px; }
+                .cmp-tooltip-body { color: #94a3b8; }
+            </style>
+
+            <table class="cmp-table">
+                <thead>
+                    <tr>
+                        <th style="background:#f8fafc;color:#64748b;text-align:left;width:28%;">Feature</th>
+                        <th style="background:linear-gradient(135deg,#059669,#0d9488);color:white;text-align:center;width:36%;">
+                            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+                                <div style="width:36px;height:36px;background:rgba(255,255,255,0.2);border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:4px;">
+                                    <i class="fas fa-file-alt" style="font-size:16px;"></i>
+                                </div>
+                                TCF Canada
+                                <span style="font-size:11px;font-weight:500;color:rgba(255,255,255,0.8);">Test de Connaissance du Français</span>
+                                <span style="font-size:10px;background:rgba(255,255,255,0.2);padding:2px 10px;border-radius:20px;margin-top:2px;">Coming Soon</span>
+                            </div>
+                        </th>
+                        <th style="background:linear-gradient(135deg,#2563eb,#1d4ed8);color:white;text-align:center;width:36%;">
+                            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+                                <div style="width:36px;height:36px;background:rgba(255,255,255,0.2);border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:4px;">
+                                    <i class="fas fa-book" style="font-size:16px;"></i>
+                                </div>
+                                TEF Canada
+                                <span style="font-size:11px;font-weight:500;color:rgba(255,255,255,0.8);">Test d'Évaluation de Français</span>
+                                <span style="font-size:10px;background:rgba(255,255,255,0.2);padding:2px 10px;border-radius:20px;margin-top:2px;">✓ Available Now</span>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <!-- Full Name -->
+                    <tr>
+                        <td style="background:#fafafa;">
+                            <div style="display:flex;align-items:center;gap:10px;">
+                                <div style="width:32px;height:32px;background:#e2e8f0;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                    <i class="fas fa-id-card" style="font-size:12px;color:#64748b;"></i>
+                                </div>
+                                <span style="font-weight:600;color:#374151;">Full Name</span>
+                            </div>
+                        </td>
+                        <td class="tcf-cell" style="background:#f0fdf4;color:#065f46;font-weight:500;text-align:center;">Test de Connaissance du Français</td>
+                        <td class="tef-cell" style="background:#eff6ff;color:#1e40af;font-weight:500;text-align:center;">Test d'Évaluation de Français</td>
+                        <div class="cmp-tooltip">
+                            <div class="cmp-tooltip-title"><i class="fas fa-info-circle" style="color:#34d399;"></i> About the Names</div>
+                            <div class="cmp-tooltip-body">Both are official French proficiency tests recognized for Canadian immigration. Names reflect their administering organizations and testing approach.</div>
+                        </div>
+                    </tr>
+
+                    <!-- Administered By -->
+                    <tr>
+                        <td style="background:#fafafa;">
+                            <div style="display:flex;align-items:center;gap:10px;">
+                                <div style="width:32px;height:32px;background:#e2e8f0;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                    <i class="fas fa-university" style="font-size:12px;color:#64748b;"></i>
+                                </div>
+                                <span style="font-weight:600;color:#374151;">Administered By</span>
+                            </div>
+                        </td>
+                        <td class="tcf-cell" style="background:#f0fdf4;color:#065f46;font-weight:500;text-align:center;">France Éducation International</td>
+                        <td class="tef-cell" style="background:#eff6ff;color:#1e40af;font-weight:500;text-align:center;">CCI Paris Île-de-France</td>
+                        <div class="cmp-tooltip">
+                            <div class="cmp-tooltip-title"><i class="fas fa-university" style="color:#60a5fa;"></i> Administering Bodies</div>
+                            <div class="cmp-tooltip-body">TCF is run by France Éducation International (a French government body). TEF is managed by CCI Paris Île-de-France, a chamber of commerce. Both are fully IRCC accredited.</div>
+                        </div>
+                    </tr>
+
+                    <!-- IRCC Accepted -->
+                    <tr>
+                        <td style="background:#fafafa;">
+                            <div style="display:flex;align-items:center;gap:10px;">
+                                <div style="width:32px;height:32px;background:#e2e8f0;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                    <i class="fas fa-passport" style="font-size:12px;color:#64748b;"></i>
+                                </div>
+                                <span style="font-weight:600;color:#374151;">IRCC Accepted</span>
+                            </div>
+                        </td>
+                        <td class="tcf-cell" style="background:#f0fdf4;text-align:center;">
+                            <span style="display:inline-flex;align-items:center;gap:6px;color:#059669;font-weight:700;">
+                                <i class="fas fa-check-circle" style="font-size:16px;"></i> Yes
+                            </span>
+                        </td>
+                        <td class="tef-cell" style="background:#eff6ff;text-align:center;">
+                            <span style="display:inline-flex;align-items:center;gap:6px;color:#2563eb;font-weight:700;">
+                                <i class="fas fa-check-circle" style="font-size:16px;"></i> Yes
+                            </span>
+                        </td>
+                        <div class="cmp-tooltip">
+                            <div class="cmp-tooltip-title"><i class="fas fa-passport" style="color:#fbbf24;"></i> Immigration Recognized</div>
+                            <div class="cmp-tooltip-body">Both TCF Canada and TEF Canada are fully accepted by IRCC for Express Entry, PNP, and family sponsorship applications.</div>
+                        </div>
+                    </tr>
+
+                    <!-- Listening Duration -->
+                    <tr>
+                        <td style="background:#fafafa;">
+                            <div style="display:flex;align-items:center;gap:10px;">
+                                <div style="width:32px;height:32px;background:#e2e8f0;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                    <i class="fas fa-headphones" style="font-size:12px;color:#64748b;"></i>
+                                </div>
+                                <span style="font-weight:600;color:#374151;">Listening Duration</span>
+                            </div>
+                        </td>
+                        <td class="tcf-cell" style="background:#f0fdf4;color:#065f46;font-weight:500;text-align:center;">25 min · 29 questions</td>
+                        <td class="tef-cell" style="background:#eff6ff;color:#1e40af;font-weight:500;text-align:center;">40 min · 60 questions</td>
+                        <div class="cmp-tooltip">
+                            <div class="cmp-tooltip-title"><i class="fas fa-headphones" style="color:#34d399;"></i> Listening Test</div>
+                            <div class="cmp-tooltip-body">TCF is faster with fewer questions — great if you prefer shorter tests. TEF has more exposure with 60 questions over 40 minutes.</div>
+                        </div>
+                    </tr>
+
+                    <!-- Best For -->
+                    <tr>
+                        <td style="background:#fafafa;">
+                            <div style="display:flex;align-items:center;gap:10px;">
+                                <div style="width:32px;height:32px;background:#e2e8f0;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                    <i class="fas fa-bullseye" style="font-size:12px;color:#64748b;"></i>
+                                </div>
+                                <span style="font-weight:600;color:#374151;">Best For</span>
+                            </div>
+                        </td>
+                        <td class="tcf-cell" style="background:#f0fdf4;color:#065f46;font-weight:500;text-align:center;">Faster, shorter test format</td>
+                        <td class="tef-cell" style="background:#eff6ff;color:#1e40af;font-weight:500;text-align:center;">More practice questions</td>
+                        <div class="cmp-tooltip">
+                            <div class="cmp-tooltip-title"><i class="fas fa-lightbulb" style="color:#fbbf24;"></i> Which Should You Choose?</div>
+                            <div class="cmp-tooltip-body">TCF is ideal if you want a quicker exam. TEF Canada is better if you prefer more question exposure — and it's available right now!</div>
+                        </div>
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <!-- Bottom CTA -->
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-gradient-to-br from-emerald-50 to-teal-50 border-2 border-emerald-200 rounded-2xl p-6 flex items-center gap-4 hover:shadow-lg hover:border-emerald-400 transition-all duration-300 group">
+                    <div class="w-14 h-14 bg-emerald-100 group-hover:bg-emerald-500 rounded-2xl flex items-center justify-center flex-shrink-0 transition-all duration-300"><i class="fas fa-bell text-emerald-600 group-hover:text-white text-xl transition-all duration-300"></i></div>
+                    <div>
+                        <div class="font-bold text-slate-900">TCF Canada — Coming Soon</div>
+                        <div class="text-sm text-slate-500 mt-0.5">Get notified when enrollment opens</div>
+                        <a href="#notify" class="mt-2 inline-flex items-center gap-1 text-emerald-600 font-semibold text-sm hover:gap-2 transition-all">Notify Me <i class="fas fa-arrow-right text-xs"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100/50 border-2 border-blue-200 rounded-2xl p-6 flex items-center gap-4 hover:shadow-lg hover:border-blue-500 transition-all duration-300 group">
+                    <div class="w-14 h-14 bg-blue-100 group-hover:bg-blue-600 rounded-2xl flex items-center justify-center flex-shrink-0 transition-all duration-300"><i class="fas fa-book text-blue-600 group-hover:text-white text-xl transition-all duration-300"></i></div>
+                    <div>
+                        <div class="font-bold text-slate-900">TEF Canada — Available Now</div>
+                        <div class="text-sm text-slate-500 mt-0.5">Start preparing today, same IRCC recognition</div>
+                        <a href="tef-canada.html" class="mt-2 inline-flex items-center gap-1 text-blue-600 font-semibold text-sm hover:gap-2 transition-all">View TEF Plans <i class="fas fa-arrow-right text-xs"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Compact Spread Footer -->
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer-root">
+  <div class="footer-rainbow"></div>
+
+  <div class="footer-main">
+    <!-- Brand + Contact -->
+    <div>
+      <div class="footer-brand-name">
+        <div class="footer-brand-icon"><i class="fas fa-graduation-cap"></i></div>
+        <span style="letter-spacing:0;">BigFrench<span class="footer-dot-com">.com</span></span>
+      </div>
+      <p class="footer-tagline">Master your French exam with BigFrench.</p>
+
+      <a href="aboutus.html#contact" class="footer-contact-item">
+        <span class="footer-contact-icon"><i class="fas fa-envelope"></i></span>
+        bigfrench.help@gmail.com
+      </a>
+      <!-- <a href="tel:+19029941800" class="footer-contact-item">
+        <span class="footer-contact-icon"><i class="fas fa-phone"></i></span>
+        +1 (902) 994-1800
+      </a> -->
+      <a href="aboutus.html#contact" class="footer-contact-item">
+        <span class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+        Toronto, Canada
+      </a>
+
+      <div class="footer-social">
+        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/19029941800" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="tef-canada.html">TEF Canada</a></li>
+        <li><a href="tcf-canada.html">TCF Canada</a></li>
+        <li><a href="dashboard.html">Mock Tests</a></li>
+        <li><a href="aboutus.html#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Legal + Courses -->
+    <div>
+      <div class="footer-col-title">Courses</div>
+      <ul class="footer-links footer-courses">
+        <li><a href="dashboard.html">Mock Tests</a></li>
+        <li><a href="tef-canada.html">TEF Plans</a></li>
+        <li><a href="tcf-canada.html">TCF Plans</a></li>
+      </ul>
+
+      <div style="margin-top:24px;">
+        <div class="footer-col-title">Legal</div>
+        <div class="footer-legal" style="flex-direction:column; gap:8px;">
+          <a href="legal.html#terms" class="footer-legal-link">Terms of Service</a>
+          <a href="legal.html#privacy" class="footer-legal-link">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Disclaimer -->
+  <div style="width:100%; padding: 0 120px 16px; max-width:100%; box-sizing:border-box;">
+    <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 14px;">
+      <p style="font-size: 10.5px; color: #6b7280; line-height: 1.7; margin: 0; text-align: center;">
+        BigFrench.com is an independent educational platform providing preparation resources and coaching for French language proficiency examinations. It is not affiliated with, endorsed by, sponsored by, or officially connected with Immigration, Refugees and Citizenship Canada (IRCC), Chambre de commerce et d&#39;industrie de Paris Île-de-France, the official administrator of the Test d&#39;évaluation de français (TEF), or France Éducation international, the official administrator of the Test de connaissance du français (TCF). TEF® and TCF® are registered trademarks of their respective owners.
+      </p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 BigFrench.com · Skyspire Academy Private Limited · All Rights Reserved</span>
+  </div>
+</footer>
+
+  
+
+    <!-- WhatsApp Floating Popup -->
+    <style>
+        #waPopupCard {
+            position: fixed;
+            bottom: 90px;
+            right: 24px;
+            width: 300px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.18), 0 4px 16px rgba(0,0,0,0.10);
+            border: 1px solid #e2e8f0;
+            padding: 20px;
+            z-index: 9999;
+            display: none;
+            flex-direction: column;
+            gap: 0;
+            animation: waPop 0.25s cubic-bezier(0.34,1.56,0.64,1) forwards;
+        }
+        #waPopupCard.show { display: flex; }
+        @keyframes waPop {
+            from { opacity: 0; transform: scale(0.85) translateY(16px); }
+            to   { opacity: 1; transform: scale(1) translateY(0); }
+        }
+        /* Arrow */
+        #waPopupCard::after {
+            content: '';
+            position: absolute;
+            bottom: -9px;
+            right: 28px;
+            width: 16px;
+            height: 16px;
+            background: #fff;
+            border-right: 1px solid #e2e8f0;
+            border-bottom: 1px solid #e2e8f0;
+            transform: rotate(45deg);
+        }
+        #waFloatBtn {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 56px;
+            height: 56px;
+            background: #22c55e;
+            border-radius: 50%;
+            box-shadow: 0 8px 24px rgba(34,197,94,0.45);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 26px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            z-index: 9999;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        #waFloatBtn:hover { transform: scale(1.1); box-shadow: 0 12px 32px rgba(34,197,94,0.55); }
+        #waFloatBtn .wa-ping {
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            background: rgba(74, 222, 128, 0.45);
+            animation: waPing 1.6s ease-out infinite;
+        }
+        @keyframes waPing {
+            0%   { transform: scale(1);   opacity: 0.7; }
+            100% { transform: scale(1.7); opacity: 0; }
+        }
+        #waBadge {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            width: 16px;
+            height: 16px;
+            background: #ef4444;
+            border-radius: 50%;
+            border: 2px solid white;
+            font-size: 8px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+        }
+    </style>
+
+    <!-- Popup Card -->
+    <div id="waPopupCard">
+        <!-- Close -->
+        <button onclick="closeWaPopup()" style="position:absolute;top:12px;right:12px;width:24px;height:24px;border-radius:50%;background:#f1f5f9;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#94a3b8;font-size:12px;transition:background 0.2s;" onmouseover="this.style.background='#e2e8f0'" onmouseout="this.style.background='#f1f5f9'">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <!-- Icon + Title -->
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+            <div style="width:42px;height:42px;background:#22c55e;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-size:20px;flex-shrink:0;box-shadow:0 4px 12px rgba(34,197,94,0.35);">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <div>
+                <div style="font-weight:700;color:#0f172a;font-size:14px;line-height:1.3;">Get Notified on WhatsApp</div>
+                <div style="font-size:11px;color:#94a3b8;margin-top:2px;">TCF Canada Launch Alert</div>
+            </div>
+        </div>
+
+        <!-- Description -->
+        <p style="font-size:12.5px;color:#64748b;line-height:1.6;margin:0 0 16px 0;">
+            Be the first to know when TCF Canada courses launch. We'll send you a message as soon as enrollment opens!
+        </p>
+
+        <!-- Notify Me Button -->
+        <a href="https://wa.me/19029941800?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TCF%20Canada%20enrollment%20opens!" target="_blank"
+           style="display:flex;align-items:center;justify-content:center;gap:8px;background:#22c55e;color:white;font-weight:700;font-size:13px;padding:11px 16px;border-radius:12px;text-decoration:none;margin-bottom:8px;transition:background 0.2s,transform 0.15s;box-shadow:0 3px 10px rgba(34,197,94,0.3);"
+           onmouseover="this.style.background='#16a34a';this.style.transform='scale(1.02)'" onmouseout="this.style.background='#22c55e';this.style.transform='scale(1)'">
+            <i class="fab fa-whatsapp"></i> Notify Me
+        </a>
+
+        <!-- Chat link -->
+        <a href="https://wa.me/19029941800" target="_blank"
+           style="display:flex;align-items:center;justify-content:center;gap:6px;border:1.5px solid #e2e8f0;color:#475569;font-size:12px;font-weight:600;padding:9px 16px;border-radius:12px;text-decoration:none;transition:border-color 0.2s,color 0.2s;"
+           onmouseover="this.style.borderColor='#22c55e';this.style.color='#16a34a'" onmouseout="this.style.borderColor='#e2e8f0';this.style.color='#475569'">
+            <i class="fas fa-comment-dots" style="font-size:11px;"></i> Or chat with us now
+        </a>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <button id="waFloatBtn" onclick="toggleWaPopup()" aria-label="Get notified on WhatsApp">
+        <span class="wa-ping"></span>
+        <i class="fab fa-whatsapp"></i>
+        <span id="waBadge">1</span>
+    </button>
+
+    <script>
+        var waOpen = false;
+        var waDismissed = false;
+
+        function toggleWaPopup() {
+            waOpen = !waOpen;
+            var card = document.getElementById('waPopupCard');
+            var badge = document.getElementById('waBadge');
+            if (waOpen) {
+                card.classList.add('show');
+                if (badge) badge.style.display = 'none';
+                waDismissed = false;
+            } else {
+                card.classList.remove('show');
+            }
+        }
+
+        function closeWaPopup() {
+            waOpen = false;
+            waDismissed = true;
+            document.getElementById('waPopupCard').classList.remove('show');
+        }
+
+        // Auto-open after 3.5 seconds
+        setTimeout(function() {
+            if (!waDismissed && !waOpen) {
+                waOpen = true;
+                document.getElementById('waPopupCard').classList.add('show');
+                var badge = document.getElementById('waBadge');
+                if (badge) badge.style.display = 'none';
+            }
+        }, 3500);
+
+        // Close on outside click
+        document.addEventListener('click', function(e) {
+            var card = document.getElementById('waPopupCard');
+            var btn  = document.getElementById('waFloatBtn');
+            if (waOpen && !card.contains(e.target) && !btn.contains(e.target)) {
+                waOpen = false;
+                card.classList.remove('show');
+            }
+        });
+    </script>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Countdown Timer (set to 30 days from now)
+        const launchDate = new Date();
+        launchDate.setDate(launchDate.getDate() + 30);
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = launchDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+            document.getElementById('days').textContent = String(days).padStart(2, '0');
+            document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+            document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('shadow-md');
+                navbar.style.background = 'rgba(255,255,255,0.98)';
+            } else {
+                navbar.classList.remove('shadow-md');
+                navbar.style.background = 'rgba(255,255,255,0.90)';
+            }
+        });
+    </script>
+    <script src="js/authGuard.js"></script>
+    <script src="js/authGuard.js"></script>
+</body>
+</html>

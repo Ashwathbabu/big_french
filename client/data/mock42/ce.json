@@ -1,0 +1,565 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AVIS IMPORTANT AUX RÉSIDENTS\n\nLe syndicat de copropriété informe tous les occupants de l'immeuble que des travaux de rénovation de l'ascenseur principal débuteront le lundi 15 mars 2026. Ces travaux dureront environ trois semaines. Pendant cette période, l'ascenseur sera complètement hors service. Les résidents des étages supérieurs sont priés d'utiliser l'ascenseur de service situé à l'arrière du bâtiment. Nous vous demandons de bien vouloir nous excuser pour la gêne occasionnée. Pour toute question, merci de contacter la conciergerie au 01 23 45 67 89.",
+          "question": "Quelle est la durée prévue des travaux ?",
+          "options": {
+            "A": "Une semaine",
+            "B": "Deux semaines",
+            "C": "Trois semaines",
+            "D": "Un mois"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 2,
+          "text": "RESTAURANT LE PETIT BISTROT\nMENU DU JOUR - Mardi 24 février 2026\n\nEntrées au choix :\n• Soupe à l'oignon gratinée\n• Salade de chèvre chaud aux noix\n\nPlats principaux :\n• Filet de saumon sauce hollandaise, riz pilaf\n• Magret de canard aux cerises, purée de pommes de terre\n\nDesserts :\n• Crème brûlée à la vanille\n• Tarte tatin avec crème fraîche\n\nPrix : 24,90 € (entrée + plat + dessert)\nService continu de 12h à 14h30 et de 19h à 22h.\nRéservation recommandée.",
+          "question": "Quel plat contient de la viande rouge ?",
+          "options": {
+            "A": "Le saumon",
+            "B": "Le magret de canard",
+            "C": "La soupe à l'oignon",
+            "D": "La salade de chèvre"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 3,
+          "text": "MÉDIATHÈQUE MUNICIPALE JEAN-JACQUES ROUSSEAU\n\nNOUVEAUX HORAIRES À COMPTER DU 1er MARS 2026\n\nLundi : fermé\nMardi : 10h00 - 18h00\nMercredi : 10h00 - 18h00\nJeudi : 12h00 - 20h00\nVendredi : 10h00 - 18h00\nSamedi : 9h00 - 17h00\nDimanche : fermé\n\nAttention : La médiathèque sera exceptionnellement fermée le samedi 8 mars pour cause d'inventaire annuel. Les retours de documents peuvent se faire à tout moment dans la boîte prévue à cet effet, située à l'entrée principale. Les adhérents peuvent emprunter jusqu'à 8 documents pour une durée de 3 semaines.",
+          "question": "Quel jour la médiathèque ferme le plus tard ?",
+          "options": {
+            "A": "Le mardi",
+            "B": "Le mercredi",
+            "C": "Le jeudi",
+            "D": "Le samedi"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 4,
+          "text": "APPEL À BÉNÉVOLES\n\nL'association Les Petits Cœurs recherche des volontaires pour accompagner des personnes âgées isolées dans la région de Montréal. Vos missions : visiter régulièrement les seniors chez eux, faire les courses avec eux, ou simplement discuter autour d'un café. Profil recherché : personne patiente, à l'écoute, disponible minimum 4 heures par semaine. Aucune qualification particulière n'est requise, une formation sera dispensée. Si vous souhaitez contribuer à rompre la solitude de nos aînés, contactez-nous au 514-555-0123 ou par email à benevoles@petitscoeurs.ca. Ensemble, construisons des liens intergénérationnels solides !",
+          "question": "Quelle qualité est essentielle pour ce bénévolat ?",
+          "options": {
+            "A": "Avoir un diplôme médical",
+            "B": "Être patient et à l'écoute",
+            "C": "Parler plusieurs langues",
+            "D": "Avoir une voiture"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 5,
+          "text": "INSTRUCTIONS DE LAVAGE\n\nArticle : Pull en laine mérinos\n\nComposition : 100% laine mérinos\n\nConseils d'entretien :\nLaver à la main à l'eau tiède (30°C maximum) avec un détergent doux spécial laine. Ne pas utiliser d'assouplissant. Ne pas frotter vigoureusement. Rincer abondamment à l'eau claire. Ne pas essorer : presser délicatement pour éliminer l'excès d'eau. Sécher à plat sur une serviette propre, à l'abri de la lumière directe du soleil. Ne pas suspendre pour éviter la déformation. Repassage interdit. Nettoyage à sec possible avec solvants appropriés.\n\nFabriqué en Italie.",
+          "question": "Que faut-il éviter lors du séchage de ce vêtement ?",
+          "options": {
+            "A": "Utiliser une serviette",
+            "B": "Le suspendre",
+            "C": "Le mettre à plat",
+            "D": "L'exposer au soleil"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "text": "ANNONCE IMMOBILIÈRE\n\nÀ LOUER - Grand studio meublé\n\nSitué dans le quartier animé du Plateau-Mont-Royal, ce charmant studio de 35 m² offre tout le confort nécessaire pour une personne seule ou un couple. Il comprend une pièce principale avec cuisine équipée (réfrigérateur, plaques de cuisson, micro-ondes), une salle de bain avec douche, et un balcon privé donnant sur une rue tranquille. Le chauffage, l'électricité et l'Internet haute vitesse sont inclus dans le loyer. À proximité immédiate : métro Mont-Royal, épiceries, cafés et parc La Fontaine. Disponible immédiatement. Loyer mensuel : 950 $. Caution : un mois de loyer. Contact : Mme Tremblay au 514-999-4567.",
+          "question": "Quel service est inclus dans le loyer ?",
+          "options": {
+            "A": "Le stationnement",
+            "B": "L'Internet",
+            "C": "Le ménage hebdomadaire",
+            "D": "La télévision par câble"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "text": "PROGRAMME DE LA JOURNÉE PORTES OUVERTES\nÉCOLE PRIMAIRE SAINTE-ANNE\nSamedi 14 mars 2026\n\n9h00 - Accueil des familles dans la cour de récréation\n9h30 - Présentation de l'équipe pédagogique par la directrice\n10h00 - Visite guidée des classes et des installations\n11h00 - Ateliers participatifs pour les enfants (arts plastiques, musique, robotique)\n12h00 - Pique-nique partagé sur la pelouse (apportez votre panier repas)\n14h00 - Spectacle préparé par les élèves\n15h30 - Session de questions-réponses avec les enseignants\n16h30 - Clôture et distribution de brochures informatives\n\nParking disponible rue des Écoles. Entrée libre et gratuite.",
+          "question": "À quelle heure commence le spectacle des élèves ?",
+          "options": {
+            "A": "11h00",
+            "B": "12h00",
+            "C": "14h00",
+            "D": "15h30"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Marie ______ (1) à la bibliothèque tous les samedis matins. Elle y ______ (2) des romans policiers et des essais littéraires. La semaine dernière, elle ______ (3) un livre fascinant sur l'histoire du Québec. Elle l'a ______ (4) en seulement trois jours tellement il était captivant. Aujourd'hui, elle ______ (5) le rendre pour en emprunter un autre. La bibliothécaire, qui la ______ (6) bien, lui a recommandé un nouveau thriller. Marie ______ (7) toujours ses lectures avec enthousiasme. Elle trouve que lire est la meilleure façon ______ (8) s'évader du quotidien. Ses amis lui ______ (9) souvent de prêter ses livres, mais elle préfère les garder pour les relire. Elle ______ (10) déjà plus de cent livres dans sa collection personnelle.",
+          "options": {
+            "A": "1. va, 2. emprunte, 3. a découvert, 4. lu, 5. doit, 6. connaît, 7. partage, 8. de, 9. demandent, 10. possède",
+            "B": "1. allait, 2. empruntait, 3. découvrait, 4. liseait, 5. devait, 6. connaissait, 7. partageait, 8. pour, 9. demandaient, 10. possédait",
+            "C": "1. ira, 2. empruntera, 3. découvrira, 4. lira, 5. devra, 6. connaîtra, 7. partagera, 8. à, 9. demanderont, 10. possédera",
+            "D": "1. est allée, 2. a emprunté, 3. découvre, 4. lisait, 5. a dû, 6. a connu, 7. a partagé, 8. par, 9. ont demandé, 10. a possédé"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 9,
+          "text": "Le changement climatique ______ (1) de plus en plus préoccupant pour les scientifiques du monde entier. Les températures ______ (2) de manière alarmante depuis plusieurs décennies. Si nous n'________ (3) pas agir rapidement, les conséquences ______ (4) irréversibles. Les gouvernements doivent ______ (5) des mesures concrètes pour réduire les émissions de gaz à effet de serre. Chaque citoyen peut également ______ (6) sa part en adoptant des gestes simples au quotidien. ______ (7) exemple, privilégier les transports en commun ______ (8) la voiture particulière fait une grande différence. De même, réduire sa consommation de viande ______ (9) bénéfique pour la planète. L'avenir de notre planète ______ (10) entre nos mains.",
+          "options": {
+            "A": "1. devient, 2. augmentent, 3. commençons, 4. seront, 5. prendre, 6. faire, 7. Par, 8. à, 9. est, 10. se trouve",
+            "B": "1. devenait, 2. augmentaient, 3. commencions, 4. seraient, 5. prenant, 6. faisant, 7. Pour, 8. contre, 9. était, 10. trouvait",
+            "C": "1. est devenu, 2. ont augmenté, 3. avons commencé, 4. ont été, 5. pris, 6. fait, 7. En, 8. avec, 9. a été, 10. a trouvé",
+            "D": "1. devenu, 2. augmenté, 3. commencerons, 4. être, 5. prennent, 6. font, 7. Dans, 8. sur, 9. soit, 10. trouvent"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 10,
+          "text": "Sophie ______ (1) infirmière depuis plus de vingt ans. Elle ______ (2) toujours aimé prendre soin des autres. Son travail est ______ (3) épuisant que gratifiant. Chaque jour, elle ______ (4) de nombreux patients à l'hôpital. Elle doit ______ (5) attentive à leurs besoins et à leur confort. Malgré la fatigue, elle ______ (6) jamais son sourire. Ses collèques l'________ (7) pour sa patience et son dévouement. La semaine dernière, elle ______ (8) recevoir un prix pour son engagement. Cette reconnaissance l'a beaucoup ______ (9). Elle ______ (10) continuer à exercer ce métier passionnant encore de nombreuses années.",
+          "options": {
+            "A": "1. est, 2. a, 3. aussi, 4. soigne, 5. être, 6. ne perd, 7. admirent, 8. a pu, 9. touchée, 10. espère",
+            "B": "1. était, 2. avait, 3. tellement, 4. soignait, 5. être, 6. perdait, 7. admiraient, 8. pouvait, 9. touchait, 10. espérait",
+            "C": "1. sera, 2. aura, 3. autant, 4. soignera, 5. sera, 6. perdra, 7. admireront, 8. pourra, 9. touchera, 10. espérera",
+            "D": "1. a été, 2. a eu, 3. plus, 4. a soigné, 5. a été, 6. a perdu, 7. ont admiré, 8. a dû, 9. a touché, 10. a espéré"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 11,
+          "text": "La technologie ______ (1) transformé notre façon de communiquer. Auparavant, les gens ______ (2) des lettres qui mettaient des jours à arriver. Aujourd'hui, un simple message ______ (3) parvient instantanément n'importe où dans le monde. Les réseaux sociaux ______ (4) permis de rester en contact avec des amis éloignés. Cependant, cette évolution ______ (5) aussi ses inconvénients. Beaucoup de jeunes ______ (6) du mal à se concentrer sans leur téléphone. Il est important ______ (7) trouver un équilibre entre vie numérique et vie réelle. Les experts ______ (8) de plus en plus sur les risques de la dépendance aux écrans. Les parents doivent ______ (9) leurs enfants à utiliser la technologie de manière responsable. L'essentiel est de ______ (10) maître de ces outils plutôt que d'en être esclave.",
+          "options": {
+            "A": "1. a, 2. écrivaient, 3. électronique, 4. ont, 5. présente, 6. ont, 7. de, 8. mettent en garde, 9. apprendre, 10. rester",
+            "B": "1. avait, 2. ont écrit, 3. électrique, 4. avaient, 5. présentait, 6. avaient, 7. à, 8. mettaient en garde, 9. apprenaient, 10. restait",
+            "C": "1. aura, 2. écriront, 3. électroniques, 4. auront, 5. présentera, 6. auront, 7. pour, 8. mettront en garde, 9. apprendront, 10. restera",
+            "D": "1. est, 2. écrivent, 3. électriques, 4. sont, 5. présentent, 6. sont, 7. par, 8. mettent, 9. apprennent, 10. restent"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 12,
+          "text": "Le marché ______ (1) producteurs locaux se tient chaque dimanche matin sur la place du village. Les agriculteurs ______ (2) leurs stands dès 7 heures du matin. On y ______ (3) des fruits et légumes frais, mais aussi du fromage, du miel et des confitures artisanales. Les prix sont souvent ______ (4) élevés qu'en grande surface, mais la qualité est ______ (5) supérieure. Les consommateurs apprécient de ______ (6) directement avec ceux qui produisent leur nourriture. Cette proximité ______ (7) confiance et favorise les échanges conviviaux. ______ (8) temps, ces marchés avaient presque disparu. Heureusement, ils ______ (9) à la mode depuis quelques années. ______ (10) une tendance qui devrait se poursuivre.",
+          "options": {
+            "A": "1. des, 2. installent, 3. trouve, 4. plus, 5. nettement, 6. discuter, 7. crée, 8. Autrefois, 9. reviennent, 10. C'est",
+            "B": "1. aux, 2. installaient, 3. trouvait, 4. moins, 5. peu, 6. discutaient, 7. créait, 8. Avant, 9. revenaient, 10. C'était",
+            "C": "1. du, 2. installeront, 3. trouvera, 4. aussi, 5. très, 6. discuteront, 7. créera, 8. Jadis, 9. reviendront, 10. Ce sera",
+            "D": "1. les, 2. ont installé, 3. a trouvé, 4. tellement, 5. bien, 6. ont discuté, 7. a créé, 8. D'abord, 9. sont revenus, 10. Ce fut"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 13,
+          "text": "Apprendre une langue étrangère ______ (1) un défi passionnant mais exigeant. Il ______ (2) de la régularité et de la patience pour progresser. Les débutants ______ (3) souvent frustrés par la difficulté de la prononciation. Cependant, avec de la pratique quotidienne, les résultats ______ (4) rapidement visibles. Il est conseillé ______ (5) écouter des podcasts et de regarder des films dans la langue cible. Voyager dans un pays ______ (6) on parle cette langue accélère considérablement l'apprentissage. Les erreurs ______ (7) faire partie du processus et ne doivent pas ______ (8). L'important est de ______ (9) communiquer sans chercher la perfection. La récompense ______ (10) immense lorsqu'on réussit sa première conversation.",
+          "options": {
+            "A": "1. représente, 2. faut, 3. se sentent, 4. deviennent, 5. d', 6. où, 7. font, 8. décourager, 9. oser, 10. est",
+            "B": "1. représentait, 2. fallait, 3. se sentaient, 4. devenaient, 5. de, 6. que, 7. faisaient, 8. décourageaient, 9. osait, 10. était",
+            "C": "1. représentera, 2. faudra, 3. se sentiront, 4. deviendront, 5. pour, 6. quand, 7. feront, 8. décourageront, 9. osera, 10. sera",
+            "D": "1. a représenté, 2. a fallu, 3. se sont sentis, 4. sont devenus, 5. par, 6. lequel, 7. ont fait, 8. ont découragé, 9. a osé, 10. a été"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 14,
+          "text": "Le télétravail ______ (1) considérablement augmenté depuis la pandémie. De nombreux employés ______ (2) découvert les avantages de travailler depuis chez eux. Ils ______ (3) plus de temps en famille et évitent les transports en commun bondés. Cependant, cette organisation ______ (4) aussi des défis. La frontière entre vie professionnelle et vie personnelle ______ (5) parfois floue. Certains ______ (6) du mal à se déconnecter le soir. Les entreprises doivent ______ (7) en place des règles claires pour préserver l'équilibre. Les réunions virtuelles ______ (8) remplacé les échanges face à face. Même si cette solution ______ (9) pratique, elle ne peut pas tout ______ (10). Le contact humain reste essentiel pour la cohésion d'équipe.",
+          "options": {
+            "A": "1. a, 2. ont, 3. passent, 4. présente, 5. devient, 6. ont, 7. mettre, 8. ont, 9. est, 10. remplacer",
+            "B": "1. avait, 2. avaient, 3. passaient, 4. présentait, 5. devenait, 6. avaient, 7. mettaient, 8. avaient, 9. était, 10. remplaçaient",
+            "C": "1. aura, 2. auront, 3. passeront, 4. présentera, 5. deviendra, 6. auront, 7. mettront, 8. auront, 9. sera, 10. remplacera",
+            "D": "1. est, 2. sont, 3. passent, 4. présentent, 5. deviennent, 6. sont, 7. mettent, 8. sont, 9. sont, 10. remplacent"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 15,
+          "text": "La cuisine française ______ (1) réputée dans le monde entier pour sa finesse et sa diversité. Chaque région ______ (2) ses spécialités traditionnelles. ______ (3) Bourgogne, on déguste de délicieux escargots. Dans le Sud-Ouest, le canard ______ (4) roi. Les fromages français ______ (5) plus de 400 variétés différentes. Le vin accompagne ______ (6) les repas les plus simples. La gastronomie française ______ (7) au patrimoine culturel immatériel de l'UNESCO. Les chefs français ______ (8) constamment à innover tout en respectant les traditions. ______ (9) étrangers viennent spécialement en France pour ______ (10) dans ses restaurants étoilés.",
+          "options": {
+            "A": "1. est, 2. possède, 3. En, 4. est, 5. comptent, 6. même, 7. appartient, 8. cherchent, 9. Des, 10. manger",
+            "B": "1. était, 2. possédait, 3. Dans, 4. était, 5. comptaient, 6. aussi, 7. appartenait, 8. cherchaient, 9. Les, 10. mangeaient",
+            "C": "1. sera, 2. possédera, 3. À, 4. sera, 5. compteront, 6. seulement, 7. appartiendra, 8. chercheront, 9. Certains, 10. mangeront",
+            "D": "1. a été, 2. a possédé, 3. Sur, 4. a été, 5. ont compté, 6. toujours, 7. a appartenu, 8. ont cherché, 9. Plusieurs, 10. ont mangé"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 16,
+          "text": "Les sports d'hiver ______ (1) très populaires au Canada. Dès ______ (2) première neige, les stations de ski ______ (3) prises d'assaut. Les Canadiens ______ (4) le patinage et le hockey sur glace. Ces activités ______ (5) pratiquer dès le plus jeune âge. Les montagnes Rocheuses ______ (6) des paysages spectaculaires pour les amateurs de ski. ______ (7) hiver, de nombreuses familles ______ (8) leurs vacances dans les chalets enneigés. Les forêts québécoises ______ (9) idéales pour la raquette et la motoneige. Malgré le froid intense, l'enthousiasme des sportifs ______ (10) jamais.",
+          "options": {
+            "A": "1. sont, 2. la, 3. sont, 4. adorent, 5. se, 6. offrent, 7. Chaque, 8. passent, 9. sont, 10. ne faiblit",
+            "B": "1. étaient, 2. une, 3. étaient, 4. adoraient, 5. se, 6. offraient, 7. Tout, 8. passaient, 9. étaient, 10. ne faiblissait",
+            "C": "1. seront, 2. cette, 3. seront, 4. adoreront, 5. les, 6. offriront, 7. Par, 8. passeront, 9. seront, 10. ne faiblira",
+            "D": "1. ont été, 2. sa, 3. ont été, 4. ont adoré, 5. les, 6. ont offert, 7. Pendant, 8. ont passé, 9. ont été, 10. n'a pas faibli"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 17,
+          "text": "La musique classique ______ (1) évolué au fil des siècles. Les grands compositeurs ______ (2) laissé un héritage immortel. Mozart ______ (3) seulement 35 ans, mais il a composé plus de 600 œuvres. Beethoven, ______ (4) devenu sourd, a continué à créer des chefs-d'œuvre. Leur musique ______ (5) encore émouvoir les auditeurs aujourd'hui. Les orchestres symphoniques ______ (6) de nombreux concerts tout au long de l'année. ______ (7) jeunes musiciens s'________ (8) à jouer ces pièces difficiles. L'opéra ______ (9) un art qui combine musique, chant et théâtre. ______ (10) ces formes artistiques restent vivantes grâce au dévouement des artistes.",
+          "options": {
+            "A": "1. a, 2. ont, 3. est mort à, 4. devenu, 5. continue à, 6. donnent, 7. De, 8. efforcent, 9. est, 10. Toutes",
+            "B": "1. avait, 2. avaient, 3. mourait à, 4. devenant, 5. continuait à, 6. donnaient, 7. Des, 8. efforçaient, 9. était, 10. Toutes les",
+            "C": "1. aura, 2. auront, 3. mourra à, 4. devenant, 5. continuera à, 6. donneront, 7. Les, 8. s'efforceront, 9. sera, 10. Chaque",
+            "D": "1. est, 2. sont, 3. meurt à, 4. devenu, 5. continue, 6. donnent, 7. Plusieurs, 8. efforcent, 9. reste, 10. Ces"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "AVIS DE CONVOVATION\n\nMairie de Saint-Lambert\nService des état-civil\n\nMadame Claire Dubois\n123 rue des Lilas\nSaint-Lambert, QC J4P 2N3\n\nObjet : Convocation pour renouvellement de carte d'identité\n\nDate de convocation : Jeudi 5 mars 2026 à 9h30\nLieu : Hôtel de ville, salle 102\nDocuments à apporter :\n- Ancienne carte d'identité\n- Justificatif de domicile de moins de 3 mois\n- 2 photos d'identité récentes\n- Chèque de 45 $ pour les frais administratifs\n\nRetard non accepté. En cas d'empêchement, contacter le service au 450-555-0199.",
+          "question": "Quel document n'est PAS demandé pour le rendez-vous ?",
+          "options": {
+            "A": "L'ancienne carte d'identité",
+            "B": "Un passeport valide",
+            "C": "Un justificatif de domicile",
+            "D": "Deux photos d'identité"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "GRAPHIQUE : ÉVOLUTION DU PRIX DE L'ESSENCE AU QUÉBEC (2024-2026)\n\nJanvier 2024 : 1,45 $/litre\nJuillet 2024 : 1,62 $/litre\nJanvier 2025 : 1,38 $/litre\nJuillet 2025 : 1,58 $/litre\nJanvier 2026 : 1,52 $/litre\nFévrier 2026 : 1,48 $/litre\n\nNote : Les prix indiqués sont des moyennes mensuelles. Les fluctuations dépendent du cours du pétrole brut, des taxes provinciales et fédérales, ainsi que de la saisonnalité. Les prix atteignent généralement leur maximum en été (période des vacances) et leur minimum en hiver, sauf exceptions liées aux crises géopolitiques.",
+          "question": "Quand le prix de l'essence était-il le plus bas ?",
+          "options": {
+            "A": "Janvier 2024",
+            "B": "Janvier 2025",
+            "C": "Juillet 2025",
+            "D": "Février 2026"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 20,
+          "text": "PLAN D'ÉTAGE - BIBLIOTHÈQUE MUNICIPALE\n\nRez-de-chaussée :\n- Accueil et prêt/retour (à droite de l'entrée)\n- Salle de lecture quotidiens (à gauche)\n- Café-librairie (fond à gauche)\n\n1er étage :\n- Section adultes : romans et littérature (aile est)\n- Section adultes : documentaires (aile ouest)\n- Salles de travail individuel (centre, 6 cabines)\n\n2e étage :\n- Section jeunesse (0-12 ans) - aile est\n- Section adolescents (12-18 ans) - aile ouest\n- Salle multimédia et ordinateurs (centre)\n\nAscenseur accessible au fond du hall principal. Toilettes au sous-sol.",
+          "question": "Où se trouvent les salles de travail individuel ?",
+          "options": {
+            "A": "Au rez-de-chaussée",
+            "B": "Au 1er étage",
+            "C": "Au 2e étage",
+            "D": "Au sous-sol"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 21,
+          "text": "RÉSULTATS ÉLECTIONS MUNICIPALES 2025\nVille de Bellevue\n\nPour le poste de maire :\n• Sophie Tremblay : 3 245 voix (42%)\n• Marc Lavoie : 2 890 voix (37%)\n• Julie Nguyen : 1 620 voix (21%)\n\nPour le conseil municipal (5 sièges à pourvoir) :\n1. Robert Chen - 4 120 voix\n2. Amélie Gagnon - 3 980 voix\n3. Karim Benali - 3 650 voix\n4. Laura Martinez - 3 420 voix\n5. Thomas O'Brien - 3 100 voix\n\nParticipation : 67% des inscrits\nDate de proclamation des résultats : 3 novembre 2025\nNouveau conseil municipal prend ses fonctions le 15 novembre 2025.",
+          "question": "Combien de candidats ont obtenu un siège au conseil municipal ?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 22,
+          "text": "CONDITIONS MÉTÉOROLOGIQUES - PRÉVISIONS\n\nRégion : Montréal et environs\nDate : Dimanche 22 février 2026\n\nMatin : Nuageux avec flocons épars\nTempérature : -8°C ressentie -14°C\nVent : Nord-ouest 20 km/h\n\nAprès-midi : Éclaircies progressives\nTempérature : -4°C ressentie -9°C\nVent : Nord-ouest 15 km/h\n\nSoirée : Ciel dégagé\nTempérature : -12°C ressentie -18°C\nVent : Nord 10 km/h\n\nATTENTION : Risque de verglas matinal sur les routes secondaires. Prudence recommandée pour les piétons sur les trottoirs non dégagés. Indice UV faible (1). Qualité de l'air : bonne.",
+          "question": "Quel phénomène météorologique est signalé comme risque ?",
+          "options": {
+            "A": "Une tempête de neige",
+            "B": "Du verglas",
+            "C": "Des orages",
+            "D": "Une canicule"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congé sans solde\n\nMadame la Directrice,\n\nJe vous écris pour solliciter un congé sans solde d'une durée de trois mois, du 1er avril au 30 juin 2026. Cette demande s'inscrit dans le cadre d'un projet personnel de voyage humanitaire au Pérou, où je participerai à la construction d'une école dans un village isolé des Andes.\n\nJe me suis assuré que mes projets en cours seront terminés avant mon départ. J'ai également préparé un document de transfert de compétences pour mon remplaçant temporaire.\n\nJe reste à votre entière disposition pour discuter de cette demande et organiser la transition de mes responsabilités.\n\nCordialement,\nPierre Lefebvre\nAnalyste financier\nService Comptabilité",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Informer",
+            "B": "Se plaindre",
+            "C": "Demander une autorisation",
+            "D": "Féliciter"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 24,
+          "text": "Chers collègues,\n\nSuite à la réunion de direction du 15 février, je tiens à vous informer de plusieurs changements organisationnels qui prendront effet dès le 1er mars prochain.\n\nPremièrement, l'équipe commerciale sera réorganisée en deux pôles distincts : le pôle Grandes Entreprises dirigé par M. Dubois, et le pôle PME dirigé par Mme Lachance. Deuxièmement, les horaires flexibles seront maintenus mais devront respecter un noyau commun de présence de 10h à 15h. Troisièmement, la plateforme de gestion de projet changera ; une formation obligatoire est prévue les 25 et 26 février.\n\nJe compte sur votre engagement pour assurer une transition en douceur. N'hésitez pas à me contacter pour toute question.\n\nBien à vous,\nIsabelle Mercier\nDirectrice des Opérations",
+          "question": "Quel est le ton général de ce message ?",
+          "options": {
+            "A": "Inquiet",
+            "B": "Informatif et professionnel",
+            "C": "Critique",
+            "D": "Désinvolte"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 25,
+          "text": "Madame Bernard,\n\nNous avons bien reçu votre courrier du 10 février concernant la livraison non conforme de votre commande n°45892. Nous vous prions sincèrement d'accepter nos excuses pour ce désagrément.\n\nAprès vérification, il apparaît qu'une erreur s'est produite dans notre entrepôt lors de la préparation de votre colis. Nous avons immédiatement procédé à l'envoi du produit correct par express, que vous recevrez dès demain. Un étiquette de retour prépayée est jointe à ce message pour nous renvoyer l'article erroné sans frais.\n\nEn guise de dédommagement, nous vous offrons un bon d'achat de 50 $ valable sur votre prochaine commande. Nous restons à votre disposition pour tout complément d'information.\n\nVeuillez agréer, Madame, l'expression de nos salutations distinguées.\n\nLe Service Client",
+          "question": "Quelle attitude adopte l'expéditeur face au problème ?",
+          "options": {
+            "A": "Il nie la responsabilité de l'entreprise",
+            "B": "Il minimise l'importance de l'erreur",
+            "C": "Il reconnaît la faute et propose une solution",
+            "D": "Il blame le client"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 26,
+          "text": "Objet : Invitation à la cérémonie de remise des prix\n\nMonsieur Lacroix,\n\nL'Association des Entrepreneurs de la Région a l'honneur de vous convier à la cérémonie annuelle de remise des Prix de l'Innovation qui se tiendra le jeudi 12 mars 2026 à 19h00 à l'Hôtel des Congrès.\n\nVotre entreprise ayant été sélectionnée parmi les trois finalistes de la catégorie 'Start-up de l'année', votre présence serait particulièrement appréciée. La soirée débutera par un cocktail networking, suivi de la cérémonie proprement dite et d'un dîner de gala.\n\nNous vous prions de bien vouloir confirmer votre participation avant le 1er mars par retour de ce mail ou par téléphone au 514-555-0147.\n\nDans l'attente de votre réponse, nous vous prions d'agréer, Monsieur, nos salutations les meilleures.\n\nLe Comité d'Organisation",
+          "question": "Pourquoi le destinataire est-il invité ?",
+          "options": {
+            "A": "Parce qu'il est membre du jury",
+            "B": "Parce que son entreprise est finaliste",
+            "C": "Parce qu'il doit remettre un prix",
+            "D": "Parce qu'il est journaliste"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "À l'attention de tous les employés du département Marketing,\n\nComme vous le savez, notre entreprise s'engage depuis plusieurs années dans une démarche de développement durable. Dans ce cadre, nous vous informons que plusieurs nouvelles mesures seront appliquées dès la semaine prochaine.\n\nTous les documents imprimés devront désormais être en recto-verso obligatoire. Les gobelets jetables sont supprimés ; chacun doit utiliser sa propre tasse réutilisable. Les lumières des bureaux devront être éteintes lors des pauses déjeuner et en fin de journée. Enfin, le tri sélectif sera renforcé avec des poubelles dédiées dans chaque salle de réunion.\n\nCes gestes simples contribueront significativement à réduire notre empreinte carbone. Merci de votre coopération.\n\nLe Service Développement Durable",
+          "question": "Quelle est l'intention réelle de ce message ?",
+          "options": {
+            "A": "Imposer des restrictions punitives",
+            "B": "Sensibiliser et impliquer les employés dans une démarche écologique",
+            "C": "Critiquer les habitudes actuelles des employés",
+            "D": "Annoncer une réduction des budgets"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Objet : Réponse à votre offre d'emploi - Réf. COMPT-2026-045\n\nMadame,\n\nC'est avec un vif intérêt que je vous adresse ma candidature pour le poste de Comptable senior au sein de votre cabinet, tel qu'annoncé sur le site Emploi-Québec le 15 février dernier.\n\nTitulaire d'un baccalauréat en comptabilité et comptant huit ans d'expérience dans des cabinets de taille moyenne, je maîtrise parfaitement les logiciels Sage et QuickBooks. Mon expertise couvre la tenue de livres, les états financiers et la fiscalité des entreprises.\n\nJe suis particulièrement attiré par votre cabinet en raison de votre spécialisation dans les PME et de votre réputation d'excellence. Je me permets de joindre mon curriculum vitae et mes références pour votre considération.\n\nDans l'espoir d'un entretien, je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nFrançois Moreau",
+          "question": "Quel est le but de cette lettre ?",
+          "options": {
+            "A": "Se plaindre d'une erreur de paie",
+            "B": "Postuler à un emploi",
+            "C": "Démissionner de son poste actuel",
+            "D": "Demander une promotion"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Cher client,\n\nNous vous informons que votre abonnement Premium à notre service de streaming musical prendra fin automatiquement le 28 février 2026. Conformément à nos conditions générales, aucun renouvellement tacite n'aura lieu.\n\nSi vous souhaitez continuer à profiter de nos services sans interruption, nous vous invitons à renouveler votre abonnement avant cette date en vous connectant à votre espace client. Une offre de fidélité de -20% sur l'année vous est proposée si vous souscrivez avant le 25 février.\n\nNous tenons à vous remercier pour votre confiance durant ces deux années. Toutes vos playlists et favoris seront conservés pendant 6 mois en cas de réactivation ultérieure.\n\nPour toute question, notre service client est disponible 7j/7.\n\nCordialement,\nL'Équipe StreamMusic",
+          "question": "Quelle information implicite contient ce message ?",
+          "options": {
+            "A": "Le client a résilié son abonnement",
+            "B": "Le service va fermer définitivement",
+            "C": "Le client doit payer une pénalité",
+            "D": "L'abonnement n'est pas renouvelé automatiquement"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 30,
+          "text": "Objet : Mise en demeure - Paiement facture impayée\n\nMonsieur Gagnon,\n\nPar la présente, nous vous rappelons que la facture n°F-2025-892 d'un montant de 2 450 $, émise le 15 décembre 2025 et payable sous 30 jours, reste à ce jour entièrement impayée.\n\nMalgré nos deux relances précédentes datées du 20 janvier et du 5 février, nous n'avons reçu aucun règlement ni explication de votre part. Nous vous demandons par conséquent de régulariser cette situation sous 10 jours ouvrés à compter de la réception de ce courrier.\n\nÀ défaut de paiement dans ce délai, nous nous verrons dans l'obligation de confier le recouvrement de cette créance à notre service juridique, avec réserves de frais et intérêts de retard.\n\nNous espérons vivement éviter cette escalade et restons ouverts à la mise en place d'un échelonnement si votre situation le nécessite.\n\nLe Service Comptabilité\nEntreprises Martin Ltée",
+          "question": "Quel est le ton de ce message ?",
+          "options": {
+            "A": "Amical et décontracté",
+            "B": "Menacçant et agressif",
+            "C": "Ferme mais professionnel",
+            "D": "Suppliant"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 31,
+          "text": "Chers parents,\n\nNous avons le plaisir de vous informer que notre école organise sa traditionnelle Journée Portes Ouvertes le samedi 7 mars 2026, de 9h à 16h. Cette année, nous mettons particulièrement l'accent sur nos nouveaux ateliers scientifiques et notre programme d'échange international.\n\nAu programme : démonstrations par les élèves, visites guidées des nouveaux laboratoires, rencontre avec l'équipe pédagogique et informations sur les procédures d'inscription pour l'année scolaire 2026-2027.\n\nDes places sont encore disponibles en classes de seconde et de première. Nous vous invitons chaleureusement à venir découvrir notre établissement et à échanger avec notre communauté éducative.\n\nUn goûter sera offert à tous les visiteurs. Parking gratuit sur place.\n\nAu plaisir de vous accueillir !\n\nLa Direction du Collège Saint-Joseph",
+          "question": "Qui est le public cible principal de ce message ?",
+          "options": {
+            "A": "Les élèves actuels",
+            "B": "Les enseignants",
+            "C": "Les parents d'élèves potentiels",
+            "D": "Les anciens élèves"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 32,
+          "text": "Objet : Compte-rendu de réunion - Projet Innovation\n\nParticipants : Équipe projet (8 personnes)\nDate : 18 février 2026\nDurée : 2 heures\n\nPoints abordés :\n1. Avancement du développement du prototype (75% terminé, léger retard de 5 jours)\n2. Budget : dépenses conformes aux prévisions, marge de 8% disponible\n3. Recrutement : deux développeurs supplémentaires recherchés\n4. Prochaines échéances : présentation client le 5 mars, tests utilisateurs mi-mars\n\nDécisions prises :\n- M. Patel contactera les agences de recrutement dès demain\n- Mme Johnson préparera la documentation pour la présentation client\n- Réunion hebdomadaire maintenue les mardis à 14h\n\nPoints de vigilance : risque de dépassement du délai de livraison si les postes ne sont pas pourvus rapidement.\n\nÀ suivre.\n\nMarc Tremblay\nChef de projet",
+          "question": "Quel est l'objectif de ce document ?",
+          "options": {
+            "A": "Critiquer les participants",
+            "B": "Faire la publicité du projet",
+            "C": "Tracer les décisions et actions à venir",
+            "D": "Demander une augmentation de budget"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "LE QUÉBEC FACE À UNE PÉNURIE CROISSANTE DE MAIN-D'ŒUVRE QUALIFIÉE\n\nLes entreprises québécoises peinent de plus en plus à recruter des travailleurs qualifiés, une situation qui menace la croissance économique de la province. Selon une récente étude de la Chambre de commerce du Montréal métropolitain, près de 60% des employeurs rencontrent des difficultés pour pourvoir certains postes, particulièrement dans les secteurs de la technologie, de la santé et de la construction. Cette pénurie s'explique par plusieurs facteurs convergents : le vieillissement démographique accéléré, l'insuffisance de formations techniques adaptées aux besoins du marché, et la concurrence féroce avec d'autres provinces canadiennes pour attirer les talents. Le gouvernement Legault a annoncé un renforcement des programmes d'immigration économique, mais les experts estiment que ces mesures ne suffiront pas à combler l'écart structurel. Certains économistes préconisent une révision en profondeur du système éducatif pour mieux aligner l'offre de formation sur la demande réelle des employeurs. D'autres suggèrent d'améliorer les conditions de travail et les salaires pour fidéliser les employés actuels. Sans réponse coordonnée et rapide, cette crise risque de freiner l'innovation et la compétitivité du Québec sur la scène internationale.",
+          "question": "Quelle est la position de l'auteur concernant les mesures gouvernementales annoncées ?",
+          "options": {
+            "A": "Positive",
+            "B": "Négative",
+            "C": "Neutre",
+            "D": "Critique"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 34,
+          "text": "LE QUÉBEC FACE À UNE PÉNURIE CROISSANTE DE MAIN-D'ŒUVRE QUALIFIÉE\n\nLes entreprises québécoises peinent de plus en plus à recruter des travailleurs qualifiés, une situation qui menace la croissance économique de la province. Selon une récente étude de la Chambre de commerce du Montréal métropolitain, près de 60% des employeurs rencontrent des difficultés pour pourvoir certains postes, particulièrement dans les secteurs de la technologie, de la santé et de la construction. Cette pénurie s'explique par plusieurs facteurs convergents : le vieillissement démographique accéléré, l'insuffisance de formations techniques adaptées aux besoins du marché, et la concurrence féroce avec d'autres provinces canadiennes pour attirer les talents. Le gouvernement Legault a annoncé un renforcement des programmes d'immigration économique, mais les experts estiment que ces mesures ne suffiront pas à combler l'écart structurel. Certains économistes préconisent une révision en profondeur du système éducatif pour mieux aligner l'offre de formation sur la demande réelle des employeurs. D'autres suggèrent d'améliorer les conditions de travail et les salaires pour fidéliser les employés actuels. Sans réponse coordonnée et rapide, cette crise risque de freiner l'innovation et la compétitivité du Québec sur la scène internationale.",
+          "question": "Quel secteur n'est PAS mentionné comme étant particulièrement touché par la pénurie ?",
+          "options": {
+            "A": "La technologie",
+            "B": "La santé",
+            "C": "L'agriculture",
+            "D": "La construction"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 35,
+          "text": "LE QUÉBEC FACE À UNE PÉNURIE CROISSANTE DE MAIN-D'ŒUVRE QUALIFIÉE\n\nLes entreprises québécoises peinent de plus en plus à recruter des travailleurs qualifiés, une situation qui menace la croissance économique de la province. Selon une récente étude de la Chambre de commerce du Montréal métropolitain, près de 60% des employeurs rencontrent des difficultés pour pourvoir certains postes, particulièrement dans les secteurs de la technologie, de la santé et de la construction. Cette pénurie s'explique par plusieurs facteurs convergents : le vieillissement démographique accéléré, l'insuffisance de formations techniques adaptées aux besoins du marché, et la concurrence féroce avec d'autres provinces canadiennes pour attirer les talents. Le gouvernement Legault a annoncé un renforcement des programmes d'immigration économique, mais les experts estiment que ces mesures ne suffiront pas à combler l'écart structurel. Certains économistes préconisent une révision en profondeur du système éducatif pour mieux aligner l'offre de formation sur la demande réelle des employeurs. D'autres suggèrent d'améliorer les conditions de travail et les salaires pour fidéliser les employés actuels. Sans réponse coordonnée et rapide, cette crise risque de freiner l'innovation et la compétitivité du Québec sur la scène internationale.",
+          "question": "Quelle solution les économistes suggèrent-ils implicitement comme la plus efficace ?",
+          "options": {
+            "A": "Augmenter l'immigration uniquement",
+            "B": "Réformer le système éducatif et améliorer les conditions de travail",
+            "C": "Fermer les frontières aux autres provinces",
+            "D": "Réduire le nombre d'entreprises"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "L'URGENCE CLIMATIQUE RÉCLAME UNE TRANSFORMATION RADICALE DE NOS MODES DE VIE\n\nLes derniers rapports du GIEC ne laissent aucun doute : la fenêtre d'opportunité pour limiter le réchauffement climatique à 1,5°C se referme à vitesse grand V. Pourtant, les gouvernements continuent de privilégier des solutions technologiques hypothétiques plutôt que d'affronter la nécessité d'une décroissance économique structurelle. Cette approche, confortable à court terme, s'avérera catastrophique pour les générations futures. Les citoyens des pays développés doivent impérativement réduire leur empreinte carbone de 80% d'ici 2030, ce qui implique des changements profonds dans notre alimentation, nos transports et notre consommation énergétique. L'aviation privée, la viande industrielle et l'obsolescence programmée doivent devenir des reliques du passé. Certains politiciens osent enfin évoquer la sobriété énergétique non plus comme une contrainte mais comme une opportunité de repenser notre rapport au temps, à l'espace et aux autres. La transition écologique n'est pas qu'une question de panneaux solaires et de voitures électriques ; elle exige une mutation culturelle profonde de nos sociétés hyperproductivistes. L'alternative est simple : changer radicalement maintenant ou subir des bouleversements climatiques irréversibles.",
+          "question": "Quel est le ton dominant de l'article ?",
+          "options": {
+            "A": "Optimiste et rassurant",
+            "B": "Alarmiste et urgent",
+            "C": "Détaché et objectif",
+            "D": "Ironique et moqueur"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "L'URGENCE CLIMATIQUE RÉCLAME UNE TRANSFORMATION RADICALE DE NOS MODES DE VIE\n\nLes derniers rapports du GIEC ne laissent aucun doute : la fenêtre d'opportunité pour limiter le réchauffement climatique à 1,5°C se referme à vitesse grand V. Pourtant, les gouvernements continuent de privilégier des solutions technologiques hypothétiques plutôt que d'affronter la nécessité d'une décroissance économique structurelle. Cette approche, confortable à court terme, s'avérera catastrophique pour les générations futures. Les citoyens des pays développés doivent impérativement réduire leur empreinte carbone de 80% d'ici 2030, ce qui implique des changements profonds dans notre alimentation, nos transports et notre consommation énergétique. L'aviation privée, la viande industrielle et l'obsolescence programmée doivent devenir des reliques du passé. Certains politiciens osent enfin évoquer la sobriété énergétique non plus comme une contrainte mais comme une opportunité de repenser notre rapport au temps, à l'espace et aux autres. La transition écologique n'est pas qu'une question de panneaux solaires et de voitures électriques ; elle exige une mutation culturelle profonde de nos sociétés hyperproductivistes. L'alternative est simple : changer radicalement maintenant ou subir des bouleversements climatiques irréversibles.",
+          "question": "Selon l'auteur, quelle approche des gouvernements est problématique ?",
+          "options": {
+            "A": "Ils investissent trop dans les énergies renouvelables",
+            "B": "Ils comptent trop sur des solutions technologiques futures",
+            "C": "Ils interdisent l'aviation privée",
+            "D": "Ils encouragent la décroissance économique"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 38,
+          "text": "L'URGENCE CLIMATIQUE RÉCLAME UNE TRANSFORMATION RADICALE DE NOS MODES DE VIE\n\nLes derniers rapports du GIEC ne laissent aucun doute : la fenêtre d'opportunité pour limiter le réchauffement climatique à 1,5°C se referme à vitesse grand V. Pourtant, les gouvernements continuent de privilégier des solutions technologiques hypothétiques plutôt que d'affronter la nécessité d'une décroissance économique structurelle. Cette approche, confortable à court terme, s'avérera catastrophique pour les générations futures. Les citoyens des pays développés doivent impérativement réduire leur empreinte carbone de 80% d'ici 2030, ce qui implique des changements profonds dans notre alimentation, nos transports et notre consommation énergétique. L'aviation privée, la viande industrielle et l'obsolescence programmée doivent devenir des reliques du passé. Certains politiciens osent enfin évoquer la sobriété énergétique non plus comme une contrainte mais comme une opportunité de repenser notre rapport au temps, à l'espace et aux autres. La transition écologique n'est pas qu'une question de panneaux solaires et de voitures électriques ; elle exige une mutation culturelle profonde de nos sociétés hyperproductivistes. L'alternative est simple : changer radicalement maintenant ou subir des bouleversements climatiques irréversibles.",
+          "question": "Que suggère l'auteur concernant la sobriété énergétique ?",
+          "options": {
+            "A": "Que c'est une contrainte insupportable",
+            "B": "Que c'est une opportunité de transformation positive",
+            "C": "Que c'est une mesure inefficace",
+            "D": "Que c'est une obligation gouvernementale"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "L'AVÈNEMENT DU TÉLÉTRAVAIL HYBRIDE BOULEVERSE L'IMMOBILIER DE BUREAUX\n\nLe marché immobilier commercial traverse une mutation sans précédent depuis la généralisation du télétravail hybride. Les entreprises québécoises réduisent drastiquement leurs surfaces de bureaux, préférant des espaces flexibles et collaboratifs aux étages traditionnels de cubicles. Cette tendance, amorcée par la pandémie, s'est installée durablement dans les mœurs professionnelles. Les immeubles de bureaux des années 1990, mal adaptés aux nouvelles exigences, voient leur valeur chuter tandis que les espaces de coworking fleurissent dans les quartiers centraux. Certains promoteurs osent la reconversion audacieuse de tours entières en logements résidentiels, répondant ainsi à la crise du logement urbain. Cependant, cette transformation soulève des défis majeurs : quid de la vitalité des centres-villes désertés en semaine ? Comment maintenir la cohésion d'équipe sans interactions quotidiennes ? Les urbanistes s'inquiètent de la désertification commerciale des quartiers d'affaires. Pourtant, cette révolution pourrait s'avérer bénéfique si elle permet de réduire les temps de transport et de rééquilibrer l'habitat entre centre et périphérie. L'avenir du travail s'écrit désormais hors des murs traditionnels de l'entreprise.",
+          "question": "Quelle est l'idée principale de l'article ?",
+          "options": {
+            "A": "Le télétravail est une mode temporaire",
+            "B": "L'immobilier de bureaux connaît une transformation majeure due au télétravail",
+            "C": "Les espaces de coworking sont trop chers",
+            "D": "Les entreprises embauchent plus de personnel"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "L'AVÈNEMENT DU TÉLÉTRAVAIL HYBRIDE BOULEVERSE L'IMMOBILIER DE BUREAUX\n\nLe marché immobilier commercial traverse une mutation sans précédent depuis la généralisation du télétravail hybride. Les entreprises québécoises réduisent drastiquement leurs surfaces de bureaux, préférant des espaces flexibles et collaboratifs aux étages traditionnels de cubicles. Cette tendance, amorcée par la pandémie, s'est installée durablement dans les mœurs professionnelles. Les immeubles de bureaux des années 1990, mal adaptés aux nouvelles exigences, voient leur valeur chuter tandis que les espaces de coworking fleurissent dans les quartiers centraux. Certains promoteurs osent la reconversion audacieuse de tours entières en logements résidentiels, répondant ainsi à la crise du logement urbain. Cependant, cette transformation soulève des défis majeurs : quid de la vitalité des centres-villes désertés en semaine ? Comment maintenir la cohésion d'équipe sans interactions quotidiennes ? Les urbanistes s'inquiètent de la désertification commerciale des quartiers d'affaires. Pourtant, cette révolution pourrait s'avérer bénéfique si elle permet de réduire les temps de transport et de rééquilibrer l'habitat entre centre et périphérie. L'avenir du travail s'écrit désormais hors des murs traditionnels de l'entreprise.",
+          "question": "Quelle attitude adopte l'auteur face à cette transformation ?",
+          "options": {
+            "A": "Il la condamne totalement",
+            "B": "Il reste neutre et présente les avantages et inconvénients",
+            "C": "Il l'encourage sans réserve",
+            "D": "Il prédit son échec imminent"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

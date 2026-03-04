@@ -1,0 +1,644 @@
+﻿{
+  "exam_metadata": {
+    "exam_name": "TEF Canada - Compréhension Écrite",
+    "exam_code": "TEF-CE-2026",
+    "duration_minutes": 60,
+    "total_questions": 40,
+    "instruction_language": "fr",
+    "scoring": {
+      "correct_answer": 1,
+      "wrong_answer": 0,
+      "blank_answer": 0,
+      "raw_score_max": 40,
+      "scaled_score_max": 300,
+      "passing_clb_levels": {
+        "CLB_4": "121-150",
+        "CLB_5": "151-180",
+        "CLB_6": "181-206",
+        "CLB_7": "207-232",
+        "CLB_8": "233-247",
+        "CLB_9": "248-262",
+        "CLB_10": "263-300"
+      }
+    },
+    "general_instructions": [
+      "Vous avez 60 minutes pour répondre aux 40 questions.",
+      "Chaque question propose 4 options (A, B, C, D). Une seule réponse est correcte.",
+      "Une bonne réponse rapporte 1 point. Une mauvaise réponse ou une absence de réponse rapporte 0 point.",
+      "Vous pouvez naviguer librement entre les questions.",
+      "Lisez attentivement les consignes de chaque section avant de commencer."
+    ]
+  },
+  "sections": [
+    {
+      "section_id": 1,
+      "section_name": "Section A - Textes du quotidien",
+      "question_range": "1-7",
+      "description": "Cette section évalue votre capacité à comprendre des documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale",
+        "Repérer des détails factuels"
+      ],
+      "instructions": "Lisez chaque document et répondez à la question correspondante.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AVIS IMPORTANT AUX LOCATAIRES\n\nChers résidents,\n\nEn raison de travaux d'entretien programmés, l'ascenseur principal du bâtiment A sera hors service du lundi 15 au vendredi 19 mars inclus. Une entreprise spécialisée procédera à la révision complète des câbles et à la modernisation du système de sécurité.\n\nPendant cette période, nous vous invitons à utiliser l'ascenseur de service situé à l'arrière du bâtiment (accès par la porte de la buanderie). Les personnes à mobilité réduite peuvent contacter la concierge au 514-555-0123 pour obtenir de l'aide.\n\nNous vous prions de bien vouloir nous excuser pour la gêne occasionnée et vous remercions de votre compréhension.\n\nLa direction",
+          "question": "Selon cet avis, pendant les travaux, les résidents doivent :",
+          "options": {
+            "A": "Quitter l'immeuble temporairement",
+            "B": "Utiliser un ascenseur alternatif",
+            "C": "Payer des frais supplémentaires",
+            "D": "Contacter l'entreprise de travaux"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 2,
+          "text": "MENU DU JOUR - Restaurant Le Petit Bistro\n\nEntrées (au choix)\n• Soupe à l'oignon gratinée ........................................ 8$\n• Salade de chèvre chaud sur toast ................................. 10$\n• Tartare de saumon aux herbes fraîches ........................... 14$\n\nPlats principaux (au choix)\n• Filet de poulet rôti, sauce aux champignons .................... 22$\n• Risotto aux asperges et parmesan ............................... 20$\n• Magret de canard, purée de patates douces ...................... 26$\n\nDesserts (au choix)\n• Crème brûlée à la vanille de Madagascar ........................ 9$\n• Moelleux au chocolat, glace vanille ............................ 10$\n• Assiette de fromages affinés ................................... 12$\n\nFormule complète (Entrée + Plat + Dessert) : 35$\nService compris - Ouvert tous les jours de 11h30 à 14h30 et de 19h à 22h30",
+          "question": "Quel est le prix du menu complet si l'on choisit le tartare de saumon, le magret de canard et l'assiette de fromages ?",
+          "options": {
+            "A": "48$",
+            "B": "35$",
+            "C": "52$",
+            "D": "38$"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 3,
+          "text": "AFFICHE - Centre Sportif Municipal\n\nNOUVEAUTÉ 2026 !\nCOURS DE YOGA PRÉNATAL\n\nVous attendez un bébé et souhaitez rester en forme en toute sécurité ?\n\nNos cours spécialisés vous accompagnent tout au long de votre grossesse :\n• Renforcement musculaire doux\n• Exercices de respiration et relaxation\n• Préparation à l'accouchement\n• Rencontre avec d'autres futures mamans\n\nHoraires : Mardi et jeudi de 10h à 11h30\nLieu : Salle Zen, 2ème étage\nTarif : 15$ par séance ou forfait 10 séances : 120$\n\nInscriptions : À l'accueil du centre ou par téléphone au 450-123-4567\nProfesseure diplômée d'État - Cours accessibles dès le 4ème mois de grossesse",
+          "question": "Selon cette affiche, qui peut participer à ces cours de yoga ?",
+          "options": {
+            "A": "Toutes les femmes sans restriction",
+            "B": "Uniquement les femmes enceintes de plus de 4 mois",
+            "C": "Les jeunes mamans avec leur bébé",
+            "D": "Les femmes souhaitant tomber enceinte"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 4,
+          "text": "ANNONCE IMMOBILIÈRE\n\nÀ LOUER - Beau studio meublé\n\nSitué au cœur du quartier Plateau-Mont-Royal, ce charmant studio de 35m² offre tout le confort nécessaire pour un étudiant ou un jeune professionnel.\n\nCaractéristiques :\n• Pièce principale avec lit escamotable et canapé convertible\n• Cuisine équipée (réfrigérateur, plaques induction, four micro-ondes)\n• Salle de bain avec douche et lave-linge\n• Internet haut débit inclus\n• Chauffage et électricité inclus dans les charges\n\nLoyer mensuel : 850$ (charges comprises)\nCaution : 850$\nDisponible : Immédiatement\n\nContact : Marie Dubois - 514-987-6543\nVisites sur rendez-vous uniquement. Animaux non acceptés.",
+          "question": "Quel élément est inclus dans le loyer de 850$ ?",
+          "options": {
+            "A": "Le service de ménage hebdomadaire",
+            "B": "L'abonnement télévision par câble",
+            "C": "L'électricité et le chauffage",
+            "D": "Le parking souterrain"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 5,
+          "text": "HORAIRES DES TRAINS - Gare de Lyon Part-Dieu\nDirection : Paris Gare de Lyon\n\nDépart | Arrivée | Type de train | Durée\n06:00 | 08:02 | TGV INOUI | 2h02\n06:36 | 08:44 | TGV INOUI | 2h08\n07:00 | 08:56 | TGV INOUI | 1h56\n07:16 | 09:24 | TGV INOUI | 2h08\n08:00 | 09:56 | TGV INOUI | 1h56\n08:30 | 10:28 | TGV OUIGO | 1h58\n09:00 | 10:56 | TGV INOUI | 1h56\n\nInformations importantes :\n• Enregistrement obligatoire 30 minutes avant le départ pour les trains internationaux\n• Présentation d'une pièce d'identité obligatoire\n• Les trains marqués OUIGO sont des trains à bas prix avec services limités\n• Retards possibles en raison de travaux sur la ligne entre Lyon et Paris du 12 au 18 avril",
+          "question": "Quel est le trajet le plus rapide pour se rendre à Paris ?",
+          "options": {
+            "A": "Le train de 6h00",
+            "B": "Le train de 7h00",
+            "C": "Le train de 8h30",
+            "D": "Le train de 9h00"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 6,
+          "text": "NOTICE D'UTILISATION - Machine à café automatique\n\nMISE EN MARCHE\n1. Remplir le réservoir d'eau fraîche (max 1,5L)\n2. Insérer les grains de café dans le compartiment supérieur ou utiliser le bac à dosettes\n3. Appuyer sur le bouton d'alimentation arrière et attendre que le voyant vert s'allume\n4. Sélectionner votre boisson (expresso, café long, cappuccino)\n\nENTRETIEN QUOTIDIEN\n• Vider le bac à marc après chaque utilisation\n• Nettoyer la buse vapeur avec un chiffon humide\n• Laver le réservoir à l'eau claire tous les 3 jours\n\nDÉTARTRAGE\nEffectuer un détartrage tous les 3 mois avec le produit fourni ou du vinaigre blanc dilué (1 part de vinaigre pour 3 parts d'eau).\n\nATTENTION : Ne jamais plonger l'appareil dans l'eau. Débrancher avant tout nettoyage.",
+          "question": "Selon cette notice, quelle opération doit être réalisée tous les trois mois ?",
+          "options": {
+            "A": "Changer les grains de café",
+            "B": "Laver le réservoir d'eau",
+            "C": "Effectuer un détartrage",
+            "D": "Nettoyer la buse vapeur"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 7,
+          "text": "PROGRAMME - Festival International du Film de Toronto 2026\n\nOuverture : Jeudi 10 septembre à 19h au Roy Thomson Hall\nFilm d'ouverture : \"Les Horizons perdus\" de Denis Villeneuve (Canada)\n\nProjection spéciale hommage :\nSamedi 12 septembre à 20h - Cinéma Scotiabank\nRetrospective des œuvres d'Agnès Varda avec introduction de la cinéaste Céline Sciamma\n\nAteliers et masterclasses :\n• Lundi 14 septembre, 14h-17h : Le montage numérique (Salle 204)\n• Mardi 15 septembre, 10h-13h : La direction d'acteurs (Théâtre Bell Lightbox)\n\nClôture et remise des prix :\nDimanche 20 septembre à 18h au Princess of Wales Theatre\n\nTarifs : Séance individuelle 15$ / Pass journée 40$ / Pass festival 250$\nRéservations : www.tiff.net ou au 1-888-258-8433",
+          "question": "Où se déroule la cérémonie de clôture du festival ?",
+          "options": {
+            "A": "Au Roy Thomson Hall",
+            "B": "Au Cinéma Scotiabank",
+            "C": "Au Princess of Wales Theatre",
+            "D": "Au Théâtre Bell Lightbox"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_id": 2,
+      "section_name": "Section B - Texte à trous",
+      "question_range": "8-17",
+      "description": "Cette section évalue votre compréhension grammaticale, la cohérence syntaxique et le sens global du texte. Vous devez compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "instructions": "Dans chaque phrase ou texte, indiquez le mot ou le groupe de mots manquant.",
+      "questions": [
+        {
+          "question_id": 8,
+          "context": "Phrase isolée",
+          "text": "Il faut absolument que tu ________ ce document avant la réunion de demain matin.",
+          "options": {
+            "A": "signes",
+            "B": "signe",
+            "C": "signez",
+            "D": "signer"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 9,
+          "context": "Phrase isolée",
+          "text": "Cette entreprise emploie plus de 500 ________ dans ses bureaux montréalais.",
+          "options": {
+            "A": "personnels",
+            "B": "employé",
+            "C": "personnes",
+            "D": "collaborateurs"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 10,
+          "context": "Phrase isolée",
+          "text": "Malgré la pluie, nous sommes ________ partis nous promener dans le parc.",
+          "options": {
+            "A": "tout de même",
+            "B": "cependant",
+            "C": "pourtant",
+            "D": "néanmoins"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 11,
+          "context": "Phrase isolée",
+          "text": "Si j'________ suivi vos conseils, je n'aurais pas fait cette erreur.",
+          "options": {
+            "A": "avais",
+            "B": "aurais",
+            "C": "ai",
+            "D": "avais eu"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 12,
+          "context": "Texte lacunaire - Le télétravail",
+          "text": "Le télétravail est devenu une réalité pour de nombreux salariés. Bien qu'il ________ (1) de nombreux avantages, comme la flexibilité des horaires et la suppression des trajets domicile-travail, il présente aussi des inconvénients. Certains employés se sentent isolés et manquent du ________ (2) social avec leurs collègues.",
+          "gap_number": 1,
+          "options": {
+            "A": "présente",
+            "B": "offre",
+            "C": "donne",
+            "D": "apporte"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 13,
+          "context": "Texte lacunaire - Le télétravail (suite)",
+          "text": "Le télétravail est devenu une réalité pour de nombreux salariés. Bien qu'il offre de nombreux avantages, comme la flexibilité des horaires et la suppression des trajets domicile-travail, il présente aussi des inconvénients. Certains employés se sentent isolés et manquent du ________ (2) social avec leurs collègues.",
+          "gap_number": 2,
+          "options": {
+            "A": "travail",
+            "B": "contact",
+            "C": "lien",
+            "D": "rapport"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 14,
+          "context": "Texte lacunaire - L'alimentation durable",
+          "text": "De plus en plus de consommateurs s'intéressent à l'origine de leurs aliments. Le ________ (3) court, qui privilégie les circuits de distribution directs entre producteurs et consommateurs, connaît un essor considérable. Cette approche permet non seulement de réduire l'empreinte carbone, mais aussi de garantir une ________ (4) juste aux agriculteurs.",
+          "gap_number": 3,
+          "options": {
+            "A": "commerce",
+            "B": "marché",
+            "C": "circuit",
+            "D": "échange"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 15,
+          "context": "Texte lacunaire - L'alimentation durable (suite)",
+          "text": "De plus en plus de consommateurs s'intéressent à l'origine de leurs aliments. Le circuit court, qui privilégie les circuits de distribution directs entre producteurs et consommateurs, connaît un essor considérable. Cette approche permet non seulement de réduire l'empreinte carbone, mais aussi de garantir une ________ (4) juste aux agriculteurs.",
+          "gap_number": 4,
+          "options": {
+            "A": "rémunération",
+            "B": "paye",
+            "C": "somme",
+            "D": "valeur"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 16,
+          "context": "Texte lacunaire - Les énergies renouvelables",
+          "text": "La transition énergétique est devenue une priorité pour de nombreux pays. Les panneaux solaires et les éoliennes se multiplient sur le territoire, ________ (5) à diminuer la dépendance aux énergies fossiles. Cependant, le stockage de l'électricité produite de manière intermittente reste un ________ (6) technologique majeur.",
+          "gap_number": 5,
+          "options": {
+            "A": "permettant",
+            "B": "aidant",
+            "C": "faisant",
+            "D": "contribuant"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 17,
+          "context": "Texte lacunaire - Les énergies renouvelables (suite)",
+          "text": "La transition énergétique est devenue une priorité pour de nombreux pays. Les panneaux solaires et les éoliennes se multiplient sur le territoire, contribuant à diminuer la dépendance aux énergies fossiles. Cependant, le stockage de l'électricité produite de manière intermittente reste un ________ (6) technologique majeur.",
+          "gap_number": 6,
+          "options": {
+            "A": "problème",
+            "B": "défi",
+            "C": "obstacle",
+            "D": "danger"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_id": 3,
+      "section_name": "Section C - Lecture rapide",
+      "question_range": "18-22",
+      "description": "Cette section évalue votre capacité à repérer rapidement une information spécifique dans des textes courts ou des informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "instructions": "Lisez chaque texte ou observez chaque document et répondez à la question.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "STATISTIQUES - Utilisation des transports en commun à Montréal (2025)\n\nMétro : 65% des usagers\nBus : 25% des usagers\nTrain de banlieue : 8% des usagers\nAutres (vélo, marche) : 2% des usagers\n\nNote : 78% des utilisateurs du métro empruntent la ligne Orange durant les heures de pointe.",
+          "question": "Selon ces statistiques, quel est le moyen de transport le plus utilisé ?",
+          "options": {
+            "A": "Le bus",
+            "B": "Le métro",
+            "C": "Le train de banlieue",
+            "D": "Le vélo"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "RÉSULTATS ÉLECTIONS ÉTUDIANTES - Université de Montréal\n\nListe 'Avenir Campus' : 42% des voix\nListe 'Ensemble Étudiants' : 35% des voix\nListe 'Action Universitaire' : 18% des voix\nBulletins blancs et nuls : 5%\n\nParticipation : 3 200 votants sur 12 000 étudiants inscrits",
+          "question": "Quel pourcentage d'étudiants inscrits n'a pas voté ?",
+          "options": {
+            "A": "5%",
+            "B": "35%",
+            "C": "58%",
+            "D": "73%"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 20,
+          "text": "GRAPHIQUE - Évolution des températures moyennes à Vancouver (2025)\n\nJanvier : 4°C\nAvril : 11°C\nJuillet : 22°C\nOctobre : 13°C\n\nLe mois le plus chaud de l'année a été juillet avec un pic à 28°C le 15 juillet. Le mois le plus froid a été décembre avec une température minimale de -3°C.",
+          "question": "Quelle est l'amplitude thermique (différence entre la température la plus haute et la plus basse) mentionnée dans ce texte ?",
+          "options": {
+            "A": "18 degrés",
+            "B": "25 degrés",
+            "C": "31 degrés",
+            "D": "9 degrés"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 21,
+          "text": "ANNONCE - Recherche de participants pour étude scientifique\n\nL'Université McGill recherche des volontaires pour une étude sur le sommeil. Critères de sélection :\n• Âge : entre 25 et 45 ans\n• Bonne santé générale\n• Pas de trouble du sommeil diagnostiqué\n• Disponible pour 3 nuits consécutives en laboratoire\n\nRémunération : 500$ pour la participation complète\nContact : sommeil.study@mcgill.ca avant le 30 avril 2026",
+          "question": "Quelle condition n'est PAS requise pour participer à cette étude ?",
+          "options": {
+            "A": "Avoir entre 25 et 45 ans",
+            "B": "Être disponible 3 nuits consécutives",
+            "C": "Avoir des troubles du sommeil",
+            "D": "Être en bonne santé"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 22,
+          "text": "TABLEAU - Comparaison des forfaits téléphoniques\n\nForfait | Appels | SMS | Internet | Prix/mois\nBasic | Illimités | 100 | 2 Go | 25$\nStandard | Illimités | Illimités | 10 Go | 45$\nPremium | Illimités | Illimités | Illimité | 65$\n\nTous les forfaits incluent les appels illimités vers le Canada et les États-Unis. Les données non utilisées sont reportées uniquement avec le forfait Premium.",
+          "question": "Quelle information est correcte selon ce tableau ?",
+          "options": {
+            "A": "Seul le forfait Premium propose des appels illimités",
+            "B": "Le forfait Basic coûte 45$ par mois",
+            "C": "Les données non utilisées sont reportées avec tous les forfaits",
+            "D": "Le forfait Standard propose 10 Go d'Internet"
+          },
+          "correct_answer": "D"
+        }
+      ]
+    },
+    {
+      "section_id": 4,
+      "section_name": "Section D - Documents administratifs et professionnels",
+      "question_range": "23-32",
+      "description": "Cette section évalue votre compréhension de documents professionnels et administratifs : emails, lettres formelles, instructions, rapports.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "instructions": "Lisez chaque document et répondez aux questions correspondantes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congés sans solde - Projet personnel de formation\n\nMadame la Directrice,\n\nPar la présente, je vous informe de mon souhait de bénéficier d'un congé sans solde d'une durée de six mois, à compter du 1er septembre 2026.\n\nCe temps me permettrait de suivre une formation intensive en développement web à temps plein, compétence essentielle pour mon évolution professionnelle au sein de notre département marketing digital. J'ai déjà obtenu une pré-inscription au programme 'Full Stack Developer' de l'école Le Wagon, formation reconnue par l'État.\n\nDurant mon absence, j'ai préparé un plan de transition détaillé : mes projets en cours seront transférés à Madame Sarah Chen le 15 août, et je resterai disponible par email pour des questions ponctuelles durant le premier mois.\n\nJe reste à votre entière disposition pour discuter de cette demande et vous présenter mon projet plus en détail.\n\nCordialement,\nThomas Mercier\nChef de projet digital",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Démissionner de son poste actuel",
+            "B": "Demander une promotion",
+            "C": "Solliciter un arrêt de travail rémunéré",
+            "D": "Demander une autorisation d'absence prolongée"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 24,
+          "text": "Objet : Demande de congés sans solde - Projet personnel de formation\n\nMadame la Directrice,\n\nPar la présente, je vous informe de mon souhait de bénéficier d'un congé sans solde d'une durée de six mois, à compter du 1er septembre 2026.\n\nCe temps me permettrait de suivre une formation intensive en développement web à temps plein, compétence essentielle pour mon évolution professionnelle au sein de notre département marketing digital. J'ai déjà obtenu une pré-inscription au programme 'Full Stack Developer' de l'école Le Wagon, formation reconnue par l'État.\n\nDurant mon absence, j'ai préparé un plan de transition détaillé : mes projets en cours seront transférés à Madame Sarah Chen le 15 août, et je resterai disponible par email pour des questions ponctuelles durant le premier mois.\n\nJe reste à votre entière disposition pour discuter de cette demande et vous présenter mon projet plus en détail.\n\nCordialement,\nThomas Mercier\nChef de projet digital",
+          "question": "Quelle attitude adopte Thomas Mercier dans ce courriel ?",
+          "options": {
+            "A": "Exigente et autoritaire",
+            "B": "Désinvolte et négligente",
+            "C": "Professionnelle et prévoyante",
+            "D": "Critique envers l'entreprise"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 25,
+          "text": "AVIS DE CONVOCATION\n\nMadame Élise Bernard\n123 Rue Sherbrooke Ouest\nMontréal, QC H3A 0G4\n\nRéférence : Dossier fiscal 2024-2025\n\nMadame,\n\nNous avons le regret de vous informer que votre déclaration de revenus pour l'année fiscale 2024 a été sélectionnée pour un examen approfondi. Des incohérences ont été détectées entre les montants déclarés et les informations transmises par vos employeurs.\n\nVous êtes donc convoquée à comparaître devant notre service le :\n\nDate : Mardi 15 avril 2026\nHeure : 9h30 précises\nLieu : Bureau des impôts du Québec - 305 Boulevard René-Lévesque Est, Montréal, Bureau 1200\n\nVous devez impérativement vous présenter munie des documents suivants :\n• Vos feuillets T4 et Relevé 1 de 2024\n• Vos relevés bancaires des 12 derniers mois\n• Toute preuve de déductions fiscales réclamées\n\nEn cas d'empêchement majeur, vous devez nous contacter au 1-800-267-6299 au moins 48 heures à l'avance.\n\nLe non-respect de cette convocation pourra entraîner des pénalités financières.\n\nL'Agent responsable,\nMarc-André Lefebvre",
+          "question": "Quel est le ton de ce document ?",
+          "options": {
+            "A": "Informatif et amical",
+            "B": "Formel et impératif",
+            "C": "Commercial et persuasif",
+            "D": "Pessimiste et alarmiste"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "AVIS DE CONVOCATION\n\nMadame Élise Bernard\n123 Rue Sherbrooke Ouest\nMontréal, QC H3A 0G4\n\nRéférence : Dossier fiscal 2024-2025\n\nMadame,\n\nNous avons le regret de vous informer que votre déclaration de revenus pour l'année fiscale 2024 a été sélectionnée pour un examen approfondi. Des incohérences ont été détectées entre les montants déclarés et les informations transmises par vos employeurs.\n\nVous êtes donc convoquée à comparaître devant notre service le :\n\nDate : Mardi 15 avril 2026\nHeure : 9h30 précises\nLieu : Bureau des impôts du Québec - 305 Boulevard René-Lévesque Est, Montréal, Bureau 1200\n\nVous devez impérativement vous présenter munie des documents suivants :\n• Vos feuillets T4 et Relevé 1 de 2024\n• Vos relevés bancaires des 12 derniers mois\n• Toute preuve de déductions fiscales réclamées\n\nEn cas d'empêchement majeur, vous devez nous contacter au 1-800-267-6299 au moins 48 heures à l'avance.\n\nLe non-respect de cette convocation pourra entraîner des pénalités financières.\n\nL'Agent responsable,\nMarc-André Lefebvre",
+          "question": "Que risque Élise Bernard si elle ne se présente pas à la convocation ?",
+          "options": {
+            "A": "Une peine de prison",
+            "B": "Des pénalités financières",
+            "C": "Une interdiction bancaire",
+            "D": "Une expulsion du Québec"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "RAPPORT D'ACTIVITÉ - Service des Ressources Humaines\nTrimestre : Janvier-Mars 2026\n\nRecrutement :\n• 12 nouveaux employés embauchés (objectif : 10)\n• Temps moyen de recrutement : 45 jours (amélioration de 15% par rapport au trimestre précédent)\n• Coût moyen par recrutement : 3 200$ (réduction de 8%)\n\nFormation :\n• 85% du personnel a suivi au moins une formation\n• Satisfaction moyenne des formations : 4,2/5\n• Budget formation utilisé à 92%\n\nTurnover :\n• Démissions : 3 employés (taux de 4%, sous la moyenne sectorielle de 12%)\n• Départs à la retraite : 2 employés\n\nPoints d'attention :\nLe service informatique signale des difficultés de recrutement pour les postes de développeurs seniors. Recommandation : réviser la grille salariale pour ces profils.",
+          "question": "Quel problème identifie ce rapport ?",
+          "options": {
+            "A": "Un taux de turnover trop élevé",
+            "B": "Des difficultés de recrutement dans certains secteurs",
+            "C": "Un budget formation insuffisant",
+            "D": "Une insatisfaction générale des employés"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "RAPPORT D'ACTIVITÉ - Service des Ressources Humaines\nTrimestre : Janvier-Mars 2026\n\nRecrutement :\n• 12 nouveaux employés embauchés (objectif : 10)\n• Temps moyen de recrutement : 45 jours (amélioration de 15% par rapport au trimestre précédent)\n• Coût moyen par recrutement : 3 200$ (réduction de 8%)\n\nFormation :\n• 85% du personnel a suivi au moins une formation\n• Satisfaction moyenne des formations : 4,2/5\n• Budget formation utilisé à 92%\n\nTurnover :\n• Démissions : 3 employés (taux de 4%, sous la moyenne sectorielle de 12%)\n• Départs à la retraite : 2 employés\n\nPoints d'attention :\nLe service informatique signale des difficultés de recrutement pour les postes de développeurs seniors. Recommandation : réviser la grille salariale pour ces profils.",
+          "question": "Par rapport au trimestre précédent, le temps de recrutement a :",
+          "options": {
+            "A": "Augmenté de 15%",
+            "B": "Diminué de 15%",
+            "C": "Augmenté de 45 jours",
+            "D": "Resté identique"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Objet : Réclamation concernant la livraison n°45892\n\nMadame,\n\nJ'ai l'honneur de vous adresser ma vive insatisfaction concernant la livraison effectuée par vos services le 10 mars dernier.\n\nEn effet, la commande n°45892 (référence client : CL-7781) comportait des articles manquants (deux chaises de bureau modèle 'ErgoComfort') et un meuble arrivé endommagé (bureau avec égratignures importantes sur le plateau).\n\nMalgré mon email du 12 mars et ma tentative de contact téléphonique du 15 mars (sans retour de votre part), je n'ai à ce jour obtenu aucune solution.\n\nJe vous demande donc :\n1. Le remboursement immédiat des deux chaises non livrées (montant : 458$)\n2. L'échange du bureau endommagé ou son remboursement (montant : 329$)\n3. Une compensation pour le désagrément causé\n\nÀ défaut de réponse satisfactoire dans les 7 jours suivant la réception de ce courrier, je me verrai dans l'obligation de saisir les services du médiateur du commerce et de poster un avis sur les réseaux sociaux détaillant mon expérience.\n\nDans l'attente d'une réponse rapide,\nCordialement,\nJean-Pierre Lacombe",
+          "question": "Quel est le ton de cette lettre ?",
+          "options": {
+            "A": "Amical et conciliant",
+            "B": "Neutre et objectif",
+            "C": "Mécontent et menaçant",
+            "D": "Confus et désorganisé"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 30,
+          "text": "Objet : Réclamation concernant la livraison n°45892\n\nMadame,\n\nJ'ai l'honneur de vous adresser ma vive insatisfaction concernant la livraison effectuée par vos services le 10 mars dernier.\n\nEn effet, la commande n°45892 (référence client : CL-7781) comportait des articles manquants (deux chaises de bureau modèle 'ErgoComfort') et un meuble arrivé endommagé (bureau avec égratignures importantes sur le plateau).\n\nMalgré mon email du 12 mars et ma tentative de contact téléphonique du 15 mars (sans retour de votre part), je n'ai à ce jour obtenu aucune solution.\n\nJe vous demande donc :\n1. Le remboursement immédiat des deux chaises non livrées (montant : 458$)\n2. L'échange du bureau endommagé ou son remboursement (montant : 329$)\n3. Une compensation pour le désagrément causé\n\nÀ défaut de réponse satisfactoire dans les 7 jours suivant la réception de ce courrier, je me verrai dans l'obligation de saisir les services du médiateur du commerce et de poster un avis sur les réseaux sociaux détaillant mon expérience.\n\nDans l'attente d'une réponse rapide,\nCordialement,\nJean-Pierre Lacombe",
+          "question": "Quelle somme totale Jean-Pierre Lacombe réclame-t-il au minimum ?",
+          "options": {
+            "A": "329$",
+            "B": "458$",
+            "C": "787$",
+            "D": "129$ de plus que le montant des articles"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 31,
+          "text": "CIRCULAIRE INTERNE - Direction Générale\n\nÀ l'attention de tous les collaborateurs\n\nObjet : Nouvelle politique de télétravail\n\nÀ compter du 1er mai 2026, notre entreprise met en place une nouvelle organisation du travail hybride. Chaque employé pourra désormais télétravailler jusqu'à 3 jours par semaine, sous réserve des conditions suivantes :\n\n• Validation par le responsable d'équipe au moins 48h à l'avance\n• Respect des horaires de core time (10h-16h) où tous doivent être disponibles\n• Présence obligatoire au bureau les jours de réunions d'équipe planifiées\n• Équipement informatique fourni par l'entreprise à utiliser exclusivement\n\nLes bureaux seront réorganisés en 'flex office' : plus de bureau attitré, mais des espaces de travail partagés réservables via l'application interne.\n\nCette mesure vise à améliorer l'équilibre vie professionnelle/vie personnelle tout en maintenant la cohésion d'équipe.\n\nPour toute question, contactez le service RH.\n\nLa Direction",
+          "question": "Selon cette circulaire, quel jour un employé ne peut PAS choisir pour télétravailler ?",
+          "options": {
+            "A": "Un jour où il a une réunion d'équipe planifiée au bureau",
+            "B": "Un lundi",
+            "C": "Un jour où il n'a pas prévenu 48h à l'avance",
+            "D": "Les deux réponses A et C sont correctes"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question_id": 32,
+          "text": "CIRCULAIRE INTERNE - Direction Générale\n\nÀ l'attention de tous les collaborateurs\n\nObjet : Nouvelle politique de télétravail\n\nÀ compter du 1er mai 2026, notre entreprise met en place une nouvelle organisation du travail hybride. Chaque employé pourra désormais télétravailler jusqu'à 3 jours par semaine, sous réserve des conditions suivantes :\n\n• Validation par le responsable d'équipe au moins 48h à l'avance\n• Respect des horaires de core time (10h-16h) où tous doivent être disponibles\n• Présence obligatoire au bureau les jours de réunions d'équipe planifiées\n• Équipement informatique fourni par l'entreprise à utiliser exclusivement\n\nLes bureaux seront réorganisés en 'flex office' : plus de bureau attitré, mais des espaces de travail partagés réservables via l'application interne.\n\nCette mesure vise à améliorer l'équilibre vie professionnelle/vie personnelle tout en maintenant la cohésion d'équipe.\n\nPour toute question, contactez le service RH.\n\nLa Direction",
+          "question": "Quel est l'objectif principal de cette nouvelle politique selon la direction ?",
+          "options": {
+            "A": "Réduire les coûts immobiliers",
+            "B": "Améliorer l'équilibre vie professionnelle/vie personnelle",
+            "C": "Augmenter la productivité des employés",
+            "D": "Faciliter les recrutements à l'international"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_id": 5,
+      "section_name": "Section E - Articles de presse",
+      "question_range": "33-40",
+      "description": "Cette section évalue votre compréhension d'articles journalistiques plus avancés. Vous devez comprendre l'idée principale, faire des inférences et analyser l'opinion de l'auteur.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "instructions": "Lisez chaque article de presse et répondez aux questions correspondantes.",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "LE DÉCLIN DES CENTRES COMMERCIAUX EN MILIEU URBAIN\n\nLes grandes galeries marchandes qui ont marqué le paysage urbain des années 1980-1990 connaissent une crise sans précédent. À Montréal, le célèbre Centre Eaton, autrefois bondé les week-ends, affiche désormais un taux d'occupation des locaux de seulement 65%. Même constat à Toronto où le Eaton Centre a perdu 30% de sa fréquentation en cinq ans.\n\nCette désaffection s'explique par la concurrence acharnée du commerce en ligne, mais pas seulement. Les consommateurs, surtout les jeunes générations, recherchent désormais des expériences authentiques plutôt que des espaces standardisés. Les quartiers commerçants de proximité, avec leurs boutiques indépendantes et leurs cafés de spécialité, attirent davantage que les enseignes internationales identiques d'une ville à l'autre.\n\n« Les centres commerciaux doivent se réinventer comme lieux de vie, pas seulement de consommation », analyse l'urbaniste Claire Fontaine. Certains propriétaires tentent la transformation en espaces mixtes intégrant des bureaux, des logements et des équipements culturels. D'autres misent sur l'expérientiel : escape games, salles de réalité virtuelle ou ateliers créatifs.\n\nCette mutation s'accompagne d'un débat sur l'avenir des emplois dans le secteur. Les syndicats s'inquiètent des reconversions difficiles pour les employés des grandes surfaces, souvent âgés et peu qualifiés pour les nouveaux métiers de l'accueil et de l'animation.",
+          "question": "Quelle est la cause principale du déclin des centres commerciaux selon l'article ?",
+          "options": {
+            "A": "La hausse des loyers commerciaux",
+            "B": "Le changement des attentes des consommateurs",
+            "C": "La fermeture des grandes enseignes internationales",
+            "D": "La construction de nouveaux centres en banlieue"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 34,
+          "text": "LE DÉCLIN DES CENTRES COMMERCIAUX EN MILIEU URBAIN\n\nLes grandes galeries marchandes qui ont marqué le paysage urbain des années 1980-1990 connaissent une crise sans précédent. À Montréal, le célèbre Centre Eaton, autrefois bondé les week-ends, affiche désormais un taux d'occupation des locaux de seulement 65%. Même constat à Toronto où le Eaton Centre a perdu 30% de sa fréquentation en cinq ans.\n\nCette désaffection s'explique par la concurrence acharnée du commerce en ligne, mais pas seulement. Les consommateurs, surtout les jeunes générations, recherchent désormais des expériences authentiques plutôt que des espaces standardisés. Les quartiers commerçants de proximité, avec leurs boutiques indépendantes et leurs cafés de spécialité, attirent davantage que les enseignes internationales identiques d'une ville à l'autre.\n\n« Les centres commerciaux doivent se réinventer comme lieux de vie, pas seulement de consommation », analyse l'urbaniste Claire Fontaine. Certains propriétaires tentent la transformation en espaces mixtes intégrant des bureaux, des logements et des équipements culturels. D'autres misent sur l'expérientiel : escape games, salles de réalité virtuelle ou ateliers créatifs.\n\nCette mutation s'accompagne d'un débat sur l'avenir des emplois dans le secteur. Les syndicats s'inquiètent des reconversions difficiles pour les employés des grandes surfaces, souvent âgés et peu qualifiés pour les nouveaux métiers de l'accueil et de l'animation.",
+          "question": "Quelle est l'attitude de l'auteur face aux solutions proposées pour sauver les centres commerciaux ?",
+          "options": {
+            "A": "Il les juge irréalistes et coûteuses",
+            "B": "Il reste neutre et objectif",
+            "C": "Il les considère comme prometteuses",
+            "D": "Il critique l'absence d'imagination des propriétaires"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "QUAND L'INTELLIGENCE ARTIFICIELLE ENVahit LES TRIBUNAUX\n\nLe système judiciaire canadien fait face à une révolution silencieuse. Depuis janvier 2026, plusieurs provinces expérimentent des outils d'intelligence artificielle pour assister les juges dans la rédaction des décisions et l'analyse de la jurisprudence. L'Alberta a même mis au point un algorithme capable d'évaluer le risque de récidive des accusés lors des audiences de mise en liberté.\n\nCes innovations soulèvent pourtant des questions éthiques majeures. « Un algorithme peut reproduire les biais présents dans les données historiques », met en garde le professeur de droit David Chen. En effet, si les données d'entraînement reflètent des discriminations passées à l'encontre de certaines minorités, l'IA risque de perpétuer ces injustices sous couvert d'objectivité mathématique.\n\nLa Cour suprême du Canada s'est penchée sur la question en février, estimant que l'utilisation de l'IA devait rester transparente et sous contrôle humain. « La décision finale doit toujours revenir à un juge en chair et en os », a insisté la juge en chef Richard Wagner.\n\nLes avocats sont partagés. Certains saluent un gain de temps précieux pour traiter les affaires routinières. D'autres craignent une déshumanisation de la justice et une perte de confiance du public dans des décisions prises par des machines.\n\nLe débat n'est que dans ses prémices alors que la technologie progresse plus vite que le cadre législatif.",
+          "question": "Quelle est la position principale de la Cour suprême du Canada sur l'utilisation de l'IA dans la justice ?",
+          "options": {
+            "A": "Elle interdit totalement l'utilisation de l'IA",
+            "B": "Elle impose l'utilisation obligatoire de l'IA pour plus d'efficacité",
+            "C": "Elle exige que les juges conservent le contrôle final des décisions",
+            "D": "Elle recommande l'extension de l'IA à tous les tribunaux"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 36,
+          "text": "QUAND L'INTELLIGENCE ARTIFICIELLE ENVahit LES TRIBUNAUX\n\nLe système judiciaire canadien fait face à une révolution silencieuse. Depuis janvier 2026, plusieurs provinces expérimentent des outils d'intelligence artificielle pour assister les juges dans la rédaction des décisions et l'analyse de la jurisprudence. L'Alberta a même mis au point un algorithme capable d'évaluer le risque de récidive des accusés lors des audiences de mise en liberté.\n\nCes innovations soulèvent pourtant des questions éthiques majeures. « Un algorithme peut reproduire les biais présents dans les données historiques », met en garde le professeur de droit David Chen. En effet, si les données d'entraînement reflètent des discriminations passées à l'encontre de certaines minorités, l'IA risque de perpétuer ces injustices sous couvert d'objectivité mathématique.\n\nLa Cour suprême du Canada s'est penchée sur la question en février, estimant que l'utilisation de l'IA devait rester transparente et sous contrôle humain. « La décision finale doit toujours revenir à un juge en chair et en os », a insisté la juge en chef Richard Wagner.\n\nLes avocats sont partagés. Certains saluent un gain de temps précieux pour traiter les affaires routinières. D'autres craignent une déshumanisation de la justice et une perte de confiance du public dans des décisions prises par des machines.\n\nLe débat n'est que dans ses prémices alors que la technologie progresse plus vite que le cadre législatif.",
+          "question": "Selon l'article, quel est le principal risque éthique associé à l'IA dans la justice ?",
+          "options": {
+            "A": "Le coût excessif des technologies",
+            "B": "La lenteur des algorithmes",
+            "C": "La reproduction des biais historiques",
+            "D": "Le manque de formation des juges"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 37,
+          "text": "LA GÉNÉRATION Z BOUDE L'AUTOMOBILE\n\nContrairement à leurs aînés, les jeunes Canadiens nés après 1997 achètent de moins en moins de voitures. Seulement 58% des 18-25 ans détiennent un permis de conduire, contre 82% il y a vingt ans. Ce phénomène, déjà observé en Europe, s'accentue en Amérique du Nord.\n\nPlusieurs facteurs expliquent cette tendance. D'abord financier : avec les prix de l'immobilier et des études supérieures, la voiture devient un luxe inaccessible pour beaucoup. Ensuite environnemental : cette génération, sensibilisée très tôt aux enjeux climatiques, perçait l'automobile individuelle comme un symbole de pollution.\n\nMais surtout, l'équation mobilité a changé. Dans les grandes villes, les transports en commun, le vélo et les services de trottinettes électriques en libre-service offrent des alternatives pratiques. Pour les trajets occasionnels, l'autopartage et les VTC répondent aux besoins sans les contraintes d'entretien et de stationnement.\n\n« Ma génération privilégie l'accès à la mobilité plutôt que la possession », résume Étienne, 23 ans, étudiant à Vancouver. Cette évolution bouleverse les stratégies des constructeurs automobiles qui investissent massivement dans les services de mobilité et les véhicules électriques partagés.\n\nLes urbanistes y voient une opportunité pour repenser les villes avec moins de places de parking et plus d'espaces verts, tandis que les économistes s'inquiètent de l'impact sur l'industrie automobile, pilier historique de l'économie canadienne.",
+          "question": "Quelle est l'idée principale de cet article ?",
+          "options": {
+            "A": "Les jeunes Canadiens achètent moins de voitures qu'auparavant",
+            "B": "Les transports en commun sont en pleine expansion",
+            "C": "L'industrie automobile canadienne est en crise",
+            "D": "Les villes doivent construire plus de parkings"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 38,
+          "text": "LA GÉNÉRATION Z BOUDE L'AUTOMOBILE\n\nContrairement à leurs aînés, les jeunes Canadiens nés après 1997 achètent de moins en moins de voitures. Seulement 58% des 18-25 ans détiennent un permis de conduire, contre 82% il y a vingt ans. Ce phénomène, déjà observé en Europe, s'accentue en Amérique du Nord.\n\nPlusieurs facteurs expliquent cette tendance. D'abord financier : avec les prix de l'immobilier et des études supérieures, la voiture devient un luxe inaccessible pour beaucoup. Ensuite environnemental : cette génération, sensibilisée très tôt aux enjeux climatiques, perçait l'automobile individuelle comme un symbole de pollution.\n\nMais surtout, l'équation mobilité a changé. Dans les grandes villes, les transports en commun, le vélo et les services de trottinettes électriques en libre-service offrent des alternatives pratiques. Pour les trajets occasionnels, l'autopartage et les VTC répondent aux besoins sans les contraintes d'entretien et de stationnement.\n\n« Ma génération privilégie l'accès à la mobilité plutôt que la possession », résume Étienne, 23 ans, étudiant à Vancouver. Cette évolution bouleverse les stratégies des constructeurs automobiles qui investissent massivement dans les services de mobilité et les véhicules électriques partagés.\n\nLes urbanistes y voient une opportunité pour repenser les villes avec moins de places de parking et plus d'espaces verts, tandis que les économistes s'inquiètent de l'impact sur l'industrie automobile, pilier historique de l'économie canadienne.",
+          "question": "Quel groupe professionnel exprime des inquiétudes dans cet article ?",
+          "options": {
+            "A": "Les urbanistes",
+            "B": "Les constructeurs automobiles",
+            "C": "Les économistes",
+            "D": "Les étudiants"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 39,
+          "text": "VERS UNE ALIMENTATION 100% QUÉBÉCOISE ?\n\nLe mouvement 'Aliments du Québec au menu' gagne du terrain. Lancé en 2022, ce programme d'approvisionnement local compte désormais plus de 400 établissements participants : restaurants, cafétérias d'entreprises et écoles. L'objectif affiché : atteindre 50% de produits locaux dans les assiettes d'ici 2030.\n\nCette démarche répond à une demande croissante des consommateurs soucieux de leur empreinte carbone et désireux de soutenir l'économie régionale. « Quand je vois le logo 'Aliments du Québec', je sais que je contribue à réduire les transports routiers et à préserver des emplois ici », explique Martine, cliente assidue d'un bistro montréalais engagé.\n\nPourtant, le chemin est semé d'embûches. La saisonnalité des productions limite l'offre durant l'hiver, obligeant les chefs à faire preuve de créativité avec les légumes-racines et les conserves. Les prix, souvent plus élevés que les produits importés, freinent aussi l'adoption dans les cantines scolaires aux budgets serrés.\n\nLes défenseurs du libre-échange critiquent par ailleurs une approche protectionniste qui exclurait les producteurs d'autres provinces canadiennes. « Un tomato de Colombie-Britannique n'est pas moins local qu'un tomato du Mexique », argumente l'économiste Robert Tremblay.\n\nMalgré ces défis, les initiateurs du programme restent optimistes, pointant la résilience du système alimentaire québécois démontrée pendant la pandémie.",
+          "question": "Quel argument des opposants au programme est mentionné dans l'article ?",
+          "options": {
+            "A": "Les produits locaux sont de mauvaise qualité",
+            "B": "Cette approche exclut injustement d'autres régions canadiennes",
+            "C": "Les consommateurs ne sont pas intéressés par les produits locaux",
+            "D": "Le programme coûte trop cher aux contribuables"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "VERS UNE ALIMENTATION 100% QUÉBÉCOISE ?\n\nLe mouvement 'Aliments du Québec au menu' gagne du terrain. Lancé en 2022, ce programme d'approvisionnement local compte désormais plus de 400 établissements participants : restaurants, cafétérias d'entreprises et écoles. L'objectif affiché : atteindre 50% de produits locaux dans les assiettes d'ici 2030.\n\nCette démarche répond à une demande croissante des consommateurs soucieux de leur empreinte carbone et désireux de soutenir l'économie régionale. « Quand je vois le logo 'Aliments du Québec', je sais que je contribue à réduire les transports routiers et à préserver des emplois ici », explique Martine, cliente assidue d'un bistro montréalais engagé.\n\nPourtant, le chemin est semé d'embûches. La saisonnalité des productions limite l'offre durant l'hiver, obligeant les chefs à faire preuve de créativité avec les légumes-racines et les conserves. Les prix, souvent plus élevés que les produits importés, freinent aussi l'adoption dans les cantines scolaires aux budgets serrés.\n\nLes défenseurs du libre-échange critiquent par ailleurs une approche protectionniste qui exclurait les producteurs d'autres provinces canadiennes. « Un tomato de Colombie-Britannique n'est pas moins local qu'un tomato du Mexique », argumente l'économiste Robert Tremblay.\n\nMalgré ces défis, les initiateurs du programme restent optimistes, pointant la résilience du système alimentaire québécois démontrée pendant la pandémie.",
+          "question": "Quelle est la position de l'auteur face au programme 'Aliments du Québec au menu' ?",
+          "options": {
+            "A": "Il est fermement opposé au programme",
+            "B": "Il présente les avantages et les limites de manière équilibrée",
+            "C": "Il milite activement pour l'extension du programme",
+            "D": "Il reste indifférent à cette initiative"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  ],
+  "answer_key": {
+    "1": "B",
+    "2": "B",
+    "3": "B",
+    "4": "C",
+    "5": "B",
+    "6": "C",
+    "7": "C",
+    "8": "B",
+    "9": "D",
+    "10": "A",
+    "11": "A",
+    "12": "B",
+    "13": "B",
+    "14": "C",
+    "15": "A",
+    "16": "D",
+    "17": "B",
+    "18": "B",
+    "19": "D",
+    "20": "C",
+    "21": "C",
+    "22": "D",
+    "23": "D",
+    "24": "C",
+    "25": "B",
+    "26": "B",
+    "27": "B",
+    "28": "B",
+    "29": "C",
+    "30": "C",
+    "31": "D",
+    "32": "B",
+    "33": "B",
+    "34": "B",
+    "35": "C",
+    "36": "C",
+    "37": "A",
+    "38": "C",
+    "39": "B",
+    "40": "B"
+  },
+  "scoring_grid": {
+    "raw_score_0_to_40": {
+      "0-120": "CLB 3 ou inférieur",
+      "121-150": "CLB 4",
+      "151-180": "CLB 5",
+      "181-206": "CLB 6",
+      "207-232": "CLB 7",
+      "233-247": "CLB 8",
+      "248-262": "CLB 9",
+      "263-300": "CLB 10 ou supérieur"
+    }
+  }
+}

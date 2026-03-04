@@ -1,0 +1,565 @@
+﻿{
+  "exam": "TEF Canada",
+  "module": "Compréhension écrite",
+  "duration_minutes": 60,
+  "total_questions": 40,
+  "question_type": "Multiple Choice (4 options)",
+  "navigation": "Free navigation between questions",
+  "scoring": {
+    "correct_answer": 1,
+    "wrong_or_blank": 0,
+    "raw_score_range": "0-40",
+    "scaled_score_range": "0-300"
+  },
+  "text_requirements": {
+    "minimum_lines_per_text": 8,
+    "maximum_lines_per_text": 12,
+    "recommended_word_count": "120-180 words",
+    "instruction": "Chaque texte doit contenir environ 10 lignes pour garantir un niveau officiel TEF Canada."
+  },
+  "sections": [
+    {
+      "section_name": "Section 1 - Textes du quotidien",
+      "question_range": "Q1–7",
+      "description": "Documents simples de la vie quotidienne : annonces, horaires, menus, affiches, notices.",
+      "skills_tested": [
+        "Identifier une information précise",
+        "Comprendre l'idée principale"
+      ],
+      "text_length_rule": "Chaque texte doit faire environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 1,
+          "text": "AVIS IMPORTANT À TOUS LES RÉSIDENTS DU 45 RUE DES ÉRABLES\n\nEn raison de travaux d'urgence sur la conduite principale d'eau, l'eau chaude sera coupée dans tout l'immeuble le samedi 15 mars de 8h00 à 17h00. Nous vous recommandons de remplir vos baignoires et vos récipients la veille au soir. Le syndicat des copropriétaires présente ses excuses pour ce désagrément. Pour toute question, veuillez contacter la concierge au 514-555-0123. Merci de votre compréhension et de votre patience durant cette période nécessaire.",
+          "question": "Quel est le sujet principal de cet avis ?",
+          "options": {
+            "A": "Une interruption de service d'eau chaude",
+            "B": "Des travaux de rénovation des appartements",
+            "C": "Une augmentation des charges de copropriété",
+            "D": "Un changement de concierge"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 2,
+          "text": "RESTAURANT LE PETIT BISTROT - MENU DU JOUR\n\nEntrées au choix : Salade niçoise ou Soupe à l'oignon gratinée\nPlat principal : Poulet rôti aux herbes de Provence avec légumes de saison\nou Filet de saumon sauce hollandaise et riz pilaf\nDessert : Tarte aux pommes maison ou Crème caramel\nPrix : 24,95 $ (café inclus)\nService de midi uniquement, du lundi au vendredi.\nRéservations recommandées : 514-555-0199\nTerrasse extérieure disponible par beau temps.\nStationnement gratuit pour nos clients.",
+          "question": "Combien coûte le menu complet ?",
+          "options": {
+            "A": "19,95 $",
+            "B": "22,50 $",
+            "C": "24,95 $",
+            "D": "29,95 $"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 3,
+          "text": "CENTRE SPORTIF MUNICIPAL - NOUVEAUX HORAIRES\n\nPiscine olympique : Lundi au vendredi 6h-22h, Samedi-Dimanche 8h-20h\nSalle de musculation : Tous les jours 5h-23h\nCours collectifs : Voir planning affiché à l'accueil\nTarifs réduits pour les étudiants et les séniors sur présentation d'un justificatif.\nFermeture exceptionnelle le 25 décembre et le 1er janvier.\nInscriptions annuelles en cours à l'accueil du centre.\nRenseignements : www.centresportif-ville.ca ou 514-555-0156.\nLe port du bonnet de bain est obligatoire dans la piscine.",
+          "question": "À quelle heure ferme la salle de musculation le dimanche ?",
+          "options": {
+            "A": "20h00",
+            "B": "22h00",
+            "C": "23h00",
+            "D": "Minuit"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 4,
+          "text": "ANNONCE - DON DE MEUBLES\n\nSuite à un déménagement, je donne divers meubles en bon état : un canapé-lit deux places beige, deux fauteuils en cuir marron, une bibliothèque en chêne massif et une table de salle à manger avec six chaises. À récupérer sur place au 892 avenue des Pins avant le 30 du mois. Premier arrivé, premier servi. Contactez Marie au 514-555-0187 après 18h00 uniquement. Les objets sont au deuxième étage, ascenseur disponible. Merci de ne pas sonner chez les voisins.",
+          "question": "Comment doit-on contacter Marie ?",
+          "options": {
+            "A": "Par email avant midi",
+            "B": "Par téléphone après 18h00",
+            "C": "Directement à son domicile",
+            "D": "Via un formulaire en ligne"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 5,
+          "text": "PHARMACIE DU COIN - SERVICE DE VACCINATION\n\nNotre pharmacie propose désormais la vaccination contre la grippe saisonnière sans rendez-vous. Horaires : du lundi au samedi de 9h00 à 17h00. Vaccination gratuite pour les personnes à risque (âgées de 75 ans et plus, femmes enceintes, personnes souffrant de maladies chroniques) sur présentation de la carte d'assurance maladie. Pour les autres, tarif de 15 $. Infirmière diplômée d'État sur place. Attente moyenne : 15 minutes. Possibilité de vaccination contre la pneumonie sur demande.",
+          "question": "Qui peut bénéficier de la vaccination gratuite ?",
+          "options": {
+            "A": "Tous les résidents du quartier",
+            "B": "Uniquement les enfants de moins de 12 ans",
+            "C": "Les personnes à risque avec carte d'assurance maladie",
+            "D": "Les clients réguliers de la pharmacie"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 6,
+          "text": "BIBLIOTHÈQUE MUNICIPALE FRANÇOIS-XAVIER GARNEAU\n\nNouveau service : prêt de liseuses électroniques disponible dès maintenant ! Empruntez jusqu'à 5 livres numériques simultanément pour une durée de 21 jours. Catalogue de plus de 10 000 titres en français et en anglais. Inscription gratuite avec votre carte de bibliothèque. Atelier d'initiation tous les mercredis à 14h00. Rendez-vous à l'étage des nouvelles technologies. Pour les retardataires, les frais sont de 0,50 $ par jour. Réservation possible en ligne sur notre site web.",
+          "question": "Quel nouveau service est proposé par la bibliothèque ?",
+          "options": {
+            "A": "Un service de livraison à domicile",
+            "B": "Le prêt de liseuses électroniques",
+            "C": "Une cafétéria avec wifi gratuit",
+            "D": "Des cours de langue étrangère"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 7,
+          "text": "MARCHÉ PUBLIC DE LA RIVE-SUD\n\nOuverture saisonnière le 1er mai ! Retrouvez vos producteurs locaux tous les samedis de 8h00 à 13h00 sur le parking du centre communautaire. Produits disponibles : fruits et légumes bio, fromages fermiers, viandes de boucherie locale, miel artisanal, pains et pâtisseries maison. Acceptons les paiements en espèces et par carte interac. Stationnement gratuit. Animations pour enfants tous les premiers samedis du mois. Suivez-nous sur les réseaux sociaux pour connaître les producteurs présents chaque semaine.",
+          "question": "Quand a lieu le marché chaque semaine ?",
+          "options": {
+            "A": "Le dimanche matin",
+            "B": "Le samedi de 8h00 à 13h00",
+            "C": "Le vendredi après-midi",
+            "D": "Tous les jours de la semaine"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 2 - Texte à trous",
+      "question_range": "Q8–17",
+      "description": "Compléter des phrases ou un court texte avec le mot approprié.",
+      "skills_tested": [
+        "Compréhension grammaticale",
+        "Cohérence syntaxique",
+        "Sens global du texte"
+      ],
+      "text_length_rule": "Le texte principal doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 8,
+          "text": "Marie _______ à la bibliothèque tous les samedis matins pour emprunter des romans policiers.",
+          "options": {
+            "A": "va",
+            "B": "allait",
+            "C": "ira",
+            "D": "irait"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 9,
+          "text": "Si j'_______ plus de temps, je participerais volontiers aux activités du centre communautaire.",
+          "options": {
+            "A": "ai",
+            "B": "avais",
+            "C": "aurai",
+            "D": "avais eu"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 10,
+          "text": "Les documents _______ par le directeur hier matin ont été approuvés sans modification.",
+          "options": {
+            "A": "signé",
+            "B": "signés",
+            "C": "signées",
+            "D": "signer"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 11,
+          "text": "Nous vous prions de bien vouloir _______ votre demande par écrit avant la fin du mois.",
+          "options": {
+            "A": "transmettre",
+            "B": "transmet",
+            "C": "transmettant",
+            "D": "transmis"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 12,
+          "text": "Malgré la pluie, les enfants sont sortis jouer _______ le jardin tout l'après-midi.",
+          "options": {
+            "A": "dans",
+            "B": "sur",
+            "C": "à",
+            "D": "par"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 13,
+          "text": "Cette exposition est _______ intéressante que je compte y retourner la semaine prochaine.",
+          "options": {
+            "A": "tellement",
+            "B": "tel",
+            "C": "telle",
+            "D": "telles"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 14,
+          "text": "Le médecin m'a conseillé _______ plus de fruits et légumes pour améliorer ma santé.",
+          "options": {
+            "A": "manger",
+            "B": "de manger",
+            "C": "mangeant",
+            "D": "mangé"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 15,
+          "text": "_______ les difficultés rencontrées, l'équipe a réussi à terminer le projet dans les délais.",
+          "options": {
+            "A": "Grâce à",
+            "B": "À cause de",
+            "C": "Malgré",
+            "D": "Pour"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 16,
+          "text": "Je ne sais pas _______ ce livre appartient, mais il est sur ma table depuis ce matin.",
+          "options": {
+            "A": "qui",
+            "B": "que",
+            "C": "à qui",
+            "D": "dont"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 17,
+          "text": "L'entreprise _______ nous avons collaboré l'année dernière a déposé le bilan ce mois-ci.",
+          "options": {
+            "A": "que",
+            "B": "qui",
+            "C": "avec laquelle",
+            "D": "dont"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 3 - Lecture rapide",
+      "question_range": "Q18–22",
+      "description": "Textes courts ou informations graphiques.",
+      "skills_tested": [
+        "Repérage rapide d'information",
+        "Compréhension ciblée"
+      ],
+      "text_length_rule": "Chaque texte doit contenir environ 8 à 12 lignes.",
+      "questions": [
+        {
+          "question_id": 18,
+          "text": "AVIS DE CONVOCATION\nAssemblée générale annuelle des copropriétaires\nDate : Mardi 15 juin 2024\nHeure : 19h00 précises\nLieu : Salle des fêtes de l'immeuble\nOrdre du jour :\n1. Rapport moral du conseil syndical\n2. Présentation des comptes annuels\n3. Élection des nouveaux conseillers\n4. Questions diverses\nDocuments disponibles à la concierge du 1er au 10 juin.\nPrésence obligatoire ou mandat à donner à un voisin.",
+          "question": "Quel document doit-on consulter avant l'assemblée ?",
+          "options": {
+            "A": "Le règlement de copropriété complet",
+            "B": "Les comptes annuels disponibles à la concierge",
+            "C": "Le contrat d'assurance de l'immeuble",
+            "D": "Le procès-verbal de la dernière réunion"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 19,
+          "text": "RECETTE : TARTE AUX POMMES TRADITIONNELLE\n\nIngrédients pour 6 personnes :\n- 1 pâte brisée\n- 4 pommes Golden\n- 100g de sucre\n- 2 œufs\n- 20cl de crème fraîche\n- Cannelle en poudre\n\nPréparation : 20 min - Cuisson : 35 min\nÉplucher et couper les pommes en lamelles. Disposer sur la pâte. Mélanger œufs, sucre, crème et cannelle. Verser sur les pommes. Enfourner à 180°C. Servir tiède.",
+          "question": "Quel ingrédient n'est PAS mentionné dans la recette ?",
+          "options": {
+            "A": "La crème fraîche",
+            "B": "Le beurre",
+            "C": "Les œufs",
+            "D": "Le sucre"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 20,
+          "text": "INFORMATIONS PRATIQUES - AÉROPORT INTERNATIONAL\n\nTerminal 1 : Vols intérieurs et internationaux\nTerminal 2 : Vols charters et low-cost\nCheck-in : Ouvrir 2h avant le départ pour les vols internationaux\nBagages : 23kg maximum en soute, 10kg en cabine\nParking P1 : Court séjour (0-2h) - 5$\nParking P2 : Long séjour - 15$ par jour\nNavette gratuite entre les terminaux toutes les 10 minutes.\nWiFi gratuit disponible dans toutes les zones d'attente.",
+          "question": "Combien coûte le parking pour une journée complète ?",
+          "options": {
+            "A": "5 $",
+            "B": "10 $",
+            "C": "15 $",
+            "D": "20 $"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question_id": 21,
+          "text": "PROGRAMME CULTUREL DU MOIS\n\nThéâtre Municipal : \"Le Misanthrope\" de Molière - Du 5 au 20 mars\nCinéma Le Select : Cycle \"Cinéma québécois\" - Tous les mercredis\nMusée des Beaux-Arts : Exposition \"Impressionnistes canadiens\" - Jusqu'au 15 avril\nBibliothèque centrale : Conférence sur l'histoire locale - 12 mars à 18h\nCentre culturel : Concert de jazz avec le quartet Miles - 25 mars à 20h30\nTarifs réduits pour les moins de 25 ans et les plus de 65 ans sur présentation d'une pièce d'identité.",
+          "question": "Quelle activité a lieu le 12 mars ?",
+          "options": {
+            "A": "Une pièce de théâtre",
+            "B": "Une conférence à la bibliothèque",
+            "C": "Un concert de jazz",
+            "D": "Une exposition au musée"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 22,
+          "text": "CONSIGNES DE SÉCURITÉ INCENDIE\n\nEn cas d'alarme incendie :\n1. Ne pas paniquer\n2. Quitter immédiatement les lieux par les issues de secours\n3. Ne pas utiliser l'ascenseur\n4. Se rendre au point de rassemblement devant le bâtiment B\n5. Attendre les consignes des pompiers\n6. Ne pas revenir chercher d'objets personnels\n\nLes exercices d'évacuation ont lieu le premier mardi de chaque mois à 10h00.\nTout employé doit connaître l'emplacement des extincteurs près de son poste de travail.",
+          "question": "Où doit-on se rendre après avoir évacué le bâtiment ?",
+          "options": {
+            "A": "Dans le parking souterrain",
+            "B": "Au point de rassemblement devant le bâtiment B",
+            "C": "Dans la salle de réunion principale",
+            "D": "À l'accueil du bâtiment A"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 4 - Documents administratifs / professionnels",
+      "question_range": "Q23–32",
+      "description": "Emails, lettres formelles, instructions professionnelles.",
+      "skills_tested": [
+        "Comprendre le ton et l'intention",
+        "Identifier le but du document",
+        "Comprendre les informations implicites"
+      ],
+      "text_length_rule": "Chaque document doit faire environ 10 lignes.",
+      "questions": [
+        {
+          "question_id": 23,
+          "text": "Objet : Demande de congé sans solde\n\nMadame la Directrice,\n\nJe vous écris pour solliciter un congé sans solde d'une durée de trois mois, à compter du 1er septembre prochain. Cette décision fait suite à une opportunité professionnelle à l'étranger qui nécessite ma présence sur place. J'ai déjà informé mon équipe et préparé la documentation nécessaire pour assurer la continuité de mes projets durant mon absence. Je reste bien entendu disponible pour organiser la transition avec mon remplaçant. Dans l'attente de votre réponse favorable, je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.\n\nThomas Martin\nChef de projet marketing",
+          "question": "Quel est l'objectif principal de ce message ?",
+          "options": {
+            "A": "Demander une promotion",
+            "B": "Demander un congé sans solde",
+            "C": "Présenter sa démission",
+            "D": "Réclamer une augmentation"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 24,
+          "text": "Chers clients,\n\nSuite à votre demande concernant les livraisons retardées, nous tenons à vous présenter nos plus sincères excuses pour ce désagrément. Un problème technique inattendu dans notre entrepôt principal a perturbé nos opérations logistiques durant la semaine dernière. Nous avons mis en place des mesures correctives et votre commande vous parviendra d'ici 48 heures. À titre de dédommagement, nous vous offrons un bon d'achat de 20% valable sur votre prochaine commande. Nous vous remercions de votre compréhension et de votre fidélité.\n\nLe service client",
+          "question": "Quel est le ton de ce message ?",
+          "options": {
+            "A": "Aggressif",
+            "B": "Excuse et rassurant",
+            "C": "Indifférent",
+            "D": "Urgent et alarmant"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 25,
+          "text": "Monsieur,\n\nNous avons le plaisir de vous informer que votre candidature au poste de Responsable des Ressources Humaines a retenu toute notre attention. Nous souhaiterions vous rencontrer pour un entretien qui se déroulera le jeudi 20 avril à 14h00 dans nos locaux situés au 1500 boulevard René-Lévesque. Veuillez confirmer votre présence par retour de courriel avant le 15 avril. N'hésitez pas à nous contacter si cette date ne vous convenait pas. Nous vous prions de bien vouloir apporter votre curriculum vitae ainsi que vos références professionnelles.\n\nCordialement,\nService des Ressources Humaines\nEntreprise Innovatech",
+          "question": "Que doit apporter le candidat à l'entretien ?",
+          "options": {
+            "A": "Un certificat médical",
+            "B": "Son CV et ses références",
+            "C": "Une lettre de recommandation de son ancien employeur",
+            "D": "Un projet de travail écrit"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 26,
+          "text": "À l'attention de tous les employés,\n\nVeuillez noter que la politique de télétravail évolue à compter du 1er juillet. Désormais, chaque employé pourra travailler à distance deux jours par semaine maximum, sur autorisation préalable de son responsable hiérarchique. Les jours de présence obligatoire restent le mardi et le jeudi pour faciliter les réunions d'équipe. Les demandes de télétravail doivent être soumises au moins une semaine à l'avance via le portail interne. Le respect des horaires de travail et la disponibilité pendant les heures de bureau restent impératifs.\n\nLa Direction des Ressources Humaines",
+          "question": "Quelle information est implicite dans ce message ?",
+          "options": {
+            "A": "Le télétravail sera interdit à l'avenir",
+            "B": "Les réunions ont lieu principalement le mardi et jeudi",
+            "C": "Tous les employés préfèrent travailler au bureau",
+            "D": "Le portail interne est en panne"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 27,
+          "text": "Madame Dubois,\n\nNous accusons réception de votre courrier du 12 courant concernant la facture n°45892. Après vérification attentive de votre dossier, nous constatons effectivement une erreur de facturation concernant les frais de livraison qui ont été appliqués deux fois. Nous vous prions d'accepter nos excuses pour cette erreur administrative. Un avoir de 45,50$ sera émis sous 48 heures et déduit de votre prochaine facture. Nous restons à votre disposition pour tout renseignement complémentaire et vous remercions de nous avoir signalé cette anomalie.\n\nRespectueusement,\nService Comptabilité",
+          "question": "Quel problème est résolu dans ce courrier ?",
+          "options": {
+            "A": "Une livraison non reçue",
+            "B": "Une erreur de facturation",
+            "C": "Un produit défectueux",
+            "D": "Un retard de paiement"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 28,
+          "text": "Objet : Invitation séminaire annuel\n\nChers collègues,\n\nC'est avec grand plaisir que nous vous invitons à notre séminaire annuel qui se tiendra du 15 au 17 septembre au Château Frontenac à Québec. Cette édition portera sur les nouvelles stratégies de développement durable dans notre secteur d'activité. Les frais de transport et d'hébergement sont pris en charge par l'entreprise. Veuillez confirmer votre participation avant le 1er août afin que nous puissions procéder aux réservations. Un programme détaillé vous sera envoyé prochainement. Nous espérons vous y voir nombreux pour ce moment de partage et de convivialité.",
+          "question": "Quel est le but principal de ce message ?",
+          "options": {
+            "A": "Annoncer des licenciements",
+            "B": "Inviter les employés à un séminaire",
+            "C": "Demander des heures supplémentaires",
+            "D": "Informer d'une fermeture temporaire"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 29,
+          "text": "Monsieur le Directeur,\n\nPar la présente, je vous informe de ma décision de résilier mon contrat de location du local commercial situé au 45 rue Saint-Jean, effective à compter du 31 décembre 2024, conformément au préavis de trois mois prévu à l'article 7 du bail. Cette décision résulte de la réorientation stratégique de mon entreprise nécessitant un déménagement vers des locaux plus vastes. Je vous remercie pour la qualité de notre relation contractuelle durant ces cinq années. Je me tiens à votre entière disposition pour organiner les états des lieux et la remise des clés.\n\nJean-Pierre Lacroix\nGérant, Épicerie fine Lacroix",
+          "question": "Pourquoi le locataire résilie-t-il son bail ?",
+          "options": {
+            "A": "Parce qu'il fait faillite",
+            "B": "Parce qu'il déménage vers des locaux plus grands",
+            "C": "Parce qu'il est mécontent du propriétaire",
+            "D": "Parce que le loyer est trop élevé"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 30,
+          "text": "À tous les résidents,\n\nLe conseil d'administration de la copropriété a le regret de vous informer que les travaux de rénovation de l'ascenseur principal, initialement prévus du 1er au 15 mars, seront prolongés jusqu'au 30 mars inclus. Des difficultés techniques imprévues lors du démontage des anciens équipements ont nécessité cette extension. L'ascenseur de service reste accessible aux personnes à mobilité réduite sur simple appel à la concierge. Nous comprenons la gêne occasionnée et vous prions de bien vouloir nous excuser pour ce retard. Une réduction de charges proportionnelle sera appliquée pour le mois de mars.",
+          "question": "Quelle compensation est proposée aux résidents ?",
+          "options": {
+            "A": "Une réduction des charges",
+            "B": "Un déménagement gratuit",
+            "C": "Une location temporaire ailleurs",
+            "D": "Un remboursement complet du loyer"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": 31,
+          "text": "Chère cliente, cher client,\n\nNous avons remarqué que vous n'avez pas finalisé votre commande sur notre site. Votre panier contient toujours les articles que vous avez sélectionnés. Bonne nouvelle : nous vous offrons la livraison gratuite avec le code LIVRAISON10 si vous complétez votre achat dans les 24 heures. Cette offre est valable sur l'ensemble de notre catalogue. N'hésitez pas à nous contacter si vous rencontrez des difficultés lors du paiement. Notre service client est disponible du lundi au samedi de 9h à 19h. Nous espérons vous revoir très bientôt sur notre boutique en ligne.",
+          "question": "Quelle est l'intention réelle de cet email ?",
+          "options": {
+            "A": "Informer d'une rupture de stock",
+            "B": "Inciter le client à finaliser son achat",
+            "C": "Annuler la commande en cours",
+            "D": "Demander un avis sur le service"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 32,
+          "text": "Madame,\n\nSuite à notre entretien du 15 mars dernier, nous avons le plaisir de vous confirmer votre embauche au poste d'Assistante Administrative au sein de notre département Juridique. Votre contrat débutera le 1er avril 2024 pour une durée indéterminée. Votre salaire brut mensuel sera de 3 500 $, ainsi que les avantages sociaux habituels de l'entreprise. Nous vous prions de bien vouloir nous retourner le contrat signé avant le 25 mars. Votre première journée débutera à 9h00 au 10ème étage où Mme Tremblay vous accueillera. Bienvenue dans notre équipe !",
+          "question": "Quel type de contrat est proposé ?",
+          "options": {
+            "A": "Un contrat à durée déterminée de 6 mois",
+            "B": "Un contrat à durée indéterminée",
+            "C": "Un contrat de stage non rémunéré",
+            "D": "Un contrat temporaire par agence"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "section_name": "Section 5 - Article de presse",
+      "question_range": "Q33–40",
+      "description": "Articles journalistiques plus avancés.",
+      "skills_tested": [
+        "Comprendre l'idée principale",
+        "Inférence",
+        "Analyse de l'opinion",
+        "Compréhension nuancée"
+      ],
+      "text_length_rule": "Chaque article doit contenir environ 10 à 12 lignes (minimum 150 mots).",
+      "questions": [
+        {
+          "question_id": 33,
+          "text": "Le gouvernement provincial a annoncé hier un plan ambitieux visant à interdire la vente de véhicules à essence neufs d'ici 2035, une décision qui fait déjà réagir l'industrie automobile. Cette mesure, présentée comme essentielle pour atteindre les objectifs de réduction des émissions de gaz à effet de serre, s'inscrit dans une tendance nord-américaine. Cependant, les concessionnaires expriment des inquiétudes légitimes quant à l'infrastructure de recharge encore insuffisante, particulièrement en région. Les syndicats craignent également des pertes d'emplois dans les usines de moteurs traditionnels. Les écologistes saluent cette initiative tout en déplorant le manque de mesures d'accompagnement pour les ménages modestes. L'opposition politique dénonce une décision prise sans consultation adéquate des parties prenantes.",
+          "question": "Quelle est la position de l'auteur de cet article ?",
+          "options": {
+            "A": "Il soutient totalement la décision gouvernementale",
+            "B": "Il présente différents points de vue sans prendre parti",
+            "C": "Il s'oppose fermement à la mesure annoncée",
+            "D": "Il critique uniquement l'opposition politique"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 34,
+          "text": "Une étude récente de l'Université de Montréal révèle que le télétravail massif adopté pendant la pandémie a profondément transformé les habitudes alimentaires des Québécois. Près de 60% des travailleurs interrogés déclarent cuisiner davantage à la maison, privilégiant les repas faits maison aux repas préparés industriels. Cette tendance s'accompagne d'une meilleure qualité nutritionnelle globale, avec une augmentation de la consommation de fruits et légumes. Toutefois, les nutritionnistes mettent en garde contre les excès de grignotage entre les repas, phénomène rapporté par 45% des répondants. Le retour progressif au bureau hybride pourrait modifier à nouveau ces comportements. Les grandes surfaces s'adaptent déjà en proposant des portions individuelles adaptées au lunch en entreprise.",
+          "question": "Quelle conclusion peut-on tirer de cette étude ?",
+          "options": {
+            "A": "Le télétravail a eu uniquement des effets négatifs sur l'alimentation",
+            "B": "Les habitudes alimentaires ont évolué avec des aspects positifs et négatifs",
+            "C": "Les Québécois mangent moins de fruits et légumes qu'avant",
+            "D": "Le retour au bureau ne changera rien aux comportements"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 35,
+          "text": "La pénurie de main-d'œuvre qui frappe le secteur de la santé atteint des niveaux critiques dans plusieurs régions éloignées du Québec. Des urgences ferment temporairement faute de personnel infirmier, obligeant les patients à parcourir parfois des centaines de kilomètres pour recevoir des soins. Le ministère a annoncé des primes attractives pour les professionnels acceptant des postes en région, mais ces mesures peinent à combler le fossé grandissant entre zones urbaines et rurales. Les associations professionnelles dénoncent des conditions de travail épuisantes et un manque de reconnaissance salariale chronique. Certains experts proposent de revoir la formation universitaire pour encourager l'installation en région, tandis que d'autres suggèrent une meilleure utilisation de la télémédecine. L'heure est grave et nécessite une réponse concertée de tous les acteurs du système.",
+          "question": "Quel problème principal est soulevé dans cet article ?",
+          "options": {
+            "A": "Le manque d'équipement médical moderne",
+            "B": "La pénurie de personnel de santé en région",
+            "C": "La fermeture définitive des hôpitaux",
+            "D": "L'augmentation des maladies chroniques"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 36,
+          "text": "Le marché immobilier montréalais connaît un ralentissement significatif après deux années de croissance effrénée. Les taux d'intérêt élevés dissuadent les premiers acheteurs, tandis que les vendeurs hésitent à baisser leurs prix, créant un statu-quo préoccupant. Les transactions ont chuté de 25% au premier trimestre comparé à l'année précédente. Les experts immobiliers prévoient une stabilisation des prix d'ici la fin de l'année, mais avertissent qu'une baisse trop brutale pourrait fragiliser l'économie locale. Les promoteurs reportent plusieurs projets de condominiums faute de préventes suffisantes. Cette situation contraste avec la période 2020-2022 où les offres multiples étaient la norme. L'incertitude économique générale pousse les ménages à la prudence.",
+          "question": "Quelle est l'idée principale de cet article ?",
+          "options": {
+            "A": "Le marché immobilier est en pleine expansion",
+            "B": "Le marché immobilier ralentit et les transactions diminuent",
+            "C": "Les prix de l'immobilier augmentent rapidement",
+            "D": "Les promoteurs construisent plus de condominiums"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 37,
+          "text": "L'intelligence artificielle générative bouleverse le paysage éducatif québécois, suscitant à la fois enthousiasme et inquiétude dans les établissements scolaires. Certains enseignants voient dans ces outils une opportunité de personnaliser l'apprentissage et de libérer du temps pour l'accompagnement individualisé. D'autres craignent une dépendance excessive des élèves et une perte de capacités rédactionnelles fondamentales. Le ministère de l'Éducation travaille actuellement sur des lignes directrices encadrant l'utilisation éthique de ces technologies. Des expérimentations sont en cours dans plusieurs commissions scolaires pilotes. Le débat sur l'évaluation des travaux réalisés avec assistance IA divise les pédagogues. L'enjeu est de trouver un équilibre entre innovation pédagogique et préservation des compétences essentielles.",
+          "question": "Quel est l'objectif du ministère de l'Éducation mentionné dans l'article ?",
+          "options": {
+            "A": "Interdire complètement l'utilisation de l'IA dans les écoles",
+            "B": "Élaborer des règles pour une utilisation responsable de l'IA",
+            "C": "Remplacer tous les enseignants par des programmes d'IA",
+            "D": "Supprimer les examens écrits"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 38,
+          "text": "Les festivals culturels estivaux peinent à se remettre des pertes financières accumulées pendant la pandémie, malgré le retour du public. Plusieurs événements emblématiques ont annulé leur édition 2024 faute de financements suffisants, victimes de l'inflation des coûts de production et de la baisse des commandites corporatives. Les organisateurs dénoncent l'absence de plan de relance structuré de la part des instances gouvernementales. Le public, habitué aux événements virtuels gratuits, hésite à payer des billets dont les prix ont augmenté. Certains festivals expérimentent des modèles hybrides combinant présentiel et diffusion en ligne. La survie de ces manifestations culturelles, pourtant essentielles au dynamisme urbain, dépendra de la capacité des acteurs à innover et à diversifier leurs sources de revenus.",
+          "question": "Quelle inférence peut-on faire à propos de l'avenir des festivals ?",
+          "options": {
+            "A": "Ils disparaîtront tous d'ici 2025",
+            "B": "Ils devront s'adapter et innover pour survivre",
+            "C": "Ils redeviendront tous gratuits",
+            "D": "Ils n'auront plus lieu en été"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 39,
+          "text": "La transition énergétique vers les énergies renouvelables s'accélère au Québec, mais soulève des questions d'équité sociale souvent ignorées. L'installation de panneaux solaires et de bornes de recharge électrique bénéficie principalement aux propriétaires de maisons individuelles, alors que les locataires et copropriétaires sont exclus de ces aides. Les quartiers défavorisés, pourtant plus vulnérables aux îlots de chaleur, peinent à accéder aux programmes d'isolation énergétique. Les associations de défense des consommateurs dénoncent une 'transition écologique à deux vitesses' qui risque d'aggraver les inégalités existantes. Le gouvernement promet des programmes ciblés pour les ménages à faible revenu, mais les montants annoncés semblent insuffisants face à l'ampleur du défi. L'urgence climatique ne doit pas occulter les impératifs de justice sociale.",
+          "question": "Quelle est l'opinion de l'auteur sur la transition énergétique ?",
+          "options": {
+            "A": "Elle est parfaitement équitable pour tous",
+            "B": "Elle crée des inégalités qu'il faut corriger",
+            "C": "Elle devrait être arrêtée immédiatement",
+            "D": "Elle ne concerne que les riches"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question_id": 40,
+          "text": "L'essor du commerce en ligne transforme radicalement les centres-villes québécois, laissant derrière lui des artères commerciales désertées et des locaux vacants. Les municipalités cherchent désespérément des solutions pour revitaliser ces quartiers sinistrés : transformation des boutiques en logements, création d'espaces de coworking ou d'incubateurs d'entreprises. Urbanistes et économistes s'accordent sur la nécessité de repenser la fonction des centre-villes, désormais orientés vers l'expérience et les services plutôt que la simple consommation matérielle. Certains projets pilotes montrent des résultats encourageants, mais la transformation reste lente et coûteuse. La pandémie a accéléré des tendances structurelles déjà amorcées. L'avenir des centre-villes passera par une collaboration innovante entre acteurs publics et privés, ainsi qu'une réelle volonté politique de réinvestissement urbain.",
+          "question": "Quelle solution n'est PAS mentionnée pour revitaliser les centre-villes ?",
+          "options": {
+            "A": "Transformer les boutiques en logements",
+            "B": "Créer des espaces de coworking",
+            "C": "Augmenter les taxes pour les commerçants",
+            "D": "Développer des incubateurs d'entreprises"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  ],
+  "clb_mapping": {
+    "CLB_10": "263-300",
+    "CLB_9": "248-262",
+    "CLB_8": "233-247",
+    "CLB_7": "207-232",
+    "CLB_6": "181-206",
+    "CLB_5": "151-180",
+    "CLB_4": "121-150"
+  }
+}

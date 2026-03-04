@@ -1,0 +1,378 @@
+/* =============================================
+   BIGFRENCH.COM - MOBILE & TABLET OPTIMIZATIONS
+   Phone (< 640px), iPad (768px-1024px)
+   ============================================= */
+
+/* ---- VIEWPORT & BASE ---- */
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { overflow-x: hidden !important; }
+*, *::before, *::after { box-sizing: border-box; }
+
+/* ---- NAVBAR - Mobile ---- */
+@media (max-width: 1023px) {
+  /* Hide desktop nav links */
+  nav .hidden.lg\\:flex { display: none !important; }
+
+  /* Compact navbar height */
+  nav .h-20 { height: 64px !important; }
+
+  /* Compact buttons */
+  #loginBtn a, #signupBtn {
+    padding: 8px 16px !important;
+    font-size: 13px !important;
+    gap: 6px !important;
+  }
+
+  /* Logo text smaller on very small screens */
+  nav .text-xl { font-size: 17px !important; }
+  nav .w-10 { width: 36px !important; height: 36px !important; }
+
+  /* Remove Get Started on very small phones - show only Sign In */
+  #signupBtn { display: none !important; }
+}
+
+@media (max-width: 479px) {
+  #loginBtn a { padding: 7px 14px !important; font-size: 12px !important; }
+}
+
+/* ---- HERO SECTION ---- */
+@media (max-width: 1023px) {
+  .section-hero { min-height: 100svh !important; padding-top: 64px !important; }
+
+  /* Stack columns vertically */
+  .section-hero .flex-col.lg\\:flex-row { flex-direction: column !important; gap: 2rem !important; }
+  .section-hero .max-w-2xl { max-width: 100% !important; }
+
+  /* Heading sizes - tablet */
+  .section-hero h1 .text-4xl { font-size: 2rem !important; line-height: 1.1 !important; }
+  .section-hero h1 .text-5xl { font-size: 2.5rem !important; }
+  .section-hero .shimmer-txt { font-size: 2.6rem !important; }
+
+  /* Performance card */
+  .section-hero .max-w-sm { max-width: 100% !important; }
+
+  /* Badge floats - hide on mobile to reduce clutter */
+  .bf1, .bf2 { display: none !important; }
+
+  /* CTA Buttons - full width on phone */
+  .section-hero .h4 { flex-direction: column !important; }
+  .section-hero .h4 button { width: 100% !important; justify-content: center !important; }
+}
+
+@media (max-width: 639px) {
+  .section-hero { padding-top: 72px !important; padding-bottom: 60px !important; }
+  .section-hero h1 .text-4xl { font-size: 1.75rem !important; }
+  .section-hero h1 .text-5xl, .section-hero .shimmer-txt { font-size: 2rem !important; }
+  .section-hero .text-lg { font-size: 0.95rem !important; }
+
+  /* Trust badges - wrap */
+  .section-hero .h5 { flex-wrap: wrap !important; gap: 8px !important; }
+
+  /* Avatar stack */
+  .section-hero .h6 { flex-direction: column !important; align-items: flex-start !important; gap: 10px !important; }
+
+  /* Scroll hint - hide on phone */
+  .section-hero .absolute.bottom-8 { display: none !important; }
+}
+
+/* ---- TRUSTED SECTION ---- */
+@media (max-width: 639px) {
+  .section-trusted .h-12 { height: 44px !important; }
+  .section-trusted .w-32 { width: 100px !important; }
+  .section-trusted .w-40, .section-trusted .w-48 { width: 120px !important; }
+  .section-trusted .space-x-8 > * + * { margin-left: 1rem !important; }
+}
+
+/* ---- FEATURE CARDS GRID ---- */
+@media (max-width: 639px) {
+  /* 1 column on phone */
+  .grid-cols-2.md\\:grid-cols-4 { grid-template-columns: 1fr 1fr !important; gap: 10px !important; }
+  .feature-card { padding: 12px !important; }
+  .feature-card h3 { font-size: 12px !important; }
+  .feature-card p { font-size: 11px !important; }
+}
+
+/* ---- COURSES / PRICING SECTION ---- */
+@media (max-width: 1023px) {
+  #courses .flex.justify-center.gap-4 { flex-direction: column !important; align-items: stretch !important; }
+  #courses .exam-btn { max-width: 100% !important; }
+
+  /* Plan + summary: stack */
+  #courses .flex-col.lg\\:flex-row { flex-direction: column !important; }
+  #courses .lg\\:w-1\\/3 { width: 100% !important; }
+
+  /* Sticky summary - not sticky on mobile */
+  #courses .sticky { position: static !important; }
+}
+
+@media (max-width: 639px) {
+  #courses { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+  #courses .text-4xl { font-size: 1.75rem !important; }
+  #courses .bg-slate-50 { padding: 1rem !important; border-radius: 16px !important; }
+
+  /* Currency buttons - wrap & smaller */
+  #courses .flex.flex-wrap.gap-2 { gap: 6px !important; }
+  #courses .currency-btn { padding: 5px 10px !important; font-size: 11px !important; }
+
+  /* Coupon input section */
+  #courses .flex.gap-2 { flex-direction: column !important; }
+  #courses #applyCouponBtn { width: 100% !important; }
+}
+
+/* ---- WHO IS THIS FOR ---- */
+@media (max-width: 639px) {
+  .section-audience .grid-cols-1.md\\:grid-cols-2.lg\\:grid-cols-4 { grid-template-columns: 1fr 1fr !important; gap: 12px !important; }
+  .section-audience .wc { padding: 1.25rem !important; }
+  .section-audience .w-16 { width: 48px !important; height: 48px !important; font-size: 1.25rem !important; }
+}
+
+/* ---- HOW IT WORKS ---- */
+@media (max-width: 767px) {
+  #how-it-works .grid-cols-1.md\\:grid-cols-3 { grid-template-columns: 1fr !important; }
+  #how-it-works .grid-cols-1.md\\:grid-cols-2 { grid-template-columns: 1fr !important; }
+  .hiw-card { padding: 1.5rem !important; }
+  .hiw-num { font-size: 3.5rem !important; }
+}
+
+@media (max-width: 639px) {
+  #how-it-works { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+  #how-it-works h2 { font-size: 1.75rem !important; }
+}
+
+/* ---- COMPARISON TABLE ---- */
+@media (max-width: 767px) {
+  #compare .grid-cols-4 {
+    grid-template-columns: 1.8fr 1fr 1fr 1fr !important;
+  }
+  #compare .p-6 { padding: 0.75rem 0.5rem !important; }
+  #compare .p-4 { padding: 0.6rem 0.4rem !important; }
+  #compare .text-lg { font-size: 0.875rem !important; }
+  #compare .text-sm { font-size: 0.7rem !important; }
+  #compare .pl-6 { padding-left: 0.75rem !important; }
+}
+
+@media (max-width: 479px) {
+  #compare .overflow-hidden { overflow-x: auto !important; }
+  #compare .bg-white { min-width: 480px !important; }
+}
+
+/* ---- TEF vs TCF TABLE ---- */
+@media (max-width: 767px) {
+  .section-access .grid-cols-3 { grid-template-columns: 1.5fr 1fr 1fr !important; }
+  .section-access .p-6 { padding: 0.75rem 0.5rem !important; }
+  .section-access .p-4 { padding: 0.6rem 0.4rem !important; }
+  .section-access .text-xl { font-size: 1rem !important; }
+  .section-access .text-sm { font-size: 0.7rem !important; }
+  .section-access .w-12 { width: 36px !important; height: 36px !important; font-size: 1.2rem !important; }
+}
+
+@media (max-width: 479px) {
+  .section-access .overflow-hidden { overflow-x: auto !important; }
+  .section-access .bg-white.rounded-2xl { min-width: 360px !important; }
+
+  /* Action buttons - stack */
+  .section-access .flex-col.sm\\:flex-row { flex-direction: column !important; }
+  .section-access button { width: 100% !important; }
+}
+
+/* ---- WHY BIGFRENCH ---- */
+@media (max-width: 767px) {
+  .section-why-us .grid-cols-1.md\\:grid-cols-2.lg\\:grid-cols-3 { grid-template-columns: 1fr 1fr !important; }
+}
+@media (max-width: 479px) {
+  .section-why-us .grid-cols-1.md\\:grid-cols-2.lg\\:grid-cols-3 { grid-template-columns: 1fr !important; }
+  .wc { padding: 1.25rem !important; }
+}
+
+/* ---- INSTRUCTOR SECTION ---- */
+@media (max-width: 767px) {
+  .section-pricing .flex-col.md\\:flex-row { flex-direction: column !important; gap: 1.5rem !important; }
+  .section-pricing .w-full.md\\:w-1\\/3, .section-pricing .w-full.md\\:w-2\\/3 { width: 100% !important; }
+  .section-pricing .w-48.h-48 { width: 120px !important; height: 120px !important; }
+  .section-pricing .grid-cols-2 { grid-template-columns: 1fr 1fr !important; gap: 8px !important; }
+}
+
+/* ---- BEFORE/AFTER SCORES ---- */
+@media (max-width: 767px) {
+  .section-why-us .grid-cols-1.md\\:grid-cols-2 { grid-template-columns: 1fr !important; gap: 1rem !important; }
+}
+@media (max-width: 479px) {
+  .score-tab { padding: 6px 14px !important; font-size: 13px !important; }
+}
+
+/* ---- TESTIMONIALS ---- */
+@media (max-width: 767px) {
+  .testimonial-card { width: 280px !important; }
+  .testimonial-card .p-6 { padding: 1rem !important; }
+}
+@media (max-width: 479px) {
+  .testimonial-card { width: 240px !important; }
+}
+
+/* ---- LEARN TIPS GRID ---- */
+@media (max-width: 767px) {
+  .section-tips .grid-cols-1.md\\:grid-cols-3 { grid-template-columns: 1fr !important; }
+}
+
+/* ---- CONNECT WITH US ---- */
+@media (max-width: 767px) {
+  .section-instructor .grid-cols-2.md\\:grid-cols-5 { grid-template-columns: repeat(3, 1fr) !important; }
+}
+@media (max-width: 479px) {
+  .section-instructor .grid-cols-2.md\\:grid-cols-5 { grid-template-columns: 1fr 1fr !important; }
+  .section-instructor a.p-6 { padding: 1rem !important; }
+  .section-instructor .col-span-2 { grid-column: span 2 !important; }
+}
+
+/* ---- NEWSLETTER ---- */
+@media (max-width: 639px) {
+  .section-newsletter form { flex-direction: column !important; }
+  .section-newsletter input, .section-newsletter button { width: 100% !important; }
+  .py-20 form.flex-col.sm\\:flex-row { flex-direction: column !important; }
+}
+
+/* ---- ACCESS & VALIDITY ---- */
+@media (max-width: 639px) {
+  .section-transformations .flex-col.sm\\:flex-row { flex-direction: column !important; }
+}
+
+/* ---- WHAT DRIVES US ---- */
+@media (max-width: 767px) {
+  .py-20.bg-white .grid-cols-1.md\\:grid-cols-3 { grid-template-columns: 1fr !important; }
+}
+
+/* ---- FAQ SECTION ---- */
+@media (max-width: 639px) {
+  #faq .flex-wrap.justify-center.gap-2 { gap: 6px !important; }
+  #faq .faq-tab { padding: 6px 12px !important; font-size: 12px !important; }
+  #faq details summary { font-size: 14px !important; padding: 14px !important; }
+  #faq .text-4xl { font-size: 1.75rem !important; }
+}
+
+/* ---- CTA SECTION ---- */
+@media (max-width: 639px) {
+  .section-cta h2 { font-size: 1.75rem !important; }
+  .section-cta p { font-size: 1rem !important; }
+  .section-cta button { width: 100% !important; max-width: 320px !important; font-size: 1rem !important; padding: 14px 24px !important; }
+}
+
+/* ---- FOOTER ---- */
+@media (max-width: 1023px) {
+  .footer-main { padding: 24px 24px 16px !important; gap: 32px !important; }
+  .footer-bottom { padding: 14px 24px !important; }
+}
+
+@media (max-width: 767px) {
+  .footer-main {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    padding: 24px 20px 16px !important;
+  }
+  .footer-bottom {
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 16px 20px !important;
+  }
+  [style*="padding: 0 120px"] { padding: 0 20px 16px !important; }
+}
+
+/* ---- FLOATING BUTTONS ---- */
+@media (max-width: 639px) {
+  .float-whatsapp { bottom: 68px !important; right: 14px !important; width: 44px !important; height: 44px !important; font-size: 20px !important; }
+  .float-scroll-top { bottom: 16px !important; right: 14px !important; width: 36px !important; height: 36px !important; }
+}
+
+/* ---- GLOBAL SECTION PADDING ---- */
+@media (max-width: 767px) {
+  .py-20 { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+  .py-24 { padding-top: 3.5rem !important; padding-bottom: 3.5rem !important; }
+  .mb-16 { margin-bottom: 2.5rem !important; }
+  .mb-12 { margin-bottom: 2rem !important; }
+  .text-4xl { font-size: 1.75rem !important; }
+  .text-5xl { font-size: 2rem !important; }
+  .max-w-7xl, .max-w-6xl, .max-w-5xl, .max-w-4xl { padding-left: 16px !important; padding-right: 16px !important; }
+}
+
+@media (max-width: 479px) {
+  .px-4 { padding-left: 12px !important; padding-right: 12px !important; }
+  .px-6 { padding-left: 14px !important; padding-right: 14px !important; }
+  .px-8 { padding-left: 16px !important; padding-right: 16px !important; }
+  .p-8 { padding: 1.25rem !important; }
+  .p-12 { padding: 1.5rem !important; }
+  .rounded-3xl { border-radius: 16px !important; }
+  .rounded-2xl { border-radius: 12px !important; }
+}
+
+/* ---- TABLET SPECIFIC (iPad 768-1024) ---- */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section-hero .flex-1.max-w-2xl { max-width: 100% !important; }
+  .section-hero .text-6xl { font-size: 3rem !important; }
+  .section-hero .shimmer-txt.text-7xl { font-size: 3.5rem !important; }
+
+  /* 2-col grids on iPad */
+  .lg\\:grid-cols-3 { grid-template-columns: repeat(2, 1fr) !important; }
+  .lg\\:grid-cols-4 { grid-template-columns: repeat(2, 1fr) !important; }
+
+  /* Footer - 2 col */
+  .footer-main { grid-template-columns: 1fr 1fr !important; gap: 32px !important; padding: 28px 32px 20px !important; }
+}
+
+/* ---- MODALS - Mobile ---- */
+@media (max-width: 639px) {
+  #articleModal .max-w-2xl { max-height: 92vh !important; border-radius: 16px !important; }
+  #articleModal .p-8 { padding: 1.25rem !important; }
+  #quizModal .max-w-lg { max-height: 92vh !important; border-radius: 16px !important; }
+  #quizModal .p-8 { padding: 1.25rem !important; }
+}
+
+/* ---- SAFE AREA (iPhone notch/home bar) ---- */
+@supports (padding: max(0px)) {
+  body {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+  .float-whatsapp { bottom: max(72px, calc(16px + env(safe-area-inset-bottom))) !important; }
+  .float-scroll-top { bottom: max(20px, calc(4px + env(safe-area-inset-bottom))) !important; }
+}
+
+/* ---- TOUCH TARGETS ---- */
+@media (pointer: coarse) {
+  a, button, .cursor-pointer, [onclick] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  nav a, nav button { min-height: 40px !important; }
+  .faq-tab { min-height: 36px !important; }
+}
+
+/* ---- PREVENT TEXT OVERFLOW ---- */
+h1, h2, h3, h4, h5, h6, p, li, span, a {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ---- IMAGE & MEDIA ---- */
+img, video, iframe { max-width: 100% !important; height: auto; }
+
+/* ---- OVERFLOW FIXES ---- */
+.overflow-hidden { overflow: hidden !important; }
+section { overflow-x: hidden !important; }
+
+/* ---- DASHBOARD SPECIFIC ---- */
+@media (max-width: 767px) {
+  .dashboard-sidebar { display: none !important; }
+  .dashboard-main { width: 100% !important; margin-left: 0 !important; padding: 16px !important; }
+}
+
+/* ---- MOCKTESTS SPECIFIC ---- */
+@media (max-width: 639px) {
+  .mocktest-grid { grid-template-columns: 1fr !important; }
+  .mocktest-card { padding: 1rem !important; }
+}
+
+/* ---- TEF/TCF COURSE PAGES ---- */
+@media (max-width: 767px) {
+  .course-hero { padding-top: 5rem !important; }
+  .course-grid { grid-template-columns: 1fr !important; }
+  .module-card { padding: 1rem !important; }
+}
